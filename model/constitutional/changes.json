@@ -1,0 +1,159 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CHG-US-CONST-11",
+      "type": "constitutional_change",
+      "change_kind": "modifies_jurisdiction",
+      "amending_provision_id": "CONST-US-AMD-11",
+      "affected_provision_ids": [
+        "CONST-US-ART-03-SEC-02"
+      ],
+      "description": "Eleventh Amendment narrows specified construction of Article III judicial power.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-12",
+      "type": "constitutional_change",
+      "change_kind": "supersedes",
+      "amending_provision_id": "CONST-US-AMD-12",
+      "affected_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-03"
+      ],
+      "description": "Twelfth Amendment replaces original presidential and vice-presidential electoral balloting procedure.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-13",
+      "type": "constitutional_change",
+      "change_kind": "renders_inoperative",
+      "amending_provision_id": "CONST-US-AMD-13-SEC-01",
+      "affected_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-03"
+      ],
+      "description": "Thirteenth Amendment ends the original fugitive-service regime.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-14",
+      "type": "constitutional_change",
+      "change_kind": "modifies_apportionment",
+      "amending_provision_id": "CONST-US-AMD-14-SEC-02",
+      "affected_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-03"
+      ],
+      "description": "Fourteenth Amendment Section 2 modifies original apportionment representation rule.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-16",
+      "type": "constitutional_change",
+      "change_kind": "qualifies_tax_apportionment",
+      "amending_provision_id": "CONST-US-AMD-16",
+      "affected_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-04"
+      ],
+      "description": "Sixteenth Amendment allows income taxes without the original apportionment requirement.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-17",
+      "type": "constitutional_change",
+      "change_kind": "supersedes",
+      "amending_provision_id": "CONST-US-AMD-17",
+      "affected_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-01"
+      ],
+      "description": "Seventeenth Amendment replaces Senate selection by state legislatures with popular election.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-20",
+      "type": "constitutional_change",
+      "change_kind": "modifies_congressional_session",
+      "amending_provision_id": "CONST-US-AMD-20-SEC-02",
+      "affected_provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-02"
+      ],
+      "description": "Twentieth Amendment changes date for annual convening of Congress.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-21",
+      "type": "constitutional_change",
+      "change_kind": "supersedes_presidential_transition",
+      "amending_provision_id": "CONST-US-AMD-20-SEC-03",
+      "affected_provision_ids": [
+        "CONST-US-AMD-12"
+      ],
+      "description": "Twentieth Amendment Section 3 supersedes a historical presidential transition passage in the Twelfth Amendment.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-22",
+      "type": "constitutional_change",
+      "change_kind": "repeals",
+      "amending_provision_id": "CONST-US-AMD-21-SEC-01",
+      "affected_provision_ids": [
+        "CONST-US-AMD-18"
+      ],
+      "description": "Twenty-First Amendment Section 1 repeals the Eighteenth Amendment.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-25",
+      "type": "constitutional_change",
+      "change_kind": "clarifies_succession",
+      "amending_provision_id": "CONST-US-AMD-25",
+      "affected_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06"
+      ],
+      "description": "Twenty-Fifth Amendment provides operative succession and disability procedures in relation to original Article II text.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-26",
+      "type": "constitutional_change",
+      "change_kind": "modifies_voting_age_reference",
+      "amending_provision_id": "CONST-US-AMD-26-SEC-01",
+      "affected_provision_ids": [
+        "CONST-US-AMD-14-SEC-02"
+      ],
+      "description": "Twenty-Sixth Amendment modifies the earlier age-related voting reference in Fourteenth Amendment apportionment language.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    }
+  ]
+}

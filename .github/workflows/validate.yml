@@ -4,14 +4,16 @@ on:
     paths:
       - "model/**"
       - "schemas/**"
-      - "scripts/validate.mjs"
+      - "scripts/**"
+      - "tests/**"
       - ".github/workflows/validate.yml"
   push:
     branches: [main]
     paths:
       - "model/**"
       - "schemas/**"
-      - "scripts/validate.mjs"
+      - "scripts/**"
+      - "tests/**"
       - ".github/workflows/validate.yml"
 permissions:
   contents: read
@@ -25,3 +27,7 @@ jobs:
           node-version: "22"
       - name: Validate federal architecture
         run: node scripts/validate.mjs
+      - name: Validate constitutional authority catalog
+        run: node scripts/validate-constitution.mjs
+      - name: Run constitutional model regression tests
+        run: node --test tests/constitutional.test.mjs

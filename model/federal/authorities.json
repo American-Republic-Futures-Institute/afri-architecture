@@ -12,7 +12,12 @@
         "SRC-CONSTITUTION"
       ],
       "status": "existing_law",
-      "name": "United States Constitution, Article I"
+      "name": "United States Constitution, Article I",
+      "provision_ids": [
+        "CONST-US-ART-01"
+      ],
+      "granularity": "legacy_summary_anchor",
+      "notes": "Broad authority summaries should not be interpreted as agency-specific enabling statutes; prefer constitutional norms with explicit provisions and actor bindings."
     },
     {
       "id": "AUTH-US-CONST-ART-II",
@@ -25,7 +30,12 @@
         "SRC-CONSTITUTION"
       ],
       "status": "existing_law",
-      "name": "United States Constitution, Article II"
+      "name": "United States Constitution, Article II",
+      "provision_ids": [
+        "CONST-US-ART-02"
+      ],
+      "granularity": "legacy_summary_anchor",
+      "notes": "Broad authority summaries should not be interpreted as agency-specific enabling statutes; prefer constitutional norms with explicit provisions and actor bindings."
     },
     {
       "id": "AUTH-US-CONST-ART-III",
@@ -38,7 +48,12 @@
         "SRC-CONSTITUTION"
       ],
       "status": "existing_law",
-      "name": "United States Constitution, Article III"
+      "name": "United States Constitution, Article III",
+      "provision_ids": [
+        "CONST-US-ART-03"
+      ],
+      "granularity": "legacy_summary_anchor",
+      "notes": "Broad authority summaries should not be interpreted as agency-specific enabling statutes; prefer constitutional norms with explicit provisions and actor bindings."
     },
     {
       "id": "AUTH-US-CONST-ART-I-SEC-7",
@@ -51,7 +66,12 @@
         "SRC-CONSTITUTION"
       ],
       "status": "existing_law",
-      "name": "United States Constitution, Article I, Section 7"
+      "name": "United States Constitution, Article I, Section 7",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-07"
+      ],
+      "granularity": "legacy_summary_anchor",
+      "notes": "Broad authority summaries should not be interpreted as agency-specific enabling statutes; prefer constitutional norms with explicit provisions and actor bindings."
     },
     {
       "id": "AUTH-US-CONST-ART-I-SEC-2-3",
@@ -64,7 +84,13 @@
         "SRC-CONSTITUTION"
       ],
       "status": "existing_law",
-      "name": "United States Constitution, Article I, Sections 2–3"
+      "name": "United States Constitution, Article I, Sections 2–3",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02",
+        "CONST-US-ART-01-SEC-03"
+      ],
+      "granularity": "legacy_summary_anchor",
+      "notes": "Broad authority summaries should not be interpreted as agency-specific enabling statutes; prefer constitutional norms with explicit provisions and actor bindings."
     },
     {
       "id": "AUTH-US-CONST-ART-II-SEC-2",
@@ -78,7 +104,12 @@
         "SRC-SENATE-TREATY"
       ],
       "status": "existing_law",
-      "name": "United States Constitution, Article II, Section 2"
+      "name": "United States Constitution, Article II, Section 2",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02"
+      ],
+      "granularity": "legacy_summary_anchor",
+      "notes": "Broad authority summaries should not be interpreted as agency-specific enabling statutes; prefer constitutional norms with explicit provisions and actor bindings."
     }
   ]
 }

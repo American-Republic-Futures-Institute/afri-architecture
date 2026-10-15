@@ -1,0 +1,384 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/constitutional-catalog.schema.json",
+  "title": "ARFI-COA constitutional catalog v0.1.0",
+  "description": "Portable structural validation definitions. Cross-document constitutional authority and referential checks are performed by scripts/validate-constitution.mjs.",
+  "$defs": {
+    "collection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9-]+$"
+    },
+    "source_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^SRC-[A-Z0-9-]+$"
+      }
+    },
+    "provision": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit",
+        "label",
+        "parent_id",
+        "citation",
+        "source_locator",
+        "source_ids",
+        "effect_status",
+        "decomposition_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^CONST-US(?:-[A-Z0-9]+)*$"
+        },
+        "type": {
+          "const": "constitutional_provision"
+        },
+        "unit": {
+          "enum": [
+            "constitution",
+            "preamble",
+            "article",
+            "article_section",
+            "article_clause",
+            "amendment",
+            "amendment_section"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 3
+        },
+        "parent_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 3
+        },
+        "source_locator": {
+          "type": "string"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/source_ids"
+        },
+        "effect_status": {
+          "enum": [
+            "operative",
+            "mixed",
+            "modified_in_part",
+            "superseded",
+            "repealed",
+            "expired",
+            "interpretive_context"
+          ]
+        },
+        "decomposition_status": {
+          "enum": [
+            "structure_only",
+            "partially_decomposed",
+            "decomposed_in_initial_norm_register"
+          ]
+        },
+        "ratified_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "actor": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "description",
+        "status",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ACT-US-[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "constitutional_actor_class"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "status": {
+          "const": "descriptive_class"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/source_ids"
+        }
+      },
+      "additionalProperties": false
+    },
+    "norm": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "norm_kind",
+        "name",
+        "summary",
+        "provision_ids",
+        "effect_status",
+        "interpretation_status",
+        "source_ids",
+        "qualifications"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^NORM-US-CONST-[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "constitutional_norm"
+        },
+        "norm_kind": {
+          "enum": [
+            "power",
+            "duty",
+            "prohibition",
+            "right",
+            "structural_allocation",
+            "procedure",
+            "jurisdiction",
+            "eligibility",
+            "reservation",
+            "limitation",
+            "historic_repealed"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 4
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 20
+        },
+        "provision_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "effect_status": {
+          "enum": [
+            "operative",
+            "modified_in_part",
+            "superseded",
+            "repealed",
+            "expired"
+          ]
+        },
+        "interpretation_status": {
+          "const": "textual_summary_pending_legal_review"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/source_ids"
+        },
+        "qualifications": {
+          "type": "string",
+          "minLength": 12
+        }
+      },
+      "additionalProperties": true
+    },
+    "binding": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "norm_id",
+        "target_id",
+        "relationship_type",
+        "source_ids",
+        "assertion_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^BIND-US-CONST-[0-9]{4}$"
+        },
+        "type": {
+          "const": "constitutional_actor_binding"
+        },
+        "norm_id": {
+          "type": "string",
+          "pattern": "^NORM-US-CONST-"
+        },
+        "target_id": {
+          "$ref": "#/$defs/id"
+        },
+        "relationship_type": {
+          "enum": [
+            "confers_power_on",
+            "imposes_duty_on",
+            "restricts",
+            "protects",
+            "assigns_function_to",
+            "affects_jurisdiction_of",
+            "defines_eligibility_for",
+            "reserves_power_to"
+          ]
+        },
+        "source_ids": {
+          "$ref": "#/$defs/source_ids"
+        },
+        "assertion_status": {
+          "const": "textual_mapping_candidate"
+        }
+      },
+      "additionalProperties": false
+    },
+    "change": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "change_kind",
+        "amending_provision_id",
+        "affected_provision_ids",
+        "description",
+        "status",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^CHG-US-CONST-[0-9]{2}$"
+        },
+        "type": {
+          "const": "constitutional_change"
+        },
+        "change_kind": {
+          "enum": [
+            "modifies_jurisdiction",
+            "supersedes",
+            "renders_inoperative",
+            "modifies_apportionment",
+            "qualifies_tax_apportionment",
+            "modifies_congressional_session",
+            "supersedes_presidential_transition",
+            "repeals",
+            "clarifies_succession",
+            "modifies_voting_age_reference"
+          ]
+        },
+        "amending_provision_id": {
+          "type": "string",
+          "pattern": "^CONST-US-AMD-"
+        },
+        "affected_provision_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "type": "string",
+          "minLength": 20
+        },
+        "status": {
+          "const": "ratified_record"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/source_ids"
+        }
+      },
+      "additionalProperties": false
+    },
+    "viewpoint": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "description",
+        "root_ids",
+        "include_norm_kinds",
+        "include_changes",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^VIEW-CONST-[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "constitutional_viewpoint"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "root_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "include_norm_kinds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "include_changes": {
+          "type": "boolean"
+        },
+        "status": {
+          "const": "descriptive_candidate"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
