@@ -129,6 +129,28 @@
       "include_changes": true,
       "status": "descriptive_candidate",
       "article_ii_unit_analysis": true
+    },
+    {
+      "id": "VIEW-CONST-ARTICLE-III",
+      "type": "constitutional_viewpoint",
+      "name": "Article III: Federal Judicial Power, Jurisdiction and Safeguards",
+      "description": "Browse Article III judicial vesting, tenure and compensation, enumerated cases and controversies, Supreme Court original versus appellate authority, jury rights and treason; distinguish statutory court organization and later doctrine.",
+      "root_ids": [
+        "CONST-US-ART-03"
+      ],
+      "include_norm_kinds": [
+        "structural_allocation",
+        "power",
+        "jurisdiction",
+        "duty",
+        "right",
+        "limitation",
+        "prohibition",
+        "procedure"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate",
+      "article_iii_unit_analysis": true
     }
   ]
 }

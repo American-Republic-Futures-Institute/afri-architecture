@@ -240,6 +240,39 @@
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ]
+    },
+    {
+      "id": "ACT-US-ARTICLE-III-JUDGES",
+      "type": "constitutional_actor_class",
+      "name": "Article III judicial officers",
+      "description": "Federal justices and judges serving in Article III offices with good-behavior tenure and non-diminution protection; not Article I or bankruptcy judges.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
+    },
+    {
+      "id": "ACT-US-ARTICLE-III-COURTS",
+      "type": "constitutional_actor_class",
+      "name": "Article III federal courts",
+      "description": "Supreme Court and congressionally established constitutional inferior federal courts; subject-matter jurisdiction depends on appropriate constitutional and statutory authority.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
+    },
+    {
+      "id": "ACT-US-TREASON-ACCUSED",
+      "type": "constitutional_actor_class",
+      "name": "Persons accused of treason",
+      "description": "Persons subject to Article III's distinctive treason definition, evidence and conviction safeguards.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
     }
   ]
 }

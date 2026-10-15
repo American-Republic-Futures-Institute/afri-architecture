@@ -282,7 +282,7 @@
       ],
       "source_locator": "U.S. Const. art. III, § 1",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-03-SEC-02",
@@ -296,7 +296,7 @@
       ],
       "source_locator": "U.S. Const. art. III, § 2",
       "effect_status": "modified_in_part",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-03-SEC-03",
@@ -310,7 +310,7 @@
       ],
       "source_locator": "U.S. Const. art. III, § 3",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-04",
@@ -1113,21 +1113,21 @@
       "id": "CONST-US-ART-03-SEC-02-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Federal Judicial Cases and Controversies",
+      "label": "Federal judicial cases and controversies",
       "parent_id": "CONST-US-ART-03-SEC-02",
       "citation": "U.S. Const. art. III, § 2, cl. 1",
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
       "source_locator": "U.S. Const. art. III, § 2, cl. 1",
-      "effect_status": "operative",
+      "effect_status": "modified_in_part",
       "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-03-SEC-02-CL-02",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Original and Appellate Supreme Court Jurisdiction",
+      "label": "Supreme Court original and appellate jurisdiction",
       "parent_id": "CONST-US-ART-03-SEC-02",
       "citation": "U.S. Const. art. III, § 2, cl. 2",
       "source_ids": [
@@ -2472,6 +2472,93 @@
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
       "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-01-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Judicial power vested in one Supreme Court and such inferior courts as Congress establishes",
+      "parent_id": "CONST-US-ART-03-SEC-01",
+      "citation": "U.S. Const. art. III, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 1 (ARFI analytical segment 1; no separately numbered original clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-01-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Good-behavior tenure for Article III judges",
+      "parent_id": "CONST-US-ART-03-SEC-01",
+      "citation": "U.S. Const. art. III, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 1 (ARFI analytical segment 2; no separately numbered original clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-01-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Compensation at stated times and non-diminution",
+      "parent_id": "CONST-US-ART-03-SEC-01",
+      "citation": "U.S. Const. art. III, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 1 (ARFI analytical segment 3; no separately numbered original clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-02-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Jury trial of crimes and place of trial",
+      "parent_id": "CONST-US-ART-03-SEC-02",
+      "citation": "U.S. Const. art. III, § 2, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 2, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-03-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Constitutional definition and proof of treason",
+      "parent_id": "CONST-US-ART-03-SEC-03",
+      "citation": "U.S. Const. art. III, § 3, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 3, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-03-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Congressional treason penalties and restrictions",
+      "parent_id": "CONST-US-ART-03-SEC-03",
+      "citation": "U.S. Const. art. III, § 3, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 3, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
     }
   ]
 }

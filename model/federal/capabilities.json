@@ -808,6 +808,78 @@
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
       ]
+    },
+    {
+      "id": "CAP-FED-44",
+      "type": "capability",
+      "name": "Constitutional federal judicial power",
+      "definition": "Exercise and stewardship of federal judicial power as constitutionally vested, subject to separately conferred jurisdiction.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
+    },
+    {
+      "id": "CAP-FED-45",
+      "type": "capability",
+      "name": "Article III judicial independence and office protections",
+      "definition": "Protection of Article III judicial tenure, compensation and structural separation from non-Article III tribunals.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
+    },
+    {
+      "id": "CAP-FED-46",
+      "type": "capability",
+      "name": "Federal criminal jury trial and venue safeguards",
+      "definition": "Protection of federal criminal jury trial, constitutional venue and impeachment exception.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
+    },
+    {
+      "id": "CAP-FED-47",
+      "type": "capability",
+      "name": "Constitutional treason adjudication and punishment safeguards",
+      "definition": "Restrained adjudication and congressional punishment of treason under definition, evidence and forfeiture limitations.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
     }
   ]
 }
