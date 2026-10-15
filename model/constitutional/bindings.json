@@ -3487,6 +3487,1249 @@
         "SRC-CONST-LATER-AMENDMENTS"
       ],
       "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0318",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-01",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0319",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-02",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0320",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-03",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0321",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-04",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0322",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-05",
+      "target_id": "ACT-US-PEOPLE",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0323",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-06",
+      "target_id": "ACT-US-PEOPLE",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0324",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-02-SEG-01",
+      "target_id": "ACT-US-PEOPLE",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0325",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-02-SEG-02",
+      "target_id": "ACT-US-PEOPLE",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0326",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-03-SEG-01",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0327",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-03-SEG-02",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0328",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-01",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0329",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-02",
+      "target_id": "ACT-US-FED-OFFICERS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0330",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-03",
+      "target_id": "ACT-US-FED-OFFICERS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0331",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-01",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0332",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-02",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0333",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-03",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0334",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-04",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0335",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-05",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0336",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-06",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0337",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-07",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0338",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-01",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0339",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-02",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0340",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-03",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0341",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-04",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0342",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-05",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0343",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-06",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0344",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-07",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0345",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-07-SEG-01",
+      "target_id": "ACT-US-CIVIL-LITIGANTS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0346",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-07-SEG-02",
+      "target_id": "ACT-US-FED-COURTS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0347",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-01",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0348",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-02",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0349",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-03",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0350",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-09-SEG-01",
+      "target_id": "ACT-US-PEOPLE",
+      "relationship_type": "reserves_power_to",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0351",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-10-SEG-01",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "reserves_power_to",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0352",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-10-SEG-02",
+      "target_id": "ACT-US-PEOPLE",
+      "relationship_type": "reserves_power_to",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0353",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-11-SEG-01",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0354",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-11-SEG-02",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0355",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-01",
+      "target_id": "ACT-US-ELECTORS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0356",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-02",
+      "target_id": "ACT-US-ELECTORS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0357",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-03",
+      "target_id": "ACT-US-ELECTORS",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0358",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-04",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0359",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-05",
+      "target_id": "ACT-US-ELECTORS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0360",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-06",
+      "target_id": "ORG-FED-LEG-HOUSE",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0361",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-07",
+      "target_id": "ORG-FED-LEG-SENATE",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0362",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-08",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0363",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-01-SEG-01",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0364",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-01-SEG-02",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0365",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-02-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0366",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-01",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0367",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-02",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0368",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-03",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0369",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-04",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0370",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-05",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0371",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-01",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0372",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-03",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0373",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-05",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0374",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-01",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0375",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-02",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0376",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-03",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0377",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-04",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0378",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-01",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0379",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-02",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0380",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-03",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0381",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-05-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0382",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-01",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0383",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-02",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0384",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-03",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0385",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-02-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0386",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-16-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0387",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-16-SEG-02",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0388",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-01",
+      "target_id": "ACT-US-VOTERS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0389",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-02",
+      "target_id": "ACT-US-VOTERS",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0390",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-03",
+      "target_id": "ACT-US-STATE-EXE",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0391",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-04",
+      "target_id": "ACT-US-STATE-LEG",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0392",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-19-SEG-01",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0393",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-19-SEG-02",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0394",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-01-SEG-01",
+      "target_id": "ACT-US-PRESIDENT-ELECT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0395",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-01-SEG-02",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0396",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-02-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0397",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-02-SEG-02",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0398",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-01",
+      "target_id": "ACT-US-VICE-PRESIDENT-ELECT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0399",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-02",
+      "target_id": "ACT-US-VICE-PRESIDENT-ELECT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0400",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-03",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0401",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-04",
+      "target_id": "ACT-US-PRESIDENT-ELECT",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0402",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-04-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0403",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-04-SEG-02",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0404",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-21-SEC-02-SEG-01",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0405",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-01",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0406",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-02",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0407",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-01",
+      "target_id": "ACT-US-DC",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0408",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-02",
+      "target_id": "ACT-US-DC",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0409",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-03",
+      "target_id": "ACT-US-ELECTORS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0410",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-02-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0411",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-01-SEG-01",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0412",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-01-SEG-02",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0413",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-02-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0414",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-01-SEG-01",
+      "target_id": "ACT-US-VICE-PRESIDENT-ELECT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0415",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-02-SEG-01",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0416",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-02-SEG-02",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0417",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-01",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0418",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-02",
+      "target_id": "ORG-FED-EXE-VP",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0419",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-03",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0420",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-01",
+      "target_id": "ORG-FED-EXE-VP",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0421",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-02",
+      "target_id": "ORG-FED-EXE-VP",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0422",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-03",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0423",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-04",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0424",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-05",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0425",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-06",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0426",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-07",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0427",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-01-SEG-01",
+      "target_id": "ACT-US-CITIZENS",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0428",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-01-SEG-02",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0429",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-02-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0430",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AMD-27-SEG-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
     }
   ]
 }

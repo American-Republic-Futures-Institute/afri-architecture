@@ -47,7 +47,12 @@
     "model/constitutional/federalism-qualifications.json",
     "model/constitutional/federalism-relationships.json",
     "model/constitutional/federalism-rights.json",
-    "model/constitutional/federalism-capability-links.json"
+    "model/constitutional/federalism-capability-links.json",
+    "model/constitutional/amendment-units.json",
+    "model/constitutional/amendment-timeline.json",
+    "model/constitutional/amendment-effects.json",
+    "model/constitutional/amendment-qualifications.json",
+    "model/constitutional/amendment-capability-links.json"
   ],
   "standards": [
     {
@@ -169,5 +174,18 @@
     ],
     "scope": "Articles IV and VI, Amendments X, XI, XIV, with Thirteenth and Twenty-Sixth Amendment historical/temporal overlays. Separate state sovereignty and federal institutions; differentiate rights of citizens and persons.",
     "publication_note": "No federal agency may claim powers from functional alignments; superseded fugitive-service clause has no operative rights, duties, or authority; broad immunity/incorporation/anti-commandeering doctrines require judicial case law."
+  },
+  "amendment_decomposition_extension": {
+    "id": "ARFI-COA-AMENDMENTS-001",
+    "review_status": "research_textual_summary_pending_legal_review",
+    "ratified_amendments": 27,
+    "already_numbered_sections": 33,
+    "source_text_basis": [
+      "SRC-NARA-BILL-OF-RIGHTS",
+      "SRC-NARA-AMENDMENTS-11-27",
+      "SRC-NARA-AMENDMENT-RATIFICATION"
+    ],
+    "scope": "All 27 ratified amendments with non-numbered source segments, legal-effect chronology (ratification, delayed effect, repeal, transition), amended original text and cross-Article functional traceability.",
+    "publication_note": "Analytic segments are never constitutional clauses. Amendment XVIII is repealed; historic conditions and grandfather rules are not current powers. Case-law, statutory delegations and contested application are separate future catalogs."
   }
 }

@@ -1,0 +1,4059 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AMD-UNIT-01-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 1,
+      "amendment_id": "CONST-US-AMD-01",
+      "source_provision_id": "CONST-US-AMD-01",
+      "analytic_provision_id": "CONST-US-AMD-01-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Establishment of religion restriction",
+      "summary": "Congress may make no law respecting an establishment of religion.",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-01-U-01",
+        "AMD-QUAL-SPECIAL-FIRST-CONGRESS-NO-LAW"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0001"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0001"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-01"
+    },
+    {
+      "id": "AMD-UNIT-01-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 1,
+      "amendment_id": "CONST-US-AMD-01",
+      "source_provision_id": "CONST-US-AMD-01",
+      "analytic_provision_id": "CONST-US-AMD-01-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Free exercise of religion",
+      "summary": "Congress may not prohibit free exercise of religion.",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-01-U-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0002"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0002"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-01"
+    },
+    {
+      "id": "AMD-UNIT-01-U-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 1,
+      "amendment_id": "CONST-US-AMD-01",
+      "source_provision_id": "CONST-US-AMD-01",
+      "analytic_provision_id": "CONST-US-AMD-01-SEG-03",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 3,
+      "name": "Freedom of speech",
+      "summary": "Congress may not abridge freedom of speech.",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-01-U-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0003"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0003"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-01"
+    },
+    {
+      "id": "AMD-UNIT-01-U-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 1,
+      "amendment_id": "CONST-US-AMD-01",
+      "source_provision_id": "CONST-US-AMD-01",
+      "analytic_provision_id": "CONST-US-AMD-01-SEG-04",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 4,
+      "name": "Freedom of press",
+      "summary": "Congress may not abridge freedom of the press.",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-04",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-01-U-04"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0004"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0004"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-01"
+    },
+    {
+      "id": "AMD-UNIT-01-U-05",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 1,
+      "amendment_id": "CONST-US-AMD-01",
+      "source_provision_id": "CONST-US-AMD-01",
+      "analytic_provision_id": "CONST-US-AMD-01-SEG-05",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 5,
+      "name": "Peaceable assembly",
+      "summary": "The people retain constitutional protection to peaceably assemble.",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-05",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-01-U-05"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0005"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0005"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-01"
+    },
+    {
+      "id": "AMD-UNIT-01-U-06",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 1,
+      "amendment_id": "CONST-US-AMD-01",
+      "source_provision_id": "CONST-US-AMD-01",
+      "analytic_provision_id": "CONST-US-AMD-01-SEG-06",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 6,
+      "name": "Petition government for redress",
+      "summary": "The people retain protection to petition the government for redress of grievances.",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-06",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-01-U-06"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0006"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0006"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-01"
+    },
+    {
+      "id": "AMD-UNIT-02-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 2,
+      "amendment_id": "CONST-US-AMD-02",
+      "source_provision_id": "CONST-US-AMD-02",
+      "analytic_provision_id": "CONST-US-AMD-02-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Well-regulated militia prefatory language",
+      "summary": "The text references a well-regulated militia as necessary to the security of a free State; doctrinal implications are separate.",
+      "norm_id": "NORM-US-CONST-AMD-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-02-U-01",
+        "AMD-QUAL-SPECIAL-SECOND-MILITIA-CONTEXT"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0007"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0007"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-02"
+    },
+    {
+      "id": "AMD-UNIT-02-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 2,
+      "amendment_id": "CONST-US-AMD-02",
+      "source_provision_id": "CONST-US-AMD-02",
+      "analytic_provision_id": "CONST-US-AMD-02-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Right to keep and bear arms",
+      "summary": "The constitutional right of the people to keep and bear arms shall not be infringed, subject to controlling doctrine.",
+      "norm_id": "NORM-US-CONST-AMD-02-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-02-U-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0008"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0008"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-02"
+    },
+    {
+      "id": "AMD-UNIT-03-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 3,
+      "amendment_id": "CONST-US-AMD-03",
+      "source_provision_id": "CONST-US-AMD-03",
+      "analytic_provision_id": "CONST-US-AMD-03-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Quartering soldiers in peacetime",
+      "summary": "No soldier may be quartered in any house during peacetime without the owner's consent.",
+      "norm_id": "NORM-US-CONST-AMD-03-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-03-U-01",
+        "AMD-QUAL-SPECIAL-THIRD-OWNER-CONSENT"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0009"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0009"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-03"
+    },
+    {
+      "id": "AMD-UNIT-03-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 3,
+      "amendment_id": "CONST-US-AMD-03",
+      "source_provision_id": "CONST-US-AMD-03",
+      "analytic_provision_id": "CONST-US-AMD-03-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Quartering soldiers in wartime",
+      "summary": "During war, quartering must be in a manner prescribed by law.",
+      "norm_id": "NORM-US-CONST-AMD-03-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-03-U-02",
+        "AMD-QUAL-SPECIAL-THIRD-WAR-LAW"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0010"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0010"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-03"
+    },
+    {
+      "id": "AMD-UNIT-04-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 4,
+      "amendment_id": "CONST-US-AMD-04",
+      "source_provision_id": "CONST-US-AMD-04",
+      "analytic_provision_id": "CONST-US-AMD-04-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Security against unreasonable searches and seizures",
+      "summary": "The people have a right to be secure in persons, houses, papers and effects against unreasonable searches and seizures.",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-04-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0011"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0011"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-04"
+    },
+    {
+      "id": "AMD-UNIT-04-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 4,
+      "amendment_id": "CONST-US-AMD-04",
+      "source_provision_id": "CONST-US-AMD-04",
+      "analytic_provision_id": "CONST-US-AMD-04-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Warrant probable cause and sworn support",
+      "summary": "A warrant cannot issue without probable cause supported by oath or affirmation.",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-04-U-02",
+        "AMD-QUAL-SPECIAL-FOURTH-WARRANT-OATH"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0012"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0012"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-04"
+    },
+    {
+      "id": "AMD-UNIT-04-U-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 4,
+      "amendment_id": "CONST-US-AMD-04",
+      "source_provision_id": "CONST-US-AMD-04",
+      "analytic_provision_id": "CONST-US-AMD-04-SEG-03",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 3,
+      "name": "Warrant particularity",
+      "summary": "Warrants must particularly describe the place to be searched and persons or things to be seized.",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-04-U-03",
+        "AMD-QUAL-SPECIAL-FOURTH-WARRANT-PARTICULARITY"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0013"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0013"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-04"
+    },
+    {
+      "id": "AMD-UNIT-05-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 5,
+      "amendment_id": "CONST-US-AMD-05",
+      "source_provision_id": "CONST-US-AMD-05",
+      "analytic_provision_id": "CONST-US-AMD-05-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Grand jury indictment or presentment",
+      "summary": "A person shall not be held to answer for a capital or otherwise infamous crime without grand jury presentment or indictment, subject to textual exceptions.",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-05-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0014"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0014"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-05"
+    },
+    {
+      "id": "AMD-UNIT-05-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 5,
+      "amendment_id": "CONST-US-AMD-05",
+      "source_provision_id": "CONST-US-AMD-05",
+      "analytic_provision_id": "CONST-US-AMD-05-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Grand jury land/naval and militia exception",
+      "summary": "Text excepts cases arising in land or naval forces, or the militia when in actual service in time of war or public danger.",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-05-U-02",
+        "AMD-QUAL-SPECIAL-FIFTH-MILITARY-GRAND-JURY"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0015"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0015"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-05"
+    },
+    {
+      "id": "AMD-UNIT-05-U-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 5,
+      "amendment_id": "CONST-US-AMD-05",
+      "source_provision_id": "CONST-US-AMD-05",
+      "analytic_provision_id": "CONST-US-AMD-05-SEG-03",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 3,
+      "name": "Double jeopardy safeguard",
+      "summary": "No person may be twice put in jeopardy of life or limb for the same offense.",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-05-U-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0016"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0016"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-05"
+    },
+    {
+      "id": "AMD-UNIT-05-U-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 5,
+      "amendment_id": "CONST-US-AMD-05",
+      "source_provision_id": "CONST-US-AMD-05",
+      "analytic_provision_id": "CONST-US-AMD-05-SEG-04",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 4,
+      "name": "Self-incrimination safeguard",
+      "summary": "No person in any criminal case shall be compelled to be a witness against themself.",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-04",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-05-U-04"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0017"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0017"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-05"
+    },
+    {
+      "id": "AMD-UNIT-05-U-05",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 5,
+      "amendment_id": "CONST-US-AMD-05",
+      "source_provision_id": "CONST-US-AMD-05",
+      "analytic_provision_id": "CONST-US-AMD-05-SEG-05",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 5,
+      "name": "Federal due process",
+      "summary": "No person may be deprived of life, liberty or property without due process of law by the federal government.",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-05",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-05-U-05"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0018"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0018"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-05"
+    },
+    {
+      "id": "AMD-UNIT-05-U-06",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 5,
+      "amendment_id": "CONST-US-AMD-05",
+      "source_provision_id": "CONST-US-AMD-05",
+      "analytic_provision_id": "CONST-US-AMD-05-SEG-06",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 6,
+      "name": "Public-use taking",
+      "summary": "Private property may be taken for public use only subject to the Just Compensation Clause.",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-06",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-05-U-06",
+        "AMD-QUAL-SPECIAL-FIFTH-FEDERAL-STATE-DISTINCTION"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0019"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0019"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-05"
+    },
+    {
+      "id": "AMD-UNIT-05-U-07",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 5,
+      "amendment_id": "CONST-US-AMD-05",
+      "source_provision_id": "CONST-US-AMD-05",
+      "analytic_provision_id": "CONST-US-AMD-05-SEG-07",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 7,
+      "name": "Just compensation for public takings",
+      "summary": "Private property taken for public use requires just compensation.",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-07",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-05-U-07"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0020"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0020"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-05"
+    },
+    {
+      "id": "AMD-UNIT-06-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 6,
+      "amendment_id": "CONST-US-AMD-06",
+      "source_provision_id": "CONST-US-AMD-06",
+      "analytic_provision_id": "CONST-US-AMD-06-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Speedy criminal trial",
+      "summary": "Accused persons have the right to a speedy trial in covered criminal prosecutions.",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-06-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0021"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0021"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-06"
+    },
+    {
+      "id": "AMD-UNIT-06-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 6,
+      "amendment_id": "CONST-US-AMD-06",
+      "source_provision_id": "CONST-US-AMD-06",
+      "analytic_provision_id": "CONST-US-AMD-06-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Public criminal trial",
+      "summary": "Accused persons have the right to a public trial in covered criminal prosecutions.",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-06-U-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0022"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0022"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-06"
+    },
+    {
+      "id": "AMD-UNIT-06-U-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 6,
+      "amendment_id": "CONST-US-AMD-06",
+      "source_provision_id": "CONST-US-AMD-06",
+      "analytic_provision_id": "CONST-US-AMD-06-SEG-03",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 3,
+      "name": "Impartial jury and proper district",
+      "summary": "Covered prosecutions require an impartial jury of the State and district where crime committed; district previously ascertained by law.",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-06-U-03",
+        "AMD-QUAL-SPECIAL-SIXTH-JURY-DISTRICT"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0023"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0023"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-06"
+    },
+    {
+      "id": "AMD-UNIT-06-U-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 6,
+      "amendment_id": "CONST-US-AMD-06",
+      "source_provision_id": "CONST-US-AMD-06",
+      "analytic_provision_id": "CONST-US-AMD-06-SEG-04",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 4,
+      "name": "Notice of nature and cause of accusation",
+      "summary": "The accused must be informed of the nature and cause of the accusation.",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-04",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-06-U-04"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0024"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0024"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-06"
+    },
+    {
+      "id": "AMD-UNIT-06-U-05",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 6,
+      "amendment_id": "CONST-US-AMD-06",
+      "source_provision_id": "CONST-US-AMD-06",
+      "analytic_provision_id": "CONST-US-AMD-06-SEG-05",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 5,
+      "name": "Confrontation of adverse witnesses",
+      "summary": "The accused has the right to be confronted with the witnesses against them.",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-05",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-06-U-05"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0025"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0025"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-06"
+    },
+    {
+      "id": "AMD-UNIT-06-U-06",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 6,
+      "amendment_id": "CONST-US-AMD-06",
+      "source_provision_id": "CONST-US-AMD-06",
+      "analytic_provision_id": "CONST-US-AMD-06-SEG-06",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 6,
+      "name": "Compulsory process for witnesses",
+      "summary": "The accused may have compulsory process for obtaining witnesses in their favor.",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-06",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-06-U-06"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0026"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0026"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-06"
+    },
+    {
+      "id": "AMD-UNIT-06-U-07",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 6,
+      "amendment_id": "CONST-US-AMD-06",
+      "source_provision_id": "CONST-US-AMD-06",
+      "analytic_provision_id": "CONST-US-AMD-06-SEG-07",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 7,
+      "name": "Assistance of counsel",
+      "summary": "The accused has the right to assistance of counsel for their defense.",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-07",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-06-U-07"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0027"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0027"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-06"
+    },
+    {
+      "id": "AMD-UNIT-07-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 7,
+      "amendment_id": "CONST-US-AMD-07",
+      "source_provision_id": "CONST-US-AMD-07",
+      "analytic_provision_id": "CONST-US-AMD-07-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Jury trial in federal civil suits at common law",
+      "summary": "In suits at common law where value in controversy exceeds twenty dollars, the jury-trial right is preserved.",
+      "norm_id": "NORM-US-CONST-AMD-07-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-07-U-01",
+        "AMD-QUAL-SPECIAL-SEVENTH-COMMON-LAW-THRESHOLD"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0028"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0028"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-07"
+    },
+    {
+      "id": "AMD-UNIT-07-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 7,
+      "amendment_id": "CONST-US-AMD-07",
+      "source_provision_id": "CONST-US-AMD-07",
+      "analytic_provision_id": "CONST-US-AMD-07-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Jury-found facts re-examination restriction",
+      "summary": "No fact tried by jury may be otherwise re-examined in a U.S. court than under rules of common law.",
+      "norm_id": "NORM-US-CONST-AMD-07-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-07-U-02",
+        "AMD-QUAL-SPECIAL-SEVENTH-FEDERAL-CIVIL-COURTS"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0029"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0029"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-07"
+    },
+    {
+      "id": "AMD-UNIT-08-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 8,
+      "amendment_id": "CONST-US-AMD-08",
+      "source_provision_id": "CONST-US-AMD-08",
+      "analytic_provision_id": "CONST-US-AMD-08-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Excessive bail",
+      "summary": "Excessive bail shall not be required.",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-08-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0030"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0030"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-08"
+    },
+    {
+      "id": "AMD-UNIT-08-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 8,
+      "amendment_id": "CONST-US-AMD-08",
+      "source_provision_id": "CONST-US-AMD-08",
+      "analytic_provision_id": "CONST-US-AMD-08-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Excessive fines",
+      "summary": "Excessive fines shall not be imposed.",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-08-U-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0031"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0031"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-08"
+    },
+    {
+      "id": "AMD-UNIT-08-U-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 8,
+      "amendment_id": "CONST-US-AMD-08",
+      "source_provision_id": "CONST-US-AMD-08",
+      "analytic_provision_id": "CONST-US-AMD-08-SEG-03",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 3,
+      "name": "Cruel and unusual punishments",
+      "summary": "Cruel and unusual punishments shall not be inflicted.",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-08-U-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0032"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0032"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-08"
+    },
+    {
+      "id": "AMD-UNIT-09-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 9,
+      "amendment_id": "CONST-US-AMD-09",
+      "source_provision_id": "CONST-US-AMD-09",
+      "analytic_provision_id": "CONST-US-AMD-09-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Unenumerated rights retained by people",
+      "summary": "Constitutional enumeration of certain rights shall not be construed to deny or disparage others retained by the people.",
+      "norm_id": "NORM-US-CONST-AMD-09-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-09-U-01",
+        "AMD-QUAL-SPECIAL-NINTH-UNENUMERATED-RIGHTS"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0033"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0033"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-09"
+    },
+    {
+      "id": "AMD-UNIT-10-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 10,
+      "amendment_id": "CONST-US-AMD-10",
+      "source_provision_id": "CONST-US-AMD-10",
+      "analytic_provision_id": "CONST-US-AMD-10-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Powers reserved to States",
+      "summary": "Powers not delegated to United States nor prohibited to States are reserved to States respectively.",
+      "norm_id": "NORM-US-CONST-AMD-10-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-10-U-01",
+        "AMD-QUAL-SPECIAL-TENTH-STATE-PEOPLE"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0034"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0034"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-10"
+    },
+    {
+      "id": "AMD-UNIT-10-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 10,
+      "amendment_id": "CONST-US-AMD-10",
+      "source_provision_id": "CONST-US-AMD-10",
+      "analytic_provision_id": "CONST-US-AMD-10-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Powers reserved to the people",
+      "summary": "The same undelegated and nonprohibited powers are alternatively reserved to the people.",
+      "norm_id": "NORM-US-CONST-AMD-10-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-10-U-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0035"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0035"
+      ],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-10"
+    },
+    {
+      "id": "AMD-UNIT-11-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 11,
+      "amendment_id": "CONST-US-AMD-11",
+      "source_provision_id": "CONST-US-AMD-11",
+      "analytic_provision_id": "CONST-US-AMD-11-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Federal court suit restriction against States",
+      "summary": "Judicial power cannot be construed to extend to specified suits in law or equity against a State.",
+      "norm_id": "NORM-US-CONST-AMD-11-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-11-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0036"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0036"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1795-02-07",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-11"
+    },
+    {
+      "id": "AMD-UNIT-11-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 11,
+      "amendment_id": "CONST-US-AMD-11",
+      "source_provision_id": "CONST-US-AMD-11",
+      "analytic_provision_id": "CONST-US-AMD-11-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Interstate and foreign claimant restriction",
+      "summary": "The express Eleventh Amendment rule concerns suits against a State commenced or prosecuted by citizens of another State or foreign citizens/subjects.",
+      "norm_id": "NORM-US-CONST-AMD-11-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-11-U-02",
+        "AMD-QUAL-SPECIAL-ELEVENTH-SUIT-CLAIMANTS"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0037"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0037"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1795-02-07",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-11"
+    },
+    {
+      "id": "AMD-UNIT-12-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "source_provision_id": "CONST-US-AMD-12",
+      "analytic_provision_id": "CONST-US-AMD-12-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Separate ballots for President and Vice President",
+      "summary": "Presidential electors cast distinct ballots for President and Vice President and list each category separately.",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-01",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-12-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0038"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0038"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-12"
+    },
+    {
+      "id": "AMD-UNIT-12-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "source_provision_id": "CONST-US-AMD-12",
+      "analytic_provision_id": "CONST-US-AMD-12-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Presidential and Vice Presidential inhabitation restriction",
+      "summary": "At least one candidate voted for must not be an inhabitant of the elector's State.",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-02",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-12-U-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0039"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0039"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-12"
+    },
+    {
+      "id": "AMD-UNIT-12-U-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "source_provision_id": "CONST-US-AMD-12",
+      "analytic_provision_id": "CONST-US-AMD-12-SEG-03",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 3,
+      "name": "Elector lists certified and transmitted",
+      "summary": "Electors make, sign, certify and transmit lists of votes to the President of the Senate.",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-03",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-12-U-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0040"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0040"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-12"
+    },
+    {
+      "id": "AMD-UNIT-12-U-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "source_provision_id": "CONST-US-AMD-12",
+      "analytic_provision_id": "CONST-US-AMD-12-SEG-04",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 4,
+      "name": "Congressional counting process",
+      "summary": "The President of the Senate opens certificates in the presence of both Houses, and votes are counted subject to enacted law.",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-04",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-12-U-04",
+        "AMD-QUAL-SPECIAL-TWELFTH-COUNTING-REGULATION"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0041"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0041"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-12"
+    },
+    {
+      "id": "AMD-UNIT-12-U-05",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "source_provision_id": "CONST-US-AMD-12",
+      "analytic_provision_id": "CONST-US-AMD-12-SEG-05",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 5,
+      "name": "Presidential Electoral College majority",
+      "summary": "The highest presidential vote recipient is elected President if majority of electors appointed.",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-05",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-12-U-05"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0042"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0042"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-12"
+    },
+    {
+      "id": "AMD-UNIT-12-U-06",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "source_provision_id": "CONST-US-AMD-12",
+      "analytic_provision_id": "CONST-US-AMD-12-SEG-06",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 6,
+      "name": "House contingent presidential election",
+      "summary": "Without a majority the House chooses President from no more than top three presidential electoral candidates; State delegations vote by State with special quorum and majority requirements.",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-06",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-12-U-06",
+        "AMD-QUAL-SPECIAL-TWELFTH-HOUSE-QUORUM"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0043"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0043"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-12"
+    },
+    {
+      "id": "AMD-UNIT-12-U-07",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "source_provision_id": "CONST-US-AMD-12",
+      "analytic_provision_id": "CONST-US-AMD-12-SEG-07",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 7,
+      "name": "Senate contingent vice presidential election",
+      "summary": "Without majority for Vice President, Senate chooses from top two with two-thirds quorum and majority-of-whole-Senate requirement.",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-07",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-12-U-07",
+        "AMD-QUAL-SPECIAL-TWELFTH-SENATE-QUORUM"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0044"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0044"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-12"
+    },
+    {
+      "id": "AMD-UNIT-12-U-08",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "source_provision_id": "CONST-US-AMD-12",
+      "analytic_provision_id": "CONST-US-AMD-12-SEG-08",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 8,
+      "name": "Vice Presidential eligibility tied to Presidency",
+      "summary": "A person constitutionally ineligible to office of President is ineligible to be Vice President.",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-08",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-12-U-08"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0045"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0045"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-12"
+    },
+    {
+      "id": "AMD-UNIT-13-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 13,
+      "amendment_id": "CONST-US-AMD-13",
+      "source_provision_id": "CONST-US-AMD-13-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-13-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Abolition of slavery and involuntary servitude",
+      "summary": "Slavery and involuntary servitude shall not exist in United States or any place subject to their jurisdiction, except for the specified conviction-based punishment clause.",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-13-S01-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0046"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0046"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1865-12-06",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-13"
+    },
+    {
+      "id": "AMD-UNIT-13-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 13,
+      "amendment_id": "CONST-US-AMD-13",
+      "source_provision_id": "CONST-US-AMD-13-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-13-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "Crime-conviction punishment exception",
+      "summary": "The narrow original exception is punishment for crime whereof a party shall have been duly convicted; it is not a general license for slavery.",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-13-S01-02",
+        "AMD-QUAL-SPECIAL-THIRTEENTH-DULY-CONVICTED"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0047"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0047"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1865-12-06",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-13"
+    },
+    {
+      "id": "AMD-UNIT-13-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 13,
+      "amendment_id": "CONST-US-AMD-13",
+      "source_provision_id": "CONST-US-AMD-13-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-13-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Congressional Thirteenth Amendment enforcement",
+      "summary": "Congress may enforce the Thirteenth Amendment by appropriate legislation.",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-13-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0048"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0048"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1865-12-06",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-13"
+    },
+    {
+      "id": "AMD-UNIT-14-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Birth/naturalization and U.S. citizenship",
+      "summary": "Persons born or naturalized in United States and subject to its jurisdiction are citizens of United States.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0049"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0049"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "State citizenship by State residence",
+      "summary": "Qualified U.S. citizens are citizens of the State where they reside.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0050"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0050"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S01-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-01-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 3,
+      "name": "Privileges or immunities of national citizenship",
+      "summary": "No State shall make or enforce law abridging privileges or immunities of U.S. citizens.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-03",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-CITIZEN-PERSON-DISTINCTION"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0051"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0051"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S01-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-01-SEG-04",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 4,
+      "name": "Due process against States for persons",
+      "summary": "No State shall deprive any person of life, liberty or property without due process.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-04",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-04",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-PERSON-DUE-PROCESS"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0052"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0052"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S01-05",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-01-SEG-05",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 5,
+      "name": "Equal protection against States for persons",
+      "summary": "No State may deny any person within its jurisdiction equal protection of the laws.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-05",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-05",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-PERSON-EQUAL-PROTECTION"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0053"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0053"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Representative apportionment by persons",
+      "summary": "Representatives shall be apportioned among States according to their respective numbers, with text and subsequent changes.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-01",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0054"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0054"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S02-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-02-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 2,
+      "name": "Historical original exclusion category",
+      "summary": "Original text referred to excluding 'Indians not taxed'; preserve as historical text only, not a present rule authorizing race-based exclusion.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-02",
+      "effect_status": "expired",
+      "lifecycle_state": "historical_transition_completed",
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0055"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S02-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-02-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 3,
+      "name": "Representation reduction for vote denial or abridgment",
+      "summary": "Section 2 describes reduction of State representation for abridged/denied specified voting rights with textual exceptions and later constitutional changes.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-03",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0056"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0055"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S02-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-02-SEG-04",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 4,
+      "name": "Original voting-age and male-voter reference",
+      "summary": "Historical 21-year-old male citizen reference is modified by subsequent suffrage amendments including XXVI; do not treat as a modern eligibility limit.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-04",
+      "effect_status": "expired",
+      "lifecycle_state": "historical_transition_completed",
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-04",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-APPORTIONMENT-AGE"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0057"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S02-05",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-02-SEG-05",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 5,
+      "name": "Participation in rebellion or other crime exception",
+      "summary": "The original apportionment vote-denial formula excepts participation in rebellion or other crime; scope requires jurisprudence.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-05",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-05"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0058"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0056"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S03-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-03-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 1,
+      "name": "Prior qualifying constitutional oath",
+      "summary": "Section 3 disqualification is tethered to a previously described oath to support Constitution and specified classes of officials.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S03-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0059"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0057"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S03-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-03-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 2,
+      "name": "Insurrection/rebellion and aid-and-comfort criterion",
+      "summary": "Section 3 specifies engaging in insurrection or rebellion or giving aid or comfort to enemies, under constitutional office criteria.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S03-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0060"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0058"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S03-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-03-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 3,
+      "name": "Covered federal and State constitutional offices",
+      "summary": "Coverage includes named federal and State offices with specified oaths and prerequisites; application contested doctrine handled separately.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S03-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0061"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0059"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S03-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-03-SEG-04",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 4,
+      "name": "Congress can remove disability by two-thirds each House",
+      "summary": "Congress may remove Section 3 disability by a vote of two-thirds of each House.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-04",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S03-04",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-DISABILITY-TWO-THIRDS"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0062"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0060"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S04-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-04-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 1,
+      "name": "Validity of authorized federal public debt",
+      "summary": "Validity of public debt of United States, authorized by law, including enumerated suppression of insurrection/rebellion debts, shall not be questioned.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S04-01",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-PUBLIC-DEBT-LAWFUL"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0063"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0061"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S04-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-04-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 2,
+      "name": "No assumption/payment of rebellion debt",
+      "summary": "Neither United States nor any State may assume or pay debt incurred in aid of insurrection or rebellion against United States.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S04-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0064"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0062"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S04-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-04-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 3,
+      "name": "No compensation for loss/emancipation of enslaved people",
+      "summary": "Neither United States nor any State may assume or pay claims for loss or emancipation of enslaved persons; such claims are illegal and void.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S04-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0065"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0063"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-14-S05-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "source_provision_id": "CONST-US-AMD-14-SEC-05",
+      "analytic_provision_id": "CONST-US-AMD-14-SEC-05-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 5,
+      "segment_number": 1,
+      "name": "Congressional enforcement of Fourteenth Amendment",
+      "summary": "Congress shall have power to enforce Fourteenth Amendment provisions by appropriate legislation.",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-05-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-14-S05-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0066"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0064"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-14"
+    },
+    {
+      "id": "AMD-UNIT-15-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 15,
+      "amendment_id": "CONST-US-AMD-15",
+      "source_provision_id": "CONST-US-AMD-15-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-15-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Voting rights irrespective of race",
+      "summary": "Right of U.S. citizens to vote shall not be denied or abridged by United States or any State on account of race.",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-15-S01-01",
+        "AMD-QUAL-SPECIAL-FIFTEENTH-STATE-FEDERAL"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0067"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0065"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1870-02-03",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-15"
+    },
+    {
+      "id": "AMD-UNIT-15-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 15,
+      "amendment_id": "CONST-US-AMD-15",
+      "source_provision_id": "CONST-US-AMD-15-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-15-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "Voting rights irrespective of color",
+      "summary": "Citizens' voting rights shall not be denied or abridged on account of color.",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-15-S01-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0068"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0066"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1870-02-03",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-15"
+    },
+    {
+      "id": "AMD-UNIT-15-S01-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 15,
+      "amendment_id": "CONST-US-AMD-15",
+      "source_provision_id": "CONST-US-AMD-15-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-15-SEC-01-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 3,
+      "name": "Voting rights irrespective of prior condition of servitude",
+      "summary": "Citizens' voting rights shall not be denied or abridged on account of previous condition of servitude.",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-15-S01-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0069"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0067"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1870-02-03",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-15"
+    },
+    {
+      "id": "AMD-UNIT-15-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 15,
+      "amendment_id": "CONST-US-AMD-15",
+      "source_provision_id": "CONST-US-AMD-15-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-15-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Congressional Fifteenth Amendment enforcement",
+      "summary": "Congress may enforce Fifteenth Amendment by appropriate legislation.",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-15-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0070"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0068"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1870-02-03",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-15"
+    },
+    {
+      "id": "AMD-UNIT-16-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 16,
+      "amendment_id": "CONST-US-AMD-16",
+      "source_provision_id": "CONST-US-AMD-16",
+      "analytic_provision_id": "CONST-US-AMD-16-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Congressional taxation of incomes",
+      "summary": "Congress has power to lay and collect taxes on incomes from whatever source derived, subject to constitutional limits.",
+      "norm_id": "NORM-US-CONST-AMD-16-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-16-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0071"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0069"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1913-02-03",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-16"
+    },
+    {
+      "id": "AMD-UNIT-16-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 16,
+      "amendment_id": "CONST-US-AMD-16",
+      "source_provision_id": "CONST-US-AMD-16",
+      "analytic_provision_id": "CONST-US-AMD-16-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Income-tax apportionment exception",
+      "summary": "Income taxes described by Sixteenth Amendment may be laid without apportionment among States and without regard to any census or enumeration.",
+      "norm_id": "NORM-US-CONST-AMD-16-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-16-U-02",
+        "AMD-QUAL-SPECIAL-SIXTEENTH-INCOME-APPORTIONMENT"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0072"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0070"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1913-02-03",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-16"
+    },
+    {
+      "id": "AMD-UNIT-17-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 17,
+      "amendment_id": "CONST-US-AMD-17",
+      "source_provision_id": "CONST-US-AMD-17",
+      "analytic_provision_id": "CONST-US-AMD-17-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Direct election of two Senators per State",
+      "summary": "The people of each State elect two Senators for six-year terms, each with one vote.",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-17-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0073"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0071"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-17"
+    },
+    {
+      "id": "AMD-UNIT-17-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 17,
+      "amendment_id": "CONST-US-AMD-17",
+      "source_provision_id": "CONST-US-AMD-17",
+      "analytic_provision_id": "CONST-US-AMD-17-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Senate elector qualifications from most numerous State legislative chamber",
+      "summary": "Electors in each State have qualifications requisite for electors of most numerous branch of State legislature, subject to later amendments and voting rights law.",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-17-U-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0074"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0072"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-17"
+    },
+    {
+      "id": "AMD-UNIT-17-U-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 17,
+      "amendment_id": "CONST-US-AMD-17",
+      "source_provision_id": "CONST-US-AMD-17",
+      "analytic_provision_id": "CONST-US-AMD-17-SEG-03",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 3,
+      "name": "State executive issues Senate vacancy election writ",
+      "summary": "When Senate vacancy occurs, State executive authority issues writs of election to fill vacancy.",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-17-U-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0075"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0073"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-17"
+    },
+    {
+      "id": "AMD-UNIT-17-U-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 17,
+      "amendment_id": "CONST-US-AMD-17",
+      "source_provision_id": "CONST-US-AMD-17",
+      "analytic_provision_id": "CONST-US-AMD-17-SEG-04",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 4,
+      "name": "State legislature may enable temporary Senate appointments",
+      "summary": "State legislature may empower executive to make temporary Senate appointments until voters fill vacancy by election.",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-04",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-17-U-04",
+        "AMD-QUAL-SPECIAL-SEVENTEENTH-STATE-TEMPORARY-APPOINTMENT"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0076"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0074"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-17"
+    },
+    {
+      "id": "AMD-UNIT-17-U-05",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 17,
+      "amendment_id": "CONST-US-AMD-17",
+      "source_provision_id": "CONST-US-AMD-17",
+      "analytic_provision_id": "CONST-US-AMD-17-SEG-05",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 5,
+      "name": "Senate membership prior to ratification protected",
+      "summary": "Original transition rule protects election or term of any Senator chosen before Amendment XVII became valid; historical transitional exception.",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-05",
+      "effect_status": "expired",
+      "lifecycle_state": "historical_transition_completed",
+      "qualification_ids": [
+        "AMD-QUAL-17-U-05"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0077"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-17"
+    },
+    {
+      "id": "AMD-UNIT-18-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 18,
+      "amendment_id": "CONST-US-AMD-18",
+      "source_provision_id": "CONST-US-AMD-18-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-18-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Historical national prohibition of beverage alcohol",
+      "summary": "Repealed national ban on manufacture, sale and transport of intoxicating liquors for beverage purposes; not current constitutional authority.",
+      "norm_id": "NORM-US-CONST-AMD-18-SEC-01-SEG-01",
+      "effect_status": "repealed",
+      "lifecycle_state": "repealed_historical",
+      "qualification_ids": [
+        "AMD-QUAL-18-S01-01",
+        "AMD-QUAL-SPECIAL-EIGHTEENTH-REPEALED"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0078"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1920-01-17",
+      "legal_effect_ended_on": "1933-12-05",
+      "timeline_id": "AMD-TIME-18"
+    },
+    {
+      "id": "AMD-UNIT-18-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 18,
+      "amendment_id": "CONST-US-AMD-18",
+      "source_provision_id": "CONST-US-AMD-18-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-18-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "Historical delayed one-year prohibition effect",
+      "summary": "Repealed amendment's substantive prohibition was deferred for one year from ratification before commencing January 1920.",
+      "norm_id": "NORM-US-CONST-AMD-18-SEC-01-SEG-02",
+      "effect_status": "repealed",
+      "lifecycle_state": "repealed_historical",
+      "qualification_ids": [
+        "AMD-QUAL-18-S01-02",
+        "AMD-QUAL-SPECIAL-EIGHTEENTH-DELAYED"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0079"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1920-01-17",
+      "legal_effect_ended_on": "1933-12-05",
+      "timeline_id": "AMD-TIME-18"
+    },
+    {
+      "id": "AMD-UNIT-18-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 18,
+      "amendment_id": "CONST-US-AMD-18",
+      "source_provision_id": "CONST-US-AMD-18-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-18-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Historical concurrent federal and State enforcement",
+      "summary": "Repealed Article XVIII allocated concurrent enforcement authority to Congress and States; this authority ended with repeal in 1933.",
+      "norm_id": "NORM-US-CONST-AMD-18-SEC-02-SEG-01",
+      "effect_status": "repealed",
+      "lifecycle_state": "repealed_historical",
+      "qualification_ids": [
+        "AMD-QUAL-18-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0080"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1919-01-16",
+      "legal_effect_ended_on": "1933-12-05",
+      "timeline_id": "AMD-TIME-18"
+    },
+    {
+      "id": "AMD-UNIT-18-S03-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 18,
+      "amendment_id": "CONST-US-AMD-18",
+      "source_provision_id": "CONST-US-AMD-18-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-18-SEC-03-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 1,
+      "name": "Historical seven-year State legislative ratification deadline",
+      "summary": "Repealed amendment's ratification prerequisite had to be satisfied within seven years and was met in 1919; not a recurring contemporary duty.",
+      "norm_id": "NORM-US-CONST-AMD-18-SEC-03-SEG-01",
+      "effect_status": "repealed",
+      "lifecycle_state": "repealed_historical",
+      "qualification_ids": [
+        "AMD-QUAL-18-S03-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0081"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1919-01-16",
+      "legal_effect_ended_on": "1933-12-05",
+      "timeline_id": "AMD-TIME-18"
+    },
+    {
+      "id": "AMD-UNIT-19-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 19,
+      "amendment_id": "CONST-US-AMD-19",
+      "source_provision_id": "CONST-US-AMD-19",
+      "analytic_provision_id": "CONST-US-AMD-19-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Voting rights not denied on account of sex",
+      "summary": "Voting rights of U.S. citizens may not be denied or abridged by United States or States on account of sex.",
+      "norm_id": "NORM-US-CONST-AMD-19-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-19-U-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0082"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0075"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1920-08-18",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-19"
+    },
+    {
+      "id": "AMD-UNIT-19-U-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 19,
+      "amendment_id": "CONST-US-AMD-19",
+      "source_provision_id": "CONST-US-AMD-19",
+      "analytic_provision_id": "CONST-US-AMD-19-SEG-02",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 2,
+      "name": "Congressional Nineteenth Amendment enforcement",
+      "summary": "Congress may enforce Nineteenth Amendment by appropriate legislation.",
+      "norm_id": "NORM-US-CONST-AMD-19-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-19-U-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0083"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0076"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1920-08-18",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-19"
+    },
+    {
+      "id": "AMD-UNIT-20-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Presidential and vice presidential term start and end January 20",
+      "summary": "President and Vice President terms end at noon January 20 in relevant years; successors' terms begin then.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S01-01",
+        "AMD-QUAL-SPECIAL-TWENTIETH-SECTION-ONE-DELAY"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0084"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0077"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-10-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "Congressional term start and end January 3",
+      "summary": "Senator and Representative terms end at noon January 3 in relevant years; successors' terms begin then.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S01-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0085"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0078"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-10-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Congress convenes annually January 3",
+      "summary": "Congress must meet at least once annually beginning noon January 3 unless Congress by law appoints a different day.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S02-01",
+        "AMD-QUAL-SPECIAL-TWENTIETH-SECTION-TWO-DELAY"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0086"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0079"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-10-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S02-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-02-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 2,
+      "name": "Congress may set alternative annual meeting date by law",
+      "summary": "Congress may by law appoint a different annual meeting day.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-02-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S02-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0087"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0080"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-10-15",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S03-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-03-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 1,
+      "name": "President-elect death: Vice-President-elect becomes President",
+      "summary": "At beginning of term, if President-elect died, Vice-President-elect becomes President.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-01",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S03-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0088"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0081"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S03-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-03-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 2,
+      "name": "Failure to choose or qualify President: acting Vice President-elect",
+      "summary": "If no President chosen before term or President-elect fails qualification, Vice-President-elect acts as President until President qualifies.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-02",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S03-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0089"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0082"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S03-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-03-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 3,
+      "name": "Congress may legislate when both incoming officers unqualified",
+      "summary": "Congress may by law determine who acts as President if neither a President-elect nor a Vice-President-elect qualifies, subject to text.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-03",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S03-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0090"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0083"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S03-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-03-SEG-04",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 4,
+      "name": "Acting President limited until a successor qualifies",
+      "summary": "Contingent acting President serves only until a President or Vice President qualifies, according to the relevant section.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-04",
+      "effect_status": "modified_in_part",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S03-04"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0091"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0084"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S04-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-04-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 1,
+      "name": "House contingent presidential candidate death legislation",
+      "summary": "Congress may by law address death of a person from whom House may choose a President in a contingent election.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-04-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S04-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0092"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0085"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S04-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-04-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 2,
+      "name": "Senate contingent vice presidential candidate death legislation",
+      "summary": "Congress may by law address death of a person from whom Senate may choose a Vice President in a contingent election.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-04-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-20-S04-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0093"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0086"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S05-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-05",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-05-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 5,
+      "segment_number": 1,
+      "name": "Historical effective date October 15 for Sections 1 and 2",
+      "summary": "Sections 1 and 2 expressly entered legal effect October 15, 1933, rather than the January 1933 ratification date.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-05-SEG-01",
+      "effect_status": "expired",
+      "lifecycle_state": "historical_transition_completed",
+      "qualification_ids": [
+        "AMD-QUAL-20-S05-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0094"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-20-S06-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "source_provision_id": "CONST-US-AMD-20-SEC-06",
+      "analytic_provision_id": "CONST-US-AMD-20-SEC-06-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 6,
+      "segment_number": 1,
+      "name": "Historical seven-year ratification deadline",
+      "summary": "Amendment XX required ratification by State legislatures within seven years of proposal; requirement fulfilled in 1933.",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-06-SEG-01",
+      "effect_status": "expired",
+      "lifecycle_state": "historical_transition_completed",
+      "qualification_ids": [
+        "AMD-QUAL-20-S06-01",
+        "AMD-QUAL-SPECIAL-TWENTIETH-TRANSITION-PREREQUISITE"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0095"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-20"
+    },
+    {
+      "id": "AMD-UNIT-21-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 21,
+      "amendment_id": "CONST-US-AMD-21",
+      "source_provision_id": "CONST-US-AMD-21-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-21-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Constitutional repeal of Eighteenth Amendment",
+      "summary": "Twenty-First Amendment Section 1 repealed Amendment XVIII as of ratification December 5, 1933.",
+      "norm_id": "NORM-US-CONST-AMD-21-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-21-S01-01",
+        "AMD-QUAL-SPECIAL-TWENTYFIRST-REPEALS-EIGHTEENTH"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0096"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0087"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-12-05",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-21"
+    },
+    {
+      "id": "AMD-UNIT-21-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 21,
+      "amendment_id": "CONST-US-AMD-21",
+      "source_provision_id": "CONST-US-AMD-21-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-21-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Import and delivery contrary to State alcohol laws prohibited",
+      "summary": "Transport/import of intoxicating liquor into a State, Territory or possession for delivery/use in violation of local law is prohibited, subject to controlling constitutional doctrine.",
+      "norm_id": "NORM-US-CONST-AMD-21-SEC-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-21-S02-01",
+        "AMD-QUAL-SPECIAL-TWENTYFIRST-STATE-LAW-BOUNDARY"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0097"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0088"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-12-05",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-21"
+    },
+    {
+      "id": "AMD-UNIT-21-S03-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 21,
+      "amendment_id": "CONST-US-AMD-21",
+      "source_provision_id": "CONST-US-AMD-21-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-21-SEC-03-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 1,
+      "name": "Historical convention ratification prerequisite within seven years",
+      "summary": "Twenty-First Amendment used State conventions and a seven-year ratification window; condition fulfilled December 1933.",
+      "norm_id": "NORM-US-CONST-AMD-21-SEC-03-SEG-01",
+      "effect_status": "expired",
+      "lifecycle_state": "historical_transition_completed",
+      "qualification_ids": [
+        "AMD-QUAL-21-S03-01",
+        "AMD-QUAL-SPECIAL-TWENTYFIRST-CONVENTION-RATIFICATION"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0098"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1933-12-05",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-21"
+    },
+    {
+      "id": "AMD-UNIT-22-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 22,
+      "amendment_id": "CONST-US-AMD-22",
+      "source_provision_id": "CONST-US-AMD-22-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-22-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Two-election presidential limit",
+      "summary": "No person may be elected President more than twice under Twenty-Second Amendment.",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-22-S01-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0099"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0089"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1951-02-27",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-22"
+    },
+    {
+      "id": "AMD-UNIT-22-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 22,
+      "amendment_id": "CONST-US-AMD-22",
+      "source_provision_id": "CONST-US-AMD-22-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-22-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "Service over two years of another elected term",
+      "summary": "A person holding/acting as President for more than two years of another President's term may be elected President no more than once.",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-22-S01-02",
+        "AMD-QUAL-SPECIAL-TWENTYSECOND-MORE-THAN-TWO-YEARS"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0100"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0090"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1951-02-27",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-22"
+    },
+    {
+      "id": "AMD-UNIT-22-S01-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 22,
+      "amendment_id": "CONST-US-AMD-22",
+      "source_provision_id": "CONST-US-AMD-22-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-22-SEC-01-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 3,
+      "name": "Historical incumbent and then-current-term exceptions",
+      "summary": "Section 1's historically specific exemptions for officeholder at proposal and within the term at adoption do not create an unlimited modern exception.",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-03",
+      "effect_status": "expired",
+      "lifecycle_state": "historical_transition_completed",
+      "qualification_ids": [
+        "AMD-QUAL-22-S01-03",
+        "AMD-QUAL-SPECIAL-TWENTYSECOND-GRANDFATHER"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0101"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1951-02-27",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-22"
+    },
+    {
+      "id": "AMD-UNIT-22-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 22,
+      "amendment_id": "CONST-US-AMD-22",
+      "source_provision_id": "CONST-US-AMD-22-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-22-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Historical seven-year ratification limit",
+      "summary": "Amendment XXII's seven-year legislative ratification requirement was met in February 1951.",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-02-SEG-01",
+      "effect_status": "expired",
+      "lifecycle_state": "historical_transition_completed",
+      "qualification_ids": [
+        "AMD-QUAL-22-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0102"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1951-02-27",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-22"
+    },
+    {
+      "id": "AMD-UNIT-23-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 23,
+      "amendment_id": "CONST-US-AMD-23",
+      "source_provision_id": "CONST-US-AMD-23-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-23-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "District of Columbia selection of presidential electors",
+      "summary": "District constituting seat of government appoints presidential electors as Congress may direct; DC does not thereby become a State.",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-23-S01-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0103"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0091"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1961-03-29",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-23"
+    },
+    {
+      "id": "AMD-UNIT-23-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 23,
+      "amendment_id": "CONST-US-AMD-23",
+      "source_provision_id": "CONST-US-AMD-23-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-23-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "District presidential electors capped by least populous State",
+      "summary": "District receives electors equivalent to putative Senators and Representatives, but no more than least populous State.",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-23-S01-02",
+        "AMD-QUAL-SPECIAL-TWENTYTHIRD-DC-ELECTORS-CAP"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0104"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0092"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1961-03-29",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-23"
+    },
+    {
+      "id": "AMD-UNIT-23-S01-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 23,
+      "amendment_id": "CONST-US-AMD-23",
+      "source_provision_id": "CONST-US-AMD-23-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-23-SEC-01-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 3,
+      "name": "District electors perform Twelfth Amendment duties",
+      "summary": "District electors are additional to State electors and follow Twelfth Amendment presidential/vice presidential election mechanism.",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-23-S01-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0105"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0093"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1961-03-29",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-23"
+    },
+    {
+      "id": "AMD-UNIT-23-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 23,
+      "amendment_id": "CONST-US-AMD-23",
+      "source_provision_id": "CONST-US-AMD-23-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-23-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Congressional Twenty-Third Amendment enforcement",
+      "summary": "Congress may enforce Twenty-Third Amendment by appropriate legislation.",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-23-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0106"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0094"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1961-03-29",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-23"
+    },
+    {
+      "id": "AMD-UNIT-24-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 24,
+      "amendment_id": "CONST-US-AMD-24",
+      "source_provision_id": "CONST-US-AMD-24-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-24-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Federal election and primary poll-tax prohibition",
+      "summary": "Citizens' federal election voting rights cannot be denied or abridged by federal/State governments for failure to pay a poll tax or other tax.",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-24-S01-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0107"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0095"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1964-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-24"
+    },
+    {
+      "id": "AMD-UNIT-24-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 24,
+      "amendment_id": "CONST-US-AMD-24",
+      "source_provision_id": "CONST-US-AMD-24-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-24-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "Enumerated federal offices and electors scope",
+      "summary": "Twenty-Fourth Amendment text covers Presidential/VP elections and electors plus U.S. Senate and House elections, including primaries.",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-24-S01-02",
+        "AMD-QUAL-SPECIAL-TWENTYFOURTH-FEDERAL-OFFICES"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0108"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0096"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1964-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-24"
+    },
+    {
+      "id": "AMD-UNIT-24-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 24,
+      "amendment_id": "CONST-US-AMD-24",
+      "source_provision_id": "CONST-US-AMD-24-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-24-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Congressional Twenty-Fourth Amendment enforcement",
+      "summary": "Congress may enforce Twenty-Fourth Amendment by appropriate legislation.",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-24-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0109"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0097"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1964-01-23",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-24"
+    },
+    {
+      "id": "AMD-UNIT-25-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Vice President succeeds permanently after presidential vacancy",
+      "summary": "Upon presidential removal, death or resignation, Vice President becomes President; separate from Acting President on inability.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S01-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0110"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0098"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "President nominates new Vice President for vacancy",
+      "summary": "If Vice Presidency vacant, President nominates a new Vice President.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0111"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0099"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S02-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-02-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 2,
+      "name": "Both Houses must confirm new Vice President by majority",
+      "summary": "Vice presidential nominee assumes office upon a majority vote of each House, not Senate-only advice and consent.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-02-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S02-02",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-VP-MAJORITY-BOTH-HOUSES"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0112"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0100"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S03-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-03-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 1,
+      "name": "Written presidential declaration of inability",
+      "summary": "President transmits written declaration of inability to President pro tempore Senate and Speaker House.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S03-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0113"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0101"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S03-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-03-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 2,
+      "name": "Vice President exercises powers as Acting President",
+      "summary": "Upon declaration, Vice President discharges powers and duties as Acting President.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S03-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0114"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0102"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S03-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-03",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-03-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 3,
+      "segment_number": 3,
+      "name": "Presidential contrary declaration ends voluntary inability",
+      "summary": "President may transmit contrary written declaration to resume powers under Section 3.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S03-03"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0115"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0103"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S04-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-04-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 1,
+      "name": "Vice President and majority officer/body inability declaration",
+      "summary": "Vice President and majority principal executive officers (or substitute body Congress may by law provide) submit written inability declaration.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0116"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0104"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S04-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-04-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 2,
+      "name": "Vice President immediately becomes Acting President after declaration",
+      "summary": "Following the written initial Section 4 inability declaration, Vice President immediately assumes powers as Acting President.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0117"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0105"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S04-03",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-04-SEG-03",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 3,
+      "name": "Presidential declaration of ability and four-day challenge window",
+      "summary": "President may declare no inability exists; Vice President with specified majority may challenge by written declaration within four days.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-03",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-03",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-FOUR-DAY"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0118"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0106"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S04-04",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-04-SEG-04",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 4,
+      "name": "Congress convenes within 48 hours if not in session",
+      "summary": "Following the specified contested declaration, Congress must assemble within 48 hours if not in session.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-04",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-04",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-FORTYEIGHT-HOUR"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0119"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0107"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S04-05",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-04-SEG-05",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 5,
+      "name": "Congressional 21-day decision period",
+      "summary": "Congress must decide disputed inability within 21 days after receiving the latter declaration or after required assembly when not in session.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-05",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-05",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-TWENTYONE-DAY"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0120"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0108"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S04-06",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-04-SEG-06",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 6,
+      "name": "Two-thirds of both Houses for contested inability determination",
+      "summary": "Continued Vice President Acting Presidency upon contested presidential ability requires a two-thirds vote of each House.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-06",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-06",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-TWO-THIRDS-BOTH-HOUSES"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0121"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0109"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-25-S04-07",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04",
+      "analytic_provision_id": "CONST-US-AMD-25-SEC-04-SEG-07",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 4,
+      "segment_number": 7,
+      "name": "President resumes absent required dual supermajority",
+      "summary": "If Congress does not meet the required constitutional two-thirds determination, President resumes powers and duties.",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-07",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-07"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0122"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0110"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-25"
+    },
+    {
+      "id": "AMD-UNIT-26-S01-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 26,
+      "amendment_id": "CONST-US-AMD-26",
+      "source_provision_id": "CONST-US-AMD-26-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-26-SEC-01-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 1,
+      "name": "Voting protections for citizens 18 years or older",
+      "summary": "Citizens of United States who are eighteen years of age or older have voting-right protection against age-based denial.",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-01-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-26-S01-01",
+        "AMD-QUAL-SPECIAL-TWENTYSIXTH-AGE-EIGHTEEN"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0123"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0111"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1971-07-01",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-26"
+    },
+    {
+      "id": "AMD-UNIT-26-S01-02",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 26,
+      "amendment_id": "CONST-US-AMD-26",
+      "source_provision_id": "CONST-US-AMD-26-SEC-01",
+      "analytic_provision_id": "CONST-US-AMD-26-SEC-01-SEG-02",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 1,
+      "segment_number": 2,
+      "name": "Federal and State age-based vote abridgment prohibition",
+      "summary": "Neither United States nor any State may abridge covered citizens' voting rights on account of age.",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-01-SEG-02",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-26-S01-02"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0124"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0112"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1971-07-01",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-26"
+    },
+    {
+      "id": "AMD-UNIT-26-S02-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 26,
+      "amendment_id": "CONST-US-AMD-26",
+      "source_provision_id": "CONST-US-AMD-26-SEC-02",
+      "analytic_provision_id": "CONST-US-AMD-26-SEC-02-SEG-01",
+      "source_unit_kind": "numbered_section_analytic_segment",
+      "original_section_number": 2,
+      "segment_number": 1,
+      "name": "Congressional Twenty-Sixth Amendment enforcement",
+      "summary": "Congress may enforce Twenty-Sixth Amendment by appropriate legislation.",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-02-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-26-S02-01"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0125"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0113"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1971-07-01",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-26"
+    },
+    {
+      "id": "AMD-UNIT-27-U-01",
+      "type": "amendment_analysis_unit",
+      "amendment_number": 27,
+      "amendment_id": "CONST-US-AMD-27",
+      "source_provision_id": "CONST-US-AMD-27",
+      "analytic_provision_id": "CONST-US-AMD-27-SEG-01",
+      "source_unit_kind": "unnumbered_amendment_analytic_segment",
+      "original_section_number": null,
+      "segment_number": 1,
+      "name": "Intervening House election before congressional compensation variation",
+      "summary": "A law varying Senators' or Representatives' compensation cannot take effect until an election of Representatives intervenes.",
+      "norm_id": "NORM-US-CONST-AMD-27-SEG-01",
+      "effect_status": "operative",
+      "lifecycle_state": "current_operational",
+      "qualification_ids": [
+        "AMD-QUAL-27-U-01",
+        "AMD-QUAL-SPECIAL-TWENTYSEVENTH-HOUSE-ELECTION"
+      ],
+      "effect_link_ids": [
+        "AMD-EFFECT-0126"
+      ],
+      "capability_link_ids": [
+        "AMD-CAP-0114"
+      ],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "legal_effect_started_on": "1992-05-07",
+      "legal_effect_ended_on": null,
+      "timeline_id": "AMD-TIME-27"
+    }
+  ]
+}

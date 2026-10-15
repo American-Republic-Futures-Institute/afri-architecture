@@ -35,3 +35,7 @@ Scope limitation: jurisdictional categories do not substitute for federal jurisd
 ## Federalism source-model increment — October 15, 2026
 
 The historical Article IV fugitive-service provision is preserved but never activated as current law. Article IV and VI federal–State relations and Amendments X, XI and XIV are now decomposed into 20 semantic units, 72 qualifications, 40 legal relations, 9 explicit protected interests and 45 capability alignments. Seven newly classified federal capabilities complete the bridge from constitutional text to L3. Human legal review, complete judicial doctrine, State institutional catalogs and enabling statutes remain required follow-on scopes. See [FEDERALISM-ARCHITECTURE.md](FEDERALISM-ARCHITECTURE.md).
+
+## Ratified amendment completion — October 15, 2026
+
+All 27 ratified amendments and the 33 original numbered sections are now decomposed via 126 analytically distinct, explicitly nonofficial spans. Timeline coverage: 27 ratification/adoption records, 15 special date/repeal/ratification condition events. The amendment-specific register adds 172 textual/historical qualifications, 126 Article/prior-amendment effect/context cross-references and 114 operative functional capability links, excluding 12 repealed or historically fulfilled analytical spans. Every record remains research pending legal review, not a statement of adjudicated precedent. [Detailed coverage and exceptions](AMENDMENT-DECOMPOSITION.md).

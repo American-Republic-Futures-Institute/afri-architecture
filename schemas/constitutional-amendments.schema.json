@@ -1,0 +1,611 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/constitutional-amendments.schema.json",
+  "title": "ARFI-COA 27 Ratified Constitutional Amendments, v0.1.0",
+  "description": "Source-linked amendment analyses, ratification/effect chronology, qualifications, and cross-Article/capability mappings. Intrasection segments are analytical, not constitutional clauses. Full legal/temporal semantic constraints in scripts/validate-amendments.mjs.",
+  "$defs": {
+    "str": {
+      "type": "string",
+      "minLength": 3
+    },
+    "refs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "anyRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "dateOrNull": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "unit": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "amendment_number",
+        "amendment_id",
+        "source_provision_id",
+        "analytic_provision_id",
+        "source_unit_kind",
+        "original_section_number",
+        "segment_number",
+        "name",
+        "summary",
+        "norm_id",
+        "effect_status",
+        "lifecycle_state",
+        "qualification_ids",
+        "effect_link_ids",
+        "capability_link_ids",
+        "source_ids",
+        "review_status",
+        "legal_effect_started_on",
+        "legal_effect_ended_on",
+        "timeline_id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AMD-UNIT-"
+        },
+        "type": {
+          "const": "amendment_analysis_unit"
+        },
+        "amendment_number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 27
+        },
+        "amendment_id": {
+          "$ref": "#/$defs/str"
+        },
+        "source_provision_id": {
+          "$ref": "#/$defs/str"
+        },
+        "analytic_provision_id": {
+          "$ref": "#/$defs/str"
+        },
+        "source_unit_kind": {
+          "enum": [
+            "numbered_section_analytic_segment",
+            "unnumbered_amendment_analytic_segment"
+          ]
+        },
+        "original_section_number": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 6
+        },
+        "segment_number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        },
+        "name": {
+          "$ref": "#/$defs/str"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 20
+        },
+        "norm_id": {
+          "$ref": "#/$defs/str"
+        },
+        "effect_status": {
+          "enum": [
+            "operative",
+            "modified_in_part",
+            "expired",
+            "repealed"
+          ]
+        },
+        "lifecycle_state": {
+          "enum": [
+            "current_operational",
+            "historical_transition_completed",
+            "repealed_historical"
+          ]
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "effect_link_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "capability_link_ids": {
+          "$ref": "#/$defs/anyRefs"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "research_textual_summary_pending_legal_review"
+        },
+        "legal_effect_started_on": {
+          "$ref": "#/$defs/date"
+        },
+        "legal_effect_ended_on": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "timeline_id": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    },
+    "timeline": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "amendment_number",
+        "amendment_id",
+        "ratified_on",
+        "adopted_on",
+        "ratification_distinct_from_certification",
+        "default_legal_effect_start_on",
+        "effect_status",
+        "current_lifecycle",
+        "effect_end_on",
+        "special_rule_ids",
+        "source_ids",
+        "review_status",
+        "constitutional_ratification_basis_id",
+        "ratification_mode"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AMD-TIME-[0-9]{2}$"
+        },
+        "type": {
+          "const": "amendment_temporal_status"
+        },
+        "amendment_number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 27
+        },
+        "amendment_id": {
+          "$ref": "#/$defs/str"
+        },
+        "ratified_on": {
+          "$ref": "#/$defs/date"
+        },
+        "adopted_on": {
+          "$ref": "#/$defs/date"
+        },
+        "ratification_distinct_from_certification": {
+          "const": true
+        },
+        "default_legal_effect_start_on": {
+          "$ref": "#/$defs/date"
+        },
+        "effect_status": {
+          "type": "string"
+        },
+        "current_lifecycle": {
+          "enum": [
+            "ratified_current",
+            "repealed_historical"
+          ]
+        },
+        "effect_end_on": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "special_rule_ids": {
+          "$ref": "#/$defs/anyRefs"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "historical_timeline_pending_legal_review"
+        },
+        "constitutional_ratification_basis_id": {
+          "const": "CONST-US-ART-05"
+        },
+        "ratification_mode": {
+          "enum": [
+            "state_legislatures",
+            "state_conventions"
+          ]
+        },
+        "certification_on": {
+          "$ref": "#/$defs/date"
+        },
+        "proposed_on": {
+          "$ref": "#/$defs/date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "amendment_id",
+        "provision_id",
+        "event_kind",
+        "applies_on",
+        "summary",
+        "temporal_scope",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AMD-EVENT-[0-9]{3}$"
+        },
+        "type": {
+          "const": "amendment_effect_event"
+        },
+        "amendment_id": {
+          "$ref": "#/$defs/str"
+        },
+        "provision_id": {
+          "$ref": "#/$defs/str"
+        },
+        "event_kind": {
+          "$ref": "#/$defs/str"
+        },
+        "applies_on": {
+          "$ref": "#/$defs/date"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 20
+        },
+        "temporal_scope": {
+          "$ref": "#/$defs/str"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "historical_timeline_pending_legal_review"
+        },
+        "condition": {
+          "type": "string"
+        },
+        "subject": {
+          "$ref": "#/$defs/str"
+        },
+        "effect_end_on": {
+          "$ref": "#/$defs/date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "effect": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit_id",
+        "norm_id",
+        "source_provision_id",
+        "target_provision_id",
+        "relationship_kind",
+        "source_change_ids",
+        "effect_status",
+        "legal_effect_started_on",
+        "legal_effect_ended_on",
+        "source_ids",
+        "review_status",
+        "classification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AMD-EFFECT-[0-9]{4}$"
+        },
+        "type": {
+          "const": "amendment_constitutional_effect"
+        },
+        "unit_id": {
+          "$ref": "#/$defs/str"
+        },
+        "norm_id": {
+          "$ref": "#/$defs/str"
+        },
+        "source_provision_id": {
+          "$ref": "#/$defs/str"
+        },
+        "target_provision_id": {
+          "$ref": "#/$defs/str"
+        },
+        "relationship_kind": {
+          "$ref": "#/$defs/str"
+        },
+        "source_change_ids": {
+          "$ref": "#/$defs/anyRefs"
+        },
+        "effect_status": {
+          "type": "string"
+        },
+        "legal_effect_started_on": {
+          "$ref": "#/$defs/date"
+        },
+        "legal_effect_ended_on": {
+          "$ref": "#/$defs/dateOrNull"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "research_effect_mapping_pending_review"
+        },
+        "classification": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualification": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit_id",
+        "norm_id",
+        "condition_kind",
+        "summary",
+        "source_provision_ids",
+        "effect_status",
+        "origin",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AMD-QUAL-"
+        },
+        "type": {
+          "const": "amendment_constitutional_qualification"
+        },
+        "unit_id": {
+          "$ref": "#/$defs/str"
+        },
+        "norm_id": {
+          "$ref": "#/$defs/str"
+        },
+        "condition_kind": {
+          "$ref": "#/$defs/str"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 16
+        },
+        "source_provision_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "effect_status": {
+          "enum": [
+            "operative",
+            "research_boundary",
+            "historical_only"
+          ]
+        },
+        "origin": {
+          "enum": [
+            "ratified_amendment_text",
+            "historical_source_record",
+            "interpretive_boundary"
+          ]
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "research_textual_summary_pending_legal_review"
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "alignment": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit_id",
+        "norm_id",
+        "capability_id",
+        "qualification_ids",
+        "relationship_type",
+        "rationale",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AMD-CAP-[0-9]{4}$"
+        },
+        "type": {
+          "const": "amendment_capability_alignment"
+        },
+        "unit_id": {
+          "$ref": "#/$defs/str"
+        },
+        "norm_id": {
+          "$ref": "#/$defs/str"
+        },
+        "capability_id": {
+          "type": "string",
+          "pattern": "^CAP-FED-"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "relationship_type": {
+          "const": "functional_alignment_not_delegation"
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 20
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "research_mapping_pending_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "unitsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/unit"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "timelineCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items",
+        "events"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/timeline"
+          }
+        },
+        "events": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/event"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "effectsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/effect"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualificationsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/qualification"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "capabilityLinksCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/alignment"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/unitsCollection"
+    },
+    {
+      "$ref": "#/$defs/timelineCollection"
+    },
+    {
+      "$ref": "#/$defs/effectsCollection"
+    },
+    {
+      "$ref": "#/$defs/qualificationsCollection"
+    },
+    {
+      "$ref": "#/$defs/capabilityLinksCollection"
+    }
+  ]
+}

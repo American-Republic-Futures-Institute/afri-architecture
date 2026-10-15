@@ -351,6 +351,51 @@
       "kind": "official_government_summary",
       "scope": "Article IV federal-state relationship and Article VI constitutional supremacy; summaries subordinate to primary text.",
       "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-NARA-AMENDMENT-RATIFICATION",
+      "title": "Constitutional Amendment Process",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/federal-register/constitution",
+      "kind": "official_government_primary_process",
+      "scope": "Article V adoption upon requisite State ratification; certification is later public notice and does not postpone legal adoption.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-NARA-AMENDMENTS-11-27",
+      "title": "The Constitution: Amendments 11-27",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+      "kind": "official_constitutional_transcript",
+      "scope": "Primary amendment text, proposal/ratification dates and amendment notes including repeal, effective-date and ratification conditions.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-NARA-BILL-OF-RIGHTS",
+      "title": "Bill of Rights: The First 10 Amendments to the Constitution",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights",
+      "kind": "official_constitutional_transcript",
+      "scope": "Primary text of Amendments I-X and original legislative submission history; section/segment labels in this model are analytical only.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CRS-EIGHTEENTH-DATE",
+      "title": "The Eighteenth Amendment: The Rise and Fall of Prohibition",
+      "publisher": "Congressional Research Service",
+      "url": "https://www.congress.gov/crs_external_products/LSB/HTML/LSB10985.html",
+      "kind": "official_congressional_research",
+      "scope": "Eighteenth Amendment ratified January 16, 1919 and prohibition took effect January 17, 1920; repeal December 5, 1933.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-NARA-TWENTYSEVENTH-CERTIFICATION",
+      "title": "A Record-Setting Amendment",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://prologue.blogs.archives.gov/2016/04/11/a-record-setting-amendment/",
+      "kind": "official_historical_process",
+      "scope": "Twenty-Seventh Amendment ratified and legally effective May 7, 1992; certified May 18, 1992, a distinct date.",
+      "accessed_on": "2026-10-15"
     }
   ]
 }

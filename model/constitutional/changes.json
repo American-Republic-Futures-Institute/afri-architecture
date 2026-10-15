@@ -213,6 +213,48 @@
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ]
+    },
+    {
+      "id": "CHG-US-CONST-35",
+      "type": "constitutional_change",
+      "change_kind": "modifies_congressional_term_start",
+      "amending_provision_id": "CONST-US-AMD-20-SEC-01",
+      "affected_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-01"
+      ],
+      "description": "Twentieth Amendment Section 1 changes timing of Representatives' term start/end; it does not eliminate their two-year tenure.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-36",
+      "type": "constitutional_change",
+      "change_kind": "modifies_congressional_term_start",
+      "amending_provision_id": "CONST-US-AMD-20-SEC-01",
+      "affected_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-01"
+      ],
+      "description": "Twentieth Amendment Section 1 changes timing of Senators' term start/end; their six-year tenure and equal State representation continue.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-37",
+      "type": "constitutional_change",
+      "change_kind": "conditions_congressional_compensation_effect",
+      "amending_provision_id": "CONST-US-AMD-27",
+      "affected_provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-01"
+      ],
+      "description": "Twenty-Seventh Amendment conditions effective date of any statute varying compensation for Senators or Representatives on intervening House election.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
     }
   ]
 }
