@@ -87,3 +87,9 @@ Reproduce the checks with `node scripts/validate-article-i.mjs` and `node --test
 The Article II model now records **11 numbered original clauses, five analytically separated but unnumbered Section 3 functions, and one Section 4 impeachment/removal unit**. All 17 units are source-linked to discrete constitutional norms, 71 conditions and amendment overlays, and 40 candidate capability alignments. The new `article-ii-*.json` files and [detailed Article II standard](docs/ARTICLE-II-ARCHITECTURE.md) are architectural source data only.
 
 Changes to the original constitutional text remain distinguishable from later amendments and doctrine. Run `node scripts/validate-article-ii.mjs` and `node --test tests/article-ii.test.mjs` along with earlier validators. The website continues to own visualization and publication.
+
+## Article III judicial constitutional architecture (2026-10-15)
+
+The canonical model now covers all Article III Sections and their judicial-vesting, judicial-tenure, compensation, federal cases/controversies, Supreme Court jurisdiction, criminal jury/venue and treason safeguards. Source files under `model/constitutional/article-iii-*.json` include **8 analytic units, 9 jurisdiction categories, 53 qualifications and 42 functional capability links**; Section 1 uses explicit ARFI semantic units, **not invented constitutional clauses**.
+
+The authoritative modeling and publication contract is in [docs/ARTICLE-III-ARCHITECTURE.md](docs/ARTICLE-III-ARCHITECTURE.md). Validations: `node scripts/validate-article-iii.mjs` and `node --test tests/article-iii.test.mjs`. The website repository continues to own all rendering and comments.
