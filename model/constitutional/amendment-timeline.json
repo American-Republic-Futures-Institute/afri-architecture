@@ -18,7 +18,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-02",
@@ -37,7 +39,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-03",
@@ -56,7 +60,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-04",
@@ -75,7 +81,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-05",
@@ -94,7 +102,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-06",
@@ -113,7 +123,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-07",
@@ -132,7 +144,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-08",
@@ -151,7 +165,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-09",
@@ -170,7 +186,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-10",
@@ -189,7 +207,9 @@
         "SRC-NARA-BILL-OF-RIGHTS",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-11",
@@ -208,7 +228,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-12",
@@ -227,7 +249,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-13",
@@ -246,7 +270,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-14",
@@ -265,7 +291,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-15",
@@ -284,7 +312,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-16",
@@ -303,7 +333,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-17",
@@ -324,7 +356,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-18",
@@ -347,7 +381,10 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures",
+      "proposed_on": "1917-12-18"
     },
     {
       "id": "AMD-TIME-19",
@@ -366,7 +403,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-20",
@@ -391,7 +430,11 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures",
+      "certification_on": "1933-02-06",
+      "proposed_on": "1932-03-02"
     },
     {
       "id": "AMD-TIME-21",
@@ -413,7 +456,10 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_conventions",
+      "proposed_on": "1933-02-20"
     },
     {
       "id": "AMD-TIME-22",
@@ -435,7 +481,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-23",
@@ -454,7 +502,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-24",
@@ -473,7 +523,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-25",
@@ -492,7 +544,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-26",
@@ -513,7 +567,9 @@
         "SRC-NARA-AMENDMENTS-11-27",
         "SRC-NARA-AMENDMENT-RATIFICATION"
       ],
-      "review_status": "historical_timeline_pending_legal_review"
+      "review_status": "historical_timeline_pending_legal_review",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures"
     },
     {
       "id": "AMD-TIME-27",
@@ -536,7 +592,10 @@
         "SRC-NARA-TWENTYSEVENTH-CERTIFICATION"
       ],
       "review_status": "historical_timeline_pending_legal_review",
-      "certification_on": "1992-05-18"
+      "certification_on": "1992-05-18",
+      "constitutional_ratification_basis_id": "CONST-US-ART-05",
+      "ratification_mode": "state_legislatures",
+      "proposed_on": "1789-09-25"
     }
   ],
   "events": [

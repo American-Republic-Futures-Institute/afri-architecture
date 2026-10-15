@@ -105,8 +105,7 @@
       "norm_id": "NORM-US-CONST-AMD-02-SEG-01",
       "capability_id": "CAP-FED-55",
       "qualification_ids": [
-        "AMD-QUAL-02-U-01",
-        "AMD-QUAL-SPECIAL-SECOND-MILITIA-CONTEXT"
+        "AMD-QUAL-02-U-01"
       ],
       "relationship_type": "functional_alignment_not_delegation",
       "rationale": "Constitutional amendment text bounds public governmental capability analysis; this is NOT a free-standing agency or legislative statutory delegation.",
@@ -466,8 +465,7 @@
       "norm_id": "NORM-US-CONST-AMD-07-SEG-02",
       "capability_id": "CAP-FED-55",
       "qualification_ids": [
-        "AMD-QUAL-07-U-02",
-        "AMD-QUAL-SPECIAL-SEVENTH-FEDERAL-CIVIL-COURTS"
+        "AMD-QUAL-07-U-02"
       ],
       "relationship_type": "functional_alignment_not_delegation",
       "rationale": "Constitutional amendment text bounds public governmental capability analysis; this is NOT a free-standing agency or legislative statutory delegation.",

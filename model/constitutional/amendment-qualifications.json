@@ -2172,8 +2172,8 @@
         "CONST-US-AMD-02",
         "CONST-US-ART-01-SEC-08-CL-16"
       ],
-      "effect_status": "operative",
-      "origin": "ratified_amendment_text",
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -2327,8 +2327,8 @@
       "source_provision_ids": [
         "CONST-US-AMD-07"
       ],
-      "effect_status": "operative",
-      "origin": "ratified_amendment_text",
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],

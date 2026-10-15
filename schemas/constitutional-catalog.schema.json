@@ -67,7 +67,9 @@
             "article_clause",
             "amendment",
             "amendment_section",
-            "article_section_segment"
+            "article_section_segment",
+            "amendment_segment",
+            "amendment_section_segment"
           ]
         },
         "label": {
@@ -117,6 +119,19 @@
         },
         "segment_kind": {
           "type": "string"
+        },
+        "amendment_number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 27
+        },
+        "original_section_number": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 6
         }
       },
       "additionalProperties": true
@@ -307,7 +322,9 @@
             "supersedes_presidential_transition",
             "repeals",
             "clarifies_succession",
-            "modifies_voting_age_reference"
+            "modifies_voting_age_reference",
+            "modifies_congressional_term_start",
+            "conditions_congressional_compensation_effect"
           ]
         },
         "amending_provision_id": {

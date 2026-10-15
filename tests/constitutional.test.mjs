@@ -21,11 +21,11 @@ function fixture(){
 test("baseline constitutional catalog passes reference integrity",()=>{
  const result=validateConstitutionCatalog(fixture());
  assert.deepEqual(result.errors,[]);
- assert.equal(result.counts.provisions,180);
+ assert.equal(result.counts.provisions,306);
  assert.equal(result.counts.actors,27);
- assert.equal(result.counts.norms,227);
- assert.equal(result.counts.bindings,317);
- assert.equal(result.counts.changes,15);
+ assert.equal(result.counts.norms,353);
+ assert.equal(result.counts.bindings,430);
+ assert.equal(result.counts.changes,18);
 });
 test("rejects dangling provision references",()=>{
  const f=fixture();f.models.norms.items[0].provision_ids=["CONST-US-DOES-NOT-EXIST"];
