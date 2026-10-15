@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI COA federal baseline manifest",
+  "type": "object",
+  "required": [
+    "id",
+    "model_standard",
+    "model_version",
+    "snapshot_date",
+    "release_status",
+    "models",
+    "scope",
+    "publication_contract"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "model_standard": {
+      "const": "ARFI-COA"
+    },
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "snapshot_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "release_status": {
+      "const": "research_baseline_unratified"
+    },
+    "models": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "scope": {
+      "type": "string"
+    },
+    "publication_contract": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

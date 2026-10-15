@@ -1,0 +1,84 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AUTH-US-CONST-ART-I",
+      "type": "legal_authority",
+      "title": "United States Constitution, Article I",
+      "authority_kind": "constitutional",
+      "jurisdiction": "United States",
+      "description": "Vests federal legislative powers in Congress and defines structures and selected powers and restrictions.",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ],
+      "status": "existing_law",
+      "name": "United States Constitution, Article I"
+    },
+    {
+      "id": "AUTH-US-CONST-ART-II",
+      "type": "legal_authority",
+      "title": "United States Constitution, Article II",
+      "authority_kind": "constitutional",
+      "jurisdiction": "United States",
+      "description": "Vests executive power in the President and sets executive appointment, foreign-affairs and other powers and duties.",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ],
+      "status": "existing_law",
+      "name": "United States Constitution, Article II"
+    },
+    {
+      "id": "AUTH-US-CONST-ART-III",
+      "type": "legal_authority",
+      "title": "United States Constitution, Article III",
+      "authority_kind": "constitutional",
+      "jurisdiction": "United States",
+      "description": "Vests judicial power in the Supreme Court and inferior courts established by Congress and defines federal judicial jurisdiction.",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ],
+      "status": "existing_law",
+      "name": "United States Constitution, Article III"
+    },
+    {
+      "id": "AUTH-US-CONST-ART-I-SEC-7",
+      "type": "legal_authority",
+      "title": "United States Constitution, Article I, Section 7",
+      "authority_kind": "constitutional",
+      "jurisdiction": "United States",
+      "description": "Revenue-bill origination, presentment, presidential veto and congressional override.",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ],
+      "status": "existing_law",
+      "name": "United States Constitution, Article I, Section 7"
+    },
+    {
+      "id": "AUTH-US-CONST-ART-I-SEC-2-3",
+      "type": "legal_authority",
+      "title": "United States Constitution, Article I, Sections 2–3",
+      "authority_kind": "constitutional",
+      "jurisdiction": "United States",
+      "description": "Defines House and Senate representation and assigns distinct impeachment powers.",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ],
+      "status": "existing_law",
+      "name": "United States Constitution, Article I, Sections 2–3"
+    },
+    {
+      "id": "AUTH-US-CONST-ART-II-SEC-2",
+      "type": "legal_authority",
+      "title": "United States Constitution, Article II, Section 2",
+      "authority_kind": "constitutional",
+      "jurisdiction": "United States",
+      "description": "Commander-in-Chief role and specified nominations, appointments and treaty procedures requiring Senate advice and consent.",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-SENATE-TREATY"
+      ],
+      "status": "existing_law",
+      "name": "United States Constitution, Article II, Section 2"
+    }
+  ]
+}

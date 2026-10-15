@@ -1,0 +1,175 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "ORG-FED-LEG-CONGRESS",
+      "type": "institution",
+      "name": "United States Congress",
+      "kind": "bicameral_legislature",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "BR-FED-LEG",
+      "mission": "Federal legislative institution composed of the House of Representatives and Senate; exercises powers assigned under Article I.",
+      "roles": [
+        "enact_federal_laws",
+        "tax_and_appropriate",
+        "oversight"
+      ],
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-LEG-HOUSE",
+      "type": "institution",
+      "name": "United States House of Representatives",
+      "kind": "legislative_chamber",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "ORG-FED-LEG-CONGRESS",
+      "mission": "Population-apportioned chamber of Congress that legislates, initiates revenue measures, and exercises the sole power of impeachment.",
+      "roles": [
+        "legislation",
+        "representation",
+        "revenue_bills",
+        "impeachment"
+      ],
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-LEG-SENATE",
+      "type": "institution",
+      "name": "United States Senate",
+      "kind": "legislative_chamber",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "ORG-FED-LEG-CONGRESS",
+      "mission": "State-representative chamber of Congress that legislates, advises and consents on specified appointments and treaties, and tries impeachments.",
+      "roles": [
+        "legislation",
+        "representation",
+        "advice_and_consent",
+        "impeachment_trials"
+      ],
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-SENATE-TREATY"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-LEG-CBO",
+      "type": "institution",
+      "name": "Congressional Budget Office",
+      "kind": "legislative_support_agency",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "BR-FED-LEG",
+      "mission": "Provides Congress with objective, nonpartisan budgetary and economic analysis and cost estimates, without making policy recommendations.",
+      "roles": [
+        "budget_analysis",
+        "legislative_cost_estimation"
+      ],
+      "source_ids": [
+        "SRC-CBO-2026",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-LEG-GAO",
+      "type": "institution",
+      "name": "Government Accountability Office",
+      "kind": "legislative_support_agency",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "BR-FED-LEG",
+      "mission": "Provides independent, nonpartisan audits, evaluations, and legal analysis to support congressional oversight and government accountability.",
+      "roles": [
+        "audits",
+        "program_evaluation",
+        "congressional_oversight_support"
+      ],
+      "source_ids": [
+        "SRC-GAO-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-LEG-LOC",
+      "type": "institution",
+      "name": "Library of Congress",
+      "kind": "legislative_support_agency",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "BR-FED-LEG",
+      "mission": "Preserves and provides knowledge and research resources for Congress and the public and administers key library and copyright functions.",
+      "roles": [
+        "research_services",
+        "knowledge_preservation",
+        "copyright_administration"
+      ],
+      "source_ids": [
+        "SRC-LOC-ABOUT",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-LEG-CRS",
+      "type": "institution",
+      "name": "Congressional Research Service",
+      "kind": "legislative_research_service",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "ORG-FED-LEG-LOC",
+      "mission": "Provides confidential, objective research, information and policy analysis to Congress to support legislation, representation, and oversight.",
+      "roles": [
+        "nonpartisan_research",
+        "legislative_analysis"
+      ],
+      "source_ids": [
+        "SRC-CRS-MISSION",
+        "SRC-LOC-ABOUT"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-LEG-GPO",
+      "type": "institution",
+      "name": "Government Publishing Office",
+      "kind": "legislative_support_agency",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "BR-FED-LEG",
+      "mission": "Produces, preserves, authenticates and distributes official federal government publications and information for public access.",
+      "roles": [
+        "government_publishing",
+        "public_information_access"
+      ],
+      "source_ids": [
+        "SRC-GPO-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-LEG-AOC",
+      "type": "institution",
+      "name": "Architect of the Capitol",
+      "kind": "legislative_support_agency",
+      "branch_id": "BR-FED-LEG",
+      "parent_id": "BR-FED-LEG",
+      "mission": "Maintains, operates, and preserves the Capitol campus and supports Congress, the Supreme Court, and visitors.",
+      "roles": [
+        "capitol_facilities",
+        "historic_preservation"
+      ],
+      "source_ids": [
+        "SRC-AOC-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "status": "observed"
+    }
+  ]
+}

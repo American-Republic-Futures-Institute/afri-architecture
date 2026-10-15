@@ -1,0 +1,52 @@
+{
+  "id": "ARFI-COA-FED-BASELINE-001",
+  "model_standard": "ARFI-COA",
+  "model_version": "0.1.0",
+  "snapshot_date": "2026-10-15",
+  "release_status": "research_baseline_unratified",
+  "jurisdiction": "United States — Federal",
+  "scope": "Constitutional branches, core federal departments, first-level supporting institutions, selected independent federal bodies and judiciary aggregates.",
+  "non_goals": [
+    "Exhaustive subordinate agencies and field offices",
+    "All Article I tribunals",
+    "State, tribal, territorial and local government",
+    "Current officeholders, personnel rosters or partisan appointments",
+    "Legal conclusions about disputed executive control of independent agencies",
+    "Any adopted ARFI reform recommendation",
+    "Browser visualization code or publication server implementation"
+  ],
+  "models": [
+    "model/federal/branches.json",
+    "model/federal/legislative.json",
+    "model/federal/executive-leadership.json",
+    "model/federal/executive-departments.json",
+    "model/federal/executive-independent.json",
+    "model/federal/judiciary.json",
+    "model/federal/authorities.json",
+    "model/federal/capabilities.json",
+    "model/federal/relationships.json",
+    "model/federal/sources.json",
+    "model/federal/viewpoints.json"
+  ],
+  "standards": [
+    {
+      "name": "FEAF v2",
+      "usage": "Reference-model family mapping only; no claim that ARFI classifications are official FEAF BRM subcategories"
+    },
+    {
+      "name": "ArchiMate",
+      "usage": "Conceptual interoperability target; no normative conformance claimed"
+    },
+    {
+      "name": "UAF/DoDAF",
+      "usage": "Future specialist viewpoints, not used as authoritative graph syntax"
+    }
+  ],
+  "source_policy": "Official government primary and agency material; public source IDs, date and bounded confidence. Sources document roles, not legal advice.",
+  "publication_contract": {
+    "immutable_snapshot": "Website SHOULD pin Git commit or release tag",
+    "identity": "IDs persist across name changes",
+    "comments": "Public comments bind element IDs and immutable snapshot commit",
+    "storage": "Architecture repository is source of truth; website is renderer and discussion host."
+  }
+}

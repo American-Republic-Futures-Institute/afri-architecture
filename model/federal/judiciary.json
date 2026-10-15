@@ -1,0 +1,164 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "ORG-FED-JUD-SCOTUS",
+      "type": "institution",
+      "name": "Supreme Court of the United States",
+      "kind": "constitutional_court",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Exercises the supreme federal judicial authority in matters within its original or appellate jurisdiction.",
+      "roles": [
+        "constitutional_adjudication",
+        "appellate_review"
+      ],
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-SCOTUS-ABOUT"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-JUD-APPEALS",
+      "type": "institution",
+      "name": "United States Courts of Appeals",
+      "kind": "court_group",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Thirteen courts primarily review district-court judgments and certain federal agency decisions for legal error.",
+      "roles": [
+        "federal_appellate_review"
+      ],
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "status": "observed",
+      "aggregate_count": 13,
+      "aggregate_unit": "courts",
+      "notes": "Twelve regional courts of appeals and the U.S. Court of Appeals for the Federal Circuit; an aggregate, not a single administrative court."
+    },
+    {
+      "id": "ORG-FED-JUD-DISTRICT",
+      "type": "institution",
+      "name": "United States District Courts",
+      "kind": "court_group",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Ninety-four federal trial courts resolve civil and criminal matters within their federal jurisdiction.",
+      "roles": [
+        "federal_trial_adjudication"
+      ],
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "status": "observed",
+      "aggregate_count": 94,
+      "aggregate_unit": "district_courts"
+    },
+    {
+      "id": "ORG-FED-JUD-BANKRUPTCY",
+      "type": "institution",
+      "name": "United States Bankruptcy Courts",
+      "kind": "court_group",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Ninety bankruptcy courts administer proceedings under federal bankruptcy law; bankruptcy courts are units of district courts.",
+      "roles": [
+        "bankruptcy_adjudication"
+      ],
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "status": "observed",
+      "aggregate_count": 90,
+      "aggregate_unit": "bankruptcy_courts",
+      "notes": "Count describes court units, not the 94 federal judicial districts; aggregate parented to judicial branch to avoid inaccurate one-to-one topology."
+    },
+    {
+      "id": "ORG-FED-JUD-CIT",
+      "type": "institution",
+      "name": "United States Court of International Trade",
+      "kind": "specialized_federal_court",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Adjudicates specified customs and international trade disputes under federal law.",
+      "roles": [
+        "trade_adjudication"
+      ],
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-JUD-COFC",
+      "type": "institution",
+      "name": "United States Court of Federal Claims",
+      "kind": "specialized_legislative_court",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Adjudicates specified monetary claims against the United States under its Article I statutory jurisdiction.",
+      "roles": [
+        "claims_adjudication"
+      ],
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "status": "observed",
+      "notes": "An Article I court in the federal judicial administration, not an Article III court; organizational grouping is not a constitutional reclassification."
+    },
+    {
+      "id": "ORG-FED-JUD-AO",
+      "type": "institution",
+      "name": "Administrative Office of the United States Courts",
+      "kind": "judicial_support_agency",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Provides legal, financial, operational, technology, statistical and management support to the federal courts.",
+      "roles": [
+        "judicial_administration"
+      ],
+      "source_ids": [
+        "SRC-USCOURTS-ADMIN",
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-JUD-FJC",
+      "type": "institution",
+      "name": "Federal Judicial Center",
+      "kind": "judicial_support_agency",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Provides research and education to the federal judiciary and supports improved judicial administration.",
+      "roles": [
+        "judicial_education",
+        "judicial_research"
+      ],
+      "source_ids": [
+        "SRC-FJC-ABOUT",
+        "SRC-USCOURTS-ADMIN"
+      ],
+      "status": "observed",
+      "notes": "Does not make or enforce policy for the federal judiciary."
+    },
+    {
+      "id": "ORG-FED-JUD-CONFERENCE",
+      "type": "institution",
+      "name": "Judicial Conference of the United States",
+      "kind": "judicial_governing_body",
+      "branch_id": "BR-FED-JUD",
+      "parent_id": "BR-FED-JUD",
+      "mission": "Serves as the principal national policy-making body concerned with administration of federal courts.",
+      "roles": [
+        "judicial_governance"
+      ],
+      "source_ids": [
+        "SRC-USCOURTS-ADMIN"
+      ],
+      "status": "observed"
+    }
+  ]
+}

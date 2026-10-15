@@ -1,0 +1,58 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "BR-FED-LEG",
+      "type": "branch",
+      "name": "Legislative Branch",
+      "mission": "Exercise federal legislative, appropriations, representation, and oversight powers within constitutional limits.",
+      "role_summary": [
+        "legislation",
+        "representation",
+        "taxation_and_appropriations",
+        "oversight"
+      ],
+      "establishment_basis": "U.S. Constitution, Article I",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "BR-FED-EXE",
+      "type": "branch",
+      "name": "Executive Branch",
+      "mission": "Execute federal law and administer authorized national programs, diplomacy, defense, and public services.",
+      "role_summary": [
+        "execute_law",
+        "executive_administration",
+        "foreign_relations",
+        "commander_in_chief"
+      ],
+      "establishment_basis": "U.S. Constitution, Article II",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "BR-FED-JUD",
+      "type": "branch",
+      "name": "Judicial Branch",
+      "mission": "Exercise the federal judicial power in cases and controversies within constitutionally and statutorily established jurisdiction.",
+      "role_summary": [
+        "adjudication",
+        "legal_interpretation",
+        "judicial_review"
+      ],
+      "establishment_basis": "U.S. Constitution, Article III; lower courts established by Congress",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "status": "observed"
+    }
+  ]
+}

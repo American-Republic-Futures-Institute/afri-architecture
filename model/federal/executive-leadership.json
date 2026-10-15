@@ -1,0 +1,176 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "ORG-FED-EXE-PRESIDENT",
+      "type": "institution",
+      "name": "President of the United States",
+      "kind": "constitutional_office",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Heads the executive branch, implements the laws, conducts executive foreign relations, and serves as Commander in Chief within constitutional limits.",
+      "roles": [
+        "execute_federal_law",
+        "executive_direction",
+        "foreign_relations",
+        "commander_in_chief"
+      ],
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-EXE-VP",
+      "type": "institution",
+      "name": "Vice President of the United States",
+      "kind": "constitutional_office",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Performs presidential succession and constitutional roles as President of the Senate, including casting tie-breaking votes.",
+      "roles": [
+        "presidential_succession",
+        "senate_tie_breaking"
+      ],
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ],
+      "status": "observed",
+      "notes": "Constitutionally straddles executive succession and Senate presiding functions; branch classification is not exclusive to every function."
+    },
+    {
+      "id": "ORG-FED-EXE-EOP",
+      "type": "institution",
+      "name": "Executive Office of the President",
+      "kind": "executive_office",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Supports the President through policy coordination, budget management, national-security advice, and executive administration.",
+      "roles": [
+        "executive_policy_coordination",
+        "presidential_support"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-WH-EOP"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-EXE-EOP-OMB",
+      "type": "institution",
+      "name": "Office of Management and Budget",
+      "kind": "eop_component",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "ORG-FED-EXE-EOP",
+      "mission": "Budget formulation, management and regulatory review support for the President.",
+      "roles": [
+        "budget_planning",
+        "management"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-WH-EOP"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-EXE-EOP-NSC",
+      "type": "institution",
+      "name": "National Security Council",
+      "kind": "eop_component",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "ORG-FED-EXE-EOP",
+      "mission": "Advises and assists the President on national security and foreign-policy integration.",
+      "roles": [
+        "national_security_policy_coordination"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-EXE-EOP-OSTP",
+      "type": "institution",
+      "name": "Office of Science and Technology Policy",
+      "kind": "eop_component",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "ORG-FED-EXE-EOP",
+      "mission": "Provides science and technology policy advice and coordination to the President.",
+      "roles": [
+        "science_technology_policy"
+      ],
+      "source_ids": [
+        "SRC-WH-EOP"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-EXE-EOP-USTR",
+      "type": "institution",
+      "name": "Office of the United States Trade Representative",
+      "kind": "eop_component",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "ORG-FED-EXE-EOP",
+      "mission": "Develops and coordinates U.S. international trade policy and negotiations under presidential direction.",
+      "roles": [
+        "trade_policy"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-EXE-EOP-CEA",
+      "type": "institution",
+      "name": "Council of Economic Advisers",
+      "kind": "eop_component",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "ORG-FED-EXE-EOP",
+      "mission": "Provides economic research and advice to the President.",
+      "roles": [
+        "economic_policy_advice"
+      ],
+      "source_ids": [
+        "SRC-WH-EOP"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-EXE-EOP-ONCD",
+      "type": "institution",
+      "name": "Office of the National Cyber Director",
+      "kind": "eop_component",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "ORG-FED-EXE-EOP",
+      "mission": "Coordinates executive national cybersecurity policy and strategy.",
+      "roles": [
+        "cybersecurity_strategy"
+      ],
+      "source_ids": [
+        "SRC-WH-EOP"
+      ],
+      "status": "observed"
+    },
+    {
+      "id": "ORG-FED-EXE-EOP-CEQ",
+      "type": "institution",
+      "name": "Council on Environmental Quality",
+      "kind": "eop_component",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "ORG-FED-EXE-EOP",
+      "mission": "Advises and coordinates environmental policy and related executive responsibilities.",
+      "roles": [
+        "environmental_policy_coordination"
+      ],
+      "source_ids": [
+        "SRC-WH-EOP"
+      ],
+      "status": "observed"
+    }
+  ]
+}

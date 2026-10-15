@@ -1,0 +1,340 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "ORG-FED-EXE-IND-EPA",
+      "type": "institution",
+      "name": "Environmental Protection Agency",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Implements federal environmental protection statutes and safeguards human health and the environment.",
+      "roles": [
+        "environmental_protection"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.epa.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-NASA",
+      "type": "institution",
+      "name": "National Aeronautics and Space Administration",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Leads civilian aeronautics and space exploration and scientific missions.",
+      "roles": [
+        "civilian_space",
+        "aeronautics_research"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.nasa.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-NSF",
+      "type": "institution",
+      "name": "National Science Foundation",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Supports fundamental scientific research and STEM education through federal funding and programs.",
+      "roles": [
+        "science_research_funding"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.nsf.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-SSA",
+      "type": "institution",
+      "name": "Social Security Administration",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Administers Social Security retirement, survivors, disability and related benefits.",
+      "roles": [
+        "social_insurance"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.ssa.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-GSA",
+      "type": "institution",
+      "name": "General Services Administration",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Provides federal procurement, real property, and shared administrative services.",
+      "roles": [
+        "government_procurement",
+        "federal_property"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.gsa.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-OPM",
+      "type": "institution",
+      "name": "Office of Personnel Management",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Develops and manages federal civilian workforce policies and personnel services.",
+      "roles": [
+        "federal_workforce"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.opm.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-SEC",
+      "type": "institution",
+      "name": "Securities and Exchange Commission",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Protects securities investors, maintains fair and orderly securities markets and facilitates capital formation.",
+      "roles": [
+        "securities_regulation"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "SRC-SEC-MISSION"
+      ],
+      "status": "observed",
+      "homepage": "https://www.sec.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-FTC",
+      "type": "institution",
+      "name": "Federal Trade Commission",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Enforces federal consumer-protection and competition laws within its jurisdiction.",
+      "roles": [
+        "competition_enforcement",
+        "consumer_protection"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "SRC-FTC-MISSION"
+      ],
+      "status": "observed",
+      "homepage": "https://www.ftc.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-FCC",
+      "type": "institution",
+      "name": "Federal Communications Commission",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Regulates interstate and international communications within statutory jurisdiction.",
+      "roles": [
+        "communications_regulation"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.fcc.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-NRC",
+      "type": "institution",
+      "name": "Nuclear Regulatory Commission",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Regulates civilian uses of nuclear materials and facilities for public health, safety and security.",
+      "roles": [
+        "civilian_nuclear_regulation"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.nrc.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-FED",
+      "type": "institution",
+      "name": "Board of Governors of the Federal Reserve System",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Oversees Federal Reserve System functions, participates in monetary policy and supervises aspects of banking and financial stability.",
+      "roles": [
+        "monetary_policy",
+        "banking_supervision"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "SRC-FED-BOARD"
+      ],
+      "status": "observed",
+      "homepage": "https://www.federalreserve.gov/",
+      "notes": "Board is an independent federal body. Executive-branch presentation is a catalog grouping, not a claim of presidential control over monetary policy."
+    },
+    {
+      "id": "ORG-FED-EXE-IND-USPS",
+      "type": "institution",
+      "name": "United States Postal Service",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Provides nationwide postal services under its statutory universal-service and operating framework.",
+      "roles": [
+        "postal_service"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.usps.com/",
+      "notes": "Independent establishment of the executive branch, not a cabinet department."
+    },
+    {
+      "id": "ORG-FED-EXE-IND-SBA",
+      "type": "institution",
+      "name": "Small Business Administration",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Provides loans, counseling, contracting support and disaster-related assistance for eligible small businesses.",
+      "roles": [
+        "small_business_support"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.sba.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-NARA",
+      "type": "institution",
+      "name": "National Archives and Records Administration",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Preserves, manages, and provides access to federal records and historically significant documents.",
+      "roles": [
+        "federal_records",
+        "public_archives"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.archives.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-CIA",
+      "type": "institution",
+      "name": "Central Intelligence Agency",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Collects and analyzes foreign intelligence and conducts other activities as authorized by law.",
+      "roles": [
+        "foreign_intelligence"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.cia.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-ODNI",
+      "type": "institution",
+      "name": "Office of the Director of National Intelligence",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Leads intelligence-community integration and coordination and advises on national intelligence.",
+      "roles": [
+        "intelligence_coordination"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.dni.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-FDIC",
+      "type": "institution",
+      "name": "Federal Deposit Insurance Corporation",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Insures eligible bank deposits, supervises specified institutions and resolves failed insured banks.",
+      "roles": [
+        "deposit_insurance",
+        "bank_resolution"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.fdic.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-IND-CFTC",
+      "type": "institution",
+      "name": "Commodity Futures Trading Commission",
+      "kind": "independent_federal_body",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Oversees U.S. derivatives markets and enforces applicable market protections.",
+      "roles": [
+        "derivatives_regulation"
+      ],
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.cftc.gov/"
+    }
+  ]
+}
