@@ -1815,6 +1815,17 @@
         "SRC-CONST-LATER-AMENDMENTS"
       ],
       "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0166",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-065",
+      "target_id": "ACT-US-PERSONS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "assertion_status": "textual_mapping_candidate"
     }
   ]
 }
