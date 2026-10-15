@@ -11,7 +11,8 @@
       "source_ids": [
         "SRC-CONSTITUTION"
       ],
-      "status": "existing_law"
+      "status": "existing_law",
+      "name": "United States Constitution, Article I"
     },
     {
       "id": "AUTH-US-CONST-ART-II",
@@ -23,7 +24,8 @@
       "source_ids": [
         "SRC-CONSTITUTION"
       ],
-      "status": "existing_law"
+      "status": "existing_law",
+      "name": "United States Constitution, Article II"
     },
     {
       "id": "AUTH-US-CONST-ART-III",
@@ -35,7 +37,8 @@
       "source_ids": [
         "SRC-CONSTITUTION"
       ],
-      "status": "existing_law"
+      "status": "existing_law",
+      "name": "United States Constitution, Article III"
     },
     {
       "id": "AUTH-US-CONST-ART-I-SEC-7",
@@ -47,7 +50,8 @@
       "source_ids": [
         "SRC-CONSTITUTION"
       ],
-      "status": "existing_law"
+      "status": "existing_law",
+      "name": "United States Constitution, Article I, Section 7"
     },
     {
       "id": "AUTH-US-CONST-ART-I-SEC-2-3",
@@ -59,7 +63,8 @@
       "source_ids": [
         "SRC-CONSTITUTION"
       ],
-      "status": "existing_law"
+      "status": "existing_law",
+      "name": "United States Constitution, Article I, Sections 2–3"
     },
     {
       "id": "AUTH-US-CONST-ART-II-SEC-2",
@@ -72,7 +77,8 @@
         "SRC-CONSTITUTION",
         "SRC-SENATE-TREATY"
       ],
-      "status": "existing_law"
+      "status": "existing_law",
+      "name": "United States Constitution, Article II, Section 2"
     }
   ]
 }
