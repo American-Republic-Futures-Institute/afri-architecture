@@ -16,11 +16,16 @@
       "norm_id": "NORM-US-CONST-AMD-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-01-U-01",
+        "AMD-QUAL-SPECIAL-FIRST-CONGRESS-NO-LAW"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0001"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0001"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -44,11 +49,15 @@
       "norm_id": "NORM-US-CONST-AMD-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-01-U-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0002"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0002"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -72,11 +81,15 @@
       "norm_id": "NORM-US-CONST-AMD-01-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-01-U-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0003"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0003"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -100,11 +113,15 @@
       "norm_id": "NORM-US-CONST-AMD-01-SEG-04",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-01-U-04"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0004"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0004"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -128,11 +145,15 @@
       "norm_id": "NORM-US-CONST-AMD-01-SEG-05",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-01-U-05"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0005"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0005"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -156,11 +177,15 @@
       "norm_id": "NORM-US-CONST-AMD-01-SEG-06",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-01-U-06"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0006"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0006"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -184,11 +209,16 @@
       "norm_id": "NORM-US-CONST-AMD-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-02-U-01",
+        "AMD-QUAL-SPECIAL-SECOND-MILITIA-CONTEXT"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0007"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0007"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -212,11 +242,15 @@
       "norm_id": "NORM-US-CONST-AMD-02-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-02-U-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0008"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0008"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -240,11 +274,16 @@
       "norm_id": "NORM-US-CONST-AMD-03-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-03-U-01",
+        "AMD-QUAL-SPECIAL-THIRD-OWNER-CONSENT"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0009"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0009"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -268,11 +307,16 @@
       "norm_id": "NORM-US-CONST-AMD-03-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-03-U-02",
+        "AMD-QUAL-SPECIAL-THIRD-WAR-LAW"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0010"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0010"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -296,11 +340,15 @@
       "norm_id": "NORM-US-CONST-AMD-04-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-04-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0011"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0011"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -324,11 +372,16 @@
       "norm_id": "NORM-US-CONST-AMD-04-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-04-U-02",
+        "AMD-QUAL-SPECIAL-FOURTH-WARRANT-OATH"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0012"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0012"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -352,11 +405,16 @@
       "norm_id": "NORM-US-CONST-AMD-04-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-04-U-03",
+        "AMD-QUAL-SPECIAL-FOURTH-WARRANT-PARTICULARITY"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0013"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0013"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -380,11 +438,15 @@
       "norm_id": "NORM-US-CONST-AMD-05-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-05-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0014"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0014"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -408,11 +470,16 @@
       "norm_id": "NORM-US-CONST-AMD-05-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-05-U-02",
+        "AMD-QUAL-SPECIAL-FIFTH-MILITARY-GRAND-JURY"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0015"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0015"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -436,11 +503,15 @@
       "norm_id": "NORM-US-CONST-AMD-05-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-05-U-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0016"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0016"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -464,11 +535,15 @@
       "norm_id": "NORM-US-CONST-AMD-05-SEG-04",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-05-U-04"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0017"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0017"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -492,11 +567,15 @@
       "norm_id": "NORM-US-CONST-AMD-05-SEG-05",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-05-U-05"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0018"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0018"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -520,11 +599,16 @@
       "norm_id": "NORM-US-CONST-AMD-05-SEG-06",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-05-U-06",
+        "AMD-QUAL-SPECIAL-FIFTH-FEDERAL-STATE-DISTINCTION"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0019"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0019"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -548,11 +632,15 @@
       "norm_id": "NORM-US-CONST-AMD-05-SEG-07",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-05-U-07"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0020"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0020"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -576,11 +664,15 @@
       "norm_id": "NORM-US-CONST-AMD-06-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-06-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0021"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0021"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -604,11 +696,15 @@
       "norm_id": "NORM-US-CONST-AMD-06-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-06-U-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0022"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0022"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -632,11 +728,16 @@
       "norm_id": "NORM-US-CONST-AMD-06-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-06-U-03",
+        "AMD-QUAL-SPECIAL-SIXTH-JURY-DISTRICT"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0023"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0023"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -660,11 +761,15 @@
       "norm_id": "NORM-US-CONST-AMD-06-SEG-04",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-06-U-04"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0024"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0024"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -688,11 +793,15 @@
       "norm_id": "NORM-US-CONST-AMD-06-SEG-05",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-06-U-05"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0025"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0025"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -716,11 +825,15 @@
       "norm_id": "NORM-US-CONST-AMD-06-SEG-06",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-06-U-06"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0026"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0026"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -744,11 +857,15 @@
       "norm_id": "NORM-US-CONST-AMD-06-SEG-07",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-06-U-07"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0027"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0027"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -772,11 +889,16 @@
       "norm_id": "NORM-US-CONST-AMD-07-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-07-U-01",
+        "AMD-QUAL-SPECIAL-SEVENTH-COMMON-LAW-THRESHOLD"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0028"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0028"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -800,11 +922,16 @@
       "norm_id": "NORM-US-CONST-AMD-07-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-07-U-02",
+        "AMD-QUAL-SPECIAL-SEVENTH-FEDERAL-CIVIL-COURTS"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0029"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0029"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -828,11 +955,15 @@
       "norm_id": "NORM-US-CONST-AMD-08-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-08-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0030"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0030"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -856,11 +987,15 @@
       "norm_id": "NORM-US-CONST-AMD-08-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-08-U-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0031"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0031"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -884,11 +1019,15 @@
       "norm_id": "NORM-US-CONST-AMD-08-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-08-U-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0032"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0032"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -912,11 +1051,16 @@
       "norm_id": "NORM-US-CONST-AMD-09-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-09-U-01",
+        "AMD-QUAL-SPECIAL-NINTH-UNENUMERATED-RIGHTS"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0033"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0033"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -940,11 +1084,16 @@
       "norm_id": "NORM-US-CONST-AMD-10-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-10-U-01",
+        "AMD-QUAL-SPECIAL-TENTH-STATE-PEOPLE"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0034"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0034"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -968,11 +1117,15 @@
       "norm_id": "NORM-US-CONST-AMD-10-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-10-U-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0035"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0035"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -996,11 +1149,15 @@
       "norm_id": "NORM-US-CONST-AMD-11-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-11-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0036"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0036"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1024,11 +1181,16 @@
       "norm_id": "NORM-US-CONST-AMD-11-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-11-U-02",
+        "AMD-QUAL-SPECIAL-ELEVENTH-SUIT-CLAIMANTS"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0037"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0037"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1052,11 +1214,15 @@
       "norm_id": "NORM-US-CONST-AMD-12-SEG-01",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-12-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0038"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0038"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1080,11 +1246,15 @@
       "norm_id": "NORM-US-CONST-AMD-12-SEG-02",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-12-U-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0039"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0039"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1108,11 +1278,15 @@
       "norm_id": "NORM-US-CONST-AMD-12-SEG-03",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-12-U-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0040"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0040"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1136,11 +1310,16 @@
       "norm_id": "NORM-US-CONST-AMD-12-SEG-04",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-12-U-04",
+        "AMD-QUAL-SPECIAL-TWELFTH-COUNTING-REGULATION"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0041"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0041"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1164,11 +1343,15 @@
       "norm_id": "NORM-US-CONST-AMD-12-SEG-05",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-12-U-05"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0042"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0042"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1192,11 +1375,16 @@
       "norm_id": "NORM-US-CONST-AMD-12-SEG-06",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-12-U-06",
+        "AMD-QUAL-SPECIAL-TWELFTH-HOUSE-QUORUM"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0043"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0043"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1220,11 +1408,16 @@
       "norm_id": "NORM-US-CONST-AMD-12-SEG-07",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-12-U-07",
+        "AMD-QUAL-SPECIAL-TWELFTH-SENATE-QUORUM"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0044"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0044"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1248,11 +1441,15 @@
       "norm_id": "NORM-US-CONST-AMD-12-SEG-08",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-12-U-08"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0045"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0045"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1276,11 +1473,15 @@
       "norm_id": "NORM-US-CONST-AMD-13-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-13-S01-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0046"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0046"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1304,11 +1505,16 @@
       "norm_id": "NORM-US-CONST-AMD-13-SEC-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-13-S01-02",
+        "AMD-QUAL-SPECIAL-THIRTEENTH-DULY-CONVICTED"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0047"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0047"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1332,11 +1538,15 @@
       "norm_id": "NORM-US-CONST-AMD-13-SEC-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-13-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0048"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0048"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1360,11 +1570,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0049"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0049"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1388,11 +1602,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0050"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0050"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1416,11 +1634,16 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-03",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-CITIZEN-PERSON-DISTINCTION"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0051"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0051"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1444,11 +1667,16 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-04",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-04",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-PERSON-DUE-PROCESS"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0052"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0052"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1472,11 +1700,16 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-05",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S01-05",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-PERSON-EQUAL-PROTECTION"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0053"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0053"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1500,11 +1733,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-01",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0054"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0054"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1528,7 +1765,9 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-02",
       "effect_status": "expired",
       "lifecycle_state": "historical_transition_completed",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0055"
       ],
@@ -1556,11 +1795,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-03",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0056"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0055"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1584,7 +1827,10 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-04",
       "effect_status": "expired",
       "lifecycle_state": "historical_transition_completed",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-04",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-APPORTIONMENT-AGE"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0057"
       ],
@@ -1612,11 +1858,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-05",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S02-05"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0058"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0056"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1640,11 +1890,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S03-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0059"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0057"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1668,11 +1922,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S03-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0060"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0058"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1696,11 +1954,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S03-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0061"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0059"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1724,11 +1986,16 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-04",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S03-04",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-DISABILITY-TWO-THIRDS"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0062"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0060"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1752,11 +2019,16 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S04-01",
+        "AMD-QUAL-SPECIAL-FOURTEENTH-PUBLIC-DEBT-LAWFUL"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0063"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0061"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1780,11 +2052,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S04-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0064"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0062"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1808,11 +2084,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S04-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0065"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0063"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1836,11 +2116,15 @@
       "norm_id": "NORM-US-CONST-AMD-14-SEC-05-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-14-S05-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0066"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0064"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1864,11 +2148,16 @@
       "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-15-S01-01",
+        "AMD-QUAL-SPECIAL-FIFTEENTH-STATE-FEDERAL"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0067"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0065"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1892,11 +2181,15 @@
       "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-15-S01-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0068"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0066"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1920,11 +2213,15 @@
       "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-15-S01-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0069"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0067"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1948,11 +2245,15 @@
       "norm_id": "NORM-US-CONST-AMD-15-SEC-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-15-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0070"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0068"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -1976,11 +2277,15 @@
       "norm_id": "NORM-US-CONST-AMD-16-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-16-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0071"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0069"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2004,11 +2309,16 @@
       "norm_id": "NORM-US-CONST-AMD-16-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-16-U-02",
+        "AMD-QUAL-SPECIAL-SIXTEENTH-INCOME-APPORTIONMENT"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0072"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0070"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2032,11 +2342,15 @@
       "norm_id": "NORM-US-CONST-AMD-17-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-17-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0073"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0071"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2060,11 +2374,15 @@
       "norm_id": "NORM-US-CONST-AMD-17-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-17-U-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0074"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0072"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2088,11 +2406,15 @@
       "norm_id": "NORM-US-CONST-AMD-17-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-17-U-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0075"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0073"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2116,11 +2438,16 @@
       "norm_id": "NORM-US-CONST-AMD-17-SEG-04",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-17-U-04",
+        "AMD-QUAL-SPECIAL-SEVENTEENTH-STATE-TEMPORARY-APPOINTMENT"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0076"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0074"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2144,7 +2471,9 @@
       "norm_id": "NORM-US-CONST-AMD-17-SEG-05",
       "effect_status": "expired",
       "lifecycle_state": "historical_transition_completed",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-17-U-05"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0077"
       ],
@@ -2172,7 +2501,10 @@
       "norm_id": "NORM-US-CONST-AMD-18-SEC-01-SEG-01",
       "effect_status": "repealed",
       "lifecycle_state": "repealed_historical",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-18-S01-01",
+        "AMD-QUAL-SPECIAL-EIGHTEENTH-REPEALED"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0078"
       ],
@@ -2200,7 +2532,10 @@
       "norm_id": "NORM-US-CONST-AMD-18-SEC-01-SEG-02",
       "effect_status": "repealed",
       "lifecycle_state": "repealed_historical",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-18-S01-02",
+        "AMD-QUAL-SPECIAL-EIGHTEENTH-DELAYED"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0079"
       ],
@@ -2228,7 +2563,9 @@
       "norm_id": "NORM-US-CONST-AMD-18-SEC-02-SEG-01",
       "effect_status": "repealed",
       "lifecycle_state": "repealed_historical",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-18-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0080"
       ],
@@ -2256,7 +2593,9 @@
       "norm_id": "NORM-US-CONST-AMD-18-SEC-03-SEG-01",
       "effect_status": "repealed",
       "lifecycle_state": "repealed_historical",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-18-S03-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0081"
       ],
@@ -2284,11 +2623,15 @@
       "norm_id": "NORM-US-CONST-AMD-19-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-19-U-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0082"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0075"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2312,11 +2655,15 @@
       "norm_id": "NORM-US-CONST-AMD-19-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-19-U-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0083"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0076"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2340,11 +2687,16 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S01-01",
+        "AMD-QUAL-SPECIAL-TWENTIETH-SECTION-ONE-DELAY"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0084"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0077"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2368,11 +2720,15 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S01-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0085"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0078"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2396,11 +2752,16 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S02-01",
+        "AMD-QUAL-SPECIAL-TWENTIETH-SECTION-TWO-DELAY"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0086"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0079"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2424,11 +2785,15 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-02-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S02-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0087"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0080"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2452,11 +2817,15 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-01",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S03-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0088"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0081"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2480,11 +2849,15 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-02",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S03-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0089"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0082"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2508,11 +2881,15 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-03",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S03-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0090"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0083"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2536,11 +2913,15 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-04",
       "effect_status": "modified_in_part",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S03-04"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0091"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0084"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2564,11 +2945,15 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-04-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S04-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0092"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0085"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2592,11 +2977,15 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-04-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S04-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0093"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0086"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2620,7 +3009,9 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-05-SEG-01",
       "effect_status": "expired",
       "lifecycle_state": "historical_transition_completed",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S05-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0094"
       ],
@@ -2648,7 +3039,10 @@
       "norm_id": "NORM-US-CONST-AMD-20-SEC-06-SEG-01",
       "effect_status": "expired",
       "lifecycle_state": "historical_transition_completed",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-20-S06-01",
+        "AMD-QUAL-SPECIAL-TWENTIETH-TRANSITION-PREREQUISITE"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0095"
       ],
@@ -2676,11 +3070,16 @@
       "norm_id": "NORM-US-CONST-AMD-21-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-21-S01-01",
+        "AMD-QUAL-SPECIAL-TWENTYFIRST-REPEALS-EIGHTEENTH"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0096"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0087"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2704,11 +3103,16 @@
       "norm_id": "NORM-US-CONST-AMD-21-SEC-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-21-S02-01",
+        "AMD-QUAL-SPECIAL-TWENTYFIRST-STATE-LAW-BOUNDARY"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0097"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0088"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2732,7 +3136,10 @@
       "norm_id": "NORM-US-CONST-AMD-21-SEC-03-SEG-01",
       "effect_status": "expired",
       "lifecycle_state": "historical_transition_completed",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-21-S03-01",
+        "AMD-QUAL-SPECIAL-TWENTYFIRST-CONVENTION-RATIFICATION"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0098"
       ],
@@ -2760,11 +3167,15 @@
       "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-22-S01-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0099"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0089"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2788,11 +3199,16 @@
       "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-22-S01-02",
+        "AMD-QUAL-SPECIAL-TWENTYSECOND-MORE-THAN-TWO-YEARS"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0100"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0090"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2816,7 +3232,10 @@
       "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-03",
       "effect_status": "expired",
       "lifecycle_state": "historical_transition_completed",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-22-S01-03",
+        "AMD-QUAL-SPECIAL-TWENTYSECOND-GRANDFATHER"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0101"
       ],
@@ -2844,7 +3263,9 @@
       "norm_id": "NORM-US-CONST-AMD-22-SEC-02-SEG-01",
       "effect_status": "expired",
       "lifecycle_state": "historical_transition_completed",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-22-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0102"
       ],
@@ -2872,11 +3293,15 @@
       "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-23-S01-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0103"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0091"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2900,11 +3325,16 @@
       "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-23-S01-02",
+        "AMD-QUAL-SPECIAL-TWENTYTHIRD-DC-ELECTORS-CAP"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0104"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0092"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2928,11 +3358,15 @@
       "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-23-S01-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0105"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0093"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2956,11 +3390,15 @@
       "norm_id": "NORM-US-CONST-AMD-23-SEC-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-23-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0106"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0094"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -2984,11 +3422,15 @@
       "norm_id": "NORM-US-CONST-AMD-24-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-24-S01-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0107"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0095"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3012,11 +3454,16 @@
       "norm_id": "NORM-US-CONST-AMD-24-SEC-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-24-S01-02",
+        "AMD-QUAL-SPECIAL-TWENTYFOURTH-FEDERAL-OFFICES"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0108"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0096"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3040,11 +3487,15 @@
       "norm_id": "NORM-US-CONST-AMD-24-SEC-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-24-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0109"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0097"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3068,11 +3519,15 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S01-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0110"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0098"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3096,11 +3551,15 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0111"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0099"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3124,11 +3583,16 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-02-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S02-02",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-VP-MAJORITY-BOTH-HOUSES"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0112"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0100"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3152,11 +3616,15 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S03-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0113"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0101"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3180,11 +3648,15 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S03-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0114"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0102"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3208,11 +3680,15 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S03-03"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0115"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0103"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3236,11 +3712,15 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0116"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0104"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3264,11 +3744,15 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0117"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0105"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3292,11 +3776,16 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-03",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-03",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-FOUR-DAY"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0118"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0106"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3320,11 +3809,16 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-04",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-04",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-FORTYEIGHT-HOUR"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0119"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0107"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3348,11 +3842,16 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-05",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-05",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-TWENTYONE-DAY"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0120"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0108"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3376,11 +3875,16 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-06",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-06",
+        "AMD-QUAL-SPECIAL-TWENTYFIFTH-TWO-THIRDS-BOTH-HOUSES"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0121"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0109"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3404,11 +3908,15 @@
       "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-07",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-25-S04-07"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0122"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0110"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3432,11 +3940,16 @@
       "norm_id": "NORM-US-CONST-AMD-26-SEC-01-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-26-S01-01",
+        "AMD-QUAL-SPECIAL-TWENTYSIXTH-AGE-EIGHTEEN"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0123"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0111"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3460,11 +3973,15 @@
       "norm_id": "NORM-US-CONST-AMD-26-SEC-01-SEG-02",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-26-S01-02"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0124"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0112"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3488,11 +4005,15 @@
       "norm_id": "NORM-US-CONST-AMD-26-SEC-02-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-26-S02-01"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0125"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0113"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -3516,11 +4037,16 @@
       "norm_id": "NORM-US-CONST-AMD-27-SEG-01",
       "effect_status": "operative",
       "lifecycle_state": "current_operational",
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AMD-QUAL-27-U-01",
+        "AMD-QUAL-SPECIAL-TWENTYSEVENTH-HOUSE-ELECTION"
+      ],
       "effect_link_ids": [
         "AMD-EFFECT-0126"
       ],
-      "capability_link_ids": [],
+      "capability_link_ids": [
+        "AMD-CAP-0114"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],

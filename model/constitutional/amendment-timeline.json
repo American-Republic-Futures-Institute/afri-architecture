@@ -724,7 +724,7 @@
       "provision_id": "CONST-US-AMD-17",
       "event_kind": "original_senator_transition",
       "applies_on": "1913-04-08",
-      "summary": "The Twenty-Seventh Amendment's predecessor, the Seventeenth, protected terms of Senators already chosen before its ratification.",
+      "summary": "The Seventeenth Amendment protected the election or term of any Senator chosen before its ratification. This was a finite historical transition.",
       "temporal_scope": "historical_or_operative_as_specified",
       "source_ids": [
         "SRC-NARA-AMENDMENTS-11-27"
