@@ -1748,6 +1748,635 @@
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
       "qualifications": "Historical-only provision; cannot be asserted as a present enforceable obligation."
+    },
+    {
+      "id": "NORM-US-CONST-AI-02-01-ELECTIONS",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Biennial House elections",
+      "summary": "Members of the House are chosen every second year by the people of the states.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-02-01-ELECTOR-QUALIFICATIONS",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "House electorate qualification reference",
+      "summary": "State House-election electors must possess the qualifications required for electors of the state's most numerous legislative branch.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-02-02-ELIGIBILITY",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "House membership eligibility",
+      "summary": "Representatives must be at least 25, citizens for seven years, and inhabitants of the electing state when elected.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-02-03-APPORTIONMENT",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "House apportionment and decennial enumeration",
+      "summary": "Apportionment includes an enumeration within ten-year intervals and at least one Representative for each state; original population formula was modified by later amendments.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-02-03-HISTORIC",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Superseded three-fifths population formula",
+      "summary": "Original apportionment included a three-fifths formula made inoperative by subsequent constitutional change.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-03"
+      ],
+      "effect_status": "superseded",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-02-04-VACANCIES",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "House vacancy election writ",
+      "summary": "The executive authority of a state must issue writs of election to fill a House vacancy.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-02-05-OFFICERS",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "House selection of Speaker and officers",
+      "summary": "The House chooses its Speaker and other officers.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-03-01-COMPOSITION",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Two Senators per state and equal voting",
+      "summary": "The Senate comprises two Senators per state serving six-year terms with one vote each; original selection method was replaced.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-03-02-CLASSES",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Senate staggered classes",
+      "summary": "Senate seats are arranged in three classes so that approximately one third of seats are contested every second year.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-03-03-ELIGIBILITY",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Senate membership eligibility",
+      "summary": "Senators must be at least 30 years old, citizens for nine years, and inhabitants of their state when elected.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-03-04-VP-PRESIDING",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Vice President Senate presidency and tie vote",
+      "summary": "The Vice President is President of the Senate but may vote only when the Senate is equally divided.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-03-05-OFFICERS",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Senate choice of officers and president pro tempore",
+      "summary": "The Senate chooses its officers and a president pro tempore when the Vice President is absent or exercises the Presidency.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-03-06-TRIAL-PROCEDURE",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Senate impeachment trial procedures",
+      "summary": "Senate impeachment trials require oath or affirmation, Chief Justice presidency for trials of the President, and two-thirds concurrence of members present for conviction.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-06"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-03-07-JUDGMENT-LIMIT",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Limited impeachment judgment",
+      "summary": "Impeachment judgment can extend only to removal and disqualification; a convicted party remains subject to separate lawful criminal process.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-07"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-04-01-STATE-ELECTIONS",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "State regulation of congressional elections",
+      "summary": "State legislatures prescribe congressional-election time, place and manner subject to Congress's constitutionally provided power to alter.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-04-01-CONGRESS-ELECTIONS",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional alteration of election rules",
+      "summary": "Congress may by law make or alter constitutionally specified state regulations for congressional elections.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-04-02-ASSEMBLY",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Annual congressional assembly",
+      "summary": "Congress must assemble at least once each year; the default meeting date was later changed by the Twentieth Amendment.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-05-01-JUDGE",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Each House judges elections and qualifications",
+      "summary": "Each chamber judges the election, returns and qualifications of its own members.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-05-01-QUORUM",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Chamber quorum and minority attendance procedures",
+      "summary": "A majority of each chamber constitutes a business quorum; a smaller number may adjourn daily and compel absent members under its rules.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-05-02-RULES",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Each House determines internal rules",
+      "summary": "Each chamber determines the rules of its proceedings and may discipline members for disorderly behavior.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-05-02-EXPULSION",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Member expulsion with two-thirds concurrence",
+      "summary": "Each chamber may expel a member with the concurrence of two-thirds of its members.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-05-03-JOURNALS",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Chamber journal publication and recorded votes",
+      "summary": "Each chamber keeps a journal, publishes its proceedings subject to a secrecy exception, and enters yeas and nays on demand of one-fifth of those present.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-05-04-ADJOURNMENT",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Inter-chamber consent to lengthy adjournment",
+      "summary": "Neither chamber may adjourn beyond three days or change session place without the other's consent while Congress is in session.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-06-01-COMPENSATION",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Legislative compensation fixed by law",
+      "summary": "Senators and Representatives receive compensation determined by law and paid from the Treasury, subject to the Twenty-Seventh Amendment's timing rule.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-06-01-PRIVILEGE",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Arrest privilege during legislative travel and attendance",
+      "summary": "Members are privileged from arrest during attendance and travel, subject to constitutional enumerated exceptions.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-06-01-DEBATE",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Speech or Debate protection for legislative activity",
+      "summary": "For speech or debate in either chamber, members may not be questioned elsewhere.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-06-02-INELIGIBILITY",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Term-based ineligibility for created or enriched civil offices",
+      "summary": "A member may not during the elected term be appointed to a civil office established or with emoluments increased during that term.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-06-02-INCOMPATIBILITY",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Simultaneous service in Congress and federal office",
+      "summary": "A person holding an office under the United States may not simultaneously be a member of either chamber.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-07-03-RESOLUTION",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Presentment of legislative orders and resolutions",
+      "summary": "Qualifying concurrent orders, resolutions or votes receive presidential presentment; questions of adjournment are expressly excepted.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-08-04-UNIFORM",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Uniform naturalization and bankruptcy",
+      "summary": "Naturalization rules and bankruptcy laws under this power must be uniform.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-08-08-LIMITED",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Time-limited authors' and inventors' rights",
+      "summary": "The exclusive rights provided under the Intellectual Property Clause must be limited in time and tied to the enumerated subject matter and purpose.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-08"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-09-01-HISTORICAL",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Expired pre-1808 importation prohibition",
+      "summary": "The original Article I § 9 restriction on forbidding specified migration/importation expired by its own date; it is historical rather than current authority.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-01"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-09-04-APPORTION",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Direct-tax apportionment subject to Sixteenth Amendment",
+      "summary": "Direct taxes are subject to apportionment except that the Sixteenth Amendment permits income taxation without apportionment.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-04"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-09-06-PORTS",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No preferences for state ports",
+      "summary": "Federal commerce and revenue regulation may not prefer ports of one state or compel specified clearances and duty payments in another state.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-06"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Textual summary only; amendment qualifications and controlling doctrine must be evaluated separately.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-09-08-CONSENT",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional consent to certain foreign gifts and benefits",
+      "summary": "Congress may consent to covered federal officeholders accepting specified presents, emoluments, offices or titles from foreign sovereigns.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-08"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-10-02-CONSENT",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional consent to state import/export duties",
+      "summary": "Congress may consent to specified state import/export duties, subject to clause-specific inspection, accounting and federal revision rules.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AI-10-03-CONSENT",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional consent to state tonnage duties and compacts",
+      "summary": "Congress may give consent where Article I § 10 requires it for state tonnage duties, military arrangements or interstate/international compacts.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
+      "article_i_increment": "2026-10-15"
     }
   ]
 }

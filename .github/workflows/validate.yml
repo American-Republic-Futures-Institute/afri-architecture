@@ -31,3 +31,7 @@ jobs:
         run: node scripts/validate-constitution.mjs
       - name: Run constitutional model regression tests
         run: node --test tests/constitutional.test.mjs
+      - name: Validate complete Article I authority and constraints
+        run: node scripts/validate-article-i.mjs
+      - name: Test Article I authority, limitations and capabilities
+        run: node --test tests/article-i.test.mjs

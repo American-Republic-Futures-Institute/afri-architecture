@@ -243,6 +243,15 @@
       "kind": "official_constitutional_analysis",
       "scope": "Article I section 8 clause 1 textual grant and doctrinal qualifications",
       "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-ARTICLE-I",
+      "title": "Overview of Article I, Legislative Branch",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/artI-1/ALDE_00000242/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Article I structural overview and authoritative topical location reference; interpretation must not be represented as primary text",
+      "accessed_on": "2026-10-15"
     }
   ]
 }

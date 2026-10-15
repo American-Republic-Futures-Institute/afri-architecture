@@ -1,0 +1,284 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI-COA Article I textual authority and capability linkage schemas",
+  "description": "Portable contract for the three Article I model collections. Runtime semantic validation is performed by scripts/validate-article-i.mjs.",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z0-9-]+$"
+    },
+    "stringRefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "clause": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "section",
+        "clause",
+        "provision_id",
+        "name",
+        "summary",
+        "current_effect_status",
+        "norm_ids",
+        "qualification_ids",
+        "capability_link_ids",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AI-CL-[0-9]{2}-[0-9]{2}$"
+        },
+        "type": {
+          "const": "article_i_clause_analysis"
+        },
+        "section": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "clause": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 18
+        },
+        "provision_id": {
+          "type": "string",
+          "pattern": "^CONST-US-ART-01-SEC-"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 3
+        },
+        "current_effect_status": {
+          "enum": [
+            "operative",
+            "modified_in_part",
+            "expired"
+          ]
+        },
+        "norm_ids": {
+          "$ref": "#/$defs/stringRefs"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/stringRefs"
+        },
+        "capability_link_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "$ref": "#/$defs/stringRefs"
+        },
+        "review_status": {
+          "const": "textual_summary_pending_legal_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualification": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "kind",
+        "name",
+        "summary",
+        "origin",
+        "source_provision_ids",
+        "applies_to_norm_ids",
+        "effect_status",
+        "legal_review_status",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AI-QUAL-"
+        },
+        "type": {
+          "const": "article_i_qualification"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 12
+        },
+        "origin": {
+          "enum": [
+            "original_text",
+            "amendment_overlay"
+          ]
+        },
+        "source_provision_ids": {
+          "$ref": "#/$defs/stringRefs"
+        },
+        "applies_to_norm_ids": {
+          "$ref": "#/$defs/stringRefs"
+        },
+        "effect_status": {
+          "enum": [
+            "operative",
+            "amendment_modified",
+            "historical_only"
+          ]
+        },
+        "legal_review_status": {
+          "const": "textual_mapping_pending_review"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/stringRefs"
+        },
+        "related_actor_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "alignment": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "power_norm_id",
+        "capability_id",
+        "qualification_ids",
+        "relationship_type",
+        "rationale",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AI-CAP-[0-9]{4}$"
+        },
+        "type": {
+          "const": "article_i_capability_alignment"
+        },
+        "power_norm_id": {
+          "type": "string",
+          "pattern": "^NORM-US-CONST-"
+        },
+        "capability_id": {
+          "type": "string",
+          "pattern": "^CAP-FED-"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/stringRefs"
+        },
+        "relationship_type": {
+          "const": "functional_alignment_not_delegation"
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 15
+        },
+        "source_ids": {
+          "$ref": "#/$defs/stringRefs"
+        },
+        "review_status": {
+          "const": "research_mapping_pending_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "clausesCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/clause"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualificationsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/qualification"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "alignmentsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/alignment"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/clausesCollection"
+    },
+    {
+      "$ref": "#/$defs/qualificationsCollection"
+    },
+    {
+      "$ref": "#/$defs/alignmentsCollection"
+    }
+  ]
+}
