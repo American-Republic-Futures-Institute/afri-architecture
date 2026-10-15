@@ -67,3 +67,9 @@ The Constitution Annotated is used to distinguish primary text, history and judi
 Every one of Article I's 53 original clauses now has a `AI-CL-*` analysis referenced to a canonical `CONST-US-ART-01-*` provision ID. `AI-QUAL-*` records specify discrete text-derived conditions, exceptions, prohibitions, qualifications, temporal changes and reserved state roles; their `applies_to_norm_ids` establish explicit, narrow applicability. `AI-CAP-*` align Congress-specific operative powers to `CAP-FED-*` as **functional alignment only**, never agency delegation or a claim that an executive department has constitutional power without a statute.
 
 Review [ARTICLE-I-ARCHITECTURE.md](ARTICLE-I-ARCHITECTURE.md) for the authoritative source hierarchy, coverage, legal-status distinctions and regression gates. Do not import case-law doctrines as though they were the Constitution's literal text.
+
+## Article II: source clauses versus semantic functions
+
+**Do not fabricate Article II §3 clause numbers.** Article II §1 has eight conventionally numbered clauses; §2 has three. §3 is a single original text section whose five functional spans have analytic IDs `CONST-US-ART-02-SEC-03-SEG-01..05` with unit type `article_section_segment` and **section-level** citations. §4 is preserved as a section-level impeachment/removal unit. All original norm IDs remain stable.
+
+The `AII-QUAL-*` registry binds explicit constitutional limits to applicable individual norms, including amendment overlays from XII, XIV, XX, XXII, XXIII and XXV and references to Article I `AI-QUAL-*` checks. `AII-CAP-*` remains functional alignment only, not a presidential or administrative statutory delegation. See [ARTICLE-II-ARCHITECTURE.md](ARTICLE-II-ARCHITECTURE.md).

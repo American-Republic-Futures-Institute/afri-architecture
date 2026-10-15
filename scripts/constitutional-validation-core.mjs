@@ -1,5 +1,5 @@
 // Pure constitutional-model integrity checker. No rendering or network I/O.
-const ALLOWED_UNITS = new Set(["constitution","preamble","article","article_section","article_clause","amendment","amendment_section"]);
+const ALLOWED_UNITS = new Set(["constitution","preamble","article","article_section","article_clause","article_section_segment","amendment","amendment_section"]);
 const ALLOWED_EFFECTS = new Set(["operative","mixed","modified_in_part","superseded","repealed","expired","interpretive_context"]);
 const ALLOWED_KINDS = new Set(["power","duty","prohibition","right","structural_allocation","procedure","jurisdiction","eligibility","reservation","limitation","historic_repealed"]);
 const ALLOWED_BINDINGS = new Set(["confers_power_on","imposes_duty_on","restricts","protects","assigns_function_to","affects_jurisdiction_of","defines_eligibility_for","reserves_power_to"]);
@@ -53,6 +53,7 @@ export function validateConstitutionCatalog(catalog){
   if(p.unit==="amendment" && p.parent_id!=="CONST-US")push("Amendment not under document: "+p.id);
   if(p.unit==="article_section" && provisions.get(p.parent_id)?.unit!=="article")push("Article section with invalid parent "+p.id);
   if(p.unit==="article_clause" && !["article_section","article"].includes(provisions.get(p.parent_id)?.unit))push("Article clause with invalid parent "+p.id);
+  if(p.unit==="article_section_segment" && provisions.get(p.parent_id)?.unit!=="article_section")push("Article segment has invalid parent "+p.id);
   if(p.unit==="amendment_section" && provisions.get(p.parent_id)?.unit!=="amendment")push("Amendment section invalid parent "+p.id);
   if(p.unit==="amendment" && !validateDate(p.ratified_on))push("Amendment missing valid ratification date "+p.id);
   const traversed=new Set([p.id]);let next=p.parent_id;

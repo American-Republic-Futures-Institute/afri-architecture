@@ -136,7 +136,7 @@
       "affected_provision_ids": [
         "CONST-US-ART-02-SEC-01-CL-06"
       ],
-      "description": "Twenty-Fifth Amendment provides operative succession and disability procedures in relation to original Article II text.",
+      "description": "Twenty-Fifth Amendment Sections 1–4 clarify presidential succession, vice-presidential vacancies and temporary or contested presidential inability; distinct routes and voting thresholds remain separately qualified.",
       "status": "ratified_record",
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
@@ -151,6 +151,63 @@
         "CONST-US-AMD-14-SEC-02"
       ],
       "description": "Twenty-Sixth Amendment modifies the earlier age-related voting reference in Fourteenth Amendment apportionment language.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-31",
+      "type": "constitutional_change",
+      "change_kind": "adds_presidential_term_start_rule",
+      "amending_provision_id": "CONST-US-AMD-20-SEC-01",
+      "affected_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01"
+      ],
+      "description": "Twentieth Amendment Section 1 fixes the start and end of presidential and vice-presidential terms at noon on January 20 without ending the four-year term.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-32",
+      "type": "constitutional_change",
+      "change_kind": "limits_presidential_elections",
+      "amending_provision_id": "CONST-US-AMD-22-SEC-01",
+      "affected_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "description": "Twenty-Second Amendment creates limits on election to the presidency; it does not erase Article II's eligibility clauses.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-33",
+      "type": "constitutional_change",
+      "change_kind": "extends_elector_representation_to_district",
+      "amending_provision_id": "CONST-US-AMD-23-SEC-01",
+      "affected_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02"
+      ],
+      "description": "Twenty-Third Amendment supplements presidential electors with District of Columbia electors subject to its own limits.",
+      "status": "ratified_record",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CHG-US-CONST-34",
+      "type": "constitutional_change",
+      "change_kind": "supplements_presidential_transition",
+      "amending_provision_id": "CONST-US-AMD-20-SEC-03",
+      "affected_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06"
+      ],
+      "description": "Twentieth Amendment Section 3 adds special president-elect and vice-president-elect qualifications and succession cases.",
       "status": "ratified_record",
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"

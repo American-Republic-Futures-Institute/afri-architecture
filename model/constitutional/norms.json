@@ -696,7 +696,8 @@
       "name": "Faithful execution of laws",
       "summary": "The President must take care that the laws be faithfully executed.",
       "provision_ids": [
-        "CONST-US-ART-02-SEC-03"
+        "CONST-US-ART-02-SEC-03",
+        "CONST-US-ART-02-SEC-03-SEG-04"
       ],
       "effect_status": "operative",
       "interpretation_status": "textual_summary_pending_legal_review",
@@ -712,7 +713,8 @@
       "name": "State of the Union information",
       "summary": "The President shall from time to time provide Congress information on the state of the Union and recommend measures considered necessary and expedient.",
       "provision_ids": [
-        "CONST-US-ART-02-SEC-03"
+        "CONST-US-ART-02-SEC-03",
+        "CONST-US-ART-02-SEC-03-SEG-01"
       ],
       "effect_status": "operative",
       "interpretation_status": "textual_summary_pending_legal_review",
@@ -2377,6 +2379,431 @@
       ],
       "qualifications": "Constitutionally specified actor and subject; further statutory implementation and judicial interpretation remain distinct.",
       "article_i_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-01-TERM",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Four-year presidency and vice-presidency",
+      "summary": "The President and Vice President hold four-year office terms, subject to later amendments.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-02-ELECTOR-COUNT",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "State allocation of presidential electors",
+      "summary": "States appoint as many electors as their total number of Senators and Representatives; later amendments supplement the system.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-02-ELECTOR-INCOMPATIBILITY",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Federal officeholders ineligible to be electors",
+      "summary": "No Senator, Representative or holder of office of trust or profit under the United States may be appointed an elector.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-04-ELECTION-TIMING",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional power to prescribe elector timing",
+      "summary": "Congress may determine the time of choosing electors and the day on which electors vote.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-04-UNIFORM-VOTE-DAY",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Uniform presidential-elector voting day",
+      "summary": "The day when electors give votes must be the same throughout the United States.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-05-NATURAL-BORN",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Original presidential citizenship eligibility",
+      "summary": "Original citizenship criterion requires natural-born status, with a historic founding-era citizenship exception.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-05-AGE",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Presidential minimum age",
+      "summary": "The President must have attained the age of thirty-five years.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-05-RESIDENCE",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Presidential residency",
+      "summary": "The President must have been a resident within the United States for fourteen years.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may legislate for dual presidential and vice-presidential vacancy",
+      "summary": "Congress may by law provide an officer to act when both the presidency and vice presidency are vacant or constitutionally unable to act.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-07-NO-SALARY-VARIATION",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Presidential salary may not vary during elected term",
+      "summary": "The President receives compensation at stated times that may neither increase nor decrease during the elected term.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-07"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-07-NO-OTHER-EMOLUMENTS",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No other federal or state emoluments during term",
+      "summary": "The President shall not receive any other emolument from the United States or any state during the elected term.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-07"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-01-08-OATH",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Presidential oath or affirmation",
+      "summary": "Before executing the office, the President shall take the textually prescribed oath or affirmation to execute the office and preserve, protect and defend the Constitution.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-08"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-02-01-FEDERAL-MILITIA",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Command over militia only when in actual United States service",
+      "summary": "The President is Commander in Chief of the several states' militia when called into actual United States service.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-02-01-PARDON-SCOPE",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Federal offenses and impeachment exclusion",
+      "summary": "Presidential pardon/reprieve authority applies to offenses against the United States and excepts cases of impeachment.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-02-02-INFERIOR-OFFICER-ALLOCATION",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may assign inferior-officer appointments by law",
+      "summary": "Congress may by law vest appointments of such inferior officers as it thinks proper in the President alone, courts of law or department heads.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-02-02-PRINCIPAL-APPOINTMENT",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Senate participation in principal officer appointments",
+      "summary": "Presidential nominations and appointments of specified federal officers and Supreme Court judges are subject to Senate advice and consent, subject to constitutional exceptions.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-02-02-TREATY-VOTE",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Treaty consent threshold",
+      "summary": "Treaty-making by the President requires Senate advice and consent with two thirds of Senators present concurring.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-02-03-RECESS-COMMISSION-EXPIRY",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Recess commissions expire at end of next Senate session",
+      "summary": "Temporary recess-appointment commissions expire at the end of the Senate's next session.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-03-01-RECOMMEND",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Recommend measures to Congress",
+      "summary": "The President may recommend measures to Congress that the President judges necessary and expedient.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-03-02-CONVENE",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Convene Congress on extraordinary occasions",
+      "summary": "On extraordinary occasions, the President may convene both Houses or either one.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-03-02-ADJOURN",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Narrow presidential adjournment power",
+      "summary": "If the two Houses disagree with respect to the time of adjournment, the President may adjourn them to a time the President deems proper.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-03-03-RECEIVE-MINISTERS",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Receive ambassadors and other public ministers",
+      "summary": "The President shall receive ambassadors and other public ministers.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-03-05-COMMISSION-OFFICERS",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Commission officers of the United States",
+      "summary": "The President shall commission all officers of the United States.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-04-01-IMPEACHMENT-GROUNDS",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Constitutional grounds for impeachment removal",
+      "summary": "Article II §4 specifies treason, bribery or other high crimes and misdemeanors as the constitutional grounds for removal on impeachment and conviction.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AII-04-01-COVERED-OFFICERS",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Offices within Article II impeachment and removal",
+      "summary": "The President, Vice President and civil Officers of the United States are within the constitutional impeachment-removal provision.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
+      "article_ii_increment": "2026-10-15"
     }
   ]
 }

@@ -108,6 +108,27 @@
       "include_changes": true,
       "status": "descriptive_candidate",
       "article_i_clause_analysis": true
+    },
+    {
+      "id": "VIEW-CONST-ARTICLE-II",
+      "type": "constitutional_viewpoint",
+      "name": "Article II: Executive Authority and Constitutional Constraints",
+      "description": "Executive office, election and succession mechanics, shared treaty and appointment power, military command, executive duties and impeachment checks; Section 3 split into analytic segments without inventing clauses.",
+      "root_ids": [
+        "CONST-US-ART-02"
+      ],
+      "include_norm_kinds": [
+        "power",
+        "duty",
+        "limitation",
+        "eligibility",
+        "prohibition",
+        "procedure",
+        "structural_allocation"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate",
+      "article_ii_unit_analysis": true
     }
   ]
 }

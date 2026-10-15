@@ -212,7 +212,7 @@
       ],
       "source_locator": "U.S. Const. art. II, § 1",
       "effect_status": "modified_in_part",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-02-SEC-02",
@@ -226,7 +226,7 @@
       ],
       "source_locator": "U.S. Const. art. II, § 2",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-02-SEC-03",
@@ -240,7 +240,7 @@
       ],
       "source_locator": "U.S. Const. art. II, § 3",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-02-SEC-04",
@@ -254,7 +254,7 @@
       ],
       "source_locator": "U.S. Const. art. II, § 4",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-03",
@@ -1001,7 +1001,7 @@
       "id": "CONST-US-ART-02-SEC-01-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Executive Vesting",
+      "label": "Executive vesting and four-year term",
       "parent_id": "CONST-US-ART-02-SEC-01",
       "citation": "U.S. Const. art. II, § 1, cl. 1",
       "source_ids": [
@@ -1015,7 +1015,7 @@
       "id": "CONST-US-ART-02-SEC-01-CL-02",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "State Appointment of Presidential Electors",
+      "label": "State selection of presidential electors",
       "parent_id": "CONST-US-ART-02-SEC-01",
       "citation": "U.S. Const. art. II, § 1, cl. 2",
       "source_ids": [
@@ -1029,7 +1029,7 @@
       "id": "CONST-US-ART-02-SEC-01-CL-03",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Original Presidential Electoral Ballot Procedure",
+      "label": "Original presidential election ballots (superseded)",
       "parent_id": "CONST-US-ART-02-SEC-01",
       "citation": "U.S. Const. art. II, § 1, cl. 3",
       "source_ids": [
@@ -1043,7 +1043,7 @@
       "id": "CONST-US-ART-02-SEC-01-CL-05",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Presidential Eligibility",
+      "label": "Presidential eligibility",
       "parent_id": "CONST-US-ART-02-SEC-01",
       "citation": "U.S. Const. art. II, § 1, cl. 5",
       "source_ids": [
@@ -1057,7 +1057,7 @@
       "id": "CONST-US-ART-02-SEC-01-CL-06",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Original Presidential Succession Text",
+      "label": "Original presidential succession and incapacity",
       "parent_id": "CONST-US-ART-02-SEC-01",
       "citation": "U.S. Const. art. II, § 1, cl. 6",
       "source_ids": [
@@ -1071,7 +1071,7 @@
       "id": "CONST-US-ART-02-SEC-02-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Commander in Chief, Opinions and Pardons",
+      "label": "Commander in Chief, written opinions and pardon authority",
       "parent_id": "CONST-US-ART-02-SEC-02",
       "citation": "U.S. Const. art. II, § 2, cl. 1",
       "source_ids": [
@@ -1085,7 +1085,7 @@
       "id": "CONST-US-ART-02-SEC-02-CL-02",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Treaties and Federal Appointments",
+      "label": "Treaties and appointments with Senate participation",
       "parent_id": "CONST-US-ART-02-SEC-02",
       "citation": "U.S. Const. art. II, § 2, cl. 2",
       "source_ids": [
@@ -1099,7 +1099,7 @@
       "id": "CONST-US-ART-02-SEC-02-CL-03",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Recess Appointments",
+      "label": "Recess appointments",
       "parent_id": "CONST-US-ART-02-SEC-02",
       "citation": "U.S. Const. art. II, § 2, cl. 3",
       "source_ids": [
@@ -2355,6 +2355,123 @@
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
       "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01-CL-04",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Congressional selection of elector timing",
+      "parent_id": "CONST-US-ART-02-SEC-01",
+      "citation": "U.S. Const. art. II, § 1, cl. 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1, cl. 4",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01-CL-07",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Presidential compensation and emoluments",
+      "parent_id": "CONST-US-ART-02-SEC-01",
+      "citation": "U.S. Const. art. II, § 1, cl. 7",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1, cl. 7",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01-CL-08",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Presidential oath of office",
+      "parent_id": "CONST-US-ART-02-SEC-01",
+      "citation": "U.S. Const. art. II, § 1, cl. 8",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1, cl. 8",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-03-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "State of the Union and legislative recommendations",
+      "parent_id": "CONST-US-ART-02-SEC-03",
+      "citation": "U.S. Const. art. II, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 3 (ARFI analytic segment 1; not a separately numbered constitutional clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-03-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Extraordinary congressional convening and adjournment",
+      "parent_id": "CONST-US-ART-02-SEC-03",
+      "citation": "U.S. Const. art. II, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 3 (ARFI analytic segment 2; not a separately numbered constitutional clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-03-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Receiving ambassadors and other public ministers",
+      "parent_id": "CONST-US-ART-02-SEC-03",
+      "citation": "U.S. Const. art. II, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 3 (ARFI analytic segment 3; not a separately numbered constitutional clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-03-SEG-04",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Take Care duty",
+      "parent_id": "CONST-US-ART-02-SEC-03",
+      "citation": "U.S. Const. art. II, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 3 (ARFI analytic segment 4; not a separately numbered constitutional clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-03-SEG-05",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Commissioning officers",
+      "parent_id": "CONST-US-ART-02-SEC-03",
+      "citation": "U.S. Const. art. II, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 3 (ARFI analytic segment 5; not a separately numbered constitutional clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
     }
   ]
 }

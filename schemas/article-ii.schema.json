@@ -1,0 +1,304 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/article-ii.schema.json",
+  "title": "ARFI-COA Article II executive constitutional architecture v0.1.0",
+  "description": "Three canonical Article II model collections with typed legal status and references. Cross-model validation is enforced by scripts/validate-article-ii.mjs.",
+  "$defs": {
+    "nonEmptyRefs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 2
+      }
+    },
+    "unit": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "section",
+        "unit_index",
+        "unit_kind",
+        "provision_id",
+        "name",
+        "summary",
+        "current_effect_status",
+        "norm_ids",
+        "qualification_ids",
+        "capability_link_ids",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AII-UNIT-[0-9]{2}-[0-9]{2}$"
+        },
+        "type": {
+          "const": "article_ii_unit_analysis"
+        },
+        "section": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "unit_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8
+        },
+        "unit_kind": {
+          "enum": [
+            "numbered_clause",
+            "analytic_segment",
+            "section_text"
+          ]
+        },
+        "provision_id": {
+          "type": "string",
+          "pattern": "^CONST-US-ART-02-"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 4
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 12
+        },
+        "current_effect_status": {
+          "enum": [
+            "operative",
+            "superseded",
+            "modified_in_part"
+          ]
+        },
+        "norm_ids": {
+          "$ref": "#/$defs/nonEmptyRefs"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/nonEmptyRefs"
+        },
+        "capability_link_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^AII-CAP-"
+          }
+        },
+        "source_ids": {
+          "$ref": "#/$defs/nonEmptyRefs"
+        },
+        "review_status": {
+          "const": "textual_summary_pending_legal_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualification": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "kind",
+        "name",
+        "summary",
+        "origin",
+        "source_provision_ids",
+        "applies_to_norm_ids",
+        "effect_status",
+        "legal_review_status",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AII-QUAL-"
+        },
+        "type": {
+          "const": "article_ii_qualification"
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 3
+        },
+        "name": {
+          "type": "string",
+          "minLength": 4
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 15
+        },
+        "origin": {
+          "enum": [
+            "original_text",
+            "amendment_overlay",
+            "historical_text"
+          ]
+        },
+        "source_provision_ids": {
+          "$ref": "#/$defs/nonEmptyRefs"
+        },
+        "applies_to_norm_ids": {
+          "$ref": "#/$defs/nonEmptyRefs"
+        },
+        "effect_status": {
+          "enum": [
+            "operative",
+            "amendment_modified",
+            "historical_only"
+          ]
+        },
+        "legal_review_status": {
+          "const": "textual_mapping_pending_review"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/nonEmptyRefs"
+        },
+        "article_i_qualification_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^AI-QUAL-"
+          }
+        },
+        "related_current_norm_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^NORM-US-CONST-"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "alignment": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "constitutional_norm_id",
+        "capability_id",
+        "qualification_ids",
+        "relationship_type",
+        "rationale",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AII-CAP-[0-9]{4}$"
+        },
+        "type": {
+          "const": "article_ii_capability_alignment"
+        },
+        "constitutional_norm_id": {
+          "type": "string",
+          "pattern": "^NORM-US-CONST-"
+        },
+        "capability_id": {
+          "type": "string",
+          "pattern": "^CAP-FED-"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/nonEmptyRefs"
+        },
+        "relationship_type": {
+          "const": "functional_alignment_not_delegation"
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 20
+        },
+        "source_ids": {
+          "$ref": "#/$defs/nonEmptyRefs"
+        },
+        "review_status": {
+          "const": "research_mapping_pending_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "unitsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/unit"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualificationsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/qualification"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "capabilityLinksCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/alignment"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/unitsCollection"
+    },
+    {
+      "$ref": "#/$defs/qualificationsCollection"
+    },
+    {
+      "$ref": "#/$defs/capabilityLinksCollection"
+    }
+  ]
+}

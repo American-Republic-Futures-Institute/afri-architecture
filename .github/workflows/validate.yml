@@ -35,3 +35,7 @@ jobs:
         run: node scripts/validate-article-i.mjs
       - name: Test Article I authority, limitations and capabilities
         run: node --test tests/article-i.test.mjs
+      - name: Validate complete Article II powers and constraints
+        run: node scripts/validate-article-ii.mjs
+      - name: Test Article II executive authority and limitations
+        run: node --test tests/article-ii.test.mjs

@@ -1,0 +1,605 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AII-CAP-0001",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-018",
+      "capability_id": "CAP-FED-06",
+      "qualification_ids": [
+        "AII-QUAL-01-01-EXECUTIVE-VESTING"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Single-president constitutional executive vesting corresponds to executive administration.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0002",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-01-TERM",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-01-FOUR-YEAR-TERMS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Office tenure relates to presidential transition administration.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0003",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-019",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-02-STATE-APPOINTMENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "State elector selection has a federal constitutional election-governance interface.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0004",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-02-ELECTOR-COUNT",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-02-ELECTOR-NUMBER"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "State elector allocation under Article II election mechanism.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0005",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-02-ELECTOR-INCOMPATIBILITY",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-02-FEDERAL-OFFICE-EXCLUSION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Eligibility limitation is part of presidential elector administration.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0006",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-04-ELECTION-TIMING",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-04-TIMING-DELEGATED-CONGRESS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional power to select elector dates governs presidential election timing.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0007",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-04-UNIFORM-VOTE-DAY",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-04-UNIFORM-CASTING-DAY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Uniform voting-day control on elector timing.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0008",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-020",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-05-NATURAL-BORN"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Office eligibility relates to administration of presidential elections and transitions.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0009",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-05-NATURAL-BORN",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-05-NATURAL-BORN"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Original eligibility criterion, no adjudication of contested eligibility.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0010",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-05-AGE",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-05-MINIMUM-AGE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Eligibility age validation as an election governance concern.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0011",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-05-RESIDENCE",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-05-RESIDENCY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Eligibility residence as an election governance concern.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0012",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY",
+      "capability_id": "CAP-FED-40",
+      "qualification_ids": [
+        "AII-QUAL-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional contingent succession legislation aligns with presidential transitions.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0013",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-07-NO-SALARY-VARIATION",
+      "capability_id": "CAP-FED-43",
+      "qualification_ids": [
+        "AII-QUAL-01-07-COMPENSATION-NO-VARIATION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Executive-office financial safeguards support constitutional accountability.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0014",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-07-NO-OTHER-EMOLUMENTS",
+      "capability_id": "CAP-FED-43",
+      "qualification_ids": [
+        "AII-QUAL-01-07-OTHER-FEDERAL-STATE-EMOLUMENTS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Executive-office financial safeguards support constitutional accountability.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0015",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-01-08-OATH",
+      "capability_id": "CAP-FED-43",
+      "qualification_ids": [
+        "AII-QUAL-01-08-BEFORE-OFFICE-EXECUTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "The Presidential oath is an office accountability obligation.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0016",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-021",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AII-QUAL-02-01-COMMAND-ARMY-NAVY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Commander-in-Chief function relates to national defense but is subject to distinct congressional authorities.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0017",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-02-01-FEDERAL-MILITIA",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AII-QUAL-02-01-MILITIA-ACTUAL-SERVICE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "State militia eligibility for federal command as a defense capability interface.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0018",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-022",
+      "capability_id": "CAP-FED-42",
+      "qualification_ids": [
+        "AII-QUAL-02-01-CLEMENCY-FEDERAL-OFFENSES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Presidential pardon and reprieve function under constitutional limits.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0019",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-02-01-PARDON-SCOPE",
+      "capability_id": "CAP-FED-42",
+      "qualification_ids": [
+        "AII-QUAL-02-01-CLEMENCY-IMPEACHMENT-EXCEPTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Scope and impeachment exception bound federal clemency.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0020",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-023",
+      "capability_id": "CAP-FED-10",
+      "qualification_ids": [
+        "AII-QUAL-02-01-OPINIONS-IN-WRITING"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Constitutional right to seek executive departmental written opinions supports executive policy coordination.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0021",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-024",
+      "capability_id": "CAP-FED-08",
+      "qualification_ids": [
+        "AII-QUAL-02-02-TREATY-SENATE-TWO-THIRDS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Treaty process is a cross-branch diplomacy and Senate-consent function.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0022",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-02-02-TREATY-VOTE",
+      "capability_id": "CAP-FED-08",
+      "qualification_ids": [
+        "AII-QUAL-02-02-TREATY-SENATE-TWO-THIRDS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Constitutional treaty concurrence threshold relates to diplomacy.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0023",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-025",
+      "capability_id": "CAP-FED-41",
+      "qualification_ids": [
+        "AII-QUAL-02-02-APPOINTMENT-SENATE-CONSENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Federal appointments include presidential nomination and Senate advice and consent.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0024",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-02-02-PRINCIPAL-APPOINTMENT",
+      "capability_id": "CAP-FED-41",
+      "qualification_ids": [
+        "AII-QUAL-02-02-APPOINTMENT-SENATE-CONSENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Specified office appointments require Senate participation.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0025",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-02-02-INFERIOR-OFFICER-ALLOCATION",
+      "capability_id": "CAP-FED-41",
+      "qualification_ids": [
+        "AII-QUAL-02-02-INFERIOR-OFFICER-BY-LAW"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congress can vest inferior appointments through law in designated actors.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0026",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-026",
+      "capability_id": "CAP-FED-41",
+      "qualification_ids": [
+        "AII-QUAL-02-03-SENATE-RECESS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Recess appointment power is a limited appointment mechanism.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0027",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-02-03-RECESS-COMMISSION-EXPIRY",
+      "capability_id": "CAP-FED-41",
+      "qualification_ids": [
+        "AII-QUAL-02-03-COMMISSIONS-EXPIRE-NEXT-SESSION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Expiration condition for recess-appointment commissions.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0028",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-028",
+      "capability_id": "CAP-FED-10",
+      "qualification_ids": [
+        "AII-QUAL-03-01-STATE-OF-UNION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Information to Congress and recommendations relate to executive policy coordination.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0029",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-03-01-RECOMMEND",
+      "capability_id": "CAP-FED-10",
+      "qualification_ids": [
+        "AII-QUAL-03-01-RECOMMENDATIONS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Executive advice to Congress is policy coordination, not enactment.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0030",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-03-02-CONVENE",
+      "capability_id": "CAP-FED-10",
+      "qualification_ids": [
+        "AII-QUAL-03-02-EXTRAORDINARY-OCCASIONS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Exceptional convening of congressional chambers coordinates constitutional governmental operations.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0031",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-03-02-CONVENE",
+      "capability_id": "CAP-FED-39",
+      "qualification_ids": [
+        "AII-QUAL-03-02-EXTRAORDINARY-OCCASIONS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Exceptional convening of congressional chambers coordinates constitutional governmental operations.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0032",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-03-02-ADJOURN",
+      "capability_id": "CAP-FED-10",
+      "qualification_ids": [
+        "AII-QUAL-03-02-ADJOURNMENT-DISAGREEMENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Narrow adjournment decision coordinates interbranch legislative sessions.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0033",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-03-02-ADJOURN",
+      "capability_id": "CAP-FED-39",
+      "qualification_ids": [
+        "AII-QUAL-03-02-ADJOURNMENT-DISAGREEMENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Narrow adjournment decision coordinates interbranch legislative sessions.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0034",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-03-03-RECEIVE-MINISTERS",
+      "capability_id": "CAP-FED-08",
+      "qualification_ids": [
+        "AII-QUAL-03-03-RECEIVE-AMBASSADORS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Reception of foreign ministers relates to executive diplomacy.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0035",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-027",
+      "capability_id": "CAP-FED-06",
+      "qualification_ids": [
+        "AII-QUAL-03-04-TAKE-CARE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Faithful execution of federal law is central to executive administration.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0036",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-03-05-COMMISSION-OFFICERS",
+      "capability_id": "CAP-FED-41",
+      "qualification_ids": [
+        "AII-QUAL-03-05-COMMISSION-OFFICERS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Officer commissions relate to federal appointments administration.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0037",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-029",
+      "capability_id": "CAP-FED-43",
+      "qualification_ids": [
+        "AII-QUAL-04-01-REMOVAL-UPON-CONVICTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Constitutional impeachment removal conditions interface with executive accountability and legislative oversight.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0038",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-029",
+      "capability_id": "CAP-FED-03",
+      "qualification_ids": [
+        "AII-QUAL-04-01-REMOVAL-UPON-CONVICTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Constitutional impeachment removal conditions interface with executive accountability and legislative oversight.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0039",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-04-01-IMPEACHMENT-GROUNDS",
+      "capability_id": "CAP-FED-43",
+      "qualification_ids": [
+        "AII-QUAL-04-01-GROUNDS-TREASON-BRIBERY-HIGH-CRIMES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Covered impeachment grounds are part of constitutional accountability.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AII-CAP-0040",
+      "type": "article_ii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AII-04-01-COVERED-OFFICERS",
+      "capability_id": "CAP-FED-43",
+      "qualification_ids": [
+        "AII-QUAL-04-01-PRESIDENT-VP-CIVIL-OFFICERS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Civil officer coverage defines constitutional accountability scope.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    }
+  ]
+}

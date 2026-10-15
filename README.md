@@ -81,3 +81,9 @@ The initial Article I layer now includes the original 53 clauses with 103 source
 Explore `model/constitutional/article-i-clauses.json`, `article-i-qualifications.json`, and `article-i-capability-links.json`. The complete implementation, caveats, and follow-on sequence appear in [docs/ARTICLE-I-ARCHITECTURE.md](docs/ARTICLE-I-ARCHITECTURE.md). The website repository owns all interactive rendering.
 
 Reproduce the checks with `node scripts/validate-article-i.mjs` and `node --test tests/article-i.test.mjs`, in addition to the prior federal and constitutional validators.
+
+## Article II executive powers and limitations (2026-10-15)
+
+The Article II model now records **11 numbered original clauses, five analytically separated but unnumbered Section 3 functions, and one Section 4 impeachment/removal unit**. All 17 units are source-linked to discrete constitutional norms, 71 conditions and amendment overlays, and 40 candidate capability alignments. The new `article-ii-*.json` files and [detailed Article II standard](docs/ARTICLE-II-ARCHITECTURE.md) are architectural source data only.
+
+Changes to the original constitutional text remain distinguishable from later amendments and doctrine. Run `node scripts/validate-article-ii.mjs` and `node --test tests/article-ii.test.mjs` along with earlier validators. The website continues to own visualization and publication.

@@ -2288,6 +2288,380 @@
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
       "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0209",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-01-TERM",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0210",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-01-TERM",
+      "target_id": "ORG-FED-EXE-VP",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0211",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-02-ELECTOR-COUNT",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0212",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-02-ELECTOR-INCOMPATIBILITY",
+      "target_id": "ACT-US-FED-OFFICERS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0213",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-04-ELECTION-TIMING",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0214",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-04-UNIFORM-VOTE-DAY",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0215",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-04-UNIFORM-VOTE-DAY",
+      "target_id": "ACT-US-ELECTORS",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0216",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-05-NATURAL-BORN",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0217",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-05-AGE",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0218",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-05-RESIDENCE",
+      "target_id": "ACT-US-OFFICE-CANDIDATES",
+      "relationship_type": "defines_eligibility_for",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0219",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0220",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-07-NO-SALARY-VARIATION",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0221",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-07-NO-SALARY-VARIATION",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0222",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-07-NO-OTHER-EMOLUMENTS",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0223",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-01-08-OATH",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0224",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-01-FEDERAL-MILITIA",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0225",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-01-FEDERAL-MILITIA",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0226",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-01-PARDON-SCOPE",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0227",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-02-INFERIOR-OFFICER-ALLOCATION",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0228",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-02-PRINCIPAL-APPOINTMENT",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0229",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-02-PRINCIPAL-APPOINTMENT",
+      "target_id": "ORG-FED-LEG-SENATE",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0230",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-02-TREATY-VOTE",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0231",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-02-TREATY-VOTE",
+      "target_id": "ORG-FED-LEG-SENATE",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0232",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-02-03-RECESS-COMMISSION-EXPIRY",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0233",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-03-01-RECOMMEND",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0234",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-03-02-CONVENE",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0235",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-03-02-ADJOURN",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0236",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-03-03-RECEIVE-MINISTERS",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0237",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-03-05-COMMISSION-OFFICERS",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0238",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-04-01-IMPEACHMENT-GROUNDS",
+      "target_id": "ACT-US-FEDERAL-CIVIL-OFFICERS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0239",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-04-01-COVERED-OFFICERS",
+      "target_id": "ORG-FED-LEG-HOUSE",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0240",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-04-01-COVERED-OFFICERS",
+      "target_id": "ORG-FED-LEG-SENATE",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0241",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-04-01-COVERED-OFFICERS",
+      "target_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0242",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AII-04-01-COVERED-OFFICERS",
+      "target_id": "ORG-FED-EXE-VP",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
     }
   ]
 }
