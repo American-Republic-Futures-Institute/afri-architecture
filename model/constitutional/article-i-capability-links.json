@@ -1,0 +1,635 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AI-CAP-0001",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-002",
+      "capability_id": "CAP-FED-03",
+      "qualification_ids": [
+        "AI-QUAL-02-05-HOUSE-IMPEACHMENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Sole House impeachment power provides an accountability mechanism",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0002",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-003",
+      "capability_id": "CAP-FED-03",
+      "qualification_ids": [
+        "AI-QUAL-03-06-TWO-THIRDS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Sole Senate impeachment trial power provides an accountability mechanism",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0003",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-006",
+      "capability_id": "CAP-FED-02",
+      "qualification_ids": [
+        "AI-QUAL-08-01-UNIFORM-INDIRECT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Tax legislation and downstream fiscal administration are functionally related",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0004",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-006",
+      "capability_id": "CAP-FED-09",
+      "qualification_ids": [
+        "AI-QUAL-08-01-UNIFORM-INDIRECT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Tax legislation and downstream fiscal administration are functionally related",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0005",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-007",
+      "capability_id": "CAP-FED-02",
+      "qualification_ids": [
+        "AI-QUAL-08-01-TAX-AND-SPENDING-PURPOSE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Spending authorization is a congressional fiscal capability",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0006",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P02",
+      "capability_id": "CAP-FED-02",
+      "qualification_ids": [
+        "AI-QUAL-08-02-CREDIT-US"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Borrowing authority shapes federal finance, without directly delegating Treasury operations",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0007",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P02",
+      "capability_id": "CAP-FED-09",
+      "qualification_ids": [
+        "AI-QUAL-08-02-CREDIT-US"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Borrowing authority shapes federal finance, without directly delegating Treasury operations",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0008",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P03",
+      "capability_id": "CAP-FED-13",
+      "qualification_ids": [
+        "AI-QUAL-08-03-THREE-COMMERCE-CATEGORIES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Commerce regulation relates to commercial governance",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0009",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P04",
+      "capability_id": "CAP-FED-36",
+      "qualification_ids": [
+        "AI-QUAL-08-04-UNIFORM-NATURALIZATION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Uniform naturalization and bankruptcy represent distinct federal functions",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0010",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P04",
+      "capability_id": "CAP-FED-37",
+      "qualification_ids": [
+        "AI-QUAL-08-04-UNIFORM-NATURALIZATION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Uniform naturalization and bankruptcy represent distinct federal functions",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0011",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P05",
+      "capability_id": "CAP-FED-09",
+      "qualification_ids": [
+        "AI-QUAL-08-05-COINAGE-STANDARDS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Federal money and financial administration relates to coinage",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0012",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P06",
+      "capability_id": "CAP-FED-09",
+      "qualification_ids": [
+        "AI-QUAL-08-06-COUNTERFEITING-OBJECTS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Federal protection of currency and securities",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0013",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P07",
+      "capability_id": "CAP-FED-33",
+      "qualification_ids": [
+        "AI-QUAL-08-07-POST-OFFICES-AND-ROADS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Postal authority aligns with federal postal capabilities",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0014",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P08",
+      "capability_id": "CAP-FED-38",
+      "qualification_ids": [
+        "AI-QUAL-08-08-LIMITED-TIMES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Time-limited rights align with intellectual property governance and commerce",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0015",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P08",
+      "capability_id": "CAP-FED-13",
+      "qualification_ids": [
+        "AI-QUAL-08-08-LIMITED-TIMES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Time-limited rights align with intellectual property governance and commerce",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0016",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P09",
+      "capability_id": "CAP-FED-27",
+      "qualification_ids": [
+        "AI-QUAL-08-09-INFERIOR-TO-SUPREME"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Inferior court creation aligns with judicial adjudication capabilities, not a command relationship",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0017",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P09",
+      "capability_id": "CAP-FED-28",
+      "qualification_ids": [
+        "AI-QUAL-08-09-INFERIOR-TO-SUPREME"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Inferior court creation aligns with judicial adjudication capabilities, not a command relationship",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0018",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P10",
+      "capability_id": "CAP-FED-27",
+      "qualification_ids": [
+        "AI-QUAL-08-10-MARITIME-LAW-OF-NATIONS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Maritime and international offense legislation affects adjudication and defense",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0019",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P10",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AI-QUAL-08-10-MARITIME-LAW-OF-NATIONS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Maritime and international offense legislation affects adjudication and defense",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0020",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P11",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AI-QUAL-08-11-DECLARE-WAR-AND-CAPTURES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "War declaration and captures regulation concern national defense",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0021",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P12",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AI-QUAL-08-12-TWO-YEAR-ARMY-FUNDING"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Army organization and its appropriations are distinct linked capabilities",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0022",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P12",
+      "capability_id": "CAP-FED-02",
+      "qualification_ids": [
+        "AI-QUAL-08-12-TWO-YEAR-ARMY-FUNDING"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Army organization and its appropriations are distinct linked capabilities",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0023",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P13",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AI-QUAL-08-13-NAVY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Maintenance of naval power supports national defense",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0024",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P14",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AI-QUAL-08-14-LAND-AND-NAVAL-RULES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Armed forces governance is relevant to defense",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0025",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P15",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AI-QUAL-08-15-MILITIA-CALL-PURPOSES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Militia call-up addresses constitutionally stated security contingencies",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0026",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P15",
+      "capability_id": "CAP-FED-20",
+      "qualification_ids": [
+        "AI-QUAL-08-15-MILITIA-CALL-PURPOSES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Militia call-up addresses constitutionally stated security contingencies",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0027",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P16",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AI-QUAL-08-16-STATE-OFFICER-APPOINTMENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Militia organization involves defense and reserved state authority",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0028",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P17",
+      "capability_id": "CAP-FED-32",
+      "qualification_ids": [
+        "AI-QUAL-08-17-DC-CESSION-ACCEPTANCE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Federal district and enclave legislation relates to federal facilities",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0029",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-P18",
+      "capability_id": "CAP-FED-01",
+      "qualification_ids": [
+        "AI-QUAL-08-18-NECESSARY-PROPER-DEPENDENCY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Ancillary lawmaking power links to federal legislation; it is not an independent agency mandate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0030",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-02-05-OFFICERS",
+      "capability_id": "CAP-FED-39",
+      "qualification_ids": [
+        "AI-QUAL-02-05-HOUSE-OFFICERS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "House selection of officers aligns with chamber administration",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0031",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-03-05-OFFICERS",
+      "capability_id": "CAP-FED-39",
+      "qualification_ids": [
+        "AI-QUAL-03-05-PRESIDENT-PRO-TEMPORE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Senate officer appointments align with chamber administration",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0032",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-04-01-CONGRESS-ELECTIONS",
+      "capability_id": "CAP-FED-35",
+      "qualification_ids": [
+        "AI-QUAL-04-01-CONGRESS-ALTER-BY-LAW"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional election regulation relates to representation and electoral governance",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0033",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-05-01-JUDGE",
+      "capability_id": "CAP-FED-35",
+      "qualification_ids": [
+        "AI-QUAL-05-01-HOUSE-JUDGES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Member elections and qualifications are chamber and representation functions",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0034",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-05-01-JUDGE",
+      "capability_id": "CAP-FED-39",
+      "qualification_ids": [
+        "AI-QUAL-05-01-HOUSE-JUDGES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Member elections and qualifications are chamber and representation functions",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0035",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-05-02-RULES",
+      "capability_id": "CAP-FED-39",
+      "qualification_ids": [
+        "AI-QUAL-05-02-RULES-DISCIPLINE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Chamber procedural rulemaking relates to institutional administration",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0036",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-05-02-EXPULSION",
+      "capability_id": "CAP-FED-39",
+      "qualification_ids": [
+        "AI-QUAL-05-02-EXPULSION-TWO-THIRDS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Internal discipline and expulsion relate to institutional accountability",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0037",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-05-02-EXPULSION",
+      "capability_id": "CAP-FED-03",
+      "qualification_ids": [
+        "AI-QUAL-05-02-EXPULSION-TWO-THIRDS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Internal discipline and expulsion relate to institutional accountability",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0038",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-09-08-CONSENT",
+      "capability_id": "CAP-FED-03",
+      "qualification_ids": [
+        "AI-QUAL-09-08-FOREIGN-GIFTS-CONSENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional consent is a limited institutional oversight function",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0039",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-10-02-CONSENT",
+      "capability_id": "CAP-FED-01",
+      "qualification_ids": [
+        "AI-QUAL-10-02-IMPORT-EXPORT-CONSENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional consent relates to legislative coordination and public finance",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0040",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-10-02-CONSENT",
+      "capability_id": "CAP-FED-09",
+      "qualification_ids": [
+        "AI-QUAL-10-02-IMPORT-EXPORT-CONSENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional consent relates to legislative coordination and public finance",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0041",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-10-03-CONSENT",
+      "capability_id": "CAP-FED-01",
+      "qualification_ids": [
+        "AI-QUAL-10-03-CONSENT-ON-TONNAGE-COMPACTS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional consent relates to federal-state compacts and defense coordination",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AI-CAP-0042",
+      "type": "article_i_capability_alignment",
+      "power_norm_id": "NORM-US-CONST-AI-10-03-CONSENT",
+      "capability_id": "CAP-FED-07",
+      "qualification_ids": [
+        "AI-QUAL-10-03-CONSENT-ON-TONNAGE-COMPACTS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional consent relates to federal-state compacts and defense coordination",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    }
+  ]
+}

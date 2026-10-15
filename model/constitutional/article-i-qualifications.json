@@ -1,0 +1,2043 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AI-QUAL-01-VESTED-GRANTED",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Only legislative powers granted by the Constitution vest in Congress; the clau",
+      "summary": "Only legislative powers granted by the Constitution vest in Congress; the clause does not confer a general federal police power.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-01-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-001"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-01-ELECTION-BIENNIAL",
+      "type": "article_i_qualification",
+      "kind": "frequency",
+      "name": "The House is chosen every second year by the people of the states.",
+      "summary": "The House is chosen every second year by the people of the states.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-01-ELECTIONS",
+        "NORM-US-CONST-AI-02-01-ELECTOR-QUALIFICATIONS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-01-ELECTOR-QUALIFICATIONS",
+      "type": "article_i_qualification",
+      "kind": "eligibility",
+      "name": "House electors in each state require qualifications for electors of the most n",
+      "summary": "House electors in each state require qualifications for electors of the most numerous branch of that state's legislature.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-01-ELECTIONS",
+        "NORM-US-CONST-AI-02-01-ELECTOR-QUALIFICATIONS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-02-HOUSE-QUALIFICATIONS",
+      "type": "article_i_qualification",
+      "kind": "eligibility",
+      "name": "A Representative must be at least 25, a U.S. citizen for seven years, and an i",
+      "summary": "A Representative must be at least 25, a U.S. citizen for seven years, and an inhabitant of the electing state at election.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-02-ELIGIBILITY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-03-DECENNIAL-CENSUS",
+      "type": "article_i_qualification",
+      "kind": "frequency",
+      "name": "Actual enumeration is required within every subsequent term of ten years; init",
+      "summary": "Actual enumeration is required within every subsequent term of ten years; initial three-year instruction was historically satisfied.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-03-APPORTIONMENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-03-MINIMUM-SEAT",
+      "type": "article_i_qualification",
+      "kind": "threshold",
+      "name": "Each state is entitled to at least one Representative, with other House apport",
+      "summary": "Each state is entitled to at least one Representative, with other House apportionment rules subject to later amendments.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-03-APPORTIONMENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-03-REPRESENTATIVE-RATIO",
+      "type": "article_i_qualification",
+      "kind": "threshold",
+      "name": "The original text limits the number of Representatives to no more than one for",
+      "summary": "The original text limits the number of Representatives to no more than one for every thirty thousand persons.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-03-APPORTIONMENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-03-THREE-FIFTHS-HISTORIC",
+      "type": "article_i_qualification",
+      "kind": "historical_limit",
+      "name": "The original three-fifths apportionment formula is no longer operative after c",
+      "summary": "The original three-fifths apportionment formula is no longer operative after constitutional abolition of slavery and changes to apportionment.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-03-HISTORIC"
+      ],
+      "effect_status": "historical_only",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "This is an original-text historical provision, not a presently valid population formula."
+    },
+    {
+      "id": "AI-QUAL-02-03-FOURTEENTH-AMENDMENT",
+      "type": "article_i_qualification",
+      "kind": "amendment_change",
+      "name": "Amendment XIV Section 2 modified the original apportionment method.",
+      "summary": "Amendment XIV Section 2 modified the original apportionment method.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-03",
+        "CONST-US-AMD-14-SEC-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-03-APPORTIONMENT"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-04-STATE-WRIT",
+      "type": "article_i_qualification",
+      "kind": "required_action",
+      "name": "State executive authority issues writs of election to fill House vacancies.",
+      "summary": "State executive authority issues writs of election to fill House vacancies.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-02-04-VACANCIES"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "related_actor_ids": [
+        "ACT-US-STATE-EXE"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-05-HOUSE-OFFICERS",
+      "type": "article_i_qualification",
+      "kind": "authority_scope",
+      "name": "The House, not the Senate, chooses its Speaker and other House officers.",
+      "summary": "The House, not the Senate, chooses its Speaker and other House officers.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-002",
+        "NORM-US-CONST-AI-02-05-OFFICERS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-02-05-HOUSE-IMPEACHMENT",
+      "type": "article_i_qualification",
+      "kind": "exclusive_power",
+      "name": "The House alone exercises the constitutional power of impeachment.",
+      "summary": "The House alone exercises the constitutional power of impeachment.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-002",
+        "NORM-US-CONST-AI-02-05-OFFICERS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-01-TWO-PER-STATE",
+      "type": "article_i_qualification",
+      "kind": "structural_requirement",
+      "name": "Each state has two Senators, with one vote per Senator and six-year terms.",
+      "summary": "Each state has two Senators, with one vote per Senator and six-year terms.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-01-COMPOSITION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-01-POPULAR-ELECTION",
+      "type": "article_i_qualification",
+      "kind": "amendment_change",
+      "name": "The Seventeenth Amendment replaces the original state-legislature selection of",
+      "summary": "The Seventeenth Amendment replaces the original state-legislature selection of Senators with election by the people.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-01",
+        "CONST-US-AMD-17"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-01-COMPOSITION"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-02-THREE-CLASSES",
+      "type": "article_i_qualification",
+      "kind": "structural_requirement",
+      "name": "Senators are distributed into three classes, with approximately one third sele",
+      "summary": "Senators are distributed into three classes, with approximately one third selected every second year.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-02-CLASSES"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-02-VACANCY-SEVENTEENTH",
+      "type": "article_i_qualification",
+      "kind": "amendment_change",
+      "name": "The Seventeenth Amendment changes vacancy procedures, permitting state executi",
+      "summary": "The Seventeenth Amendment changes vacancy procedures, permitting state executive temporary appointments only if the legislature provides for them.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-02",
+        "CONST-US-AMD-17"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-02-CLASSES"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-03-SENATOR-QUALIFICATIONS",
+      "type": "article_i_qualification",
+      "kind": "eligibility",
+      "name": "A Senator must be at least thirty, a U.S. citizen for nine years, and an inhab",
+      "summary": "A Senator must be at least thirty, a U.S. citizen for nine years, and an inhabitant of the represented state when elected.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-03-ELIGIBILITY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-04-VP-TIE-BREAK",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "The Vice President presides over the Senate but may vote only when Senators ar",
+      "summary": "The Vice President presides over the Senate but may vote only when Senators are equally divided.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-04-VP-PRESIDING"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-05-PRESIDENT-PRO-TEMPORE",
+      "type": "article_i_qualification",
+      "kind": "conditional_office",
+      "name": "Senate chooses a president pro tempore for the Vice President's absence or exe",
+      "summary": "Senate chooses a president pro tempore for the Vice President's absence or exercise of presidential office.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-05-OFFICERS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-06-TRIAL-OATH",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "Senators sitting to try impeachment are under oath or affirmation.",
+      "summary": "Senators sitting to try impeachment are under oath or affirmation.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-003",
+        "NORM-US-CONST-AI-03-06-TRIAL-PROCEDURE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-06-CHIEF-JUSTICE",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "The Chief Justice presides if the President is tried on impeachment.",
+      "summary": "The Chief Justice presides if the President is tried on impeachment.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-003",
+        "NORM-US-CONST-AI-03-06-TRIAL-PROCEDURE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-06-TWO-THIRDS",
+      "type": "article_i_qualification",
+      "kind": "threshold",
+      "name": "Conviction on impeachment requires concurrence of two thirds of Senators prese",
+      "summary": "Conviction on impeachment requires concurrence of two thirds of Senators present.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-003",
+        "NORM-US-CONST-AI-03-06-TRIAL-PROCEDURE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-07-JUDGMENT-LIMIT",
+      "type": "article_i_qualification",
+      "kind": "limit",
+      "name": "Judgment in impeachment extends no further than removal and possible disqualif",
+      "summary": "Judgment in impeachment extends no further than removal and possible disqualification from federal office.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-07-JUDGMENT-LIMIT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-03-07-SEPARATE-CRIMINAL",
+      "type": "article_i_qualification",
+      "kind": "qualification",
+      "name": "Conviction on impeachment does not insulate the convicted person from later in",
+      "summary": "Conviction on impeachment does not insulate the convicted person from later indictment, trial, judgment or punishment under law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-03-07-JUDGMENT-LIMIT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-04-01-STATE-ELECTION-CODE",
+      "type": "article_i_qualification",
+      "kind": "allocation",
+      "name": "State legislatures prescribe times, places and manner of federal congressional",
+      "summary": "State legislatures prescribe times, places and manner of federal congressional elections, subject to Article I and later amendments.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-04-01-STATE-ELECTIONS",
+        "NORM-US-CONST-AI-04-01-CONGRESS-ELECTIONS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "related_actor_ids": [
+        "ACT-US-STATE-LEG"
+      ]
+    },
+    {
+      "id": "AI-QUAL-04-01-CONGRESS-ALTER-BY-LAW",
+      "type": "article_i_qualification",
+      "kind": "condition",
+      "name": "Congress may make or alter state election regulations by law, subject to the c",
+      "summary": "Congress may make or alter state election regulations by law, subject to the clause's stated original exception.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-04-01-STATE-ELECTIONS",
+        "NORM-US-CONST-AI-04-01-CONGRESS-ELECTIONS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-04-01-ORIGINAL-SENATE-PLACE",
+      "type": "article_i_qualification",
+      "kind": "historical_qualification",
+      "name": "The original exception concerning places of choosing Senators must be assessed",
+      "summary": "The original exception concerning places of choosing Senators must be assessed with the Seventeenth Amendment's introduction of popular Senate elections.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-01",
+        "CONST-US-AMD-17"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-04-01-STATE-ELECTIONS",
+        "NORM-US-CONST-AI-04-01-CONGRESS-ELECTIONS"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "note": "The original textual exception is acknowledged, but this research model does not independently determine its modern operation after the Seventeenth Amendment."
+    },
+    {
+      "id": "AI-QUAL-04-02-ANNUAL-MEETING",
+      "type": "article_i_qualification",
+      "kind": "frequency",
+      "name": "Congress shall meet at least once annually.",
+      "summary": "Congress shall meet at least once annually.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-04-02-ASSEMBLY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-04-02-TWENTIETH-AMENDMENT",
+      "type": "article_i_qualification",
+      "kind": "amendment_change",
+      "name": "The Twentieth Amendment Section 2 replaces the original default congressional ",
+      "summary": "The Twentieth Amendment Section 2 replaces the original default congressional meeting date.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-04-CL-02",
+        "CONST-US-AMD-20-SEC-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-04-02-ASSEMBLY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-01-HOUSE-JUDGES",
+      "type": "article_i_qualification",
+      "kind": "exclusive_power",
+      "name": "Each House judges the elections, returns and qualifications of its own Members",
+      "summary": "Each House judges the elections, returns and qualifications of its own Members.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-01-JUDGE",
+        "NORM-US-CONST-AI-05-01-QUORUM"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-01-QUORUM",
+      "type": "article_i_qualification",
+      "kind": "threshold",
+      "name": "A majority of the respective House constitutes a quorum to conduct business.",
+      "summary": "A majority of the respective House constitutes a quorum to conduct business.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-01-JUDGE",
+        "NORM-US-CONST-AI-05-01-QUORUM"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-01-SMALLER-NUMBER",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "A smaller number may adjourn day to day and may compel attendance under the Ho",
+      "summary": "A smaller number may adjourn day to day and may compel attendance under the House's prescribed procedures and penalties.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-01-JUDGE",
+        "NORM-US-CONST-AI-05-01-QUORUM"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-02-RULES-DISCIPLINE",
+      "type": "article_i_qualification",
+      "kind": "authority_scope",
+      "name": "Each House makes its own rules and may punish its members for disorderly behav",
+      "summary": "Each House makes its own rules and may punish its members for disorderly behavior.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-02-RULES",
+        "NORM-US-CONST-AI-05-02-EXPULSION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-02-EXPULSION-TWO-THIRDS",
+      "type": "article_i_qualification",
+      "kind": "threshold",
+      "name": "Expulsion of a member requires the concurrence of two thirds.",
+      "summary": "Expulsion of a member requires the concurrence of two thirds.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-02-RULES",
+        "NORM-US-CONST-AI-05-02-EXPULSION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-03-JOURNAL-RECORDS",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "Each House must keep a journal and publish it from time to time.",
+      "summary": "Each House must keep a journal and publish it from time to time.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-03-JOURNALS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-03-SECRECY-EXCEPTION",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "Each House may withhold journal portions its judgment requires to remain secre",
+      "summary": "Each House may withhold journal portions its judgment requires to remain secret.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-03-JOURNALS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-03-RECORDED-VOTES",
+      "type": "article_i_qualification",
+      "kind": "threshold",
+      "name": "On request of one fifth of Members present, yeas and nays on a question must b",
+      "summary": "On request of one fifth of Members present, yeas and nays on a question must be entered on the journal.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-03-JOURNALS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-05-04-CROSS-HOUSE-CONSENT",
+      "type": "article_i_qualification",
+      "kind": "consent",
+      "name": "During congressional session, adjournment for more than three days or relocati",
+      "summary": "During congressional session, adjournment for more than three days or relocation to another meeting place requires the other House's consent.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-05-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-05-04-ADJOURNMENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-06-01-PAY-BY-LAW",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "Compensation for Members is ascertained by law and paid out of the United Stat",
+      "summary": "Compensation for Members is ascertained by law and paid out of the United States Treasury.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-06-01-COMPENSATION",
+        "NORM-US-CONST-AI-06-01-PRIVILEGE",
+        "NORM-US-CONST-AI-06-01-DEBATE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-06-01-PRIVILEGE-EXCEPTIONS",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "Arrest privilege during covered attendance and travel excepts treason, felony ",
+      "summary": "Arrest privilege during covered attendance and travel excepts treason, felony and breach of the peace.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-06-01-COMPENSATION",
+        "NORM-US-CONST-AI-06-01-PRIVILEGE",
+        "NORM-US-CONST-AI-06-01-DEBATE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-06-01-SPEECH-DEBATE",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Speech or debate in either House cannot be grounds to question Members in any ",
+      "summary": "Speech or debate in either House cannot be grounds to question Members in any other place; doctrinal scope requires case-law analysis.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-06-01-COMPENSATION",
+        "NORM-US-CONST-AI-06-01-PRIVILEGE",
+        "NORM-US-CONST-AI-06-01-DEBATE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-06-01-AMENDMENT-27",
+      "type": "article_i_qualification",
+      "kind": "amendment_change",
+      "name": "The Twenty-Seventh Amendment restricts when laws varying congressional compens",
+      "summary": "The Twenty-Seventh Amendment restricts when laws varying congressional compensation take effect.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-01",
+        "CONST-US-AMD-27"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-06-01-COMPENSATION",
+        "NORM-US-CONST-AI-06-01-PRIVILEGE",
+        "NORM-US-CONST-AI-06-01-DEBATE"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AI-QUAL-06-02-OFFICE-CREATED-OR-EMOLUMENTS",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "During their elected term, Senators and Representatives cannot be appointed to",
+      "summary": "During their elected term, Senators and Representatives cannot be appointed to civil offices newly created or whose emoluments increased during that term.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-06-02-INELIGIBILITY",
+        "NORM-US-CONST-AI-06-02-INCOMPATIBILITY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-06-02-CONCURRENT-OFFICE",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "A person holding an office under the United States cannot simultaneously be a ",
+      "summary": "A person holding an office under the United States cannot simultaneously be a Member of either House.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-06-02-INELIGIBILITY",
+        "NORM-US-CONST-AI-06-02-INCOMPATIBILITY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-01-REVENUE-ORIGINATION",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "A bill raising revenue must originate in the House of Representatives.",
+      "summary": "A bill raising revenue must originate in the House of Representatives.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-004"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-01-SENATE-AMEND",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "The Senate may propose or concur with amendments to a House-originated revenue",
+      "summary": "The Senate may propose or concur with amendments to a House-originated revenue bill.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-004"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-02-BICAMERAL-PASSAGE",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "Legislative bills must pass both Houses before Presidential presentment.",
+      "summary": "Legislative bills must pass both Houses before Presidential presentment.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-005"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-02-PRESIDENTIAL-PRESENTMENT",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "Passed bills are presented to the President for approval or returned objection",
+      "summary": "Passed bills are presented to the President for approval or returned objections.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-005"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-02-OVERRIDE-TWO-THIRDS",
+      "type": "article_i_qualification",
+      "kind": "threshold",
+      "name": "A presidential veto is overridden only if each House approves reconsideration ",
+      "summary": "A presidential veto is overridden only if each House approves reconsideration by two-thirds vote under the stated procedure.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-005"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-02-RECORDED-OVERRIDE",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "For a veto override, each House must record yea/nay votes and Member names in ",
+      "summary": "For a veto override, each House must record yea/nay votes and Member names in its journal.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-005"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-02-TEN-DAY-RETURN",
+      "type": "article_i_qualification",
+      "kind": "time_limit",
+      "name": "A bill not returned within ten days excluding Sundays generally becomes law ab",
+      "summary": "A bill not returned within ten days excluding Sundays generally becomes law absent the constitutional adjournment exception.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-005"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-02-ADJOURNMENT-EXCEPTION",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "If Congress adjourns in a way that prevents return of a bill, the no-return pa",
+      "summary": "If Congress adjourns in a way that prevents return of a bill, the no-return passage rule does not apply.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-005"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-03-CONCURRENT-PRESENTMENT",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "Covered orders, resolutions and votes requiring bicameral concurrence are pres",
+      "summary": "Covered orders, resolutions and votes requiring bicameral concurrence are presented for presidential approval or constitutionally prescribed repassage.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-07-03-RESOLUTION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-07-03-ADJOURNMENT-EXCEPTION",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "Questions of adjournment are expressly excepted from order/resolution/vote pre",
+      "summary": "Questions of adjournment are expressly excepted from order/resolution/vote presentment.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-07-03-RESOLUTION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-01-TAX-AND-SPENDING-PURPOSE",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Taxing and spending authority is directed to debts, common defense and general",
+      "summary": "Taxing and spending authority is directed to debts, common defense and general welfare of the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-006",
+        "NORM-US-CONST-007",
+        "NORM-US-CONST-008"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-01-UNIFORM-INDIRECT",
+      "type": "article_i_qualification",
+      "kind": "condition",
+      "name": "Duties, imposts and excises must be uniform throughout the United States.",
+      "summary": "Duties, imposts and excises must be uniform throughout the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-006",
+        "NORM-US-CONST-008"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-01-DIRECT-TAX-APPORTIONMENT",
+      "type": "article_i_qualification",
+      "kind": "cross_provision_limit",
+      "name": "Article I Section 9 Clause 4 requires apportionment for covered direct taxes s",
+      "summary": "Article I Section 9 Clause 4 requires apportionment for covered direct taxes subject to the Sixteenth Amendment income-tax rule.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01",
+        "CONST-US-ART-01-SEC-09-CL-04",
+        "CONST-US-AMD-16"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-006",
+        "NORM-US-CONST-AI-09-04-APPORTION"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "note": "Model cross-text limits together; not an absolute ban on unapportioned income taxes."
+    },
+    {
+      "id": "AI-QUAL-08-01-EXPORT-TAX-BAN",
+      "type": "article_i_qualification",
+      "kind": "cross_provision_limit",
+      "name": "Article I Section 9 Clause 5 separately forbids federal export duties.",
+      "summary": "Article I Section 9 Clause 5 separately forbids federal export duties.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01",
+        "CONST-US-ART-01-SEC-09-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-006",
+        "NORM-US-CONST-012"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "Source provision: Article I §9 cl5; links do not constitute additional independent grant."
+    },
+    {
+      "id": "AI-QUAL-08-02-CREDIT-US",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Borrowing is permitted on the credit of the United States.",
+      "summary": "Borrowing is permitted on the credit of the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P02"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-03-THREE-COMMERCE-CATEGORIES",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "The textual commerce categories are foreign nations, among the several states,",
+      "summary": "The textual commerce categories are foreign nations, among the several states, and Indian tribes; later doctrine is separately reviewable.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P03"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-04-UNIFORM-NATURALIZATION",
+      "type": "article_i_qualification",
+      "kind": "condition",
+      "name": "Naturalization rule must be uniform.",
+      "summary": "Naturalization rule must be uniform.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P04",
+        "NORM-US-CONST-AI-08-04-UNIFORM"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-04-UNIFORM-BANKRUPTCY",
+      "type": "article_i_qualification",
+      "kind": "condition",
+      "name": "Federal laws on the subject of bankruptcies must be uniform throughout the Uni",
+      "summary": "Federal laws on the subject of bankruptcies must be uniform throughout the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P04",
+        "NORM-US-CONST-AI-08-04-UNIFORM"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-05-COINAGE-STANDARDS",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "The listed power concerns coining money, domestic and foreign coin value, and ",
+      "summary": "The listed power concerns coining money, domestic and foreign coin value, and standards of weights and measures.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P05"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-06-COUNTERFEITING-OBJECTS",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Counterfeiting power identifies securities and current coin of the United Stat",
+      "summary": "Counterfeiting power identifies securities and current coin of the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P06"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-07-POST-OFFICES-AND-ROADS",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Congress may establish post offices and post roads, without this clause alone ",
+      "summary": "Congress may establish post offices and post roads, without this clause alone specifying a modern organizational model.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P07"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-08-LIMITED-TIMES",
+      "type": "article_i_qualification",
+      "kind": "time_limit",
+      "name": "Exclusive rights to authors and inventors must be granted for limited times.",
+      "summary": "Exclusive rights to authors and inventors must be granted for limited times.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-08"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P08",
+        "NORM-US-CONST-AI-08-08-LIMITED"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-08-PROGRESS-PURPOSE",
+      "type": "article_i_qualification",
+      "kind": "purpose",
+      "name": "Exclusive rights under the clause are directed to promoting progress of scienc",
+      "summary": "Exclusive rights under the clause are directed to promoting progress of science and useful arts.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-08"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P08",
+        "NORM-US-CONST-AI-08-08-LIMITED"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-08-DEFINED-RIGHTS-HOLDERS",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Exclusive rights attach to authors and inventors for their respective writings",
+      "summary": "Exclusive rights attach to authors and inventors for their respective writings and discoveries.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-08"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P08",
+        "NORM-US-CONST-AI-08-08-LIMITED"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-09-INFERIOR-TO-SUPREME",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Congress may constitute tribunals inferior to the Supreme Court; Article III d",
+      "summary": "Congress may constitute tribunals inferior to the Supreme Court; Article III defines a distinct judicial vesting structure.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-09"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P09"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-10-MARITIME-LAW-OF-NATIONS",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Punishment and definition are limited to piracies and felonies on the high sea",
+      "summary": "Punishment and definition are limited to piracies and felonies on the high seas and offenses against the law of nations.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-10"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P10"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-11-DECLARE-WAR-AND-CAPTURES",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Congress may declare war, grant letters of marque and reprisal, and regulate c",
+      "summary": "Congress may declare war, grant letters of marque and reprisal, and regulate captures on land and water.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-11"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P11"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-12-TWO-YEAR-ARMY-FUNDING",
+      "type": "article_i_qualification",
+      "kind": "time_limit",
+      "name": "No appropriation to raise and support armies may be for a term longer than two",
+      "summary": "No appropriation to raise and support armies may be for a term longer than two years.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-12"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P12",
+        "NORM-US-CONST-009"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-13-NAVY",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "Congress may provide and maintain a navy; the adjacent Army two-year language ",
+      "summary": "Congress may provide and maintain a navy; the adjacent Army two-year language is not copied into this clause.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-13"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P13"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-14-LAND-AND-NAVAL-RULES",
+      "type": "article_i_qualification",
+      "kind": "scope",
+      "name": "The textual rules power concerns government and regulation of land and naval f",
+      "summary": "The textual rules power concerns government and regulation of land and naval forces.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-14"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P14"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-15-MILITIA-CALL-PURPOSES",
+      "type": "article_i_qualification",
+      "kind": "purpose",
+      "name": "Calling forth militia is for executing the laws of the Union, suppressing insu",
+      "summary": "Calling forth militia is for executing the laws of the Union, suppressing insurrections or repelling invasions.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-15"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P15"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-16-STATE-OFFICER-APPOINTMENT",
+      "type": "article_i_qualification",
+      "kind": "reservation",
+      "name": "States respectively reserve the appointment of militia officers.",
+      "summary": "States respectively reserve the appointment of militia officers.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-16"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P16"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "related_actor_ids": [
+        "ACT-US-STATES"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-16-STATE-TRAINING",
+      "type": "article_i_qualification",
+      "kind": "reservation",
+      "name": "States retain militia training authority according to the discipline prescribe",
+      "summary": "States retain militia training authority according to the discipline prescribed by Congress.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-16"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P16"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "related_actor_ids": [
+        "ACT-US-STATES"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-17-DC-DISTRICT-AREA",
+      "type": "article_i_qualification",
+      "kind": "geographic_limit",
+      "name": "Federal seat of government district is not to exceed ten miles square.",
+      "summary": "Federal seat of government district is not to exceed ten miles square.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-17"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P17"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-17-DC-CESSION-ACCEPTANCE",
+      "type": "article_i_qualification",
+      "kind": "consent",
+      "name": "Exclusive district legislation is conditioned on cession by particular states ",
+      "summary": "Exclusive district legislation is conditioned on cession by particular states and congressional acceptance.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-17"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P17"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-17-ENCLAVE-CONSENT",
+      "type": "article_i_qualification",
+      "kind": "consent",
+      "name": "Exclusive jurisdiction over described federal enclaves depends on purchase wit",
+      "summary": "Exclusive jurisdiction over described federal enclaves depends on purchase with consent of the legislature of the state where the place lies.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-17"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P17"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-17-ENCLAVE-PURPOSE",
+      "type": "article_i_qualification",
+      "kind": "purpose",
+      "name": "Described enclave purposes include forts, magazines, arsenals, dockyards and o",
+      "summary": "Described enclave purposes include forts, magazines, arsenals, dockyards and other needful buildings.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-17"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P17"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-08-18-NECESSARY-PROPER-DEPENDENCY",
+      "type": "article_i_qualification",
+      "kind": "dependency",
+      "name": "Necessary and Proper laws execute other constitutionally vested powers; this i",
+      "summary": "Necessary and Proper laws execute other constitutionally vested powers; this is not a free-standing grant of unlimited regulatory authority.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-P18"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-01-PRE-1808-HISTORICAL",
+      "type": "article_i_qualification",
+      "kind": "historical_limit",
+      "name": "The prohibition on congressional prohibition of specified migration/importatio",
+      "summary": "The prohibition on congressional prohibition of specified migration/importation before 1808 expired by its stated date.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-09-01-HISTORICAL"
+      ],
+      "effect_status": "historical_only",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "Do not reactivate forced-labor regimes, historical slave trade, or importation tax power."
+    },
+    {
+      "id": "AI-QUAL-09-01-HISTORIC-TEN-DOLLARS",
+      "type": "article_i_qualification",
+      "kind": "historical_limit",
+      "name": "Original clause allowed a tax or duty no greater than ten dollars per person o",
+      "summary": "Original clause allowed a tax or duty no greater than ten dollars per person on covered importation; not operative authority today.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-09-01-HISTORICAL"
+      ],
+      "effect_status": "historical_only",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-02-REBELLION-OR-INVASION",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "Habeas suspension exception requires rebellion or invasion and that public saf",
+      "summary": "Habeas suspension exception requires rebellion or invasion and that public safety may require suspension.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-010"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-03-NO-ATTAINDER-EX-POST",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "Congress cannot pass bills of attainder or ex post facto laws.",
+      "summary": "Congress cannot pass bills of attainder or ex post facto laws.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-011"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-04-DIRECT-TAX-APPORTIONMENT",
+      "type": "article_i_qualification",
+      "kind": "condition",
+      "name": "Capitation and other direct taxes generally require apportionment according to",
+      "summary": "Capitation and other direct taxes generally require apportionment according to enumeration.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-09-04-APPORTION",
+        "NORM-US-CONST-006"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-04-AMENDMENT-16",
+      "type": "article_i_qualification",
+      "kind": "amendment_change",
+      "name": "The Sixteenth Amendment permits federal taxes on incomes without the apportion",
+      "summary": "The Sixteenth Amendment permits federal taxes on incomes without the apportionment required for other direct taxes.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-04",
+        "CONST-US-AMD-16"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-09-04-APPORTION",
+        "NORM-US-CONST-006"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-05-NO-FEDERAL-EXPORT-DUTY",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "Articles exported from any state may not bear federal tax or duty.",
+      "summary": "Articles exported from any state may not bear federal tax or duty.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-012",
+        "NORM-US-CONST-006"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-06-NO-PORT-PREFERENCE",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "Federal commerce or revenue regulation cannot prefer one state's ports over an",
+      "summary": "Federal commerce or revenue regulation cannot prefer one state's ports over another's.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-09-06-PORTS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-06-NO-EXTRA-STATE-VESSEL-CLEARANCE",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "Covered vessels bound to or from one state cannot be forced to enter, clear or",
+      "summary": "Covered vessels bound to or from one state cannot be forced to enter, clear or pay duties in another state.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AI-09-06-PORTS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-07-TREASURY-APPROPRIATION",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "Treasury money may be drawn only pursuant to appropriations made by law.",
+      "summary": "Treasury money may be drawn only pursuant to appropriations made by law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-013"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-07-PUBLIC-ACCOUNTS",
+      "type": "article_i_qualification",
+      "kind": "procedural_requirement",
+      "name": "Regular statements and accounts of all public money receipts and expenditures ",
+      "summary": "Regular statements and accounts of all public money receipts and expenditures must be published.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-013"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-08-NO-FEDERAL-NOBILITY",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "The United States may not grant titles of nobility.",
+      "summary": "The United States may not grant titles of nobility.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-08"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-014",
+        "NORM-US-CONST-AI-09-08-CONSENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-09-08-FOREIGN-GIFTS-CONSENT",
+      "type": "article_i_qualification",
+      "kind": "consent",
+      "name": "A covered federal officeholder may accept specified foreign presents, emolumen",
+      "summary": "A covered federal officeholder may accept specified foreign presents, emoluments, offices or titles only with congressional consent.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-08"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-014",
+        "NORM-US-CONST-AI-09-08-CONSENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-10-01-FOREIGN-AND-MONETARY-PROHIBITIONS",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "States cannot enter treaties, alliances or confederations, grant marque/repris",
+      "summary": "States cannot enter treaties, alliances or confederations, grant marque/reprisal, coin money or emit bills of credit.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-015"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-10-01-TENDER-CONTRACTS",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "States cannot designate other than gold/silver coin legal tender or pass bills",
+      "summary": "States cannot designate other than gold/silver coin legal tender or pass bills of attainder, ex post facto laws or contract-impairing laws.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-015"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-10-01-NOBILITY",
+      "type": "article_i_qualification",
+      "kind": "prohibition",
+      "name": "States may not grant titles of nobility.",
+      "summary": "States may not grant titles of nobility.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-015"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-10-02-IMPORT-EXPORT-CONSENT",
+      "type": "article_i_qualification",
+      "kind": "consent",
+      "name": "State imposts or duties on imports or exports require congressional consent un",
+      "summary": "State imposts or duties on imports or exports require congressional consent unless the express inspection-law exception applies.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-016",
+        "NORM-US-CONST-AI-10-02-CONSENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-10-02-INSPECTION-EXCEPTION",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "The clause excepts only charges absolutely necessary for executing state inspe",
+      "summary": "The clause excepts only charges absolutely necessary for executing state inspection laws.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-016",
+        "NORM-US-CONST-AI-10-02-CONSENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-10-02-NET-PROCEEDS",
+      "type": "article_i_qualification",
+      "kind": "condition",
+      "name": "Net proceeds of relevant state import/export duties must be used for the Unite",
+      "summary": "Net proceeds of relevant state import/export duties must be used for the United States Treasury; congressional revision and control applies.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-016",
+        "NORM-US-CONST-AI-10-02-CONSENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-10-03-CONSENT-ON-TONNAGE-COMPACTS",
+      "type": "article_i_qualification",
+      "kind": "consent",
+      "name": "State duties of tonnage, forces and warships in peace, and compacts with state",
+      "summary": "State duties of tonnage, forces and warships in peace, and compacts with states or foreign powers, are subject to specified congressional consent.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-017",
+        "NORM-US-CONST-AI-10-03-CONSENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AI-QUAL-10-03-DEFENSIVE-WAR-EXCEPTION",
+      "type": "article_i_qualification",
+      "kind": "exception",
+      "name": "States may engage in war without prior congressional consent if actually invad",
+      "summary": "States may engage in war without prior congressional consent if actually invaded or in such imminent danger as will not admit delay.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-017",
+        "NORM-US-CONST-AI-10-03-CONSENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    }
+  ]
+}

@@ -32,7 +32,10 @@
     "model/constitutional/norms.json",
     "model/constitutional/bindings.json",
     "model/constitutional/changes.json",
-    "model/constitutional/viewpoints.json"
+    "model/constitutional/viewpoints.json",
+    "model/constitutional/article-i-clauses.json",
+    "model/constitutional/article-i-qualifications.json",
+    "model/constitutional/article-i-capability-links.json"
   ],
   "standards": [
     {
@@ -66,5 +69,29 @@
     ],
     "scope": "Original Constitution, 27 ratified Amendments, selected clause and normative-effect decomposition. Interpretive doctrine is a separate future catalog.",
     "publication_note": "Source-linked original text does not imply operative effect for superseded provisions."
+  },
+  "article_i_extension": {
+    "id": "ARFI-COA-ART-I-001",
+    "review_status": "research_textual_summary_pending_legal_review",
+    "section_clause_counts": [
+      1,
+      5,
+      7,
+      2,
+      4,
+      2,
+      3,
+      18,
+      8,
+      3
+    ],
+    "clause_count": 53,
+    "source_text_basis": [
+      "SRC-CONST-ORIGINAL-TRANSCRIPT",
+      "SRC-CONST-CONAN-ARTICLE-I",
+      "SRC-CONST-LATER-AMENDMENTS"
+    ],
+    "scope": "All original Article I clauses, text-bound conditions and exceptions, selected amendment overlays, congressional power-to-constraint and federal capability mappings; no agency delegation claimed.",
+    "publication_note": "Do not infer current legal effect from historic clauses or equate functional alignment with authority to execute."
   }
 }

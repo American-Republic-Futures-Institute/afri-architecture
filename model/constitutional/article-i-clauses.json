@@ -1,0 +1,1317 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AI-CL-01-01",
+      "type": "article_i_clause_analysis",
+      "section": 1,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "name": "Vesting of legislative powers",
+      "summary": "Vesting of legislative powers",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-001"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-01-VESTED-GRANTED"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-02-01",
+      "type": "article_i_clause_analysis",
+      "section": 2,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-02-CL-01",
+      "name": "House election and voter qualifications",
+      "summary": "House election and voter qualifications",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-02-01-ELECTIONS",
+        "NORM-US-CONST-AI-02-01-ELECTOR-QUALIFICATIONS"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-02-01-ELECTION-BIENNIAL",
+        "AI-QUAL-02-01-ELECTOR-QUALIFICATIONS"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-02-02",
+      "type": "article_i_clause_analysis",
+      "section": 2,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-02-CL-02",
+      "name": "House membership qualifications",
+      "summary": "House membership qualifications",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-02-02-ELIGIBILITY"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-02-02-HOUSE-QUALIFICATIONS"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-02-03",
+      "type": "article_i_clause_analysis",
+      "section": 2,
+      "clause": 3,
+      "provision_id": "CONST-US-ART-01-SEC-02-CL-03",
+      "name": "Apportionment and decennial enumeration",
+      "summary": "Apportionment and decennial enumeration",
+      "current_effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-AI-02-03-APPORTIONMENT",
+        "NORM-US-CONST-AI-02-03-HISTORIC"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-02-03-DECENNIAL-CENSUS",
+        "AI-QUAL-02-03-MINIMUM-SEAT",
+        "AI-QUAL-02-03-REPRESENTATIVE-RATIO",
+        "AI-QUAL-02-03-THREE-FIFTHS-HISTORIC",
+        "AI-QUAL-02-03-FOURTEENTH-AMENDMENT"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-02-04",
+      "type": "article_i_clause_analysis",
+      "section": 2,
+      "clause": 4,
+      "provision_id": "CONST-US-ART-01-SEC-02-CL-04",
+      "name": "Vacancies in House seats",
+      "summary": "Vacancies in House seats",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-02-04-VACANCIES"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-02-04-STATE-WRIT"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-02-05",
+      "type": "article_i_clause_analysis",
+      "section": 2,
+      "clause": 5,
+      "provision_id": "CONST-US-ART-01-SEC-02-CL-05",
+      "name": "House officers and impeachment",
+      "summary": "House officers and impeachment",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-002",
+        "NORM-US-CONST-AI-02-05-OFFICERS"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-02-05-HOUSE-OFFICERS",
+        "AI-QUAL-02-05-HOUSE-IMPEACHMENT"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0001",
+        "AI-CAP-0030"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-03-01",
+      "type": "article_i_clause_analysis",
+      "section": 3,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-03-CL-01",
+      "name": "Composition and selection of Senate",
+      "summary": "Composition and selection of Senate",
+      "current_effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-091",
+        "NORM-US-CONST-AI-03-01-COMPOSITION"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-03-01-TWO-PER-STATE",
+        "AI-QUAL-03-01-POPULAR-ELECTION"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-03-02",
+      "type": "article_i_clause_analysis",
+      "section": 3,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-03-CL-02",
+      "name": "Staggered Senate classes and vacancies",
+      "summary": "Staggered Senate classes and vacancies",
+      "current_effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-AI-03-02-CLASSES"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-03-02-THREE-CLASSES",
+        "AI-QUAL-03-02-VACANCY-SEVENTEENTH"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-03-03",
+      "type": "article_i_clause_analysis",
+      "section": 3,
+      "clause": 3,
+      "provision_id": "CONST-US-ART-01-SEC-03-CL-03",
+      "name": "Senate membership qualifications",
+      "summary": "Senate membership qualifications",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-03-03-ELIGIBILITY"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-03-03-SENATOR-QUALIFICATIONS"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-03-04",
+      "type": "article_i_clause_analysis",
+      "section": 3,
+      "clause": 4,
+      "provision_id": "CONST-US-ART-01-SEC-03-CL-04",
+      "name": "Vice President presides over Senate",
+      "summary": "Vice President presides over Senate",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-03-04-VP-PRESIDING"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-03-04-VP-TIE-BREAK"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-03-05",
+      "type": "article_i_clause_analysis",
+      "section": 3,
+      "clause": 5,
+      "provision_id": "CONST-US-ART-01-SEC-03-CL-05",
+      "name": "Senate officers and president pro tempore",
+      "summary": "Senate officers and president pro tempore",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-03-05-OFFICERS"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-03-05-PRESIDENT-PRO-TEMPORE"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0031"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-03-06",
+      "type": "article_i_clause_analysis",
+      "section": 3,
+      "clause": 6,
+      "provision_id": "CONST-US-ART-01-SEC-03-CL-06",
+      "name": "Senate impeachment trials",
+      "summary": "Senate impeachment trials",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-003",
+        "NORM-US-CONST-AI-03-06-TRIAL-PROCEDURE"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-03-06-TRIAL-OATH",
+        "AI-QUAL-03-06-CHIEF-JUSTICE",
+        "AI-QUAL-03-06-TWO-THIRDS"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0002"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-03-07",
+      "type": "article_i_clause_analysis",
+      "section": 3,
+      "clause": 7,
+      "provision_id": "CONST-US-ART-01-SEC-03-CL-07",
+      "name": "Limits of impeachment judgment",
+      "summary": "Limits of impeachment judgment",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-03-07-JUDGMENT-LIMIT"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-03-07-JUDGMENT-LIMIT",
+        "AI-QUAL-03-07-SEPARATE-CRIMINAL"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-04-01",
+      "type": "article_i_clause_analysis",
+      "section": 4,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "name": "Times, places and manner of congressional elections",
+      "summary": "Times, places and manner of congressional elections",
+      "current_effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-AI-04-01-STATE-ELECTIONS",
+        "NORM-US-CONST-AI-04-01-CONGRESS-ELECTIONS"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-04-01-STATE-ELECTION-CODE",
+        "AI-QUAL-04-01-CONGRESS-ALTER-BY-LAW",
+        "AI-QUAL-04-01-ORIGINAL-SENATE-PLACE"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0032"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-04-02",
+      "type": "article_i_clause_analysis",
+      "section": 4,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-04-CL-02",
+      "name": "Annual convening of Congress",
+      "summary": "Annual convening of Congress",
+      "current_effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-AI-04-02-ASSEMBLY"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-04-02-ANNUAL-MEETING",
+        "AI-QUAL-04-02-TWENTIETH-AMENDMENT"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-05-01",
+      "type": "article_i_clause_analysis",
+      "section": 5,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-05-CL-01",
+      "name": "Qualifications, election judgments and quorum",
+      "summary": "Qualifications, election judgments and quorum",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-05-01-JUDGE",
+        "NORM-US-CONST-AI-05-01-QUORUM"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-05-01-HOUSE-JUDGES",
+        "AI-QUAL-05-01-QUORUM",
+        "AI-QUAL-05-01-SMALLER-NUMBER"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0033",
+        "AI-CAP-0034"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-05-02",
+      "type": "article_i_clause_analysis",
+      "section": 5,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-05-CL-02",
+      "name": "Internal rules, member discipline and expulsion",
+      "summary": "Internal rules, member discipline and expulsion",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-05-02-RULES",
+        "NORM-US-CONST-AI-05-02-EXPULSION"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-05-02-RULES-DISCIPLINE",
+        "AI-QUAL-05-02-EXPULSION-TWO-THIRDS"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0035",
+        "AI-CAP-0036",
+        "AI-CAP-0037"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-05-03",
+      "type": "article_i_clause_analysis",
+      "section": 5,
+      "clause": 3,
+      "provision_id": "CONST-US-ART-01-SEC-05-CL-03",
+      "name": "Chamber journals and recorded votes",
+      "summary": "Chamber journals and recorded votes",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-05-03-JOURNALS"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-05-03-JOURNAL-RECORDS",
+        "AI-QUAL-05-03-SECRECY-EXCEPTION",
+        "AI-QUAL-05-03-RECORDED-VOTES"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-05-04",
+      "type": "article_i_clause_analysis",
+      "section": 5,
+      "clause": 4,
+      "provision_id": "CONST-US-ART-01-SEC-05-CL-04",
+      "name": "Limits on separate chamber adjournment",
+      "summary": "Limits on separate chamber adjournment",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-05-04-ADJOURNMENT"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-05-04-CROSS-HOUSE-CONSENT"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-06-01",
+      "type": "article_i_clause_analysis",
+      "section": 6,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-06-CL-01",
+      "name": "Congressional compensation and legislative privileges",
+      "summary": "Congressional compensation and legislative privileges",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-06-01-COMPENSATION",
+        "NORM-US-CONST-AI-06-01-PRIVILEGE",
+        "NORM-US-CONST-AI-06-01-DEBATE"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-06-01-PAY-BY-LAW",
+        "AI-QUAL-06-01-PRIVILEGE-EXCEPTIONS",
+        "AI-QUAL-06-01-SPEECH-DEBATE",
+        "AI-QUAL-06-01-AMENDMENT-27"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-06-02",
+      "type": "article_i_clause_analysis",
+      "section": 6,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-06-CL-02",
+      "name": "Ineligibility and incompatibility of federal offices",
+      "summary": "Ineligibility and incompatibility of federal offices",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-06-02-INELIGIBILITY",
+        "NORM-US-CONST-AI-06-02-INCOMPATIBILITY"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-06-02-OFFICE-CREATED-OR-EMOLUMENTS",
+        "AI-QUAL-06-02-CONCURRENT-OFFICE"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-07-01",
+      "type": "article_i_clause_analysis",
+      "section": 7,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-07-CL-01",
+      "name": "Revenue-bill origination",
+      "summary": "Revenue-bill origination",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-004"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-07-01-REVENUE-ORIGINATION",
+        "AI-QUAL-07-01-SENATE-AMEND"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-07-02",
+      "type": "article_i_clause_analysis",
+      "section": 7,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-07-CL-02",
+      "name": "Bill passage, presidential presentment and veto",
+      "summary": "Bill passage, presidential presentment and veto",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-005"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-07-02-BICAMERAL-PASSAGE",
+        "AI-QUAL-07-02-PRESIDENTIAL-PRESENTMENT",
+        "AI-QUAL-07-02-OVERRIDE-TWO-THIRDS",
+        "AI-QUAL-07-02-RECORDED-OVERRIDE",
+        "AI-QUAL-07-02-TEN-DAY-RETURN",
+        "AI-QUAL-07-02-ADJOURNMENT-EXCEPTION"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-07-03",
+      "type": "article_i_clause_analysis",
+      "section": 7,
+      "clause": 3,
+      "provision_id": "CONST-US-ART-01-SEC-07-CL-03",
+      "name": "Presentment of orders, resolutions and votes",
+      "summary": "Presentment of orders, resolutions and votes",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-07-03-RESOLUTION"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-07-03-CONCURRENT-PRESENTMENT",
+        "AI-QUAL-07-03-ADJOURNMENT-EXCEPTION"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-01",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-01",
+      "name": "Taxation, spending and uniformity",
+      "summary": "Congress may levy taxes and provide for common defense/general welfare, subject to qualifications.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-006",
+        "NORM-US-CONST-007",
+        "NORM-US-CONST-008"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-01-TAX-AND-SPENDING-PURPOSE",
+        "AI-QUAL-08-01-UNIFORM-INDIRECT",
+        "AI-QUAL-08-01-DIRECT-TAX-APPORTIONMENT",
+        "AI-QUAL-08-01-EXPORT-TAX-BAN"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0003",
+        "AI-CAP-0004",
+        "AI-CAP-0005"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-02",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-02",
+      "name": "Borrowing",
+      "summary": "Congress may borrow on the credit of the United States.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P02"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-02-CREDIT-US"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0006",
+        "AI-CAP-0007"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-03",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 3,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-03",
+      "name": "Commerce",
+      "summary": "Congress may regulate commerce with foreign nations, among states, and with Indian tribes.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P03"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-03-THREE-COMMERCE-CATEGORIES"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0008"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-04",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 4,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-04",
+      "name": "Naturalization and bankruptcy",
+      "summary": "Congress may establish uniform naturalization rules and bankruptcy laws.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P04",
+        "NORM-US-CONST-AI-08-04-UNIFORM"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-04-UNIFORM-NATURALIZATION",
+        "AI-QUAL-08-04-UNIFORM-BANKRUPTCY"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0009",
+        "AI-CAP-0010"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-05",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 5,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-05",
+      "name": "Coinage and monetary standards",
+      "summary": "Congress may coin money and regulate its value, and fix standards of weights and measures.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P05"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-05-COINAGE-STANDARDS"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0011"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-06",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 6,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-06",
+      "name": "Counterfeiting",
+      "summary": "Congress may provide punishment for counterfeiting federal securities and coin.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P06"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-06-COUNTERFEITING-OBJECTS"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0012"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-07",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 7,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-07",
+      "name": "Post offices and roads",
+      "summary": "Congress may establish post offices and post roads.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P07"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-07-POST-OFFICES-AND-ROADS"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0013"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-08",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 8,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-08",
+      "name": "Copyrights and patents",
+      "summary": "Congress may secure limited exclusive rights for authors and inventors to promote progress.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P08",
+        "NORM-US-CONST-AI-08-08-LIMITED"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-08-LIMITED-TIMES",
+        "AI-QUAL-08-08-PROGRESS-PURPOSE",
+        "AI-QUAL-08-08-DEFINED-RIGHTS-HOLDERS"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0014",
+        "AI-CAP-0015"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-09",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 9,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-09",
+      "name": "Inferior tribunals",
+      "summary": "Congress may constitute tribunals inferior to the Supreme Court.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P09"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-09-INFERIOR-TO-SUPREME"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0016",
+        "AI-CAP-0017"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-10",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 10,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-10",
+      "name": "Piracies and offenses against law of nations",
+      "summary": "Congress may define and punish piracies, high-seas felonies, and offenses against the law of nations.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P10"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-10-MARITIME-LAW-OF-NATIONS"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0018",
+        "AI-CAP-0019"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-11",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 11,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-11",
+      "name": "Declare war, captures and letters of marque",
+      "summary": "Congress may declare war and grant letters of marque and reprisal, with capture rules.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P11"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-11-DECLARE-WAR-AND-CAPTURES"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0020"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-12",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 12,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-12",
+      "name": "Armies and appropriation duration",
+      "summary": "Congress may raise and support armies, subject to the two-year appropriation limit.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P12",
+        "NORM-US-CONST-009"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-12-TWO-YEAR-ARMY-FUNDING"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0021",
+        "AI-CAP-0022"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-13",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 13,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-13",
+      "name": "Navy",
+      "summary": "Congress may provide and maintain a navy.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P13"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-13-NAVY"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0023"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-14",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 14,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-14",
+      "name": "Land and naval forces rules",
+      "summary": "Congress may make rules governing and regulating land and naval forces.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P14"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-14-LAND-AND-NAVAL-RULES"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0024"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-15",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 15,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-15",
+      "name": "Call forth militia",
+      "summary": "Congress may provide for calling forth militia for specified purposes.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P15"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-15-MILITIA-CALL-PURPOSES"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0025",
+        "AI-CAP-0026"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-16",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 16,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-16",
+      "name": "Militia organization and reserved state roles",
+      "summary": "Congress may provide for organizing, arming and disciplining militia subject to reserved state functions.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P16"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-16-STATE-OFFICER-APPOINTMENT",
+        "AI-QUAL-08-16-STATE-TRAINING"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0027"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-17",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 17,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-17",
+      "name": "Federal district and enclaves",
+      "summary": "Congress may exercise specified exclusive legislation over the federal district and acquired places.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P17"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-17-DC-DISTRICT-AREA",
+        "AI-QUAL-08-17-DC-CESSION-ACCEPTANCE",
+        "AI-QUAL-08-17-ENCLAVE-CONSENT",
+        "AI-QUAL-08-17-ENCLAVE-PURPOSE"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0028"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-08-18",
+      "type": "article_i_clause_analysis",
+      "section": 8,
+      "clause": 18,
+      "provision_id": "CONST-US-ART-01-SEC-08-CL-18",
+      "name": "Necessary and Proper laws",
+      "summary": "Congress may enact laws necessary and proper to execute constitutionally vested federal powers.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-P18"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-08-18-NECESSARY-PROPER-DEPENDENCY"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0029"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-09-01",
+      "type": "article_i_clause_analysis",
+      "section": 9,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-09-CL-01",
+      "name": "Original pre-1808 migration and importation restriction",
+      "summary": "Original pre-1808 migration and importation restriction",
+      "current_effect_status": "expired",
+      "norm_ids": [
+        "NORM-US-CONST-AI-09-01-HISTORICAL"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-09-01-PRE-1808-HISTORICAL",
+        "AI-QUAL-09-01-HISTORIC-TEN-DOLLARS"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-09-02",
+      "type": "article_i_clause_analysis",
+      "section": 9,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-09-CL-02",
+      "name": "Suspension of habeas corpus",
+      "summary": "Suspension of habeas corpus",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-010"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-09-02-REBELLION-OR-INVASION"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-09-03",
+      "type": "article_i_clause_analysis",
+      "section": 9,
+      "clause": 3,
+      "provision_id": "CONST-US-ART-01-SEC-09-CL-03",
+      "name": "Bills of attainder and ex post facto laws",
+      "summary": "Bills of attainder and ex post facto laws",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-011"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-09-03-NO-ATTAINDER-EX-POST"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-09-04",
+      "type": "article_i_clause_analysis",
+      "section": 9,
+      "clause": 4,
+      "provision_id": "CONST-US-ART-01-SEC-09-CL-04",
+      "name": "Direct-tax apportionment",
+      "summary": "Direct-tax apportionment",
+      "current_effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-AI-09-04-APPORTION"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-09-04-DIRECT-TAX-APPORTIONMENT",
+        "AI-QUAL-09-04-AMENDMENT-16"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-09-05",
+      "type": "article_i_clause_analysis",
+      "section": 9,
+      "clause": 5,
+      "provision_id": "CONST-US-ART-01-SEC-09-CL-05",
+      "name": "Federal export tax prohibition",
+      "summary": "Federal export tax prohibition",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-012"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-09-05-NO-FEDERAL-EXPORT-DUTY"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-09-06",
+      "type": "article_i_clause_analysis",
+      "section": 9,
+      "clause": 6,
+      "provision_id": "CONST-US-ART-01-SEC-09-CL-06",
+      "name": "No preferences among state ports",
+      "summary": "No preferences among state ports",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AI-09-06-PORTS"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-09-06-NO-PORT-PREFERENCE",
+        "AI-QUAL-09-06-NO-EXTRA-STATE-VESSEL-CLEARANCE"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-09-07",
+      "type": "article_i_clause_analysis",
+      "section": 9,
+      "clause": 7,
+      "provision_id": "CONST-US-ART-01-SEC-09-CL-07",
+      "name": "Appropriations and public accounts",
+      "summary": "Appropriations and public accounts",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-013"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-09-07-TREASURY-APPROPRIATION",
+        "AI-QUAL-09-07-PUBLIC-ACCOUNTS"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-09-08",
+      "type": "article_i_clause_analysis",
+      "section": 9,
+      "clause": 8,
+      "provision_id": "CONST-US-ART-01-SEC-09-CL-08",
+      "name": "Nobility titles and foreign emoluments",
+      "summary": "Nobility titles and foreign emoluments",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-014",
+        "NORM-US-CONST-AI-09-08-CONSENT"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-09-08-NO-FEDERAL-NOBILITY",
+        "AI-QUAL-09-08-FOREIGN-GIFTS-CONSENT"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0038"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-10-01",
+      "type": "article_i_clause_analysis",
+      "section": 10,
+      "clause": 1,
+      "provision_id": "CONST-US-ART-01-SEC-10-CL-01",
+      "name": "Prohibited state powers",
+      "summary": "Prohibited state powers",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-015"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-10-01-FOREIGN-AND-MONETARY-PROHIBITIONS",
+        "AI-QUAL-10-01-TENDER-CONTRACTS",
+        "AI-QUAL-10-01-NOBILITY"
+      ],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-10-02",
+      "type": "article_i_clause_analysis",
+      "section": 10,
+      "clause": 2,
+      "provision_id": "CONST-US-ART-01-SEC-10-CL-02",
+      "name": "State import and export duty limits",
+      "summary": "State import and export duty limits",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-016",
+        "NORM-US-CONST-AI-10-02-CONSENT"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-10-02-IMPORT-EXPORT-CONSENT",
+        "AI-QUAL-10-02-INSPECTION-EXCEPTION",
+        "AI-QUAL-10-02-NET-PROCEEDS"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0039",
+        "AI-CAP-0040"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AI-CL-10-03",
+      "type": "article_i_clause_analysis",
+      "section": 10,
+      "clause": 3,
+      "provision_id": "CONST-US-ART-01-SEC-10-CL-03",
+      "name": "State tonnage, military and compact restrictions",
+      "summary": "State tonnage, military and compact restrictions",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-017",
+        "NORM-US-CONST-AI-10-03-CONSENT"
+      ],
+      "qualification_ids": [
+        "AI-QUAL-10-03-CONSENT-ON-TONNAGE-COMPACTS",
+        "AI-QUAL-10-03-DEFENSIVE-WAR-EXCEPTION"
+      ],
+      "capability_link_ids": [
+        "AI-CAP-0041",
+        "AI-CAP-0042"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    }
+  ]
+}

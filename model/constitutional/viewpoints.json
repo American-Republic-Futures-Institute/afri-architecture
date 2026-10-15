@@ -84,6 +84,30 @@
       ],
       "include_changes": true,
       "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-CONST-ARTICLE-I",
+      "type": "constitutional_viewpoint",
+      "name": "Article I: Congressional Authority and Constitutional Conditions",
+      "description": "Explore each original Article I clause and the candidate norm, qualification, and federal capability alignments; historical restrictions and state reservations are explicitly distinguished.",
+      "root_ids": [
+        "CONST-US-ART-01"
+      ],
+      "include_norm_kinds": [
+        "power",
+        "duty",
+        "prohibition",
+        "right",
+        "procedure",
+        "eligibility",
+        "limitation",
+        "reservation",
+        "structural_allocation",
+        "jurisdiction"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate",
+      "article_i_clause_analysis": true
     }
   ]
 }
