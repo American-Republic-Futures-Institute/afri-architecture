@@ -1,0 +1,1472 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AII-QUAL-01-01-EXECUTIVE-VESTING",
+      "type": "article_ii_qualification",
+      "kind": "allocation",
+      "name": "The Executive Vesting Clause assigns federal executive power to one President, n",
+      "summary": "The Executive Vesting Clause assigns federal executive power to one President, not to Congress or a collection of separate Presidents.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-018"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-01-FOUR-YEAR-TERMS",
+      "type": "article_ii_qualification",
+      "kind": "time_limit",
+      "name": "The original four-year terms of President and Vice President remain part of cons",
+      "summary": "The original four-year terms of President and Vice President remain part of constitutional office tenure.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-01-TERM"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-01-JANUARY-20",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The Twentieth Amendment Section 1 sets presidential and vice-presidential terms ",
+      "summary": "The Twentieth Amendment Section 1 sets presidential and vice-presidential terms to end and successor terms to begin at noon on January 20.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-AMD-20-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-01-TERM"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-01-TWENTY-SECOND",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The Twenty-Second Amendment generally limits election to the Presidency to twice",
+      "summary": "The Twenty-Second Amendment generally limits election to the Presidency to twice and imposes a one-election limit after service as President or Acting President for more than two years of another's elected term, subject to historic transitional exceptions.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-AMD-22-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-01-TERM"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "note": "It limits elections, not a blanket textual cap on all possible service durations."
+    },
+    {
+      "id": "AII-QUAL-01-01-CONSTITUTIONAL-LAW",
+      "type": "article_ii_qualification",
+      "kind": "separation_of_powers",
+      "name": "The executive vesting clause does not itself create authority to legislate, disp",
+      "summary": "The executive vesting clause does not itself create authority to legislate, dispense with binding law, appropriate funds, or displace congressional enumerated powers.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-01-SEC-01-CL-01",
+        "CONST-US-ART-01-SEC-09-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-018"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "Interpretive legal conclusions require controlling cases (Youngstown framework) and statutes; this record does not assert a judicial holding.",
+      "article_i_qualification_ids": [
+        "AI-QUAL-01-VESTED-GRANTED",
+        "AI-QUAL-09-07-TREASURY-APPROPRIATION"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-02-STATE-APPOINTMENT",
+      "type": "article_ii_qualification",
+      "kind": "allocation",
+      "name": "Presidential electors are appointed by each state in the manner directed by its ",
+      "summary": "Presidential electors are appointed by each state in the manner directed by its legislature, subject to the Constitution and valid election law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-019"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-02-ELECTOR-NUMBER",
+      "type": "article_ii_qualification",
+      "kind": "threshold",
+      "name": "Each state appoints presidential electors equal to its Senators plus Representat",
+      "summary": "Each state appoints presidential electors equal to its Senators plus Representatives in Congress.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-02-ELECTOR-COUNT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-02-FEDERAL-OFFICE-EXCLUSION",
+      "type": "article_ii_qualification",
+      "kind": "eligibility",
+      "name": "A Senator, Representative, or holder of federal office of trust or profit is ine",
+      "summary": "A Senator, Representative, or holder of federal office of trust or profit is ineligible to serve as a presidential elector.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-02-ELECTOR-INCOMPATIBILITY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-02-DC-TWENTY-THIRD",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The Twenty-Third Amendment gives the District of Columbia presidential electors,",
+      "summary": "The Twenty-Third Amendment gives the District of Columbia presidential electors, under congressional direction and a ceiling based on the least populous state.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02",
+        "CONST-US-AMD-23-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-02-ELECTOR-COUNT",
+        "NORM-US-CONST-019"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "note": "DC electoral authority comes from Amendment XXIII rather than transforming DC into a State."
+    },
+    {
+      "id": "AII-QUAL-01-02-DISQUALIFICATION-FOURTEENTH",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The Fourteenth Amendment Section 3 adds disqualification conditions for electors",
+      "summary": "The Fourteenth Amendment Section 3 adds disqualification conditions for electors and specified offices, with scope and enforcement governed by controlling law.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02",
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-02-ELECTOR-INCOMPATIBILITY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "note": "ARFI does not determine contested disqualification facts or independently apply Section 3; precedent will be represented separately."
+    },
+    {
+      "id": "AII-QUAL-01-03-ORIGINAL-BALLOT-SUPERSEDED",
+      "type": "article_ii_qualification",
+      "kind": "historic_supersession",
+      "name": "Original undifferentiated electoral votes and contingent-election procedures wer",
+      "summary": "Original undifferentiated electoral votes and contingent-election procedures were superseded by the Twelfth Amendment.",
+      "origin": "historical_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-03",
+        "CONST-US-AMD-12"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-090"
+      ],
+      "effect_status": "historical_only",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-03-CURRENT-BALLOT-TWELFTH",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The operative presidential and vice-presidential ballots, majority requirements ",
+      "summary": "The operative presidential and vice-presidential ballots, majority requirements and contingent election mechanisms are prescribed by the Twelfth Amendment, not the old Article II clause.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-03",
+        "CONST-US-AMD-12"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-090"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "note": "This points to current replacement law without treating a superseded norm as currently binding."
+    },
+    {
+      "id": "AII-QUAL-01-04-TIMING-DELEGATED-CONGRESS",
+      "type": "article_ii_qualification",
+      "kind": "allocation",
+      "name": "Congress may determine the time of choosing electors and the day on which they g",
+      "summary": "Congress may determine the time of choosing electors and the day on which they give votes.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-04-ELECTION-TIMING"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-04-UNIFORM-CASTING-DAY",
+      "type": "article_ii_qualification",
+      "kind": "procedural_requirement",
+      "name": "The presidential electors' day of voting must be the same throughout the United ",
+      "summary": "The presidential electors' day of voting must be the same throughout the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-04-UNIFORM-VOTE-DAY",
+        "NORM-US-CONST-AII-01-04-ELECTION-TIMING"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-04-STATUTORY-TIMELINE-SEPARATE",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Specific national election dates, certification deadlines and counting procedure",
+      "summary": "Specific national election dates, certification deadlines and counting procedures depend on enacted law and amendments not specified in the original timing clause.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-04-ELECTION-TIMING"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-NARA-ELECTORAL-COLLEGE"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-05-NATURAL-BORN",
+      "type": "article_ii_qualification",
+      "kind": "eligibility",
+      "name": "Presidential eligibility includes the original natural-born-citizen criterion, w",
+      "summary": "Presidential eligibility includes the original natural-born-citizen criterion, without deciding contested definitions beyond the text.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-05-NATURAL-BORN",
+        "NORM-US-CONST-020"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-05-FUNDING-GRANDFATHER",
+      "type": "article_ii_qualification",
+      "kind": "historical_limit",
+      "name": "The alternative citizenship-at-the-adoption-of-the-Constitution qualification is",
+      "summary": "The alternative citizenship-at-the-adoption-of-the-Constitution qualification is a historical transition provision, not an additional currently satisfiable route to eligibility.",
+      "origin": "historical_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-05-NATURAL-BORN"
+      ],
+      "effect_status": "historical_only",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "Historical portion of a still-operative eligibility clause; no original officeholder is now eligible through this founding-era exception."
+    },
+    {
+      "id": "AII-QUAL-01-05-MINIMUM-AGE",
+      "type": "article_ii_qualification",
+      "kind": "eligibility",
+      "name": "Presidential eligibility requires at least thirty-five years of age.",
+      "summary": "Presidential eligibility requires at least thirty-five years of age.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-05-AGE",
+        "NORM-US-CONST-020"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-05-RESIDENCY",
+      "type": "article_ii_qualification",
+      "kind": "eligibility",
+      "name": "Presidential eligibility requires fourteen years of residence within the United ",
+      "summary": "Presidential eligibility requires fourteen years of residence within the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-05-RESIDENCE",
+        "NORM-US-CONST-020"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-05-TWENTY-SECOND-LIMIT",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The Twenty-Second Amendment adds an election limit distinct from original Articl",
+      "summary": "The Twenty-Second Amendment adds an election limit distinct from original Article II age, citizenship and residence qualifications.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05",
+        "CONST-US-AMD-22-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-020",
+        "NORM-US-CONST-AII-01-05-NATURAL-BORN"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-05-TWELFTH-VP-ELIGIBILITY",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The Twelfth Amendment makes a person constitutionally ineligible for the Preside",
+      "summary": "The Twelfth Amendment makes a person constitutionally ineligible for the Presidency ineligible for the Vice Presidency as well.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05",
+        "CONST-US-AMD-12"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-020"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-05-FOURTEENTH-DISQUALIFICATION",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The Fourteenth Amendment Section 3 may add federal office disqualification condi",
+      "summary": "The Fourteenth Amendment Section 3 may add federal office disqualification conditions to officeholding; application and enforcement require controlling precedent.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05",
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-020"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "note": "Not an automatic legal determination of a particular person's eligibility."
+    },
+    {
+      "id": "AII-QUAL-01-06-ORIGINAL-SUCCESSION-QUALIFIED",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "The Twenty-Fifth Amendment clarifies that on presidential removal, death or resi",
+      "summary": "The Twenty-Fifth Amendment clarifies that on presidential removal, death or resignation, the Vice President becomes President.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06",
+        "CONST-US-AMD-25-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS",
+        "SRC-CONST-CONAN-TWENTY-FIFTH"
+      ],
+      "note": "Distinguish permanent succession from temporary inability (Acting President)."
+    },
+    {
+      "id": "AII-QUAL-01-06-VP-VACANCY-NOMINATION",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "Under Amendment XXV Section 2, a vice-presidential vacancy is filled by presiden",
+      "summary": "Under Amendment XXV Section 2, a vice-presidential vacancy is filled by presidential nomination and majority confirmation by both Houses of Congress.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06",
+        "CONST-US-AMD-25-SEC-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS",
+        "SRC-CONST-CONAN-TWENTY-FIFTH"
+      ],
+      "note": "Not the Senate advice-and-consent process used for executive appointments."
+    },
+    {
+      "id": "AII-QUAL-01-06-VOLUNTARY-INABILITY",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "Under Amendment XXV Section 3, written presidential inability declaration to spe",
+      "summary": "Under Amendment XXV Section 3, written presidential inability declaration to specified congressional presiding officers temporarily transfers powers to Vice President as Acting President until a contrary declaration.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06",
+        "CONST-US-AMD-25-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS",
+        "SRC-CONST-CONAN-TWENTY-FIFTH"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-06-CONTESTED-INABILITY",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "Under Amendment XXV Section 4, the Vice President and a majority of specified pr",
+      "summary": "Under Amendment XXV Section 4, the Vice President and a majority of specified principal executive officers (or authorized substitute body) may declare inability; contested restoration has additional deadlines and two-thirds voting requirements.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06",
+        "CONST-US-AMD-25-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS",
+        "SRC-CONST-CONAN-TWENTY-FIFTH"
+      ],
+      "note": "A distinct temporary inability route, not the original constitutional impeachment procedure."
+    },
+    {
+      "id": "AII-QUAL-01-06-CONTESTED-DEADLINES",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "Amendment XXV Section 4 prescribes 4-day, 48-hour assembly, and 21-day congressi",
+      "summary": "Amendment XXV Section 4 prescribes 4-day, 48-hour assembly, and 21-day congressional decision periods under their respective triggering conditions.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06",
+        "CONST-US-AMD-25-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS",
+        "SRC-CONST-CONAN-TWENTY-FIFTH"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-06-CONGRESS-DOUBLE-VACANCY",
+      "type": "article_ii_qualification",
+      "kind": "allocation",
+      "name": "Congress may provide by law for dual presidential/vice-presidential vacancies or",
+      "summary": "Congress may provide by law for dual presidential/vice-presidential vacancies or inability, within later amendments and presidential succession law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-TWENTY-FIFTH"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-06-TWENTIETH-PRESIDENT-ELECT",
+      "type": "article_ii_qualification",
+      "kind": "amendment_change",
+      "name": "Amendment XX Section 3 governs death or failure of the President-elect to qualif",
+      "summary": "Amendment XX Section 3 governs death or failure of the President-elect to qualify and corresponding Vice-President-elect transition and congressional contingency powers.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-06",
+        "CONST-US-AMD-20-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-07-COMPENSATION-NO-VARIATION",
+      "type": "article_ii_qualification",
+      "kind": "prohibition",
+      "name": "Presidential compensation must neither increase nor decrease during the term for",
+      "summary": "Presidential compensation must neither increase nor decrease during the term for which the President was elected.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-07-NO-SALARY-VARIATION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-07-OTHER-FEDERAL-STATE-EMOLUMENTS",
+      "type": "article_ii_qualification",
+      "kind": "prohibition",
+      "name": "During that term, the President may not receive additional emoluments from the U",
+      "summary": "During that term, the President may not receive additional emoluments from the United States or from any State.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-07-NO-OTHER-EMOLUMENTS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-07-DISTINCT-FOREIGN-EMOLUMENTS",
+      "type": "article_ii_qualification",
+      "kind": "cross_provision_limit",
+      "name": "The Foreign Emoluments Clause of Article I Section 9 Clause 8 is a separate prov",
+      "summary": "The Foreign Emoluments Clause of Article I Section 9 Clause 8 is a separate provision with distinct covered persons and consent conditions.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-07",
+        "CONST-US-ART-01-SEC-09-CL-08"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-07-NO-OTHER-EMOLUMENTS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "Whether any particular President or transaction falls within foreign-emoluments doctrine requires legal review.",
+      "article_i_qualification_ids": [
+        "AI-QUAL-09-08-FOREIGN-GIFTS-CONSENT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-08-BEFORE-OFFICE-EXECUTION",
+      "type": "article_ii_qualification",
+      "kind": "prior_action",
+      "name": "The prescribed oath or affirmation must be taken before the President enters on ",
+      "summary": "The prescribed oath or affirmation must be taken before the President enters on execution of the office.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-08"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-08-OATH"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-08-OATH-TEXT",
+      "type": "article_ii_qualification",
+      "kind": "procedural_requirement",
+      "name": "The oath or affirmation expressly commits to faithful execution and to preserve,",
+      "summary": "The oath or affirmation expressly commits to faithful execution and to preserve, protect and defend the Constitution to the best of the President's ability.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-08"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-08-OATH"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-01-08-NOT-UNLIMITED-POWER",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The oath neither creates independent legislative powers nor removes the Presiden",
+      "summary": "The oath neither creates independent legislative powers nor removes the President's duty to execute constitutionally valid federal law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-08",
+        "CONST-US-ART-01-SEC-01-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-01-08-OATH"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-01-COMMAND-ARMY-NAVY",
+      "type": "article_ii_qualification",
+      "kind": "allocation",
+      "name": "The President is Commander in Chief of the Army and Navy of the United States.",
+      "summary": "The President is Commander in Chief of the Army and Navy of the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-021"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-01-MILITIA-ACTUAL-SERVICE",
+      "type": "article_ii_qualification",
+      "kind": "condition",
+      "name": "Constitutional Commander-in-Chief authority over state militia applies when the ",
+      "summary": "Constitutional Commander-in-Chief authority over state militia applies when the militia has been called into actual service of the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-021",
+        "NORM-US-CONST-AII-02-01-FEDERAL-MILITIA"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-01-CONGRESSIONAL-WAR-POWERS",
+      "type": "article_ii_qualification",
+      "kind": "separation_of_powers",
+      "name": "Article I reserves declaring war, Army and Navy organization, military regulatio",
+      "summary": "Article I reserves declaring war, Army and Navy organization, military regulation and funding powers to Congress; the Commander-in-Chief role does not alone displace them.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01",
+        "CONST-US-ART-01-SEC-08-CL-11",
+        "CONST-US-ART-01-SEC-08-CL-12",
+        "CONST-US-ART-01-SEC-08-CL-13",
+        "CONST-US-ART-01-SEC-08-CL-14"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-021"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "Actual conflict allocation and use of force under statutes and judicial doctrine deferred.",
+      "article_i_qualification_ids": [
+        "AI-QUAL-08-11-DECLARE-WAR-AND-CAPTURES",
+        "AI-QUAL-08-12-TWO-YEAR-ARMY-FUNDING"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-01-MILITIA-STATE-RESERVATIONS",
+      "type": "article_ii_qualification",
+      "kind": "reservation",
+      "name": "Article I §8 cl16 reserves to states appointment of militia officers and specifi",
+      "summary": "Article I §8 cl16 reserves to states appointment of militia officers and specified training authority under federally prescribed discipline.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01",
+        "CONST-US-ART-01-SEC-08-CL-16"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-021"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-08-16-STATE-OFFICER-APPOINTMENT",
+        "AI-QUAL-08-16-STATE-TRAINING"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-01-OPINIONS-IN-WRITING",
+      "type": "article_ii_qualification",
+      "kind": "procedural_requirement",
+      "name": "The President may require written opinions of principal officers of executive de",
+      "summary": "The President may require written opinions of principal officers of executive departments on subjects relating to their respective duties.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-023"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-01-CLEMENCY-FEDERAL-OFFENSES",
+      "type": "article_ii_qualification",
+      "kind": "scope",
+      "name": "The constitutional pardon and reprieve authority concerns offenses against the U",
+      "summary": "The constitutional pardon and reprieve authority concerns offenses against the United States, not state-law offenses.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-022",
+        "NORM-US-CONST-AII-02-01-PARDON-SCOPE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-01-CLEMENCY-IMPEACHMENT-EXCEPTION",
+      "type": "article_ii_qualification",
+      "kind": "exception",
+      "name": "Presidential pardons and reprieves explicitly except cases of impeachment.",
+      "summary": "Presidential pardons and reprieves explicitly except cases of impeachment.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-022",
+        "NORM-US-CONST-AII-02-01-PARDON-SCOPE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-02-TREATY-SENATE-TWO-THIRDS",
+      "type": "article_ii_qualification",
+      "kind": "threshold",
+      "name": "Treaties require Senate advice and consent, with concurrence of two thirds of Se",
+      "summary": "Treaties require Senate advice and consent, with concurrence of two thirds of Senators present.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-024",
+        "NORM-US-CONST-AII-02-02-TREATY-VOTE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-02-APPOINTMENT-SENATE-CONSENT",
+      "type": "article_ii_qualification",
+      "kind": "consent",
+      "name": "Nomination and appointment of specified federal principal officers and Supreme C",
+      "summary": "Nomination and appointment of specified federal principal officers and Supreme Court judges occur by President with Senate advice and consent.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-025",
+        "NORM-US-CONST-AII-02-02-PRINCIPAL-APPOINTMENT"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-02-TREATY-THRESHOLD-NOT-APPOINTMENTS",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The treaty-specific two-thirds Senate concurrence requirement must not be applie",
+      "summary": "The treaty-specific two-thirds Senate concurrence requirement must not be applied to ordinary appointments as if the text also specified it for nominations.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-024",
+        "NORM-US-CONST-025"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-02-OFFICES-ESTABLISHED-BY-LAW",
+      "type": "article_ii_qualification",
+      "kind": "condition",
+      "name": "Other officers of the United States covered by this appointments clause hold off",
+      "summary": "Other officers of the United States covered by this appointments clause hold offices established by law, with constitutional exceptions for appointments elsewhere provided.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-025"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-02-INFERIOR-OFFICER-BY-LAW",
+      "type": "article_ii_qualification",
+      "kind": "condition",
+      "name": "Congress may vest appointment of such inferior officers as it thinks proper in P",
+      "summary": "Congress may vest appointment of such inferior officers as it thinks proper in President alone, courts of law, or heads of departments, but it must do so by law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-02-02-INFERIOR-OFFICER-ALLOCATION",
+        "NORM-US-CONST-025"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-02-APPOINTMENT-NOT-MODERN-AGENCY-DELEGATION",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "An Appointments Clause record does not create a modern agency, authorize every d",
+      "summary": "An Appointments Clause record does not create a modern agency, authorize every delegated role, or eliminate statutory limits on the office.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-025",
+        "NORM-US-CONST-AII-02-02-INFERIOR-OFFICER-ALLOCATION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-03-SENATE-RECESS",
+      "type": "article_ii_qualification",
+      "kind": "condition",
+      "name": "Recess-appointment power is expressly associated with Senate recess vacancies an",
+      "summary": "Recess-appointment power is expressly associated with Senate recess vacancies and temporary commissions; specifics of constitutional reach depend on precedent.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-026"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-03-COMMISSIONS-EXPIRE-NEXT-SESSION",
+      "type": "article_ii_qualification",
+      "kind": "time_limit",
+      "name": "A commission issued as a recess appointment expires at the end of the Senate's n",
+      "summary": "A commission issued as a recess appointment expires at the end of the Senate's next session.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-026",
+        "NORM-US-CONST-AII-02-03-RECESS-COMMISSION-EXPIRY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-02-03-RECESS-DOCTRINE-SEPARATE",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The original text alone does not resolve what qualifies as a Senate recess or wh",
+      "summary": "The original text alone does not resolve what qualifies as a Senate recess or when vacancies may happen for purposes of later controlling decisions.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-026"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "NLRB v. Noel Canning and subsequent treatment belong in the future doctrine register."
+    },
+    {
+      "id": "AII-QUAL-03-01-STATE-OF-UNION",
+      "type": "article_ii_qualification",
+      "kind": "duty",
+      "name": "The President must provide Congress information on the state of the Union from t",
+      "summary": "The President must provide Congress information on the state of the Union from time to time.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-028"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-01-RECOMMENDATIONS",
+      "type": "article_ii_qualification",
+      "kind": "scope",
+      "name": "The President may recommend measures deemed necessary and expedient to Congress,",
+      "summary": "The President may recommend measures deemed necessary and expedient to Congress, but does not enact federal legislation by recommendation alone.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-01",
+        "CONST-US-ART-01-SEC-01-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-03-01-RECOMMEND"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-02-EXTRAORDINARY-OCCASIONS",
+      "type": "article_ii_qualification",
+      "kind": "condition",
+      "name": "The presidential power to convene both Houses or either one is expressly limited",
+      "summary": "The presidential power to convene both Houses or either one is expressly limited to extraordinary occasions.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-03-02-CONVENE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-02-ADJOURNMENT-DISAGREEMENT",
+      "type": "article_ii_qualification",
+      "kind": "condition",
+      "name": "Presidential adjournment under Article II §3 depends on disagreement between the",
+      "summary": "Presidential adjournment under Article II §3 depends on disagreement between the Houses over the time of adjournment.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-02",
+        "CONST-US-ART-01-SEC-05-CL-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-03-02-ADJOURN"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-05-04-CROSS-HOUSE-CONSENT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-02-TIMING-ONLY",
+      "type": "article_ii_qualification",
+      "kind": "scope",
+      "name": "The President's exceptional adjournment authority concerns the time of adjournme",
+      "summary": "The President's exceptional adjournment authority concerns the time of adjournment; it does not permit dissolving Congress or indefinite suspension.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-03-02-ADJOURN"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-03-RECEIVE-AMBASSADORS",
+      "type": "article_ii_qualification",
+      "kind": "duty",
+      "name": "The President is directed to receive ambassadors and other public ministers.",
+      "summary": "The President is directed to receive ambassadors and other public ministers.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-03-03-RECEIVE-MINISTERS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-03-RECOGNITION-DOCTRINE-SEPARATE",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The textual reception duty must not be treated as a full verbatim grant of every",
+      "summary": "The textual reception duty must not be treated as a full verbatim grant of every recognized foreign-relations prerogative.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-03-03-RECEIVE-MINISTERS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "Judicial recognition doctrine (including Zivotofsky) will be mapped as secondary judicial holdings, not original text."
+    },
+    {
+      "id": "AII-QUAL-03-04-TAKE-CARE",
+      "type": "article_ii_qualification",
+      "kind": "duty",
+      "name": "The President shall take care that the laws be faithfully executed.",
+      "summary": "The President shall take care that the laws be faithfully executed.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-027"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-04-NO-INDEPENDENT-APPROPRIATION",
+      "type": "article_ii_qualification",
+      "kind": "separation_of_powers",
+      "name": "The Take Care duty does not itself permit Treasury withdrawals absent appropriat",
+      "summary": "The Take Care duty does not itself permit Treasury withdrawals absent appropriations made by law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-04",
+        "CONST-US-ART-01-SEC-09-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-027"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-09-07-TREASURY-APPROPRIATION"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-04-VALID-LAW-EXECUTION",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Whether particular disputed statutes or executive actions comply with the Consti",
+      "summary": "Whether particular disputed statutes or executive actions comply with the Constitution requires a distinct statute and judicial doctrine analysis.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-027"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "note": "Do not treat an ARFI summary as authorizing selective noncompliance or executive lawmaking."
+    },
+    {
+      "id": "AII-QUAL-03-05-COMMISSION-OFFICERS",
+      "type": "article_ii_qualification",
+      "kind": "duty",
+      "name": "The President must commission all officers of the United States.",
+      "summary": "The President must commission all officers of the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-03-05-COMMISSION-OFFICERS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-03-05-COMMISSION-NOT-SOLE-APPOINTMENT",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The duty to commission officers is separate from the constitutional nomination, ",
+      "summary": "The duty to commission officers is separate from the constitutional nomination, appointment and Senate-consent mechanisms.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-03-SEG-05",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-03-05-COMMISSION-OFFICERS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-04-01-PRESIDENT-VP-CIVIL-OFFICERS",
+      "type": "article_ii_qualification",
+      "kind": "scope",
+      "name": "The impeachment/removal provision reaches the President, Vice President and civi",
+      "summary": "The impeachment/removal provision reaches the President, Vice President and civil Officers of the United States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-029",
+        "NORM-US-CONST-AII-04-01-COVERED-OFFICERS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-04-01-GROUNDS-TREASON-BRIBERY-HIGH-CRIMES",
+      "type": "article_ii_qualification",
+      "kind": "eligibility",
+      "name": "Removal by impeachment and conviction is based on treason, bribery, or other hig",
+      "summary": "Removal by impeachment and conviction is based on treason, bribery, or other high crimes and misdemeanors.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-029",
+        "NORM-US-CONST-AII-04-01-IMPEACHMENT-GROUNDS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-04-01-HOUSE-IMPEACHMENT",
+      "type": "article_ii_qualification",
+      "kind": "separation_of_powers",
+      "name": "The House alone has the power of impeachment under Article I §2 cl5.",
+      "summary": "The House alone has the power of impeachment under Article I §2 cl5.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-04",
+        "CONST-US-ART-01-SEC-02-CL-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-029"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-02-05-HOUSE-IMPEACHMENT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-04-01-SENATE-TRIAL-TWO-THIRDS",
+      "type": "article_ii_qualification",
+      "kind": "threshold",
+      "name": "Conviction on impeachment requires two thirds of Senators present, sitting under",
+      "summary": "Conviction on impeachment requires two thirds of Senators present, sitting under oath; the Chief Justice presides in a presidential trial.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-04",
+        "CONST-US-ART-01-SEC-03-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-029"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-03-06-TWO-THIRDS",
+        "AI-QUAL-03-06-CHIEF-JUSTICE"
+      ]
+    },
+    {
+      "id": "AII-QUAL-04-01-REMOVAL-UPON-CONVICTION",
+      "type": "article_ii_qualification",
+      "kind": "prior_action",
+      "name": "Constitutional removal occurs upon impeachment and conviction; impeachment by th",
+      "summary": "Constitutional removal occurs upon impeachment and conviction; impeachment by the House alone is not itself Senate conviction.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-029"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-04-01-NO-IMPEACHMENT-PARDON",
+      "type": "article_ii_qualification",
+      "kind": "exception",
+      "name": "Article II §2 cl1 excludes cases of impeachment from presidential pardon power.",
+      "summary": "Article II §2 cl1 excludes cases of impeachment from presidential pardon power.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-04",
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-029",
+        "NORM-US-CONST-022"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AII-QUAL-04-01-IMPEACHMENT-CRIMINAL-DISTINCT",
+      "type": "article_ii_qualification",
+      "kind": "cross_provision_limit",
+      "name": "Article I §3 cl7 separates limited impeachment judgment from potential indictmen",
+      "summary": "Article I §3 cl7 separates limited impeachment judgment from potential indictment, trial and punishment according to law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-04",
+        "CONST-US-ART-01-SEC-03-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-029"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-03-07-SEPARATE-CRIMINAL"
+      ]
+    },
+    {
+      "id": "AII-QUAL-04-01-IMPEACHABLE-SCOPE-PRECEDENT-SEPARATE",
+      "type": "article_ii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Determinations about covered civil officers, high crimes and misdemeanors, trial",
+      "summary": "Determinations about covered civil officers, high crimes and misdemeanors, trial jurisdiction and disqualification follow authoritative constitutional interpretation and history, not this summary.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-02-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AII-04-01-IMPEACHMENT-GROUNDS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    }
+  ]
+}

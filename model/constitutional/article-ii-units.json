@@ -15,11 +15,21 @@
         "NORM-US-CONST-018",
         "NORM-US-CONST-AII-01-01-TERM"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-01-01-EXECUTIVE-VESTING",
+        "AII-QUAL-01-01-FOUR-YEAR-TERMS",
+        "AII-QUAL-01-01-JANUARY-20",
+        "AII-QUAL-01-01-TWENTY-SECOND",
+        "AII-QUAL-01-01-CONSTITUTIONAL-LAW"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0001",
+        "AII-CAP-0002"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
-        "SRC-CONST-CONAN-ARTICLE-II"
+        "SRC-CONST-CONAN-ARTICLE-II",
+        "SRC-CONST-LATER-AMENDMENTS"
       ],
       "review_status": "textual_summary_pending_legal_review"
     },
@@ -38,11 +48,22 @@
         "NORM-US-CONST-AII-01-02-ELECTOR-COUNT",
         "NORM-US-CONST-AII-01-02-ELECTOR-INCOMPATIBILITY"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-01-02-STATE-APPOINTMENT",
+        "AII-QUAL-01-02-ELECTOR-NUMBER",
+        "AII-QUAL-01-02-FEDERAL-OFFICE-EXCLUSION",
+        "AII-QUAL-01-02-DC-TWENTY-THIRD",
+        "AII-QUAL-01-02-DISQUALIFICATION-FOURTEENTH"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0003",
+        "AII-CAP-0004",
+        "AII-CAP-0005"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
-        "SRC-CONST-CONAN-ARTICLE-II"
+        "SRC-CONST-CONAN-ARTICLE-II",
+        "SRC-CONST-LATER-AMENDMENTS"
       ],
       "review_status": "textual_summary_pending_legal_review"
     },
@@ -59,11 +80,15 @@
       "norm_ids": [
         "NORM-US-CONST-090"
       ],
-      "qualification_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-01-03-ORIGINAL-BALLOT-SUPERSEDED",
+        "AII-QUAL-01-03-CURRENT-BALLOT-TWELFTH"
+      ],
       "capability_link_ids": [],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
-        "SRC-CONST-CONAN-ARTICLE-II"
+        "SRC-CONST-CONAN-ARTICLE-II",
+        "SRC-CONST-LATER-AMENDMENTS"
       ],
       "review_status": "textual_summary_pending_legal_review"
     },
@@ -81,8 +106,15 @@
         "NORM-US-CONST-AII-01-04-ELECTION-TIMING",
         "NORM-US-CONST-AII-01-04-UNIFORM-VOTE-DAY"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-01-04-TIMING-DELEGATED-CONGRESS",
+        "AII-QUAL-01-04-UNIFORM-CASTING-DAY",
+        "AII-QUAL-01-04-STATUTORY-TIMELINE-SEPARATE"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0006",
+        "AII-CAP-0007"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -105,11 +137,25 @@
         "NORM-US-CONST-AII-01-05-AGE",
         "NORM-US-CONST-AII-01-05-RESIDENCE"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-01-05-NATURAL-BORN",
+        "AII-QUAL-01-05-FUNDING-GRANDFATHER",
+        "AII-QUAL-01-05-MINIMUM-AGE",
+        "AII-QUAL-01-05-RESIDENCY",
+        "AII-QUAL-01-05-TWENTY-SECOND-LIMIT",
+        "AII-QUAL-01-05-TWELFTH-VP-ELIGIBILITY",
+        "AII-QUAL-01-05-FOURTEENTH-DISQUALIFICATION"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0008",
+        "AII-CAP-0009",
+        "AII-CAP-0010",
+        "AII-CAP-0011"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
-        "SRC-CONST-CONAN-ARTICLE-II"
+        "SRC-CONST-CONAN-ARTICLE-II",
+        "SRC-CONST-LATER-AMENDMENTS"
       ],
       "review_status": "textual_summary_pending_legal_review"
     },
@@ -126,11 +172,22 @@
       "norm_ids": [
         "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-01-06-ORIGINAL-SUCCESSION-QUALIFIED",
+        "AII-QUAL-01-06-VP-VACANCY-NOMINATION",
+        "AII-QUAL-01-06-VOLUNTARY-INABILITY",
+        "AII-QUAL-01-06-CONTESTED-INABILITY",
+        "AII-QUAL-01-06-CONTESTED-DEADLINES",
+        "AII-QUAL-01-06-CONGRESS-DOUBLE-VACANCY",
+        "AII-QUAL-01-06-TWENTIETH-PRESIDENT-ELECT"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0012"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
-        "SRC-CONST-CONAN-ARTICLE-II"
+        "SRC-CONST-CONAN-ARTICLE-II",
+        "SRC-CONST-LATER-AMENDMENTS"
       ],
       "review_status": "textual_summary_pending_legal_review"
     },
@@ -148,8 +205,15 @@
         "NORM-US-CONST-AII-01-07-NO-SALARY-VARIATION",
         "NORM-US-CONST-AII-01-07-NO-OTHER-EMOLUMENTS"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-01-07-COMPENSATION-NO-VARIATION",
+        "AII-QUAL-01-07-OTHER-FEDERAL-STATE-EMOLUMENTS",
+        "AII-QUAL-01-07-DISTINCT-FOREIGN-EMOLUMENTS"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0013",
+        "AII-CAP-0014"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -169,8 +233,14 @@
       "norm_ids": [
         "NORM-US-CONST-AII-01-08-OATH"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-01-08-BEFORE-OFFICE-EXECUTION",
+        "AII-QUAL-01-08-OATH-TEXT",
+        "AII-QUAL-01-08-NOT-UNLIMITED-POWER"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0015"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -194,8 +264,22 @@
         "NORM-US-CONST-AII-02-01-FEDERAL-MILITIA",
         "NORM-US-CONST-AII-02-01-PARDON-SCOPE"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-02-01-COMMAND-ARMY-NAVY",
+        "AII-QUAL-02-01-MILITIA-ACTUAL-SERVICE",
+        "AII-QUAL-02-01-CONGRESSIONAL-WAR-POWERS",
+        "AII-QUAL-02-01-MILITIA-STATE-RESERVATIONS",
+        "AII-QUAL-02-01-OPINIONS-IN-WRITING",
+        "AII-QUAL-02-01-CLEMENCY-FEDERAL-OFFENSES",
+        "AII-QUAL-02-01-CLEMENCY-IMPEACHMENT-EXCEPTION"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0016",
+        "AII-CAP-0017",
+        "AII-CAP-0018",
+        "AII-CAP-0019",
+        "AII-CAP-0020"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -219,8 +303,21 @@
         "NORM-US-CONST-AII-02-02-PRINCIPAL-APPOINTMENT",
         "NORM-US-CONST-AII-02-02-TREATY-VOTE"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-02-02-TREATY-SENATE-TWO-THIRDS",
+        "AII-QUAL-02-02-APPOINTMENT-SENATE-CONSENT",
+        "AII-QUAL-02-02-TREATY-THRESHOLD-NOT-APPOINTMENTS",
+        "AII-QUAL-02-02-OFFICES-ESTABLISHED-BY-LAW",
+        "AII-QUAL-02-02-INFERIOR-OFFICER-BY-LAW",
+        "AII-QUAL-02-02-APPOINTMENT-NOT-MODERN-AGENCY-DELEGATION"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0021",
+        "AII-CAP-0022",
+        "AII-CAP-0023",
+        "AII-CAP-0024",
+        "AII-CAP-0025"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -241,8 +338,15 @@
         "NORM-US-CONST-026",
         "NORM-US-CONST-AII-02-03-RECESS-COMMISSION-EXPIRY"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-02-03-SENATE-RECESS",
+        "AII-QUAL-02-03-COMMISSIONS-EXPIRE-NEXT-SESSION",
+        "AII-QUAL-02-03-RECESS-DOCTRINE-SEPARATE"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0026",
+        "AII-CAP-0027"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -263,8 +367,14 @@
         "NORM-US-CONST-028",
         "NORM-US-CONST-AII-03-01-RECOMMEND"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-03-01-STATE-OF-UNION",
+        "AII-QUAL-03-01-RECOMMENDATIONS"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0028",
+        "AII-CAP-0029"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -285,8 +395,17 @@
         "NORM-US-CONST-AII-03-02-CONVENE",
         "NORM-US-CONST-AII-03-02-ADJOURN"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-03-02-EXTRAORDINARY-OCCASIONS",
+        "AII-QUAL-03-02-ADJOURNMENT-DISAGREEMENT",
+        "AII-QUAL-03-02-TIMING-ONLY"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0030",
+        "AII-CAP-0031",
+        "AII-CAP-0032",
+        "AII-CAP-0033"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -306,8 +425,13 @@
       "norm_ids": [
         "NORM-US-CONST-AII-03-03-RECEIVE-MINISTERS"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-03-03-RECEIVE-AMBASSADORS",
+        "AII-QUAL-03-03-RECOGNITION-DOCTRINE-SEPARATE"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0034"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -327,8 +451,14 @@
       "norm_ids": [
         "NORM-US-CONST-027"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-03-04-TAKE-CARE",
+        "AII-QUAL-03-04-NO-INDEPENDENT-APPROPRIATION",
+        "AII-QUAL-03-04-VALID-LAW-EXECUTION"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0035"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -348,8 +478,13 @@
       "norm_ids": [
         "NORM-US-CONST-AII-03-05-COMMISSION-OFFICERS"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-03-05-COMMISSION-OFFICERS",
+        "AII-QUAL-03-05-COMMISSION-NOT-SOLE-APPOINTMENT"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0036"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
@@ -371,8 +506,22 @@
         "NORM-US-CONST-AII-04-01-IMPEACHMENT-GROUNDS",
         "NORM-US-CONST-AII-04-01-COVERED-OFFICERS"
       ],
-      "qualification_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "AII-QUAL-04-01-PRESIDENT-VP-CIVIL-OFFICERS",
+        "AII-QUAL-04-01-GROUNDS-TREASON-BRIBERY-HIGH-CRIMES",
+        "AII-QUAL-04-01-HOUSE-IMPEACHMENT",
+        "AII-QUAL-04-01-SENATE-TRIAL-TWO-THIRDS",
+        "AII-QUAL-04-01-REMOVAL-UPON-CONVICTION",
+        "AII-QUAL-04-01-NO-IMPEACHMENT-PARDON",
+        "AII-QUAL-04-01-IMPEACHMENT-CRIMINAL-DISTINCT",
+        "AII-QUAL-04-01-IMPEACHABLE-SCOPE-PRECEDENT-SEPARATE"
+      ],
+      "capability_link_ids": [
+        "AII-CAP-0037",
+        "AII-CAP-0038",
+        "AII-CAP-0039",
+        "AII-CAP-0040"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-CONAN-ARTICLE-II"
