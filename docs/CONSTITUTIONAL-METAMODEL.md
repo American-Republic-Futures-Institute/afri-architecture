@@ -61,3 +61,9 @@ The Constitution Annotated is used to distinguish primary text, history and judi
 3. Build a case-law/doctrine register separate from original text, including overturned, limited, and controlling authorities.
 4. Incorporate Bill of Rights state-application/incorporation doctrine through Fourteenth Amendment case law.
 5. Map constraints to candidate ARFI reforms and Article VIII reform evaluation gates while preserving draft status and public dissent.
+
+## Article I clause qualification and functional alignment extension
+
+Every one of Article I's 53 original clauses now has a `AI-CL-*` analysis referenced to a canonical `CONST-US-ART-01-*` provision ID. `AI-QUAL-*` records specify discrete text-derived conditions, exceptions, prohibitions, qualifications, temporal changes and reserved state roles; their `applies_to_norm_ids` establish explicit, narrow applicability. `AI-CAP-*` align Congress-specific operative powers to `CAP-FED-*` as **functional alignment only**, never agency delegation or a claim that an executive department has constitutional power without a statute.
+
+Review [ARTICLE-I-ARCHITECTURE.md](ARTICLE-I-ARCHITECTURE.md) for the authoritative source hierarchy, coverage, legal-status distinctions and regression gates. Do not import case-law doctrines as though they were the Constitution's literal text.

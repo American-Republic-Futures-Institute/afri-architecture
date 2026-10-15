@@ -73,3 +73,11 @@ The architecture now contains an explicit constitutional decomposition under `mo
 | `viewpoints.json` | Rendering-neutral constitutional architecture views |
 
 Validate using `node scripts/validate-constitution.mjs` and `node --test tests/constitutional.test.mjs`. See `docs/CONSTITUTIONAL-METAMODEL.md` and `docs/CONSTITUTIONAL-COVERAGE.md`. The website retains exclusive responsibility for rendering and public comments.
+
+## Article I complete clause coverage (2026-10-15)
+
+The initial Article I layer now includes the original 53 clauses with 103 source-linked qualifications (conditions, exceptions, time limits, state reservations and historical overlays), 42 draft functional capability alignments, and 39 baseline federal capability types. All constitutional power mappings explicitly deny any inference of modern agency delegations.
+
+Explore `model/constitutional/article-i-clauses.json`, `article-i-qualifications.json`, and `article-i-capability-links.json`. The complete implementation, caveats, and follow-on sequence appear in [docs/ARTICLE-I-ARCHITECTURE.md](docs/ARTICLE-I-ARCHITECTURE.md). The website repository owns all interactive rendering.
+
+Reproduce the checks with `node scripts/validate-article-i.mjs` and `node --test tests/article-i.test.mjs`, in addition to the prior federal and constitutional validators.
