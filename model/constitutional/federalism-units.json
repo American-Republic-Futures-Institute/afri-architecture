@@ -16,9 +16,17 @@
         "NORM-US-CONST-036",
         "NORM-US-CONST-FED-IV-01-RECOGNITION-SCOPE"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-01-RECORDS",
+        "FED-QUAL-IV-01-JUDGMENTS-NOT-GENERAL-ENFORCEMENT"
+      ],
+      "relationship_ids": [
+        "FED-REL-0001"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0001",
+        "FED-CAP-0002"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -38,9 +46,16 @@
       "norm_ids": [
         "NORM-US-CONST-FED-IV-01-CONGRESS-PROOF"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-01-CONGRESS-GENERAL-LAWS",
+        "FED-QUAL-IV-01-NO-FEDERAL-SUBORDINATION"
+      ],
+      "relationship_ids": [
+        "FED-REL-0002"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0003"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -61,9 +76,18 @@
         "NORM-US-CONST-037",
         "NORM-US-CONST-FED-IV-02-CITIZEN-INTERSTATE"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-02-STATE-CITIZENS",
+        "FED-QUAL-IV-02-STATE-CITIZENSHIP-DISTINCTION"
+      ],
+      "relationship_ids": [
+        "FED-REL-0003",
+        "FED-REL-0004"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0004",
+        "FED-CAP-0005"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -84,9 +108,21 @@
         "NORM-US-CONST-038",
         "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-02-CHARGED-PERSON",
+        "FED-QUAL-IV-02-FOUND-IN-OTHER-STATE",
+        "FED-QUAL-IV-02-EXECUTIVE-DEMAND",
+        "FED-QUAL-IV-02-RETURN-TO-CRIME-JURISDICTION",
+        "FED-QUAL-IV-02-EXTRADITION-STATUTES"
+      ],
+      "relationship_ids": [
+        "FED-REL-0005",
+        "FED-REL-0006"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0006",
+        "FED-CAP-0007"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -106,7 +142,10 @@
       "norm_ids": [
         "NORM-US-CONST-FED-IV-02-HISTORICAL-SERVICE"
       ],
-      "qualification_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-02-SLAVERY-HISTORICAL",
+        "FED-QUAL-IV-02-NO-ACTIVE-SERVICE-RIGHTS"
+      ],
       "relationship_ids": [],
       "capability_link_ids": [],
       "source_ids": [
@@ -129,9 +168,19 @@
         "NORM-US-CONST-039",
         "NORM-US-CONST-FED-IV-03-STATE-CONSENTS"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-03-CONGRESS-ADMISSION",
+        "FED-QUAL-IV-03-STATE-LEGISLATURE-CONSENT",
+        "FED-QUAL-IV-03-NO-UNCONDITIONAL-STATE-DIVISION"
+      ],
+      "relationship_ids": [
+        "FED-REL-0007",
+        "FED-REL-0008"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0008",
+        "FED-CAP-0009"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -152,9 +201,19 @@
         "NORM-US-CONST-040",
         "NORM-US-CONST-FED-IV-03-PROPERTY-CLAIMS"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-03-FEDERAL-TERRITORY-ONLY",
+        "FED-QUAL-IV-03-US-STATE-CLAIMS",
+        "FED-QUAL-IV-03-STATE-OWNERSHIP-DOCTRINE"
+      ],
+      "relationship_ids": [
+        "FED-REL-0009",
+        "FED-REL-0010"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0010",
+        "FED-CAP-0011"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -175,9 +234,17 @@
         "NORM-US-CONST-041",
         "NORM-US-CONST-FED-IV-04-REPUBLICAN"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-04-REPUBLICAN-STATE",
+        "FED-QUAL-IV-04-GUARANTEE-DOCTRINE"
+      ],
+      "relationship_ids": [
+        "FED-REL-0011"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0012",
+        "FED-CAP-0013"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -198,9 +265,17 @@
         "NORM-US-CONST-041",
         "NORM-US-CONST-FED-IV-04-INVASION"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-04-INVASION-ALL-STATES",
+        "FED-QUAL-IV-04-CROSS-DEFENSE-POWERS"
+      ],
+      "relationship_ids": [
+        "FED-REL-0012"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0014",
+        "FED-CAP-0015"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -221,9 +296,20 @@
         "NORM-US-CONST-041",
         "NORM-US-CONST-FED-IV-04-DOMESTIC"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-IV-04-DOMESTIC-LEGISLATURE-REQUEST",
+        "FED-QUAL-IV-04-DOMESTIC-EXECUTIVE-FALLBACK",
+        "FED-QUAL-IV-04-NOT-UNCONDITIONAL-DOMESTIC"
+      ],
+      "relationship_ids": [
+        "FED-REL-0013",
+        "FED-REL-0014",
+        "FED-REL-0015"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0016",
+        "FED-CAP-0017"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -242,9 +328,16 @@
       "norm_ids": [
         "NORM-US-CONST-FED-VI-01-OBLIGATION"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-VI-01-HISTORICAL-DEBTS",
+        "FED-QUAL-VI-01-DISTINGUISH-XIV-DEBT"
+      ],
+      "relationship_ids": [
+        "FED-REL-0016"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0018"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -266,9 +359,25 @@
         "NORM-US-CONST-FED-VI-02-LAW-PURSUANT",
         "NORM-US-CONST-FED-VI-02-TREATIES-AUTHORITY"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-VI-02-CONSTITUTION-SUPREME",
+        "FED-QUAL-VI-02-LAWS-IN-PURSUANCE",
+        "FED-QUAL-VI-02-TREATIES-US-AUTHORITY",
+        "FED-QUAL-VI-02-STATE-JUDGES-BOUND",
+        "FED-QUAL-VI-02-NO-BLANKET-FEDERAL-AUTHORITY",
+        "FED-QUAL-VI-02-ANTI-COMMANDEERING-CASE-LAW"
+      ],
+      "relationship_ids": [
+        "FED-REL-0017",
+        "FED-REL-0018",
+        "FED-REL-0019"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0019",
+        "FED-CAP-0020",
+        "FED-CAP-0021",
+        "FED-CAP-0022"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -290,9 +399,23 @@
         "NORM-US-CONST-FED-VI-03-STATE-LEG-OATH",
         "NORM-US-CONST-FED-VI-03-FED-LEG-OATH"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-VI-03-FEDERAL-OATHS",
+        "FED-QUAL-VI-03-STATE-OATHS",
+        "FED-QUAL-VI-03-NO-FEDERAL-RELIGIOUS-TEST",
+        "FED-QUAL-VI-03-STATE-TESTS-DOCTRINE"
+      ],
+      "relationship_ids": [
+        "FED-REL-0020",
+        "FED-REL-0021",
+        "FED-REL-0022"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0023",
+        "FED-CAP-0024",
+        "FED-CAP-0025",
+        "FED-CAP-0026"
+      ],
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
@@ -312,9 +435,20 @@
         "NORM-US-CONST-062",
         "NORM-US-CONST-FED-X-UNDELEGATED"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-X-NOT-DELEGATED-NOT-PROHIBITED",
+        "FED-QUAL-X-STATE-AND-PEOPLE",
+        "FED-QUAL-X-NO-STATE-NULLIFICATION",
+        "FED-QUAL-X-NO-BLANKET-FEDERAL-POLICE-POWER"
+      ],
+      "relationship_ids": [
+        "FED-REL-0023",
+        "FED-REL-0024"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0027",
+        "FED-CAP-0028"
+      ],
       "source_ids": [
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
       ],
@@ -334,9 +468,21 @@
         "NORM-US-CONST-063",
         "NORM-US-CONST-FED-XI-LIMITED-SUITS"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-XI-COVERED-SUITS",
+        "FED-QUAL-XI-OUT-OF-STATE-OR-FOREIGN-CLAIMANTS",
+        "FED-QUAL-XI-ARTICLE-III-CONNECTION",
+        "FED-QUAL-XI-NOT-ALL-INTERSTATE-CASES",
+        "FED-QUAL-XI-BROADER-IMMUNITY-DOCTRINE"
+      ],
+      "relationship_ids": [
+        "FED-REL-0025",
+        "FED-REL-0026"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0029",
+        "FED-CAP-0030"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -360,9 +506,31 @@
         "NORM-US-CONST-FED-XIV-01-STATE-CITIZENSHIP",
         "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-BORN-NATURALIZED-JURISDICTION",
+        "FED-QUAL-XIV-01-STATE-RESIDENCE",
+        "FED-QUAL-XIV-01-US-CITIZENS-PRIVILEGES",
+        "FED-QUAL-XIV-01-PERSONS-DUE-PROCESS",
+        "FED-QUAL-XIV-01-PERSONS-EQUAL-PROTECTION",
+        "FED-QUAL-XIV-01-STATE-ACTOR-DIRECT",
+        "FED-QUAL-XIV-01-INCORPORATION-DOCTRINE",
+        "FED-QUAL-XIV-01-NO-SPECIFIC-CITIZENSHIP-ADJUDICATION"
+      ],
+      "relationship_ids": [
+        "FED-REL-0027",
+        "FED-REL-0028",
+        "FED-REL-0029",
+        "FED-REL-0030",
+        "FED-REL-0031"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0031",
+        "FED-CAP-0032",
+        "FED-CAP-0033",
+        "FED-CAP-0034",
+        "FED-CAP-0035",
+        "FED-CAP-0036"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -382,9 +550,21 @@
         "NORM-US-CONST-FED-XIV-02-APPORTIONMENT",
         "NORM-US-CONST-FED-XIV-02-VOTE-ABRIDGMENT"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-XIV-02-REPRESENTATIVES-APPORTIONED",
+        "FED-QUAL-XIV-02-HISTORICAL-EXCLUSION",
+        "FED-QUAL-XIV-02-ORIGINAL-MALE-VOTE-REFERENCE",
+        "FED-QUAL-XIV-02-CRIME-REBELLION-EXCEPTION",
+        "FED-QUAL-XIV-02-NOT-GENERAL-DISENFRANCHISEMENT-POWER"
+      ],
+      "relationship_ids": [
+        "FED-REL-0032",
+        "FED-REL-0033"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0037",
+        "FED-CAP-0038"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -404,9 +584,21 @@
         "NORM-US-CONST-071",
         "NORM-US-CONST-FED-XIV-03-REMOVAL-TWO-THIRDS"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-XIV-03-PRIOR-CONSTITUTIONAL-OATH",
+        "FED-QUAL-XIV-03-CONDUCT-INSURRECTION-REBELLION",
+        "FED-QUAL-XIV-03-SPECIFIED-OFFICES",
+        "FED-QUAL-XIV-03-TWO-THIRDS-EACH-HOUSE",
+        "FED-QUAL-XIV-03-IMPLEMENTATION-CASE-LAW"
+      ],
+      "relationship_ids": [
+        "FED-REL-0034",
+        "FED-REL-0035"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0039",
+        "FED-CAP-0040"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -427,9 +619,23 @@
         "NORM-US-CONST-FED-XIV-04-ILLEGAL-REBELLION-DEBT",
         "NORM-US-CONST-FED-XIV-04-ENSLAVEMENT-CLAIMS"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-XIV-04-AUTHORIZED-FEDERAL-DEBT",
+        "FED-QUAL-XIV-04-NO-REBEL-DEBTS",
+        "FED-QUAL-XIV-04-NO-ENSLAVEMENT-LOSS-COMPENSATION",
+        "FED-QUAL-XIV-04-NO-INDEPENDENT-UNLIMITED-BORROWING"
+      ],
+      "relationship_ids": [
+        "FED-REL-0036",
+        "FED-REL-0037",
+        "FED-REL-0038",
+        "FED-REL-0039"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0041",
+        "FED-CAP-0042",
+        "FED-CAP-0043"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
@@ -449,9 +655,18 @@
         "NORM-US-CONST-072",
         "NORM-US-CONST-FED-XIV-05-APPROPRIATE-ENFORCEMENT"
       ],
-      "qualification_ids": [],
-      "relationship_ids": [],
-      "capability_link_ids": [],
+      "qualification_ids": [
+        "FED-QUAL-XIV-05-APPROPRIATE-LEGISLATION",
+        "FED-QUAL-XIV-05-ENFORCEMENT-NOT-GENERAL-FEDERAL-POLICE",
+        "FED-QUAL-XIV-05-JUDICIAL-ENFORCEMENT-STANDARDS"
+      ],
+      "relationship_ids": [
+        "FED-REL-0040"
+      ],
+      "capability_link_ids": [
+        "FED-CAP-0044",
+        "FED-CAP-0045"
+      ],
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],

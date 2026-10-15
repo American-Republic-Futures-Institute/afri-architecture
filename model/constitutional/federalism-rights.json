@@ -1,0 +1,167 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FED-RIGHT-01",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "interstate_citizenship_privilege",
+      "unit_id": "FED-UNIT-IV-02-01",
+      "norm_id": "NORM-US-CONST-037",
+      "holder_actor_id": "ACT-US-CITIZENS",
+      "addressee_actor_id": "ACT-US-STATES",
+      "qualification_ids": [
+        "FED-QUAL-IV-02-STATE-CITIZENS"
+      ],
+      "description": "Citizens of each State enjoy covered privileges and immunities in other States; textually different from national-citizenship clause.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    },
+    {
+      "id": "FED-RIGHT-02",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "office_qualification_protection",
+      "unit_id": "FED-UNIT-VI-03",
+      "norm_id": "NORM-US-CONST-047",
+      "holder_actor_id": "ACT-US-OFFICE-CANDIDATES",
+      "addressee_actor_id": "ACT-US-FED",
+      "qualification_ids": [
+        "FED-QUAL-VI-03-NO-FEDERAL-RELIGIOUS-TEST"
+      ],
+      "description": "Federal public office qualifications cannot impose religious tests; State-office applications depend on distinct doctrine.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    },
+    {
+      "id": "FED-RIGHT-03",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "reserved_powers",
+      "unit_id": "FED-UNIT-X-01",
+      "norm_id": "NORM-US-CONST-062",
+      "holder_actor_id": "ACT-US-STATES",
+      "addressee_actor_id": "ACT-US-FED",
+      "qualification_ids": [
+        "FED-QUAL-X-NOT-DELEGATED-NOT-PROHIBITED"
+      ],
+      "description": "Nondelegated and nonprohibited powers reserved to States; not supremacy over valid federal law.",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    },
+    {
+      "id": "FED-RIGHT-04",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "reserved_powers",
+      "unit_id": "FED-UNIT-X-01",
+      "norm_id": "NORM-US-CONST-062",
+      "holder_actor_id": "ACT-US-PEOPLE",
+      "addressee_actor_id": "ACT-US-FED",
+      "qualification_ids": [
+        "FED-QUAL-X-STATE-AND-PEOPLE"
+      ],
+      "description": "Textual reservation of nondelegated powers to the people, without identifying a new enumerated individual right.",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    },
+    {
+      "id": "FED-RIGHT-05",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "citizenship_status",
+      "unit_id": "FED-UNIT-XIV-01",
+      "norm_id": "NORM-US-CONST-067",
+      "holder_actor_id": "ACT-US-PERSONS",
+      "addressee_actor_id": "ACT-US-STATES",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-BORN-NATURALIZED-JURISDICTION"
+      ],
+      "description": "Persons born or naturalized in U.S., subject to jurisdiction, are U.S. citizens and State citizens by residence; classification conditional.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    },
+    {
+      "id": "FED-RIGHT-06",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "national_citizenship_privilege",
+      "unit_id": "FED-UNIT-XIV-01",
+      "norm_id": "NORM-US-CONST-068",
+      "holder_actor_id": "ACT-US-CITIZENS",
+      "addressee_actor_id": "ACT-US-STATES",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-US-CITIZENS-PRIVILEGES"
+      ],
+      "description": "States may not abridge privileges or immunities of citizens of the United States.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    },
+    {
+      "id": "FED-RIGHT-07",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "state_due_process",
+      "unit_id": "FED-UNIT-XIV-01",
+      "norm_id": "NORM-US-CONST-069",
+      "holder_actor_id": "ACT-US-PERSONS",
+      "addressee_actor_id": "ACT-US-STATES",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-PERSONS-DUE-PROCESS"
+      ],
+      "description": "Fourteenth Amendment protects persons against deprivations of life, liberty and property without State due process.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    },
+    {
+      "id": "FED-RIGHT-08",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "state_equal_protection",
+      "unit_id": "FED-UNIT-XIV-01",
+      "norm_id": "NORM-US-CONST-070",
+      "holder_actor_id": "ACT-US-PERSONS",
+      "addressee_actor_id": "ACT-US-STATES",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-PERSONS-EQUAL-PROTECTION"
+      ],
+      "description": "Equal protection text protects any person within State jurisdiction, not only citizens.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    },
+    {
+      "id": "FED-RIGHT-09",
+      "type": "constitutional_protected_interest",
+      "interest_kind": "specified_state_suit_protection",
+      "unit_id": "FED-UNIT-XI-01",
+      "norm_id": "NORM-US-CONST-063",
+      "holder_actor_id": "ACT-US-STATES",
+      "addressee_actor_id": "ACT-US-ARTICLE-III-COURTS",
+      "qualification_ids": [
+        "FED-QUAL-XI-COVERED-SUITS"
+      ],
+      "description": "Eleventh Amendment limits specified suits against States; not categorical State immunity from every federal judicial proceeding.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "not_independent_judicial_holding": true
+    }
+  ]
+}
