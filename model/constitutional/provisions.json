@@ -1261,7 +1261,7 @@
       ],
       "source_locator": "U.S. Const. amend. I",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1276,7 +1276,7 @@
       ],
       "source_locator": "U.S. Const. amend. II",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1291,7 +1291,7 @@
       ],
       "source_locator": "U.S. Const. amend. III",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1306,7 +1306,7 @@
       ],
       "source_locator": "U.S. Const. amend. IV",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1321,7 +1321,7 @@
       ],
       "source_locator": "U.S. Const. amend. V",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1336,7 +1336,7 @@
       ],
       "source_locator": "U.S. Const. amend. VI",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1351,7 +1351,7 @@
       ],
       "source_locator": "U.S. Const. amend. VII",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1366,7 +1366,7 @@
       ],
       "source_locator": "U.S. Const. amend. VIII",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1381,7 +1381,7 @@
       ],
       "source_locator": "U.S. Const. amend. IX",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1426,7 +1426,7 @@
       ],
       "source_locator": "U.S. Const. amend. XII",
       "effect_status": "modified_in_part",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1804-06-15"
     },
     {
@@ -2634,6 +2634,771 @@
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
       "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-AMD-01-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Establishment of religion restriction",
+      "parent_id": "CONST-US-AMD-01",
+      "citation": "U.S. Const. amend. I",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. I (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 1,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-01-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Free exercise of religion",
+      "parent_id": "CONST-US-AMD-01",
+      "citation": "U.S. Const. amend. I",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. I (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 1,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-01-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Freedom of speech",
+      "parent_id": "CONST-US-AMD-01",
+      "citation": "U.S. Const. amend. I",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. I (ARFI analytical segment 3; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 1,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-01-SEG-04",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Freedom of press",
+      "parent_id": "CONST-US-AMD-01",
+      "citation": "U.S. Const. amend. I",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. I (ARFI analytical segment 4; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 1,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-01-SEG-05",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Peaceable assembly",
+      "parent_id": "CONST-US-AMD-01",
+      "citation": "U.S. Const. amend. I",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. I (ARFI analytical segment 5; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 1,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-01-SEG-06",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Petition government for redress",
+      "parent_id": "CONST-US-AMD-01",
+      "citation": "U.S. Const. amend. I",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. I (ARFI analytical segment 6; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 1,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-02-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Well-regulated militia prefatory language",
+      "parent_id": "CONST-US-AMD-02",
+      "citation": "U.S. Const. amend. II",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. II (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 2,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-02-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Right to keep and bear arms",
+      "parent_id": "CONST-US-AMD-02",
+      "citation": "U.S. Const. amend. II",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. II (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 2,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-03-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Quartering soldiers in peacetime",
+      "parent_id": "CONST-US-AMD-03",
+      "citation": "U.S. Const. amend. III",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. III (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 3,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-03-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Quartering soldiers in wartime",
+      "parent_id": "CONST-US-AMD-03",
+      "citation": "U.S. Const. amend. III",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. III (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 3,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-04-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Security against unreasonable searches and seizures",
+      "parent_id": "CONST-US-AMD-04",
+      "citation": "U.S. Const. amend. IV",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. IV (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 4,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-04-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Warrant probable cause and sworn support",
+      "parent_id": "CONST-US-AMD-04",
+      "citation": "U.S. Const. amend. IV",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. IV (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 4,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-04-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Warrant particularity",
+      "parent_id": "CONST-US-AMD-04",
+      "citation": "U.S. Const. amend. IV",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. IV (ARFI analytical segment 3; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 4,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-05-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Grand jury indictment or presentment",
+      "parent_id": "CONST-US-AMD-05",
+      "citation": "U.S. Const. amend. V",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. V (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 5,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-05-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Grand jury land/naval and militia exception",
+      "parent_id": "CONST-US-AMD-05",
+      "citation": "U.S. Const. amend. V",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. V (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 5,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-05-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Double jeopardy safeguard",
+      "parent_id": "CONST-US-AMD-05",
+      "citation": "U.S. Const. amend. V",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. V (ARFI analytical segment 3; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 5,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-05-SEG-04",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Self-incrimination safeguard",
+      "parent_id": "CONST-US-AMD-05",
+      "citation": "U.S. Const. amend. V",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. V (ARFI analytical segment 4; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 5,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-05-SEG-05",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Federal due process",
+      "parent_id": "CONST-US-AMD-05",
+      "citation": "U.S. Const. amend. V",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. V (ARFI analytical segment 5; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 5,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-05-SEG-06",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Public-use taking",
+      "parent_id": "CONST-US-AMD-05",
+      "citation": "U.S. Const. amend. V",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. V (ARFI analytical segment 6; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 5,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-05-SEG-07",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Just compensation for public takings",
+      "parent_id": "CONST-US-AMD-05",
+      "citation": "U.S. Const. amend. V",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. V (ARFI analytical segment 7; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 5,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-06-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Speedy criminal trial",
+      "parent_id": "CONST-US-AMD-06",
+      "citation": "U.S. Const. amend. VI",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VI (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 6,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-06-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Public criminal trial",
+      "parent_id": "CONST-US-AMD-06",
+      "citation": "U.S. Const. amend. VI",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VI (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 6,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-06-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Impartial jury and proper district",
+      "parent_id": "CONST-US-AMD-06",
+      "citation": "U.S. Const. amend. VI",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VI (ARFI analytical segment 3; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 6,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-06-SEG-04",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Notice of nature and cause of accusation",
+      "parent_id": "CONST-US-AMD-06",
+      "citation": "U.S. Const. amend. VI",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VI (ARFI analytical segment 4; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 6,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-06-SEG-05",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Confrontation of adverse witnesses",
+      "parent_id": "CONST-US-AMD-06",
+      "citation": "U.S. Const. amend. VI",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VI (ARFI analytical segment 5; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 6,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-06-SEG-06",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Compulsory process for witnesses",
+      "parent_id": "CONST-US-AMD-06",
+      "citation": "U.S. Const. amend. VI",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VI (ARFI analytical segment 6; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 6,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-06-SEG-07",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Assistance of counsel",
+      "parent_id": "CONST-US-AMD-06",
+      "citation": "U.S. Const. amend. VI",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VI (ARFI analytical segment 7; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 6,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-07-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Jury trial in federal civil suits at common law",
+      "parent_id": "CONST-US-AMD-07",
+      "citation": "U.S. Const. amend. VII",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VII (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 7,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-07-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Jury-found facts re-examination restriction",
+      "parent_id": "CONST-US-AMD-07",
+      "citation": "U.S. Const. amend. VII",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VII (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 7,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-08-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Excessive bail",
+      "parent_id": "CONST-US-AMD-08",
+      "citation": "U.S. Const. amend. VIII",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VIII (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 8,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-08-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Excessive fines",
+      "parent_id": "CONST-US-AMD-08",
+      "citation": "U.S. Const. amend. VIII",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VIII (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 8,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-08-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Cruel and unusual punishments",
+      "parent_id": "CONST-US-AMD-08",
+      "citation": "U.S. Const. amend. VIII",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VIII (ARFI analytical segment 3; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 8,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-09-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Unenumerated rights retained by people",
+      "parent_id": "CONST-US-AMD-09",
+      "citation": "U.S. Const. amend. IX",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. IX (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 9,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-10-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Powers reserved to States",
+      "parent_id": "CONST-US-AMD-10",
+      "citation": "U.S. Const. amend. X",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. X (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 10,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-10-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Powers reserved to the people",
+      "parent_id": "CONST-US-AMD-10",
+      "citation": "U.S. Const. amend. X",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. X (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 10,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-11-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Federal court suit restriction against States",
+      "parent_id": "CONST-US-AMD-11",
+      "citation": "U.S. Const. amend. XI",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XI (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 11,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-11-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Interstate and foreign claimant restriction",
+      "parent_id": "CONST-US-AMD-11",
+      "citation": "U.S. Const. amend. XI",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XI (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 11,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-12-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Separate ballots for President and Vice President",
+      "parent_id": "CONST-US-AMD-12",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII (ARFI analytical segment 1; not an original section or clause)",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 12,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-12-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Presidential and Vice Presidential inhabitation restriction",
+      "parent_id": "CONST-US-AMD-12",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII (ARFI analytical segment 2; not an original section or clause)",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 12,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-12-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Elector lists certified and transmitted",
+      "parent_id": "CONST-US-AMD-12",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII (ARFI analytical segment 3; not an original section or clause)",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 12,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-12-SEG-04",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Congressional counting process",
+      "parent_id": "CONST-US-AMD-12",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII (ARFI analytical segment 4; not an original section or clause)",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 12,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-12-SEG-05",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Presidential Electoral College majority",
+      "parent_id": "CONST-US-AMD-12",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII (ARFI analytical segment 5; not an original section or clause)",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 12,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-12-SEG-06",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "House contingent presidential election",
+      "parent_id": "CONST-US-AMD-12",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII (ARFI analytical segment 6; not an original section or clause)",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 12,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-12-SEG-07",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Senate contingent vice presidential election",
+      "parent_id": "CONST-US-AMD-12",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII (ARFI analytical segment 7; not an original section or clause)",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 12,
+      "original_section_number": null
+    },
+    {
+      "id": "CONST-US-AMD-12-SEG-08",
+      "type": "constitutional_provision",
+      "unit": "amendment_segment",
+      "label": "Vice Presidential eligibility tied to Presidency",
+      "parent_id": "CONST-US-AMD-12",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII (ARFI analytical segment 8; not an original section or clause)",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause",
+      "amendment_number": 12,
+      "original_section_number": null
     }
   ]
 }
