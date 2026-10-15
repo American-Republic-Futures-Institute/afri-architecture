@@ -77,9 +77,10 @@
       "change_kind": "supersedes",
       "amending_provision_id": "CONST-US-AMD-17",
       "affected_provision_ids": [
-        "CONST-US-ART-01-SEC-03-CL-01"
+        "CONST-US-ART-01-SEC-03-CL-01",
+        "CONST-US-ART-01-SEC-03-CL-02"
       ],
-      "description": "Seventeenth Amendment replaces Senate selection by state legislatures with popular election.",
+      "description": "Seventeenth Amendment replaces original Senate election by state legislatures and revises the vacancy-filling procedure; equal representation and six-year terms remain.",
       "status": "ratified_record",
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"

@@ -646,6 +646,96 @@
         "SRC-WH-EXECUTIVE",
         "SRC-USCOURTS-STRUCTURE"
       ]
+    },
+    {
+      "id": "CAP-FED-35",
+      "type": "capability",
+      "name": "Congressional representation and election governance",
+      "definition": "Legislative constitutional roles involving elections, qualifications, chamber composition, and member proceedings.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ]
+    },
+    {
+      "id": "CAP-FED-36",
+      "type": "capability",
+      "name": "Citizenship and naturalization governance",
+      "definition": "Federal citizenship and naturalization rules and related authorized processes.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ]
+    },
+    {
+      "id": "CAP-FED-37",
+      "type": "capability",
+      "name": "Bankruptcy law and proceedings",
+      "definition": "Uniform federal bankruptcy legal framework and specialized adjudication capabilities.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ]
+    },
+    {
+      "id": "CAP-FED-38",
+      "type": "capability",
+      "name": "Intellectual property legal stewardship",
+      "definition": "Protection and administration of limited-time rights for authors and inventors through authorized federal mechanisms.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ]
+    },
+    {
+      "id": "CAP-FED-39",
+      "type": "capability",
+      "name": "Constitutional chamber administration",
+      "definition": "Internal procedures, records, officer selection, quorum, ethics, discipline and legislative institutional operations.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-CONST-CONAN-ARTICLE-I"
+      ]
     }
   ]
 }

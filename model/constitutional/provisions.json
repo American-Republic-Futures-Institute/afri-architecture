@@ -58,7 +58,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 1",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-02",
@@ -72,7 +72,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 2",
       "effect_status": "modified_in_part",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-03",
@@ -86,7 +86,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 3",
       "effect_status": "modified_in_part",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-04",
@@ -100,7 +100,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 4",
       "effect_status": "modified_in_part",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-05",
@@ -114,7 +114,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 5",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-06",
@@ -128,7 +128,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 6",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-07",
@@ -142,7 +142,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 7",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-08",
@@ -156,7 +156,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 8",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-09",
@@ -170,7 +170,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 9",
       "effect_status": "modified_in_part",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-01-SEC-10",
@@ -184,7 +184,7 @@
       ],
       "source_locator": "U.S. Const. art. I, § 10",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-02",
@@ -428,7 +428,7 @@
       "id": "CONST-US-ART-01-SEC-08-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Taxing, Spending, and Uniformity of Duties",
+      "label": "Taxation, spending and uniformity",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 1",
       "source_ids": [
@@ -437,7 +437,8 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 1",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may levy taxes and provide for common defense/general welfare, subject to qualifications."
+      "notes": "Congress may levy taxes and provide for common defense/general welfare, subject to qualifications.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-02",
@@ -452,7 +453,8 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 2",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may borrow on the credit of the United States."
+      "notes": "Congress may borrow on the credit of the United States.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-03",
@@ -467,13 +469,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 3",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may regulate commerce with foreign nations, among states, and with Indian tribes."
+      "notes": "Congress may regulate commerce with foreign nations, among states, and with Indian tribes.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-04",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Naturalization and Bankruptcy",
+      "label": "Naturalization and bankruptcy",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 4",
       "source_ids": [
@@ -482,13 +485,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 4",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may establish uniform naturalization rules and bankruptcy laws."
+      "notes": "Congress may establish uniform naturalization rules and bankruptcy laws.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-05",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Coinage and Monetary Standards",
+      "label": "Coinage and monetary standards",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 5",
       "source_ids": [
@@ -497,7 +501,8 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 5",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may coin money and regulate its value, and fix standards of weights and measures."
+      "notes": "Congress may coin money and regulate its value, and fix standards of weights and measures.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-06",
@@ -512,13 +517,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 6",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may provide punishment for counterfeiting federal securities and coin."
+      "notes": "Congress may provide punishment for counterfeiting federal securities and coin.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-07",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Post Offices and Post Roads",
+      "label": "Post offices and roads",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 7",
       "source_ids": [
@@ -527,13 +533,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 7",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may establish post offices and post roads."
+      "notes": "Congress may establish post offices and post roads.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-08",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Copyrights and Patents",
+      "label": "Copyrights and patents",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 8",
       "source_ids": [
@@ -542,13 +549,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 8",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may secure limited exclusive rights for authors and inventors to promote progress."
+      "notes": "Congress may secure limited exclusive rights for authors and inventors to promote progress.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-09",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Lower Federal Courts",
+      "label": "Inferior tribunals",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 9",
       "source_ids": [
@@ -557,13 +565,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 9",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may constitute tribunals inferior to the Supreme Court."
+      "notes": "Congress may constitute tribunals inferior to the Supreme Court.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-10",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Piracies and Law of Nations",
+      "label": "Piracies and offenses against law of nations",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 10",
       "source_ids": [
@@ -572,13 +581,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 10",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may define and punish piracies, high-seas felonies, and offenses against the law of nations."
+      "notes": "Congress may define and punish piracies, high-seas felonies, and offenses against the law of nations.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-11",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Declare War and Maritime Captures",
+      "label": "Declare war, captures and letters of marque",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 11",
       "source_ids": [
@@ -587,13 +597,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 11",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may declare war and grant letters of marque and reprisal, with capture rules."
+      "notes": "Congress may declare war and grant letters of marque and reprisal, with capture rules.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-12",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Armies",
+      "label": "Armies and appropriation duration",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 12",
       "source_ids": [
@@ -602,7 +613,8 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 12",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may raise and support armies, subject to the two-year appropriation limit."
+      "notes": "Congress may raise and support armies, subject to the two-year appropriation limit.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-13",
@@ -617,13 +629,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 13",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may provide and maintain a navy."
+      "notes": "Congress may provide and maintain a navy.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-14",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Military Rules",
+      "label": "Land and naval forces rules",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 14",
       "source_ids": [
@@ -632,13 +645,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 14",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may make rules governing and regulating land and naval forces."
+      "notes": "Congress may make rules governing and regulating land and naval forces.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-15",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Call Forth Militia",
+      "label": "Call forth militia",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 15",
       "source_ids": [
@@ -647,13 +661,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 15",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may provide for calling forth militia for specified purposes."
+      "notes": "Congress may provide for calling forth militia for specified purposes.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-16",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Organize, Arm, and Discipline Militia",
+      "label": "Militia organization and reserved state roles",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 16",
       "source_ids": [
@@ -662,13 +677,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 16",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may provide for organizing, arming and disciplining militia subject to reserved state functions."
+      "notes": "Congress may provide for organizing, arming and disciplining militia subject to reserved state functions.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-17",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "District and Federal Enclaves",
+      "label": "Federal district and enclaves",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 17",
       "source_ids": [
@@ -677,13 +693,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 17",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may exercise specified exclusive legislation over the federal district and acquired places."
+      "notes": "Congress may exercise specified exclusive legislation over the federal district and acquired places.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-08-CL-18",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Necessary and Proper",
+      "label": "Necessary and Proper laws",
       "parent_id": "CONST-US-ART-01-SEC-08",
       "citation": "U.S. Const. art. I, § 8, cl. 18",
       "source_ids": [
@@ -692,13 +709,14 @@
       "source_locator": "U.S. Const. art. I, § 8, cl. 18",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register",
-      "notes": "Congress may enact laws necessary and proper to execute constitutionally vested federal powers."
+      "notes": "Congress may enact laws necessary and proper to execute constitutionally vested federal powers.",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-01-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Vesting of Legislative Power",
+      "label": "Vesting of legislative powers",
       "parent_id": "CONST-US-ART-01-SEC-01",
       "citation": "U.S. Const. art. I, § 1, cl. 1",
       "source_ids": [
@@ -706,13 +724,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 1, cl. 1",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-02-CL-03",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Original Apportionment and Direct Taxes",
+      "label": "Apportionment and decennial enumeration",
       "parent_id": "CONST-US-ART-01-SEC-02",
       "citation": "U.S. Const. art. I, § 2, cl. 3",
       "source_ids": [
@@ -720,13 +739,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 2, cl. 3",
       "effect_status": "modified_in_part",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-02-CL-05",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "House Impeachment Authority",
+      "label": "House officers and impeachment",
       "parent_id": "CONST-US-ART-01-SEC-02",
       "citation": "U.S. Const. art. I, § 2, cl. 5",
       "source_ids": [
@@ -734,27 +754,29 @@
       ],
       "source_locator": "U.S. Const. art. I, § 2, cl. 5",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-03-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Original Method of Selecting Senators",
+      "label": "Composition and selection of Senate",
       "parent_id": "CONST-US-ART-01-SEC-03",
       "citation": "U.S. Const. art. I, § 3, cl. 1",
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
       "source_locator": "U.S. Const. art. I, § 3, cl. 1",
-      "effect_status": "superseded",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-03-CL-04",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Vice President as President of the Senate",
+      "label": "Vice President presides over Senate",
       "parent_id": "CONST-US-ART-01-SEC-03",
       "citation": "U.S. Const. art. I, § 3, cl. 4",
       "source_ids": [
@@ -762,13 +784,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 3, cl. 4",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-03-CL-06",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Senate Impeachment Trials",
+      "label": "Senate impeachment trials",
       "parent_id": "CONST-US-ART-01-SEC-03",
       "citation": "U.S. Const. art. I, § 3, cl. 6",
       "source_ids": [
@@ -776,13 +799,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 3, cl. 6",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-04-CL-02",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Annual Sessions (Original Schedule)",
+      "label": "Annual convening of Congress",
       "parent_id": "CONST-US-ART-01-SEC-04",
       "citation": "U.S. Const. art. I, § 4, cl. 2",
       "source_ids": [
@@ -790,13 +814,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 4, cl. 2",
       "effect_status": "modified_in_part",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-07-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Revenue-Bill Origination",
+      "label": "Revenue-bill origination",
       "parent_id": "CONST-US-ART-01-SEC-07",
       "citation": "U.S. Const. art. I, § 7, cl. 1",
       "source_ids": [
@@ -804,13 +829,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 7, cl. 1",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-07-CL-02",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Presentment and Veto",
+      "label": "Bill passage, presidential presentment and veto",
       "parent_id": "CONST-US-ART-01-SEC-07",
       "citation": "U.S. Const. art. I, § 7, cl. 2",
       "source_ids": [
@@ -818,13 +844,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 7, cl. 2",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-09-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Original Migration and Importation Temporal Restriction",
+      "label": "Original pre-1808 migration and importation restriction",
       "parent_id": "CONST-US-ART-01-SEC-09",
       "citation": "U.S. Const. art. I, § 9, cl. 1",
       "source_ids": [
@@ -832,13 +859,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 9, cl. 1",
       "effect_status": "expired",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-09-CL-02",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Suspension of Habeas Corpus",
+      "label": "Suspension of habeas corpus",
       "parent_id": "CONST-US-ART-01-SEC-09",
       "citation": "U.S. Const. art. I, § 9, cl. 2",
       "source_ids": [
@@ -846,13 +874,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 9, cl. 2",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-09-CL-03",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Federal Bills of Attainder and Ex Post Facto Laws",
+      "label": "Bills of attainder and ex post facto laws",
       "parent_id": "CONST-US-ART-01-SEC-09",
       "citation": "U.S. Const. art. I, § 9, cl. 3",
       "source_ids": [
@@ -860,13 +889,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 9, cl. 3",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-09-CL-04",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Direct Tax Apportionment (Qualified by Sixteenth Amendment)",
+      "label": "Direct-tax apportionment",
       "parent_id": "CONST-US-ART-01-SEC-09",
       "citation": "U.S. Const. art. I, § 9, cl. 4",
       "source_ids": [
@@ -874,13 +904,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 9, cl. 4",
       "effect_status": "modified_in_part",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-09-CL-05",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "No Federal Export Duties",
+      "label": "Federal export tax prohibition",
       "parent_id": "CONST-US-ART-01-SEC-09",
       "citation": "U.S. Const. art. I, § 9, cl. 5",
       "source_ids": [
@@ -888,13 +919,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 9, cl. 5",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-09-CL-07",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Appropriations and Treasury Accounts",
+      "label": "Appropriations and public accounts",
       "parent_id": "CONST-US-ART-01-SEC-09",
       "citation": "U.S. Const. art. I, § 9, cl. 7",
       "source_ids": [
@@ -902,13 +934,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 9, cl. 7",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-09-CL-08",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Titles of Nobility and Foreign Emoluments",
+      "label": "Nobility titles and foreign emoluments",
       "parent_id": "CONST-US-ART-01-SEC-09",
       "citation": "U.S. Const. art. I, § 9, cl. 8",
       "source_ids": [
@@ -916,13 +949,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 9, cl. 8",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-10-CL-01",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "Prohibitions on Certain State Powers",
+      "label": "Prohibited state powers",
       "parent_id": "CONST-US-ART-01-SEC-10",
       "citation": "U.S. Const. art. I, § 10, cl. 1",
       "source_ids": [
@@ -930,13 +964,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 10, cl. 1",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-10-CL-02",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "State Import and Export Duty Limits",
+      "label": "State import and export duty limits",
       "parent_id": "CONST-US-ART-01-SEC-10",
       "citation": "U.S. Const. art. I, § 10, cl. 2",
       "source_ids": [
@@ -944,13 +979,14 @@
       ],
       "source_locator": "U.S. Const. art. I, § 10, cl. 2",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-01-SEC-10-CL-03",
       "type": "constitutional_provision",
       "unit": "article_clause",
-      "label": "State Compacts and War-Power Limits",
+      "label": "State tonnage, military and compact restrictions",
       "parent_id": "CONST-US-ART-01-SEC-10",
       "citation": "U.S. Const. art. I, § 10, cl. 3",
       "source_ids": [
@@ -958,7 +994,8 @@
       ],
       "source_locator": "U.S. Const. art. I, § 10, cl. 3",
       "effect_status": "operative",
-      "decomposition_status": "decomposed_in_initial_norm_register"
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     },
     {
       "id": "CONST-US-ART-02-SEC-01-CL-01",
@@ -2078,6 +2115,246 @@
       "effect_status": "operative",
       "decomposition_status": "partially_decomposed",
       "ratified_on": "1992-05-07"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-02-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "House election and voter qualifications",
+      "parent_id": "CONST-US-ART-01-SEC-02",
+      "citation": "U.S. Const. art. I, § 2, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 2, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-02-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "House membership qualifications",
+      "parent_id": "CONST-US-ART-01-SEC-02",
+      "citation": "U.S. Const. art. I, § 2, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 2, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-02-CL-04",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Vacancies in House seats",
+      "parent_id": "CONST-US-ART-01-SEC-02",
+      "citation": "U.S. Const. art. I, § 2, cl. 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 2, cl. 4",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-03-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Staggered Senate classes and vacancies",
+      "parent_id": "CONST-US-ART-01-SEC-03",
+      "citation": "U.S. Const. art. I, § 3, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 3, cl. 2",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-03-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Senate membership qualifications",
+      "parent_id": "CONST-US-ART-01-SEC-03",
+      "citation": "U.S. Const. art. I, § 3, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 3, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-03-CL-05",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Senate officers and president pro tempore",
+      "parent_id": "CONST-US-ART-01-SEC-03",
+      "citation": "U.S. Const. art. I, § 3, cl. 5",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 3, cl. 5",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-03-CL-07",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Limits of impeachment judgment",
+      "parent_id": "CONST-US-ART-01-SEC-03",
+      "citation": "U.S. Const. art. I, § 3, cl. 7",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 3, cl. 7",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-04-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Times, places and manner of congressional elections",
+      "parent_id": "CONST-US-ART-01-SEC-04",
+      "citation": "U.S. Const. art. I, § 4, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 4, cl. 1",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-05-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Qualifications, election judgments and quorum",
+      "parent_id": "CONST-US-ART-01-SEC-05",
+      "citation": "U.S. Const. art. I, § 5, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 5, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-05-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Internal rules, member discipline and expulsion",
+      "parent_id": "CONST-US-ART-01-SEC-05",
+      "citation": "U.S. Const. art. I, § 5, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 5, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-05-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Chamber journals and recorded votes",
+      "parent_id": "CONST-US-ART-01-SEC-05",
+      "citation": "U.S. Const. art. I, § 5, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 5, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-05-CL-04",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Limits on separate chamber adjournment",
+      "parent_id": "CONST-US-ART-01-SEC-05",
+      "citation": "U.S. Const. art. I, § 5, cl. 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 5, cl. 4",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-06-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Congressional compensation and legislative privileges",
+      "parent_id": "CONST-US-ART-01-SEC-06",
+      "citation": "U.S. Const. art. I, § 6, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 6, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-06-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Ineligibility and incompatibility of federal offices",
+      "parent_id": "CONST-US-ART-01-SEC-06",
+      "citation": "U.S. Const. art. I, § 6, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 6, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-07-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Presentment of orders, resolutions and votes",
+      "parent_id": "CONST-US-ART-01-SEC-07",
+      "citation": "U.S. Const. art. I, § 7, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 7, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09-CL-06",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "No preferences among state ports",
+      "parent_id": "CONST-US-ART-01-SEC-09",
+      "citation": "U.S. Const. art. I, § 9, cl. 6",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9, cl. 6",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "article_i_clause_review": "research_summary_pending_legal_review"
     }
   ]
 }
