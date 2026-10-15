@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI COA architecture record",
+  "description": "Basic declarative data shape for the ARFI-COA v0.1.0 federal architecture catalog.",
+  "type": "object",
+  "required": [
+    "model_version",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "record": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "status",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:BR-FED|ORG-FED|AUTH-US|CAP-FED)-[A-Z0-9-]+$"
+        },
+        "type": {
+          "enum": [
+            "branch",
+            "institution",
+            "legal_authority",
+            "capability"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "status": {
+          "type": "string",
+          "minLength": 3
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-[A-Z0-9-]+$"
+          }
+        },
+        "branch_id": {
+          "type": "string",
+          "pattern": "^BR-FED-"
+        },
+        "parent_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "type": "string"
+        },
+        "mission": {
+          "type": "string",
+          "minLength": 20
+        },
+        "definition": {
+          "type": "string",
+          "minLength": 20
+        },
+        "roles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "authority_kind": {
+          "type": "string"
+        },
+        "jurisdiction": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "homepage": {
+          "type": "string",
+          "format": "uri"
+        },
+        "aggregate_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "aggregate_unit": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "framework_mappings": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "establishment_basis": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

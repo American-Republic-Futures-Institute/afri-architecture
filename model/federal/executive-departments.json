@@ -1,0 +1,304 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "ORG-FED-EXE-DEP-STATE",
+      "type": "institution",
+      "name": "Department of State",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Leads U.S. diplomacy, international relations, consular services and foreign-policy implementation.",
+      "roles": [
+        "diplomacy",
+        "consular_services"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.state.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-TREASURY",
+      "type": "institution",
+      "name": "Department of the Treasury",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Manages federal revenue, borrowing, public finance and payments; contributes to financial security and sanctions policy.",
+      "roles": [
+        "revenue_collection",
+        "treasury_management",
+        "financial_sanctions"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://home.treasury.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-DEFENSE",
+      "type": "institution",
+      "name": "Department of Defense",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Organizes and supports military forces to deter aggression and defend the United States under lawful civilian command.",
+      "roles": [
+        "national_defense",
+        "military_force_management"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "SRC-WH-DOW-ORDER"
+      ],
+      "status": "observed",
+      "homepage": "https://www.defense.gov/",
+      "aliases": [
+        "Department of War (authorized secondary title for non-statutory uses)"
+      ],
+      "notes": "Executive Order of September 5, 2025 authorizes Department of War as a secondary title; not a statutory rename."
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-JUSTICE",
+      "type": "institution",
+      "name": "Department of Justice",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Enforces federal law, conducts federal prosecutions and represents the United States in legal matters.",
+      "roles": [
+        "federal_law_enforcement",
+        "litigation"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.justice.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-INTERIOR",
+      "type": "institution",
+      "name": "Department of the Interior",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Manages federal lands, natural resources, cultural resources and designated trust responsibilities.",
+      "roles": [
+        "public_lands",
+        "natural_resources",
+        "trust_responsibilities"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.doi.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "type": "institution",
+      "name": "Department of Agriculture",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Supports agriculture, rural development, nutrition programs, food systems and conservation within statutory mandates.",
+      "roles": [
+        "agriculture",
+        "nutrition",
+        "rural_development"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.usda.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-COMMERCE",
+      "type": "institution",
+      "name": "Department of Commerce",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Supports economic development, business, trade, statistics, scientific services and intellectual-property administration.",
+      "roles": [
+        "economic_development",
+        "statistical_services",
+        "commerce_policy"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.commerce.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-LABOR",
+      "type": "institution",
+      "name": "Department of Labor",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Administers and enforces federal labor protections and advances workforce, employment and workplace safety programs.",
+      "roles": [
+        "labor_protection",
+        "workforce",
+        "workplace_safety"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.dol.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-HHS",
+      "type": "institution",
+      "name": "Department of Health and Human Services",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Administers federal public-health, biomedical research, health coverage and human-services responsibilities.",
+      "roles": [
+        "public_health",
+        "health_services",
+        "biomedical_research"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.hhs.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-HUD",
+      "type": "institution",
+      "name": "Department of Housing and Urban Development",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Administers national housing programs, fair-housing enforcement and community-development initiatives.",
+      "roles": [
+        "housing",
+        "community_development",
+        "fair_housing"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.hud.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "type": "institution",
+      "name": "Department of Transportation",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Supports and regulates national transportation safety, mobility, infrastructure and multimodal systems.",
+      "roles": [
+        "transportation",
+        "transport_safety"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.transportation.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-ENERGY",
+      "type": "institution",
+      "name": "Department of Energy",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Advances national energy systems, scientific research, nuclear security and environmental cleanup of legacy nuclear sites.",
+      "roles": [
+        "energy",
+        "national_laboratories",
+        "nuclear_stewardship"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.energy.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-EDUCATION",
+      "type": "institution",
+      "name": "Department of Education",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Administers federal education assistance, education data and applicable federal education civil-rights responsibilities.",
+      "roles": [
+        "education_assistance",
+        "education_civil_rights"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.ed.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-VA",
+      "type": "institution",
+      "name": "Department of Veterans Affairs",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Provides eligible veterans and beneficiaries with health care, benefits, memorial services and related assistance.",
+      "roles": [
+        "veterans_benefits",
+        "veterans_healthcare"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.va.gov/"
+    },
+    {
+      "id": "ORG-FED-EXE-DEP-DHS",
+      "type": "institution",
+      "name": "Department of Homeland Security",
+      "kind": "executive_department",
+      "branch_id": "BR-FED-EXE",
+      "parent_id": "BR-FED-EXE",
+      "mission": "Coordinates and administers homeland security, border and transportation security, disaster response and other assigned functions.",
+      "roles": [
+        "homeland_security",
+        "border_security",
+        "emergency_management"
+      ],
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ],
+      "status": "observed",
+      "homepage": "https://www.dhs.gov/"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-FED-OVERVIEW",
+      "type": "viewpoint",
+      "title": "Federal Government: Constitutional Structure",
+      "purpose": "Survey the three federal branches and their first-level institutions without implying a single administrative chain of command.",
+      "root_ids": [
+        "BR-FED-LEG",
+        "BR-FED-EXE",
+        "BR-FED-JUD"
+      ],
+      "max_hierarchy_depth": 2,
+      "included_relationship_types": [
+        "established_under",
+        "exercises_oversight_of",
+        "executes_laws_enacted_by"
+      ],
+      "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-FED-LEG",
+      "type": "viewpoint",
+      "title": "Congress and Legislative Support",
+      "purpose": "Examine Congress, its chambers and independent congressional support entities.",
+      "root_ids": [
+        "BR-FED-LEG"
+      ],
+      "max_hierarchy_depth": 3,
+      "included_relationship_types": [
+        "advises_or_supports",
+        "exercises_power_under"
+      ],
+      "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-FED-EXEC",
+      "type": "viewpoint",
+      "title": "Executive Departments and Federal Bodies",
+      "purpose": "Examine presidential roles, executive departments, EOP components and separately constituted agencies.",
+      "root_ids": [
+        "BR-FED-EXE"
+      ],
+      "max_hierarchy_depth": 3,
+      "included_relationship_types": [
+        "performs_capability",
+        "advises_or_supports"
+      ],
+      "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-FED-JUD",
+      "type": "viewpoint",
+      "title": "Federal Judiciary and Court Administration",
+      "purpose": "Compare Article III courts, specialized courts, jurisdictional appellate review and judicial administrative organizations.",
+      "root_ids": [
+        "BR-FED-JUD"
+      ],
+      "max_hierarchy_depth": 3,
+      "included_relationship_types": [
+        "reviews_decisions_of",
+        "sets_administrative_policy_for",
+        "advises_or_supports"
+      ],
+      "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-FED-CAP",
+      "type": "viewpoint",
+      "title": "Federal Capability Inventory",
+      "purpose": "Trace federal institutional roles to provisional functional capabilities and FEAF BRM family mappings.",
+      "root_ids": [
+        "BR-FED-LEG",
+        "BR-FED-EXE",
+        "BR-FED-JUD"
+      ],
+      "max_hierarchy_depth": 3,
+      "included_relationship_types": [
+        "performs_capability"
+      ],
+      "status": "descriptive_candidate"
+    }
+  ]
+}

@@ -1,0 +1,1075 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "REL-FED-0001",
+      "from_id": "ORG-FED-LEG-CONGRESS",
+      "to_id": "CAP-FED-01",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0002",
+      "from_id": "ORG-FED-LEG-CONGRESS",
+      "to_id": "CAP-FED-02",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0003",
+      "from_id": "ORG-FED-LEG-CONGRESS",
+      "to_id": "CAP-FED-03",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0004",
+      "from_id": "ORG-FED-LEG-HOUSE",
+      "to_id": "CAP-FED-01",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0005",
+      "from_id": "ORG-FED-LEG-HOUSE",
+      "to_id": "CAP-FED-02",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0006",
+      "from_id": "ORG-FED-LEG-HOUSE",
+      "to_id": "CAP-FED-03",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0007",
+      "from_id": "ORG-FED-LEG-SENATE",
+      "to_id": "CAP-FED-01",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0008",
+      "from_id": "ORG-FED-LEG-SENATE",
+      "to_id": "CAP-FED-02",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0009",
+      "from_id": "ORG-FED-LEG-SENATE",
+      "to_id": "CAP-FED-03",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0010",
+      "from_id": "ORG-FED-LEG-CBO",
+      "to_id": "CAP-FED-04",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CBO-2026",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0011",
+      "from_id": "ORG-FED-LEG-GAO",
+      "to_id": "CAP-FED-03",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-GAO-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0012",
+      "from_id": "ORG-FED-LEG-GAO",
+      "to_id": "CAP-FED-04",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-GAO-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0013",
+      "from_id": "ORG-FED-LEG-LOC",
+      "to_id": "CAP-FED-04",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-LOC-ABOUT",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0014",
+      "from_id": "ORG-FED-LEG-LOC",
+      "to_id": "CAP-FED-05",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-LOC-ABOUT",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0015",
+      "from_id": "ORG-FED-LEG-CRS",
+      "to_id": "CAP-FED-04",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CRS-MISSION",
+        "SRC-LOC-ABOUT"
+      ]
+    },
+    {
+      "id": "REL-FED-0016",
+      "from_id": "ORG-FED-LEG-GPO",
+      "to_id": "CAP-FED-05",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-GPO-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0017",
+      "from_id": "ORG-FED-LEG-AOC",
+      "to_id": "CAP-FED-32",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-AOC-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0018",
+      "from_id": "ORG-FED-EXE-PRESIDENT",
+      "to_id": "CAP-FED-06",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0019",
+      "from_id": "ORG-FED-EXE-PRESIDENT",
+      "to_id": "CAP-FED-07",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0020",
+      "from_id": "ORG-FED-EXE-PRESIDENT",
+      "to_id": "CAP-FED-08",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0021",
+      "from_id": "ORG-FED-EXE-PRESIDENT",
+      "to_id": "CAP-FED-10",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0022",
+      "from_id": "ORG-FED-EXE-VP",
+      "to_id": "CAP-FED-06",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0023",
+      "from_id": "ORG-FED-EXE-EOP",
+      "to_id": "CAP-FED-06",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0024",
+      "from_id": "ORG-FED-EXE-EOP",
+      "to_id": "CAP-FED-10",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0025",
+      "from_id": "ORG-FED-EXE-EOP-OMB",
+      "to_id": "CAP-FED-10",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0026",
+      "from_id": "ORG-FED-EXE-EOP-NSC",
+      "to_id": "CAP-FED-07",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0027",
+      "from_id": "ORG-FED-EXE-EOP-NSC",
+      "to_id": "CAP-FED-10",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0028",
+      "from_id": "ORG-FED-EXE-EOP-NSC",
+      "to_id": "CAP-FED-26",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0029",
+      "from_id": "ORG-FED-EXE-EOP-OSTP",
+      "to_id": "CAP-FED-10",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0030",
+      "from_id": "ORG-FED-EXE-EOP-OSTP",
+      "to_id": "CAP-FED-23",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0031",
+      "from_id": "ORG-FED-EXE-EOP-USTR",
+      "to_id": "CAP-FED-08",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0032",
+      "from_id": "ORG-FED-EXE-EOP-USTR",
+      "to_id": "CAP-FED-13",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE"
+      ]
+    },
+    {
+      "id": "REL-FED-0033",
+      "from_id": "ORG-FED-EXE-EOP-CEA",
+      "to_id": "CAP-FED-10",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0034",
+      "from_id": "ORG-FED-EXE-EOP-ONCD",
+      "to_id": "CAP-FED-10",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0035",
+      "from_id": "ORG-FED-EXE-EOP-ONCD",
+      "to_id": "CAP-FED-20",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0036",
+      "from_id": "ORG-FED-EXE-EOP-CEQ",
+      "to_id": "CAP-FED-10",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0037",
+      "from_id": "ORG-FED-EXE-EOP-CEQ",
+      "to_id": "CAP-FED-22",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EOP"
+      ]
+    },
+    {
+      "id": "REL-FED-0038",
+      "from_id": "ORG-FED-EXE-DEP-STATE",
+      "to_id": "CAP-FED-08",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0039",
+      "from_id": "ORG-FED-EXE-DEP-TREASURY",
+      "to_id": "CAP-FED-09",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0040",
+      "from_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "to_id": "CAP-FED-07",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0041",
+      "from_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "to_id": "CAP-FED-06",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0042",
+      "from_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "to_id": "CAP-FED-21",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0043",
+      "from_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "to_id": "CAP-FED-12",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0044",
+      "from_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "to_id": "CAP-FED-21",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0045",
+      "from_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "to_id": "CAP-FED-13",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0046",
+      "from_id": "ORG-FED-EXE-DEP-LABOR",
+      "to_id": "CAP-FED-14",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0047",
+      "from_id": "ORG-FED-EXE-DEP-HHS",
+      "to_id": "CAP-FED-11",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0048",
+      "from_id": "ORG-FED-EXE-DEP-HUD",
+      "to_id": "CAP-FED-15",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0049",
+      "from_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "to_id": "CAP-FED-16",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0050",
+      "from_id": "ORG-FED-EXE-DEP-ENERGY",
+      "to_id": "CAP-FED-17",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0051",
+      "from_id": "ORG-FED-EXE-DEP-ENERGY",
+      "to_id": "CAP-FED-23",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0052",
+      "from_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "to_id": "CAP-FED-18",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0053",
+      "from_id": "ORG-FED-EXE-DEP-VA",
+      "to_id": "CAP-FED-19",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0054",
+      "from_id": "ORG-FED-EXE-DEP-DHS",
+      "to_id": "CAP-FED-20",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0055",
+      "from_id": "ORG-FED-EXE-IND-EPA",
+      "to_id": "CAP-FED-22",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0056",
+      "from_id": "ORG-FED-EXE-IND-NASA",
+      "to_id": "CAP-FED-23",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0057",
+      "from_id": "ORG-FED-EXE-IND-NSF",
+      "to_id": "CAP-FED-23",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0058",
+      "from_id": "ORG-FED-EXE-IND-SSA",
+      "to_id": "CAP-FED-30",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0059",
+      "from_id": "ORG-FED-EXE-IND-GSA",
+      "to_id": "CAP-FED-32",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0060",
+      "from_id": "ORG-FED-EXE-IND-OPM",
+      "to_id": "CAP-FED-31",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0061",
+      "from_id": "ORG-FED-EXE-IND-SEC",
+      "to_id": "CAP-FED-24",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0062",
+      "from_id": "ORG-FED-EXE-IND-FTC",
+      "to_id": "CAP-FED-24",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0063",
+      "from_id": "ORG-FED-EXE-IND-FCC",
+      "to_id": "CAP-FED-25",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0064",
+      "from_id": "ORG-FED-EXE-IND-NRC",
+      "to_id": "CAP-FED-17",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0065",
+      "from_id": "ORG-FED-EXE-IND-FED",
+      "to_id": "CAP-FED-34",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0066",
+      "from_id": "ORG-FED-EXE-IND-USPS",
+      "to_id": "CAP-FED-33",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0067",
+      "from_id": "ORG-FED-EXE-IND-SBA",
+      "to_id": "CAP-FED-13",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0068",
+      "from_id": "ORG-FED-EXE-IND-NARA",
+      "to_id": "CAP-FED-05",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0069",
+      "from_id": "ORG-FED-EXE-IND-CIA",
+      "to_id": "CAP-FED-26",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0070",
+      "from_id": "ORG-FED-EXE-IND-ODNI",
+      "to_id": "CAP-FED-26",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0071",
+      "from_id": "ORG-FED-EXE-IND-FDIC",
+      "to_id": "CAP-FED-24",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0072",
+      "from_id": "ORG-FED-EXE-IND-CFTC",
+      "to_id": "CAP-FED-24",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025"
+      ]
+    },
+    {
+      "id": "REL-FED-0073",
+      "from_id": "ORG-FED-JUD-SCOTUS",
+      "to_id": "CAP-FED-28",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-SCOTUS-ABOUT"
+      ]
+    },
+    {
+      "id": "REL-FED-0074",
+      "from_id": "ORG-FED-JUD-APPEALS",
+      "to_id": "CAP-FED-28",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0075",
+      "from_id": "ORG-FED-JUD-DISTRICT",
+      "to_id": "CAP-FED-27",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0076",
+      "from_id": "ORG-FED-JUD-BANKRUPTCY",
+      "to_id": "CAP-FED-27",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0077",
+      "from_id": "ORG-FED-JUD-CIT",
+      "to_id": "CAP-FED-27",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0078",
+      "from_id": "ORG-FED-JUD-COFC",
+      "to_id": "CAP-FED-27",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0079",
+      "from_id": "ORG-FED-JUD-AO",
+      "to_id": "CAP-FED-29",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-ADMIN",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "REL-FED-0080",
+      "from_id": "ORG-FED-JUD-FJC",
+      "to_id": "CAP-FED-29",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-FJC-ABOUT",
+        "SRC-USCOURTS-ADMIN"
+      ]
+    },
+    {
+      "id": "REL-FED-0081",
+      "from_id": "ORG-FED-JUD-CONFERENCE",
+      "to_id": "CAP-FED-29",
+      "relationship_type": "performs_capability",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-ADMIN"
+      ]
+    },
+    {
+      "id": "REL-FED-0082",
+      "from_id": "BR-FED-LEG",
+      "to_id": "AUTH-US-CONST-ART-I",
+      "relationship_type": "established_under",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ]
+    },
+    {
+      "id": "REL-FED-0083",
+      "from_id": "BR-FED-EXE",
+      "to_id": "AUTH-US-CONST-ART-II",
+      "relationship_type": "established_under",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ]
+    },
+    {
+      "id": "REL-FED-0084",
+      "from_id": "BR-FED-JUD",
+      "to_id": "AUTH-US-CONST-ART-III",
+      "relationship_type": "established_under",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ]
+    },
+    {
+      "id": "REL-FED-0085",
+      "from_id": "ORG-FED-LEG-HOUSE",
+      "to_id": "AUTH-US-CONST-ART-I-SEC-2-3",
+      "relationship_type": "exercises_power_under",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ]
+    },
+    {
+      "id": "REL-FED-0086",
+      "from_id": "ORG-FED-LEG-SENATE",
+      "to_id": "AUTH-US-CONST-ART-I-SEC-2-3",
+      "relationship_type": "exercises_power_under",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ]
+    },
+    {
+      "id": "REL-FED-0087",
+      "from_id": "ORG-FED-LEG-HOUSE",
+      "to_id": "AUTH-US-CONST-ART-I-SEC-7",
+      "relationship_type": "exercises_power_under",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ]
+    },
+    {
+      "id": "REL-FED-0088",
+      "from_id": "ORG-FED-EXE-PRESIDENT",
+      "to_id": "AUTH-US-CONST-ART-II-SEC-2",
+      "relationship_type": "exercises_power_under",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION"
+      ]
+    },
+    {
+      "id": "REL-FED-0089",
+      "from_id": "ORG-FED-LEG-SENATE",
+      "to_id": "AUTH-US-CONST-ART-II-SEC-2",
+      "relationship_type": "exercises_power_under",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-SENATE-TREATY"
+      ]
+    },
+    {
+      "id": "REL-FED-0090",
+      "from_id": "ORG-FED-LEG-CONGRESS",
+      "to_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "exercises_oversight_of",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "note": "Congressional oversight is limited by law; this is not an administrative reporting relationship."
+    },
+    {
+      "id": "REL-FED-0091",
+      "from_id": "ORG-FED-EXE-PRESIDENT",
+      "to_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "executes_laws_enacted_by",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-CONSTITUTION"
+      ]
+    },
+    {
+      "id": "REL-FED-0092",
+      "from_id": "ORG-FED-EXE-EOP",
+      "to_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "advises_or_supports",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE"
+      ],
+      "note": "EOP supports the President; it is not a separate constitutional branch."
+    },
+    {
+      "id": "REL-FED-0093",
+      "from_id": "ORG-FED-LEG-GAO",
+      "to_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "advises_or_supports",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-GAO-MISSION"
+      ]
+    },
+    {
+      "id": "REL-FED-0094",
+      "from_id": "ORG-FED-LEG-CBO",
+      "to_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "advises_or_supports",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CBO-2026"
+      ]
+    },
+    {
+      "id": "REL-FED-0095",
+      "from_id": "ORG-FED-LEG-CRS",
+      "to_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "advises_or_supports",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-CRS-MISSION"
+      ]
+    },
+    {
+      "id": "REL-FED-0096",
+      "from_id": "ORG-FED-JUD-APPEALS",
+      "to_id": "ORG-FED-JUD-DISTRICT",
+      "relationship_type": "reviews_decisions_of",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "note": "Appellate review is jurisdictional, not managerial command."
+    },
+    {
+      "id": "REL-FED-0097",
+      "from_id": "ORG-FED-JUD-SCOTUS",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "relationship_type": "reviews_decisions_of",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-SCOTUS-ABOUT",
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "note": "Subject to jurisdiction and discretionary review; not blanket automatic appeal."
+    },
+    {
+      "id": "REL-FED-0098",
+      "from_id": "ORG-FED-JUD-CONFERENCE",
+      "to_id": "ORG-FED-JUD-AO",
+      "relationship_type": "sets_administrative_policy_for",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-ADMIN"
+      ]
+    },
+    {
+      "id": "REL-FED-0099",
+      "from_id": "ORG-FED-JUD-FJC",
+      "to_id": "ORG-FED-JUD-CONFERENCE",
+      "relationship_type": "advises_or_supports",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-FJC-ABOUT"
+      ]
+    },
+    {
+      "id": "REL-FED-0100",
+      "from_id": "ORG-FED-JUD-AO",
+      "to_id": "ORG-FED-JUD-CONFERENCE",
+      "relationship_type": "advises_or_supports",
+      "status": "observed_summary",
+      "source_ids": [
+        "SRC-USCOURTS-ADMIN"
+      ]
+    }
+  ]
+}

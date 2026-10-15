@@ -1,0 +1,194 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "SRC-CONSTITUTION",
+      "title": "The Constitution of the United States",
+      "publisher": "National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution",
+      "kind": "primary_legal_text",
+      "scope": "Articles I–III; constitutional structure, not a complete agency authorizing statute",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-HOUSE-STRUCTURE",
+      "title": "Branches of Government",
+      "publisher": "U.S. House of Representatives",
+      "url": "https://www.house.gov/the-house-explained/branches-of-government",
+      "kind": "official_government_summary",
+      "scope": "Three branches and legislative support organizations",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-WH-EXECUTIVE",
+      "title": "The Executive Branch",
+      "publisher": "The White House",
+      "url": "https://www.whitehouse.gov/government/executive-branch/",
+      "kind": "official_government_summary",
+      "scope": "President, Vice President, executive departments, EOP and illustrative missions",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-USCOURTS-STRUCTURE",
+      "title": "Court Role and Structure",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+      "kind": "official_government_summary",
+      "scope": "Court types and counts; Article I courts separately distinguished",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-GOVMAN-2025",
+      "title": "United States Government Manual, 2025 edition (government organization chart)",
+      "publisher": "Government Publishing Office",
+      "url": "https://www.govinfo.gov/content/pkg/GOVMAN-2025-12-31/pdf/GOVMAN-2025-12-31.pdf",
+      "kind": "official_government_reference",
+      "scope": "Dated 2025-12-31; historical snapshot cross-checked with current primary sites",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-USAGOV-DIRECTORY",
+      "title": "A–Z Index of U.S. Government Departments and Agencies",
+      "publisher": "USAGov",
+      "url": "https://www.usa.gov/agency-index/",
+      "kind": "official_government_directory",
+      "scope": "Federal bodies and agency descriptions; dynamic directory",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-GAO-MISSION",
+      "title": "About GAO",
+      "publisher": "Government Accountability Office",
+      "url": "https://www.gao.gov/about",
+      "kind": "agency_mission",
+      "scope": "Legislative audit and oversight support",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CBO-2026",
+      "title": "An Introduction to the Congressional Budget Office (2026)",
+      "publisher": "Congressional Budget Office",
+      "url": "https://www.cbo.gov/publication/61998",
+      "kind": "agency_mission",
+      "scope": "2026 introduction, nonpartisan budget and economic analysis",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-LOC-ABOUT",
+      "title": "About the Library of Congress",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/about/",
+      "kind": "agency_mission",
+      "scope": "Legislative institution; includes Congressional Research Service",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CRS-MISSION",
+      "title": "History and Mission of the Congressional Research Service",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/crsinfo/about/history.html",
+      "kind": "agency_mission",
+      "scope": "Confidential objective research and analysis for Congress",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-GPO-MISSION",
+      "title": "About the Government Publishing Office",
+      "publisher": "Government Publishing Office",
+      "url": "https://www.gpo.gov/who-we-are/careers/about-the-government-publishing-office",
+      "kind": "agency_mission",
+      "scope": "Official federal publications and information dissemination",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-AOC-MISSION",
+      "title": "Who We Are",
+      "publisher": "Architect of the Capitol",
+      "url": "https://www.aoc.gov/about-us/who-we-are",
+      "kind": "agency_mission",
+      "scope": "Capitol campus preservation and operational support",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-FJC-ABOUT",
+      "title": "About the Federal Judicial Center",
+      "publisher": "Federal Judicial Center",
+      "url": "https://www.fjc.gov/about",
+      "kind": "agency_mission",
+      "scope": "Research and education; no policy-making authority",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-USCOURTS-ADMIN",
+      "title": "Judicial Administration",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "url": "https://www.uscourts.gov/administration-policies/judicial-administration",
+      "kind": "agency_mission",
+      "scope": "Administrative Office and Judicial Conference",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-SCOTUS-ABOUT",
+      "title": "About the Court",
+      "publisher": "Supreme Court of the United States",
+      "url": "https://www.supremecourt.gov/about/about.aspx",
+      "kind": "agency_mission",
+      "scope": "Highest court, judicial role and jurisdiction",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-WH-EOP",
+      "title": "Executive Office of the President",
+      "publisher": "The White House",
+      "url": "https://www.whitehouse.gov/eop/",
+      "kind": "official_government_directory",
+      "scope": "Selected contemporary EOP components",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-WH-DOW-ORDER",
+      "title": "Restoring the United States Department of War, Executive Order",
+      "publisher": "The White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/09/restoring-the-united-states-department-of-war/",
+      "kind": "executive_order",
+      "scope": "Secondary, non-statutory naming; statutory Department of Defense remains",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-SENATE-TREATY",
+      "title": "Advice and Consent: Treaties",
+      "publisher": "U.S. Senate",
+      "url": "https://www.senate.gov/about/origins-foundations/senate-and-constitution/advice-and-consent-treaties.htm",
+      "kind": "official_government_summary",
+      "scope": "Senate treaty advice and consent; complements Article II",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-FED-BOARD",
+      "title": "About the Federal Reserve",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/aboutthefed.htm",
+      "kind": "agency_mission",
+      "scope": "Monetary policy, financial supervision, and payment systems",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-SEC-MISSION",
+      "title": "SEC Mission",
+      "publisher": "Securities and Exchange Commission",
+      "url": "https://www.sec.gov/about/mission",
+      "kind": "agency_mission",
+      "scope": "Protect investors and maintain orderly markets",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-FTC-MISSION",
+      "title": "About the FTC",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/about-ftc",
+      "kind": "agency_mission",
+      "scope": "Competition and consumer protection",
+      "accessed_on": "2026-10-15"
+    }
+  ]
+}

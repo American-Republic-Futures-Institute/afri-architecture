@@ -1,0 +1,651 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CAP-FED-01",
+      "type": "capability",
+      "name": "Federal legislation",
+      "definition": "Produce and revise valid federal statutes through constitutional legislative procedures.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-02",
+      "type": "capability",
+      "name": "Appropriations and fiscal authorization",
+      "definition": "Enact federal spending and revenue measures and examine federal fiscal commitments.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-03",
+      "type": "capability",
+      "name": "Congressional oversight",
+      "definition": "Conduct legislative oversight and evaluate execution of federal programs.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-04",
+      "type": "capability",
+      "name": "Independent legislative analysis",
+      "definition": "Supply nonpartisan legal, economic, budgetary and policy analysis to Congress.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-05",
+      "type": "capability",
+      "name": "Public records and official publications",
+      "definition": "Publish, preserve and provide access to government records and official material.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-06",
+      "type": "capability",
+      "name": "Executive administration",
+      "definition": "Implement federal law and coordinate administration of authorized executive programs.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-07",
+      "type": "capability",
+      "name": "National defense",
+      "definition": "Organize, support and employ military forces within constitutional and statutory authorities.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-08",
+      "type": "capability",
+      "name": "Diplomacy and foreign relations",
+      "definition": "Represent national foreign interests and conduct diplomatic and consular functions.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-09",
+      "type": "capability",
+      "name": "Fiscal management and revenue",
+      "definition": "Administer federal receipts, payments, debt, sanctions and financial systems.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-10",
+      "type": "capability",
+      "name": "Budget and executive policy coordination",
+      "definition": "Coordinate federal executive budget, management and policy processes.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-11",
+      "type": "capability",
+      "name": "Public health and human services",
+      "definition": "Administer federal health, biomedical and social services programs.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-12",
+      "type": "capability",
+      "name": "Agriculture and nutrition",
+      "definition": "Support agriculture, rural development and authorized nutrition programs.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-13",
+      "type": "capability",
+      "name": "Commerce, industry and statistics",
+      "definition": "Support economic development, trade and federal science and economic information.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-14",
+      "type": "capability",
+      "name": "Labor and workplace protections",
+      "definition": "Administer worker protections, labor market data, training and occupational safety.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-15",
+      "type": "capability",
+      "name": "Housing and community development",
+      "definition": "Support housing access, fair-housing obligations and community development.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-16",
+      "type": "capability",
+      "name": "Transportation and mobility",
+      "definition": "Advance and oversee transportation safety, infrastructure and system performance.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-17",
+      "type": "capability",
+      "name": "Energy, science and nuclear stewardship",
+      "definition": "Support energy systems, scientific discovery, nuclear security and legacy remediation.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-18",
+      "type": "capability",
+      "name": "Federal education responsibilities",
+      "definition": "Carry out federal education assistance, information and civil-rights functions.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-19",
+      "type": "capability",
+      "name": "Veterans services",
+      "definition": "Provide eligible veterans and beneficiaries with health care and other authorized benefits.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-20",
+      "type": "capability",
+      "name": "Homeland security and emergency management",
+      "definition": "Coordinate prevention, protection, border and emergency functions within law.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-21",
+      "type": "capability",
+      "name": "Conservation and natural-resource management",
+      "definition": "Administer federal land, natural-resource and conservation responsibilities.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-22",
+      "type": "capability",
+      "name": "Environmental public protection",
+      "definition": "Administer federal environmental protections and scientific oversight.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-23",
+      "type": "capability",
+      "name": "Civilian research and space exploration",
+      "definition": "Fund or execute civilian scientific research and space programs.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-24",
+      "type": "capability",
+      "name": "Financial and competition regulation",
+      "definition": "Oversee assigned financial markets, deposit risks, competition and consumer protection.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-25",
+      "type": "capability",
+      "name": "Communications governance",
+      "definition": "Administer applicable federal communications and spectrum responsibilities.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-26",
+      "type": "capability",
+      "name": "National intelligence",
+      "definition": "Collect, analyze and integrate foreign and national intelligence under law.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-27",
+      "type": "capability",
+      "name": "Federal trial adjudication",
+      "definition": "Resolve cases and controversies within federal trial-court jurisdiction.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-28",
+      "type": "capability",
+      "name": "Federal appellate adjudication",
+      "definition": "Review lower-court and authorized agency decisions under applicable standards.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-29",
+      "type": "capability",
+      "name": "Judicial administration and education",
+      "definition": "Support judicial operations, governance, research and education.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-30",
+      "type": "capability",
+      "name": "Social insurance administration",
+      "definition": "Operate federal social insurance and related beneficiary services.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-31",
+      "type": "capability",
+      "name": "Federal workforce administration",
+      "definition": "Administer civilian personnel management and workforce programs.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-32",
+      "type": "capability",
+      "name": "Federal acquisition and facilities",
+      "definition": "Manage federal procurement, general services and government facilities.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-33",
+      "type": "capability",
+      "name": "Postal services",
+      "definition": "Deliver postal services according to statutory obligations.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "CAP-FED-34",
+      "type": "capability",
+      "name": "Monetary policy and financial stability",
+      "definition": "Conduct monetary policy and financial-sector stability and supervision functions.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-WH-EXECUTIVE",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    }
+  ]
+}
