@@ -99,3 +99,9 @@ The authoritative modeling and publication contract is in [docs/ARTICLE-III-ARCH
 The canon now includes `model/constitutional/federalism-*.json` for **20 analytical units, 72 conditions, 40 constitutional federal–State relationships, 9 differentiated protected interests, and 45 functional capability alignments**. States are constitutional peers, not subordinate departments. The original Article IV §2 cl3 slave-service text is historical/inoperative with no active relation or capability grant. Rights of *citizens* and rights of *persons* are independently identified. See [docs/FEDERALISM-ARCHITECTURE.md](docs/FEDERALISM-ARCHITECTURE.md).
 
 Run `node scripts/validate-federalism.mjs` and `node --test tests/federalism.test.mjs`. Architecture data and viewpoint declarations are the sole scope; website rendering remains in `afri-website`.
+
+## Complete Constitutional Amendment Decomposition — October 15, 2026
+
+The canonical architecture now includes all **27 ratified Amendments** with all **33 original numbered Sections preserved**, and **126 additional explicitly nonofficial analytical segments** linked to 27 time records, 15 effect/certification events, 172 textual or historical qualifications, 126 constitutional context/effect mappings and 114 **functional** (not delegating) capability links. Eighteenth Amendment repeal and finite transitional exceptions cannot create current authority. See [Amendment Decomposition](docs/AMENDMENT-DECOMPOSITION.md).
+
+Check with `node scripts/validate-amendments.mjs` and `node --test tests/amendments.test.mjs`. Judicial doctrine and enabling statutes follow separately; website rendering remains owned by `afri-website`.
