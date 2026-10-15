@@ -1,0 +1,2377 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AMD-EFFECT-0001",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-01-U-01",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0002",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-01-U-02",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0003",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-01-U-03",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-03",
+      "source_provision_id": "CONST-US-AMD-01-SEG-03",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0004",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-01-U-04",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-04",
+      "source_provision_id": "CONST-US-AMD-01-SEG-04",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0005",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-01-U-05",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-05",
+      "source_provision_id": "CONST-US-AMD-01-SEG-05",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0006",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-01-U-06",
+      "norm_id": "NORM-US-CONST-AMD-01-SEG-06",
+      "source_provision_id": "CONST-US-AMD-01-SEG-06",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0007",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-02-U-01",
+      "norm_id": "NORM-US-CONST-AMD-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-08-CL-16",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0008",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-02-U-02",
+      "norm_id": "NORM-US-CONST-AMD-02-SEG-02",
+      "source_provision_id": "CONST-US-AMD-02-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-08-CL-16",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0009",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-03-U-01",
+      "norm_id": "NORM-US-CONST-AMD-03-SEG-01",
+      "source_provision_id": "CONST-US-AMD-03-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0010",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-03-U-02",
+      "norm_id": "NORM-US-CONST-AMD-03-SEG-02",
+      "source_provision_id": "CONST-US-AMD-03-SEG-02",
+      "target_provision_id": "CONST-US-ART-02-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0011",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-04-U-01",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-01",
+      "source_provision_id": "CONST-US-AMD-04-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-03-SEG-04",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0012",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-04-U-02",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-02",
+      "source_provision_id": "CONST-US-AMD-04-SEG-02",
+      "target_provision_id": "CONST-US-ART-02-SEC-03-SEG-04",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0013",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-04-U-03",
+      "norm_id": "NORM-US-CONST-AMD-04-SEG-03",
+      "source_provision_id": "CONST-US-AMD-04-SEG-03",
+      "target_provision_id": "CONST-US-ART-02-SEC-03-SEG-04",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0014",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-05-U-01",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-01",
+      "source_provision_id": "CONST-US-AMD-05-SEG-01",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0015",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-05-U-02",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-02",
+      "source_provision_id": "CONST-US-AMD-05-SEG-02",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0016",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-05-U-03",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-03",
+      "source_provision_id": "CONST-US-AMD-05-SEG-03",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0017",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-05-U-04",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-04",
+      "source_provision_id": "CONST-US-AMD-05-SEG-04",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0018",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-05-U-05",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-05",
+      "source_provision_id": "CONST-US-AMD-05-SEG-05",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0019",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-05-U-06",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-06",
+      "source_provision_id": "CONST-US-AMD-05-SEG-06",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0020",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-05-U-07",
+      "norm_id": "NORM-US-CONST-AMD-05-SEG-07",
+      "source_provision_id": "CONST-US-AMD-05-SEG-07",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0021",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-06-U-01",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-01",
+      "source_provision_id": "CONST-US-AMD-06-SEG-01",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0022",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-06-U-02",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-02",
+      "source_provision_id": "CONST-US-AMD-06-SEG-02",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0023",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-06-U-03",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-03",
+      "source_provision_id": "CONST-US-AMD-06-SEG-03",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0024",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-06-U-04",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-04",
+      "source_provision_id": "CONST-US-AMD-06-SEG-04",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0025",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-06-U-05",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-05",
+      "source_provision_id": "CONST-US-AMD-06-SEG-05",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0026",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-06-U-06",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-06",
+      "source_provision_id": "CONST-US-AMD-06-SEG-06",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0027",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-06-U-07",
+      "norm_id": "NORM-US-CONST-AMD-06-SEG-07",
+      "source_provision_id": "CONST-US-AMD-06-SEG-07",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0028",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-07-U-01",
+      "norm_id": "NORM-US-CONST-AMD-07-SEG-01",
+      "source_provision_id": "CONST-US-AMD-07-SEG-01",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0029",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-07-U-02",
+      "norm_id": "NORM-US-CONST-AMD-07-SEG-02",
+      "source_provision_id": "CONST-US-AMD-07-SEG-02",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0030",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-08-U-01",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-01",
+      "source_provision_id": "CONST-US-AMD-08-SEG-01",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0031",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-08-U-02",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-02",
+      "source_provision_id": "CONST-US-AMD-08-SEG-02",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0032",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-08-U-03",
+      "norm_id": "NORM-US-CONST-AMD-08-SEG-03",
+      "source_provision_id": "CONST-US-AMD-08-SEG-03",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0033",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-09-U-01",
+      "norm_id": "NORM-US-CONST-AMD-09-SEG-01",
+      "source_provision_id": "CONST-US-AMD-09-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0034",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-10-U-01",
+      "norm_id": "NORM-US-CONST-AMD-10-SEG-01",
+      "source_provision_id": "CONST-US-AMD-10-SEG-01",
+      "target_provision_id": "CONST-US-ART-06-CL-02",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0035",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-10-U-02",
+      "norm_id": "NORM-US-CONST-AMD-10-SEG-02",
+      "source_provision_id": "CONST-US-AMD-10-SEG-02",
+      "target_provision_id": "CONST-US-ART-06-CL-02",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1791-12-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0036",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-11-U-01",
+      "norm_id": "NORM-US-CONST-AMD-11-SEG-01",
+      "source_provision_id": "CONST-US-AMD-11-SEG-01",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-11"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1795-02-07",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0037",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-11-U-02",
+      "norm_id": "NORM-US-CONST-AMD-11-SEG-02",
+      "source_provision_id": "CONST-US-AMD-11-SEG-02",
+      "target_provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-11"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1795-02-07",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0038",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-12-U-01",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-01",
+      "source_provision_id": "CONST-US-AMD-12-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-12"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0039",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-12-U-02",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-02",
+      "source_provision_id": "CONST-US-AMD-12-SEG-02",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-12"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0040",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-12-U-03",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-03",
+      "source_provision_id": "CONST-US-AMD-12-SEG-03",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-12"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0041",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-12-U-04",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-04",
+      "source_provision_id": "CONST-US-AMD-12-SEG-04",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-12"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0042",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-12-U-05",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-05",
+      "source_provision_id": "CONST-US-AMD-12-SEG-05",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-12"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0043",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-12-U-06",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-06",
+      "source_provision_id": "CONST-US-AMD-12-SEG-06",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-12"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0044",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-12-U-07",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-07",
+      "source_provision_id": "CONST-US-AMD-12-SEG-07",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-12"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0045",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-12-U-08",
+      "norm_id": "NORM-US-CONST-AMD-12-SEG-08",
+      "source_provision_id": "CONST-US-AMD-12-SEG-08",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-12"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1804-06-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0046",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-13-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-13-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-04-SEC-02-CL-03",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-13"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1865-12-06",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0047",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-13-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-13-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-04-SEC-02-CL-03",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-13"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1865-12-06",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0048",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-13-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-13-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-13-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-04-SEC-02-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1865-12-06",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0049",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-04-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0050",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-04-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0051",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S01-03",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-03",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01-SEG-03",
+      "target_provision_id": "CONST-US-ART-04-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0052",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S01-04",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-04",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01-SEG-04",
+      "target_provision_id": "CONST-US-ART-04-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0053",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S01-05",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-01-SEG-05",
+      "source_provision_id": "CONST-US-AMD-14-SEC-01-SEG-05",
+      "target_provision_id": "CONST-US-ART-04-SEC-02-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0054",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-02-CL-03",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-14"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0055",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S02-02",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-02",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-02-CL-03",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-14"
+      ],
+      "effect_status": "expired",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0056",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S02-03",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-03",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02-SEG-03",
+      "target_provision_id": "CONST-US-ART-01-SEC-02-CL-03",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-14"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0057",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S02-04",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-04",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02-SEG-04",
+      "target_provision_id": "CONST-US-ART-01-SEC-02-CL-03",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-14"
+      ],
+      "effect_status": "expired",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0058",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S02-05",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-02-SEG-05",
+      "source_provision_id": "CONST-US-AMD-14-SEC-02-SEG-05",
+      "target_provision_id": "CONST-US-ART-01-SEC-02-CL-03",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-14"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0059",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S03-01",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-01",
+      "source_provision_id": "CONST-US-AMD-14-SEC-03-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-05-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0060",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S03-02",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-02",
+      "source_provision_id": "CONST-US-AMD-14-SEC-03-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-05-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0061",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S03-03",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-03",
+      "source_provision_id": "CONST-US-AMD-14-SEC-03-SEG-03",
+      "target_provision_id": "CONST-US-ART-01-SEC-05-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0062",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S03-04",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-03-SEG-04",
+      "source_provision_id": "CONST-US-AMD-14-SEC-03-SEG-04",
+      "target_provision_id": "CONST-US-ART-01-SEC-05-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0063",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S04-01",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-01",
+      "source_provision_id": "CONST-US-AMD-14-SEC-04-SEG-01",
+      "target_provision_id": "CONST-US-ART-06-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0064",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S04-02",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-02",
+      "source_provision_id": "CONST-US-AMD-14-SEC-04-SEG-02",
+      "target_provision_id": "CONST-US-ART-06-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0065",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S04-03",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-04-SEG-03",
+      "source_provision_id": "CONST-US-AMD-14-SEC-04-SEG-03",
+      "target_provision_id": "CONST-US-ART-06-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0066",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-14-S05-01",
+      "norm_id": "NORM-US-CONST-AMD-14-SEC-05-SEG-01",
+      "source_provision_id": "CONST-US-AMD-14-SEC-05-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1868-07-09",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0067",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-15-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-15-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1870-02-03",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0068",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-15-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-15-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1870-02-03",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0069",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-15-S01-03",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-01-SEG-03",
+      "source_provision_id": "CONST-US-AMD-15-SEC-01-SEG-03",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1870-02-03",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0070",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-15-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-15-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-15-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1870-02-03",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0071",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-16-U-01",
+      "norm_id": "NORM-US-CONST-AMD-16-SEG-01",
+      "source_provision_id": "CONST-US-AMD-16-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-09-CL-04",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-16"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1913-02-03",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0072",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-16-U-02",
+      "norm_id": "NORM-US-CONST-AMD-16-SEG-02",
+      "source_provision_id": "CONST-US-AMD-16-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-09-CL-04",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-16"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1913-02-03",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0073",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-17-U-01",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-01",
+      "source_provision_id": "CONST-US-AMD-17-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-03-CL-01",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-17"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0074",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-17-U-02",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-02",
+      "source_provision_id": "CONST-US-AMD-17-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-03-CL-01",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-17"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0075",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-17-U-03",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-03",
+      "source_provision_id": "CONST-US-AMD-17-SEG-03",
+      "target_provision_id": "CONST-US-ART-01-SEC-03-CL-02",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-17"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0076",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-17-U-04",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-04",
+      "source_provision_id": "CONST-US-AMD-17-SEG-04",
+      "target_provision_id": "CONST-US-ART-01-SEC-03-CL-02",
+      "relationship_kind": "supersedes_original_procedure",
+      "source_change_ids": [
+        "CHG-US-CONST-17"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0077",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-17-U-05",
+      "norm_id": "NORM-US-CONST-AMD-17-SEG-05",
+      "source_provision_id": "CONST-US-AMD-17-SEG-05",
+      "target_provision_id": "CONST-US-ART-01-SEC-03-CL-01",
+      "relationship_kind": "historical_transitional_reference",
+      "source_change_ids": [
+        "CHG-US-CONST-17"
+      ],
+      "effect_status": "expired",
+      "legal_effect_started_on": "1913-04-08",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0078",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-18-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-18-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-18-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-08-CL-03",
+      "relationship_kind": "historical_context_no_current_authority",
+      "source_change_ids": [],
+      "effect_status": "repealed",
+      "legal_effect_started_on": "1920-01-17",
+      "legal_effect_ended_on": "1933-12-05",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "historical_only_not_authority"
+    },
+    {
+      "id": "AMD-EFFECT-0079",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-18-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-18-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-18-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-08-CL-03",
+      "relationship_kind": "historical_context_no_current_authority",
+      "source_change_ids": [],
+      "effect_status": "repealed",
+      "legal_effect_started_on": "1920-01-17",
+      "legal_effect_ended_on": "1933-12-05",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "historical_only_not_authority"
+    },
+    {
+      "id": "AMD-EFFECT-0080",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-18-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-18-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-18-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-08-CL-03",
+      "relationship_kind": "historical_context_no_current_authority",
+      "source_change_ids": [],
+      "effect_status": "repealed",
+      "legal_effect_started_on": "1919-01-16",
+      "legal_effect_ended_on": "1933-12-05",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "historical_only_not_authority"
+    },
+    {
+      "id": "AMD-EFFECT-0081",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-18-S03-01",
+      "norm_id": "NORM-US-CONST-AMD-18-SEC-03-SEG-01",
+      "source_provision_id": "CONST-US-AMD-18-SEC-03-SEG-01",
+      "target_provision_id": "CONST-US-ART-05",
+      "relationship_kind": "historical_context_no_current_authority",
+      "source_change_ids": [],
+      "effect_status": "repealed",
+      "legal_effect_started_on": "1919-01-16",
+      "legal_effect_ended_on": "1933-12-05",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "historical_only_not_authority"
+    },
+    {
+      "id": "AMD-EFFECT-0082",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-19-U-01",
+      "norm_id": "NORM-US-CONST-AMD-19-SEG-01",
+      "source_provision_id": "CONST-US-AMD-19-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1920-08-18",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0083",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-19-U-02",
+      "norm_id": "NORM-US-CONST-AMD-19-SEG-02",
+      "source_provision_id": "CONST-US-AMD-19-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1920-08-18",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0084",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-20-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-01",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-31"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1933-10-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0085",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-20-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-02-CL-01",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-35"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1933-10-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0086",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-20-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-02",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-20"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1933-10-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0087",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S02-02",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-02-SEG-02",
+      "source_provision_id": "CONST-US-AMD-20-SEC-02-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-02",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-20"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1933-10-15",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0088",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S03-01",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-01",
+      "source_provision_id": "CONST-US-AMD-20-SEC-03-SEG-01",
+      "target_provision_id": "CONST-US-AMD-12",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-21"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0089",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S03-02",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-02",
+      "source_provision_id": "CONST-US-AMD-20-SEC-03-SEG-02",
+      "target_provision_id": "CONST-US-AMD-12",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-21"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0090",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S03-03",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-03",
+      "source_provision_id": "CONST-US-AMD-20-SEC-03-SEG-03",
+      "target_provision_id": "CONST-US-AMD-12",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-21"
+      ],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0091",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S03-04",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-03-SEG-04",
+      "source_provision_id": "CONST-US-AMD-20-SEC-03-SEG-04",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "modified_in_part",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0092",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S04-01",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-04-SEG-01",
+      "source_provision_id": "CONST-US-AMD-20-SEC-04-SEG-01",
+      "target_provision_id": "CONST-US-AMD-12",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0093",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S04-02",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-04-SEG-02",
+      "source_provision_id": "CONST-US-AMD-20-SEC-04-SEG-02",
+      "target_provision_id": "CONST-US-AMD-12",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0094",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S05-01",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-05-SEG-01",
+      "source_provision_id": "CONST-US-AMD-20-SEC-05-SEG-01",
+      "target_provision_id": "CONST-US-AMD-20-SEC-01",
+      "relationship_kind": "historical_transitional_reference",
+      "source_change_ids": [],
+      "effect_status": "expired",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0095",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-20-S06-01",
+      "norm_id": "NORM-US-CONST-AMD-20-SEC-06-SEG-01",
+      "source_provision_id": "CONST-US-AMD-20-SEC-06-SEG-01",
+      "target_provision_id": "CONST-US-ART-05",
+      "relationship_kind": "historical_transitional_reference",
+      "source_change_ids": [],
+      "effect_status": "expired",
+      "legal_effect_started_on": "1933-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0096",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-21-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-21-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-21-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-AMD-18",
+      "relationship_kind": "repeals_prior_amendment",
+      "source_change_ids": [
+        "CHG-US-CONST-22"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1933-12-05",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0097",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-21-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-21-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-21-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-08-CL-03",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1933-12-05",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0098",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-21-S03-01",
+      "norm_id": "NORM-US-CONST-AMD-21-SEC-03-SEG-01",
+      "source_provision_id": "CONST-US-AMD-21-SEC-03-SEG-01",
+      "target_provision_id": "CONST-US-ART-05",
+      "relationship_kind": "historical_transitional_reference",
+      "source_change_ids": [],
+      "effect_status": "expired",
+      "legal_effect_started_on": "1933-12-05",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0099",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-22-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-22-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-01",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-32"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1951-02-27",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0100",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-22-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-22-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-01",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-32"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1951-02-27",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0101",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-22-S01-03",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-01-SEG-03",
+      "source_provision_id": "CONST-US-AMD-22-SEC-01-SEG-03",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-01",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-32"
+      ],
+      "effect_status": "expired",
+      "legal_effect_started_on": "1951-02-27",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0102",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-22-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-22-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-22-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-05",
+      "relationship_kind": "historical_transitional_reference",
+      "source_change_ids": [],
+      "effect_status": "expired",
+      "legal_effect_started_on": "1951-02-27",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0103",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-23-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-23-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-02",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-33"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1961-03-29",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0104",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-23-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-23-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-02",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-33"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1961-03-29",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0105",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-23-S01-03",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-01-SEG-03",
+      "source_provision_id": "CONST-US-AMD-23-SEC-01-SEG-03",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-02",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-33"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1961-03-29",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0106",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-23-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-23-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-23-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1961-03-29",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0107",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-24-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-24-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1964-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0108",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-24-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-24-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-ART-01-SEC-04-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1964-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0109",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-24-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-24-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-24-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1964-01-23",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0110",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-25-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0111",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-25-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-02-CL-02",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0112",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S02-02",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-02-SEG-02",
+      "source_provision_id": "CONST-US-AMD-25-SEC-02-SEG-02",
+      "target_provision_id": "CONST-US-ART-02-SEC-02-CL-02",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0113",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S03-01",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-01",
+      "source_provision_id": "CONST-US-AMD-25-SEC-03-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0114",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S03-02",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-02",
+      "source_provision_id": "CONST-US-AMD-25-SEC-03-SEG-02",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0115",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S03-03",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-03-SEG-03",
+      "source_provision_id": "CONST-US-AMD-25-SEC-03-SEG-03",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0116",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S04-01",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-01",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04-SEG-01",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0117",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S04-02",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-02",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04-SEG-02",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0118",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S04-03",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-03",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04-SEG-03",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0119",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S04-04",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-04",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04-SEG-04",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0120",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S04-05",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-05",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04-SEG-05",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0121",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S04-06",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-06",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04-SEG-06",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0122",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-25-S04-07",
+      "norm_id": "NORM-US-CONST-AMD-25-SEC-04-SEG-07",
+      "source_provision_id": "CONST-US-AMD-25-SEC-04-SEG-07",
+      "target_provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-25"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1967-02-10",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0123",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-26-S01-01",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-01-SEG-01",
+      "source_provision_id": "CONST-US-AMD-26-SEC-01-SEG-01",
+      "target_provision_id": "CONST-US-AMD-14-SEC-02",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-26"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1971-07-01",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0124",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-26-S01-02",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-01-SEG-02",
+      "source_provision_id": "CONST-US-AMD-26-SEC-01-SEG-02",
+      "target_provision_id": "CONST-US-AMD-14-SEC-02",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-26"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1971-07-01",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    },
+    {
+      "id": "AMD-EFFECT-0125",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-26-S02-01",
+      "norm_id": "NORM-US-CONST-AMD-26-SEC-02-SEG-01",
+      "source_provision_id": "CONST-US-AMD-26-SEC-02-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "relationship_kind": "constitutional_context_not_textual_amendment",
+      "source_change_ids": [],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1971-07-01",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "contextual_modeling_reference_not_legal_supersession"
+    },
+    {
+      "id": "AMD-EFFECT-0126",
+      "type": "amendment_constitutional_effect",
+      "unit_id": "AMD-UNIT-27-U-01",
+      "norm_id": "NORM-US-CONST-AMD-27-SEG-01",
+      "source_provision_id": "CONST-US-AMD-27-SEG-01",
+      "target_provision_id": "CONST-US-ART-01-SEC-06-CL-01",
+      "relationship_kind": "modifies_or_qualifies_prior_provision",
+      "source_change_ids": [
+        "CHG-US-CONST-37"
+      ],
+      "effect_status": "operative",
+      "legal_effect_started_on": "1992-05-07",
+      "legal_effect_ended_on": null,
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_effect_mapping_pending_review",
+      "classification": "textual_or_historical_amendment_effect_pending_legal_review"
+    }
+  ]
+}
