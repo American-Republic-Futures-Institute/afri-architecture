@@ -762,7 +762,8 @@
       ],
       "applies_to_norm_ids": [
         "NORM-US-CONST-034",
-        "NORM-US-CONST-AIII-02-03-IMPEACHMENT-EXCEPTION"
+        "NORM-US-CONST-AIII-02-03-IMPEACHMENT-EXCEPTION",
+        "NORM-US-CONST-AIII-02-03-JURY"
       ],
       "effect_status": "operative",
       "legal_review_status": "textual_mapping_pending_review",
