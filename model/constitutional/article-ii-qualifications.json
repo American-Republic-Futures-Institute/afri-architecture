@@ -72,7 +72,7 @@
         "CONST-US-AMD-22-SEC-01"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-01-TERM"
+        "NORM-US-CONST-083"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -177,8 +177,7 @@
         "CONST-US-AMD-23-SEC-01"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-02-ELECTOR-COUNT",
-        "NORM-US-CONST-019"
+        "NORM-US-CONST-084"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -200,7 +199,7 @@
         "CONST-US-AMD-14-SEC-03"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-02-ELECTOR-INCOMPATIBILITY"
+        "NORM-US-CONST-071"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -245,13 +244,16 @@
       "applies_to_norm_ids": [
         "NORM-US-CONST-090"
       ],
-      "effect_status": "amendment_modified",
+      "effect_status": "historical_only",
       "legal_review_status": "textual_mapping_pending_review",
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-LATER-AMENDMENTS"
       ],
-      "note": "This points to current replacement law without treating a superseded norm as currently binding."
+      "note": "The amendment-based replacement is operative, but the superseded original provision does not itself acquire current authority.",
+      "related_current_norm_ids": [
+        "NORM-US-CONST-064"
+      ]
     },
     {
       "id": "AII-QUAL-01-04-TIMING-DELEGATED-CONGRESS",
@@ -333,7 +335,7 @@
       ]
     },
     {
-      "id": "AII-QUAL-01-05-FUNDING-GRANDFATHER",
+      "id": "AII-QUAL-01-05-FOUNDING-GRANDFATHER",
       "type": "article_ii_qualification",
       "kind": "historical_limit",
       "name": "The alternative citizenship-at-the-adoption-of-the-Constitution qualification is",
@@ -404,8 +406,7 @@
         "CONST-US-AMD-22-SEC-01"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-020",
-        "NORM-US-CONST-AII-01-05-NATURAL-BORN"
+        "NORM-US-CONST-083"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -447,7 +448,7 @@
         "CONST-US-AMD-14-SEC-03"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-020"
+        "NORM-US-CONST-071"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -469,7 +470,7 @@
         "CONST-US-AMD-25-SEC-01"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+        "NORM-US-CONST-086"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -492,7 +493,7 @@
         "CONST-US-AMD-25-SEC-02"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+        "NORM-US-CONST-086"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -515,7 +516,7 @@
         "CONST-US-AMD-25-SEC-03"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+        "NORM-US-CONST-086"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -537,7 +538,7 @@
         "CONST-US-AMD-25-SEC-04"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+        "NORM-US-CONST-086"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -560,7 +561,7 @@
         "CONST-US-AMD-25-SEC-04"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+        "NORM-US-CONST-086"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
@@ -602,7 +603,7 @@
         "CONST-US-AMD-20-SEC-03"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+        "NORM-US-CONST-080"
       ],
       "effect_status": "amendment_modified",
       "legal_review_status": "textual_mapping_pending_review",
