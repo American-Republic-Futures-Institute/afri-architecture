@@ -179,6 +179,56 @@
       "include_changes": true,
       "status": "descriptive_candidate",
       "federalism_unit_analysis": true
+    },
+    {
+      "id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "type": "constitutional_viewpoint",
+      "name": "Amendment Effects: Rights, Authorities, Dates and Supersession",
+      "description": "Browse all 27 ratified amendments by numbered section and non-official analytic segments, provenance, operative/historical lifecycle, substantive cross-article change and conditions.",
+      "root_ids": [
+        "CONST-US-AMD-01",
+        "CONST-US-AMD-02",
+        "CONST-US-AMD-03",
+        "CONST-US-AMD-04",
+        "CONST-US-AMD-05",
+        "CONST-US-AMD-06",
+        "CONST-US-AMD-07",
+        "CONST-US-AMD-08",
+        "CONST-US-AMD-09",
+        "CONST-US-AMD-10",
+        "CONST-US-AMD-11",
+        "CONST-US-AMD-12",
+        "CONST-US-AMD-13",
+        "CONST-US-AMD-14",
+        "CONST-US-AMD-15",
+        "CONST-US-AMD-16",
+        "CONST-US-AMD-17",
+        "CONST-US-AMD-18",
+        "CONST-US-AMD-19",
+        "CONST-US-AMD-20",
+        "CONST-US-AMD-21",
+        "CONST-US-AMD-22",
+        "CONST-US-AMD-23",
+        "CONST-US-AMD-24",
+        "CONST-US-AMD-25",
+        "CONST-US-AMD-26",
+        "CONST-US-AMD-27"
+      ],
+      "include_norm_kinds": [
+        "right",
+        "power",
+        "duty",
+        "procedure",
+        "limitation",
+        "prohibition",
+        "eligibility",
+        "reservation",
+        "jurisdiction",
+        "structural_allocation"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate",
+      "amendment_decomposition": true
     }
   ]
 }

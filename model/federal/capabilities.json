@@ -1006,6 +1006,60 @@
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-LATER-AMENDMENTS"
       ]
+    },
+    {
+      "id": "CAP-FED-55",
+      "type": "capability",
+      "name": "Constitutional individual liberties and procedural rights",
+      "definition": "Constitutional protections covering expression, religion, assembly, petition, searches, criminal and civil procedures, property and retained rights, subject to jurisdiction and precedent.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CAP-FED-56",
+      "type": "capability",
+      "name": "Constitutional electoral participation and nondiscrimination",
+      "definition": "Source-grounded election administration and protection of voting rights against enumerated forms of discrimination without creating universal federal election jurisdiction.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CAP-FED-57",
+      "type": "capability",
+      "name": "Constitutional amendment effects and transitional continuity",
+      "definition": "Tracking constitutional amendments' ratification, commencement, repeal, supersession and completed transitional rules as evidentiary—not delegated—government capabilities.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
     }
   ]
 }

@@ -1,0 +1,766 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AMD-TIME-01",
+      "type": "amendment_temporal_status",
+      "amendment_number": 1,
+      "amendment_id": "CONST-US-AMD-01",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-02",
+      "type": "amendment_temporal_status",
+      "amendment_number": 2,
+      "amendment_id": "CONST-US-AMD-02",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-03",
+      "type": "amendment_temporal_status",
+      "amendment_number": 3,
+      "amendment_id": "CONST-US-AMD-03",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-04",
+      "type": "amendment_temporal_status",
+      "amendment_number": 4,
+      "amendment_id": "CONST-US-AMD-04",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-05",
+      "type": "amendment_temporal_status",
+      "amendment_number": 5,
+      "amendment_id": "CONST-US-AMD-05",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-06",
+      "type": "amendment_temporal_status",
+      "amendment_number": 6,
+      "amendment_id": "CONST-US-AMD-06",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-07",
+      "type": "amendment_temporal_status",
+      "amendment_number": 7,
+      "amendment_id": "CONST-US-AMD-07",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-08",
+      "type": "amendment_temporal_status",
+      "amendment_number": 8,
+      "amendment_id": "CONST-US-AMD-08",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-09",
+      "type": "amendment_temporal_status",
+      "amendment_number": 9,
+      "amendment_id": "CONST-US-AMD-09",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-10",
+      "type": "amendment_temporal_status",
+      "amendment_number": 10,
+      "amendment_id": "CONST-US-AMD-10",
+      "ratified_on": "1791-12-15",
+      "adopted_on": "1791-12-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1791-12-15",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-BILL-OF-RIGHTS",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-11",
+      "type": "amendment_temporal_status",
+      "amendment_number": 11,
+      "amendment_id": "CONST-US-AMD-11",
+      "ratified_on": "1795-02-07",
+      "adopted_on": "1795-02-07",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1795-02-07",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-12",
+      "type": "amendment_temporal_status",
+      "amendment_number": 12,
+      "amendment_id": "CONST-US-AMD-12",
+      "ratified_on": "1804-06-15",
+      "adopted_on": "1804-06-15",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1804-06-15",
+      "effect_status": "modified_in_part",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-13",
+      "type": "amendment_temporal_status",
+      "amendment_number": 13,
+      "amendment_id": "CONST-US-AMD-13",
+      "ratified_on": "1865-12-06",
+      "adopted_on": "1865-12-06",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1865-12-06",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-14",
+      "type": "amendment_temporal_status",
+      "amendment_number": 14,
+      "amendment_id": "CONST-US-AMD-14",
+      "ratified_on": "1868-07-09",
+      "adopted_on": "1868-07-09",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1868-07-09",
+      "effect_status": "modified_in_part",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-15",
+      "type": "amendment_temporal_status",
+      "amendment_number": 15,
+      "amendment_id": "CONST-US-AMD-15",
+      "ratified_on": "1870-02-03",
+      "adopted_on": "1870-02-03",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1870-02-03",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-16",
+      "type": "amendment_temporal_status",
+      "amendment_number": 16,
+      "amendment_id": "CONST-US-AMD-16",
+      "ratified_on": "1913-02-03",
+      "adopted_on": "1913-02-03",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1913-02-03",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-17",
+      "type": "amendment_temporal_status",
+      "amendment_number": 17,
+      "amendment_id": "CONST-US-AMD-17",
+      "ratified_on": "1913-04-08",
+      "adopted_on": "1913-04-08",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1913-04-08",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [
+        "AMD-EVENT-013"
+      ],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-18",
+      "type": "amendment_temporal_status",
+      "amendment_number": 18,
+      "amendment_id": "CONST-US-AMD-18",
+      "ratified_on": "1919-01-16",
+      "adopted_on": "1919-01-16",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1919-01-16",
+      "effect_status": "repealed",
+      "current_lifecycle": "repealed_historical",
+      "effect_end_on": "1933-12-05",
+      "special_rule_ids": [
+        "AMD-EVENT-001",
+        "AMD-EVENT-002",
+        "AMD-EVENT-003"
+      ],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-19",
+      "type": "amendment_temporal_status",
+      "amendment_number": 19,
+      "amendment_id": "CONST-US-AMD-19",
+      "ratified_on": "1920-08-18",
+      "adopted_on": "1920-08-18",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1920-08-18",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-20",
+      "type": "amendment_temporal_status",
+      "amendment_number": 20,
+      "amendment_id": "CONST-US-AMD-20",
+      "ratified_on": "1933-01-23",
+      "adopted_on": "1933-01-23",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1933-01-23",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [
+        "AMD-EVENT-004",
+        "AMD-EVENT-005",
+        "AMD-EVENT-006",
+        "AMD-EVENT-007",
+        "AMD-EVENT-008"
+      ],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-21",
+      "type": "amendment_temporal_status",
+      "amendment_number": 21,
+      "amendment_id": "CONST-US-AMD-21",
+      "ratified_on": "1933-12-05",
+      "adopted_on": "1933-12-05",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1933-12-05",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [
+        "AMD-EVENT-009",
+        "AMD-EVENT-010"
+      ],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-22",
+      "type": "amendment_temporal_status",
+      "amendment_number": 22,
+      "amendment_id": "CONST-US-AMD-22",
+      "ratified_on": "1951-02-27",
+      "adopted_on": "1951-02-27",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1951-02-27",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [
+        "AMD-EVENT-011",
+        "AMD-EVENT-012"
+      ],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-23",
+      "type": "amendment_temporal_status",
+      "amendment_number": 23,
+      "amendment_id": "CONST-US-AMD-23",
+      "ratified_on": "1961-03-29",
+      "adopted_on": "1961-03-29",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1961-03-29",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-24",
+      "type": "amendment_temporal_status",
+      "amendment_number": 24,
+      "amendment_id": "CONST-US-AMD-24",
+      "ratified_on": "1964-01-23",
+      "adopted_on": "1964-01-23",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1964-01-23",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-25",
+      "type": "amendment_temporal_status",
+      "amendment_number": 25,
+      "amendment_id": "CONST-US-AMD-25",
+      "ratified_on": "1967-02-10",
+      "adopted_on": "1967-02-10",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1967-02-10",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-26",
+      "type": "amendment_temporal_status",
+      "amendment_number": 26,
+      "amendment_id": "CONST-US-AMD-26",
+      "ratified_on": "1971-07-01",
+      "adopted_on": "1971-07-01",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1971-07-01",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [
+        "AMD-EVENT-014"
+      ],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-TIME-27",
+      "type": "amendment_temporal_status",
+      "amendment_number": 27,
+      "amendment_id": "CONST-US-AMD-27",
+      "ratified_on": "1992-05-07",
+      "adopted_on": "1992-05-07",
+      "ratification_distinct_from_certification": true,
+      "default_legal_effect_start_on": "1992-05-07",
+      "effect_status": "operative",
+      "current_lifecycle": "ratified_current",
+      "effect_end_on": null,
+      "special_rule_ids": [
+        "AMD-EVENT-015"
+      ],
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENT-RATIFICATION",
+        "SRC-NARA-TWENTYSEVENTH-CERTIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "certification_on": "1992-05-18"
+    }
+  ],
+  "events": [
+    {
+      "id": "AMD-EVENT-001",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-18",
+      "provision_id": "CONST-US-AMD-18-SEC-01",
+      "event_kind": "ratification_with_delayed_substantive_start",
+      "applies_on": "1920-01-17",
+      "summary": "Eighteenth Amendment §1 prohibition began after its constitutionally specified one-year delay.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-CRS-EIGHTEENTH-DATE"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "condition": "One year after ratification; CRS reports commencement January 17, 1920. NARA exhibit sources vary in reporting January 16 versus 17.",
+      "effect_end_on": "1933-12-05"
+    },
+    {
+      "id": "AMD-EVENT-002",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-18",
+      "provision_id": "CONST-US-AMD-18",
+      "event_kind": "amendment_repeal",
+      "applies_on": "1933-12-05",
+      "summary": "Twenty-First Amendment §1 repealed the Eighteenth Amendment; prohibition and associated constitutional concurrent enforcement authority are no longer operative.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "condition": "Ratification of Amendment XXI on December 5, 1933"
+    },
+    {
+      "id": "AMD-EVENT-003",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-18",
+      "provision_id": "CONST-US-AMD-18-SEC-03",
+      "event_kind": "ratification_prerequisite_fulfilled",
+      "applies_on": "1919-01-16",
+      "summary": "Original seven-year ratification window was satisfied; a completed historical prerequisite is not a presently recurring deadline.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-EVENT-004",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-20",
+      "provision_id": "CONST-US-AMD-20-SEC-01",
+      "event_kind": "delayed_legal_effect",
+      "applies_on": "1933-10-15",
+      "summary": "Twentieth Amendment §1 presidential and congressional term transitions became legally effective on October 15 after ratification.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-EVENT-005",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-20",
+      "provision_id": "CONST-US-AMD-20-SEC-02",
+      "event_kind": "delayed_legal_effect",
+      "applies_on": "1933-10-15",
+      "summary": "Twentieth Amendment §2 congressional convening date became legally effective October 15 following ratification.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-EVENT-006",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-20",
+      "provision_id": "CONST-US-AMD-20-SEC-01",
+      "event_kind": "historical_first_congressional_transition",
+      "applies_on": "1935-01-03",
+      "summary": "First congressional terms shortened under the Jan 3 amendment transition in 1935.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "condition": "Implementation instance, not date amendment was ratified"
+    },
+    {
+      "id": "AMD-EVENT-007",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-20",
+      "provision_id": "CONST-US-AMD-20-SEC-01",
+      "event_kind": "historical_first_presidential_transition",
+      "applies_on": "1937-01-20",
+      "summary": "First presidential terms transitioned on January 20 in 1937 after the amendment.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "condition": "Implementation instance, not date amendment was ratified"
+    },
+    {
+      "id": "AMD-EVENT-008",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-20",
+      "provision_id": "CONST-US-AMD-20-SEC-06",
+      "event_kind": "ratification_prerequisite_fulfilled",
+      "applies_on": "1933-01-23",
+      "summary": "Original seven-year ratification prerequisite was satisfied.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-EVENT-009",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-21",
+      "provision_id": "CONST-US-AMD-21-SEC-01",
+      "event_kind": "repeals_prior_amendment",
+      "applies_on": "1933-12-05",
+      "summary": "Twenty-First Amendment §1 immediately repealed the Eighteenth Amendment.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "subject": "CONST-US-AMD-18"
+    },
+    {
+      "id": "AMD-EVENT-010",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-21",
+      "provision_id": "CONST-US-AMD-21-SEC-03",
+      "event_kind": "ratification_prerequisite_fulfilled",
+      "applies_on": "1933-12-05",
+      "summary": "Ratification by State conventions within seven years was satisfied; convention mode was distinct from standard legislative ratification.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-EVENT-011",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-22",
+      "provision_id": "CONST-US-AMD-22-SEC-02",
+      "event_kind": "ratification_prerequisite_fulfilled",
+      "applies_on": "1951-02-27",
+      "summary": "Seven-year ratification prerequisite of Twenty-Second Amendment was satisfied.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    },
+    {
+      "id": "AMD-EVENT-012",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-22",
+      "provision_id": "CONST-US-AMD-22-SEC-01",
+      "event_kind": "grandfather_exceptions_historically_exhausted",
+      "applies_on": "1951-02-27",
+      "summary": "Original incumbent and then-current-term grandfather rules are historical transitional exemptions; current application requires care.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "condition": "Text preserved, no new historically eligible class created."
+    },
+    {
+      "id": "AMD-EVENT-013",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-17",
+      "provision_id": "CONST-US-AMD-17",
+      "event_kind": "original_senator_transition",
+      "applies_on": "1913-04-08",
+      "summary": "The Twenty-Seventh Amendment's predecessor, the Seventeenth, protected terms of Senators already chosen before its ratification.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "condition": "Historical original-Senator term exemption; does not govern selection of new Senators after ratification."
+    },
+    {
+      "id": "AMD-EVENT-014",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-26",
+      "provision_id": "CONST-US-AMD-26-SEC-01",
+      "event_kind": "modifies_fourteenth_amendment_age_reference",
+      "applies_on": "1971-07-01",
+      "summary": "Twenty-Sixth Amendment modifies the age reference for original Section 2 of Fourteenth Amendment; retains original text for archival analysis.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27"
+      ],
+      "review_status": "historical_timeline_pending_legal_review",
+      "subject": "CONST-US-AMD-14-SEC-02"
+    },
+    {
+      "id": "AMD-EVENT-015",
+      "type": "amendment_effect_event",
+      "amendment_id": "CONST-US-AMD-27",
+      "provision_id": "CONST-US-AMD-27",
+      "event_kind": "certification_after_adoption",
+      "applies_on": "1992-05-18",
+      "summary": "Archivist certified ratification May 18, 1992; amendment was adopted and effective May 7, 1992.",
+      "temporal_scope": "historical_or_operative_as_specified",
+      "source_ids": [
+        "SRC-NARA-AMENDMENTS-11-27",
+        "SRC-NARA-TWENTYSEVENTH-CERTIFICATION"
+      ],
+      "review_status": "historical_timeline_pending_legal_review"
+    }
+  ]
+}
