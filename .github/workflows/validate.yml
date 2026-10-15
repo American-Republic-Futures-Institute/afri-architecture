@@ -47,3 +47,7 @@ jobs:
         run: node scripts/validate-federalism.mjs
       - name: Test federalism, supremacy and Fourteenth Amendment safeguards
         run: node --test tests/federalism.test.mjs
+      - name: Validate all 27 amendment provisions and legal-effect chronology
+        run: node scripts/validate-amendments.mjs
+      - name: Test amendment ratification, supersession, rights and historical controls
+        run: node --test tests/amendments.test.mjs
