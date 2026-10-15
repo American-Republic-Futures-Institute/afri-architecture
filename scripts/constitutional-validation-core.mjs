@@ -1,5 +1,5 @@
 // Pure constitutional-model integrity checker. No rendering or network I/O.
-const ALLOWED_UNITS = new Set(["constitution","preamble","article","article_section","article_clause","article_section_segment","amendment","amendment_section,"amendment_segment","amendment_section_segment""]);
+const ALLOWED_UNITS = new Set(["constitution","preamble","article","article_section","article_clause","article_section_segment","amendment","amendment_section","amendment_segment","amendment_section_segment"]);
 const ALLOWED_EFFECTS = new Set(["operative","mixed","modified_in_part","superseded","repealed","expired","interpretive_context"]);
 const ALLOWED_KINDS = new Set(["power","duty","prohibition","right","structural_allocation","procedure","jurisdiction","eligibility","reservation","limitation","historic_repealed"]);
 const ALLOWED_BINDINGS = new Set(["confers_power_on","imposes_duty_on","restricts","protects","assigns_function_to","affects_jurisdiction_of","defines_eligibility_for","reserves_power_to"]);
