@@ -200,6 +200,46 @@
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ]
+    },
+    {
+      "id": "ACT-US-PRESIDENT-ELECT",
+      "type": "constitutional_actor_class",
+      "name": "President-elect",
+      "description": "Candidate selected as President subject to constitutional certification, transition and qualification rules.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-VICE-PRESIDENT-ELECT",
+      "type": "constitutional_actor_class",
+      "name": "Vice-President-elect",
+      "description": "Candidate selected for Vice Presidency, subject to constitutional transition rules.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-EXEC-DEPT-PRINCIPALS",
+      "type": "constitutional_actor_class",
+      "name": "Principal officers of executive departments",
+      "description": "Principal officers of federal executive departments in their respective constitutional roles.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-FEDERAL-CIVIL-OFFICERS",
+      "type": "constitutional_actor_class",
+      "name": "Civil officers of the United States",
+      "description": "Civil federal officeholders potentially within the Article II Section 4 impeachment category; doctrine affects limits.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
     }
   ]
 }

@@ -1,0 +1,383 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AII-UNIT-01-01",
+      "type": "article_ii_unit_analysis",
+      "section": 1,
+      "unit_index": 1,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-01-CL-01",
+      "name": "Executive vesting and four-year term",
+      "summary": "Executive power is vested in President; President and Vice President hold four-year terms.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-018",
+        "NORM-US-CONST-AII-01-01-TERM"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-01-02",
+      "type": "article_ii_unit_analysis",
+      "section": 1,
+      "unit_index": 2,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-01-CL-02",
+      "name": "State selection of presidential electors",
+      "summary": "States appoint electors in the manner their legislatures direct, with specified counts and exclusions.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-019",
+        "NORM-US-CONST-AII-01-02-ELECTOR-COUNT",
+        "NORM-US-CONST-AII-01-02-ELECTOR-INCOMPATIBILITY"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-01-03",
+      "type": "article_ii_unit_analysis",
+      "section": 1,
+      "unit_index": 3,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-01-CL-03",
+      "name": "Original presidential election ballots (superseded)",
+      "summary": "Original electors' undifferentiated voting procedure replaced by Twelfth Amendment.",
+      "current_effect_status": "superseded",
+      "norm_ids": [
+        "NORM-US-CONST-090"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-01-04",
+      "type": "article_ii_unit_analysis",
+      "section": 1,
+      "unit_index": 4,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-01-CL-04",
+      "name": "Congressional selection of elector timing",
+      "summary": "Congress determines selection timing and a uniform day for presidential electors to vote.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AII-01-04-ELECTION-TIMING",
+        "NORM-US-CONST-AII-01-04-UNIFORM-VOTE-DAY"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-01-05",
+      "type": "article_ii_unit_analysis",
+      "section": 1,
+      "unit_index": 5,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-01-CL-05",
+      "name": "Presidential eligibility",
+      "summary": "Original citizenship, age and residency eligibility criteria for the President.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-020",
+        "NORM-US-CONST-AII-01-05-NATURAL-BORN",
+        "NORM-US-CONST-AII-01-05-AGE",
+        "NORM-US-CONST-AII-01-05-RESIDENCE"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-01-06",
+      "type": "article_ii_unit_analysis",
+      "section": 1,
+      "unit_index": 6,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-01-CL-06",
+      "name": "Original presidential succession and incapacity",
+      "summary": "Original succession language modified and supplemented by Twenty-Fifth Amendment.",
+      "current_effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-AII-01-06-CONGRESS-DOUBLE-VACANCY"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-01-07",
+      "type": "article_ii_unit_analysis",
+      "section": 1,
+      "unit_index": 7,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-01-CL-07",
+      "name": "Presidential compensation and emoluments",
+      "summary": "President's pay protection within term and prohibition on additional federal/state emoluments.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AII-01-07-NO-SALARY-VARIATION",
+        "NORM-US-CONST-AII-01-07-NO-OTHER-EMOLUMENTS"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-01-08",
+      "type": "article_ii_unit_analysis",
+      "section": 1,
+      "unit_index": 8,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-01-CL-08",
+      "name": "Presidential oath of office",
+      "summary": "Required oath or affirmation before execution of office.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AII-01-08-OATH"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-02-01",
+      "type": "article_ii_unit_analysis",
+      "section": 2,
+      "unit_index": 1,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-02-CL-01",
+      "name": "Commander in Chief, written opinions and pardon authority",
+      "summary": "Military command, written principal-officer opinions and federal clemency powers.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-021",
+        "NORM-US-CONST-022",
+        "NORM-US-CONST-023",
+        "NORM-US-CONST-AII-02-01-FEDERAL-MILITIA",
+        "NORM-US-CONST-AII-02-01-PARDON-SCOPE"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-02-02",
+      "type": "article_ii_unit_analysis",
+      "section": 2,
+      "unit_index": 2,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-02-CL-02",
+      "name": "Treaties and appointments with Senate participation",
+      "summary": "Treaty consent, nomination/appointment and inferior-officer allocation by law.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-024",
+        "NORM-US-CONST-025",
+        "NORM-US-CONST-AII-02-02-INFERIOR-OFFICER-ALLOCATION",
+        "NORM-US-CONST-AII-02-02-PRINCIPAL-APPOINTMENT",
+        "NORM-US-CONST-AII-02-02-TREATY-VOTE"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-02-03",
+      "type": "article_ii_unit_analysis",
+      "section": 2,
+      "unit_index": 3,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-02-SEC-02-CL-03",
+      "name": "Recess appointments",
+      "summary": "Temporary commissions for constitutionally described recess vacancies.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-026",
+        "NORM-US-CONST-AII-02-03-RECESS-COMMISSION-EXPIRY"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-03-01",
+      "type": "article_ii_unit_analysis",
+      "section": 3,
+      "unit_index": 1,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-02-SEC-03-SEG-01",
+      "name": "State of the Union and legislative recommendations",
+      "summary": "Presidential report to Congress and recommendation of measures.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-028",
+        "NORM-US-CONST-AII-03-01-RECOMMEND"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-03-02",
+      "type": "article_ii_unit_analysis",
+      "section": 3,
+      "unit_index": 2,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-02-SEC-03-SEG-02",
+      "name": "Extraordinary congressional convening and adjournment",
+      "summary": "Executive power to convene chamber(s) on extraordinary occasions, and narrow disagreement-based adjournment.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AII-03-02-CONVENE",
+        "NORM-US-CONST-AII-03-02-ADJOURN"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-03-03",
+      "type": "article_ii_unit_analysis",
+      "section": 3,
+      "unit_index": 3,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-02-SEC-03-SEG-03",
+      "name": "Receiving ambassadors and other public ministers",
+      "summary": "Constitutional reception of diplomats; recognition doctrine modeled later.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AII-03-03-RECEIVE-MINISTERS"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-03-04",
+      "type": "article_ii_unit_analysis",
+      "section": 3,
+      "unit_index": 4,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-02-SEC-03-SEG-04",
+      "name": "Take Care duty",
+      "summary": "Duty faithfully to execute laws; not a freestanding exemption from statutes.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-027"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-03-05",
+      "type": "article_ii_unit_analysis",
+      "section": 3,
+      "unit_index": 5,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-02-SEC-03-SEG-05",
+      "name": "Commissioning officers",
+      "summary": "Duty to commission all officers of the United States.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AII-03-05-COMMISSION-OFFICERS"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AII-UNIT-04-01",
+      "type": "article_ii_unit_analysis",
+      "section": 4,
+      "unit_index": 1,
+      "unit_kind": "section_text",
+      "provision_id": "CONST-US-ART-02-SEC-04",
+      "name": "Impeachment, conviction and removal of civil officers",
+      "summary": "Article II section 4 defines executive/civil officer removal triggered by impeachment and conviction of specified offenses.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-029",
+        "NORM-US-CONST-AII-04-01-IMPEACHMENT-GROUNDS",
+        "NORM-US-CONST-AII-04-01-COVERED-OFFICERS"
+      ],
+      "qualification_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    }
+  ]
+}

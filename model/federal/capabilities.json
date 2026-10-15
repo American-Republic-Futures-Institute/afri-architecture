@@ -736,6 +736,78 @@
         "SRC-CONSTITUTION",
         "SRC-CONST-CONAN-ARTICLE-I"
       ]
+    },
+    {
+      "id": "CAP-FED-40",
+      "type": "capability",
+      "name": "Presidential election and transition administration",
+      "definition": "Constitutional electoral selection, presidential office tenure, succession and transfer of powers.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ]
+    },
+    {
+      "id": "CAP-FED-41",
+      "type": "capability",
+      "name": "Executive nominations, appointments and commissions",
+      "definition": "Presidential nominations, constitutionally allocated federal appointments and officer commissioning.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ]
+    },
+    {
+      "id": "CAP-FED-42",
+      "type": "capability",
+      "name": "Federal executive clemency",
+      "definition": "Constitutionally bounded presidential reprieves and pardons for federal offenses.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ]
+    },
+    {
+      "id": "CAP-FED-43",
+      "type": "capability",
+      "name": "Constitutional executive accountability",
+      "definition": "Cross-branch impeachment/removal conditions, executive oath, public duty, and executive office constraints.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-ARTICLE-II"
+      ]
     }
   ]
 }

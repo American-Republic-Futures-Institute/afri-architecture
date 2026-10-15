@@ -35,7 +35,10 @@
     "model/constitutional/viewpoints.json",
     "model/constitutional/article-i-clauses.json",
     "model/constitutional/article-i-qualifications.json",
-    "model/constitutional/article-i-capability-links.json"
+    "model/constitutional/article-i-capability-links.json",
+    "model/constitutional/article-ii-units.json",
+    "model/constitutional/article-ii-qualifications.json",
+    "model/constitutional/article-ii-capability-links.json"
   ],
   "standards": [
     {
@@ -93,5 +96,28 @@
     ],
     "scope": "All original Article I clauses, text-bound conditions and exceptions, selected amendment overlays, congressional power-to-constraint and federal capability mappings; no agency delegation claimed.",
     "publication_note": "Do not infer current legal effect from historic clauses or equate functional alignment with authority to execute."
+  },
+  "article_ii_extension": {
+    "id": "ARFI-COA-ART-II-001",
+    "review_status": "research_textual_summary_pending_legal_review",
+    "numbered_clause_counts": [
+      8,
+      3,
+      0,
+      0
+    ],
+    "numbered_clause_count": 11,
+    "unnumbered_section3_analytic_segments": 5,
+    "section4_text_units": 1,
+    "analysis_unit_count": 17,
+    "source_text_basis": [
+      "SRC-CONST-ORIGINAL-TRANSCRIPT",
+      "SRC-CONST-LATER-AMENDMENTS",
+      "SRC-CONST-CONAN-ARTICLE-II",
+      "SRC-NARA-ELECTORAL-COLLEGE",
+      "SRC-CONST-CONAN-TWENTY-FIFTH"
+    ],
+    "scope": "Original Article II numbered clauses, analytic decomposition of unnumbered Section 3, Section 4 removal, textual limitations, ratified amendment overlays and capability alignments.",
+    "publication_note": "Function segments of Section 3 are ARFI analysis units, NOT numbered constitutional clauses. No case-law or statutory delegation is implied."
   }
 }

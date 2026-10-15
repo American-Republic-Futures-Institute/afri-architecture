@@ -252,6 +252,33 @@
       "kind": "official_constitutional_analysis",
       "scope": "Article I structural overview and authoritative topical location reference; interpretation must not be represented as primary text",
       "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-ARTICLE-II",
+      "title": "Overview of Article II, Executive Branch",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/artII-1/ALDE_00000243/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Article II structural explanation; textual and judicial doctrine are kept distinct.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-NARA-ELECTORAL-COLLEGE",
+      "title": "Legal Provisions Relevant to the Electoral College Process",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/electoral-college/provisions",
+      "kind": "official_constitutional_reference",
+      "scope": "Original Article II elector process, Twelfth Amendment and voting process; see primary amendment transcript for current legal text.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-TWENTY-FIFTH",
+      "title": "Overview of Twenty-Fifth Amendment, Presidential Vacancy and Disability",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/amdt25-1/ALDE_00013871/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Presidential removal, vacancy, succession and temporary disability; controlling decisions, statutes and interpretation are reserved to separate doctrine model.",
+      "accessed_on": "2026-10-15"
     }
   ]
 }
