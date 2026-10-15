@@ -1,0 +1,171 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AIII-JUR-01",
+      "type": "article_iii_jurisdiction_category",
+      "name": "Constitution, federal law and treaties",
+      "matter_group": "cases",
+      "summary": "Federal-question cases in law/equity arising under the Constitution, valid federal laws or treaties.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-FEDERAL-QUESTION",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-FEDERAL-QUESTION"
+      ],
+      "constitutional_effect_status": "operative",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    },
+    {
+      "id": "AIII-JUR-02",
+      "type": "article_iii_jurisdiction_category",
+      "name": "Diplomats and consuls",
+      "matter_group": "cases",
+      "summary": "Cases affecting ambassadors, other public ministers and consuls.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-DIPLOMATS",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-DIPLOMATS"
+      ],
+      "constitutional_effect_status": "operative",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    },
+    {
+      "id": "AIII-JUR-03",
+      "type": "article_iii_jurisdiction_category",
+      "name": "Admiralty and maritime",
+      "matter_group": "cases",
+      "summary": "Cases of admiralty and maritime jurisdiction.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-ADMIRALTY",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-ADMIRALTY"
+      ],
+      "constitutional_effect_status": "operative",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    },
+    {
+      "id": "AIII-JUR-04",
+      "type": "article_iii_jurisdiction_category",
+      "name": "United States as a party",
+      "matter_group": "controversies",
+      "summary": "Controversies to which the United States shall be a party; immunity and statutory authorization require separate attention.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-US-PARTY",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-US-PARTY"
+      ],
+      "constitutional_effect_status": "operative",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    },
+    {
+      "id": "AIII-JUR-05",
+      "type": "article_iii_jurisdiction_category",
+      "name": "Between States",
+      "matter_group": "controversies",
+      "summary": "Controversies between two or more States.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-STATE-STATE",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-STATE-STATE"
+      ],
+      "constitutional_effect_status": "operative",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    },
+    {
+      "id": "AIII-JUR-06",
+      "type": "article_iii_jurisdiction_category",
+      "name": "State versus citizen of another State",
+      "matter_group": "controversies",
+      "summary": "Original State/other-State-citizen controversy category; subject to Eleventh Amendment's specified bar on suits against a State.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-STATE-OTHER-CITIZEN",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-STATE-OTHER-CITIZEN",
+        "AIII-QUAL-02-01-ELEVENTH-AMENDMENT"
+      ],
+      "constitutional_effect_status": "modified_in_part",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    },
+    {
+      "id": "AIII-JUR-07",
+      "type": "article_iii_jurisdiction_category",
+      "name": "Citizens of different States",
+      "matter_group": "controversies",
+      "summary": "Controversies between citizens of different States; congressional statutes establish lower-court diversity jurisdiction.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-CITIZEN-DIVERSITY",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-DIVERSE-CITIZENS"
+      ],
+      "constitutional_effect_status": "operative",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    },
+    {
+      "id": "AIII-JUR-08",
+      "type": "article_iii_jurisdiction_category",
+      "name": "Competing land grants from different States",
+      "matter_group": "controversies",
+      "summary": "Claims between citizens of one State to lands under grants of different States.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-LAND-GRANTS",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-DIFFERENT-STATE-LAND-GRANTS"
+      ],
+      "constitutional_effect_status": "operative",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    },
+    {
+      "id": "AIII-JUR-09",
+      "type": "article_iii_jurisdiction_category",
+      "name": "Foreign States, citizens or subjects",
+      "matter_group": "controversies",
+      "summary": "Original Article III controversy categories involving States or their citizens and foreign States, citizens or subjects, with subsequent immunity limits.",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "norm_id": "NORM-US-CONST-AIII-02-01-FOREIGN-PARTIES",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-FOREIGN-PARTIES",
+        "AIII-QUAL-02-01-ELEVENTH-AMENDMENT"
+      ],
+      "constitutional_effect_status": "modified_in_part",
+      "statutory_jurisdiction_required": true,
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+    }
+  ]
+}

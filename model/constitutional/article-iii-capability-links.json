@@ -1,0 +1,638 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AIII-CAP-0001",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-030",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-01-01-ONE-SUPREME-COURT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Federal judiciary vesting requires constitutional and statutory differentiation.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0002",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-01-01-ONE-SUPREME",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-01-01-ONE-SUPREME-COURT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Federal judiciary vesting requires constitutional and statutory differentiation.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0003",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-01-01-INFERIOR-CREATION",
+      "capability_id": "CAP-FED-01",
+      "qualification_ids": [
+        "AIII-QUAL-01-01-INFERIOR-COURTS-CONGRESS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congress constitutionally establishes inferior Article III courts while their functions depend on law.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0004",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-01-01-INFERIOR-CREATION",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-01-01-INFERIOR-COURTS-CONGRESS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congress constitutionally establishes inferior Article III courts while their functions depend on law.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0005",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-031",
+      "capability_id": "CAP-FED-45",
+      "qualification_ids": [
+        "AIII-QUAL-01-02-GOOD-BEHAVIOR"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Protected judicial tenure is an Article III independence feature.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0006",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR",
+      "capability_id": "CAP-FED-45",
+      "qualification_ids": [
+        "AIII-QUAL-01-02-GOOD-BEHAVIOR"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Protected judicial tenure is an Article III independence feature.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0007",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-01-03-STATED-PAY",
+      "capability_id": "CAP-FED-45",
+      "qualification_ids": [
+        "AIII-QUAL-01-03-STATED-TIMES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Constitutional payment timing is an Article III judicial office safeguard.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0008",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-01-03-NON-DIMINUTION",
+      "capability_id": "CAP-FED-45",
+      "qualification_ids": [
+        "AIII-QUAL-01-03-NO-DIMINUTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Non-diminution of pay protects independence during Article III service.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0009",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-032",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-ENUMERATED-CASES-CONTROVERSIES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Federal case and controversy categories delimit federal judicial power.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0010",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-FEDERAL-QUESTION",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-FEDERAL-QUESTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Enumerated federal-question matters align with judicial case handling subject to statutes.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0011",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-FEDERAL-QUESTION",
+      "capability_id": "CAP-FED-27",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-FEDERAL-QUESTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Enumerated federal-question matters align with judicial case handling subject to statutes.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0012",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-DIPLOMATS",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-DIPLOMATS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Diplomatic matters form an enumerated constitutional judicial category.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0013",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-ADMIRALTY",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-ADMIRALTY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Maritime and admiralty matters relate to constitutional judicial adjudication.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0014",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-ADMIRALTY",
+      "capability_id": "CAP-FED-27",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-ADMIRALTY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Maritime and admiralty matters relate to constitutional judicial adjudication.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0015",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-US-PARTY",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-US-PARTY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Cases where United States is a party remain subject to jurisdictional statutes and immunity.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0016",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-STATE-STATE",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-STATE-STATE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Interstate controversies are a jurisdictional category, not a generic state command hierarchy.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0017",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-STATE-OTHER-CITIZEN",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-STATE-OTHER-CITIZEN",
+        "AIII-QUAL-02-01-ELEVENTH-AMENDMENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Original category is qualified by Eleventh Amendment and additional doctrine.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0018",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-CITIZEN-DIVERSITY",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-DIVERSE-CITIZENS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Diverse citizenship is a constitutional category with separate statutory implementation.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0019",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-CITIZEN-DIVERSITY",
+      "capability_id": "CAP-FED-27",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-DIVERSE-CITIZENS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Diverse citizenship is a constitutional category with separate statutory implementation.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0020",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-LAND-GRANTS",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-DIFFERENT-STATE-LAND-GRANTS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "State grant conflicts are an enumerated controversy category.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0021",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-01-FOREIGN-PARTIES",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-01-FOREIGN-PARTIES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Foreign-party category is conditioned by sovereign immunity and jurisdiction statutes.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0022",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-033",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-02-SUPREME-ORIGINAL"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Supreme Court original jurisdiction has limited constitutional classes.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0023",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-02-ORIGINAL",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "AIII-QUAL-02-02-SUPREME-ORIGINAL"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Supreme Court original jurisdiction has limited constitutional classes.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0024",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-02-APPELLATE",
+      "capability_id": "CAP-FED-28",
+      "qualification_ids": [
+        "AIII-QUAL-02-02-SUPREME-APPELLATE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Supreme Court appellate function remains subject to constitutional exceptions and procedures.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0025",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-02-CONGRESS-EXCEPTIONS",
+      "capability_id": "CAP-FED-01",
+      "qualification_ids": [
+        "AIII-QUAL-02-02-CONGRESS-EXCEPTIONS-AND-REGULATIONS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional exceptions and regulations apply to appellate jurisdiction.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0026",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-02-CONGRESS-EXCEPTIONS",
+      "capability_id": "CAP-FED-28",
+      "qualification_ids": [
+        "AIII-QUAL-02-02-CONGRESS-EXCEPTIONS-AND-REGULATIONS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congressional exceptions and regulations apply to appellate jurisdiction.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0027",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-034",
+      "capability_id": "CAP-FED-46",
+      "qualification_ids": [
+        "AIII-QUAL-02-03-JURY-TRIAL"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Jury trial safeguard for federal crimes with textual impeachment exception.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0028",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-03-JURY",
+      "capability_id": "CAP-FED-46",
+      "qualification_ids": [
+        "AIII-QUAL-02-03-JURY-TRIAL"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Jury trial safeguard for federal crimes with textual impeachment exception.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0029",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-03-IMPEACHMENT-EXCEPTION",
+      "capability_id": "CAP-FED-46",
+      "qualification_ids": [
+        "AIII-QUAL-02-03-IMPEACHMENT-EXCEPTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Impeachment is excluded from Article III crime jury process.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0030",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-03-STATE-VENUE",
+      "capability_id": "CAP-FED-46",
+      "qualification_ids": [
+        "AIII-QUAL-02-03-CRIME-STATE-VENUE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Criminal trial venue in State where offense committed.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0031",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-03-OUTSIDE-STATE",
+      "capability_id": "CAP-FED-01",
+      "qualification_ids": [
+        "AIII-QUAL-02-03-OUTSIDE-STATE-LOCATION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congress directs trial location for crimes not committed within any State.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0032",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-02-03-OUTSIDE-STATE",
+      "capability_id": "CAP-FED-46",
+      "qualification_ids": [
+        "AIII-QUAL-02-03-OUTSIDE-STATE-LOCATION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congress directs trial location for crimes not committed within any State.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0033",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-035",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-01-TREASON-ONLY-TWO-CATEGORIES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Constitutional limits narrow treason adjudication and evidence.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0034",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-01-TREASON-ONLY",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-01-TREASON-ONLY-TWO-CATEGORIES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Constitutional limits narrow treason adjudication and evidence.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0035",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-01-LEVYING-WAR",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-01-LEVYING-WAR"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "First constitutionally enumerated form of treason.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0036",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-01-ADHERING-ENEMIES",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-01-ADHERING-ENEMIES-AID-COMFORT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Second constitutionally enumerated form of treason.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0037",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-01-TWO-WITNESSES",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-01-TWO-WITNESSES-SAME-ACT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Same-overt-act two-witness treason proof safeguard.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0038",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-01-OPEN-COURT-CONFESSION",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-01-CONFESSION-OPEN-COURT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Open-court confession is alternate constitutionally specified proof method.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0039",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS",
+      "capability_id": "CAP-FED-01",
+      "qualification_ids": [
+        "AIII-QUAL-03-02-CONGRESS-PUNISHMENT",
+        "AIII-QUAL-03-02-FORFEITURE-LIFETIME"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congress's treason penalty powers are subject to constitutional limits.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0040",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-02-CONGRESS-PUNISHMENT",
+        "AIII-QUAL-03-02-FORFEITURE-LIFETIME"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Congress's treason penalty powers are subject to constitutional limits.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0041",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-02-NO-CORRUPTION-BLOOD",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-02-NO-CORRUPTION-OF-BLOOD"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Corruption of blood is constitutionally forbidden.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "AIII-CAP-0042",
+      "type": "article_iii_capability_alignment",
+      "constitutional_norm_id": "NORM-US-CONST-AIII-03-02-FORFEITURE-LIMIT",
+      "capability_id": "CAP-FED-47",
+      "qualification_ids": [
+        "AIII-QUAL-03-02-FORFEITURE-LIFETIME"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "Constitutional forfeiture may not extend beyond life of convicted person.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    }
+  ]
+}
