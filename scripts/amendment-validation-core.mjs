@@ -55,7 +55,7 @@ export function validateAmendments(d){
   const n=u.amendment_number,source=provisions.get(u.source_provision_id),p=provisions.get(u.analytic_provision_id),nr=norms.get(u.norm_id),time=T.get(n);
   if(u.type!=="amendment_analysis_unit"||u.review_status!=="research_textual_summary_pending_legal_review")bad("Unreviewed amendment segment asserted controlling "+u.id);
   if(!source||!p||!nr||!time||u.amendment_id!==amd(n))bad("Broken amendment canonical ID chain "+u.id);
-  if(!p)continue;
+  if(!p||!time)continue;
   if(p.parent_id!==u.source_provision_id||p.id!==u.source_provision_id+"-SEG-"+pad(u.segment_number))bad("Amendment segment parent/ordinal mismatch "+u.id);
   if(u.original_section_number===null){
    if(u.source_provision_id!==amd(n)||p.unit!=="amendment_segment"||u.source_unit_kind!=="unnumbered_amendment_analytic_segment")bad("Invented official amendment Section for unnumbered text "+u.id);
@@ -142,6 +142,7 @@ export function validateAmendments(d){
  ["AMD-QUAL-SPECIAL-TWENTYFIRST-REPEALS-EIGHTEENTH","AMD-UNIT-21-S01-01"],
  ["AMD-QUAL-SPECIAL-TWENTYSECOND-GRANDFATHER","AMD-UNIT-22-S01-03"],
  ["AMD-QUAL-SPECIAL-TWENTYTHIRD-DC-ELECTORS-CAP","AMD-UNIT-23-S01-02"],
+ ["AMD-QUAL-SPECIAL-TWENTYFOURTH-FEDERAL-OFFICES","AMD-UNIT-24-S01-02"],
  ["AMD-QUAL-SPECIAL-TWENTYFIFTH-VP-MAJORITY-BOTH-HOUSES","AMD-UNIT-25-S02-02"],
  ["AMD-QUAL-SPECIAL-TWENTYFIFTH-FOUR-DAY","AMD-UNIT-25-S04-03"],
  ["AMD-QUAL-SPECIAL-TWENTYFIFTH-FORTYEIGHT-HOUR","AMD-UNIT-25-S04-04"],

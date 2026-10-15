@@ -89,7 +89,7 @@ test("reject analytic provision called an actual constitutional clause",()=>{
 });
 test("reject dormant Amendment XVIII reactivated in canonical provision",()=>{
  const f=fixture();u(f,"AMD-UNIT-18-S01-01").effect_status="operative";
- fail(f,"Historical status elevated to operative constitutional power");
+ fail(f,"Eighteenth Amendment reactivated");
 });
 test("reject an active capability alignment from a repealed constitutional provision",()=>{
  const f=fixture();u(f,"AMD-UNIT-18-S02-01").capability_link_ids=["AMD-CAP-0001"];
