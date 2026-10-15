@@ -26,7 +26,13 @@
     "model/federal/capabilities.json",
     "model/federal/relationships.json",
     "model/federal/sources.json",
-    "model/federal/viewpoints.json"
+    "model/federal/viewpoints.json",
+    "model/constitutional/actors.json",
+    "model/constitutional/provisions.json",
+    "model/constitutional/norms.json",
+    "model/constitutional/bindings.json",
+    "model/constitutional/changes.json",
+    "model/constitutional/viewpoints.json"
   ],
   "standards": [
     {
@@ -48,5 +54,17 @@
     "identity": "IDs persist across name changes",
     "comments": "Public comments bind element IDs and immutable snapshot commit",
     "storage": "Architecture repository is source of truth; website is renderer and discussion host."
+  },
+  "constitutional_extension": {
+    "id": "ARFI-COA-CONST-001",
+    "review_status": "research_model_not_legal_advice",
+    "root_provision_id": "CONST-US",
+    "source_text_basis": [
+      "SRC-CONST-ORIGINAL-TRANSCRIPT",
+      "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT",
+      "SRC-CONST-LATER-AMENDMENTS"
+    ],
+    "scope": "Original Constitution, 27 ratified Amendments, selected clause and normative-effect decomposition. Interpretive doctrine is a separate future catalog.",
+    "publication_note": "Source-linked original text does not imply operative effect for superseded provisions."
   }
 }

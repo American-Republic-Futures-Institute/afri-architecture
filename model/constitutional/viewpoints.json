@@ -1,0 +1,89 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-CONST-STRUCTURE",
+      "type": "constitutional_viewpoint",
+      "name": "Constitutional Provision Atlas",
+      "description": "Browse original Articles and ratified Amendments while retaining repealed and superseded historical provisions.",
+      "root_ids": [
+        "CONST-US"
+      ],
+      "include_norm_kinds": [],
+      "include_changes": true,
+      "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-CONST-POWERS",
+      "type": "constitutional_viewpoint",
+      "name": "Enumerated and Distributed Powers",
+      "description": "Show powers and structural assignments with grantors, conditions and institutional recipients.",
+      "root_ids": [
+        "CONST-US-ART-01",
+        "CONST-US-ART-02",
+        "CONST-US-ART-03"
+      ],
+      "include_norm_kinds": [
+        "power",
+        "structural_allocation"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-CONST-LIMITS",
+      "type": "constitutional_viewpoint",
+      "name": "Rights and Limits on Government",
+      "description": "Distinguish federal and state restrictions, protected persons/citizens and non-operative historical norms.",
+      "root_ids": [
+        "CONST-US-ART-01-SEC-09",
+        "CONST-US-AMD-01",
+        "CONST-US-AMD-14"
+      ],
+      "include_norm_kinds": [
+        "right",
+        "limitation",
+        "prohibition",
+        "reservation"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-CONST-INTERBRANCH",
+      "type": "constitutional_viewpoint",
+      "name": "Checks, Appointments, and Constitutional Procedures",
+      "description": "Examine separate allocation of impeachment, presentment, appointments, treaties and judicial roles.",
+      "root_ids": [
+        "CONST-US-ART-01-SEC-07",
+        "CONST-US-ART-02-SEC-02",
+        "CONST-US-ART-03-SEC-02"
+      ],
+      "include_norm_kinds": [
+        "procedure",
+        "jurisdiction",
+        "eligibility"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate"
+    },
+    {
+      "id": "VIEW-CONST-AMENDMENTS",
+      "type": "constitutional_viewpoint",
+      "name": "Amendment and Supersession History",
+      "description": "Explain ratified constitutional amendment effects and historical text never treated as current authorization.",
+      "root_ids": [
+        "CONST-US-ART-05",
+        "CONST-US-AMD-18",
+        "CONST-US-AMD-21"
+      ],
+      "include_norm_kinds": [
+        "historic_repealed",
+        "procedure",
+        "reservation"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate"
+    }
+  ]
+}

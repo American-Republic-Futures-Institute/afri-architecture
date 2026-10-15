@@ -57,3 +57,19 @@ The website should read `manifest.json` and all referenced models at **one immut
 This is an initial **top-level baseline**, not a complete United States governmental inventory. Next work should inventory subordinate bureaus, military departments and services, cabinet and independent-agency enabling statutes, congressional committees, court-by-court jurisdiction, intergovernmental interfaces, dated institutional transitions and verified FEAF taxonomy mappings. All changes must preserve stable IDs or explicitly record supersession. See `docs/MODELING-STANDARD.md` and `docs/SCOPE-AND-EVIDENCE.md`.
 
 No license grant is declared by this bootstrap. License/public reuse terms require an explicit institute governance decision.
+
+
+## Constitutional layer (2026-10-15 increment)
+
+The architecture now contains an explicit constitutional decomposition under `model/constitutional/`. The model catalogs primary-text provision locations and separates **legal norm summaries**, **actor bindings**, and **ratified amendment change history**. These are research mappings, not official legal holdings. Original historical text may be repealed or superseded; the current effect is modeled separately.
+
+| File | Purpose |
+|---|---|
+| `provisions.json` | Original Constitution, Preamble, Articles, Sections, selected Clauses, 27 Amendments |
+| `norms.json` | Discrete powers, duties, restrictions, rights, eligibility and procedures |
+| `actors.json` | Constitutional actor classes: states, persons, citizens, state courts, electors |
+| `bindings.json` | Typed links to existing federal institutions and actor classes |
+| `changes.json` | Amendment supersession, qualification and repeal relationships |
+| `viewpoints.json` | Rendering-neutral constitutional architecture views |
+
+Validate using `node scripts/validate-constitution.mjs` and `node --test tests/constitutional.test.mjs`. See `docs/CONSTITUTIONAL-METAMODEL.md` and `docs/CONSTITUTIONAL-COVERAGE.md`. The website retains exclusive responsibility for rendering and public comments.

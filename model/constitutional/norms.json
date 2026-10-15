@@ -1,0 +1,1753 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "NORM-US-CONST-001",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Legislative powers vested in Congress",
+      "summary": "The legislative powers granted by the Constitution are vested in a Congress consisting of a Senate and a House.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-01-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Vesting is limited to legislative powers herein granted, not a grant of a general police power."
+    },
+    {
+      "id": "NORM-US-CONST-002",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "House impeachment",
+      "summary": "The House has the sole power of impeachment.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-02-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-003",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Senate impeachment trial",
+      "summary": "The Senate has sole power to try all impeachments, subject to prescribed trial conditions.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-06"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "The Chief Justice presides when the President is tried; conviction requires two thirds of members present."
+    },
+    {
+      "id": "NORM-US-CONST-004",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Revenue bills originate in House",
+      "summary": "Bills for raising revenue originate in the House; the Senate may propose or concur with amendments.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "The Constitution's revenue-origination category is narrower than every measure with fiscal implications."
+    },
+    {
+      "id": "NORM-US-CONST-005",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Presentment and veto",
+      "summary": "Bills passed by both Houses are presented to the President and processed under constitutional approval, return, veto and override procedures.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-07-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-006",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Taxing authority",
+      "summary": "Congress may lay and collect taxes, duties, imposts, and excises to pay debts and provide for common defense and general welfare.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Taxing power is constitutionally constrained, including applicable uniformity and other restrictions; does not establish unlimited regulatory competence."
+    },
+    {
+      "id": "NORM-US-CONST-007",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Spending for national purposes",
+      "summary": "Congress may provide for federal debts, common defense, and the general welfare through authorized expenditures.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Modern Spending Clause doctrine and limitations require separate case-law evidence."
+    },
+    {
+      "id": "NORM-US-CONST-008",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Uniform duties, imposts and excises",
+      "summary": "Duties, imposts, and excises must be uniform throughout the United States.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-P02",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Borrow on United States credit",
+      "summary": "Congress may borrow money on the credit of the United States.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P03",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Regulate specified commerce",
+      "summary": "Congress may regulate commerce with foreign nations, among the states, and with Indian tribes.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P04",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Establish uniform naturalization and bankruptcy laws",
+      "summary": "Congress may establish a uniform rule of naturalization and uniform bankruptcy laws throughout the United States.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P05",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Coinage and weights and measures",
+      "summary": "Congress may coin money, regulate the value of domestic and foreign coin, and fix the standard of weights and measures.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P06",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Punish counterfeiting",
+      "summary": "Congress may provide for punishment for counterfeiting securities and current coin of the United States.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-06"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P07",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Establish postal facilities",
+      "summary": "Congress may establish post offices and post roads.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-07"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P08",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Protect limited author and inventor exclusivity",
+      "summary": "Congress may secure limited-time exclusive rights to authors and inventors for their writings and discoveries to promote progress.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-08"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P09",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Constitute inferior federal tribunals",
+      "summary": "Congress may constitute tribunals inferior to the Supreme Court.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-09"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P10",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Define and punish piracy and law-of-nations offenses",
+      "summary": "Congress may define and punish high-seas piracies and felonies, and offenses against the law of nations.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-10"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P11",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Declare war and regulate captures",
+      "summary": "Congress may declare war, grant letters of marque and reprisal, and make rules on captures.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-11"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P12",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Raise and support armies",
+      "summary": "Congress may raise and support armies, with specific restrictions on appropriations.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-12"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "No appropriation of money to that use shall be for a longer term than two years."
+    },
+    {
+      "id": "NORM-US-CONST-P13",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Provide and maintain a navy",
+      "summary": "Congress may provide and maintain a navy.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-13"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P14",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Regulate land and naval forces",
+      "summary": "Congress may make rules governing and regulating the land and naval forces.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-14"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P15",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Call forth militia for enumerated purposes",
+      "summary": "Congress may provide for calling forth militia to execute federal laws, suppress insurrections, and repel invasions.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-15"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P16",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Organize and discipline militia",
+      "summary": "Congress may provide for organizing, arming and disciplining militia and governing those employed in federal service, with reserved state appointments and training authority.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-16"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Appointment of militia officers and training according to congressional discipline are reserved to the states."
+    },
+    {
+      "id": "NORM-US-CONST-P17",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Legislate for federal district and enclaves",
+      "summary": "Congress may exercise exclusive legislation in constitutionally described federal districts and acquired enclaves.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-17"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Power is subject to the text, amendments, and controlling judicial construction."
+    },
+    {
+      "id": "NORM-US-CONST-P18",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Enact necessary and proper implementing laws",
+      "summary": "Congress may make laws necessary and proper for carrying into execution constitutionally vested federal powers.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "A means-of-execution power tethered to constitutionally vested powers; no freestanding unlimited police power."
+    },
+    {
+      "id": "NORM-US-CONST-009",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Army appropriation period limit",
+      "summary": "Appropriations of money to raise and support armies may not run for longer than two years.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-12"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-010",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Habeas suspension restrictions",
+      "summary": "The privilege of the writ of habeas corpus shall not be suspended except under the Constitution's rebellion-or-invasion and public-safety conditions.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-011",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Federal bills of attainder and ex post facto laws",
+      "summary": "The Constitution prohibits federal bills of attainder and ex post facto laws.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-012",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Federal export duties prohibited",
+      "summary": "No federal tax or duty shall be laid on articles exported from any state.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-013",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Appropriation by law required",
+      "summary": "Treasury money can be drawn only in consequence of appropriations made by law, with public statements and accounts of receipts and expenditures.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-07"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-014",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Federal titles of nobility and restricted foreign emoluments",
+      "summary": "No federal title of nobility may be granted; acceptance of specified foreign benefits by covered officeholders requires congressional consent.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-09-CL-08"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Foreign emoluments restrictions have defined persons and consent conditions; do not treat as applying identically to all private citizens."
+    },
+    {
+      "id": "NORM-US-CONST-015",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Restrictions on states making treaties and coining money",
+      "summary": "Article I Section 10 forbids states from exercising specified foreign affairs, monetary and similar powers.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Specific prohibitions differ by subject and should be further decomposed in subsequent increments."
+    },
+    {
+      "id": "NORM-US-CONST-016",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "State import/export duties constrained",
+      "summary": "States face constitutional limits on imposts and duties on imports or exports, subject to enumerated exceptions and congressional consent.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-017",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "State war and compact restrictions",
+      "summary": "States may not exercise specified war, troop and interstate-compact powers outside constitutional exceptions and congressional consent.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-10-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-018",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Executive power vested in President",
+      "summary": "The executive power is vested in the President of the United States.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Do not infer that the President may disregard statutes or constitutional protections, or that all independent agencies lack statutory independence."
+    },
+    {
+      "id": "NORM-US-CONST-019",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "States appoint electors",
+      "summary": "Each state appoints presidential electors in the manner directed by its legislature, subject to other constitutional provisions and valid federal law.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-020",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Presidential eligibility conditions",
+      "summary": "The President must satisfy the citizenship, age and residency qualifications established in Article II.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-021",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Commander in Chief",
+      "summary": "The President is Commander in Chief of the armed forces and militia when called into federal service.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Does not itself settle war-initiation, spending, domestic policing, or force-employment questions; Congress has express war and military powers."
+    },
+    {
+      "id": "NORM-US-CONST-022",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Pardons and reprieves",
+      "summary": "The President may grant reprieves and pardons for offenses against the United States, except in cases of impeachment.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-023",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Require written opinions from department heads",
+      "summary": "The President may require written opinions from principal officers of executive departments on their respective duties.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-024",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Treaty-making with Senate consent",
+      "summary": "The President may make treaties with advice and consent of the Senate, provided two thirds of Senators present concur.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Do not confuse treaty ratification with congressional implementation legislation or executive agreements."
+    },
+    {
+      "id": "NORM-US-CONST-025",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Nomination and appointment with Senate consent",
+      "summary": "The President nominates and, with Senate advice and consent, appoints specified principal officers; Congress may vest appointments of inferior officers in specified actors by law.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-026",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Temporary appointments during Senate recess",
+      "summary": "The President may fill certain vacancies during a Senate recess through temporary commissions under constitutional conditions.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-02-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-027",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Faithful execution of laws",
+      "summary": "The President must take care that the laws be faithfully executed.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-028",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "State of the Union information",
+      "summary": "The President shall from time to time provide Congress information on the state of the Union and recommend measures considered necessary and expedient.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-029",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Impeachment and removal from federal civil office",
+      "summary": "The President, Vice President and all civil officers of the United States are removed upon impeachment for and conviction of specified offenses.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "The text sets constitutional impeachment and conviction conditions; this is not a universal criminal-penalty rule."
+    },
+    {
+      "id": "NORM-US-CONST-030",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Judicial power vested in federal courts",
+      "summary": "Judicial power is vested in one Supreme Court and inferior federal courts Congress may establish.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-031",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Article III judicial tenure and compensation",
+      "summary": "Article III judges hold office during good behavior, with compensation protections during continuance in office.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Applies to Article III judicial offices; does not silently extend identical tenure to every Article I tribunal."
+    },
+    {
+      "id": "NORM-US-CONST-032",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Federal cases and controversies",
+      "summary": "Article III describes categories of cases and controversies within the federal judicial power.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Subject to constitutional amendments, jurisdictional statutes, sovereign immunity doctrine and justiciability requirements."
+    },
+    {
+      "id": "NORM-US-CONST-033",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Supreme Court original and appellate jurisdiction",
+      "summary": "Article III distinguishes Supreme Court original jurisdiction from appellate jurisdiction, with constitutionally defined congressional exceptions and regulations.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-034",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Jury trial of crimes",
+      "summary": "Article III protects jury trial in covered criminal cases except impeachment, with prescribed place of trial.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Specific criminal jury guarantees and their scope also appear in the Sixth Amendment."
+    },
+    {
+      "id": "NORM-US-CONST-035",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Definition and proof of treason",
+      "summary": "Treason has a defined constitutional scope and unusually stringent evidentiary or confession requirements.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-036",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Full faith and credit between states",
+      "summary": "States must give constitutionally required full faith and credit to other states' public acts, records and judicial proceedings.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-037",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Privileges and immunities of interstate citizenship",
+      "summary": "Article IV protects privileges and immunities of citizens in the several states.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-038",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Interstate extradition",
+      "summary": "Article IV establishes an interstate process for returning persons charged with certain crimes and found in another state.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-039",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Admit new states",
+      "summary": "Congress may admit new states subject to consent conditions for dividing or joining existing states.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-040",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Rules for federal territories and property",
+      "summary": "Congress may dispose of and make needful rules and regulations concerning U.S. territory and other federal property.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "This is not a general assertion of exclusive federal authority over every nonfederal local matter."
+    },
+    {
+      "id": "NORM-US-CONST-041",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Republican government and federal protection of states",
+      "summary": "The United States guarantees states a republican form of government and protection against invasion, and provides conditional protection against domestic violence.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-042",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Constitutional amendment proposal routes",
+      "summary": "Amendments may be proposed by two thirds of both Houses or a convention called upon application of two thirds of state legislatures.",
+      "provision_ids": [
+        "CONST-US-ART-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "A convention-call requirement is conditional on the constitutionally specified applications."
+    },
+    {
+      "id": "NORM-US-CONST-043",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Constitutional amendment ratification routes",
+      "summary": "Proposed amendments become part of the Constitution upon ratification by three fourths of states using the mode selected under Article V.",
+      "provision_ids": [
+        "CONST-US-ART-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-044",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Equal suffrage of states in Senate protected",
+      "summary": "No state may be deprived of its equal suffrage in the Senate without its consent.",
+      "provision_ids": [
+        "CONST-US-ART-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-045",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Supremacy of Constitution and valid federal law",
+      "summary": "The Constitution, federal laws made in pursuance of it, and treaties made under U.S. authority constitute supreme law, binding state judges despite conflicting state law.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only constitutionally valid federal law enjoys supremacy; the clause grants no freestanding legislative power."
+    },
+    {
+      "id": "NORM-US-CONST-046",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Constitutional oath required",
+      "summary": "Specified federal and state officers must be bound by oath or affirmation to support the Constitution.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-047",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No religious test for federal public office",
+      "summary": "No religious test may be required as a qualification for any office or public trust under the United States.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-048",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Religious liberty and non-establishment",
+      "summary": "The First Amendment limits laws respecting establishment of religion or prohibiting free exercise.",
+      "provision_ids": [
+        "CONST-US-AMD-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "The text refers to Congress; modern application to states and other government conduct depends on separately modeled constitutional doctrine."
+    },
+    {
+      "id": "NORM-US-CONST-049",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Freedom of speech and press",
+      "summary": "The First Amendment protects speech and press against covered governmental restrictions.",
+      "provision_ids": [
+        "CONST-US-AMD-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Not an absolute prohibition on every law affecting expression; doctrinal tests and incorporation require separate treatment."
+    },
+    {
+      "id": "NORM-US-CONST-050",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Peaceful assembly and petition",
+      "summary": "The First Amendment protects peaceful assembly and petition for redress of grievances.",
+      "provision_ids": [
+        "CONST-US-AMD-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-051",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Right to keep and bear arms",
+      "summary": "The Second Amendment protects the right of the people to keep and bear arms.",
+      "provision_ids": [
+        "CONST-US-AMD-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope, public-safety regulations, and state application require judicial doctrine; avoid treating the right as unconditional."
+    },
+    {
+      "id": "NORM-US-CONST-052",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Quartering-of-soldiers restriction",
+      "summary": "The Third Amendment restricts quartering soldiers in houses, subject to peace/war distinctions and law.",
+      "provision_ids": [
+        "CONST-US-AMD-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-053",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Searches and seizures",
+      "summary": "The Fourth Amendment protects the people against unreasonable searches and seizures and regulates warrants.",
+      "provision_ids": [
+        "CONST-US-AMD-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-054",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Grand jury and double-jeopardy protections",
+      "summary": "The Fifth Amendment contains federal criminal-procedure protections for covered prosecutions.",
+      "provision_ids": [
+        "CONST-US-AMD-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-055",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Self-incrimination protection",
+      "summary": "The Fifth Amendment protects against compelled self-incrimination in criminal cases.",
+      "provision_ids": [
+        "CONST-US-AMD-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-056",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Fifth Amendment due process",
+      "summary": "The Fifth Amendment forbids deprivation of life, liberty or property without due process of law.",
+      "provision_ids": [
+        "CONST-US-AMD-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-057",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Just compensation for public takings",
+      "summary": "Private property may not be taken for public use without just compensation.",
+      "provision_ids": [
+        "CONST-US-AMD-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-058",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Criminal-trial safeguards",
+      "summary": "The Sixth Amendment protects specified speedy/public trial, jury, notice, confrontation, compulsory process and counsel rights.",
+      "provision_ids": [
+        "CONST-US-AMD-06"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-059",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Civil jury trial protection",
+      "summary": "The Seventh Amendment preserves jury trial in qualifying suits at common law above the textual threshold.",
+      "provision_ids": [
+        "CONST-US-AMD-07"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-060",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Excessive bail, excessive fines and cruel punishments",
+      "summary": "The Eighth Amendment prohibits excessive bail and fines and cruel and unusual punishments.",
+      "provision_ids": [
+        "CONST-US-AMD-08"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-061",
+      "type": "constitutional_norm",
+      "norm_kind": "reservation",
+      "name": "Enumeration does not deny other retained rights",
+      "summary": "The Ninth Amendment says enumeration of constitutional rights shall not be construed to deny or disparage others retained by the people.",
+      "provision_ids": [
+        "CONST-US-AMD-09"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Does not by itself identify the contents of any particular unenumerated right."
+    },
+    {
+      "id": "NORM-US-CONST-062",
+      "type": "constitutional_norm",
+      "norm_kind": "reservation",
+      "name": "Reserved powers",
+      "summary": "Powers not delegated to the United States nor prohibited to the states are reserved to the states respectively or to the people.",
+      "provision_ids": [
+        "CONST-US-AMD-10"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Does not negate powers otherwise validly delegated to the United States."
+    },
+    {
+      "id": "NORM-US-CONST-063",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Eleventh Amendment jurisdictional restriction",
+      "summary": "The Eleventh Amendment limits construction of federal judicial power over specified suits against a state by citizens of another state or foreign citizens or subjects.",
+      "provision_ids": [
+        "CONST-US-AMD-11"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "The full state-sovereign-immunity doctrine is broader and requires separate case-law sources."
+    },
+    {
+      "id": "NORM-US-CONST-064",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Separate electoral ballots and contingent presidential election",
+      "summary": "The Twelfth Amendment prescribes separate presidential and vice-presidential electoral votes and specified contingent elections.",
+      "provision_ids": [
+        "CONST-US-AMD-12"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "A historical presidential transition portion of the original amendment text was superseded by the Twentieth Amendment."
+    },
+    {
+      "id": "NORM-US-CONST-065",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Abolition of slavery and involuntary servitude",
+      "summary": "The Thirteenth Amendment prohibits slavery and involuntary servitude, with an express exception for punishment for crime after due conviction.",
+      "provision_ids": [
+        "CONST-US-AMD-13-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "The Thirteenth Amendment directly prohibits slavery and involuntary servitude by public or private actors, subject to the textual exception for duly convicted crime punishment. Do not presume that every form of compelled work falls within that exception."
+    },
+    {
+      "id": "NORM-US-CONST-066",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional enforcement of Thirteenth Amendment",
+      "summary": "Congress may enforce the Thirteenth Amendment through appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-13-SEC-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-067",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Fourteenth Amendment citizenship",
+      "summary": "The Fourteenth Amendment defines U.S. and state citizenship for persons born or naturalized in the United States and subject to its jurisdiction.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Do not convert textual citizenship language into unsupported conclusions about disputed citizenship applications."
+    },
+    {
+      "id": "NORM-US-CONST-068",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Privileges or immunities of United States citizenship",
+      "summary": "States may not make or enforce laws abridging privileges or immunities of citizens of the United States under the Fourteenth Amendment.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-069",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Fourteenth Amendment due process",
+      "summary": "States may not deprive any person of life, liberty, or property without due process of law.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-070",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Equal protection of the laws",
+      "summary": "States may not deny any person within their jurisdiction equal protection of the laws.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-071",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Fourteenth Amendment insurrection disqualification",
+      "summary": "Section 3 specifies public-office disqualification for certain oath-taking persons engaged in insurrection or rebellion and a congressional removal mechanism.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Procedures, scope, and enforcement actors require review of controlling case law; no self-executing implementation is asserted."
+    },
+    {
+      "id": "NORM-US-CONST-072",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional enforcement of Fourteenth Amendment",
+      "summary": "Congress may enforce the Fourteenth Amendment through appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-073",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Voting restrictions based on race",
+      "summary": "Voting rights of U.S. citizens shall not be denied or abridged by the United States or states because of race, color, or previous condition of servitude.",
+      "provision_ids": [
+        "CONST-US-AMD-15-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-074",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional enforcement of Fifteenth Amendment",
+      "summary": "Congress may enforce the Fifteenth Amendment through appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-15-SEC-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-075",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Income taxation without apportionment",
+      "summary": "Congress may lay and collect income taxes without apportionment among states or regard to a census or enumeration.",
+      "provision_ids": [
+        "CONST-US-AMD-16"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "This does not erase every other constitutional restriction on federal taxation."
+    },
+    {
+      "id": "NORM-US-CONST-076",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Popular election of senators",
+      "summary": "The Seventeenth Amendment replaces state-legislature selection of Senators with popular election and specifies vacancies and temporary appointments.",
+      "provision_ids": [
+        "CONST-US-AMD-17"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "State legislatures may enable temporary gubernatorial appointments under constitutional conditions."
+    },
+    {
+      "id": "NORM-US-CONST-077",
+      "type": "constitutional_norm",
+      "norm_kind": "historic_repealed",
+      "name": "Prohibition historically established and repealed",
+      "summary": "The Eighteenth Amendment once established beverage alcohol prohibition and concurrent enforcement powers; it was repealed by the Twenty-First Amendment.",
+      "provision_ids": [
+        "CONST-US-AMD-18"
+      ],
+      "effect_status": "repealed",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Historical record only. Must not be treated as a currently operative restriction or power."
+    },
+    {
+      "id": "NORM-US-CONST-078",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Voting restrictions based on sex",
+      "summary": "Citizens' voting rights shall not be denied or abridged by the United States or states because of sex.",
+      "provision_ids": [
+        "CONST-US-AMD-19"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-079",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Federal office terms and congressional convening",
+      "summary": "The Twentieth Amendment changes dates for federal presidential/congressional terms and congressional annual convening.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-01",
+        "CONST-US-AMD-20-SEC-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-080",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Presidential transition contingencies",
+      "summary": "The Twentieth Amendment provides rules for president-elect death, failure to qualify and related contingencies.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-081",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Eighteenth Amendment repealed",
+      "summary": "The Twenty-First Amendment repeals the Eighteenth Amendment.",
+      "provision_ids": [
+        "CONST-US-AMD-21-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Repeal is operative; prohibition is not reinstated by recording it in the historical register."
+    },
+    {
+      "id": "NORM-US-CONST-082",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Alcohol importation violating state law",
+      "summary": "The Twenty-First Amendment prohibits transporting or importing intoxicating liquor into a state or covered territory for delivery or use in violation of its law.",
+      "provision_ids": [
+        "CONST-US-AMD-21-SEC-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Interpretation alongside Commerce Clause and other constitutional rules must be modeled separately."
+    },
+    {
+      "id": "NORM-US-CONST-083",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Presidential election term limits",
+      "summary": "The Twenty-Second Amendment limits how many times a person may be elected President, including specified succession scenarios.",
+      "provision_ids": [
+        "CONST-US-AMD-22-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-084",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "District of Columbia presidential electors",
+      "summary": "The Twenty-Third Amendment establishes presidential electors for the District of Columbia under specified population and congressional constraints.",
+      "provision_ids": [
+        "CONST-US-AMD-23-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-085",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Poll-tax restrictions in federal elections",
+      "summary": "The Twenty-Fourth Amendment prohibits denying or abridging citizen voting rights in specified federal elections for failure to pay a poll tax or other tax.",
+      "provision_ids": [
+        "CONST-US-AMD-24-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Text specifically addresses federal elections; state-election protections may involve separate judicial doctrine."
+    },
+    {
+      "id": "NORM-US-CONST-086",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Presidential succession and disability",
+      "summary": "The Twenty-Fifth Amendment establishes mechanisms for succession, vice-presidential vacancies, voluntary inability, and contested inability.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-01",
+        "CONST-US-AMD-25-SEC-02",
+        "CONST-US-AMD-25-SEC-03",
+        "CONST-US-AMD-25-SEC-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Sections set distinct triggering actors, written notices, deadlines and voting thresholds; do not collapse them into an unrestricted removal authority."
+    },
+    {
+      "id": "NORM-US-CONST-087",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Voting restrictions based on age eighteen and older",
+      "summary": "Voting rights of U.S. citizens aged eighteen or older may not be denied or abridged by the United States or states on account of age.",
+      "provision_ids": [
+        "CONST-US-AMD-26-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Does not eliminate other lawful voter qualifications."
+    },
+    {
+      "id": "NORM-US-CONST-088",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional enforcement of Twenty-Sixth Amendment",
+      "summary": "Congress may enforce the Twenty-Sixth Amendment through appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-26-SEC-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-089",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Congressional compensation timing",
+      "summary": "A law varying congressional compensation cannot take effect until an election of Representatives has intervened.",
+      "provision_ids": [
+        "CONST-US-AMD-27"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Scope subject to constitutional text, controlling amendments, and applicable judicial precedent."
+    },
+    {
+      "id": "NORM-US-CONST-090",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Original presidential ballot provisions superseded",
+      "summary": "Original Article II presidential elector voting provisions have been superseded by the Twelfth Amendment.",
+      "provision_ids": [
+        "CONST-US-ART-02-SEC-01-CL-03"
+      ],
+      "effect_status": "superseded",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Historical-only legal change record; no operative procedure may bind to it."
+    },
+    {
+      "id": "NORM-US-CONST-091",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Original Senator selection method superseded",
+      "summary": "The original state-legislature selection of U.S. Senators was superseded by the Seventeenth Amendment.",
+      "provision_ids": [
+        "CONST-US-ART-01-SEC-03-CL-01"
+      ],
+      "effect_status": "superseded",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Historical-only; current selection governed by the Seventeenth Amendment."
+    },
+    {
+      "id": "NORM-US-CONST-092",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Original fugitive-service provision superseded",
+      "summary": "The original Article IV fugitive-service provision was rendered inoperative by the Thirteenth Amendment.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-03"
+      ],
+      "effect_status": "superseded",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Historical-only provision; cannot be asserted as a present enforceable obligation."
+    }
+  ]
+}

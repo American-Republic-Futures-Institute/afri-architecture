@@ -1,0 +1,205 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "ACT-US-FED",
+      "type": "constitutional_actor_class",
+      "name": "United States federal government",
+      "description": "Federal government collectively; no assertion of unitary operational command.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-STATES",
+      "type": "constitutional_actor_class",
+      "name": "States",
+      "description": "States as constitutional members of the Union, including distinct state-government actors.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-STATE-GOV",
+      "type": "constitutional_actor_class",
+      "name": "State governments",
+      "description": "Constitutionally separate state governments; not federal agencies.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-STATE-LEG",
+      "type": "constitutional_actor_class",
+      "name": "State legislatures",
+      "description": "Legislative bodies exercising state constitutional functions.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-STATE-JUDGES",
+      "type": "constitutional_actor_class",
+      "name": "State judges",
+      "description": "State judicial officers bound by applicable constitutional and supreme federal law.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-STATE-EXE",
+      "type": "constitutional_actor_class",
+      "name": "State executives",
+      "description": "State executive authorities when constitutional provisions assign a role.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-PERSONS",
+      "type": "constitutional_actor_class",
+      "name": "Persons",
+      "description": "Persons subject to relevant constitutional protections; not synonymous with citizens.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-PEOPLE",
+      "type": "constitutional_actor_class",
+      "name": "The people",
+      "description": "The people as protected rights-holders and sovereign public; scope is provision-specific.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-CITIZENS",
+      "type": "constitutional_actor_class",
+      "name": "United States citizens",
+      "description": "Citizenship-based rights and eligibility, distinct from rights of all persons.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-VOTERS",
+      "type": "constitutional_actor_class",
+      "name": "Voters",
+      "description": "Eligible voters, subject to qualifications and constitutional restrictions.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-ELECTORS",
+      "type": "constitutional_actor_class",
+      "name": "Presidential electors",
+      "description": "Electors appointed according to constitutional and valid federal/state law.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-CRIMINAL-ACCUSED",
+      "type": "constitutional_actor_class",
+      "name": "Persons accused of crime",
+      "description": "Rights-holders in criminal prosecutions, with scope governed by the provision and law.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-CIVIL-LITIGANTS",
+      "type": "constitutional_actor_class",
+      "name": "Civil litigants",
+      "description": "Parties to civil actions within applicable constitutional scope.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-FED-OFFICERS",
+      "type": "constitutional_actor_class",
+      "name": "Federal officers",
+      "description": "Officers of the United States, subject to applicable office and oath requirements.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-STATE-OFFICERS",
+      "type": "constitutional_actor_class",
+      "name": "State officers",
+      "description": "State executive, legislative and judicial officeholders.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-FED-COURTS",
+      "type": "constitutional_actor_class",
+      "name": "Federal courts",
+      "description": "Article III and other federal courts as applicable; not a claim of identical constitutional tenure.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-DC",
+      "type": "constitutional_actor_class",
+      "name": "District of Columbia",
+      "description": "Federal district, not a State; specific electors under the Twenty-Third Amendment.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-MILITIA",
+      "type": "constitutional_actor_class",
+      "name": "Militia",
+      "description": "Historical constitutional militia concept; not presumed identical to every current military institution.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-NAVAL-ARMED",
+      "type": "constitutional_actor_class",
+      "name": "Armed forces",
+      "description": "Land and naval forces within the constitutional text; modern organization requires statutes.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-OFFICE-CANDIDATES",
+      "type": "constitutional_actor_class",
+      "name": "Office candidates and officeholders",
+      "description": "Individuals subject to eligibility, disqualification, or term-limit provisions.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ assert(manifest.release_status==="research_baseline_unratified","Published as a 
 assert(manifest.models.length===new Set(manifest.models).size,"Repeated model in manifest");
 const mandatory=["branches","legislative","executive-leadership","executive-departments","executive-independent","judiciary","authorities","capabilities","relationships","sources","viewpoints"];
 for(const m of mandatory)assert(manifest.models.includes("model/federal/"+m+".json"),"Missing model "+m);
-const all=Object.fromEntries(manifest.models.map(p=>[path.basename(p,".json"),read(p)]));
+const all=Object.fromEntries(manifest.models.filter(p=>p.startsWith("model/federal/")).map(p=>[path.basename(p,".json"),read(p)]));
 for(const [name,data] of Object.entries(all)) {
   assert(data.model_version===manifest.model_version,"Version mismatch "+name);
   assert(Array.isArray(data.items),"Model missing items array "+name);

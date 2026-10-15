@@ -189,6 +189,60 @@
       "kind": "agency_mission",
       "scope": "Competition and consumer protection",
       "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-ORIGINAL-TRANSCRIPT",
+      "title": "The Constitution of the United States: A Transcription",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "kind": "primary_constitutional_text",
+      "scope": "1787 original text, including provisions modified by amendments; an original-text witness not a consolidated modern restatement",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT",
+      "title": "The Bill of Rights: A Transcription",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "kind": "primary_constitutional_text",
+      "scope": "Amendments I–X; includes original 1789 proposed amendments with different article numbering",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-LATER-AMENDMENTS",
+      "title": "The Constitution: Amendments 11–27",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+      "kind": "primary_constitutional_text",
+      "scope": "Ratification dates, section numbers, modification and repeal notes for Amendments XI–XXVII",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-INTRO",
+      "title": "Constitution Annotated: Preamble, Articles, and Amendments",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/intro-5-3/ALDE_00000023/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Distinguishes constitutional provision text from historical background, doctrinal interpretation and overview",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-PRECEDENT",
+      "title": "Constitution Annotated: Judicial Precedent and Constitutional Interpretation",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/intro-8-4/ALDE_00001305/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Precedent and interpretation must be modeled as claims distinct from text",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-ENUM",
+      "title": "Constitution Annotated: Overview of Taxing Clause",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/artI-S8-C1-1-1/ALDE_00013387/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Article I section 8 clause 1 textual grant and doctrinal qualifications",
+      "accessed_on": "2026-10-15"
     }
   ]
 }

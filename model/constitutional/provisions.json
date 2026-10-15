@@ -1,0 +1,2083 @@
+{
+  "model_version": "0.1.0",
+  "text_policy": "Reference original primary-source transcript. This registry does not claim to reproduce a consolidated operative constitution. Some original provisions have been superseded.",
+  "items": [
+    {
+      "id": "CONST-US",
+      "type": "constitutional_provision",
+      "unit": "constitution",
+      "label": "Constitution of the United States",
+      "parent_id": null,
+      "citation": "U.S. Const.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const.",
+      "effect_status": "mixed",
+      "decomposition_status": "structure_only",
+      "notes": "Document root; original Articles and subsequently ratified amendments. No legal authority is implied by root graph membership."
+    },
+    {
+      "id": "CONST-US-PREAMBLE",
+      "type": "constitutional_provision",
+      "unit": "preamble",
+      "label": "Preamble",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. pmbl.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. pmbl.",
+      "effect_status": "interpretive_context",
+      "decomposition_status": "structure_only",
+      "notes": "Preamble is not itself catalogued as an independent grant of governmental power."
+    },
+    {
+      "id": "CONST-US-ART-01",
+      "type": "constitutional_provision",
+      "unit": "article",
+      "label": "Article I — Legislative Branch",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. art. I",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I",
+      "effect_status": "mixed",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Legislative Vesting",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "House of Representatives",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 2",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Senate",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 3",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-04",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Congressional Elections and Sessions",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 4",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-05",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Proceedings and Discipline",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 5",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 5",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-06",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Compensation, Privileges, and Incompatibility",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 6",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 6",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-07",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Revenue Bills and Legislative Presentment",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 7",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 7",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Enumerated Legislative Powers",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 8",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Restrictions on Federal Power",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 9",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-10",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Restrictions on State Power",
+      "parent_id": "CONST-US-ART-01",
+      "citation": "U.S. Const. art. I, § 10",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 10",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-02",
+      "type": "constitutional_provision",
+      "unit": "article",
+      "label": "Article II — Executive Branch",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. art. II",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II",
+      "effect_status": "mixed",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Executive Vesting, Selection, and Eligibility",
+      "parent_id": "CONST-US-ART-02",
+      "citation": "U.S. Const. art. II, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Presidential Powers",
+      "parent_id": "CONST-US-ART-02",
+      "citation": "U.S. Const. art. II, § 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Presidential Duties",
+      "parent_id": "CONST-US-ART-02",
+      "citation": "U.S. Const. art. II, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 3",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-04",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Impeachment and Removal",
+      "parent_id": "CONST-US-ART-02",
+      "citation": "U.S. Const. art. II, § 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 4",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-03",
+      "type": "constitutional_provision",
+      "unit": "article",
+      "label": "Article III — Judicial Branch",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. art. III",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III",
+      "effect_status": "mixed",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Judicial Vesting and Judicial Tenure",
+      "parent_id": "CONST-US-ART-03",
+      "citation": "U.S. Const. art. III, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Judicial Jurisdiction and Trial",
+      "parent_id": "CONST-US-ART-03",
+      "citation": "U.S. Const. art. III, § 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 2",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Treason",
+      "parent_id": "CONST-US-ART-03",
+      "citation": "U.S. Const. art. III, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 3",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-04",
+      "type": "constitutional_provision",
+      "unit": "article",
+      "label": "Article IV — Relations Among States",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. art. IV",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV",
+      "effect_status": "mixed",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Full Faith and Credit",
+      "parent_id": "CONST-US-ART-04",
+      "citation": "U.S. Const. art. IV, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Interstate Privileges, Extradition, and Superseded Service Clause",
+      "parent_id": "CONST-US-ART-04",
+      "citation": "U.S. Const. art. IV, § 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 2",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Admission of States and Federal Property",
+      "parent_id": "CONST-US-ART-04",
+      "citation": "U.S. Const. art. IV, § 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 3",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-04",
+      "type": "constitutional_provision",
+      "unit": "article_section",
+      "label": "Republican Government and Protection",
+      "parent_id": "CONST-US-ART-04",
+      "citation": "U.S. Const. art. IV, § 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 4",
+      "effect_status": "operative",
+      "decomposition_status": "structure_only"
+    },
+    {
+      "id": "CONST-US-ART-05",
+      "type": "constitutional_provision",
+      "unit": "article",
+      "label": "Article V — Constitutional Amendment",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. art. V",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. V",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-ART-06",
+      "type": "constitutional_provision",
+      "unit": "article",
+      "label": "Article VI — Supremacy, Debts, Oaths, and Religious Tests",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. art. VI",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. VI",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-ART-07",
+      "type": "constitutional_provision",
+      "unit": "article",
+      "label": "Article VII — Ratification",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. art. VII",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. VII",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Taxing, Spending, and Uniformity of Duties",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may levy taxes and provide for common defense/general welfare, subject to qualifications."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Borrowing",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may borrow on the credit of the United States."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Commerce",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may regulate commerce with foreign nations, among states, and with Indian tribes."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-04",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Naturalization and Bankruptcy",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 4",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may establish uniform naturalization rules and bankruptcy laws."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-05",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Coinage and Monetary Standards",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 5",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 5",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may coin money and regulate its value, and fix standards of weights and measures."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-06",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Counterfeiting",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 6",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 6",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may provide punishment for counterfeiting federal securities and coin."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-07",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Post Offices and Post Roads",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 7",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 7",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may establish post offices and post roads."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-08",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Copyrights and Patents",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 8",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 8",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may secure limited exclusive rights for authors and inventors to promote progress."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-09",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Lower Federal Courts",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 9",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 9",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may constitute tribunals inferior to the Supreme Court."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-10",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Piracies and Law of Nations",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 10",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 10",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may define and punish piracies, high-seas felonies, and offenses against the law of nations."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-11",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Declare War and Maritime Captures",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 11",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 11",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may declare war and grant letters of marque and reprisal, with capture rules."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-12",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Armies",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 12",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 12",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may raise and support armies, subject to the two-year appropriation limit."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-13",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Navy",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 13",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 13",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may provide and maintain a navy."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-14",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Military Rules",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 14",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 14",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may make rules governing and regulating land and naval forces."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-15",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Call Forth Militia",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 15",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 15",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may provide for calling forth militia for specified purposes."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-16",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Organize, Arm, and Discipline Militia",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 16",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 16",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may provide for organizing, arming and disciplining militia subject to reserved state functions."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-17",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "District and Federal Enclaves",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 17",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 17",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may exercise specified exclusive legislation over the federal district and acquired places."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-08-CL-18",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Necessary and Proper",
+      "parent_id": "CONST-US-ART-01-SEC-08",
+      "citation": "U.S. Const. art. I, § 8, cl. 18",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 8, cl. 18",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "notes": "Congress may enact laws necessary and proper to execute constitutionally vested federal powers."
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-01-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Vesting of Legislative Power",
+      "parent_id": "CONST-US-ART-01-SEC-01",
+      "citation": "U.S. Const. art. I, § 1, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 1, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-02-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Original Apportionment and Direct Taxes",
+      "parent_id": "CONST-US-ART-01-SEC-02",
+      "citation": "U.S. Const. art. I, § 2, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 2, cl. 3",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-02-CL-05",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "House Impeachment Authority",
+      "parent_id": "CONST-US-ART-01-SEC-02",
+      "citation": "U.S. Const. art. I, § 2, cl. 5",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 2, cl. 5",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-03-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Original Method of Selecting Senators",
+      "parent_id": "CONST-US-ART-01-SEC-03",
+      "citation": "U.S. Const. art. I, § 3, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 3, cl. 1",
+      "effect_status": "superseded",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-03-CL-04",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Vice President as President of the Senate",
+      "parent_id": "CONST-US-ART-01-SEC-03",
+      "citation": "U.S. Const. art. I, § 3, cl. 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 3, cl. 4",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-03-CL-06",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Senate Impeachment Trials",
+      "parent_id": "CONST-US-ART-01-SEC-03",
+      "citation": "U.S. Const. art. I, § 3, cl. 6",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 3, cl. 6",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-04-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Annual Sessions (Original Schedule)",
+      "parent_id": "CONST-US-ART-01-SEC-04",
+      "citation": "U.S. Const. art. I, § 4, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 4, cl. 2",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-07-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Revenue-Bill Origination",
+      "parent_id": "CONST-US-ART-01-SEC-07",
+      "citation": "U.S. Const. art. I, § 7, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 7, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-07-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Presentment and Veto",
+      "parent_id": "CONST-US-ART-01-SEC-07",
+      "citation": "U.S. Const. art. I, § 7, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 7, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Original Migration and Importation Temporal Restriction",
+      "parent_id": "CONST-US-ART-01-SEC-09",
+      "citation": "U.S. Const. art. I, § 9, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9, cl. 1",
+      "effect_status": "expired",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Suspension of Habeas Corpus",
+      "parent_id": "CONST-US-ART-01-SEC-09",
+      "citation": "U.S. Const. art. I, § 9, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Federal Bills of Attainder and Ex Post Facto Laws",
+      "parent_id": "CONST-US-ART-01-SEC-09",
+      "citation": "U.S. Const. art. I, § 9, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09-CL-04",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Direct Tax Apportionment (Qualified by Sixteenth Amendment)",
+      "parent_id": "CONST-US-ART-01-SEC-09",
+      "citation": "U.S. Const. art. I, § 9, cl. 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9, cl. 4",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09-CL-05",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "No Federal Export Duties",
+      "parent_id": "CONST-US-ART-01-SEC-09",
+      "citation": "U.S. Const. art. I, § 9, cl. 5",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9, cl. 5",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09-CL-07",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Appropriations and Treasury Accounts",
+      "parent_id": "CONST-US-ART-01-SEC-09",
+      "citation": "U.S. Const. art. I, § 9, cl. 7",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9, cl. 7",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-09-CL-08",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Titles of Nobility and Foreign Emoluments",
+      "parent_id": "CONST-US-ART-01-SEC-09",
+      "citation": "U.S. Const. art. I, § 9, cl. 8",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 9, cl. 8",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-10-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Prohibitions on Certain State Powers",
+      "parent_id": "CONST-US-ART-01-SEC-10",
+      "citation": "U.S. Const. art. I, § 10, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 10, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-10-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "State Import and Export Duty Limits",
+      "parent_id": "CONST-US-ART-01-SEC-10",
+      "citation": "U.S. Const. art. I, § 10, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 10, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-01-SEC-10-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "State Compacts and War-Power Limits",
+      "parent_id": "CONST-US-ART-01-SEC-10",
+      "citation": "U.S. Const. art. I, § 10, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. I, § 10, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Executive Vesting",
+      "parent_id": "CONST-US-ART-02-SEC-01",
+      "citation": "U.S. Const. art. II, § 1, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "State Appointment of Presidential Electors",
+      "parent_id": "CONST-US-ART-02-SEC-01",
+      "citation": "U.S. Const. art. II, § 1, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Original Presidential Electoral Ballot Procedure",
+      "parent_id": "CONST-US-ART-02-SEC-01",
+      "citation": "U.S. Const. art. II, § 1, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1, cl. 3",
+      "effect_status": "superseded",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01-CL-05",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Presidential Eligibility",
+      "parent_id": "CONST-US-ART-02-SEC-01",
+      "citation": "U.S. Const. art. II, § 1, cl. 5",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1, cl. 5",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-01-CL-06",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Original Presidential Succession Text",
+      "parent_id": "CONST-US-ART-02-SEC-01",
+      "citation": "U.S. Const. art. II, § 1, cl. 6",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 1, cl. 6",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-02-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Commander in Chief, Opinions and Pardons",
+      "parent_id": "CONST-US-ART-02-SEC-02",
+      "citation": "U.S. Const. art. II, § 2, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 2, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-02-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Treaties and Federal Appointments",
+      "parent_id": "CONST-US-ART-02-SEC-02",
+      "citation": "U.S. Const. art. II, § 2, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 2, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-02-SEC-02-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Recess Appointments",
+      "parent_id": "CONST-US-ART-02-SEC-02",
+      "citation": "U.S. Const. art. II, § 2, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. II, § 2, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-02-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Federal Judicial Cases and Controversies",
+      "parent_id": "CONST-US-ART-03-SEC-02",
+      "citation": "U.S. Const. art. III, § 2, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 2, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-03-SEC-02-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Original and Appellate Supreme Court Jurisdiction",
+      "parent_id": "CONST-US-ART-03-SEC-02",
+      "citation": "U.S. Const. art. III, § 2, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. III, § 2, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-02-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Interstate Privileges and Immunities",
+      "parent_id": "CONST-US-ART-04-SEC-02",
+      "citation": "U.S. Const. art. IV, § 2, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 2, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-02-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Interstate Extradition",
+      "parent_id": "CONST-US-ART-04-SEC-02",
+      "citation": "U.S. Const. art. IV, § 2, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 2, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-02-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Original Fugitive-Service Clause",
+      "parent_id": "CONST-US-ART-04-SEC-02",
+      "citation": "U.S. Const. art. IV, § 2, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 2, cl. 3",
+      "effect_status": "superseded",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-03-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Admission of New States",
+      "parent_id": "CONST-US-ART-04-SEC-03",
+      "citation": "U.S. Const. art. IV, § 3, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 3, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-03-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Territorial and Property Clause",
+      "parent_id": "CONST-US-ART-04-SEC-03",
+      "citation": "U.S. Const. art. IV, § 3, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 3, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-06-CL-01",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Public Debts and Obligations",
+      "parent_id": "CONST-US-ART-06",
+      "citation": "U.S. Const. art. VI, cl. 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. VI, cl. 1",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-06-CL-02",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Supremacy of Constitution, Valid Federal Law and Treaties",
+      "parent_id": "CONST-US-ART-06",
+      "citation": "U.S. Const. art. VI, cl. 2",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. VI, cl. 2",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-06-CL-03",
+      "type": "constitutional_provision",
+      "unit": "article_clause",
+      "label": "Constitutional Oaths and No Religious Tests",
+      "parent_id": "CONST-US-ART-06",
+      "citation": "U.S. Const. art. VI, cl. 3",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. VI, cl. 3",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-AMD-01",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 1 — Religion, Speech, Press, Assembly, and Petition",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. I",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. I",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-02",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 2 — Right to Keep and Bear Arms",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. II",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. II",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-03",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 3 — Quartering of Soldiers",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. III",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. III",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-04",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 4 — Searches and Seizures",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. IV",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. IV",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-05",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 5 — Criminal Procedure, Due Process, and Takings",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. V",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. V",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-06",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 6 — Criminal Trial Protections",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. VI",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VI",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-07",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 7 — Civil Jury Trial",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. VII",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VII",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-08",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 8 — Bail, Fines, and Punishments",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. VIII",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. VIII",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-09",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 9 — Unenumerated Rights",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. IX",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. IX",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-10",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 10 — Reserved Powers",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. X",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. amend. X",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1791-12-15"
+    },
+    {
+      "id": "CONST-US-AMD-11",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 11 — State Sovereign Immunity and Federal Judicial Power",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XI",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XI",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1795-02-07"
+    },
+    {
+      "id": "CONST-US-AMD-12",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 12 — Electoral College Balloting for President and Vice President",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XII",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1804-06-15"
+    },
+    {
+      "id": "CONST-US-AMD-13",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 13 — Abolition of Slavery and Involuntary Servitude",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XIII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIII",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1865-12-06"
+    },
+    {
+      "id": "CONST-US-AMD-13-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 13, Section 1",
+      "parent_id": "CONST-US-AMD-13",
+      "citation": "U.S. Const. amend. XIII, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIII, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-13-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 13, Section 2",
+      "parent_id": "CONST-US-AMD-13",
+      "citation": "U.S. Const. amend. XIII, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIII, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-14",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 14 — Citizenship, Rights, Representation, Disqualification, and Public Debt",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XIV",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIV",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1868-07-09"
+    },
+    {
+      "id": "CONST-US-AMD-14-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 14, Section 1",
+      "parent_id": "CONST-US-AMD-14",
+      "citation": "U.S. Const. amend. XIV, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIV, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-14-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 14, Section 2",
+      "parent_id": "CONST-US-AMD-14",
+      "citation": "U.S. Const. amend. XIV, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIV, § 2",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-14-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 14, Section 3",
+      "parent_id": "CONST-US-AMD-14",
+      "citation": "U.S. Const. amend. XIV, § 3",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIV, § 3",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-14-SEC-04",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 14, Section 4",
+      "parent_id": "CONST-US-AMD-14",
+      "citation": "U.S. Const. amend. XIV, § 4",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIV, § 4",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-14-SEC-05",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 14, Section 5",
+      "parent_id": "CONST-US-AMD-14",
+      "citation": "U.S. Const. amend. XIV, § 5",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIV, § 5",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-15",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 15 — Race and Voting Restrictions",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XV",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XV",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1870-02-03"
+    },
+    {
+      "id": "CONST-US-AMD-15-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 15, Section 1",
+      "parent_id": "CONST-US-AMD-15",
+      "citation": "U.S. Const. amend. XV, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XV, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-15-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 15, Section 2",
+      "parent_id": "CONST-US-AMD-15",
+      "citation": "U.S. Const. amend. XV, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XV, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-16",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 16 — Income Taxation Without Apportionment",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XVI",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XVI",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1913-02-03"
+    },
+    {
+      "id": "CONST-US-AMD-17",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 17 — Direct Election of Senators",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XVII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XVII",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1913-04-08"
+    },
+    {
+      "id": "CONST-US-AMD-18",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 18 — Prohibition of Intoxicating Liquors (Repealed)",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XVIII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XVIII",
+      "effect_status": "repealed",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1919-01-16"
+    },
+    {
+      "id": "CONST-US-AMD-18-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 18, Section 1",
+      "parent_id": "CONST-US-AMD-18",
+      "citation": "U.S. Const. amend. XVIII, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XVIII, § 1",
+      "effect_status": "repealed",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-18-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 18, Section 2",
+      "parent_id": "CONST-US-AMD-18",
+      "citation": "U.S. Const. amend. XVIII, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XVIII, § 2",
+      "effect_status": "repealed",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-18-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 18, Section 3",
+      "parent_id": "CONST-US-AMD-18",
+      "citation": "U.S. Const. amend. XVIII, § 3",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XVIII, § 3",
+      "effect_status": "repealed",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-19",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 19 — Voting Restrictions Based on Sex",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XIX",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XIX",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1920-08-18"
+    },
+    {
+      "id": "CONST-US-AMD-20",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 20 — Federal Term Dates and Presidential Transition",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XX",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XX",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1933-01-23"
+    },
+    {
+      "id": "CONST-US-AMD-20-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 20, Section 1",
+      "parent_id": "CONST-US-AMD-20",
+      "citation": "U.S. Const. amend. XX, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XX, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-20-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 20, Section 2",
+      "parent_id": "CONST-US-AMD-20",
+      "citation": "U.S. Const. amend. XX, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XX, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-20-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 20, Section 3",
+      "parent_id": "CONST-US-AMD-20",
+      "citation": "U.S. Const. amend. XX, § 3",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XX, § 3",
+      "effect_status": "modified_in_part",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-20-SEC-04",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 20, Section 4",
+      "parent_id": "CONST-US-AMD-20",
+      "citation": "U.S. Const. amend. XX, § 4",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XX, § 4",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-20-SEC-05",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 20, Section 5",
+      "parent_id": "CONST-US-AMD-20",
+      "citation": "U.S. Const. amend. XX, § 5",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XX, § 5",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-20-SEC-06",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 20, Section 6",
+      "parent_id": "CONST-US-AMD-20",
+      "citation": "U.S. Const. amend. XX, § 6",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XX, § 6",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-21",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 21 — Repeal of Prohibition and Interstate Liquor Regulation",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XXI",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXI",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1933-12-05"
+    },
+    {
+      "id": "CONST-US-AMD-21-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 21, Section 1",
+      "parent_id": "CONST-US-AMD-21",
+      "citation": "U.S. Const. amend. XXI, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXI, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-21-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 21, Section 2",
+      "parent_id": "CONST-US-AMD-21",
+      "citation": "U.S. Const. amend. XXI, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXI, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-21-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 21, Section 3",
+      "parent_id": "CONST-US-AMD-21",
+      "citation": "U.S. Const. amend. XXI, § 3",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXI, § 3",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-22",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 22 — Limits on Election to the Presidency",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XXII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXII",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1951-02-27"
+    },
+    {
+      "id": "CONST-US-AMD-22-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 22, Section 1",
+      "parent_id": "CONST-US-AMD-22",
+      "citation": "U.S. Const. amend. XXII, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXII, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-22-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 22, Section 2",
+      "parent_id": "CONST-US-AMD-22",
+      "citation": "U.S. Const. amend. XXII, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXII, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-23",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 23 — Presidential Electors for the District of Columbia",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XXIII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXIII",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1961-03-29"
+    },
+    {
+      "id": "CONST-US-AMD-23-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 23, Section 1",
+      "parent_id": "CONST-US-AMD-23",
+      "citation": "U.S. Const. amend. XXIII, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXIII, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-23-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 23, Section 2",
+      "parent_id": "CONST-US-AMD-23",
+      "citation": "U.S. Const. amend. XXIII, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXIII, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-24",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 24 — Poll Taxes in Federal Elections",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XXIV",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXIV",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1964-01-23"
+    },
+    {
+      "id": "CONST-US-AMD-24-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 24, Section 1",
+      "parent_id": "CONST-US-AMD-24",
+      "citation": "U.S. Const. amend. XXIV, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXIV, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-24-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 24, Section 2",
+      "parent_id": "CONST-US-AMD-24",
+      "citation": "U.S. Const. amend. XXIV, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXIV, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-25",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 25 — Presidential and Vice-Presidential Succession and Disability",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XXV",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXV",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1967-02-10"
+    },
+    {
+      "id": "CONST-US-AMD-25-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 25, Section 1",
+      "parent_id": "CONST-US-AMD-25",
+      "citation": "U.S. Const. amend. XXV, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXV, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-25-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 25, Section 2",
+      "parent_id": "CONST-US-AMD-25",
+      "citation": "U.S. Const. amend. XXV, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXV, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-25-SEC-03",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 25, Section 3",
+      "parent_id": "CONST-US-AMD-25",
+      "citation": "U.S. Const. amend. XXV, § 3",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXV, § 3",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-25-SEC-04",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 25, Section 4",
+      "parent_id": "CONST-US-AMD-25",
+      "citation": "U.S. Const. amend. XXV, § 4",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXV, § 4",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-26",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 26 — Voting Restrictions Based on Age",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XXVI",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXVI",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1971-07-01"
+    },
+    {
+      "id": "CONST-US-AMD-26-SEC-01",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 26, Section 1",
+      "parent_id": "CONST-US-AMD-26",
+      "citation": "U.S. Const. amend. XXVI, § 1",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXVI, § 1",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-26-SEC-02",
+      "type": "constitutional_provision",
+      "unit": "amendment_section",
+      "label": "Amendment 26, Section 2",
+      "parent_id": "CONST-US-AMD-26",
+      "citation": "U.S. Const. amend. XXVI, § 2",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXVI, § 2",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed"
+    },
+    {
+      "id": "CONST-US-AMD-27",
+      "type": "constitutional_provision",
+      "unit": "amendment",
+      "label": "Amendment 27 — Congressional Compensation Timing",
+      "parent_id": "CONST-US",
+      "citation": "U.S. Const. amend. XXVII",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "source_locator": "U.S. Const. amend. XXVII",
+      "effect_status": "operative",
+      "decomposition_status": "partially_decomposed",
+      "ratified_on": "1992-05-07"
+    }
+  ]
+}
