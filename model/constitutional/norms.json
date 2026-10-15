@@ -3040,12 +3040,12 @@
       "provision_ids": [
         "CONST-US-ART-03-SEC-02-CL-01"
       ],
-      "effect_status": "operative",
+      "effect_status": "modified_in_part",
       "interpretation_status": "textual_summary_pending_legal_review",
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "qualifications": "Article III original foreign-party controversy language is qualified in part by the Eleventh Amendment and subsequent sovereign-immunity doctrine; the original federal judicial category remains subject to separate statutory jurisdiction.",
       "article_iii_increment": "2026-10-15"
     },
     {

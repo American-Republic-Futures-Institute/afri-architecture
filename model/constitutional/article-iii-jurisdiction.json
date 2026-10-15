@@ -13,11 +13,11 @@
         "AIII-QUAL-02-01-FEDERAL-QUESTION"
       ],
       "constitutional_effect_status": "operative",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     },
     {
       "id": "AIII-JUR-02",
@@ -31,11 +31,11 @@
         "AIII-QUAL-02-01-DIPLOMATS"
       ],
       "constitutional_effect_status": "operative",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     },
     {
       "id": "AIII-JUR-03",
@@ -49,11 +49,11 @@
         "AIII-QUAL-02-01-ADMIRALTY"
       ],
       "constitutional_effect_status": "operative",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     },
     {
       "id": "AIII-JUR-04",
@@ -67,11 +67,11 @@
         "AIII-QUAL-02-01-US-PARTY"
       ],
       "constitutional_effect_status": "operative",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     },
     {
       "id": "AIII-JUR-05",
@@ -85,11 +85,11 @@
         "AIII-QUAL-02-01-STATE-STATE"
       ],
       "constitutional_effect_status": "operative",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     },
     {
       "id": "AIII-JUR-06",
@@ -104,12 +104,12 @@
         "AIII-QUAL-02-01-ELEVENTH-AMENDMENT"
       ],
       "constitutional_effect_status": "modified_in_part",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-LATER-AMENDMENTS"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     },
     {
       "id": "AIII-JUR-07",
@@ -123,11 +123,11 @@
         "AIII-QUAL-02-01-DIVERSE-CITIZENS"
       ],
       "constitutional_effect_status": "operative",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     },
     {
       "id": "AIII-JUR-08",
@@ -141,11 +141,11 @@
         "AIII-QUAL-02-01-DIFFERENT-STATE-LAND-GRANTS"
       ],
       "constitutional_effect_status": "operative",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     },
     {
       "id": "AIII-JUR-09",
@@ -160,12 +160,12 @@
         "AIII-QUAL-02-01-ELEVENTH-AMENDMENT"
       ],
       "constitutional_effect_status": "modified_in_part",
-      "statutory_jurisdiction_required": true,
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-CONST-LATER-AMENDMENTS"
       ],
-      "review_status": "research_jurisdiction_mapping_pending_legal_review"
+      "review_status": "research_jurisdiction_mapping_pending_legal_review",
+      "does_not_self_authorize_inferior_court_jurisdiction": true
     }
   ]
 }
