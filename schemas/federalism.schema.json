@@ -1,0 +1,487 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/federalism.schema.json",
+  "title": "ARFI-COA Federalism Source Model v0.1.0",
+  "description": "Five typed, render-neutral data collections for constitutional federalism. Cross-document, normative and temporal checks are in scripts/validate-federalism.mjs. No automatic agency delegation is implied.",
+  "$defs": {
+    "ref": {
+      "type": "string",
+      "minLength": 3
+    },
+    "refs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "nullableRef": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "unit": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "family",
+        "unit_index",
+        "unit_kind",
+        "provision_id",
+        "name",
+        "summary",
+        "effect_status",
+        "norm_ids",
+        "qualification_ids",
+        "relationship_ids",
+        "capability_link_ids",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^FED-UNIT-"
+        },
+        "type": {
+          "const": "federalism_unit_analysis"
+        },
+        "family": {
+          "enum": [
+            "article_iv",
+            "article_vi",
+            "amendment"
+          ]
+        },
+        "section": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "unit_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "unit_kind": {
+          "enum": [
+            "analytic_segment",
+            "numbered_clause",
+            "article_clause",
+            "amendment",
+            "amendment_section"
+          ]
+        },
+        "provision_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "name": {
+          "$ref": "#/$defs/ref"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 15
+        },
+        "effect_status": {
+          "enum": [
+            "operative",
+            "modified_in_part",
+            "superseded"
+          ]
+        },
+        "norm_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "relationship_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "capability_link_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "textual_summary_pending_legal_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualification": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "kind",
+        "name",
+        "summary",
+        "source_provision_ids",
+        "applies_to_norm_ids",
+        "effect_status",
+        "origin",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^FED-QUAL-"
+        },
+        "type": {
+          "const": "federalism_qualification"
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 3
+        },
+        "name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 12
+        },
+        "source_provision_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "applies_to_norm_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "effect_status": {
+          "enum": [
+            "operative",
+            "historical_only",
+            "amendment_modified",
+            "research_boundary"
+          ]
+        },
+        "origin": {
+          "enum": [
+            "original_text",
+            "historical_text",
+            "amendment_overlay",
+            "interpretive_boundary"
+          ]
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "research_textual_summary_pending_legal_review"
+        },
+        "note": {
+          "type": "string"
+        },
+        "cross_article_qualification_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationship": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit_id",
+        "norm_id",
+        "relationship_type",
+        "subject_actor_id",
+        "counterparty_actor_id",
+        "qualification_ids",
+        "effect_status",
+        "source_ids",
+        "review_status",
+        "classification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^FED-REL-[0-9]{4}$"
+        },
+        "type": {
+          "const": "constitutional_federalism_relationship"
+        },
+        "unit_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "norm_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "relationship_type": {
+          "type": "string",
+          "minLength": 4
+        },
+        "subject_actor_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "counterparty_actor_id": {
+          "$ref": "#/$defs/nullableRef"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "effect_status": {
+          "const": "operative"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "research_mapping_pending_review"
+        },
+        "classification": {
+          "const": "legal_role_relationship_not_organizational_hierarchy"
+        }
+      },
+      "additionalProperties": false
+    },
+    "right": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "interest_kind",
+        "unit_id",
+        "norm_id",
+        "holder_actor_id",
+        "addressee_actor_id",
+        "qualification_ids",
+        "description",
+        "source_ids",
+        "review_status",
+        "not_independent_judicial_holding"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^FED-RIGHT-[0-9]{2}$"
+        },
+        "type": {
+          "const": "constitutional_protected_interest"
+        },
+        "interest_kind": {
+          "type": "string",
+          "minLength": 4
+        },
+        "unit_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "norm_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "holder_actor_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "addressee_actor_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 20
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "research_textual_summary_pending_legal_review"
+        },
+        "not_independent_judicial_holding": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "capabilityLink": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit_id",
+        "constitutional_norm_id",
+        "capability_id",
+        "qualification_ids",
+        "relationship_type",
+        "rationale",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^FED-CAP-[0-9]{4}$"
+        },
+        "type": {
+          "const": "federalism_capability_alignment"
+        },
+        "unit_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "constitutional_norm_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "capability_id": {
+          "type": "string",
+          "pattern": "^CAP-FED-"
+        },
+        "qualification_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "relationship_type": {
+          "const": "functional_alignment_not_delegation"
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 20
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "research_mapping_pending_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "unitsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/unit"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualificationsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/qualification"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationshipsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/relationship"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "rightsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/right"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "capabilityLinksCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/capabilityLink"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/unitsCollection"
+    },
+    {
+      "$ref": "#/$defs/qualificationsCollection"
+    },
+    {
+      "$ref": "#/$defs/relationshipsCollection"
+    },
+    {
+      "$ref": "#/$defs/rightsCollection"
+    },
+    {
+      "$ref": "#/$defs/capabilityLinksCollection"
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FED-CAP-0001",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-01-01",
+      "constitutional_norm_id": "NORM-US-CONST-036",
+      "capability_id": "CAP-FED-49",
+      "qualification_ids": [
+        "FED-QUAL-IV-01-RECORDS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0002",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-01-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-01-RECOGNITION-SCOPE",
+      "capability_id": "CAP-FED-49",
+      "qualification_ids": [
+        "FED-QUAL-IV-01-RECORDS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0003",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-01-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-01-CONGRESS-PROOF",
+      "capability_id": "CAP-FED-49",
+      "qualification_ids": [
+        "FED-QUAL-IV-01-CONGRESS-GENERAL-LAWS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0004",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-02-01",
+      "constitutional_norm_id": "NORM-US-CONST-037",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-IV-02-STATE-CITIZENS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0005",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-02-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-02-CITIZEN-INTERSTATE",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-IV-02-STATE-CITIZENS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0006",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-02-02",
+      "constitutional_norm_id": "NORM-US-CONST-038",
+      "capability_id": "CAP-FED-49",
+      "qualification_ids": [
+        "FED-QUAL-IV-02-CHARGED-PERSON"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0007",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-02-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND",
+      "capability_id": "CAP-FED-49",
+      "qualification_ids": [
+        "FED-QUAL-IV-02-CHARGED-PERSON"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0008",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-03-01",
+      "constitutional_norm_id": "NORM-US-CONST-039",
+      "capability_id": "CAP-FED-50",
+      "qualification_ids": [
+        "FED-QUAL-IV-03-CONGRESS-ADMISSION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0009",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-03-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-03-STATE-CONSENTS",
+      "capability_id": "CAP-FED-50",
+      "qualification_ids": [
+        "FED-QUAL-IV-03-STATE-LEGISLATURE-CONSENT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0010",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-03-02",
+      "constitutional_norm_id": "NORM-US-CONST-040",
+      "capability_id": "CAP-FED-50",
+      "qualification_ids": [
+        "FED-QUAL-IV-03-FEDERAL-TERRITORY-ONLY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0011",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-03-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-03-PROPERTY-CLAIMS",
+      "capability_id": "CAP-FED-50",
+      "qualification_ids": [
+        "FED-QUAL-IV-03-US-STATE-CLAIMS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0012",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-04-01",
+      "constitutional_norm_id": "NORM-US-CONST-041",
+      "capability_id": "CAP-FED-51",
+      "qualification_ids": [
+        "FED-QUAL-IV-04-REPUBLICAN-STATE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0013",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-04-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-04-REPUBLICAN",
+      "capability_id": "CAP-FED-51",
+      "qualification_ids": [
+        "FED-QUAL-IV-04-REPUBLICAN-STATE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0014",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-04-02",
+      "constitutional_norm_id": "NORM-US-CONST-041",
+      "capability_id": "CAP-FED-51",
+      "qualification_ids": [
+        "FED-QUAL-IV-04-INVASION-ALL-STATES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0015",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-04-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-04-INVASION",
+      "capability_id": "CAP-FED-51",
+      "qualification_ids": [
+        "FED-QUAL-IV-04-INVASION-ALL-STATES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0016",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-04-03",
+      "constitutional_norm_id": "NORM-US-CONST-041",
+      "capability_id": "CAP-FED-51",
+      "qualification_ids": [
+        "FED-QUAL-IV-04-DOMESTIC-LEGISLATURE-REQUEST"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0017",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-IV-04-03",
+      "constitutional_norm_id": "NORM-US-CONST-FED-IV-04-DOMESTIC",
+      "capability_id": "CAP-FED-51",
+      "qualification_ids": [
+        "FED-QUAL-IV-04-DOMESTIC-LEGISLATURE-REQUEST"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0018",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-VI-01-OBLIGATION",
+      "capability_id": "CAP-FED-09",
+      "qualification_ids": [
+        "FED-QUAL-VI-01-HISTORICAL-DEBTS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0019",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-02",
+      "constitutional_norm_id": "NORM-US-CONST-045",
+      "capability_id": "CAP-FED-52",
+      "qualification_ids": [
+        "FED-QUAL-VI-02-CONSTITUTION-SUPREME"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0020",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-VI-02-STATE-JUDGES",
+      "capability_id": "CAP-FED-52",
+      "qualification_ids": [
+        "FED-QUAL-VI-02-CONSTITUTION-SUPREME"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0021",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-VI-02-LAW-PURSUANT",
+      "capability_id": "CAP-FED-52",
+      "qualification_ids": [
+        "FED-QUAL-VI-02-LAWS-IN-PURSUANCE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0022",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-VI-02-TREATIES-AUTHORITY",
+      "capability_id": "CAP-FED-52",
+      "qualification_ids": [
+        "FED-QUAL-VI-02-TREATIES-US-AUTHORITY"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0023",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-03",
+      "constitutional_norm_id": "NORM-US-CONST-046",
+      "capability_id": "CAP-FED-52",
+      "qualification_ids": [
+        "FED-QUAL-VI-03-FEDERAL-OATHS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0024",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-03",
+      "constitutional_norm_id": "NORM-US-CONST-047",
+      "capability_id": "CAP-FED-52",
+      "qualification_ids": [
+        "FED-QUAL-VI-03-NO-FEDERAL-RELIGIOUS-TEST"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0025",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-03",
+      "constitutional_norm_id": "NORM-US-CONST-FED-VI-03-STATE-LEG-OATH",
+      "capability_id": "CAP-FED-52",
+      "qualification_ids": [
+        "FED-QUAL-VI-03-STATE-OATHS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0026",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-VI-03",
+      "constitutional_norm_id": "NORM-US-CONST-FED-VI-03-FED-LEG-OATH",
+      "capability_id": "CAP-FED-52",
+      "qualification_ids": [
+        "FED-QUAL-VI-03-FEDERAL-OATHS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0027",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-X-01",
+      "constitutional_norm_id": "NORM-US-CONST-062",
+      "capability_id": "CAP-FED-48",
+      "qualification_ids": [
+        "FED-QUAL-X-NOT-DELEGATED-NOT-PROHIBITED"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0028",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-X-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-X-UNDELEGATED",
+      "capability_id": "CAP-FED-48",
+      "qualification_ids": [
+        "FED-QUAL-X-NOT-DELEGATED-NOT-PROHIBITED"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0029",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XI-01",
+      "constitutional_norm_id": "NORM-US-CONST-063",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "FED-QUAL-XI-COVERED-SUITS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0030",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XI-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XI-LIMITED-SUITS",
+      "capability_id": "CAP-FED-44",
+      "qualification_ids": [
+        "FED-QUAL-XI-COVERED-SUITS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0031",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-01",
+      "constitutional_norm_id": "NORM-US-CONST-067",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-BORN-NATURALIZED-JURISDICTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0032",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-01",
+      "constitutional_norm_id": "NORM-US-CONST-068",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-US-CITIZENS-PRIVILEGES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0033",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-01",
+      "constitutional_norm_id": "NORM-US-CONST-069",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-PERSONS-DUE-PROCESS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0034",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-01",
+      "constitutional_norm_id": "NORM-US-CONST-070",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-PERSONS-EQUAL-PROTECTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0035",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-01-STATE-CITIZENSHIP",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-BORN-NATURALIZED-JURISDICTION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0036",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-01",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-XIV-01-US-CITIZENS-PRIVILEGES"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0037",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-02-APPORTIONMENT",
+      "capability_id": "CAP-FED-54",
+      "qualification_ids": [
+        "FED-QUAL-XIV-02-REPRESENTATIVES-APPORTIONED"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0038",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-02",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-02-VOTE-ABRIDGMENT",
+      "capability_id": "CAP-FED-54",
+      "qualification_ids": [
+        "FED-QUAL-XIV-02-ORIGINAL-MALE-VOTE-REFERENCE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0039",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-03",
+      "constitutional_norm_id": "NORM-US-CONST-071",
+      "capability_id": "CAP-FED-54",
+      "qualification_ids": [
+        "FED-QUAL-XIV-03-PRIOR-CONSTITUTIONAL-OATH"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0040",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-03",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-03-REMOVAL-TWO-THIRDS",
+      "capability_id": "CAP-FED-54",
+      "qualification_ids": [
+        "FED-QUAL-XIV-03-TWO-THIRDS-EACH-HOUSE"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0041",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-04",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-04-PUBLIC-DEBT",
+      "capability_id": "CAP-FED-54",
+      "qualification_ids": [
+        "FED-QUAL-XIV-04-AUTHORIZED-FEDERAL-DEBT"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0042",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-04",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-04-ILLEGAL-REBELLION-DEBT",
+      "capability_id": "CAP-FED-54",
+      "qualification_ids": [
+        "FED-QUAL-XIV-04-NO-REBEL-DEBTS"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0043",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-04",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-04-ENSLAVEMENT-CLAIMS",
+      "capability_id": "CAP-FED-54",
+      "qualification_ids": [
+        "FED-QUAL-XIV-04-NO-ENSLAVEMENT-LOSS-COMPENSATION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0044",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-05",
+      "constitutional_norm_id": "NORM-US-CONST-072",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-XIV-05-APPROPRIATE-LEGISLATION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    },
+    {
+      "id": "FED-CAP-0045",
+      "type": "federalism_capability_alignment",
+      "unit_id": "FED-UNIT-XIV-05",
+      "constitutional_norm_id": "NORM-US-CONST-FED-XIV-05-APPROPRIATE-ENFORCEMENT",
+      "capability_id": "CAP-FED-53",
+      "qualification_ids": [
+        "FED-QUAL-XIV-05-APPROPRIATE-LEGISLATION"
+      ],
+      "relationship_type": "functional_alignment_not_delegation",
+      "rationale": "This source-backed constitutional norm functionally informs federal capability analysis but does not itself create a modern agency or confer statutory authority.",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_mapping_pending_review"
+    }
+  ]
+}

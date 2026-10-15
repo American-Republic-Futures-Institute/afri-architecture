@@ -1,0 +1,1470 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FED-QUAL-IV-01-RECORDS",
+      "type": "federalism_qualification",
+      "kind": "subject_scope",
+      "name": "Each State must give full faith and credit to other States' public acts, official ",
+      "summary": "Each State must give full faith and credit to other States' public acts, official records and judicial proceedings.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-01-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-036",
+        "NORM-US-CONST-FED-IV-01-RECOGNITION-SCOPE"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-01-JUDGMENTS-NOT-GENERAL-ENFORCEMENT",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The text does not by itself establish identical enforcement of every sister-State ",
+      "summary": "The text does not by itself establish identical enforcement of every sister-State policy irrespective of subject, proceedings or controlling interpretation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-01-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-036",
+        "NORM-US-CONST-FED-IV-01-RECOGNITION-SCOPE"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-NARA-CONSTITUTION-STRUCTURE"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-01-CONGRESS-GENERAL-LAWS",
+      "type": "federalism_qualification",
+      "kind": "power_scope",
+      "name": "Congress may prescribe by general laws the manner of proof and effect of interstat",
+      "summary": "Congress may prescribe by general laws the manner of proof and effect of interstate public acts, records and judicial proceedings.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-01-SEG-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-IV-01-CONGRESS-PROOF"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-01-NO-FEDERAL-SUBORDINATION",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Congressional standards for interstate recognition do not make State courts or leg",
+      "summary": "Congressional standards for interstate recognition do not make State courts or legislatures federal agencies.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-01-SEG-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-IV-01-CONGRESS-PROOF"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-02-STATE-CITIZENS",
+      "type": "federalism_qualification",
+      "kind": "rights_holder_scope",
+      "name": "Article IV privileges and immunities protect citizens of each State in other State",
+      "summary": "Article IV privileges and immunities protect citizens of each State in other States; do not silently substitute Fourteenth Amendment U.S.-citizen rights.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-037",
+        "NORM-US-CONST-FED-IV-02-CITIZEN-INTERSTATE"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-02-STATE-CITIZENSHIP-DISTINCTION",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "State interstate citizenship privileges and Fourteenth Amendment national privileg",
+      "summary": "State interstate citizenship privileges and Fourteenth Amendment national privileges-or-immunities are textually distinct guarantees requiring different doctrinal tests.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-01",
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-037",
+        "NORM-US-CONST-FED-IV-02-CITIZEN-INTERSTATE"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-IV-INTERSTATE"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-02-CHARGED-PERSON",
+      "type": "federalism_qualification",
+      "kind": "precondition",
+      "name": "Article IV extradition is triggered for a person charged in a State with treason, ",
+      "summary": "Article IV extradition is triggered for a person charged in a State with treason, felony or another crime who has fled from justice.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-038",
+        "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-02-FOUND-IN-OTHER-STATE",
+      "type": "federalism_qualification",
+      "kind": "precondition",
+      "name": "The charged fugitive must be found in another State before constitutional intersta",
+      "summary": "The charged fugitive must be found in another State before constitutional interstate rendition provisions apply.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-038",
+        "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-02-EXECUTIVE-DEMAND",
+      "type": "federalism_qualification",
+      "kind": "precondition",
+      "name": "Demand originates from the executive authority of the State from which the charged",
+      "summary": "Demand originates from the executive authority of the State from which the charged person fled.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-038",
+        "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-02-RETURN-TO-CRIME-JURISDICTION",
+      "type": "federalism_qualification",
+      "kind": "condition",
+      "name": "Delivery is for removal to the State having jurisdiction of the charged crime, und",
+      "summary": "Delivery is for removal to the State having jurisdiction of the charged crime, under constitutionally and statutorily applicable procedures.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-038"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-02-EXTRADITION-STATUTES",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Jurisdictional challenges, federal statutory procedures and judicial review of ext",
+      "summary": "Jurisdictional challenges, federal statutory procedures and judicial review of extradition require a separate statute and case-law record.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-038",
+        "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-02-SLAVERY-HISTORICAL",
+      "type": "federalism_qualification",
+      "kind": "historical_supersession",
+      "name": "Original Article IV interstate fugitive-service rendition rule is inoperative afte",
+      "summary": "Original Article IV interstate fugitive-service rendition rule is inoperative after ratification of the Thirteenth Amendment.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-03",
+        "CONST-US-AMD-13-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-IV-02-HISTORICAL-SERVICE"
+      ],
+      "effect_status": "historical_only",
+      "origin": "historical_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "note": "Archive only; under no circumstances reconstruct a live claimant or enforcement duty."
+    },
+    {
+      "id": "FED-QUAL-IV-02-NO-ACTIVE-SERVICE-RIGHTS",
+      "type": "federalism_qualification",
+      "kind": "historical_supersession",
+      "name": "No operative right to compel rendition of enslaved persons or claim their service ",
+      "summary": "No operative right to compel rendition of enslaved persons or claim their service may be derived from this original constitutional text.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-IV-02-HISTORICAL-SERVICE"
+      ],
+      "effect_status": "historical_only",
+      "origin": "historical_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-03-CONGRESS-ADMISSION",
+      "type": "federalism_qualification",
+      "kind": "power_scope",
+      "name": "Congress may admit new States into the Union.",
+      "summary": "Congress may admit new States into the Union.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-039"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-03-STATE-LEGISLATURE-CONSENT",
+      "type": "federalism_qualification",
+      "kind": "consent",
+      "name": "A State cannot be formed within another State or formed by joining two or more Sta",
+      "summary": "A State cannot be formed within another State or formed by joining two or more States or their parts without consent of the legislatures of States concerned and Congress.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-039",
+        "NORM-US-CONST-FED-IV-03-STATE-CONSENTS"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-03-NO-UNCONDITIONAL-STATE-DIVISION",
+      "type": "federalism_qualification",
+      "kind": "prohibition",
+      "name": "Federal legislation alone does not satisfy the express concerned State-legislature",
+      "summary": "Federal legislation alone does not satisfy the express concerned State-legislature consents required for affected State division or merger.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-IV-03-STATE-CONSENTS"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-03-FEDERAL-TERRITORY-ONLY",
+      "type": "federalism_qualification",
+      "kind": "scope",
+      "name": "Article IV grants Congress rules and disposal authority over territory or other pr",
+      "summary": "Article IV grants Congress rules and disposal authority over territory or other property belonging to the United States.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-040"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-03-US-STATE-CLAIMS",
+      "type": "federalism_qualification",
+      "kind": "reservation",
+      "name": "The territorial and property clause must not prejudice the claims of the United St",
+      "summary": "The territorial and property clause must not prejudice the claims of the United States or any particular State.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-040",
+        "NORM-US-CONST-FED-IV-03-PROPERTY-CLAIMS"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-03-STATE-OWNERSHIP-DOCTRINE",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The text does not establish unlimited federal ownership of State property or elimi",
+      "summary": "The text does not establish unlimited federal ownership of State property or eliminate all reserved State legal interests.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-040",
+        "NORM-US-CONST-FED-IV-03-PROPERTY-CLAIMS"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-04-REPUBLICAN-STATE",
+      "type": "federalism_qualification",
+      "kind": "constitutional_guarantee",
+      "name": "United States must guarantee a republican form of government to every State in the",
+      "summary": "United States must guarantee a republican form of government to every State in the Union.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-REPUBLICAN"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-04-GUARANTEE-DOCTRINE",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "What constitutes a republican form of government, political question doctrine and ",
+      "summary": "What constitutes a republican form of government, political question doctrine and available remedies require separately verified judicial holdings.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-REPUBLICAN"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-04-INVASION-ALL-STATES",
+      "type": "federalism_qualification",
+      "kind": "constitutional_guarantee",
+      "name": "United States shall protect each State against invasion; the express request prere",
+      "summary": "United States shall protect each State against invasion; the express request prerequisite appears instead in the domestic-violence portion.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-INVASION"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-04-CROSS-DEFENSE-POWERS",
+      "type": "federalism_qualification",
+      "kind": "cross_article_limit",
+      "name": "Federal protection must be evaluated with Article I congressional defense/appropri",
+      "summary": "Federal protection must be evaluated with Article I congressional defense/appropriation powers and Article II commander-in-chief powers.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-02",
+        "CONST-US-ART-01-SEC-08-CL-11",
+        "CONST-US-ART-02-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-IV-04-INVASION"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "cross_article_qualification_ids": [
+        "AI-QUAL-08-11-DECLARE-WAR-AND-CAPTURES",
+        "AII-QUAL-02-01-CONGRESSIONAL-WAR-POWERS"
+      ]
+    },
+    {
+      "id": "FED-QUAL-IV-04-DOMESTIC-LEGISLATURE-REQUEST",
+      "type": "federalism_qualification",
+      "kind": "precondition",
+      "name": "Federal domestic-violence protection requires application by the State legislature",
+      "summary": "Federal domestic-violence protection requires application by the State legislature, absent the stated inability-to-convene alternative.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-DOMESTIC"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-04-DOMESTIC-EXECUTIVE-FALLBACK",
+      "type": "federalism_qualification",
+      "kind": "exception",
+      "name": "The State executive can apply for domestic-violence protection when the State legi",
+      "summary": "The State executive can apply for domestic-violence protection when the State legislature cannot be convened.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-DOMESTIC"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-IV-04-NOT-UNCONDITIONAL-DOMESTIC",
+      "type": "federalism_qualification",
+      "kind": "prohibition",
+      "name": "This clause does not permit treating domestic-violence federal protection as havin",
+      "summary": "This clause does not permit treating domestic-violence federal protection as having an unconditional Article IV trigger with no State application.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-IV-04-DOMESTIC"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-01-HISTORICAL-DEBTS",
+      "type": "federalism_qualification",
+      "kind": "scope",
+      "name": "Debts and engagements contracted before the Constitution's adoption remain valid a",
+      "summary": "Debts and engagements contracted before the Constitution's adoption remain valid against United States as they were under Confederation.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-VI-01-OBLIGATION"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-01-DISTINGUISH-XIV-DEBT",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Original federal pre-Constitution obligations are distinct from Fourteenth Amendme",
+      "summary": "Original federal pre-Constitution obligations are distinct from Fourteenth Amendment Section 4's protection of later lawfully authorized public debt.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-01",
+        "CONST-US-AMD-14-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-VI-01-OBLIGATION"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-02-CONSTITUTION-SUPREME",
+      "type": "federalism_qualification",
+      "kind": "supremacy_priority",
+      "name": "The Constitution itself is part of the supreme law of the land and binds State jud",
+      "summary": "The Constitution itself is part of the supreme law of the land and binds State judges.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-FED-VI-02-STATE-JUDGES"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-02-LAWS-IN-PURSUANCE",
+      "type": "federalism_qualification",
+      "kind": "validity_condition",
+      "name": "Federal statutes have supremacy only when made in pursuance of the Constitution; t",
+      "summary": "Federal statutes have supremacy only when made in pursuance of the Constitution; the clause does not independently enlarge Congress's enumerated powers.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-FED-VI-02-LAW-PURSUANT"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-02-TREATIES-US-AUTHORITY",
+      "type": "federalism_qualification",
+      "kind": "validity_condition",
+      "name": "Treaties receive the clause's priority where made under the authority of the Unite",
+      "summary": "Treaties receive the clause's priority where made under the authority of the United States.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-FED-VI-02-TREATIES-AUTHORITY"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-02-STATE-JUDGES-BOUND",
+      "type": "federalism_qualification",
+      "kind": "state_judiciary_duty",
+      "name": "Judges in every State are bound despite contrary provisions of State constitutions",
+      "summary": "Judges in every State are bound despite contrary provisions of State constitutions or laws.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-FED-VI-02-STATE-JUDGES"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-02-NO-BLANKET-FEDERAL-AUTHORITY",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Supremacy of valid federal law is not a general license for any federal officer or",
+      "summary": "Supremacy of valid federal law is not a general license for any federal officer or agency to exercise powers absent authority from the Constitution and enacted law.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-FED-VI-02-STATE-JUDGES",
+        "NORM-US-CONST-FED-VI-02-LAW-PURSUANT",
+        "NORM-US-CONST-FED-VI-02-TREATIES-AUTHORITY"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-02-ANTI-COMMANDEERING-CASE-LAW",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Any anti-commandeering limitation is a doctrine based on later constitutional inte",
+      "summary": "Any anti-commandeering limitation is a doctrine based on later constitutional interpretation, not verbatim words of Article VI Clause 2.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-FED-VI-02-STATE-JUDGES",
+        "NORM-US-CONST-FED-VI-02-LAW-PURSUANT",
+        "NORM-US-CONST-FED-VI-02-TREATIES-AUTHORITY"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-VI-SUPREMACY"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-03-FEDERAL-OATHS",
+      "type": "federalism_qualification",
+      "kind": "oath_scope",
+      "name": "Article VI requires Senators, Representatives, and federal executive and judicial ",
+      "summary": "Article VI requires Senators, Representatives, and federal executive and judicial officers to support the Constitution under oath or affirmation.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-046",
+        "NORM-US-CONST-FED-VI-03-FED-LEG-OATH"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-03-STATE-OATHS",
+      "type": "federalism_qualification",
+      "kind": "oath_scope",
+      "name": "Article VI also requires State legislators and State executive and judicial office",
+      "summary": "Article VI also requires State legislators and State executive and judicial officers to support the Constitution; the State is not converted into a federal agency.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-046",
+        "NORM-US-CONST-FED-VI-03-STATE-LEG-OATH"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-03-NO-FEDERAL-RELIGIOUS-TEST",
+      "type": "federalism_qualification",
+      "kind": "prohibition",
+      "name": "No religious test may be required as qualification for any office or public trust ",
+      "summary": "No religious test may be required as qualification for any office or public trust under the United States.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-047"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-VI-03-STATE-TESTS-DOCTRINE",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Article VI's express religious-test clause concerns federal offices; prohibitions ",
+      "summary": "Article VI's express religious-test clause concerns federal offices; prohibitions applicable to State offices also involve First and Fourteenth Amendment jurisprudence.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-03",
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-046",
+        "NORM-US-CONST-047",
+        "NORM-US-CONST-FED-VI-03-STATE-LEG-OATH",
+        "NORM-US-CONST-FED-VI-03-FED-LEG-OATH"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-XIV-DUE-PROCESS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-X-NOT-DELEGATED-NOT-PROHIBITED",
+      "type": "federalism_qualification",
+      "kind": "reservation",
+      "name": "Reservation applies to powers not delegated to United States AND not prohibited to",
+      "summary": "Reservation applies to powers not delegated to United States AND not prohibited to States.",
+      "source_provision_ids": [
+        "CONST-US-AMD-10"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-062",
+        "NORM-US-CONST-FED-X-UNDELEGATED"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-X-STATE-AND-PEOPLE",
+      "type": "federalism_qualification",
+      "kind": "rights_holder_scope",
+      "name": "Reserved powers belong to States respectively or to the people, not a blanket tran",
+      "summary": "Reserved powers belong to States respectively or to the people, not a blanket transferable federal administrative authority.",
+      "source_provision_ids": [
+        "CONST-US-AMD-10"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-062",
+        "NORM-US-CONST-FED-X-UNDELEGATED"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-X-NO-STATE-NULLIFICATION",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Reservation of nondelegated powers does not textually license unilateral State nul",
+      "summary": "Reservation of nondelegated powers does not textually license unilateral State nullification of valid supreme federal law.",
+      "source_provision_ids": [
+        "CONST-US-AMD-10",
+        "CONST-US-ART-06-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-062",
+        "NORM-US-CONST-FED-X-UNDELEGATED"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-X-NO-BLANKET-FEDERAL-POLICE-POWER",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Tenth Amendment boundaries reinforce enumerated federal powers, but the exact dist",
+      "summary": "Tenth Amendment boundaries reinforce enumerated federal powers, but the exact distribution and anti-commandeering doctrine require controlling precedent.",
+      "source_provision_ids": [
+        "CONST-US-AMD-10",
+        "CONST-US-ART-01-SEC-01-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-062",
+        "NORM-US-CONST-FED-X-UNDELEGATED"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XI-COVERED-SUITS",
+      "type": "federalism_qualification",
+      "kind": "jurisdictional_limit",
+      "name": "Express Eleventh Amendment wording concerns suits in law or equity commenced or pr",
+      "summary": "Express Eleventh Amendment wording concerns suits in law or equity commenced or prosecuted against one of the States.",
+      "source_provision_ids": [
+        "CONST-US-AMD-11"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-FED-XI-LIMITED-SUITS"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XI-OUT-OF-STATE-OR-FOREIGN-CLAIMANTS",
+      "type": "federalism_qualification",
+      "kind": "plaintiff_scope",
+      "name": "Express plaintiffs are citizens of another State and citizens/subjects of a foreig",
+      "summary": "Express plaintiffs are citizens of another State and citizens/subjects of a foreign State, not every conceivable claimant.",
+      "source_provision_ids": [
+        "CONST-US-AMD-11"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-FED-XI-LIMITED-SUITS"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XI-ARTICLE-III-CONNECTION",
+      "type": "federalism_qualification",
+      "kind": "amendment_change",
+      "name": "Eleventh Amendment modifies the construction of Article III judicial power in spec",
+      "summary": "Eleventh Amendment modifies the construction of Article III judicial power in specified suits against States.",
+      "source_provision_ids": [
+        "CONST-US-AMD-11",
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-FED-XI-LIMITED-SUITS"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "cross_article_qualification_ids": [
+        "AIII-QUAL-02-01-ELEVENTH-AMENDMENT"
+      ]
+    },
+    {
+      "id": "FED-QUAL-XI-NOT-ALL-INTERSTATE-CASES",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Express Eleventh Amendment text is not a blanket prohibition on all cases involvin",
+      "summary": "Express Eleventh Amendment text is not a blanket prohibition on all cases involving a State, including controversies between States.",
+      "source_provision_ids": [
+        "CONST-US-AMD-11"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-FED-XI-LIMITED-SUITS"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XI-BROADER-IMMUNITY-DOCTRINE",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Other doctrines of sovereign immunity extend beyond express Eleventh Amendment lan",
+      "summary": "Other doctrines of sovereign immunity extend beyond express Eleventh Amendment language and require case-law-specific sourcing.",
+      "source_provision_ids": [
+        "CONST-US-AMD-11"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-FED-XI-LIMITED-SUITS"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-01-BORN-NATURALIZED-JURISDICTION",
+      "type": "federalism_qualification",
+      "kind": "citizenship_criteria",
+      "name": "U.S. citizenship applies to persons born or naturalized in United States and subje",
+      "summary": "U.S. citizenship applies to persons born or naturalized in United States and subject to its jurisdiction; the text's conditions are retained, not erased.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-067",
+        "NORM-US-CONST-FED-XIV-01-STATE-CITIZENSHIP"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-01-STATE-RESIDENCE",
+      "type": "federalism_qualification",
+      "kind": "citizenship_criteria",
+      "name": "Citizens of the United States are also citizens of the State where they reside und",
+      "summary": "Citizens of the United States are also citizens of the State where they reside under the Section 1 text.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-067",
+        "NORM-US-CONST-FED-XIV-01-STATE-CITIZENSHIP"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-01-US-CITIZENS-PRIVILEGES",
+      "type": "federalism_qualification",
+      "kind": "rights_holder_scope",
+      "name": "Privileges or immunities under the U.S.-citizen clause are expressly rights of cit",
+      "summary": "Privileges or immunities under the U.S.-citizen clause are expressly rights of citizens of the United States.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-068",
+        "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-01-PERSONS-DUE-PROCESS",
+      "type": "federalism_qualification",
+      "kind": "rights_holder_scope",
+      "name": "Fourteenth Amendment State due process protects any person, not only citizens, wit",
+      "summary": "Fourteenth Amendment State due process protects any person, not only citizens, within its textually specified coverage.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-069",
+        "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-01-PERSONS-EQUAL-PROTECTION",
+      "type": "federalism_qualification",
+      "kind": "rights_holder_scope",
+      "name": "Equal protection forbids a State from denying any person within its jurisdiction e",
+      "summary": "Equal protection forbids a State from denying any person within its jurisdiction equal protection of the laws.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-070",
+        "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-01-STATE-ACTOR-DIRECT",
+      "type": "federalism_qualification",
+      "kind": "government_addressee",
+      "name": "Section 1 rights restrictions are textually directed at States; federal due proces",
+      "summary": "Section 1 rights restrictions are textually directed at States; federal due process is independently addressed in the Fifth Amendment.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-01",
+        "CONST-US-AMD-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-068",
+        "NORM-US-CONST-069",
+        "NORM-US-CONST-070",
+        "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-01-INCORPORATION-DOCTRINE",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Selective application of other Bill of Rights guarantees to States through Fourtee",
+      "summary": "Selective application of other Bill of Rights guarantees to States through Fourteenth Amendment is a precedent-dependent doctrine, not automatic recitation of Section 1.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-067",
+        "NORM-US-CONST-068",
+        "NORM-US-CONST-069",
+        "NORM-US-CONST-070",
+        "NORM-US-CONST-FED-XIV-01-STATE-CITIZENSHIP",
+        "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS",
+        "SRC-CONST-CONAN-XIV-DUE-PROCESS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-01-NO-SPECIFIC-CITIZENSHIP-ADJUDICATION",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "This architectural mapping does not adjudicate citizenship of any individual or co",
+      "summary": "This architectural mapping does not adjudicate citizenship of any individual or conclusively resolve contested jurisdiction/status questions.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-067",
+        "NORM-US-CONST-068",
+        "NORM-US-CONST-069",
+        "NORM-US-CONST-070",
+        "NORM-US-CONST-FED-XIV-01-STATE-CITIZENSHIP",
+        "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-02-REPRESENTATIVES-APPORTIONED",
+      "type": "federalism_qualification",
+      "kind": "structural_requirement",
+      "name": "Section 2 describes House representation allocation among States by their respecti",
+      "summary": "Section 2 describes House representation allocation among States by their respective populations subject to constitutional amendments.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-02-APPORTIONMENT"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-02-HISTORICAL-EXCLUSION",
+      "type": "federalism_qualification",
+      "kind": "historical_context",
+      "name": "Original Section 2 contains a reference to exclusion of 'Indians not taxed'; this ",
+      "summary": "Original Section 2 contains a reference to exclusion of 'Indians not taxed'; this historical constitutional language requires later legal context and must not serve as a current racial or tribal exclusion policy.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-02-APPORTIONMENT"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "note": "Not a freestanding valid contemporary exclusion from enumeration."
+    },
+    {
+      "id": "FED-QUAL-XIV-02-ORIGINAL-MALE-VOTE-REFERENCE",
+      "type": "federalism_qualification",
+      "kind": "amendment_change",
+      "name": "The original voting rights representation-reduction formulation uses a historical ",
+      "summary": "The original voting rights representation-reduction formulation uses a historical 21-year-old male voter reference; Twenty-Sixth Amendment changes the age-related constitutional reference.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-02",
+        "CONST-US-AMD-26-SEC-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-02-VOTE-ABRIDGMENT"
+      ],
+      "effect_status": "amendment_modified",
+      "origin": "amendment_overlay",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-02-CRIME-REBELLION-EXCEPTION",
+      "type": "federalism_qualification",
+      "kind": "exception",
+      "name": "Original Section 2 representation reduction includes a textual exception for parti",
+      "summary": "Original Section 2 representation reduction includes a textual exception for participation in rebellion or other crime.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-02-VOTE-ABRIDGMENT"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-02-NOT-GENERAL-DISENFRANCHISEMENT-POWER",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Historical Section 2 reduction mechanisms do not create an open-ended present Stat",
+      "summary": "Historical Section 2 reduction mechanisms do not create an open-ended present State power to disenfranchise otherwise constitutionally protected voters.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-02-APPORTIONMENT",
+        "NORM-US-CONST-FED-XIV-02-VOTE-ABRIDGMENT"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-03-PRIOR-CONSTITUTIONAL-OATH",
+      "type": "federalism_qualification",
+      "kind": "precondition",
+      "name": "Section 3 oath-based office disqualification only applies within its specified pri",
+      "summary": "Section 3 oath-based office disqualification only applies within its specified prior-oath and covered-office categories.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-071"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-03-CONDUCT-INSURRECTION-REBELLION",
+      "type": "federalism_qualification",
+      "kind": "precondition",
+      "name": "Section 3 specifies engagement in insurrection/rebellion or aid and comfort to ene",
+      "summary": "Section 3 specifies engagement in insurrection/rebellion or aid and comfort to enemies in relation to the Constitution.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-071"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-03-SPECIFIED-OFFICES",
+      "type": "federalism_qualification",
+      "kind": "office_scope",
+      "name": "The provision identifies specified federal and State offices; do not presume ident",
+      "summary": "The provision identifies specified federal and State offices; do not presume identical treatment of every government or private position.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-071"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-03-TWO-THIRDS-EACH-HOUSE",
+      "type": "federalism_qualification",
+      "kind": "voting_threshold",
+      "name": "Congress may remove a Section 3 disability by two thirds vote of each House; a sim",
+      "summary": "Congress may remove a Section 3 disability by two thirds vote of each House; a simple majority is not the textual standard.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-071",
+        "NORM-US-CONST-FED-XIV-03-REMOVAL-TWO-THIRDS"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-03-IMPLEMENTATION-CASE-LAW",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Disqualification adjudication, enforcement procedures and contested terms require ",
+      "summary": "Disqualification adjudication, enforcement procedures and contested terms require controlling precedent; ARFI does not decide live candidates' eligibility.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-071",
+        "NORM-US-CONST-FED-XIV-03-REMOVAL-TWO-THIRDS"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-04-AUTHORIZED-FEDERAL-DEBT",
+      "type": "federalism_qualification",
+      "kind": "validity_condition",
+      "name": "The public debt protection refers to obligations of the United States authorized b",
+      "summary": "The public debt protection refers to obligations of the United States authorized by law, including enumerated suppression of insurrection debts.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-04-PUBLIC-DEBT"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-04-NO-REBEL-DEBTS",
+      "type": "federalism_qualification",
+      "kind": "prohibition",
+      "name": "Neither federal nor State governments shall assume or pay debts or obligations inc",
+      "summary": "Neither federal nor State governments shall assume or pay debts or obligations incurred in aid of insurrection or rebellion against the United States.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-04-ILLEGAL-REBELLION-DEBT"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-04-NO-ENSLAVEMENT-LOSS-COMPENSATION",
+      "type": "federalism_qualification",
+      "kind": "prohibition",
+      "name": "Neither federal nor State governments may pay claims for loss or emancipation of a",
+      "summary": "Neither federal nor State governments may pay claims for loss or emancipation of an enslaved person; specified claims are illegal and void.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-04-ENSLAVEMENT-CLAIMS"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-04-NO-INDEPENDENT-UNLIMITED-BORROWING",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Section 4's debt provisions do not displace legislative taxing/borrowing/appropria",
+      "summary": "Section 4's debt provisions do not displace legislative taxing/borrowing/appropriations authorities or confer unilateral spending power on the executive.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-04",
+        "CONST-US-ART-01-SEC-08-CL-02",
+        "CONST-US-ART-01-SEC-09-CL-07"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-FED-XIV-04-PUBLIC-DEBT",
+        "NORM-US-CONST-FED-XIV-04-ILLEGAL-REBELLION-DEBT",
+        "NORM-US-CONST-FED-XIV-04-ENSLAVEMENT-CLAIMS"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review",
+      "cross_article_qualification_ids": [
+        "AI-QUAL-09-07-TREASURY-APPROPRIATION"
+      ]
+    },
+    {
+      "id": "FED-QUAL-XIV-05-APPROPRIATE-LEGISLATION",
+      "type": "federalism_qualification",
+      "kind": "power_scope",
+      "name": "Congress may enforce the provisions of the Fourteenth Amendment by appropriate leg",
+      "summary": "Congress may enforce the provisions of the Fourteenth Amendment by appropriate legislation.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-072",
+        "NORM-US-CONST-FED-XIV-05-APPROPRIATE-ENFORCEMENT"
+      ],
+      "effect_status": "operative",
+      "origin": "original_text",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-05-ENFORCEMENT-NOT-GENERAL-FEDERAL-POLICE",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The text's appropriate-legislation authority is tethered to Fourteenth Amendment p",
+      "summary": "The text's appropriate-legislation authority is tethered to Fourteenth Amendment protections, not a blanket transfer of all State police power.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-072",
+        "NORM-US-CONST-FED-XIV-05-APPROPRIATE-ENFORCEMENT"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-QUAL-XIV-05-JUDICIAL-ENFORCEMENT-STANDARDS",
+      "type": "federalism_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Proportionality, congruence and other limits on Section 5 laws require authoritati",
+      "summary": "Proportionality, congruence and other limits on Section 5 laws require authoritative case-law records, not citation to text alone.",
+      "source_provision_ids": [
+        "CONST-US-AMD-14-SEC-05"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-072",
+        "NORM-US-CONST-FED-XIV-05-APPROPRIATE-ENFORCEMENT"
+      ],
+      "effect_status": "research_boundary",
+      "origin": "interpretive_boundary",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "research_textual_summary_pending_legal_review"
+    }
+  ]
+}

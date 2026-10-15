@@ -151,6 +151,34 @@
       "include_changes": true,
       "status": "descriptive_candidate",
       "article_iii_unit_analysis": true
+    },
+    {
+      "id": "VIEW-CONST-FEDERALISM",
+      "type": "constitutional_viewpoint",
+      "name": "Federalism: State Sovereignty, Supremacy, Interstate Obligations and Rights",
+      "description": "Article IV/Vl, Amendments X, XI and XIV; State independence, valid federal supremacy, interstate duties, differentiated rights-holders and explicitly inactive historical provisions.",
+      "root_ids": [
+        "CONST-US-ART-04",
+        "CONST-US-ART-06",
+        "CONST-US-AMD-10",
+        "CONST-US-AMD-11",
+        "CONST-US-AMD-14"
+      ],
+      "include_norm_kinds": [
+        "power",
+        "duty",
+        "prohibition",
+        "right",
+        "reservation",
+        "jurisdiction",
+        "limitation",
+        "structural_allocation",
+        "procedure",
+        "eligibility"
+      ],
+      "include_changes": true,
+      "status": "descriptive_candidate",
+      "federalism_unit_analysis": true
     }
   ]
 }

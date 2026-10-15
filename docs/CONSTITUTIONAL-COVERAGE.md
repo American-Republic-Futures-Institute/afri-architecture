@@ -31,3 +31,7 @@
 Article I, II and III detailed analytical layers are now separately recorded. Article III includes all 5 conventionally numbered original Clauses (3 in §2, 2 in §3) and three **unnumbered** Section 1 semantic segments. It adds nine Section 2 Clause 1 judicial subject-matter categories, narrow Eleventh Amendment overlays, explicit Supreme Court original vs appellate traceability, Article III-only judicial tenure/pay safeguards, a separated jury trial and criminal venue structure, and stringent treason evidence/punishment controls.
 
 Scope limitation: jurisdictional categories do not substitute for federal jurisdictional statutes, court-creating acts, presidential/Senate appointment procedures, or judicial precedent. No model record determines the constitutionality of a live dispute or law. Details: [ARTICLE-III-ARCHITECTURE.md](ARTICLE-III-ARCHITECTURE.md).
+
+## Federalism source-model increment — October 15, 2026
+
+The historical Article IV fugitive-service provision is preserved but never activated as current law. Article IV and VI federal–State relations and Amendments X, XI and XIV are now decomposed into 20 semantic units, 72 qualifications, 40 legal relations, 9 explicit protected interests and 45 capability alignments. Seven newly classified federal capabilities complete the bridge from constitutional text to L3. Human legal review, complete judicial doctrine, State institutional catalogs and enabling statutes remain required follow-on scopes. See [FEDERALISM-ARCHITECTURE.md](FEDERALISM-ARCHITECTURE.md).

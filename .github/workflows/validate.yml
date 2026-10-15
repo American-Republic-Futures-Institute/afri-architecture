@@ -43,3 +43,7 @@ jobs:
         run: node scripts/validate-article-iii.mjs
       - name: Test Article III legal boundary regressions
         run: node --test tests/article-iii.test.mjs
+      - name: Validate federalism, intergovernmental authority and rights
+        run: node scripts/validate-federalism.mjs
+      - name: Test federalism, supremacy and Fourteenth Amendment safeguards
+        run: node --test tests/federalism.test.mjs

@@ -93,3 +93,9 @@ Changes to the original constitutional text remain distinguishable from later am
 The canonical model now covers all Article III Sections and their judicial-vesting, judicial-tenure, compensation, federal cases/controversies, Supreme Court jurisdiction, criminal jury/venue and treason safeguards. Source files under `model/constitutional/article-iii-*.json` include **8 analytic units, 9 jurisdiction categories, 53 qualifications and 42 functional capability links**; Section 1 uses explicit ARFI semantic units, **not invented constitutional clauses**.
 
 The authoritative modeling and publication contract is in [docs/ARTICLE-III-ARCHITECTURE.md](docs/ARTICLE-III-ARCHITECTURE.md). Validations: `node scripts/validate-article-iii.mjs` and `node --test tests/article-iii.test.mjs`. The website repository continues to own all rendering and comments.
+
+## Federalism architecture — Articles IV, VI, Amendments X, XI and XIV
+
+The canon now includes `model/constitutional/federalism-*.json` for **20 analytical units, 72 conditions, 40 constitutional federal–State relationships, 9 differentiated protected interests, and 45 functional capability alignments**. States are constitutional peers, not subordinate departments. The original Article IV §2 cl3 slave-service text is historical/inoperative with no active relation or capability grant. Rights of *citizens* and rights of *persons* are independently identified. See [docs/FEDERALISM-ARCHITECTURE.md](docs/FEDERALISM-ARCHITECTURE.md).
+
+Run `node scripts/validate-federalism.mjs` and `node --test tests/federalism.test.mjs`. Architecture data and viewpoint declarations are the sole scope; website rendering remains in `afri-website`.
