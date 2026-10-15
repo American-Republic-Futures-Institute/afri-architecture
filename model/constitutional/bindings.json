@@ -643,7 +643,7 @@
       "id": "BIND-US-CONST-0059",
       "type": "constitutional_actor_binding",
       "norm_id": "NORM-US-CONST-031",
-      "target_id": "ACT-US-FED-COURTS",
+      "target_id": "ACT-US-ARTICLE-III-JUDGES",
       "relationship_type": "protects",
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
