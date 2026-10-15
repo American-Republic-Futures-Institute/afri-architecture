@@ -22,7 +22,7 @@ test("baseline constitutional catalog passes reference integrity",()=>{
  const result=validateConstitutionCatalog(fixture());
  assert.deepEqual(result.errors,[]);
  assert.equal(result.counts.provisions,169);
- assert.equal(result.counts.actors,20);
+ assert.equal(result.counts.actors,24);
  assert.equal(result.counts.norms,171);
  assert.equal(result.counts.bindings,242);
  assert.equal(result.counts.changes,15);
