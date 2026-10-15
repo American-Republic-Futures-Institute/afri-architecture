@@ -24,7 +24,7 @@ test("baseline constitutional catalog passes reference integrity",()=>{
  assert.equal(result.counts.provisions,145);
  assert.equal(result.counts.actors,20);
  assert.equal(result.counts.norms,109);
- assert.equal(result.counts.bindings,165);
+ assert.equal(result.counts.bindings,166);
  assert.equal(result.counts.changes,11);
 });
 test("rejects dangling provision references",()=>{
