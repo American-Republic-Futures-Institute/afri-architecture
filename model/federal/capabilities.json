@@ -880,6 +880,132 @@
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-USCOURTS-TYPES-JUDGES"
       ]
+    },
+    {
+      "id": "CAP-FED-48",
+      "type": "capability",
+      "name": "Federal–state constitutional coordination",
+      "definition": "Coordination among federal institutions and constitutionally independent State governments where the Constitution assigns duties, conditions and shared processes.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CAP-FED-49",
+      "type": "capability",
+      "name": "Interstate legal recognition and rendition",
+      "definition": "Constitutional recognition of sister-State acts, records, judicial proceedings, citizenship privileges and lawful interstate extradition.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CAP-FED-50",
+      "type": "capability",
+      "name": "Admission of States and federal territorial stewardship",
+      "definition": "Congressional state admission and constitutionally bounded management of federal territories and property; reserved State property claims retained.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CAP-FED-51",
+      "type": "capability",
+      "name": "Constitutional guarantee and protection of States",
+      "definition": "Federal responsibility for republican government guarantees and protection of States from invasion and conditionally from domestic violence.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CAP-FED-52",
+      "type": "capability",
+      "name": "Supremacy and constitutional officer obligations",
+      "definition": "Compliance of federal and State institutions with Constitution, valid federal law, treaties, oaths, and no-religious-test restrictions.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CAP-FED-53",
+      "type": "capability",
+      "name": "Federalism civil rights and citizenship guarantees",
+      "definition": "Distinguishes protections of citizens from protections of all persons and the federal–State enforcement boundary, subject to controlling precedent.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "CAP-FED-54",
+      "type": "capability",
+      "name": "Fourteenth Amendment apportionment and public debt protections",
+      "definition": "Constitutional representation, disqualification and valid public debt obligations under amendments and historical qualifications.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
     }
   ]
 }

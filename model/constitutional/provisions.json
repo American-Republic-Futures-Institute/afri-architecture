@@ -338,7 +338,7 @@
       ],
       "source_locator": "U.S. Const. art. IV, § 1",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-04-SEC-02",
@@ -352,7 +352,7 @@
       ],
       "source_locator": "U.S. Const. art. IV, § 2",
       "effect_status": "modified_in_part",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-04-SEC-03",
@@ -366,7 +366,7 @@
       ],
       "source_locator": "U.S. Const. art. IV, § 3",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-04-SEC-04",
@@ -380,7 +380,7 @@
       ],
       "source_locator": "U.S. Const. art. IV, § 4",
       "effect_status": "operative",
-      "decomposition_status": "structure_only"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-ART-05",
@@ -1396,7 +1396,7 @@
       ],
       "source_locator": "U.S. Const. amend. X",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1791-12-15"
     },
     {
@@ -1411,7 +1411,7 @@
       ],
       "source_locator": "U.S. Const. amend. XI",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1795-02-07"
     },
     {
@@ -1484,7 +1484,7 @@
       ],
       "source_locator": "U.S. Const. amend. XIV",
       "effect_status": "modified_in_part",
-      "decomposition_status": "partially_decomposed",
+      "decomposition_status": "decomposed_in_initial_norm_register",
       "ratified_on": "1868-07-09"
     },
     {
@@ -1499,7 +1499,7 @@
       ],
       "source_locator": "U.S. Const. amend. XIV, § 1",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-AMD-14-SEC-02",
@@ -1513,7 +1513,7 @@
       ],
       "source_locator": "U.S. Const. amend. XIV, § 2",
       "effect_status": "modified_in_part",
-      "decomposition_status": "partially_decomposed"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-AMD-14-SEC-03",
@@ -1527,7 +1527,7 @@
       ],
       "source_locator": "U.S. Const. amend. XIV, § 3",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-AMD-14-SEC-04",
@@ -1541,7 +1541,7 @@
       ],
       "source_locator": "U.S. Const. amend. XIV, § 4",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-AMD-14-SEC-05",
@@ -1555,7 +1555,7 @@
       ],
       "source_locator": "U.S. Const. amend. XIV, § 5",
       "effect_status": "operative",
-      "decomposition_status": "partially_decomposed"
+      "decomposition_status": "decomposed_in_initial_norm_register"
     },
     {
       "id": "CONST-US-AMD-15",
@@ -2559,6 +2559,81 @@
       "source_locator": "U.S. Const. art. III, § 3, cl. 2",
       "effect_status": "operative",
       "decomposition_status": "decomposed_in_initial_norm_register"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-01-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Full faith and credit to other States",
+      "parent_id": "CONST-US-ART-04-SEC-01",
+      "citation": "U.S. Const. art. IV, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 1 (ARFI analytical segment 1; not an original numbered clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-01-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Congress may prescribe proof and effects by general laws",
+      "parent_id": "CONST-US-ART-04-SEC-01",
+      "citation": "U.S. Const. art. IV, § 1",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 1 (ARFI analytical segment 2; not an original numbered clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-04-SEG-01",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Guarantee of republican State government",
+      "parent_id": "CONST-US-ART-04-SEC-04",
+      "citation": "U.S. Const. art. IV, § 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 4 (ARFI analytical segment 1; not an original numbered clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-04-SEG-02",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Protection of States against invasion",
+      "parent_id": "CONST-US-ART-04-SEC-04",
+      "citation": "U.S. Const. art. IV, § 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 4 (ARFI analytical segment 2; not an original numbered clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
+    },
+    {
+      "id": "CONST-US-ART-04-SEC-04-SEG-03",
+      "type": "constitutional_provision",
+      "unit": "article_section_segment",
+      "label": "Protection against domestic violence by State application",
+      "parent_id": "CONST-US-ART-04-SEC-04",
+      "citation": "U.S. Const. art. IV, § 4",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "source_locator": "U.S. Const. art. IV, § 4 (ARFI analytical segment 3; not an original numbered clause)",
+      "effect_status": "operative",
+      "decomposition_status": "decomposed_in_initial_norm_register",
+      "segment_kind": "arfi_analytic_not_numbered_clause"
     }
   ]
 }

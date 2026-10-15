@@ -847,7 +847,8 @@
       "name": "Full faith and credit between states",
       "summary": "States must give constitutionally required full faith and credit to other states' public acts, records and judicial proceedings.",
       "provision_ids": [
-        "CONST-US-ART-04-SEC-01"
+        "CONST-US-ART-04-SEC-01",
+        "CONST-US-ART-04-SEC-01-SEG-01"
       ],
       "effect_status": "operative",
       "interpretation_status": "textual_summary_pending_legal_review",
@@ -927,7 +928,10 @@
       "name": "Republican government and federal protection of states",
       "summary": "The United States guarantees states a republican form of government and protection against invasion, and provides conditional protection against domestic violence.",
       "provision_ids": [
-        "CONST-US-ART-04-SEC-04"
+        "CONST-US-ART-04-SEC-04",
+        "CONST-US-ART-04-SEC-04-SEG-01",
+        "CONST-US-ART-04-SEC-04-SEG-02",
+        "CONST-US-ART-04-SEC-04-SEG-03"
       ],
       "effect_status": "operative",
       "interpretation_status": "textual_summary_pending_legal_review",
@@ -1414,7 +1418,7 @@
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"
       ],
-      "qualifications": "Procedures, scope, and enforcement actors require review of controlling case law; no self-executing implementation is asserted."
+      "qualifications": "Section 3 applies to defined oath takers and specified conduct/offices, and Congress may remove the disability by two-thirds vote of each House. Procedures and enforcement are reserved to controlling judicial precedent; no case-specific determination is implied."
     },
     {
       "id": "NORM-US-CONST-072",
@@ -3302,6 +3306,465 @@
       ],
       "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
       "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-01-CONGRESS-PROOF",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional general-law standards for sister-State records",
+      "summary": "Congress may by general laws prescribe the manner in which acts, records and judicial proceedings shall be proved, and their effect.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-01-RECOGNITION-SCOPE",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Interstate recognition of specified acts, records and judicial proceedings",
+      "summary": "Each State gives full faith and credit to the public acts, records and judicial proceedings of every other State, subject to later interpretation.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-02-CITIZEN-INTERSTATE",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Article IV State-citizen interstate privileges and immunities",
+      "summary": "Citizens of each State are entitled to privileges and immunities of citizens in the several States; not a textual universal grant to every non-citizen.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Demand by charging State executive for interstate extradition",
+      "summary": "The originating State executive demands delivery of a person charged with treason, felony or other crime who fled and was found in another State.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-02-HISTORICAL-SERVICE",
+      "type": "constitutional_norm",
+      "norm_kind": "historic_repealed",
+      "name": "Obsolete interstate slave-service rendition provision",
+      "summary": "Original Article IV Section 2 Clause 3 was rendered inoperative by the Thirteenth Amendment; recorded solely for historical completeness.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-03"
+      ],
+      "effect_status": "superseded",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-03-STATE-CONSENTS",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "State legislature and Congress consent for division or combination of existing States",
+      "summary": "No State may be formed within another State or through merger of States or parts of States without consent of legislatures of States concerned and Congress.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-03-PROPERTY-CLAIMS",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Federal property authority must not prejudice preexisting United States or State claims",
+      "summary": "Article IV territory and property language expressly preserves claims of United States and particular States.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-04-REPUBLICAN",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Federal guarantee of republican form of State government",
+      "summary": "United States shall guarantee to every State in Union a republican form of government; standards and remedies require interpretation.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-04-INVASION",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Federal protection of States against invasion",
+      "summary": "United States shall protect each State against invasion without the separate domestic-violence application trigger.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-IV-04-DOMESTIC",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Conditional federal protection against domestic violence",
+      "summary": "United States protects States against domestic violence on application of the State legislature or State executive when legislature cannot be convened.",
+      "provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-VI-01-OBLIGATION",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Validity of pre-Constitution federal debts and commitments",
+      "summary": "Debts and engagements incurred before constitutional adoption remain valid against United States as under Confederation.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-VI-02-STATE-JUDGES",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "State judicial officers bound by supreme constitutional law",
+      "summary": "Judges in every State are bound by Constitution, valid federal law and treaties under federal authority, notwithstanding conflicting State law.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-VI-02-LAW-PURSUANT",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Only federal laws made pursuant to Constitution have Supremacy Clause priority",
+      "summary": "Supremacy of federal legislation depends on valid constitutional enactment; no blanket supremacy for purported but unconstitutional federal acts.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-VI-02-TREATIES-AUTHORITY",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Supremacy requires treaties made under United States authority",
+      "summary": "Treaties made under authority of United States are encompassed by the Supremacy Clause; implementation rules and doctrinal conflicts require precedent.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-VI-03-STATE-LEG-OATH",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "State legislators must support Constitution under oath or affirmation",
+      "summary": "Members of State legislatures are bound by oath or affirmation to support the United States Constitution.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-VI-03-FED-LEG-OATH",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "United States Senators and Representatives constitutionally bound by oath",
+      "summary": "Members of federal Congress shall be bound by oath or affirmation to support the Constitution.",
+      "provision_ids": [
+        "CONST-US-ART-06-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-X-UNDELEGATED",
+      "type": "constitutional_norm",
+      "norm_kind": "reservation",
+      "name": "Reserved powers conditional on federal delegation and State prohibitions",
+      "summary": "Powers neither delegated to United States nor prohibited to States are reserved to States respectively or to people.",
+      "provision_ids": [
+        "CONST-US-AMD-10"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XI-LIMITED-SUITS",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Eleventh Amendment textual bar against States for specified plaintiff classes",
+      "summary": "Federal judicial power cannot be construed to reach suits commenced or prosecuted against a State by citizens of another State or foreign citizens/subjects; broader immunity is doctrinal.",
+      "provision_ids": [
+        "CONST-US-AMD-11"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-01-STATE-CITIZENSHIP",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "State citizenship accompanies national citizenship and State residence",
+      "summary": "Persons born or naturalized in United States, subject to jurisdiction thereof, are U.S. citizens and citizens of State in which they reside.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Fourteenth Amendment Section 1 imposes textual limitations on States",
+      "summary": "The States may not abridge U.S.-citizen privileges/immunities or deny due process or equal protection to persons within stated scope.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-02-APPORTIONMENT",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Fourteenth Amendment apportionment by persons",
+      "summary": "Representatives are apportioned among several States according to respective numbers under Section 2's text, modified by later constitutional provisions.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-02"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-02-VOTE-ABRIDGMENT",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Historical Section 2 representation-reduction conditions",
+      "summary": "Section 2 addresses representation reduction for designated vote-denial/abridgment conditions with explicit original categories; age reference later changed by Amendment XXVI.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-02"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-03-REMOVAL-TWO-THIRDS",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may remove Section 3 disability by supermajorities in both Houses",
+      "summary": "Congress may remove the specified Section 3 disqualification by a vote of two thirds of each House.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-04-PUBLIC-DEBT",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Public debt validity and prohibitions on questioning authorized national debt",
+      "summary": "The validity of public debt of United States authorized by law, including stated insurrection-suppression obligations, shall not be questioned.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-04-ILLEGAL-REBELLION-DEBT",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No federal or State assumption of specified insurrection/rebellion debt",
+      "summary": "Neither United States nor any State may assume/pay debts/obligations incurred in aid of rebellion against United States.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-04-ENSLAVEMENT-CLAIMS",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No federal or State payment of specified slavery-loss or emancipation claims",
+      "summary": "Neither United States nor any State may assume/pay claims for loss or emancipation of enslaved people; such claims declared illegal and void.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-FED-XIV-05-APPROPRIATE-ENFORCEMENT",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may enforce the Fourteenth Amendment through appropriate laws",
+      "summary": "Congress has power to enforce provisions of Fourteenth Amendment by appropriate legislation; source of authority is Section 5, not a limitless general police power.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Constitutional text and ratified amendments control; unresolved doctrinal and statutory application requires separate primary authority and human legal review.",
+      "federalism_increment": "2026-10-15"
     }
   ]
 }

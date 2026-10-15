@@ -42,7 +42,12 @@
     "model/constitutional/article-iii-units.json",
     "model/constitutional/article-iii-qualifications.json",
     "model/constitutional/article-iii-capability-links.json",
-    "model/constitutional/article-iii-jurisdiction.json"
+    "model/constitutional/article-iii-jurisdiction.json",
+    "model/constitutional/federalism-units.json",
+    "model/constitutional/federalism-qualifications.json",
+    "model/constitutional/federalism-relationships.json",
+    "model/constitutional/federalism-rights.json",
+    "model/constitutional/federalism-capability-links.json"
   ],
   "standards": [
     {
@@ -145,5 +150,24 @@
     ],
     "scope": "Judicial vesting, good-behavior tenure and compensation, lower-court creation, nine textual jurisdiction categories, original and appellate jurisdiction, criminal jury/venue, treason and congressional punishment limits.",
     "publication_note": "Section 1 analytical segments are not numbered constitutional clauses; Article I tribunals are not Article III courts, and jurisdictional categories are not self-executing grants to all courts."
+  },
+  "federalism_extension": {
+    "id": "ARFI-COA-FEDERALISM-001",
+    "review_status": "research_textual_summary_pending_legal_review",
+    "unit_count": 20,
+    "original_article_iv_numbered_clauses": 5,
+    "original_article_iv_analytic_segments": 5,
+    "original_article_vi_clauses": 3,
+    "amendment_units": 7,
+    "source_text_basis": [
+      "SRC-CONST-ORIGINAL-TRANSCRIPT",
+      "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT",
+      "SRC-CONST-LATER-AMENDMENTS",
+      "SRC-CONST-CONAN-IV-INTERSTATE",
+      "SRC-CONST-CONAN-VI-SUPREMACY",
+      "SRC-CONST-CONAN-XIV-DUE-PROCESS"
+    ],
+    "scope": "Articles IV and VI, Amendments X, XI, XIV, with Thirteenth and Twenty-Sixth Amendment historical/temporal overlays. Separate state sovereignty and federal institutions; differentiate rights of citizens and persons.",
+    "publication_note": "No federal agency may claim powers from functional alignments; superseded fugitive-service clause has no operative rights, duties, or authority; broad immunity/incorporation/anti-commandeering doctrines require judicial case law."
   }
 }

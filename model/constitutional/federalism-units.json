@@ -1,0 +1,461 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FED-UNIT-IV-01-01",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 1,
+      "unit_index": 1,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-04-SEC-01-SEG-01",
+      "name": "Full faith and credit to other States",
+      "summary": "Interstate constitutional recognition of public acts, records and judicial proceedings.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-036",
+        "NORM-US-CONST-FED-IV-01-RECOGNITION-SCOPE"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-01-02",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 1,
+      "unit_index": 2,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-04-SEC-01-SEG-02",
+      "name": "Congress may prescribe proof and effects by general laws",
+      "summary": "Textual congressional authority concerning proof and effect of sister-State acts, records and judgments.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-FED-IV-01-CONGRESS-PROOF"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-02-01",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 2,
+      "unit_index": 1,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-04-SEC-02-CL-01",
+      "name": "Privileges and immunities of citizens among States",
+      "summary": "Interstate privileges and immunities of citizens of each State in the several States.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-037",
+        "NORM-US-CONST-FED-IV-02-CITIZEN-INTERSTATE"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-02-02",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 2,
+      "unit_index": 2,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-04-SEC-02-CL-02",
+      "name": "Interstate criminal rendition",
+      "summary": "Conditioned delivery of a fugitive charged with an offense following demand of originating State executive.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-038",
+        "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-02-03",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 2,
+      "unit_index": 3,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-04-SEC-02-CL-03",
+      "name": "Historical fugitive-service provision, inoperative",
+      "summary": "Original slave-service rendition text superseded by the Thirteenth Amendment; research archive only.",
+      "effect_status": "superseded",
+      "norm_ids": [
+        "NORM-US-CONST-FED-IV-02-HISTORICAL-SERVICE"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-03-01",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 3,
+      "unit_index": 1,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-04-SEC-03-CL-01",
+      "name": "Congressional State admission and consent",
+      "summary": "Admit new States and restrictions on creating States within another's territory without required consent.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-039",
+        "NORM-US-CONST-FED-IV-03-STATE-CONSENTS"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-03-02",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 3,
+      "unit_index": 2,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-04-SEC-03-CL-02",
+      "name": "Federal territories, property and claims",
+      "summary": "Congressional federal territory and property rules and preserved federal/State claims.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-040",
+        "NORM-US-CONST-FED-IV-03-PROPERTY-CLAIMS"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-04-01",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 4,
+      "unit_index": 1,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-04-SEC-04-SEG-01",
+      "name": "Guarantee of republican State government",
+      "summary": "The United States guarantees a republican form of government to each State.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-REPUBLICAN"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-04-02",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 4,
+      "unit_index": 2,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-04-SEC-04-SEG-02",
+      "name": "Protection of States against invasion",
+      "summary": "The United States shall protect each State against invasion.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-INVASION"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-IV-04-03",
+      "type": "federalism_unit_analysis",
+      "family": "article_iv",
+      "section": 4,
+      "unit_index": 3,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-04-SEC-04-SEG-03",
+      "name": "Protection against domestic violence by State application",
+      "summary": "Conditional protection on application of State legislature, or executive if legislature cannot be convened.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-DOMESTIC"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-VI-01",
+      "type": "federalism_unit_analysis",
+      "family": "article_vi",
+      "unit_index": 1,
+      "unit_kind": "article_clause",
+      "provision_id": "CONST-US-ART-06-CL-01",
+      "name": "Pre-constitutional debts remain valid",
+      "summary": "Pre-Constitution obligations remain valid against the United States under the new Constitution.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-FED-VI-01-OBLIGATION"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-VI-02",
+      "type": "federalism_unit_analysis",
+      "family": "article_vi",
+      "unit_index": 2,
+      "unit_kind": "article_clause",
+      "provision_id": "CONST-US-ART-06-CL-02",
+      "name": "Federal constitutional supremacy and State judges",
+      "summary": "The Constitution, laws made pursuant to it and federal treaties made under federal authority bind State judges.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-FED-VI-02-STATE-JUDGES",
+        "NORM-US-CONST-FED-VI-02-LAW-PURSUANT",
+        "NORM-US-CONST-FED-VI-02-TREATIES-AUTHORITY"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-VI-03",
+      "type": "federalism_unit_analysis",
+      "family": "article_vi",
+      "unit_index": 3,
+      "unit_kind": "article_clause",
+      "provision_id": "CONST-US-ART-06-CL-03",
+      "name": "Federal and State constitutional oaths; no religious tests",
+      "summary": "Required oaths for specified State and federal officers; federal religious-test prohibition.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-046",
+        "NORM-US-CONST-047",
+        "NORM-US-CONST-FED-VI-03-STATE-LEG-OATH",
+        "NORM-US-CONST-FED-VI-03-FED-LEG-OATH"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-X-01",
+      "type": "federalism_unit_analysis",
+      "family": "amendment",
+      "unit_index": 1,
+      "unit_kind": "amendment",
+      "provision_id": "CONST-US-AMD-10",
+      "name": "Tenth Amendment reserved powers",
+      "summary": "Powers not delegated to the United States nor prohibited to States are reserved to States or people.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-062",
+        "NORM-US-CONST-FED-X-UNDELEGATED"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-XI-01",
+      "type": "federalism_unit_analysis",
+      "family": "amendment",
+      "unit_index": 1,
+      "unit_kind": "amendment",
+      "provision_id": "CONST-US-AMD-11",
+      "name": "Eleventh Amendment limited suits against States",
+      "summary": "Express limits on enumerated suits against a State involving out-of-State or foreign citizens/subjects.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-FED-XI-LIMITED-SUITS"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-XIV-01",
+      "type": "federalism_unit_analysis",
+      "family": "amendment",
+      "unit_index": 1,
+      "unit_kind": "amendment_section",
+      "provision_id": "CONST-US-AMD-14-SEC-01",
+      "name": "Fourteenth Amendment citizenship and rights",
+      "summary": "Citizen status, privileges or immunities, State due process and equal protection.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-067",
+        "NORM-US-CONST-068",
+        "NORM-US-CONST-069",
+        "NORM-US-CONST-070",
+        "NORM-US-CONST-FED-XIV-01-STATE-CITIZENSHIP",
+        "NORM-US-CONST-FED-XIV-01-STATE-RESTRICTION"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-XIV-02",
+      "type": "federalism_unit_analysis",
+      "family": "amendment",
+      "unit_index": 2,
+      "unit_kind": "amendment_section",
+      "provision_id": "CONST-US-AMD-14-SEC-02",
+      "name": "Fourteenth Amendment apportionment",
+      "summary": "Representative apportionment, historically qualified franchise-denial provision and later amendments.",
+      "effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-FED-XIV-02-APPORTIONMENT",
+        "NORM-US-CONST-FED-XIV-02-VOTE-ABRIDGMENT"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-XIV-03",
+      "type": "federalism_unit_analysis",
+      "family": "amendment",
+      "unit_index": 3,
+      "unit_kind": "amendment_section",
+      "provision_id": "CONST-US-AMD-14-SEC-03",
+      "name": "Fourteenth Amendment office disqualification",
+      "summary": "Oath-based disqualification conditions and two-thirds congressional disability-removal vote.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-071",
+        "NORM-US-CONST-FED-XIV-03-REMOVAL-TWO-THIRDS"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-XIV-04",
+      "type": "federalism_unit_analysis",
+      "family": "amendment",
+      "unit_index": 4,
+      "unit_kind": "amendment_section",
+      "provision_id": "CONST-US-AMD-14-SEC-04",
+      "name": "Fourteenth Amendment public debt",
+      "summary": "Validity of lawful federal debt, and prohibition of certain rebellion and enslavement-related obligations.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-FED-XIV-04-PUBLIC-DEBT",
+        "NORM-US-CONST-FED-XIV-04-ILLEGAL-REBELLION-DEBT",
+        "NORM-US-CONST-FED-XIV-04-ENSLAVEMENT-CLAIMS"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "FED-UNIT-XIV-05",
+      "type": "federalism_unit_analysis",
+      "family": "amendment",
+      "unit_index": 5,
+      "unit_kind": "amendment_section",
+      "provision_id": "CONST-US-AMD-14-SEC-05",
+      "name": "Fourteenth Amendment congressional enforcement",
+      "summary": "Congress may enact appropriate legislation enforcing Fourteenth Amendment provisions.",
+      "effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-072",
+        "NORM-US-CONST-FED-XIV-05-APPROPRIATE-ENFORCEMENT"
+      ],
+      "qualification_ids": [],
+      "relationship_ids": [],
+      "capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    }
+  ]
+}

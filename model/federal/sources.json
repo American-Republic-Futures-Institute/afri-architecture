@@ -315,6 +315,42 @@
       "kind": "official_constitutional_analysis",
       "scope": "Judicial review is doctrinal interpretation, not an express quotation from Article III's original text",
       "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-IV-INTERSTATE",
+      "title": "Article IV, Section 2 Overview and Interstate Privileges, Extradition, and Obsolete Fugitive-Service Text",
+      "publisher": "Cornell Law School Legal Information Institute (republication of CRS Constitution Annotated)",
+      "url": "https://www.law.cornell.edu/constitution-conan/article-4/section-2",
+      "kind": "official_constitutional_analysis_republication",
+      "scope": "Secondary interpretation including interstate citizenship, extradition and obsolete slavery provision; not controlling judicial precedent.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-VI-SUPREMACY",
+      "title": "Supremacy Clause and the Constitutional Convention",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/artVI-C2-2-2/ALDE_00013397/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Supremacy of Constitution, valid federal legislation and treaties; not a grant of unlimited federal legislative power.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-XIV-DUE-PROCESS",
+      "title": "Fourteenth Amendment, Due Process Generally",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/amdt14-S1-3/ALDE_00013743/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Fourteenth Amendment state due process obligations distinct from Fifth Amendment federal obligations; incorporation doctrines to be modeled as precedent.",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-NARA-CONSTITUTION-STRUCTURE",
+      "title": "The Constitution: What Does it Say?",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/constitution/what-does-it-say",
+      "kind": "official_government_summary",
+      "scope": "Article IV federal-state relationship and Article VI constitutional supremacy; summaries subordinate to primary text.",
+      "accessed_on": "2026-10-15"
     }
   ]
 }
