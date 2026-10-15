@@ -85,6 +85,7 @@ export function validateFederalism(d){
   if(!["operative","historical_only","amendment_modified","research_boundary"].includes(qual.effect_status))err("Invalid federalism qualification effect "+qual.id);
   if(!["original_text","historical_text","amendment_overlay","interpretive_boundary"].includes(qual.origin))err("Invalid federalism qualifier origin "+qual.id);
   if(qual.origin==="interpretive_boundary"&&qual.effect_status!=="research_boundary")err("Doctrinal boundary represented as express original text "+qual.id);
+  if(qual.effect_status==="research_boundary"&&qual.origin!=="interpretive_boundary")err("Doctrinal boundary represented as express original text "+qual.id);
   if(qual.origin==="historical_text"&&qual.effect_status!=="historical_only")err("Historical fugitive-service rule activated "+qual.id);
   if(qual.origin==="amendment_overlay"&&!arr(qual.source_provision_ids).some(p=>p.startsWith("CONST-US-AMD-")))err("Unsubstantiated federalism amendment overlay "+qual.id);
   if(!arr(qual.source_provision_ids).length||!arr(qual.applies_to_norm_ids).length)err("Orphan federalism qualification "+qual.id);
