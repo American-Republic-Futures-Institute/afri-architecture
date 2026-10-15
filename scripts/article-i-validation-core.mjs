@@ -4,7 +4,7 @@ const arr=x=>Array.isArray(x)?x:[];
 const pref=(s,c)=>"CONST-US-ART-01-SEC-"+String(s).padStart(2,"0")+"-CL-"+String(c).padStart(2,"0");
 const expected=[1,5,7,2,4,2,3,18,8,3];
 const historical=new Set(["superseded","repealed","expired"]);
-const roleKinds=new Set(["scope","frequency","eligibility","threshold","historical_limit","amendment_change","required_action","authority_scope","exclusive_power","structural_requirement","exception","conditional_office","procedural_requirement","limit","qualification","allocation","condition","consent","prohibition","time_limit","cross_provision_limit","purpose","geographic_limit","reservation","dependency"]);
+const roleKinds=new Set(["scope","frequency","eligibility","threshold","historical_limit","historical_qualification","amendment_change","required_action","authority_scope","exclusive_power","structural_requirement","exception","conditional_office","procedural_requirement","limit","qualification","allocation","condition","consent","prohibition","time_limit","cross_provision_limit","purpose","geographic_limit","reservation","dependency"]);
 function required(v,keys,push,prefix){for(const k of keys)if(v?.[k]===undefined||v?.[k]===null)push("Missing "+prefix+"."+k);}
 export function validateArticleI(data){
  const errors=[],push=s=>errors.push(s), m=data.manifest||{}, models=data.models||{};
