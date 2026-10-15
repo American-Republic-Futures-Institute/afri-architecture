@@ -12,7 +12,8 @@
         "CONST-US-ART-01-SEC-01-CL-01"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-001"
+        "NORM-US-CONST-001",
+        "NORM-US-CONST-P18"
       ],
       "effect_status": "operative",
       "legal_review_status": "textual_mapping_pending_review",
@@ -1777,7 +1778,8 @@
         "CONST-US-ART-01-SEC-09-CL-06"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-AI-09-06-PORTS"
+        "NORM-US-CONST-AI-09-06-PORTS",
+        "NORM-US-CONST-P03"
       ],
       "effect_status": "operative",
       "legal_review_status": "textual_mapping_pending_review",
@@ -1815,7 +1817,9 @@
         "CONST-US-ART-01-SEC-09-CL-07"
       ],
       "applies_to_norm_ids": [
-        "NORM-US-CONST-013"
+        "NORM-US-CONST-013",
+        "NORM-US-CONST-007",
+        "NORM-US-CONST-P12"
       ],
       "effect_status": "operative",
       "legal_review_status": "textual_mapping_pending_review",
