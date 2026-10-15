@@ -4530,6 +4530,1383 @@
       ],
       "qualifications": "Textually scoped constitutional summary; controlling judicial precedent, amendments, case-specific applicability and statutes require separate legal review.",
       "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-13-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Abolition of slavery and involuntary servitude",
+      "summary": "Slavery and involuntary servitude shall not exist in United States or any place subject to their jurisdiction, except for the specified conviction-based punishment clause.",
+      "provision_ids": [
+        "CONST-US-AMD-13-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-13-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Crime-conviction punishment exception",
+      "summary": "The narrow original exception is punishment for crime whereof a party shall have been duly convicted; it is not a general license for slavery.",
+      "provision_ids": [
+        "CONST-US-AMD-13-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-13-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional Thirteenth Amendment enforcement",
+      "summary": "Congress may enforce the Thirteenth Amendment by appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-13-SEC-02-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Birth/naturalization and U.S. citizenship",
+      "summary": "Persons born or naturalized in United States and subject to its jurisdiction are citizens of United States.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "State citizenship by State residence",
+      "summary": "Qualified U.S. citizens are citizens of the State where they reside.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-01-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Privileges or immunities of national citizenship",
+      "summary": "No State shall make or enforce law abridging privileges or immunities of U.S. citizens.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-01-SEG-04",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Due process against States for persons",
+      "summary": "No State shall deprive any person of life, liberty or property without due process.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01-SEG-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-01-SEG-05",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Equal protection against States for persons",
+      "summary": "No State may deny any person within its jurisdiction equal protection of the laws.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-01-SEG-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Representative apportionment by persons",
+      "summary": "Representatives shall be apportioned among States according to their respective numbers, with text and subsequent changes.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-02-SEG-01"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-02-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Historical original exclusion category",
+      "summary": "Original text referred to excluding 'Indians not taxed'; preserve as historical text only, not a present rule authorizing race-based exclusion.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-02-SEG-02"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-02-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Representation reduction for vote denial or abridgment",
+      "summary": "Section 2 describes reduction of State representation for abridged/denied specified voting rights with textual exceptions and later constitutional changes.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-02-SEG-03"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-02-SEG-04",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Original voting-age and male-voter reference",
+      "summary": "Historical 21-year-old male citizen reference is modified by subsequent suffrage amendments including XXVI; do not treat as a modern eligibility limit.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-02-SEG-04"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-02-SEG-05",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Participation in rebellion or other crime exception",
+      "summary": "The original apportionment vote-denial formula excepts participation in rebellion or other crime; scope requires jurisprudence.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-02-SEG-05"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-03-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Prior qualifying constitutional oath",
+      "summary": "Section 3 disqualification is tethered to a previously described oath to support Constitution and specified classes of officials.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-03-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-03-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Insurrection/rebellion and aid-and-comfort criterion",
+      "summary": "Section 3 specifies engaging in insurrection or rebellion or giving aid or comfort to enemies, under constitutional office criteria.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-03-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-03-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Covered federal and State constitutional offices",
+      "summary": "Coverage includes named federal and State offices with specified oaths and prerequisites; application contested doctrine handled separately.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-03-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-03-SEG-04",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress can remove disability by two-thirds each House",
+      "summary": "Congress may remove Section 3 disability by a vote of two-thirds of each House.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-03-SEG-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-04-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Validity of authorized federal public debt",
+      "summary": "Validity of public debt of United States, authorized by law, including enumerated suppression of insurrection/rebellion debts, shall not be questioned.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-04-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-04-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No assumption/payment of rebellion debt",
+      "summary": "Neither United States nor any State may assume or pay debt incurred in aid of insurrection or rebellion against United States.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-04-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-04-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No compensation for loss/emancipation of enslaved people",
+      "summary": "Neither United States nor any State may assume or pay claims for loss or emancipation of enslaved persons; such claims are illegal and void.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-04-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-14-SEC-05-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional enforcement of Fourteenth Amendment",
+      "summary": "Congress shall have power to enforce Fourteenth Amendment provisions by appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-14-SEC-05-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-15-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Voting rights irrespective of race",
+      "summary": "Right of U.S. citizens to vote shall not be denied or abridged by United States or any State on account of race.",
+      "provision_ids": [
+        "CONST-US-AMD-15-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-15-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Voting rights irrespective of color",
+      "summary": "Citizens' voting rights shall not be denied or abridged on account of color.",
+      "provision_ids": [
+        "CONST-US-AMD-15-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-15-SEC-01-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Voting rights irrespective of prior condition of servitude",
+      "summary": "Citizens' voting rights shall not be denied or abridged on account of previous condition of servitude.",
+      "provision_ids": [
+        "CONST-US-AMD-15-SEC-01-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-15-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional Fifteenth Amendment enforcement",
+      "summary": "Congress may enforce Fifteenth Amendment by appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-15-SEC-02-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-16-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional taxation of incomes",
+      "summary": "Congress has power to lay and collect taxes on incomes from whatever source derived, subject to constitutional limits.",
+      "provision_ids": [
+        "CONST-US-AMD-16-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-16-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Income-tax apportionment exception",
+      "summary": "Income taxes described by Sixteenth Amendment may be laid without apportionment among States and without regard to any census or enumeration.",
+      "provision_ids": [
+        "CONST-US-AMD-16-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-17-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Direct election of two Senators per State",
+      "summary": "The people of each State elect two Senators for six-year terms, each with one vote.",
+      "provision_ids": [
+        "CONST-US-AMD-17-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-17-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "eligibility",
+      "name": "Senate elector qualifications from most numerous State legislative chamber",
+      "summary": "Electors in each State have qualifications requisite for electors of most numerous branch of State legislature, subject to later amendments and voting rights law.",
+      "provision_ids": [
+        "CONST-US-AMD-17-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-17-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "State executive issues Senate vacancy election writ",
+      "summary": "When Senate vacancy occurs, State executive authority issues writs of election to fill vacancy.",
+      "provision_ids": [
+        "CONST-US-AMD-17-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-17-SEG-04",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "State legislature may enable temporary Senate appointments",
+      "summary": "State legislature may empower executive to make temporary Senate appointments until voters fill vacancy by election.",
+      "provision_ids": [
+        "CONST-US-AMD-17-SEG-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-17-SEG-05",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Senate membership prior to ratification protected",
+      "summary": "Original transition rule protects election or term of any Senator chosen before Amendment XVII became valid; historical transitional exception.",
+      "provision_ids": [
+        "CONST-US-AMD-17-SEG-05"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-18-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "historic_repealed",
+      "name": "Historical national prohibition of beverage alcohol",
+      "summary": "Repealed national ban on manufacture, sale and transport of intoxicating liquors for beverage purposes; not current constitutional authority.",
+      "provision_ids": [
+        "CONST-US-AMD-18-SEC-01-SEG-01"
+      ],
+      "effect_status": "repealed",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-18-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "historic_repealed",
+      "name": "Historical delayed one-year prohibition effect",
+      "summary": "Repealed amendment's substantive prohibition was deferred for one year from ratification before commencing January 1920.",
+      "provision_ids": [
+        "CONST-US-AMD-18-SEC-01-SEG-02"
+      ],
+      "effect_status": "repealed",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-18-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "historic_repealed",
+      "name": "Historical concurrent federal and State enforcement",
+      "summary": "Repealed Article XVIII allocated concurrent enforcement authority to Congress and States; this authority ended with repeal in 1933.",
+      "provision_ids": [
+        "CONST-US-AMD-18-SEC-02-SEG-01"
+      ],
+      "effect_status": "repealed",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-18-SEC-03-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "historic_repealed",
+      "name": "Historical seven-year State legislative ratification deadline",
+      "summary": "Repealed amendment's ratification prerequisite had to be satisfied within seven years and was met in 1919; not a recurring contemporary duty.",
+      "provision_ids": [
+        "CONST-US-AMD-18-SEC-03-SEG-01"
+      ],
+      "effect_status": "repealed",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-19-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Voting rights not denied on account of sex",
+      "summary": "Voting rights of U.S. citizens may not be denied or abridged by United States or States on account of sex.",
+      "provision_ids": [
+        "CONST-US-AMD-19-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-19-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional Nineteenth Amendment enforcement",
+      "summary": "Congress may enforce Nineteenth Amendment by appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-19-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Presidential and vice presidential term start and end January 20",
+      "summary": "President and Vice President terms end at noon January 20 in relevant years; successors' terms begin then.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Congressional term start and end January 3",
+      "summary": "Senator and Representative terms end at noon January 3 in relevant years; successors' terms begin then.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Congress convenes annually January 3",
+      "summary": "Congress must meet at least once annually beginning noon January 3 unless Congress by law appoints a different day.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-02-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-02-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may set alternative annual meeting date by law",
+      "summary": "Congress may by law appoint a different annual meeting day.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-02-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-03-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "President-elect death: Vice-President-elect becomes President",
+      "summary": "At beginning of term, if President-elect died, Vice-President-elect becomes President.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-03-SEG-01"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-03-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Failure to choose or qualify President: acting Vice President-elect",
+      "summary": "If no President chosen before term or President-elect fails qualification, Vice-President-elect acts as President until President qualifies.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-03-SEG-02"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-03-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may legislate when both incoming officers unqualified",
+      "summary": "Congress may by law determine who acts as President if neither a President-elect nor a Vice-President-elect qualifies, subject to text.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-03-SEG-03"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-03-SEG-04",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Acting President limited until a successor qualifies",
+      "summary": "Contingent acting President serves only until a President or Vice President qualifies, according to the relevant section.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-03-SEG-04"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-04-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "House contingent presidential candidate death legislation",
+      "summary": "Congress may by law address death of a person from whom House may choose a President in a contingent election.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-04-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-04-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Senate contingent vice presidential candidate death legislation",
+      "summary": "Congress may by law address death of a person from whom Senate may choose a Vice President in a contingent election.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-04-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-05-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Historical effective date October 15 for Sections 1 and 2",
+      "summary": "Sections 1 and 2 expressly entered legal effect October 15, 1933, rather than the January 1933 ratification date.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-05-SEG-01"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-20-SEC-06-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Historical seven-year ratification deadline",
+      "summary": "Amendment XX required ratification by State legislatures within seven years of proposal; requirement fulfilled in 1933.",
+      "provision_ids": [
+        "CONST-US-AMD-20-SEC-06-SEG-01"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-21-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "Constitutional repeal of Eighteenth Amendment",
+      "summary": "Twenty-First Amendment Section 1 repealed Amendment XVIII as of ratification December 5, 1933.",
+      "provision_ids": [
+        "CONST-US-AMD-21-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-21-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Import and delivery contrary to State alcohol laws prohibited",
+      "summary": "Transport/import of intoxicating liquor into a State, Territory or possession for delivery/use in violation of local law is prohibited, subject to controlling constitutional doctrine.",
+      "provision_ids": [
+        "CONST-US-AMD-21-SEC-02-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-21-SEC-03-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Historical convention ratification prerequisite within seven years",
+      "summary": "Twenty-First Amendment used State conventions and a seven-year ratification window; condition fulfilled December 1933.",
+      "provision_ids": [
+        "CONST-US-AMD-21-SEC-03-SEG-01"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-22-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Two-election presidential limit",
+      "summary": "No person may be elected President more than twice under Twenty-Second Amendment.",
+      "provision_ids": [
+        "CONST-US-AMD-22-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-22-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Service over two years of another elected term",
+      "summary": "A person holding/acting as President for more than two years of another President's term may be elected President no more than once.",
+      "provision_ids": [
+        "CONST-US-AMD-22-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-22-SEC-01-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Historical incumbent and then-current-term exceptions",
+      "summary": "Section 1's historically specific exemptions for officeholder at proposal and within the term at adoption do not create an unlimited modern exception.",
+      "provision_ids": [
+        "CONST-US-AMD-22-SEC-01-SEG-03"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-22-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Historical seven-year ratification limit",
+      "summary": "Amendment XXII's seven-year legislative ratification requirement was met in February 1951.",
+      "provision_ids": [
+        "CONST-US-AMD-22-SEC-02-SEG-01"
+      ],
+      "effect_status": "expired",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-23-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "District of Columbia selection of presidential electors",
+      "summary": "District constituting seat of government appoints presidential electors as Congress may direct; DC does not thereby become a State.",
+      "provision_ids": [
+        "CONST-US-AMD-23-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-23-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "District presidential electors capped by least populous State",
+      "summary": "District receives electors equivalent to putative Senators and Representatives, but no more than least populous State.",
+      "provision_ids": [
+        "CONST-US-AMD-23-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-23-SEC-01-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "District electors perform Twelfth Amendment duties",
+      "summary": "District electors are additional to State electors and follow Twelfth Amendment presidential/vice presidential election mechanism.",
+      "provision_ids": [
+        "CONST-US-AMD-23-SEC-01-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-23-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional Twenty-Third Amendment enforcement",
+      "summary": "Congress may enforce Twenty-Third Amendment by appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-23-SEC-02-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-24-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Federal election and primary poll-tax prohibition",
+      "summary": "Citizens' federal election voting rights cannot be denied or abridged by federal/State governments for failure to pay a poll tax or other tax.",
+      "provision_ids": [
+        "CONST-US-AMD-24-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-24-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Enumerated federal offices and electors scope",
+      "summary": "Twenty-Fourth Amendment text covers Presidential/VP elections and electors plus U.S. Senate and House elections, including primaries.",
+      "provision_ids": [
+        "CONST-US-AMD-24-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-24-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional Twenty-Fourth Amendment enforcement",
+      "summary": "Congress may enforce Twenty-Fourth Amendment by appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-24-SEC-02-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Vice President succeeds permanently after presidential vacancy",
+      "summary": "Upon presidential removal, death or resignation, Vice President becomes President; separate from Acting President on inability.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "President nominates new Vice President for vacancy",
+      "summary": "If Vice Presidency vacant, President nominates a new Vice President.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-02-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-02-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Both Houses must confirm new Vice President by majority",
+      "summary": "Vice presidential nominee assumes office upon a majority vote of each House, not Senate-only advice and consent.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-02-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-03-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Written presidential declaration of inability",
+      "summary": "President transmits written declaration of inability to President pro tempore Senate and Speaker House.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-03-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-03-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Vice President exercises powers as Acting President",
+      "summary": "Upon declaration, Vice President discharges powers and duties as Acting President.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-03-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-03-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Presidential contrary declaration ends voluntary inability",
+      "summary": "President may transmit contrary written declaration to resume powers under Section 3.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-03-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-04-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Vice President and majority officer/body inability declaration",
+      "summary": "Vice President and majority principal executive officers (or substitute body Congress may by law provide) submit written inability declaration.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-04-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-04-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Vice President immediately becomes Acting President after declaration",
+      "summary": "Following the written initial Section 4 inability declaration, Vice President immediately assumes powers as Acting President.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-04-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-04-SEG-03",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "Presidential declaration of ability and four-day challenge window",
+      "summary": "President may declare no inability exists; Vice President with specified majority may challenge by written declaration within four days.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-04-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-04-SEG-04",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Congress convenes within 48 hours if not in session",
+      "summary": "Following the specified contested declaration, Congress must assemble within 48 hours if not in session.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-04-SEG-04"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-04-SEG-05",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Congressional 21-day decision period",
+      "summary": "Congress must decide disputed inability within 21 days after receiving the latter declaration or after required assembly when not in session.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-04-SEG-05"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-04-SEG-06",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Two-thirds of both Houses for contested inability determination",
+      "summary": "Continued Vice President Acting Presidency upon contested presidential ability requires a two-thirds vote of each House.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-04-SEG-06"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-25-SEC-04-SEG-07",
+      "type": "constitutional_norm",
+      "norm_kind": "procedure",
+      "name": "President resumes absent required dual supermajority",
+      "summary": "If Congress does not meet the required constitutional two-thirds determination, President resumes powers and duties.",
+      "provision_ids": [
+        "CONST-US-AMD-25-SEC-04-SEG-07"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-26-SEC-01-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Voting protections for citizens 18 years or older",
+      "summary": "Citizens of United States who are eighteen years of age or older have voting-right protection against age-based denial.",
+      "provision_ids": [
+        "CONST-US-AMD-26-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-26-SEC-01-SEG-02",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "Federal and State age-based vote abridgment prohibition",
+      "summary": "Neither United States nor any State may abridge covered citizens' voting rights on account of age.",
+      "provision_ids": [
+        "CONST-US-AMD-26-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-26-SEC-02-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congressional Twenty-Sixth Amendment enforcement",
+      "summary": "Congress may enforce Twenty-Sixth Amendment by appropriate legislation.",
+      "provision_ids": [
+        "CONST-US-AMD-26-SEC-02-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AMD-27-SEG-01",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Intervening House election before congressional compensation variation",
+      "summary": "A law varying Senators' or Representatives' compensation cannot take effect until an election of Representatives intervenes.",
+      "provision_ids": [
+        "CONST-US-AMD-27-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "qualifications": "Textual scope and historical effect only; statutory delegations, contested eligibility, and judicial interpretation require separate legal review.",
+      "amendment_increment": "2026-10-15"
     }
   ]
 }
