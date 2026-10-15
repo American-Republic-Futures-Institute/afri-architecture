@@ -38,7 +38,11 @@
     "model/constitutional/article-i-capability-links.json",
     "model/constitutional/article-ii-units.json",
     "model/constitutional/article-ii-qualifications.json",
-    "model/constitutional/article-ii-capability-links.json"
+    "model/constitutional/article-ii-capability-links.json",
+    "model/constitutional/article-iii-units.json",
+    "model/constitutional/article-iii-qualifications.json",
+    "model/constitutional/article-iii-capability-links.json",
+    "model/constitutional/article-iii-jurisdiction.json"
   ],
   "standards": [
     {
@@ -119,5 +123,27 @@
     ],
     "scope": "Original Article II numbered clauses, analytic decomposition of unnumbered Section 3, Section 4 removal, textual limitations, ratified amendment overlays and capability alignments.",
     "publication_note": "Function segments of Section 3 are ARFI analysis units, NOT numbered constitutional clauses. No case-law or statutory delegation is implied."
+  },
+  "article_iii_extension": {
+    "id": "ARFI-COA-ART-III-001",
+    "review_status": "research_textual_summary_pending_legal_review",
+    "numbered_clause_counts": [
+      0,
+      3,
+      2
+    ],
+    "numbered_clause_count": 5,
+    "unnumbered_section1_analytic_segments": 3,
+    "analysis_unit_count": 8,
+    "jurisdiction_categories": 9,
+    "source_text_basis": [
+      "SRC-CONST-ORIGINAL-TRANSCRIPT",
+      "SRC-CONST-LATER-AMENDMENTS",
+      "SRC-USCOURTS-TYPES-JUDGES",
+      "SRC-CONST-CONAN-TREASON",
+      "SRC-CONST-CONAN-DIVERSITY"
+    ],
+    "scope": "Judicial vesting, good-behavior tenure and compensation, lower-court creation, nine textual jurisdiction categories, original and appellate jurisdiction, criminal jury/venue, treason and congressional punishment limits.",
+    "publication_note": "Section 1 analytical segments are not numbered constitutional clauses; Article I tribunals are not Article III courts, and jurisdictional categories are not self-executing grants to all courts."
   }
 }

@@ -39,3 +39,7 @@ jobs:
         run: node scripts/validate-article-ii.mjs
       - name: Test Article II executive authority and limitations
         run: node --test tests/article-ii.test.mjs
+      - name: Validate complete Article III judicial authority, jurisdiction and safeguards
+        run: node scripts/validate-article-iii.mjs
+      - name: Test Article III legal boundary regressions
+        run: node --test tests/article-iii.test.mjs

@@ -746,7 +746,8 @@
       "name": "Judicial power vested in federal courts",
       "summary": "Judicial power is vested in one Supreme Court and inferior federal courts Congress may establish.",
       "provision_ids": [
-        "CONST-US-ART-03-SEC-01"
+        "CONST-US-ART-03-SEC-01",
+        "CONST-US-ART-03-SEC-01-SEG-01"
       ],
       "effect_status": "operative",
       "interpretation_status": "textual_summary_pending_legal_review",
@@ -762,7 +763,9 @@
       "name": "Article III judicial tenure and compensation",
       "summary": "Article III judges hold office during good behavior, with compensation protections during continuance in office.",
       "provision_ids": [
-        "CONST-US-ART-03-SEC-01"
+        "CONST-US-ART-03-SEC-01",
+        "CONST-US-ART-03-SEC-01-SEG-02",
+        "CONST-US-ART-03-SEC-01-SEG-03"
       ],
       "effect_status": "operative",
       "interpretation_status": "textual_summary_pending_legal_review",
@@ -780,12 +783,12 @@
       "provision_ids": [
         "CONST-US-ART-03-SEC-02-CL-01"
       ],
-      "effect_status": "operative",
+      "effect_status": "modified_in_part",
       "interpretation_status": "textual_summary_pending_legal_review",
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],
-      "qualifications": "Subject to constitutional amendments, jurisdictional statutes, sovereign immunity doctrine and justiciability requirements."
+      "qualifications": "Enumerated cases/controversies are subject to later amendments, statutory jurisdiction, sovereign immunity and justiciability; the Eleventh Amendment narrows certain suits against States."
     },
     {
       "id": "NORM-US-CONST-033",
@@ -810,7 +813,8 @@
       "name": "Jury trial of crimes",
       "summary": "Article III protects jury trial in covered criminal cases except impeachment, with prescribed place of trial.",
       "provision_ids": [
-        "CONST-US-ART-03-SEC-02"
+        "CONST-US-ART-03-SEC-02",
+        "CONST-US-ART-03-SEC-02-CL-03"
       ],
       "effect_status": "operative",
       "interpretation_status": "textual_summary_pending_legal_review",
@@ -826,7 +830,8 @@
       "name": "Definition and proof of treason",
       "summary": "Treason has a defined constitutional scope and unusually stringent evidentiary or confession requirements.",
       "provision_ids": [
-        "CONST-US-ART-03-SEC-03"
+        "CONST-US-ART-03-SEC-03",
+        "CONST-US-ART-03-SEC-03-CL-01"
       ],
       "effect_status": "operative",
       "interpretation_status": "textual_summary_pending_legal_review",
@@ -2804,6 +2809,499 @@
       ],
       "qualifications": "Original textual scope only; ratified amendment overlays, other constitutional provisions, and controlling judicial doctrine require separate examination.",
       "article_ii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-01-01-ONE-SUPREME",
+      "type": "constitutional_norm",
+      "norm_kind": "structural_allocation",
+      "name": "One Supreme Court",
+      "summary": "The Constitution expressly vests judicial power in one Supreme Court.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-01-01-INFERIOR-CREATION",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may establish inferior Article III courts",
+      "summary": "Congress may from time to time ordain and establish inferior courts; the Constitution itself does not establish each modern inferior court.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Good-behavior tenure",
+      "summary": "Article III justices and judges of the supreme and inferior courts hold office during good behavior, with separate removal jurisprudence.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-01-03-STATED-PAY",
+      "type": "constitutional_norm",
+      "norm_kind": "duty",
+      "name": "Judicial compensation at stated times",
+      "summary": "Article III judges must receive compensation at stated times for their services.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-01-03-NON-DIMINUTION",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No reduction in Article III judicial compensation",
+      "summary": "Compensation of Article III judges may not be diminished during their continuance in office.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-FEDERAL-QUESTION",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Constitution, federal laws and treaties",
+      "summary": "Cases in law or equity arising under the Constitution, federal laws, and treaties made under federal authority are within the enumerated federal judicial-power categories.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-DIPLOMATS",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Cases affecting ambassadors, public ministers and consuls",
+      "summary": "The federal judicial power includes specified cases affecting ambassadors and other public ministers and consuls.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-ADMIRALTY",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Admiralty and maritime cases",
+      "summary": "The enumerated judicial power includes all cases of admiralty and maritime jurisdiction.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-US-PARTY",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Controversies involving the United States",
+      "summary": "The enumerated judicial power includes controversies to which the United States shall be a party, subject to further law including immunity.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-STATE-STATE",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Controversies between two or more States",
+      "summary": "Federal judicial power extends to controversies between two or more States.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-STATE-OTHER-CITIZEN",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Controversies between a State and citizens of another State",
+      "summary": "The original Constitution identifies controversies between a State and citizens of another State, subject to the later Eleventh Amendment's specific restrictions.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-CITIZEN-DIVERSITY",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Controversies between citizens of different States",
+      "summary": "Federal judicial power reaches controversies between citizens of different States, with statutes determining lower-court jurisdiction.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-LAND-GRANTS",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Competing state land-grant claims between same-state citizens",
+      "summary": "Federal judicial power includes controversies between citizens of the same State claiming lands under grants of different States.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-01-FOREIGN-PARTIES",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Controversies involving foreign States, citizens or subjects",
+      "summary": "The original text identifies controversies involving a State or its citizens and foreign States, citizens or subjects, subject to constitutional amendments and other law.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "effect_status": "modified_in_part",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Article III original foreign-party controversy language is qualified in part by the Eleventh Amendment and subsequent sovereign-immunity doctrine; the original federal judicial category remains subject to separate statutory jurisdiction.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-02-ORIGINAL",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Supreme Court original jurisdiction",
+      "summary": "The Supreme Court has original jurisdiction in cases affecting ambassadors, other public ministers and consuls, and those in which a State is party.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-02-APPELLATE",
+      "type": "constitutional_norm",
+      "norm_kind": "jurisdiction",
+      "name": "Supreme Court appellate jurisdiction",
+      "summary": "The Supreme Court has appellate jurisdiction, as to law and fact, in other enumerated Article III cases, subject to constitutional qualifications.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-02-CONGRESS-EXCEPTIONS",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may make exceptions and regulations for appellate jurisdiction",
+      "summary": "Congress may make constitutionally permitted exceptions and regulations for the Supreme Court's appellate jurisdiction.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-03-JURY",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Criminal jury trial",
+      "summary": "Article III requires jury trial for covered criminal prosecutions, expressly excepting impeachment.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-03-IMPEACHMENT-EXCEPTION",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Impeachment excepted from criminal jury requirement",
+      "summary": "The Article III criminal jury requirement does not apply to cases of impeachment.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-03-STATE-VENUE",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Criminal trial in State where offense committed",
+      "summary": "Article III directs that a criminal trial be held in the State where the charged crime was committed.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-02-03-OUTSIDE-STATE",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may prescribe federal criminal trial location for offenses outside any State",
+      "summary": "If a federal crime was not committed within any State, Congress may by law direct the place or places of trial.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-03-01-TREASON-ONLY",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Treason confined to specified constitutional categories",
+      "summary": "Federal treason consists only of levying war against the United States or adhering to their enemies giving aid and comfort.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-03-01-LEVYING-WAR",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Treason by levying war",
+      "summary": "One constitutionally enumerated basis of treason is levying war against the United States.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-03-01-ADHERING-ENEMIES",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Treason by adherence and aid and comfort",
+      "summary": "The other constitutionally enumerated basis is adherence to enemies of the United States, giving aid and comfort.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-03-01-TWO-WITNESSES",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Two witnesses to same overt act",
+      "summary": "Treason conviction based on witness testimony requires two witnesses to the same overt act.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-03-01-OPEN-COURT-CONFESSION",
+      "type": "constitutional_norm",
+      "norm_kind": "right",
+      "name": "Open-court confession alternative",
+      "summary": "A confession in open court is the constitutional alternative to the treason two-witness requirement.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS",
+      "type": "constitutional_norm",
+      "norm_kind": "power",
+      "name": "Congress may declare punishment for treason",
+      "summary": "Congress has power to declare the punishment of treason within constitutional limits.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-03-02-NO-CORRUPTION-BLOOD",
+      "type": "constitutional_norm",
+      "norm_kind": "prohibition",
+      "name": "No corruption of blood from attainder of treason",
+      "summary": "An attainder of treason may not work corruption of blood.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
+    },
+    {
+      "id": "NORM-US-CONST-AIII-03-02-FORFEITURE-LIMIT",
+      "type": "constitutional_norm",
+      "norm_kind": "limitation",
+      "name": "Forfeiture restricted beyond lifetime of person attainted",
+      "summary": "An attainder of treason may not result in forfeiture extending beyond the life of the person attainted.",
+      "provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-02"
+      ],
+      "effect_status": "operative",
+      "interpretation_status": "textual_summary_pending_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualifications": "Only textually described constitutional scope; judicial doctrines, enacted jurisdictional statutes and amendments must be modeled separately.",
+      "article_iii_increment": "2026-10-15"
     }
   ]
 }

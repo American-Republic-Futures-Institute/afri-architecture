@@ -73,3 +73,9 @@ Review [ARTICLE-I-ARCHITECTURE.md](ARTICLE-I-ARCHITECTURE.md) for the authoritat
 **Do not fabricate Article II §3 clause numbers.** Article II §1 has eight conventionally numbered clauses; §2 has three. §3 is a single original text section whose five functional spans have analytic IDs `CONST-US-ART-02-SEC-03-SEG-01..05` with unit type `article_section_segment` and **section-level** citations. §4 is preserved as a section-level impeachment/removal unit. All original norm IDs remain stable.
 
 The `AII-QUAL-*` registry binds explicit constitutional limits to applicable individual norms, including amendment overlays from XII, XIV, XX, XXII, XXIII and XXV and references to Article I `AI-QUAL-*` checks. `AII-CAP-*` remains functional alignment only, not a presidential or administrative statutory delegation. See [ARTICLE-II-ARCHITECTURE.md](ARTICLE-II-ARCHITECTURE.md).
+
+## Article III court authority and jurisdiction extension
+
+All original Article III numbered clauses have canonical identities; Section 1 is analytically split into **three unnumbered spans** using `article_section_segment` and citations to Article III § 1, never fictitious clause numbering. New `AIII-QUAL-*` checks attach original textual requirements, amendment overlays, Article I/II boundaries and **separately labeled interpretation caveats** to exact norms. The nine `AIII-JUR-*` entries distinguish the constitutional judicial-power categories from any enacted lower-court jurisdiction and from the Supreme Court's distinct original/appellate jurisdiction. `AIII-CAP-*` are functional alignments only.
+
+Federal Article III tenure protection uses `ACT-US-ARTICLE-III-JUDGES`, not `ACT-US-FED-COURTS`, which can include Article I and specialized courts. See [ARTICLE-III-ARCHITECTURE.md](ARTICLE-III-ARCHITECTURE.md).

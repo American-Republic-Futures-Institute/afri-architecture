@@ -1,0 +1,1103 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AIII-QUAL-01-01-ONE-SUPREME-COURT",
+      "type": "article_iii_qualification",
+      "kind": "structural_requirement",
+      "name": "The Constitution vests the United States judicial power in one Supreme Court.",
+      "summary": "The Constitution vests the United States judicial power in one Supreme Court.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-030",
+        "NORM-US-CONST-AIII-01-01-ONE-SUPREME"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-01-INFERIOR-COURTS-CONGRESS",
+      "type": "article_iii_qualification",
+      "kind": "allocation",
+      "name": "Congress, not the Supreme Court or the President alone, may ordain and establish infe",
+      "summary": "Congress, not the Supreme Court or the President alone, may ordain and establish inferior federal courts.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01",
+        "CONST-US-ART-01-SEC-08-CL-09"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-030",
+        "NORM-US-CONST-AIII-01-01-INFERIOR-CREATION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-08-09-INFERIOR-TO-SUPREME"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-01-ARTICLE-I-VERSUS-III",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Article I tribunals and legislative courts are not automatically Article III courts, ",
+      "summary": "Article I tribunals and legislative courts are not automatically Article III courts, and may not have identical tenure or compensation protections.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-030",
+        "NORM-US-CONST-AIII-01-01-INFERIOR-CREATION"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-01-CONSTITUTIONAL-POWER-NOT-STATUTORY-COURT-JURISDICTION",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Constitutional judicial vesting does not by itself establish every modern inferior co",
+      "summary": "Constitutional judicial vesting does not by itself establish every modern inferior court, provide detailed procedural rules, or confer every statutory jurisdiction.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-030"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-DIVERSITY"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-01-JUDICIAL-REVIEW-SEPARATE",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The judicial review doctrine is not an express Article III Section 1 phrase; its cont",
+      "summary": "The judicial review doctrine is not an express Article III Section 1 phrase; its controlling legal construction and holdings belong in a separate precedent registry.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-030"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-JUDICIAL-REVIEW"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-01-ARTICLE-II-APPOINTMENTS",
+      "type": "article_iii_qualification",
+      "kind": "cross_article_limit",
+      "name": "Federal Supreme Court judicial appointments follow the President-and-Senate mechanism",
+      "summary": "Federal Supreme Court judicial appointments follow the President-and-Senate mechanism under Article II Section 2; this is separate from Congress's power to establish inferior courts.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-01-01-ONE-SUPREME"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_ii_qualification_ids": [
+        "AII-QUAL-02-02-APPOINTMENT-SENATE-CONSENT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-02-GOOD-BEHAVIOR",
+      "type": "article_iii_qualification",
+      "kind": "office_protection",
+      "name": "Judges of the Supreme Court and inferior Article III courts hold office during good b",
+      "summary": "Judges of the Supreme Court and inferior Article III courts hold office during good behavior.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-031",
+        "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-02-ARTICLE-III-CLASS",
+      "type": "article_iii_qualification",
+      "kind": "actor_scope",
+      "name": "Article III good-behavior protection is for judges in constitutional Article III offi",
+      "summary": "Article III good-behavior protection is for judges in constitutional Article III offices and does not automatically extend to Article I judges, bankruptcy judges or magistrates.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-031",
+        "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-02-IMPEACHMENT-HOUSE-SENATE",
+      "type": "article_iii_qualification",
+      "kind": "cross_article_limit",
+      "name": "Congressional impeachment and conviction mechanisms are established by Article I and ",
+      "summary": "Congressional impeachment and conviction mechanisms are established by Article I and Article II; they must be separately considered from good-behavior tenure.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-02",
+        "CONST-US-ART-01-SEC-02-CL-05",
+        "CONST-US-ART-01-SEC-03-CL-06",
+        "CONST-US-ART-02-SEC-04"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-031",
+        "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-02-05-HOUSE-IMPEACHMENT",
+        "AI-QUAL-03-06-TWO-THIRDS"
+      ],
+      "article_ii_qualification_ids": [
+        "AII-QUAL-04-01-REMOVAL-UPON-CONVICTION"
+      ],
+      "note": "Good-behavior removal questions require controlling precedent; the architecture does not invent a nonimpeachment mechanism."
+    },
+    {
+      "id": "AIII-QUAL-01-02-JUDICIAL-INDEPENDENCE",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Judicial tenure protections serve an independent judiciary but do not create a freest",
+      "summary": "Judicial tenure protections serve an independent judiciary but do not create a freestanding authority to disregard jurisdiction statutes, recusal rules or binding law.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-03-STATED-TIMES",
+      "type": "article_iii_qualification",
+      "kind": "procedural_requirement",
+      "name": "Article III judges must receive compensation at stated times for services.",
+      "summary": "Article III judges must receive compensation at stated times for services.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-031",
+        "NORM-US-CONST-AIII-01-03-STATED-PAY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-03-NO-DIMINUTION",
+      "type": "article_iii_qualification",
+      "kind": "prohibition",
+      "name": "Article III judicial compensation may not be diminished during judges' continuance in",
+      "summary": "Article III judicial compensation may not be diminished during judges' continuance in office.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-031",
+        "NORM-US-CONST-AIII-01-03-NON-DIMINUTION"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-03-NOT-ALL-FEDERAL-JUDGES",
+      "type": "article_iii_qualification",
+      "kind": "actor_scope",
+      "name": "Do not treat Article I legislative judgeships and other non-Article III offices as au",
+      "summary": "Do not treat Article I legislative judgeships and other non-Article III offices as automatically entitled to identical Article III non-diminution protections.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-031",
+        "NORM-US-CONST-AIII-01-03-NON-DIMINUTION"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-01-03-NOT-ALL-PAY-ALTERATIONS",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The constitutional restriction is non-diminution during service; questions about taxe",
+      "summary": "The constitutional restriction is non-diminution during service; questions about taxes, prospective increases or pension changes require controlling case-law analysis.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-01-03-NON-DIMINUTION"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-ENUMERATED-CASES-CONTROVERSIES",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_limit",
+      "name": "The enumerated constitutional categories bound Article III federal judicial power; th",
+      "summary": "The enumerated constitutional categories bound Article III federal judicial power; they are not an unlimited general jurisdiction over every dispute.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-FEDERAL-QUESTION",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "The constitutional subject includes cases in law or equity arising under the Constitu",
+      "summary": "The constitutional subject includes cases in law or equity arising under the Constitution, federal laws and treaties made under federal authority.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-FEDERAL-QUESTION",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-DIPLOMATS",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "The judicial-power enumeration includes cases affecting ambassadors, other public min",
+      "summary": "The judicial-power enumeration includes cases affecting ambassadors, other public ministers and consuls.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-DIPLOMATS",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-ADMIRALTY",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "The judicial-power enumeration includes admiralty and maritime cases.",
+      "summary": "The judicial-power enumeration includes admiralty and maritime cases.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-ADMIRALTY",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-US-PARTY",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "The enumeration includes controversies to which the United States is a party, subject",
+      "summary": "The enumeration includes controversies to which the United States is a party, subject to statutory jurisdiction and immunity doctrine.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-US-PARTY",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-STATE-STATE",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "The enumerated controversies include those between two or more States.",
+      "summary": "The enumerated controversies include those between two or more States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-STATE-STATE",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-STATE-OTHER-CITIZEN",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "Original text includes controversies between a State and citizens of another State; i",
+      "summary": "Original text includes controversies between a State and citizens of another State; its modern scope requires the Eleventh Amendment.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-STATE-OTHER-CITIZEN",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-DIVERSE-CITIZENS",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "The enumeration includes controversies between citizens of different States.",
+      "summary": "The enumeration includes controversies between citizens of different States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-CITIZEN-DIVERSITY",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-DIFFERENT-STATE-LAND-GRANTS",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "The enumeration includes same-State citizens claiming lands under grants of different",
+      "summary": "The enumeration includes same-State citizens claiming lands under grants of different States.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-LAND-GRANTS",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-FOREIGN-PARTIES",
+      "type": "article_iii_qualification",
+      "kind": "jurisdictional_category",
+      "name": "The original enumeration includes certain controversies involving States/citizens and",
+      "summary": "The original enumeration includes certain controversies involving States/citizens and foreign States/citizens/subjects.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-FOREIGN-PARTIES",
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-ELEVENTH-AMENDMENT",
+      "type": "article_iii_qualification",
+      "kind": "amendment_limit",
+      "name": "The Eleventh Amendment excludes specified constructions of federal judicial power ove",
+      "summary": "The Eleventh Amendment excludes specified constructions of federal judicial power over suits commenced or prosecuted against a State by citizens of another State or foreign citizens/subjects; it does not erase all inter-State controversies.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01",
+        "CONST-US-AMD-11"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-STATE-OTHER-CITIZEN",
+        "NORM-US-CONST-AIII-02-01-FOREIGN-PARTIES",
+        "NORM-US-CONST-032",
+        "NORM-US-CONST-063"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "note": "Additional state-sovereign-immunity doctrine may reach farther; store its precedents separately."
+    },
+    {
+      "id": "AIII-QUAL-02-01-STATUTORY-LOWER-COURT-JURISDICTION",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Article III enumerates constitutional categories; lower federal court jurisdiction al",
+      "summary": "Article III enumerates constitutional categories; lower federal court jurisdiction also depends on enacted jurisdictional statutes and justiciability.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-032",
+        "NORM-US-CONST-AIII-02-01-CITIZEN-DIVERSITY"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-DIVERSITY"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-JUSTICIABILITY-DOCTRINE-SEPARATE",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Standing, ripeness, mootness and advisory-opinion limitations derive from constitutio",
+      "summary": "Standing, ripeness, mootness and advisory-opinion limitations derive from constitutional doctrine; do not label case holdings as verbatim text.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-032"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-01-FEDERAL-PARTY-IMMUNITY",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "A listed controversy involving the United States does not independently waive federal",
+      "summary": "A listed controversy involving the United States does not independently waive federal sovereign immunity or establish a statutory cause of action.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-01-US-PARTY"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-02-SUPREME-ORIGINAL",
+      "type": "article_iii_qualification",
+      "kind": "allocation",
+      "name": "Supreme Court original jurisdiction encompasses cases affecting ambassadors, other pu",
+      "summary": "Supreme Court original jurisdiction encompasses cases affecting ambassadors, other public ministers and consuls, and those in which a State is party.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-033",
+        "NORM-US-CONST-AIII-02-02-ORIGINAL"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-02-SUPREME-APPELLATE",
+      "type": "article_iii_qualification",
+      "kind": "allocation",
+      "name": "Other enumerated Article III cases fall within the Supreme Court's appellate jurisdic",
+      "summary": "Other enumerated Article III cases fall within the Supreme Court's appellate jurisdiction, as to law and fact, subject to constitutional conditions.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-033",
+        "NORM-US-CONST-AIII-02-02-APPELLATE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-02-CONGRESS-EXCEPTIONS-AND-REGULATIONS",
+      "type": "article_iii_qualification",
+      "kind": "legislative_condition",
+      "name": "The Supreme Court's appellate jurisdiction is subject to such exceptions and regulati",
+      "summary": "The Supreme Court's appellate jurisdiction is subject to such exceptions and regulations as Congress may constitutionally make.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-033",
+        "NORM-US-CONST-AIII-02-02-CONGRESS-EXCEPTIONS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-02-NO-UNBOUNDED-ORIGINAL-EXPANSION",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Congress's exceptions-and-regulations language attaches to appellate jurisdiction; it",
+      "summary": "Congress's exceptions-and-regulations language attaches to appellate jurisdiction; it is not a textual authorization to convert every constitutional category into unrestricted Supreme Court original jurisdiction.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-033",
+        "NORM-US-CONST-AIII-02-02-ORIGINAL",
+        "NORM-US-CONST-AIII-02-02-CONGRESS-EXCEPTIONS"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-02-ARTICLE-I-INFERIOR-TRIBUNALS",
+      "type": "article_iii_qualification",
+      "kind": "cross_article_limit",
+      "name": "Congress's authority to create inferior tribunals under Article I Section 8 Clause 9 ",
+      "summary": "Congress's authority to create inferior tribunals under Article I Section 8 Clause 9 must be distinguished from Article III's constitutional vesting and subject-matter scope.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02",
+        "CONST-US-ART-01-SEC-08-CL-09"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-02-CONGRESS-EXCEPTIONS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-08-09-INFERIOR-TO-SUPREME"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-02-ELEVENTH-STATE-PARTY",
+      "type": "article_iii_qualification",
+      "kind": "amendment_limit",
+      "name": "Supreme Court original state-party categories cannot be read without later sovereign ",
+      "summary": "Supreme Court original state-party categories cannot be read without later sovereign immunity restrictions, including the Eleventh Amendment's textual scope.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02",
+        "CONST-US-AMD-11"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-033",
+        "NORM-US-CONST-AIII-02-02-ORIGINAL"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-02-STATUTORY-APPEAL-ROUTES",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The Constitution does not itself specify every appeal route or guarantee Supreme Cour",
+      "summary": "The Constitution does not itself specify every appeal route or guarantee Supreme Court review of every lower-court judgment; statutes and review doctrines matter.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-02-02-APPELLATE"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-STRUCTURE"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-03-JURY-TRIAL",
+      "type": "article_iii_qualification",
+      "kind": "right",
+      "name": "Article III specifies that trials of crimes, except impeachment, shall be by jury.",
+      "summary": "Article III specifies that trials of crimes, except impeachment, shall be by jury.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-034",
+        "NORM-US-CONST-AIII-02-03-JURY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-03-IMPEACHMENT-EXCEPTION",
+      "type": "article_iii_qualification",
+      "kind": "exception",
+      "name": "The constitutional jury-trial provision expressly excepts cases of impeachment, which",
+      "summary": "The constitutional jury-trial provision expressly excepts cases of impeachment, which the Senate tries under Article I.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03",
+        "CONST-US-ART-01-SEC-03-CL-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-034",
+        "NORM-US-CONST-AIII-02-03-IMPEACHMENT-EXCEPTION",
+        "NORM-US-CONST-AIII-02-03-JURY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-03-06-TRIAL-OATH",
+        "AI-QUAL-03-06-TWO-THIRDS"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-03-CRIME-STATE-VENUE",
+      "type": "article_iii_qualification",
+      "kind": "geographic_condition",
+      "name": "When the crime was committed within a State, Article III directs trial in that State.",
+      "summary": "When the crime was committed within a State, Article III directs trial in that State.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-034",
+        "NORM-US-CONST-AIII-02-03-STATE-VENUE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-03-OUTSIDE-STATE-LOCATION",
+      "type": "article_iii_qualification",
+      "kind": "exception",
+      "name": "When a crime was not committed within any State, Congress may direct the place or pla",
+      "summary": "When a crime was not committed within any State, Congress may direct the place or places of trial by law.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-034",
+        "NORM-US-CONST-AIII-02-03-OUTSIDE-STATE"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-03-SIXTH-AMENDMENT",
+      "type": "article_iii_qualification",
+      "kind": "amendment_limit",
+      "name": "The Sixth Amendment separately protects speedy/public trial, impartial jury and other",
+      "summary": "The Sixth Amendment separately protects speedy/public trial, impartial jury and other criminal-prosecution rights; original Article III does not list those Sixth Amendment elements.",
+      "origin": "amendment_overlay",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03",
+        "CONST-US-AMD-06"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-034",
+        "NORM-US-CONST-AIII-02-03-JURY"
+      ],
+      "effect_status": "amendment_modified",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-02-03-PETTY-OFFENSE-DOCTRINE",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "Scope and application of the jury requirement to offense categories, bench trials and",
+      "summary": "Scope and application of the jury requirement to offense categories, bench trials and waivers require judicial precedent; do not infer absolute coverage from a paraphrase.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-034",
+        "NORM-US-CONST-AIII-02-03-JURY"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-01-TREASON-ONLY-TWO-CATEGORIES",
+      "type": "article_iii_qualification",
+      "kind": "substantive_limit",
+      "name": "Constitutional treason consists only of levying war against the United States or adhe",
+      "summary": "Constitutional treason consists only of levying war against the United States or adhering to its enemies by giving aid and comfort.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-035",
+        "NORM-US-CONST-AIII-03-01-TREASON-ONLY"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-01-LEVYING-WAR",
+      "type": "article_iii_qualification",
+      "kind": "substantive_definition",
+      "name": "Levying war against the United States is the first textually enumerated treason categ",
+      "summary": "Levying war against the United States is the first textually enumerated treason category.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-01-LEVYING-WAR",
+        "NORM-US-CONST-035"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-01-ADHERING-ENEMIES-AID-COMFORT",
+      "type": "article_iii_qualification",
+      "kind": "substantive_definition",
+      "name": "Adhering to enemies by giving them aid and comfort is the second enumerated treason c",
+      "summary": "Adhering to enemies by giving them aid and comfort is the second enumerated treason category.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-01-ADHERING-ENEMIES",
+        "NORM-US-CONST-035"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-01-TWO-WITNESSES-SAME-ACT",
+      "type": "article_iii_qualification",
+      "kind": "evidentiary_threshold",
+      "name": "Without qualifying confession, treason conviction requires testimony of two witnesses",
+      "summary": "Without qualifying confession, treason conviction requires testimony of two witnesses to the same overt act.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-01-TWO-WITNESSES",
+        "NORM-US-CONST-035"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-01-CONFESSION-OPEN-COURT",
+      "type": "article_iii_qualification",
+      "kind": "alternative_proof",
+      "name": "A confession in open court is a separate constitutionally specified proof path for tr",
+      "summary": "A confession in open court is a separate constitutionally specified proof path for treason conviction.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-01-OPEN-COURT-CONFESSION",
+        "NORM-US-CONST-035"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-01-NO-TREASON-EXPANSION",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The narrow constitutional treason definition must not be casually expanded to classif",
+      "summary": "The narrow constitutional treason definition must not be casually expanded to classify ordinary dissent or every national-security offense as treason; doctrine and criminal statutes require separate evidence.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-01-TREASON-ONLY"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-TREASON"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-01-NOT-GENERAL-CRIMINAL-STANDARD",
+      "type": "article_iii_qualification",
+      "kind": "scope",
+      "name": "The treason two-witness standard is specific to treason and is not automatically appl",
+      "summary": "The treason two-witness standard is specific to treason and is not automatically applied to every federal criminal case.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-01"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-01-TWO-WITNESSES",
+        "NORM-US-CONST-035"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-02-CONGRESS-PUNISHMENT",
+      "type": "article_iii_qualification",
+      "kind": "allocation",
+      "name": "The Constitution gives Congress power to declare the punishment of treason, subject t",
+      "summary": "The Constitution gives Congress power to declare the punishment of treason, subject to explicit constitutional restrictions.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-02-NO-CORRUPTION-OF-BLOOD",
+      "type": "article_iii_qualification",
+      "kind": "prohibition",
+      "name": "No attainder of treason may result in corruption of blood.",
+      "summary": "No attainder of treason may result in corruption of blood.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-02-NO-CORRUPTION-BLOOD",
+        "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-02-FORFEITURE-LIFETIME",
+      "type": "article_iii_qualification",
+      "kind": "time_limit",
+      "name": "No attainder of treason may result in forfeiture extending beyond the life of the per",
+      "summary": "No attainder of treason may result in forfeiture extending beyond the life of the person attainted.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-02-FORFEITURE-LIMIT",
+        "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-02-ARTICLE-I-ATTAINDER-BAN",
+      "type": "article_iii_qualification",
+      "kind": "cross_article_limit",
+      "name": "Article I also bars bills of attainder; Congress's power to declare punishment for tr",
+      "summary": "Article I also bars bills of attainder; Congress's power to declare punishment for treason does not remove that prohibition.",
+      "origin": "original_text",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-02",
+        "CONST-US-ART-01-SEC-09-CL-03"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS"
+      ],
+      "effect_status": "operative",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "article_i_qualification_ids": [
+        "AI-QUAL-09-03-NO-ATTAINDER-EX-POST"
+      ]
+    },
+    {
+      "id": "AIII-QUAL-03-02-LEGACY-HEREDITARY-PUNISHMENT-NOT-AUTHORIZED",
+      "type": "article_iii_qualification",
+      "kind": "interpretive_boundary",
+      "name": "The corruption-of-blood prohibition and lifetime forfeiture cap must not be modeled a",
+      "summary": "The corruption-of-blood prohibition and lifetime forfeiture cap must not be modeled as permission for hereditary punishment or unlimited confiscation.",
+      "origin": "interpretive_boundary",
+      "source_provision_ids": [
+        "CONST-US-ART-03-SEC-03-CL-02"
+      ],
+      "applies_to_norm_ids": [
+        "NORM-US-CONST-AIII-03-02-NO-CORRUPTION-BLOOD",
+        "NORM-US-CONST-AIII-03-02-FORFEITURE-LIMIT"
+      ],
+      "effect_status": "research_boundary",
+      "legal_review_status": "textual_mapping_pending_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    }
+  ]
+}

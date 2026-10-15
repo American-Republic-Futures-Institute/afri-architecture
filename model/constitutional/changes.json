@@ -7,9 +7,10 @@
       "change_kind": "modifies_jurisdiction",
       "amending_provision_id": "CONST-US-AMD-11",
       "affected_provision_ids": [
-        "CONST-US-ART-03-SEC-02"
+        "CONST-US-ART-03-SEC-02",
+        "CONST-US-ART-03-SEC-02-CL-01"
       ],
-      "description": "Eleventh Amendment narrows specified construction of Article III judicial power.",
+      "description": "Eleventh Amendment limits construction of federal judicial power as reaching certain suits commenced or prosecuted against a State by citizens of another State or foreign citizens/subjects; it does not erase every Article III controversy involving a State.",
       "status": "ratified_record",
       "source_ids": [
         "SRC-CONST-LATER-AMENDMENTS"

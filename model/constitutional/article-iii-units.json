@@ -1,0 +1,316 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "AIII-UNIT-01-01",
+      "type": "article_iii_unit_analysis",
+      "section": 1,
+      "unit_index": 1,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-03-SEC-01-SEG-01",
+      "name": "Judicial power vested in one Supreme Court and such inferior courts as Congress establishes",
+      "summary": "Original Article III Section 1 judicial-vesting language",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-030",
+        "NORM-US-CONST-AIII-01-01-ONE-SUPREME",
+        "NORM-US-CONST-AIII-01-01-INFERIOR-CREATION"
+      ],
+      "qualification_ids": [
+        "AIII-QUAL-01-01-ONE-SUPREME-COURT",
+        "AIII-QUAL-01-01-INFERIOR-COURTS-CONGRESS",
+        "AIII-QUAL-01-01-ARTICLE-I-VERSUS-III",
+        "AIII-QUAL-01-01-CONSTITUTIONAL-POWER-NOT-STATUTORY-COURT-JURISDICTION",
+        "AIII-QUAL-01-01-JUDICIAL-REVIEW-SEPARATE",
+        "AIII-QUAL-01-01-ARTICLE-II-APPOINTMENTS"
+      ],
+      "capability_link_ids": [
+        "AIII-CAP-0001",
+        "AIII-CAP-0002",
+        "AIII-CAP-0003",
+        "AIII-CAP-0004"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES",
+        "SRC-CONST-CONAN-DIVERSITY",
+        "SRC-CONST-CONAN-JUDICIAL-REVIEW"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AIII-UNIT-01-02",
+      "type": "article_iii_unit_analysis",
+      "section": 1,
+      "unit_index": 2,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-03-SEC-01-SEG-02",
+      "name": "Good-behavior tenure for Article III judges",
+      "summary": "Original Article III Section 1 good-behavior judicial-tenure language",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-031",
+        "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR"
+      ],
+      "qualification_ids": [
+        "AIII-QUAL-01-02-GOOD-BEHAVIOR",
+        "AIII-QUAL-01-02-ARTICLE-III-CLASS",
+        "AIII-QUAL-01-02-IMPEACHMENT-HOUSE-SENATE",
+        "AIII-QUAL-01-02-JUDICIAL-INDEPENDENCE"
+      ],
+      "capability_link_ids": [
+        "AIII-CAP-0005",
+        "AIII-CAP-0006"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AIII-UNIT-01-03",
+      "type": "article_iii_unit_analysis",
+      "section": 1,
+      "unit_index": 3,
+      "unit_kind": "analytic_segment",
+      "provision_id": "CONST-US-ART-03-SEC-01-SEG-03",
+      "name": "Compensation at stated times and non-diminution",
+      "summary": "Original Article III Section 1 judicial compensation protections",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-031",
+        "NORM-US-CONST-AIII-01-03-STATED-PAY",
+        "NORM-US-CONST-AIII-01-03-NON-DIMINUTION"
+      ],
+      "qualification_ids": [
+        "AIII-QUAL-01-03-STATED-TIMES",
+        "AIII-QUAL-01-03-NO-DIMINUTION",
+        "AIII-QUAL-01-03-NOT-ALL-FEDERAL-JUDGES",
+        "AIII-QUAL-01-03-NOT-ALL-PAY-ALTERATIONS"
+      ],
+      "capability_link_ids": [
+        "AIII-CAP-0005",
+        "AIII-CAP-0007",
+        "AIII-CAP-0008"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-USCOURTS-TYPES-JUDGES"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AIII-UNIT-02-01",
+      "type": "article_iii_unit_analysis",
+      "section": 2,
+      "unit_index": 1,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "name": "Federal judicial cases and controversies",
+      "summary": "Federal judicial power extends to enumerated categories of cases and controversies",
+      "current_effect_status": "modified_in_part",
+      "norm_ids": [
+        "NORM-US-CONST-032",
+        "NORM-US-CONST-AIII-02-01-FEDERAL-QUESTION",
+        "NORM-US-CONST-AIII-02-01-DIPLOMATS",
+        "NORM-US-CONST-AIII-02-01-ADMIRALTY",
+        "NORM-US-CONST-AIII-02-01-US-PARTY",
+        "NORM-US-CONST-AIII-02-01-STATE-STATE",
+        "NORM-US-CONST-AIII-02-01-STATE-OTHER-CITIZEN",
+        "NORM-US-CONST-AIII-02-01-CITIZEN-DIVERSITY",
+        "NORM-US-CONST-AIII-02-01-LAND-GRANTS",
+        "NORM-US-CONST-AIII-02-01-FOREIGN-PARTIES"
+      ],
+      "qualification_ids": [
+        "AIII-QUAL-02-01-ENUMERATED-CASES-CONTROVERSIES",
+        "AIII-QUAL-02-01-FEDERAL-QUESTION",
+        "AIII-QUAL-02-01-DIPLOMATS",
+        "AIII-QUAL-02-01-ADMIRALTY",
+        "AIII-QUAL-02-01-US-PARTY",
+        "AIII-QUAL-02-01-STATE-STATE",
+        "AIII-QUAL-02-01-STATE-OTHER-CITIZEN",
+        "AIII-QUAL-02-01-DIVERSE-CITIZENS",
+        "AIII-QUAL-02-01-DIFFERENT-STATE-LAND-GRANTS",
+        "AIII-QUAL-02-01-FOREIGN-PARTIES",
+        "AIII-QUAL-02-01-ELEVENTH-AMENDMENT",
+        "AIII-QUAL-02-01-STATUTORY-LOWER-COURT-JURISDICTION",
+        "AIII-QUAL-02-01-JUSTICIABILITY-DOCTRINE-SEPARATE",
+        "AIII-QUAL-02-01-FEDERAL-PARTY-IMMUNITY"
+      ],
+      "capability_link_ids": [
+        "AIII-CAP-0009",
+        "AIII-CAP-0010",
+        "AIII-CAP-0011",
+        "AIII-CAP-0012",
+        "AIII-CAP-0013",
+        "AIII-CAP-0014",
+        "AIII-CAP-0015",
+        "AIII-CAP-0016",
+        "AIII-CAP-0017",
+        "AIII-CAP-0018",
+        "AIII-CAP-0019",
+        "AIII-CAP-0020",
+        "AIII-CAP-0021"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS",
+        "SRC-CONST-CONAN-DIVERSITY"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AIII-UNIT-02-02",
+      "type": "article_iii_unit_analysis",
+      "section": 2,
+      "unit_index": 2,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-02",
+      "name": "Supreme Court original and appellate jurisdiction",
+      "summary": "Original vs appellate jurisdiction and congressional exceptions and regulations",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-033",
+        "NORM-US-CONST-AIII-02-02-ORIGINAL",
+        "NORM-US-CONST-AIII-02-02-APPELLATE",
+        "NORM-US-CONST-AIII-02-02-CONGRESS-EXCEPTIONS"
+      ],
+      "qualification_ids": [
+        "AIII-QUAL-02-02-SUPREME-ORIGINAL",
+        "AIII-QUAL-02-02-SUPREME-APPELLATE",
+        "AIII-QUAL-02-02-CONGRESS-EXCEPTIONS-AND-REGULATIONS",
+        "AIII-QUAL-02-02-NO-UNBOUNDED-ORIGINAL-EXPANSION",
+        "AIII-QUAL-02-02-ARTICLE-I-INFERIOR-TRIBUNALS",
+        "AIII-QUAL-02-02-ELEVENTH-STATE-PARTY",
+        "AIII-QUAL-02-02-STATUTORY-APPEAL-ROUTES"
+      ],
+      "capability_link_ids": [
+        "AIII-CAP-0022",
+        "AIII-CAP-0023",
+        "AIII-CAP-0024",
+        "AIII-CAP-0025",
+        "AIII-CAP-0026"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS",
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AIII-UNIT-02-03",
+      "type": "article_iii_unit_analysis",
+      "section": 2,
+      "unit_index": 3,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-03-SEC-02-CL-03",
+      "name": "Jury trial of crimes and place of trial",
+      "summary": "Criminal trials by jury other than impeachment and location of federal crimes trials",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-034",
+        "NORM-US-CONST-AIII-02-03-JURY",
+        "NORM-US-CONST-AIII-02-03-IMPEACHMENT-EXCEPTION",
+        "NORM-US-CONST-AIII-02-03-STATE-VENUE",
+        "NORM-US-CONST-AIII-02-03-OUTSIDE-STATE"
+      ],
+      "qualification_ids": [
+        "AIII-QUAL-02-03-JURY-TRIAL",
+        "AIII-QUAL-02-03-IMPEACHMENT-EXCEPTION",
+        "AIII-QUAL-02-03-CRIME-STATE-VENUE",
+        "AIII-QUAL-02-03-OUTSIDE-STATE-LOCATION",
+        "AIII-QUAL-02-03-SIXTH-AMENDMENT",
+        "AIII-QUAL-02-03-PETTY-OFFENSE-DOCTRINE"
+      ],
+      "capability_link_ids": [
+        "AIII-CAP-0027",
+        "AIII-CAP-0028",
+        "AIII-CAP-0029",
+        "AIII-CAP-0030",
+        "AIII-CAP-0031",
+        "AIII-CAP-0032"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-LATER-AMENDMENTS"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AIII-UNIT-03-01",
+      "type": "article_iii_unit_analysis",
+      "section": 3,
+      "unit_index": 1,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-03-SEC-03-CL-01",
+      "name": "Constitutional definition and proof of treason",
+      "summary": "Narrow treason definition and stringent conviction proof",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-035",
+        "NORM-US-CONST-AIII-03-01-TREASON-ONLY",
+        "NORM-US-CONST-AIII-03-01-LEVYING-WAR",
+        "NORM-US-CONST-AIII-03-01-ADHERING-ENEMIES",
+        "NORM-US-CONST-AIII-03-01-TWO-WITNESSES",
+        "NORM-US-CONST-AIII-03-01-OPEN-COURT-CONFESSION"
+      ],
+      "qualification_ids": [
+        "AIII-QUAL-03-01-TREASON-ONLY-TWO-CATEGORIES",
+        "AIII-QUAL-03-01-LEVYING-WAR",
+        "AIII-QUAL-03-01-ADHERING-ENEMIES-AID-COMFORT",
+        "AIII-QUAL-03-01-TWO-WITNESSES-SAME-ACT",
+        "AIII-QUAL-03-01-CONFESSION-OPEN-COURT",
+        "AIII-QUAL-03-01-NO-TREASON-EXPANSION",
+        "AIII-QUAL-03-01-NOT-GENERAL-CRIMINAL-STANDARD"
+      ],
+      "capability_link_ids": [
+        "AIII-CAP-0033",
+        "AIII-CAP-0034",
+        "AIII-CAP-0035",
+        "AIII-CAP-0036",
+        "AIII-CAP-0037",
+        "AIII-CAP-0038"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-CONST-CONAN-TREASON"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    },
+    {
+      "id": "AIII-UNIT-03-02",
+      "type": "article_iii_unit_analysis",
+      "section": 3,
+      "unit_index": 2,
+      "unit_kind": "numbered_clause",
+      "provision_id": "CONST-US-ART-03-SEC-03-CL-02",
+      "name": "Congressional treason penalties and restrictions",
+      "summary": "Congressionally declared treason punishment limited by corruption-of-blood and forfeiture provisions",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS",
+        "NORM-US-CONST-AIII-03-02-NO-CORRUPTION-BLOOD",
+        "NORM-US-CONST-AIII-03-02-FORFEITURE-LIMIT"
+      ],
+      "qualification_ids": [
+        "AIII-QUAL-03-02-CONGRESS-PUNISHMENT",
+        "AIII-QUAL-03-02-NO-CORRUPTION-OF-BLOOD",
+        "AIII-QUAL-03-02-FORFEITURE-LIFETIME",
+        "AIII-QUAL-03-02-ARTICLE-I-ATTAINDER-BAN",
+        "AIII-QUAL-03-02-LEGACY-HEREDITARY-PUNISHMENT-NOT-AUTHORIZED"
+      ],
+      "capability_link_ids": [
+        "AIII-CAP-0039",
+        "AIII-CAP-0040",
+        "AIII-CAP-0041",
+        "AIII-CAP-0042"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "textual_summary_pending_legal_review"
+    }
+  ]
+}

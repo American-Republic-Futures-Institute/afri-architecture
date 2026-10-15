@@ -643,7 +643,7 @@
       "id": "BIND-US-CONST-0059",
       "type": "constitutional_actor_binding",
       "norm_id": "NORM-US-CONST-031",
-      "target_id": "ACT-US-FED-COURTS",
+      "target_id": "ACT-US-ARTICLE-III-JUDGES",
       "relationship_type": "protects",
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
@@ -2658,6 +2658,380 @@
       "norm_id": "NORM-US-CONST-AII-04-01-COVERED-OFFICERS",
       "target_id": "ORG-FED-EXE-VP",
       "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0243",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-01-01-ONE-SUPREME",
+      "target_id": "ORG-FED-JUD-SCOTUS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0244",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-01-01-INFERIOR-CREATION",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0245",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR",
+      "target_id": "ACT-US-ARTICLE-III-JUDGES",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0246",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-01-02-GOOD-BEHAVIOR",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0247",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-01-03-STATED-PAY",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0248",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-01-03-NON-DIMINUTION",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0249",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-01-03-NON-DIMINUTION",
+      "target_id": "ACT-US-ARTICLE-III-JUDGES",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0250",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-FEDERAL-QUESTION",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0251",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-DIPLOMATS",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0252",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-ADMIRALTY",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0253",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-US-PARTY",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0254",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-STATE-STATE",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0255",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-STATE-OTHER-CITIZEN",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0256",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-CITIZEN-DIVERSITY",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0257",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-LAND-GRANTS",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0258",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-01-FOREIGN-PARTIES",
+      "target_id": "ACT-US-ARTICLE-III-COURTS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0259",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-02-ORIGINAL",
+      "target_id": "ORG-FED-JUD-SCOTUS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0260",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-02-APPELLATE",
+      "target_id": "ORG-FED-JUD-SCOTUS",
+      "relationship_type": "affects_jurisdiction_of",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0261",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-02-CONGRESS-EXCEPTIONS",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0262",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-03-JURY",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0263",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-03-IMPEACHMENT-EXCEPTION",
+      "target_id": "ACT-US-FED-COURTS",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0264",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-03-STATE-VENUE",
+      "target_id": "ACT-US-CRIMINAL-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0265",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-02-03-OUTSIDE-STATE",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0266",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-01-TREASON-ONLY",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0267",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-01-TREASON-ONLY",
+      "target_id": "ACT-US-TREASON-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0268",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-01-LEVYING-WAR",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0269",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-01-ADHERING-ENEMIES",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0270",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-01-TWO-WITNESSES",
+      "target_id": "ACT-US-TREASON-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0271",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-01-OPEN-COURT-CONFESSION",
+      "target_id": "ACT-US-TREASON-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0272",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-02-PUNISHMENT-CONGRESS",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0273",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-02-NO-CORRUPTION-BLOOD",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0274",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-02-NO-CORRUPTION-BLOOD",
+      "target_id": "ACT-US-TREASON-ACCUSED",
+      "relationship_type": "protects",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0275",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-02-FORFEITURE-LIMIT",
+      "target_id": "ACT-US-FED",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-0276",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-AIII-03-02-FORFEITURE-LIMIT",
+      "target_id": "ACT-US-TREASON-ACCUSED",
+      "relationship_type": "protects",
       "source_ids": [
         "SRC-CONST-ORIGINAL-TRANSCRIPT"
       ],

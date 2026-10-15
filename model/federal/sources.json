@@ -279,6 +279,42 @@
       "kind": "official_constitutional_analysis",
       "scope": "Presidential removal, vacancy, succession and temporary disability; controlling decisions, statutes and interpretation are reserved to separate doctrine model.",
       "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-USCOURTS-TYPES-JUDGES",
+      "title": "Types of Federal Judges",
+      "publisher": "Administrative Office of the United States Courts",
+      "url": "https://www.uscourts.gov/about-federal-courts/types-federal-judges",
+      "kind": "official_government_summary",
+      "scope": "Distinguishes Article III judges and statutory court/Article I judgeships; judicial tenure and compensation protections",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-TREASON",
+      "title": "Historical Background on Treason",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/artIII-S3-C1-1/ALDE_00013524/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Treason definition, strict proof and constitutional anti-expansion considerations; interpretive commentary separate from original text",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-DIVERSITY",
+      "title": "Overview of Diversity Jurisdiction",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/artIII-S2-C1-16-1/ALDE_00013239/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Article III constitutional category and distinction from congressionally conferred statutory jurisdiction",
+      "accessed_on": "2026-10-15"
+    },
+    {
+      "id": "SRC-CONST-CONAN-JUDICIAL-REVIEW",
+      "title": "Marbury v. Madison and Judicial Review",
+      "publisher": "Congressional Research Service, Library of Congress",
+      "url": "https://constitution.congress.gov/browse/essay/artIII-S1-3/ALDE_00013514/",
+      "kind": "official_constitutional_analysis",
+      "scope": "Judicial review is doctrinal interpretation, not an express quotation from Article III's original text",
+      "accessed_on": "2026-10-15"
     }
   ]
 }
