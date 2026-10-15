@@ -94,7 +94,8 @@ export function validateFederalism(d){
   if(!units.some(u=>arr(u.qualification_ids).includes(qual.id)))err("Unlinked federalism qualifier "+qual.id);
  }
  for(const r of rels){
-  required(r,["id","type","unit_id","norm_id","relationship_type","subject_actor_id","counterparty_actor_id","qualification_ids","effect_status","source_ids","review_status","classification"],err);
+  required(r,["id","type","unit_id","norm_id","relationship_type","subject_actor_id","qualification_ids","effect_status","source_ids","review_status","classification"],err);
+  if(!Object.hasOwn(r,"counterparty_actor_id"))err("Missing "+r.id+".counterparty_actor_id");
   if(r.type!=="constitutional_federalism_relationship"||!/^FED-REL-\d{4}$/.test(r.id))err("Invalid federalism relationship "+r.id);
   const u=umap.get(r.unit_id),n=norms.get(r.norm_id);
   if(!u||!u.norm_ids?.includes(r.norm_id))err("Federalism relationship has no source norm "+r.id);
