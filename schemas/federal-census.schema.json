@@ -396,7 +396,7 @@
         },
         "revision_id": {
           "type": "string",
-          "pattern": "^[A-Z][A-Z0-9-]+$"
+          "minLength": 4
         },
         "scope": {
           "type": "string"
