@@ -83,7 +83,11 @@
       ],
       "family": "authority",
       "include_relationship_types": [
-        "bounded_statutory_role_authority"
+        "bounded_statutory_role_authority",
+        "bounded_statutory_legal_basis",
+        "explicit_statutory_limitation",
+        "trace_has_statutory_actor",
+        "trace_cites_bounded_power"
       ],
       "max_hops": 4,
       "source_evidence_required": true,
@@ -100,7 +104,8 @@
       ],
       "family": "oversight",
       "include_relationship_types": [
-        "congressional_reporting"
+        "congressional_reporting",
+        "statutory_report_recipient"
       ],
       "max_hops": 4,
       "source_evidence_required": true,
@@ -117,7 +122,8 @@
       ],
       "family": "fiscal",
       "include_relationship_types": [
-        "proposed_budget_only"
+        "proposed_budget_only",
+        "fiscal_guardrail_source_basis"
       ],
       "max_hops": 4,
       "source_evidence_required": true,
@@ -134,7 +140,8 @@
       ],
       "family": "constitutional_context",
       "include_relationship_types": [
-        "contextual_connection_not_direct_statutory_delegation"
+        "constitutional_context_not_direct_statutory_delegation",
+        "source_research_context_only"
       ],
       "max_hops": 4,
       "source_evidence_required": true,
