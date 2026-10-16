@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "INC-07 evidence register",
+  "required": [
+    "version",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "evidence record",
+        "required": [
+          "id",
+          "evidence_class",
+          "title",
+          "publisher",
+          "url",
+          "scope",
+          "constitutional_record_ids",
+          "review_status",
+          "validated_causal_effect"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^EVID-07-[0-9]{2}$"
+          },
+          "evidence_class": {
+            "type": "string",
+            "enum": [
+              "existing_plan_draft",
+              "existing_architecture_draft",
+              "primary_constitutional_text",
+              "official_legal_research",
+              "technical_guidance",
+              "uncertainty_and_scenario_method"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 3
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 3
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 20
+          },
+          "constitutional_record_ids": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "review_status": {
+            "const": "source_access_and_substantive_applicability_review_pending"
+          },
+          "validated_causal_effect": {
+            "const": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
