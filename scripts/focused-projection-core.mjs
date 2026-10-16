@@ -57,6 +57,11 @@ export function compileFocusedGraph(manifest,files){
   ensure(row.source_unit_count===row.source_unit_ids.length&&row.source_unit_count>=minimumArticleUnits[index]&&new Set(row.source_unit_ids).size===row.source_unit_ids.length,"Article source unit coverage missing "+roman);
   ensure(row.source_unit_ids.every(id=>idToRecord.get(id)?.model_path===row.source_model_path),"Article index crosses source catalogue "+roman);
   ensure(row.source_unit_ids.every(id=>art<=3||idToRecord.get(id).article===art),"Article IV–VII crosswalk exceeds original article "+roman);
+  if(art>=4)for(const unit_id of row.source_unit_ids){
+   const unit=byId(unit_id,"missing Article source unit");
+   const provision=byId(unit.provision_id,"missing Article text location");
+   ensure(unit.current_effect_status===provision.effect_status,"historical Article IV–VII unit effect mismatches original provision "+unit_id);
+  }
   const definition=scopes.find(x=>x.id==="SCOPE-CONST-ART-"+String(art).padStart(2,"0"));
   ensure(definition?.root_ids?.length===1&&definition.root_ids[0]===root&&definition.source_unit_catalog===row.source_model_path&&idToRecord.has(definition.reference_view_id),"Article focus definition missing "+roman);
  }
@@ -89,6 +94,7 @@ export function compileFocusedGraph(manifest,files){
   for(const rec of records){
    const left=values(rec,rule.from_field),right=values(rec,rule.to_field);
    if(!left.length||!right.length)continue;
+   ensure(arr(rec.source_ids).length>0&&arr(rec.source_ids).every(sid=>sources.has(sid)),"unsourced source relationship record "+rec.id);
    ensure(left.length*right.length<=200,"rule creates excessive reference fan-out "+rule.id+":"+rec.id);
    for(const from_id of left)for(const to_id of right){
     ensure(typeof from_id==="string"&&typeof to_id==="string","noncanonical edge reference "+rec.id);
@@ -199,7 +205,10 @@ export function projectFocusedView(graph,query){
  const edges=graph.edges.filter(e=>visible.has(e.from_id)&&visible.has(e.to_id)&&allowed.has(e.relationship_class)).sort((a,b)=>a.id.localeCompare(b.id));
  ensure(nodes.length<=(query.max_nodes??2500),"node budget exceeded; specify a smaller explicit scope");
  ensure(edges.length<=(query.max_edges??10000),"edge budget exceeded; specify a smaller explicit scope");
- const hiddenQualificationCount=[...selected].filter(id=>!visible.has(id)&&/(?:QUAL|COND)-/.test(id)).length;
+ const hiddenQualificationCount=new Set([
+  ...[...selected].filter(id=>!visible.has(id)&&/(?:QUAL|COND)-/.test(id)),
+  ...graph.edges.filter(e=>e.relationship_class==="qualification"&&selected.has(e.from_id)&&!visible.has(e.to_id)).map(e=>e.to_id)
+ ]).size;
  const connections=[];
  for(let i=0;i<roots.length;i++)for(let j=i+1;j<roots.length;j++){
   const route=shortestPath(roots[i],roots[j],edges);
