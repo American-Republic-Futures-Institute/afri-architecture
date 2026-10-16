@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
 import {DOD_MODEL_PATHS,OTHER_MODEL_PATHS,validateDod,projectDodView} from "../scripts/dod-validation-core.mjs";
+import {checkDodSchema} from "../scripts/dod-schema-validator.mjs";
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),"utf8"));
 const fixture=()=>({manifest:read("model/federal/manifest.json"),
@@ -17,6 +18,20 @@ const find=(f,name,id)=>{
 const reject=(name,change,error)=>test(name,()=>{
  const f=structuredClone(initial);change(f);
  assert.throws(()=>validateDod(f.manifest,f.files),new RegExp(error));
+});
+test("all nineteen public DoD collection types conform to exact versioned field contracts",()=>{
+ const schema=read("schemas/dod-institutional.schema.json");
+ const result=checkDodSchema(schema,initial.files);
+ assert.equal(result.model_families,19);
+ assert.deepEqual(result.errors,[]);
+ const unauthorized=structuredClone(initial.files);
+ find(unauthorized,"dafas","DOD-DAFA-DIA").unreviewed_contract_promotion="yes";
+ assert(checkDodSchema(schema,unauthorized).errors.some(x=>x.includes("unknown publication field")));
+ const overgrant=structuredClone(initial.files);
+ find(overgrant,"fiscal-crosswalks","DOD-FISCAL-FY26-OM").appropriation_verified=true;
+ assert(checkDodSchema(schema,overgrant).errors.some(x=>x.includes("constant mismatch")));
+ const missingRule=structuredClone(schema);delete missingRule.$defs.offices.properties.id.pattern;
+ assert(checkDodSchema(missingRule,initial.files).errors.some(x=>x.includes("missing strict record schema")));
 });
 test("composition includes eleven Title 10 paragraphs but does not certify all current DoD offices",()=>{
  assert.equal(verified.checks.statute_composition,11);
