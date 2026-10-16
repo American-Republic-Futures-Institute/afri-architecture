@@ -10,7 +10,10 @@
       "federal_constitutional_root_ids": [],
       "publication_owner": "afri-website",
       "review_status": "architecture_viewpoint_only_no_website_implementation",
-      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice"
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-CENSUS-CODES"
+      ]
     },
     {
       "id": "VIEW-STATE-VA-INSTITUTIONS",
@@ -23,7 +26,10 @@
       "federal_constitutional_root_ids": [],
       "publication_owner": "afri-website",
       "review_status": "architecture_viewpoint_only_no_website_implementation",
-      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice"
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-III"
+      ]
     },
     {
       "id": "VIEW-STATE-NE-UNICAMERAL",
@@ -36,7 +42,10 @@
       "federal_constitutional_root_ids": [],
       "publication_owner": "afri-website",
       "review_status": "architecture_viewpoint_only_no_website_implementation",
-      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice"
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ]
     },
     {
       "id": "VIEW-STATE-FEDERALISM-BOUNDARY",
@@ -54,7 +63,10 @@
       ],
       "publication_owner": "afri-website",
       "review_status": "architecture_viewpoint_only_no_website_implementation",
-      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice"
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-NARA-FEDERALISM"
+      ]
     },
     {
       "id": "VIEW-STATE-VA-REDISTRICTING",
@@ -69,7 +81,10 @@
       "federal_constitutional_root_ids": [],
       "publication_owner": "afri-website",
       "review_status": "architecture_viewpoint_only_no_website_implementation",
-      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice"
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ]
     },
     {
       "id": "VIEW-STATE-VA-FEDERAL-CASE-CONFLICT",
@@ -84,7 +99,10 @@
       ],
       "publication_owner": "afri-website",
       "review_status": "architecture_viewpoint_only_no_website_implementation",
-      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice"
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I"
+      ]
     }
   ]
 }
