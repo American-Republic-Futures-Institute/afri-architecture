@@ -27,6 +27,12 @@ jobs:
           node-version: "22"
       - name: Validate federal architecture
         run: node scripts/validate.mjs
+      - name: Validate bounded federal institutional census, taxonomy and immutable source editions
+        run: node scripts/validate-federal-census.mjs --validate
+      - name: Validate federal institutional census reference views
+        run: node scripts/validate-federal-census.mjs --view VIEW-CENSUS-DEFENSE-COMPONENTS > /dev/null
+      - name: Test federal identity crosswalk, first-level pilot and legal-authority fail-closed regressions
+        run: node --test tests/federal-census.test.mjs
       - name: Validate constitutional authority catalog
         run: node scripts/validate-constitution.mjs
       - name: Run constitutional model regression tests
