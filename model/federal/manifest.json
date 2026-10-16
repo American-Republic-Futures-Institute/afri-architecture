@@ -127,7 +127,8 @@
     "model/federal/dod/capability-links.json",
     "model/federal/dod/authority-traces.json",
     "model/federal/dod/viewpoints.json",
-    "model/federal/dod/gaps.json"
+    "model/federal/dod/gaps.json",
+    "model/federal/dod/constitutional-context.json"
   ],
   "standards": [
     {
@@ -445,8 +446,9 @@
     "congressional_reporting_crosswalks": 4,
     "fy2026_budget_proposal_categories": 4,
     "scoped_authority_traces": 9,
-    "declarative_views": 7,
+    "declarative_views": 8,
     "review_gaps": 11,
-    "office_and_role_records": 17
+    "office_and_role_records": 17,
+    "constitutional_context_records": 7
   }
 }

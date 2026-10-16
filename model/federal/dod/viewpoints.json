@@ -124,6 +124,23 @@
       "rendering_status": "data_contract_only_not_web_rendered",
       "applicability_label": "FY2026_proposal_not_appropriation",
       "legal_review_status": "research_pending_citator_and_responsible_official_review"
+    },
+    {
+      "id": "VIEW-DOD-CONSTITUTION",
+      "type": "dod_declarative_view",
+      "title": "DoD Constitutional Context — Congress and Commander in Chief",
+      "root_ids": [
+        "DOD-CONTEXT-COMMANDER"
+      ],
+      "family": "constitutional_context",
+      "include_relationship_types": [
+        "contextual_connection_not_direct_statutory_delegation"
+      ],
+      "max_hops": 4,
+      "source_evidence_required": true,
+      "rendering_status": "data_contract_only_not_web_rendered",
+      "applicability_label": "original_constitution_context_not_doctrine_certification",
+      "legal_review_status": "research_pending_citator_and_responsible_official_review"
     }
   ]
 }
