@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "INC-07 hypothetical policy alternatives",
+  "required": [
+    "version",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "hypothetical option",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "mechanism_hypothesis",
+          "related_outcome_ids",
+          "risk_categories",
+          "contrast_option_ids",
+          "status",
+          "decision",
+          "government_action_authorized",
+          "lawful_implementer",
+          "causal_evidence_status",
+          "tradeoff_review_required"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^OPT-07-[0-9]{2}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 4
+          },
+          "description": {
+            "type": "string",
+            "minLength": 30
+          },
+          "mechanism_hypothesis": {
+            "type": "string",
+            "minLength": 30
+          },
+          "related_outcome_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}-O[0-9]{2}$"
+            }
+          },
+          "risk_categories": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "contrast_option_ids": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "string",
+              "pattern": "^OPT-07-[0-9]{2}$"
+            }
+          },
+          "status": {
+            "const": "hypothetical_option_not_recommended"
+          },
+          "decision": {
+            "const": "open"
+          },
+          "government_action_authorized": {
+            "const": false
+          },
+          "lawful_implementer": {
+            "const": "not_determined"
+          },
+          "causal_evidence_status": {
+            "const": "not_established"
+          },
+          "tradeoff_review_required": {
+            "const": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
