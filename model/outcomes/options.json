@@ -34,7 +34,8 @@
       "related_outcome_ids": [
         "CYB-O04",
         "HLT-O01",
-        "EDU-O06"
+        "EDU-O06",
+        "CYB-O03"
       ],
       "risk_categories": [
         "accessibility",
@@ -81,7 +82,8 @@
       "mechanism_hypothesis": "Revenue and distributional effects cannot be asserted until constitutionality, liquidity, administrative costs and behavioral responses are assessed.",
       "related_outcome_ids": [
         "EPR-O07",
-        "EPR-O10"
+        "EPR-O10",
+        "EPR-O08"
       ],
       "risk_categories": [
         "constitutional_tax",
@@ -221,7 +223,8 @@
         "EDU-O10",
         "HLT-O02",
         "EPR-O01",
-        "CYB-O09"
+        "CYB-O09",
+        "CYB-O03"
       ],
       "risk_categories": [
         "statistical_integrity",
