@@ -118,6 +118,7 @@ export function validateState(d){
   const st=stateOf(x.id),pr=map.provisions.get(x.source_provision_ids?.[0]),parent=validParents.get(x.parent_id);
   if(!pilot.includes(st)||x.type!=="state_institution_or_local_class"||x.jurisdiction_id!=="JUR-US-"+st||!institutionKinds.has(x.kind)||!pr||pr.jurisdiction_id!==x.jurisdiction_id||!parent||parent.jurisdiction_id&&parent.jurisdiction_id!==x.jurisdiction_id)fail("State institution parent or provision crosses jurisdiction "+x.id);
   if(!x.parent_id?.startsWith("JUR-US-")&&!x.parent_id?.startsWith("BR-STATE-")&&!x.parent_id?.startsWith("ORG-STATE-"))fail("State organization improperly subordinate to federal authority "+x.id);
+  if(stateOf(x.parent_id)!==st)fail("State institution parent crosses State jurisdiction root "+x.id);
   if(x.branch_id!==null&&map.branches.get(x.branch_id)?.jurisdiction_id!==x.jurisdiction_id)fail("State institution assigned to wrong State branch "+x.id);
   if(x.branch_id===null&&!["independent_state_constitutional_commission","local_government_type_aggregate"].includes(x.kind))fail("Institution escaped State branch without constitutional cause "+x.id);
   if(x.statutory_delegation_claim==="granted")fail("State institution silently obtained enabling statute delegation "+x.id);
@@ -147,6 +148,7 @@ export function validateState(d){
   const n=map.norms.get(r.to_norm_id),pr=map.provisions.get(r.source_provision_id);
   if(r.type!=="state_institution_norm_relationship"||!actorIds.has(r.from_id)||!n||!pr||n.provision_id!==pr.id||n.jurisdiction_id!==r.jurisdiction_id||pr.jurisdiction_id!==r.jurisdiction_id||stateOf(r.from_id)!==stateOf(pr.id))fail("Unlawful cross-State institutional power relation "+r.id);
   if(!enumRelations.has(r.relationship_kind)||r.relationship_classification!=="source_defined_state_legal_function_not_federal_delegation"||r.review_status!=="research_textual_institutional_mapping_pending_review")fail("State power link falsely represented as federal hierarchy or statutory delegation "+r.id);
+  if(!list(r.source_ids).some(id=>pr?.source_ids?.includes(id)))fail("State relationship cites unrelated constitutional section evidence "+r.id);
  }
  const nePeople=all.relationships.some(x=>x.from_id==="ACT-STATE-NE-PEOPLE"&&x.relationship_kind==="people_reserve_initiative_and_referendum");
  if(!nePeople)fail("Nebraska popular initiative and referendum removed or assigned to legislature");

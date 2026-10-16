@@ -100,7 +100,7 @@ The canonical `model/federal/manifest.json` advertises each State collection und
     node scripts/validate-state.mjs
     node --test tests/state.test.mjs
 
-The **50 dedicated regression tests** include deliberate bad mutations to Census/FIPS codes, an invented 51st State, executive offices put in the wrong State branch, Nebraska given a fictitious second legislative chamber, unsupported State statutory delegation, a false U.S. Supreme Court parent for Virginia courts, State-to-State cross-jurisdiction power links, invalid U.S. constitutional pointers, erased Nebraska popular initiative, destroyed redistricting conditions, and State published text improperly treated as enforceable notwithstanding distinct federal judicial precedent.
+The **52 dedicated regression tests** include deliberate bad mutations to Census/FIPS codes, an invented 51st State, executive offices put in the wrong State branch, Nebraska given a fictitious second legislative chamber, unsupported State statutory delegation, a false U.S. Supreme Court parent for Virginia courts, State-to-State cross-jurisdiction power links, invalid U.S. constitutional pointers, erased Nebraska popular initiative, destroyed redistricting conditions, and State published text improperly treated as enforceable notwithstanding distinct federal judicial precedent.
 
 The portable [State JSON Schema](../schemas/state-institutional.schema.json) restricts all 13 object collections. The *semantic* CLI performs whole-catalog cross-reference and political-legal boundary checks. CI retains every earlier U.S. constitutional, amendment, federalism and judicial regression gate.
 

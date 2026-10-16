@@ -243,3 +243,12 @@ test("state JSON Schema covers all thirteen model collections without representi
   for(const entry of items(fixture(),family))for(const field of item.required)assert(Object.hasOwn(entry,field),family+"."+field+" missing on "+entry.id);
  }
 });
+
+test("reject institution moved under another State jurisdiction root even if ID is a permitted jurisdiction",()=>{
+ const f=fixture();row(f,"institutions","ORG-STATE-VA-SPECIAL-REDISTRICTING-COMMISSION").parent_id="JUR-US-NE";
+ fails(f,"State institution parent crosses State jurisdiction root");
+});
+test("reject relationship source unrelated to referenced State constitutional section",()=>{
+ const f=fixture();row(f,"relationships","STATE-REL-0001").source_ids=["SRC-STATE-NE-CONST-II"];
+ fails(f,"State relationship cites unrelated constitutional section evidence");
+});
