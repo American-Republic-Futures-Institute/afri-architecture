@@ -17,7 +17,8 @@
       "kinds": [
         "bicameral_legislature",
         "legislative_chamber",
-        "legislative_support_agency"
+        "legislative_support_agency",
+        "legislative_research_service"
       ],
       "coverage": "existing_catalog_only",
       "focus": "Lawmaking, appropriation, representation, legislative research and oversight"
