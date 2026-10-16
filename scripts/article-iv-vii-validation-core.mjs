@@ -51,7 +51,7 @@ export function validateArticleIVVII(d){
   if(u.actor_link_ids?.some(id=>A.get(id)?.unit_id!==u.id)||u.capability_link_ids?.some(id=>C.get(id)?.unit_id!==u.id))bad("Constitutional authority link detached "+u.id);
   if([4,6].includes(u.article)){
    const f=fed.get(u.existing_federalism_unit_id);
-   if(u.unit_kind!=="existing_source_decomposition_crosswalk"||!f||f.provision_id!==u.provision_id||f.family!=="article_"+artRoman[u.article].toLowerCase()||u.current_effect_status!==f.effect_status||p.effect_status!==f.effect_status)bad("Article IV/VI crosswalk changed existing authority "+u.id);
+   if(u.unit_kind!=="existing_source_decomposition_crosswalk"||!f||f.provision_id!==u.provision_id||f.family!=="article_"+artRoman[u.article].toLowerCase()||u.current_effect_status!==f.effect_status||p.effect_status!==f.effect_status||p.unit!==(f.unit_kind==="analytic_segment"?"article_section_segment":"article_clause"))bad("Article IV/VI crosswalk changed existing authority "+u.id);
    for(const [field,expected,sourceSet]of [["existing_federalism_qualification_ids",f?.qualification_ids,fq],["existing_federalism_actor_link_ids",f?.relationship_ids,fr],["existing_federalism_capability_link_ids",f?.capability_link_ids,fc]])
     if(JSON.stringify(u[field])!==JSON.stringify(expected)||arr(u[field]).some(x=>!sourceSet.has(x)))bad("Article IV/VI source relation silently diverges "+u.id+":"+field);
    if(arr(u.actor_link_ids).length||arr(u.capability_link_ids).length)bad("Duplicate Article IV/VI relations inconsistent with federalism authority "+u.id);
