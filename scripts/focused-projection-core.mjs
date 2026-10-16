@@ -1,3 +1,4 @@
+import {createHash} from "node:crypto";
 // Pure ARFI-COA focused-view compiler: reads canonical records, never makes law.
 // There is no UI, source transformation, natural-language inference or policy mapping.
 const arr=x=>Array.isArray(x)?x:[];
@@ -85,7 +86,12 @@ export function compileFocusedGraph(manifest,files){
  }
  const requiredRuleSet=new Set(["model/constitutional/provisions.json|parent_id|$self","model/constitutional/norms.json|provision_ids|$self","model/constitutional/amendment-units.json|analytic_provision_id|$self","model/constitutional/article-iv-vii-units.json|provision_id|$self","model/constitutional/bindings.json|$self|target_id"]);
   for(const k of requiredRuleSet)ensure(rules.some(rule=>[rule.source_model_path,rule.from_field,rule.to_field].join("|")===k),"critical source reference rule omitted "+k);
- const edges=[],edgeIds=new Set();let total=0;
+ const edges=[],edgeIds=new Set();
+ const stableEdgeId=(rule,record,from,to)=>{
+  // SHA-256 source+endpoint digest; adding unrelated records cannot renumber edges.
+  const canonical=[rule.id,record.id,from,to].join("\u0000");
+  return "PROJ-EDGE-"+createHash("sha256").update(canonical,"utf8").digest("hex").toUpperCase();
+ };
  for(const rule of rules){
   ensure(rule.type==="declarative_source_edge_rule"&&classes.has(rule.relationship_class)&&rule.legal_status==="descriptive_projection_only_not_delegated_power","invalid relationship rule "+rule.id);
   ensure(typeof rule.from_field==="string"&&typeof rule.to_field==="string"&&typeof rule.relationship_kind==="string"&&typeof rule.traversal_default==="boolean","unbounded declarative rule "+rule.id);
@@ -101,7 +107,7 @@ export function compileFocusedGraph(manifest,files){
     byId(from_id,"missing source relationship endpoint in "+rule.id);
     byId(to_id,"missing target relationship endpoint in "+rule.id);
     if(from_id===to_id)continue;
-    const id=rule.id+"-"+rec.id+"-"+String(total++);
+    const id=stableEdgeId(rule,rec,from_id,to_id);
     ensure(!edgeIds.has(id),"duplicate projected relation "+id);edgeIds.add(id);
     edges.push({id,from_id,to_id,relationship_kind:rule.relationship_kind,relationship_class:rule.relationship_class,
       source_record_id:rec.id,source_model_path:rule.source_model_path,source_ids:arr(rec.source_ids),
