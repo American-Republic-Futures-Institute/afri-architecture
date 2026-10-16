@@ -91,6 +91,16 @@ test("explicit optional federal institutional relationships remain labeled descr
  assert(output.edges.some(x=>x.relationship_class==="federal_observed"&&x.legal_authority_proven===false));
  assert(!output.edges.some(x=>x.legal_authority_proven));
 });
+test("projection relationship IDs remain stable when canonical input collection ordering changes",()=>{
+ const reordered=structuredClone(original);
+ reordered.files["model/constitutional/norms.json"].items.reverse();
+ reordered.files["model/constitutional/provisions.json"].items.reverse();
+ reordered.files["model/federal/relationships.json"].items.reverse();
+ const compiled=compileFocusedGraph(reordered.manifest,reordered.files);
+ assert.deepEqual(compiled.edges.map(e=>e.id).sort(),graph.edges.map(e=>e.id).sort(),
+  "Source-independent edge numbering must never break comment anchoring or snapshot comparisons");
+ assert(compiled.edges.every(e=>/^PROJ-EDGE-[0-9A-F]{64}$/.test(e.id)));
+});
 test("strict source-projection graph excludes unverified future policy domains",()=>{
  assert(!INDEX_PATHS.some(p=>p.startsWith("model/policy/")));
  assert(!original.manifest.focused_projection_extension.policy_mapping_status.includes("implemented"));
