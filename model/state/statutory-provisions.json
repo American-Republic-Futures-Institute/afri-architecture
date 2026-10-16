@@ -1,0 +1,85 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "STAT-PROV-VA-17.1-400",
+      "type": "state_codified_statutory_section",
+      "jurisdiction_id": "JUR-US-VA",
+      "statute_id": "STAT-STATE-VA-CODE-17.1-CH4",
+      "section": "17.1-400",
+      "citation": "Va. Code Ann. § 17.1-400",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-400"
+      ],
+      "effective_from": "2026-09-01",
+      "published_current_on": "2026-10-16",
+      "superseded_statutory_fact": "Previous published section specified 17 judges until 2026-09-01; current operative published text specifies 21 judges.",
+      "scope_summary": "Creation, composition, election and qualifications of Court of Appeals; 2026 revision changes authorized membership.",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "STAT-PROV-VA-17.1-405",
+      "type": "state_codified_statutory_section",
+      "jurisdiction_id": "JUR-US-VA",
+      "statute_id": "STAT-STATE-VA-CODE-17.1-CH4",
+      "section": "17.1-405",
+      "citation": "Va. Code Ann. § 17.1-405",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-405"
+      ],
+      "effective_from": null,
+      "published_current_on": "2026-10-16",
+      "superseded_statutory_fact": null,
+      "scope_summary": "Enumerated agency, compensation and civil appeals; selected § A(3) civil appeals are conditional on § 17.1-406(B).",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "STAT-PROV-VA-17.1-406",
+      "type": "state_codified_statutory_section",
+      "jurisdiction_id": "JUR-US-VA",
+      "statute_id": "STAT-STATE-VA-CODE-17.1-CH4",
+      "section": "17.1-406",
+      "citation": "Va. Code Ann. § 17.1-406",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-406"
+      ],
+      "effective_from": null,
+      "published_current_on": "2026-10-16",
+      "superseded_statutory_fact": null,
+      "scope_summary": "Criminal appeals, direct Supreme Court categories, and matters excluded from Court of Appeals jurisdiction.",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "STAT-PROV-NE-24-1101",
+      "type": "state_codified_statutory_section",
+      "jurisdiction_id": "JUR-US-NE",
+      "statute_id": "STAT-STATE-NE-REV-24-COA",
+      "section": "24-1101",
+      "citation": "Neb. Rev. Stat. § 24-1101",
+      "source_ids": [
+        "SRC-STAT-NE-24-1101"
+      ],
+      "effective_from": null,
+      "published_current_on": "2026-10-16",
+      "superseded_statutory_fact": null,
+      "scope_summary": "Creation of six-judge appellate court, three-judge panels, appointment, selection and tenure provisions.",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "STAT-PROV-NE-24-1106",
+      "type": "state_codified_statutory_section",
+      "jurisdiction_id": "JUR-US-NE",
+      "statute_id": "STAT-STATE-NE-REV-24-COA",
+      "section": "24-1106",
+      "citation": "Neb. Rev. Stat. § 24-1106",
+      "source_ids": [
+        "SRC-STAT-NE-24-1106"
+      ],
+      "effective_from": null,
+      "published_current_on": "2026-10-16",
+      "superseded_statutory_fact": null,
+      "scope_summary": "Appeals otherwise previously routed to Supreme Court, exclusions, bypass and Supreme Court removal rules.",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    }
+  ]
+}

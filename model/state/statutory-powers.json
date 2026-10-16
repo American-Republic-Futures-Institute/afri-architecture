@@ -1,0 +1,74 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "POWER-STAT-VA-COA-ESTABLISH",
+      "jurisdiction_id": "JUR-US-VA",
+      "institution_id": "ORG-STATE-VA-JUD-COURT-APPEALS",
+      "constitutional_provision_id": "STATE-PROV-VA-ART-VI-SEC-1",
+      "statutory_provision_id": "STAT-PROV-VA-17.1-400",
+      "statute_id": "STAT-STATE-VA-CODE-17.1-CH4",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-400"
+      ],
+      "type": "state_statutory_authority",
+      "power_kind": "institutional_establishment_not_general_jurisdiction",
+      "subsection": "A",
+      "summary": "Legislature establishes the Virginia Court of Appeals as a separate State court; current section specifies 21 authorized judges.",
+      "scope_boundary": "Organizational existence and composition are not an unlimited grant of appellate jurisdiction.",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "POWER-STAT-VA-COA-CIVIL-APPEAL",
+      "jurisdiction_id": "JUR-US-VA",
+      "institution_id": "ORG-STATE-VA-JUD-COURT-APPEALS",
+      "constitutional_provision_id": "STATE-PROV-VA-ART-VI-SEC-1",
+      "statutory_provision_id": "STAT-PROV-VA-17.1-405",
+      "statute_id": "STAT-STATE-VA-CODE-17.1-CH4",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-405",
+        "SRC-STAT-VA-17.1-406"
+      ],
+      "type": "state_statutory_authority",
+      "power_kind": "bounded_appellate_jurisdiction",
+      "subsection": "A(3)",
+      "summary": "Hear specified final civil judgments, orders and decrees of Virginia circuit courts, subject to the express § 17.1-406(B) exception and applicable law.",
+      "scope_boundary": "Other statutory categories and interlocutory proceedings require separate authority analysis; exclusions must be retained.",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "POWER-STAT-NE-COA-ESTABLISH",
+      "jurisdiction_id": "JUR-US-NE",
+      "institution_id": "ORG-STATE-NE-JUD-APPELLATE",
+      "constitutional_provision_id": "STATE-PROV-NE-ART-V-SEC-1",
+      "statutory_provision_id": "STAT-PROV-NE-24-1101",
+      "statute_id": "STAT-STATE-NE-REV-24-COA",
+      "source_ids": [
+        "SRC-STAT-NE-24-1101"
+      ],
+      "type": "state_statutory_authority",
+      "power_kind": "institutional_establishment_not_general_jurisdiction",
+      "subsection": "(1)-(4)",
+      "summary": "Nebraska Court of Appeals is created with six judges in three-judge panels, subject to constitutionally constrained selection and discipline.",
+      "scope_boundary": "Constitutional recognition of an appellate court and enacted organization are distinct from unlimited jurisdiction.",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "POWER-STAT-NE-COA-APPEAL",
+      "jurisdiction_id": "JUR-US-NE",
+      "institution_id": "ORG-STATE-NE-JUD-APPELLATE",
+      "constitutional_provision_id": "STATE-PROV-NE-ART-V-SEC-1",
+      "statutory_provision_id": "STAT-PROV-NE-24-1106",
+      "statute_id": "STAT-STATE-NE-REV-24-COA",
+      "source_ids": [
+        "SRC-STAT-NE-24-1106"
+      ],
+      "type": "state_statutory_authority",
+      "power_kind": "bounded_appellate_jurisdiction",
+      "subsection": "(1)-(3)",
+      "summary": "Hear qualifying appeals formerly directed to the Supreme Court before September 6, 1991, except statute-defined classes; Supreme Court direct-review and removal procedures remain available.",
+      "scope_boundary": "Capital, life-imprisonment and genuinely presented statutory-constitutionality cases are excluded by statute; related doctrine awaits qualified review.",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    }
+  ]
+}

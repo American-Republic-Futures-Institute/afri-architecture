@@ -152,7 +152,7 @@
         "SRC-STATE-VA-COURTS"
       ],
       "status": "source_linked_state_model_pending_review",
-      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+      "statutory_delegation_claim": "source_indexed_statutory_overlay_pending_human_review"
     },
     {
       "id": "ORG-STATE-VA-JUD-CIRCUIT-COURTS",
@@ -326,7 +326,7 @@
         "SRC-STATE-NE-CONST-V"
       ],
       "status": "source_linked_state_model_pending_review",
-      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+      "statutory_delegation_claim": "source_indexed_statutory_overlay_pending_human_review"
     },
     {
       "id": "ORG-STATE-NE-JUD-DISTRICT-COURTS",

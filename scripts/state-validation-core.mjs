@@ -122,7 +122,9 @@ export function validateState(d){
   if(x.branch_id!==null&&map.branches.get(x.branch_id)?.jurisdiction_id!==x.jurisdiction_id)fail("State institution assigned to wrong State branch "+x.id);
   if(x.branch_id===null&&!["independent_state_constitutional_commission","local_government_type_aggregate"].includes(x.kind))fail("Institution escaped State branch without constitutional cause "+x.id);
   if(x.statutory_delegation_claim==="granted")fail("State institution silently obtained enabling statute delegation "+x.id);
-  if(x.statutory_delegation_claim!=="none_until_enabling_statute_linked")fail("State institution legally overclaims unreviewed powers "+x.id);
+  const enablingOverlay=new Set(["ORG-STATE-VA-JUD-COURT-APPEALS","ORG-STATE-NE-JUD-APPELLATE"]);
+  const expectedClaim=enablingOverlay.has(x.id)?"source_indexed_statutory_overlay_pending_human_review":"none_until_enabling_statute_linked";
+  if(x.statutory_delegation_claim!==expectedClaim)fail("State institution legally overclaims unreviewed powers "+x.id);
   if(x.institutional_basis==="judiciary_description_requires_statutory_enabling_chain"&&!x.source_ids.includes("SRC-STATE-VA-COURTS"))fail("State statutory court incorrectly treated as directly named in Constitution "+x.id);
   if(x.institutional_basis==="express_state_constitutional_text"&&x.source_ids.every(id=>sources.get(id)?.kind!=="primary_state_constitutional_text"))fail("State institution has no primary constitutional provenance "+x.id);
   if(!text(x.mission)||x.mission.length<30)fail("State institution without documented mission "+x.id);
@@ -135,7 +137,7 @@ export function validateState(d){
  const ltGov=map.institutions.get("ORG-STATE-VA-EXE-LIEUTENANT-GOVERNOR");
  if(ltGov?.branch_id!=="BR-STATE-VA-EXE"||!ltGov.parent_id?.startsWith("BR-STATE-VA-EXE"))fail("Virginia Lieutenant Governor Senate role silently changed executive branch office parentage");
  const court=map.institutions.get("ORG-STATE-VA-JUD-COURT-APPEALS");
- if(court?.institutional_basis!=="judiciary_description_requires_statutory_enabling_chain"||court?.statutory_delegation_claim!=="none_until_enabling_statute_linked")fail("State Court of Appeals asserted direct constitutional statute-free enabling powers");
+ if(court?.institutional_basis!=="judiciary_description_requires_statutory_enabling_chain"||court?.statutory_delegation_claim!=="source_indexed_statutory_overlay_pending_human_review")fail("State Court of Appeals asserted direct constitutional statute-free enabling powers");
  const local=map.institutions.get("ORG-STATE-VA-SPECIAL-LOCAL-GOVERNMENT-CLASSES");
  if(local?.parent_id!=="JUR-US-VA"||local?.institutional_basis!=="state_local_government_framework_not_single_agency")fail("Virginia local-government types falsely collapsed into federal department or single county");
  for(const a of all.actors){

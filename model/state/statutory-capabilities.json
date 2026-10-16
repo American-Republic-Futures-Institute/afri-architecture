@@ -1,0 +1,34 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CAP-STATE-VA-COA-APPELLATE-REVIEW",
+      "type": "state_government_functional_capability",
+      "jurisdiction_id": "JUR-US-VA",
+      "name": "Virginia civil appellate adjudication — selected final judgments",
+      "institution_id": "ORG-STATE-VA-JUD-COURT-APPEALS",
+      "functional_family": "state_judicial_appellate_adjudication",
+      "authority_classification": "traceable_limited_statutory_power_not_constitutional_blanket_grant",
+      "description": "Descriptive government capability contingent on applicable court jurisdiction, conditions and subsequent authoritative interpretations; not a performance claim or proposed reform.",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-405",
+        "SRC-STAT-VA-17.1-406"
+      ],
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "CAP-STATE-NE-COA-APPELLATE-REVIEW",
+      "type": "state_government_functional_capability",
+      "jurisdiction_id": "JUR-US-NE",
+      "name": "Nebraska appellate adjudication — eligible cases",
+      "institution_id": "ORG-STATE-NE-JUD-APPELLATE",
+      "functional_family": "state_judicial_appellate_adjudication",
+      "authority_classification": "traceable_limited_statutory_power_not_constitutional_blanket_grant",
+      "description": "Descriptive government capability contingent on applicable court jurisdiction, conditions and subsequent authoritative interpretations; not a performance claim or proposed reform.",
+      "source_ids": [
+        "SRC-STAT-NE-24-1106"
+      ],
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    }
+  ]
+}
