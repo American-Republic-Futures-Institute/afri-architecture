@@ -59,6 +59,10 @@ jobs:
         run: node scripts/validate-article-iv-vii.mjs
       - name: Test Articles IV–VII source links, ratification safeguards and historical constraints
         run: node --test tests/article-iv-vii.test.mjs
+      - name: Validate source-backed Article and Amendment focused projection contracts
+        run: node scripts/validate-focused-projections.mjs --validate
+      - name: Test focused constitutional views, composed queries and legal-provenance controls
+        run: node --test tests/focused-projection.test.mjs
       - name: Validate enacted federal statutory authority and legal boundaries
         run: node scripts/validate-federal-statutes.mjs
       - name: Test DHS and Education statutes, federalism, rights and publication regressions

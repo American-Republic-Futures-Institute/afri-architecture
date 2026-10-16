@@ -51,3 +51,7 @@ Eight additional official Supreme Court opinions expand holding-level coverage t
 ## Articles IV–VII comprehensive original-text architecture (2026-10-16)
 
 Cross-indexing existing Articles IV/VI federalism semantic units and adding separately sourced, nonofficial Article V/VII analytic spans completes the initial original-text architectural coverage of all seven original Articles. This is source-traceable research, not authoritative current legal interpretation. See [Articles IV–VII Architecture](docs/ARTICLES-IV-VII-ARCHITECTURE.md). Run `node scripts/validate-article-iv-vii.mjs` and `node --test tests/article-iv-vii.test.mjs`.
+
+## Original Article scope indexes and focused projections — October 16, 2026
+
+All seven original Articles are indexed with source-family references (53 / 17 / 8 / 10 / 9 / 3 / 3 analytical units, respectively), alongside 27 per-amendment scopes. This adds no new independent grant of authority and makes no claim that detailed doctrine or every statutory condition is researched. A typed, source-only projection contract permits narrow subtree or multiple-root query outputs without introducing website UI, policy mappings or inferred links. See [Focused Constitutional Views](FOCUSED-CONSTITUTIONAL-VIEWS.md).

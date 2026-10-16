@@ -1,0 +1,12 @@
+{
+  "scope_id": "SCOPE-CONST-ART-04",
+  "max_hops": 4,
+  "include_relation_classes": [
+    "structural",
+    "research_analysis",
+    "qualification",
+    "textual_candidate",
+    "historical_context",
+    "functional_alignment"
+  ]
+}

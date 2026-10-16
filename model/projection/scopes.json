@@ -1,0 +1,991 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "SCOPE-CONST-ART-01",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-ART-01"
+      ],
+      "display_name": "Article I — Legislative Branch",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/article-i-clauses.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-ARTICLE-I",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-ART-02",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-ART-02"
+      ],
+      "display_name": "Article II — Executive Branch",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/article-ii-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-ARTICLE-II",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-ART-03",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-ART-03"
+      ],
+      "display_name": "Article III — Judicial Branch",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/article-iii-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-ARTICLE-III",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-ART-04",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-ART-04"
+      ],
+      "display_name": "Article IV — Relations Among States",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/article-iv-vii-units.json",
+      "source_unit_count": 10,
+      "reference_view_id": "VIEW-A47-IV",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-ART-05",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-ART-05"
+      ],
+      "display_name": "Article V — Constitutional Amendment",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/article-iv-vii-units.json",
+      "source_unit_count": 9,
+      "reference_view_id": "VIEW-A47-V",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-ART-06",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-ART-06"
+      ],
+      "display_name": "Article VI — Supremacy, Debts, Oaths, and Religious Tests",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/article-iv-vii-units.json",
+      "source_unit_count": 3,
+      "reference_view_id": "VIEW-A47-VI",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-ART-07",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-ART-07"
+      ],
+      "display_name": "Article VII — Ratification",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/article-iv-vii-units.json",
+      "source_unit_count": 3,
+      "reference_view_id": "VIEW-A47-VII",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-01",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-01"
+      ],
+      "display_name": "Amendment 1 — Religion, Speech, Press, Assembly, and Petition",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-02",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-02"
+      ],
+      "display_name": "Amendment 2 — Right to Keep and Bear Arms",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-03",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-03"
+      ],
+      "display_name": "Amendment 3 — Quartering of Soldiers",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-04",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-04"
+      ],
+      "display_name": "Amendment 4 — Searches and Seizures",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-05",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-05"
+      ],
+      "display_name": "Amendment 5 — Criminal Procedure, Due Process, and Takings",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-06",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-06"
+      ],
+      "display_name": "Amendment 6 — Criminal Trial Protections",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-07",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-07"
+      ],
+      "display_name": "Amendment 7 — Civil Jury Trial",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-08",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-08"
+      ],
+      "display_name": "Amendment 8 — Bail, Fines, and Punishments",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-09",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-09"
+      ],
+      "display_name": "Amendment 9 — Unenumerated Rights",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-10",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-10"
+      ],
+      "display_name": "Amendment 10 — Reserved Powers",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-11",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-11"
+      ],
+      "display_name": "Amendment 11 — State Sovereign Immunity and Federal Judicial Power",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-12",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-12"
+      ],
+      "display_name": "Amendment 12 — Electoral College Balloting for President and Vice President",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-13",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-13"
+      ],
+      "display_name": "Amendment 13 — Abolition of Slavery and Involuntary Servitude",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-14",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-14"
+      ],
+      "display_name": "Amendment 14 — Citizenship, Rights, Representation, Disqualification, and Public Debt",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-15",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-15"
+      ],
+      "display_name": "Amendment 15 — Race and Voting Restrictions",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-16",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-16"
+      ],
+      "display_name": "Amendment 16 — Income Taxation Without Apportionment",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-17",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-17"
+      ],
+      "display_name": "Amendment 17 — Direct Election of Senators",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-18",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-18"
+      ],
+      "display_name": "Amendment 18 — Prohibition of Intoxicating Liquors (Repealed)",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-19",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-19"
+      ],
+      "display_name": "Amendment 19 — Voting Restrictions Based on Sex",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-20",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-20"
+      ],
+      "display_name": "Amendment 20 — Federal Term Dates and Presidential Transition",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-21",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-21"
+      ],
+      "display_name": "Amendment 21 — Repeal of Prohibition and Interstate Liquor Regulation",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-22",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-22"
+      ],
+      "display_name": "Amendment 22 — Limits on Election to the Presidency",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-23",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-23"
+      ],
+      "display_name": "Amendment 23 — Presidential Electors for the District of Columbia",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-24",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-24"
+      ],
+      "display_name": "Amendment 24 — Poll Taxes in Federal Elections",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-25",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-25"
+      ],
+      "display_name": "Amendment 25 — Presidential and Vice-Presidential Succession and Disability",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-26",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-26"
+      ],
+      "display_name": "Amendment 26 — Voting Restrictions Based on Age",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    },
+    {
+      "id": "SCOPE-CONST-AMD-27",
+      "type": "focused_constitutional_scope",
+      "domain": "constitutional",
+      "root_ids": [
+        "CONST-US-AMD-27"
+      ],
+      "display_name": "Amendment 27 — Congressional Compensation Timing",
+      "scope_kind": "source_descendants",
+      "source_unit_catalog": "model/constitutional/amendment-units.json",
+      "source_unit_count": null,
+      "reference_view_id": "VIEW-CONST-AMENDMENT-EFFECTS",
+      "default_traversal_hops": 4,
+      "include_original_historical_text": true,
+      "expand_external_capabilities": false,
+      "default_include_relation_classes": [
+        "structural",
+        "research_analysis",
+        "textual_candidate",
+        "qualification",
+        "historical_context",
+        "functional_alignment"
+      ],
+      "publication_status": "model_only_focused_view_not_website_rendered",
+      "legal_review_status": "source_linked_summary_pending_qualified_legal_review",
+      "source_ids": [
+        "SRC-CONST-LATER-AMENDMENTS"
+      ]
+    }
+  ]
+}

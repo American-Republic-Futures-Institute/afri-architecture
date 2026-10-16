@@ -1,0 +1,385 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/focused-projection.schema.json",
+  "title": "ARFI constitutional focused projection registry v0.1.0",
+  "description": "Validates portable source-reference-only scopes, article/amendment indexes and typed legal relationship projection rules; graph semantics validated by scripts/focused-projection-core.mjs",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/scope"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/article"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/amendment"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/edgeRule"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ],
+  "$defs": {
+    "scope": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "domain",
+        "root_ids",
+        "display_name",
+        "scope_kind",
+        "source_unit_catalog",
+        "reference_view_id",
+        "publication_status",
+        "legal_review_status",
+        "source_ids",
+        "default_include_relation_classes",
+        "default_traversal_hops"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "focused_constitutional_scope"
+        },
+        "domain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "root_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "display_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_unit_catalog": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference_view_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legal_review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "default_include_relation_classes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "default_traversal_hops": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_unit_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "include_original_historical_text": {
+          "const": true
+        },
+        "expand_external_capabilities": {
+          "const": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "article": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "root_id",
+        "article",
+        "source_model_path",
+        "source_unit_ids",
+        "source_unit_count",
+        "text_provision_ids",
+        "mapped_norm_ids",
+        "decomposition_scope",
+        "status",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "canonical_article_reference_index"
+        },
+        "root_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "article": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_model_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_unit_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_unit_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "text_provision_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "mapped_norm_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "decomposition_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "amendment": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "root_id",
+        "amendment_number",
+        "source_model_path",
+        "source_unit_ids",
+        "source_unit_count",
+        "source_provision_ids",
+        "ratified_on",
+        "current_text_effect",
+        "status",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "canonical_amendment_reference_index"
+        },
+        "root_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "amendment_number": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_model_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_unit_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_unit_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_provision_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "ratified_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_text_effect": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "edgeRule": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "source_model_path",
+        "from_field",
+        "to_field",
+        "relationship_kind",
+        "relationship_class",
+        "legal_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "declarative_source_edge_rule"
+        },
+        "source_model_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "from_field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relationship_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relationship_class": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legal_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "traversal_default": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

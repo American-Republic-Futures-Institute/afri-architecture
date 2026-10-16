@@ -96,7 +96,11 @@
     "model/federal/statutory-conditions.json",
     "model/federal/statutory-capability-links.json",
     "model/federal/statutory-traces.json",
-    "model/federal/statutory-viewpoints.json"
+    "model/federal/statutory-viewpoints.json",
+    "model/projection/scopes.json",
+    "model/projection/edge-rules.json",
+    "model/projection/article-index.json",
+    "model/projection/amendment-index.json"
   ],
   "standards": [
     {
@@ -336,5 +340,31 @@
     "fully_researched_department_count": 0,
     "source_scope": "Official U.S. Code excerpts for DHS, Department of Education, and a separate GEPA constraint with organizational, delegated function, rights-protection and federalism limits.",
     "publication_note": "No verified funding, budget, actual delegation instrument, program-level statute, judicial citator completeness, independently verified operational effect or website rendering. Code groups remain distinct from enacted Public Law session-history."
+  },
+  "focused_projection_extension": {
+    "id": "ARFI-COA-FOCUSED-PROJECTION-001",
+    "snapshot_date": "2026-10-16",
+    "release_status": "data_contract_only_no_website_renderer",
+    "article_scope_count": 7,
+    "amendment_scope_count": 27,
+    "rule_count": 53,
+    "source_model_strategy": "stable_reference_only_no_legal_source_duplication",
+    "original_articles_covered": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII"
+    ],
+    "scope_constraints": "Filters never create legal authorities or omit historical legal-effect metadata from canonical models.",
+    "cross_domain_policy": "Explicit typed relationships only; no First Amendment/DoD relationship inferred from matching text.",
+    "user_interface_status": "future_increment",
+    "policy_mapping_status": "future_increment",
+    "article_index_count": 7,
+    "amendment_index_count": 27,
+    "source_unit_registry_count": 103,
+    "historic_text_preservation": "repealed_modified_expired_original_text_remains_referenceable"
   }
 }
