@@ -149,7 +149,8 @@
         "CONST-US-ART-03-SEC-02-CL-01"
       ],
       "constitutional_norm_ids": [
-        "NORM-US-CONST-063"
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-032"
       ],
       "affected_actor_ids": [
         "ACT-US-STATES"
