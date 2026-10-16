@@ -137,6 +137,58 @@ test("seven textual military and fiscal constitutional contexts map only to Cong
  assert(graph.nodes.some(x=>x.id==="CONST-US-ART-02-SEC-02-CL-01"));
  assert(graph.nodes.some(x=>x.id==="CONST-US-ART-01-SEC-09-CL-07"));
 });
+test("authority viewpoint publishes source-cited actor → power → statute → limitation chains, not disconnected icons",()=>{
+ const v=projectDodView(verified,"VIEW-DOD-AUTHORITY");
+ assert(v.relationships.length>=50);
+ assert(v.nodes.some(n=>n.id==="ORG-FED-EXE-PRESIDENT"));
+ assert(v.relationships.some(e=>e.from_id==="DOD-ROLE-CHAIRMAN"&&e.to_id==="DOD-POWER-CHAIRMAN-MIL-ADVICE"&&
+   e.relationship_type==="bounded_statutory_role_authority"));
+ assert(v.relationships.some(e=>e.from_id==="DOD-POWER-CHAIRMAN-MIL-ADVICE"&&e.to_id==="DOD-COND-CHAIRMAN-NOCOMMAND"&&
+   e.relationship_type==="explicit_statutory_limitation"));
+ assert(v.relationships.some(e=>e.from_id==="DOD-POWER-SECDEF-DIRECTION"&&e.to_id==="DOD-PROV-10-113-B"&&
+   e.relationship_type==="bounded_statutory_legal_basis"));
+ assert(v.relationships.some(e=>e.from_id==="DOD-TRACE-MILDEPT-ARMY"&&e.to_id==="DOD-POWER-SEC-ARMY-MANAGE"));
+ assert(v.relationships.every(e=>e.source_ids.length>0&&e.legal_authority_proven===false));
+});
+test("Congress view maps separate report actors and recipients without implying reports were submitted",()=>{
+ const v=projectDodView(verified,"VIEW-DOD-CONGRESS");
+ assert.equal(v.relationships.length,14);
+ assert(v.nodes.some(x=>x.id==="ORG-FED-LEG-CONGRESS"));
+ assert(v.relationships.some(x=>x.from_id==="DOD-CONG-LINK-01"&&x.to_id==="ORG-FED-LEG-CONGRESS"));
+ assert(v.relationships.some(x=>x.from_id==="DOD-CONG-LINK-04"&&x.to_id==="DOD-CONG-HOUSE-APP"));
+ assert(v.relationships.every(x=>x.legal_authority_proven===false));
+});
+test("Fiscal view visibly links proposed FY2026 spending categories to federal fiscal constraints without creating appropriations",()=>{
+ const v=projectDodView(verified,"VIEW-DOD-FISCAL");
+ assert.equal(v.relationships.length,10);
+ assert(v.relationships.some(x=>x.from_id==="DOD-FISCAL-FY26-OM"&&x.to_id==="DOD-COND-PURPOSE-RULE"));
+ assert(v.relationships.some(x=>x.from_id==="DOD-FISCAL-FY26-OM"&&x.to_id==="DOD-COND-ANTIDEFICIENCY"));
+ assert(v.relationships.some(x=>x.from_id==="DOD-COND-PURPOSE-RULE"&&x.to_id==="DOD-PROV-31-1301-A"));
+ assert(v.relationships.every(x=>x.source_ids.length>0&&x.legal_authority_proven===false));
+});
+test("GAO DAFA view visibly connects CSA readiness flags to Chairman and 27 chart memberships",()=>{
+ const v=projectDodView(verified,"VIEW-DOD-DAFA");
+ assert.equal(v.relationships.filter(x=>x.relationship_type==="designated_combat_support_agency_subject_to_readiness_review").length,8);
+ assert.equal(v.relationships.filter(x=>x.relationship_type==="dated_chart_supervision_not_individual_delegation").length,27);
+ assert.equal(v.relationships.filter(x=>x.relationship_type==="categorized_under_statutory_composition_class").length,27);
+ assert(v.nodes.some(n=>n.id==="DOD-ROLE-CHAIRMAN"));
+ assert(v.relationships.every(x=>x.operational_command_established===false));
+});
+test("conditional Coast Guard placement is visible against canonical DHS identity in Armed Services view",()=>{
+ const v=projectDodView(verified,"VIEW-DOD-SERVICES");
+ assert(v.nodes.some(x=>x.id==="ORG-FED-EXE-DEP-DHS"));
+ assert(v.relationships.some(x=>x.from_id==="DOD-SERVICE-COAST"&&x.to_id==="ORG-FED-EXE-DEP-DHS"));
+ assert(v.relationships.some(x=>x.from_id==="DOD-SERVICE-SPACE"&&x.to_id==="CENSUS-COMP-DEF-AIR-FORCE"));
+});
+test("derived source edges have deterministic IDs across repeated projections and retain immutable cited URLs",()=>{
+ const a=projectDodView(verified,"VIEW-DOD-AUTHORITY");
+ const b=projectDodView(verified,"VIEW-DOD-AUTHORITY");
+ assert.deepEqual(a.relationships.map(x=>x.id),b.relationships.map(x=>x.id));
+ assert.equal(new Set(a.relationships.map(x=>x.id)).size,a.relationships.length);
+ assert(a.relationships.every(x=>x.derived_from_canonical_record===true));
+ assert(a.nodes.every(n=>Array.isArray(n.source_ids)&&Array.isArray(n.source_urls)));
+ assert(a.nodes.flatMap(n=>n.source_urls).every(x=>x.startsWith("https://")));
+});
 test("20 bounded DoD collections retain canonical manifest and unresolved gap declarations",()=>{
  assert.equal(DOD_MODEL_PATHS.length,20);
  for(const p of DOD_MODEL_PATHS)assert(initial.manifest.models.includes(p));
