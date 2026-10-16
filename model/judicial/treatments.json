@@ -158,7 +158,7 @@
         "SRC-JUD-OPINION-DOBBS-2022"
       ],
       "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
-      "does_not_imply_whole_case_overruling": false,
+      "does_not_imply_whole_case_overruling": true,
       "citations_as_legal_effect_not_original_text": true
     },
     {
@@ -178,7 +178,7 @@
         "SRC-JUD-OPINION-DOBBS-2022"
       ],
       "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
-      "does_not_imply_whole_case_overruling": false,
+      "does_not_imply_whole_case_overruling": true,
       "citations_as_legal_effect_not_original_text": true
     },
     {
@@ -198,7 +198,7 @@
         "SRC-JUD-OPINION-LOPER-BRIGHT-2024"
       ],
       "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
-      "does_not_imply_whole_case_overruling": false,
+      "does_not_imply_whole_case_overruling": true,
       "citations_as_legal_effect_not_original_text": true
     }
   ]

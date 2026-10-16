@@ -427,7 +427,7 @@
           "const": "review_full_opinion_for_pinpoint"
         },
         "does_not_imply_whole_case_overruling": {
-          "type": "boolean"
+          "const": true
         },
         "citations_as_legal_effect_not_original_text": {
           "const": true

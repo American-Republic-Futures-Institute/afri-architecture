@@ -8,7 +8,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),"utf8"));
 const files=Object.fromEntries(Object.entries({
  courts:"courts",sources:"sources",cases:"cases",holdings:"holdings",
  interpretations:"interpretations",treatments:"treatments",
- statusAssessments:"status-assessments",viewpoints:"viewpoints"
+ statusAssessments:"status-assessments",applicability:"applicability",viewpoints:"viewpoints"
 }).map(([k,v])=>[k,read("model/judicial/"+v+".json")]));
 const fed=["branches","legislative","executive-leadership","executive-departments","executive-independent","judiciary","capabilities"];
 const result=validateJudicialPrecedent({

@@ -143,8 +143,8 @@ export function validateJudicialPrecedent(d){
   if(t.type!=="judicial_precedent_treatment"||!newer||!older||hs.get(t.treating_holding_id)?.case_id!==t.treating_case_id||hs.get(t.treated_holding_id)?.case_id!==t.treated_case_id)err("Precedent treatment references a wrong case holding "+t.id);
   if(!relationships.has(t.relationship_type)||!date(t.effective_on)||!newer||!older||t.effective_on!==newer.decided_on||t.effective_on<=older.decided_on||t.treating_case_id===t.treated_case_id)err("Precedent treatment chronology or polarity invalid "+t.id);
   if(t.review_status!=="opinion_based_treatment_pending_full_legal_review"||t.opinion_pinpoint_status!=="review_full_opinion_for_pinpoint"||t.citations_as_legal_effect_not_original_text!==true)err("Treatment falsely certified as comprehensive judicial authority "+t.id);
-  if(t.does_not_imply_whole_case_overruling!==!overruling.has(t.relationship_type))err("Holding-specific treatment erroneously generalized to case-wide overruling "+t.id);
-  if(t.impact_kind===(t.relationship_type==="expressly_overrules"?"supports_prior_holding":"overrides_defined_holding"))err("Judicial treatment effect polarity mislabeled "+t.id);
+  if(t.does_not_imply_whole_case_overruling!==true)err("Holding-specific treatment erroneously generalized to case-wide overruling "+t.id);
+  if((t.relationship_type==="expressly_overrules")!==(t.impact_kind==="overrides_defined_holding"))err("Judicial treatment effect polarity mislabeled "+t.id);
   for(const sid of list(t.source_ids))if(!newer?.opinion_source_ids.includes(sid))err("Judicial treatment source is not the later decision opinion "+t.id);
  }
  for(const [newer,older] of requiredOverrules){
