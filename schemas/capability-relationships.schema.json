@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-06 cross-domain candidate link records",
+  "type": "object",
+  "required": [
+    "version",
+    "status",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "status": {
+      "const": "conceptual_traces_unratified"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "outcome-capability link",
+        "type": "object",
+        "required": [
+          "id",
+          "shared_capability_id",
+          "domain_id",
+          "domain_capability_ids",
+          "outcome_ids",
+          "relationship_type",
+          "status",
+          "authority_asserted",
+          "rationale"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^XLINK-[0-9]{4}$"
+          },
+          "shared_capability_id": {
+            "type": "string",
+            "pattern": "^CAP-XDOM-[0-9]{3}$"
+          },
+          "domain_id": {
+            "type": "string",
+            "pattern": "^DOM-[0-9]{2}$"
+          },
+          "domain_capability_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}-C[0-9]{2}$"
+            }
+          },
+          "outcome_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}-O[0-9]{2}$"
+            }
+          },
+          "relationship_type": {
+            "const": "candidate_enabler_of"
+          },
+          "status": {
+            "const": "research_hypothesis_unratified"
+          },
+          "authority_asserted": {
+            "const": false
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 10
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
