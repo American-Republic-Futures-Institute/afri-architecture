@@ -105,3 +105,9 @@ Run `node scripts/validate-federalism.mjs` and `node --test tests/federalism.tes
 The canonical architecture now includes all **27 ratified Amendments** with all **33 original numbered Sections preserved**, and **126 additional explicitly nonofficial analytical segments** linked to 27 time records, 15 effect/certification events, 172 textual or historical qualifications, 126 constitutional context/effect mappings and 114 **functional** (not delegating) capability links. Eighteenth Amendment repeal and finite transitional exceptions cannot create current authority. See [Amendment Decomposition](docs/AMENDMENT-DECOMPOSITION.md).
 
 Check with `node scripts/validate-amendments.mjs` and `node --test tests/amendments.test.mjs`. Judicial doctrine and enabling statutes follow separately; website rendering remains owned by `afri-website`.
+
+## Judicial precedent graph (initial seed, 2026-10-16)
+
+Architecture-only **case/holding-based constitutional interpretation**, independent of original ratified text, in `model/judicial/`. Initial coverage: 18 Supreme Court cases, 20 bounded holdings, 30 constitutional traceability links, 10 directed later-case treatments, 20 holding-level provisional status assessments and 20 jurisdiction/applicability profiles. The 25 sources distinguish official Court opinions from government legal analysis. No entry implies a completed professional citator review or an unqualified holding of current binding law.
+
+Read [Judicial Precedent Architecture](docs/JUDICIAL-PRECEDENT-ARCHITECTURE.md). Validate: `node scripts/validate-judicial.mjs` and `node --test tests/judicial.test.mjs`. Visual rendering and public commenting belong only in the website repo.

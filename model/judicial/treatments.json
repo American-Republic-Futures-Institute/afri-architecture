@@ -1,0 +1,205 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "JUD-TREAT-0001",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-EX-PARTE-YOUNG-1908",
+      "treating_holding_id": "HOLD-US-SCOTUS-EX-PARTE-YOUNG-1908-01",
+      "treated_case_id": "CASE-US-SCOTUS-HANS-1890",
+      "treated_holding_id": "HOLD-US-SCOTUS-HANS-1890-01",
+      "relationship_type": "narrow_remedial_exception",
+      "affected_issue_scope": "prospective_officer_relief",
+      "qualified_effect": "Prospective relief against responsible State officials in ongoing federal-law violations differs from barred retrospective suits against the State itself.",
+      "impact_kind": "narrow_scope_no_casewide_overruling",
+      "effective_on": "1908-03-23",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-EX-PARTE-YOUNG-1908"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0002",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-BROWN-1954",
+      "treating_holding_id": "HOLD-US-SCOTUS-BROWN-1954-01",
+      "treated_case_id": "CASE-US-SCOTUS-PLESSY-1896",
+      "treated_holding_id": "HOLD-US-SCOTUS-PLESSY-1896-01",
+      "relationship_type": "repudiates_doctrine_in_defined_context",
+      "affected_issue_scope": "state_public_education_equal_protection",
+      "qualified_effect": "Separate-but-equal rationale cannot justify State-enforced racial segregation in public schools; Brown did not directly adjudicate the rail-car facts in Plessy.",
+      "impact_kind": "limited_context_not_casewide_citator",
+      "effective_on": "1954-05-17",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-BROWN-1954"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0003",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-COOPER-1958",
+      "treating_holding_id": "HOLD-US-SCOTUS-COOPER-1958-01",
+      "treated_case_id": "CASE-US-SCOTUS-BROWN-1954",
+      "treated_holding_id": "HOLD-US-SCOTUS-BROWN-1954-01",
+      "relationship_type": "reaffirms_and_applies",
+      "affected_issue_scope": "state_public_education_equal_protection",
+      "qualified_effect": "State officials remain bound by Brown's federal constitutional holding and cannot evade it through State law.",
+      "impact_kind": "supports_prior_holding",
+      "effective_on": "1958-09-12",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-COOPER-1958"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0004",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-CASEY-1992",
+      "treating_holding_id": "HOLD-US-SCOTUS-CASEY-1992-01",
+      "treated_case_id": "CASE-US-SCOTUS-ROE-1973",
+      "treated_holding_id": "HOLD-US-SCOTUS-ROE-1973-01",
+      "relationship_type": "reaffirms_core_modifies_test",
+      "affected_issue_scope": "constitutional_abortion_framework_pre_2022",
+      "qualified_effect": "Casey reaffirmed Roe's central abortion-right holding while modifying Roe's test; itself later displaced by Dobbs.",
+      "impact_kind": "historical_intermediate_treatment",
+      "effective_on": "1992-06-29",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-CASEY-1992"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0005",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-PRINTZ-1997",
+      "treating_holding_id": "HOLD-US-SCOTUS-PRINTZ-1997-01",
+      "treated_case_id": "CASE-US-SCOTUS-NEW-YORK-1992",
+      "treated_holding_id": "HOLD-US-SCOTUS-NEW-YORK-1992-01",
+      "relationship_type": "extends_doctrine",
+      "affected_issue_scope": "federal_command_to_state_executive",
+      "qualified_effect": "Printz developed anti-commandeering from State legislative processes to federally required State executive implementation.",
+      "impact_kind": "supports_prior_holding",
+      "effective_on": "1997-06-27",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-PRINTZ-1997"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0006",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-MURPHY-2018",
+      "treating_holding_id": "HOLD-US-SCOTUS-MURPHY-2018-01",
+      "treated_case_id": "CASE-US-SCOTUS-NEW-YORK-1992",
+      "treated_holding_id": "HOLD-US-SCOTUS-NEW-YORK-1992-01",
+      "relationship_type": "reaffirms_and_extends",
+      "affected_issue_scope": "federal_prohibition_on_state_lawmaking",
+      "qualified_effect": "Murphy applied anti-commandeering to federal prohibitions on State legislative authorization.",
+      "impact_kind": "supports_prior_holding",
+      "effective_on": "2018-05-14",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-MURPHY-2018"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0007",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-MURPHY-2018",
+      "treating_holding_id": "HOLD-US-SCOTUS-MURPHY-2018-01",
+      "treated_case_id": "CASE-US-SCOTUS-PRINTZ-1997",
+      "treated_holding_id": "HOLD-US-SCOTUS-PRINTZ-1997-01",
+      "relationship_type": "reaffirms_and_extends",
+      "affected_issue_scope": "state_officer_and_legislative_command",
+      "qualified_effect": "Murphy restated the anti-commandeering protections recognized in Printz and New York.",
+      "impact_kind": "supports_prior_holding",
+      "effective_on": "2018-05-14",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-MURPHY-2018"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0008",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-DOBBS-2022",
+      "treating_holding_id": "HOLD-US-SCOTUS-DOBBS-2022-01",
+      "treated_case_id": "CASE-US-SCOTUS-ROE-1973",
+      "treated_holding_id": "HOLD-US-SCOTUS-ROE-1973-01",
+      "relationship_type": "expressly_overrules",
+      "affected_issue_scope": "fourteenth_amendment_abortion_right",
+      "qualified_effect": "Dobbs overruled Roe's central Fourteenth Amendment abortion-right framework; not every independent constitutional right.",
+      "impact_kind": "overrides_defined_holding",
+      "effective_on": "2022-06-24",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-DOBBS-2022"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0009",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-DOBBS-2022",
+      "treating_holding_id": "HOLD-US-SCOTUS-DOBBS-2022-01",
+      "treated_case_id": "CASE-US-SCOTUS-CASEY-1992",
+      "treated_holding_id": "HOLD-US-SCOTUS-CASEY-1992-01",
+      "relationship_type": "expressly_overrules",
+      "affected_issue_scope": "previability_abortion_undue_burden",
+      "qualified_effect": "Dobbs overruled Casey's abortion-right and undue-burden framework; does not automatically invalidate unrelated discussions.",
+      "impact_kind": "overrides_defined_holding",
+      "effective_on": "2022-06-24",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-DOBBS-2022"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    },
+    {
+      "id": "JUD-TREAT-0010",
+      "type": "judicial_precedent_treatment",
+      "treating_case_id": "CASE-US-SCOTUS-LOPER-BRIGHT-2024",
+      "treating_holding_id": "HOLD-US-SCOTUS-LOPER-BRIGHT-2024-01",
+      "treated_case_id": "CASE-US-SCOTUS-CHEVRON-1984",
+      "treated_holding_id": "HOLD-US-SCOTUS-CHEVRON-1984-01",
+      "relationship_type": "expressly_overrules",
+      "affected_issue_scope": "chevron_ambiguity_deference_to_agencies",
+      "qualified_effect": "Loper Bright expressly overruled Chevron's statutory deference framework; it did not automatically reopen previous statutory holdings.",
+      "impact_kind": "overrides_defined_holding",
+      "effective_on": "2024-06-28",
+      "review_status": "opinion_based_treatment_pending_full_legal_review",
+      "source_ids": [
+        "SRC-JUD-OPINION-LOPER-BRIGHT-2024"
+      ],
+      "opinion_pinpoint_status": "review_full_opinion_for_pinpoint",
+      "does_not_imply_whole_case_overruling": true,
+      "citations_as_legal_effect_not_original_text": true
+    }
+  ]
+}

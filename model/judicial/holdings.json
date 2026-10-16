@@ -1,0 +1,549 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "HOLD-US-SCOTUS-MARBURY-1803-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-MARBURY-1803",
+      "holding_summary": "Judicial review of conflicting federal statute",
+      "rule_summary": "A federal court deciding a case must give effect to the Constitution over an inconsistent federal statute; the source is judicial doctrine, not an express Article III textual enumeration.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "federal_statutes_in_justiciable_cases",
+      "constitutional_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01",
+        "CONST-US-ART-06-CL-02"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-030",
+        "NORM-US-CONST-045"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MARBURY-1803"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-MARBURY-1803-02",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-MARBURY-1803",
+      "holding_summary": "Limits on Supreme Court original jurisdiction",
+      "rule_summary": "Congress may not enlarge the Supreme Court's constitutionally specified original jurisdiction by statute.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "supreme_court_original_jurisdiction",
+      "constitutional_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-AIII-02-02-ORIGINAL"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MARBURY-1803"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-MARTIN-1816-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-MARTIN-1816",
+      "holding_summary": "Supreme Court review of State judgments raising federal issues",
+      "rule_summary": "Congress may provide for U.S. Supreme Court appellate review of State court judgments on federal constitutional and federal law questions.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "state_judgment_federal_question_review",
+      "constitutional_provision_ids": [
+        "CONST-US-ART-03-SEC-02-CL-02",
+        "CONST-US-ART-06-CL-02"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-AIII-02-02-APPELLATE",
+        "NORM-US-CONST-045"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATE-JUDGES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MARTIN-1816"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-MCCULLOCH-1819-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-MCCULLOCH-1819",
+      "holding_summary": "Necessary-and-Proper means for constitutional ends",
+      "rule_summary": "Congress may use appropriate means reasonably adapted to legitimate enumerated powers; creation of the national bank was constitutionally permitted.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "enumerated_federal_ends_and_implementing_means",
+      "constitutional_provision_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-P18"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MCCULLOCH-1819"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-MCCULLOCH-1819-02",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-MCCULLOCH-1819",
+      "holding_summary": "State tax on federal instrumentality invalid",
+      "rule_summary": "A State may not use its taxing power to burden a constitutionally established federal instrumentality in the manner at issue.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "state_tax_on_constitutional_federal_instrumentality",
+      "constitutional_provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-045"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MCCULLOCH-1819"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-HANS-1890-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-HANS-1890",
+      "holding_summary": "State sovereign immunity beyond literal Eleventh Amendment claimants",
+      "rule_summary": "An unconsenting State is immune from the covered federal suit brought by its own citizen; this doctrine extends beyond the Eleventh Amendment's express out-of-State claimant wording.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "federal_court_state_sovereign_immunity",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-11",
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-032"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-HANS-1890"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-PLESSY-1896-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-PLESSY-1896",
+      "holding_summary": "Historical approval of separate-car racial segregation",
+      "rule_summary": "The Court rejected an equal-protection challenge to State-mandated separate railway passenger cars; its separate-but-equal reasoning was later repudiated in public education.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "historical_state_railcar_segregation",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-070"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-PLESSY-1896"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-EX-PARTE-YOUNG-1908-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-EX-PARTE-YOUNG-1908",
+      "holding_summary": "Prospective official-capacity-equivalent relief against unconstitutional enforcement",
+      "rule_summary": "Federal suits seeking prospective relief against individual State officers to stop ongoing federal-law violations can proceed notwithstanding State sovereign immunity, subject to remedy and procedural limits.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "prospective_relief_against_state_officials",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-11",
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-063",
+        "NORM-US-CONST-069"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATE-OFFICERS"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-EX-PARTE-YOUNG-1908"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-BROWN-1954-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-BROWN-1954",
+      "holding_summary": "State public-school racial segregation violates equal protection",
+      "rule_summary": "State-imposed separation of public school students by race is inherently unequal in public education under the Fourteenth Amendment's Equal Protection Clause.",
+      "opinion_role": "unanimous",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "public_k12_state_school_racial_segregation",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-070"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-BROWN-1954"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-COOPER-1958-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-COOPER-1958",
+      "holding_summary": "State officials bound by controlling federal constitutional judgments",
+      "rule_summary": "State executive, legislative and judicial officials may not nullify or evade the Supreme Court's federal constitutional holding in Brown by contrary State measures.",
+      "opinion_role": "unanimous",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "state_official_compliance_with_scotus_equal_protection",
+      "constitutional_provision_ids": [
+        "CONST-US-ART-06-CL-02",
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-070"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES",
+        "ACT-US-STATE-OFFICERS"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-COOPER-1958"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-GIDEON-1963-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-GIDEON-1963",
+      "holding_summary": "Sixth Amendment counsel protection applies at State felony trials",
+      "rule_summary": "States must provide counsel for an indigent defendant in a covered State felony prosecution; the Sixth Amendment protection applies to States through Fourteenth Amendment due process.",
+      "opinion_role": "unanimous",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "indigent_state_felony_defendants_counsel",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-06-SEG-07",
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-AMD-06-SEG-07",
+        "NORM-US-CONST-069"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES",
+        "ACT-US-CRIMINAL-ACCUSED"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-GIDEON-1963"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-ROE-1973-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-ROE-1973",
+      "holding_summary": "Historical Fourteenth Amendment abortion-right framework",
+      "rule_summary": "The Roe majority recognized a constitutional abortion-right framework grounded in Fourteenth Amendment liberty/privacy analysis; that framework was later replaced and overruled.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "historical_abortion_due_process_framework",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-069"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-ROE-1973"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-CHEVRON-1984-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-CHEVRON-1984",
+      "holding_summary": "Historical Chevron agency statutory-interpretation deference framework",
+      "rule_summary": "The Chevron approach called for deference to certain reasonable federal agency statutory interpretations when the administered statute was ambiguous; the framework was expressly overruled in 2024.",
+      "opinion_role": "majority",
+      "basis_kind": "federal_statutory_interpretation_with_constitutional_context",
+      "issue_scope": "administrative_agency_statutory_review_under_prior_chevron_framework",
+      "constitutional_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-030"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-CHEVRON-1984"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-NEW-YORK-1992-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-NEW-YORK-1992",
+      "holding_summary": "Congress may not compel States to legislate or administer federal program",
+      "rule_summary": "Congress cannot simply compel State legislatures to enact or administer a federal regulatory program, despite other permissible federal means.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "federal_direction_of_state_legislative_regulatory_programs",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-10",
+        "CONST-US-ART-01-SEC-08-CL-18"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-062",
+        "NORM-US-CONST-P18"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-NEW-YORK-1992"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-CASEY-1992-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-CASEY-1992",
+      "holding_summary": "Historical abortion previability undue-burden framework",
+      "rule_summary": "The controlling Casey joint opinion reaffirmed Roe's central constitutional protection while replacing parts of the trimester approach with an undue-burden standard; Dobbs later overruled the abortion-right holding.",
+      "opinion_role": "controlling_joint_opinion",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "historical_previability_abortion_undue_burden_framework",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-069"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-CASEY-1992"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-BOERNE-1997-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-BOERNE-1997",
+      "holding_summary": "Fourteenth Amendment Section 5 remedial enforcement limits",
+      "rule_summary": "Congress's Section 5 enforcement legislation must have congruence and proportionality to preventing or remedying Fourteenth Amendment violations; RFRA exceeded those limits as applied to the States.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "congressional_fourteenth_amendment_section5_enforcement",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-14-SEC-05",
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-072",
+        "NORM-US-CONST-069"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-FED",
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-BOERNE-1997"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-PRINTZ-1997-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-PRINTZ-1997",
+      "holding_summary": "State executive officers cannot be commandeered to enforce federal program",
+      "rule_summary": "Congress may not compel State or local executive officers to administer a federal regulatory scheme in the manner challenged.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "federal_commands_to_state_executive_officers",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-10",
+        "CONST-US-ART-01-SEC-08-CL-18"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-062",
+        "NORM-US-CONST-P18"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATE-EXE",
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-PRINTZ-1997"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-MURPHY-2018-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-MURPHY-2018",
+      "holding_summary": "Federal prohibition on State legislative authorization invalid under anti-commandeering",
+      "rule_summary": "Congress cannot use a federal prohibition on State authorization of gambling to dictate State legislative decisions; anti-commandeering covers commands phrased as prohibitions.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "federal_prohibitions_directed_at_state_legislative_authorization",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-10",
+        "CONST-US-ART-01-SEC-08-CL-03"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-062",
+        "NORM-US-CONST-P03"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MURPHY-2018"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-DOBBS-2022-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-DOBBS-2022",
+      "holding_summary": "Fourteenth Amendment does not confer asserted constitutional abortion right",
+      "rule_summary": "The Court held that the Constitution does not confer a right to abortion and overruled the Roe and Casey constitutional abortion-right framework. This does not decide every other substantive-due-process issue.",
+      "opinion_role": "majority",
+      "basis_kind": "constitutional_interpretation",
+      "issue_scope": "federal_constitutional_abortion_right_under_due_process",
+      "constitutional_provision_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-069"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-DOBBS-2022"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    },
+    {
+      "id": "HOLD-US-SCOTUS-LOPER-BRIGHT-2024-01",
+      "type": "judicial_holding",
+      "case_id": "CASE-US-SCOTUS-LOPER-BRIGHT-2024",
+      "holding_summary": "Independent judicial judgment under APA; Chevron overruled",
+      "rule_summary": "Courts reviewing agency action under the APA must independently decide statutory meaning rather than defer solely because of statutory ambiguity; Chevron's deference framework was expressly overruled, but prior statutory case holdings are not automatically reopened.",
+      "opinion_role": "majority",
+      "basis_kind": "federal_statutory_interpretation_with_constitutional_context",
+      "issue_scope": "administrative_procedure_act_statutory_review",
+      "constitutional_provision_ids": [
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "constitutional_norm_ids": [
+        "NORM-US-CONST-030"
+      ],
+      "affected_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "treatment_scope": "holding_specific_not_whole_case_automatic",
+      "review_status": "preliminary_holding_summary_pending_human_legal_review",
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-LOPER-BRIGHT-2024"
+      ],
+      "pinpoint_status": "full_opinion_indexed_pinpoint_not_verified",
+      "opinion_section_reference": null
+    }
+  ]
+}

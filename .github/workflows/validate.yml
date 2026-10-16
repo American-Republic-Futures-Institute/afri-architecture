@@ -51,3 +51,7 @@ jobs:
         run: node scripts/validate-amendments.mjs
       - name: Test amendment ratification, supersession, rights and historical controls
         run: node --test tests/amendments.test.mjs
+      - name: Validate holding-level judicial interpretations, precedent changes and legal review status
+        run: node scripts/validate-judicial.mjs
+      - name: Test judicial review, precedent scope and overruling regressions
+        run: node --test tests/judicial.test.mjs

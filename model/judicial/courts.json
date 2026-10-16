@@ -1,0 +1,24 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "COURT-US-SCOTUS",
+      "type": "judicial_court",
+      "name": "Supreme Court of the United States",
+      "court_system": "federal",
+      "level": "supreme_court",
+      "jurisdiction_basis": [
+        "CONST-US-ART-03-SEC-01-SEG-01",
+        "CONST-US-ART-03-SEC-02-CL-02"
+      ],
+      "territorial_scope": "United States",
+      "vertical_precedential_role": "last_resort_for_federal_question",
+      "binding_authority_description": "Holdings on federal law control lower federal and State courts within holding-specific scope, unless superseded by a later controlling authority. Distinguish original opinion, controlling plurality, dicta and later treatment.",
+      "source_ids": [
+        "SRC-JUD-ANALYSIS-CONAN-MARBURY",
+        "SRC-JUD-ANALYSIS-CONAN-PRECEDENT"
+      ],
+      "status": "institutional_candidate_pending_legal_review"
+    }
+  ]
+}
