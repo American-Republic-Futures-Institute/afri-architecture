@@ -83,6 +83,9 @@
         "verification_status": {
           "type": "string",
           "minLength": 4
+        },
+        "opinion_announced_on": {
+          "$ref": "#/$defs/date"
         }
       },
       "additionalProperties": false
@@ -206,6 +209,13 @@
         },
         "source_as_of": {
           "$ref": "#/$defs/date"
+        },
+        "opinion_announced_on": {
+          "$ref": "#/$defs/date"
+        },
+        "decision_date_note": {
+          "type": "string",
+          "minLength": 30
         }
       },
       "additionalProperties": false
