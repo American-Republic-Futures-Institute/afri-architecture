@@ -1,0 +1,246 @@
+{
+  "version": "0.1.0",
+  "status": "research_connections_not_assignments",
+  "items": [
+    {
+      "id": "ICAND-0001",
+      "shared_capability_id": "CAP-XDOM-001",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Potential health-record policy and authorized program intersections"
+    },
+    {
+      "id": "ICAND-0002",
+      "shared_capability_id": "CAP-XDOM-001",
+      "institution_id": "ORG-FED-EXE-IND-FTC",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research role of consumer data and unfair-practice authorities"
+    },
+    {
+      "id": "ICAND-0003",
+      "shared_capability_id": "CAP-XDOM-001",
+      "institution_id": "ORG-FED-LEG-GAO",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Review how independent oversight can evaluate data stewardship"
+    },
+    {
+      "id": "ICAND-0004",
+      "shared_capability_id": "CAP-XDOM-002",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research existing resilience and civilian emergency functions"
+    },
+    {
+      "id": "ICAND-0005",
+      "shared_capability_id": "CAP-XDOM-002",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research emergency health-service continuity roles"
+    },
+    {
+      "id": "ICAND-0006",
+      "shared_capability_id": "CAP-XDOM-002",
+      "institution_id": "ORG-FED-EXE-DEP-ENERGY",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research energy reliability dependencies within authorizations"
+    },
+    {
+      "id": "ICAND-0007",
+      "shared_capability_id": "CAP-XDOM-003",
+      "institution_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research authorized educational supports subject to federalism limits"
+    },
+    {
+      "id": "ICAND-0008",
+      "shared_capability_id": "CAP-XDOM-003",
+      "institution_id": "ORG-FED-EXE-DEP-LABOR",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research federal training and apprenticeship functions"
+    },
+    {
+      "id": "ICAND-0009",
+      "shared_capability_id": "CAP-XDOM-003",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research healthcare workforce dependencies"
+    },
+    {
+      "id": "ICAND-0010",
+      "shared_capability_id": "CAP-XDOM-004",
+      "institution_id": "ORG-FED-LEG-GAO",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Evaluate roles for independent legislative evidence"
+    },
+    {
+      "id": "ICAND-0011",
+      "shared_capability_id": "CAP-XDOM-004",
+      "institution_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research existing federal statistical contributions"
+    },
+    {
+      "id": "ICAND-0012",
+      "shared_capability_id": "CAP-XDOM-004",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research official public-health information roles"
+    },
+    {
+      "id": "ICAND-0013",
+      "shared_capability_id": "CAP-XDOM-005",
+      "institution_id": "ORG-FED-LEG-CBO",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Examine Congressional independent budget analysis"
+    },
+    {
+      "id": "ICAND-0014",
+      "shared_capability_id": "CAP-XDOM-005",
+      "institution_id": "ORG-FED-EXE-DEP-TREASURY",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research authorized fiscal stewardship responsibilities"
+    },
+    {
+      "id": "ICAND-0015",
+      "shared_capability_id": "CAP-XDOM-005",
+      "institution_id": "ORG-FED-EXE-IND-FED",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Monetary stability analysis, not executive fiscal command"
+    },
+    {
+      "id": "ICAND-0016",
+      "shared_capability_id": "CAP-XDOM-006",
+      "institution_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research legally specific civil-rights and procedural remedies"
+    },
+    {
+      "id": "ICAND-0017",
+      "shared_capability_id": "CAP-XDOM-006",
+      "institution_id": "ORG-FED-JUD-DISTRICT",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Judicial recourse is adjudication, not service management"
+    },
+    {
+      "id": "ICAND-0018",
+      "shared_capability_id": "CAP-XDOM-006",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research patient access and lawful health remedies"
+    },
+    {
+      "id": "ICAND-0019",
+      "shared_capability_id": "CAP-XDOM-007",
+      "institution_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research transportation-system disruption dependencies"
+    },
+    {
+      "id": "ICAND-0020",
+      "shared_capability_id": "CAP-XDOM-007",
+      "institution_id": "ORG-FED-EXE-DEP-ENERGY",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research energy-system resilience"
+    },
+    {
+      "id": "ICAND-0021",
+      "shared_capability_id": "CAP-XDOM-007",
+      "institution_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research industry, supply-chain and measurement functions"
+    },
+    {
+      "id": "ICAND-0022",
+      "shared_capability_id": "CAP-XDOM-008",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research existing identity and security program roles within law"
+    },
+    {
+      "id": "ICAND-0023",
+      "shared_capability_id": "CAP-XDOM-008",
+      "institution_id": "ORG-FED-EXE-IND-FTC",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research consumer protections around fraud and identity practices"
+    },
+    {
+      "id": "ICAND-0024",
+      "shared_capability_id": "CAP-XDOM-008",
+      "institution_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "relation": "potential_study_contributor",
+      "current_legal_authority": "not_verified_by_this_model",
+      "government_power_assigned": false,
+      "status": "research_candidate_unratified",
+      "rationale": "Research lawful identity-fraud enforcement and remedies"
+    }
+  ]
+}
