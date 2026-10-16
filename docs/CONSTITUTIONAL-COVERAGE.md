@@ -43,3 +43,7 @@ All 27 ratified amendments and the 33 original numbered sections are now decompo
 ## Judicial precedent source seed — 2026-10-16
 
 18 official U.S. Supreme Court decisions, 20 particular holdings, 30 original-provision/norm links, 10 explicit subsequent-treatment edges, 20 case-law status assessments, 20 holding-specific jurisdiction applicability profiles, and six model-only viewpoints. Published source registry separates 18 opinion sources from seven official legal research/explanatory sources. All conclusions remain pending full opinion pinpoint and professional citator review. Historical, overruled and issue-specific precedents cannot be relabeled as active original constitutional grants. [Details](JUDICIAL-PRECEDENT-ARCHITECTURE.md).
+
+## Judicial source audit and expanded doctrine coverage — October 16, 2026
+
+Eight additional official Supreme Court opinions expand holding-level coverage to 26 cases, 29 holdings, 44 constitutional links and 29 preliminary legal applicability/status records. Congress, executive power, standing, Second Amendment and Fourteenth Amendment marriage rights are added. All interpretations remain derivative court law, not original constitutional clauses; no comprehensive citator review was conducted. [See judicial doctrine coverage](JUDICIAL-PRECEDENT-ARCHITECTURE.md).

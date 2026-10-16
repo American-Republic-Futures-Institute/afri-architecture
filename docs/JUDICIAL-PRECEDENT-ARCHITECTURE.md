@@ -125,3 +125,37 @@ This is a publication-ready **structured research seed**, not a production legal
 3. **Independent State government architecture:** constitutional responsibilities of each State's executive, legislature and courts and intra-State legal delegation.
 4. **Agency enabling statutes:** U.S. Code → Title → Section → enacted effective dates → lawful grants → administrative delegation → controls, together with APA/agency review linkages.
 5. **Website rendering / public comments:** the website repo may render the new viewpoints and associate discussions with immutable case/holding IDs and commit hashes. This repository never owns runtime UI or visitor content.
+
+## Expanded constitutional holding coverage and citation audit — October 16, 2026
+
+The initial judicial seed (18 cases / 20 holdings / 30 constitutional mappings) now includes **26 official-source cases, 29 bounded holdings, 44 constitutional mappings, 10 conserved subsequent-treatment edges, 29 holding status projections, 29 jurisdiction applicability records and 10 viewpoints**. This is an architecture publication increment, NOT a complete legal citator or professional legal determination. Every new opinion has its own published United States Reports government locator.
+
+| New Supreme Court decision (U.S. Reports) | Constitutional authority | Scope-specific result / express limitation |
+|---|---|---|
+| *Gibbons v. Ogden*, 22 U.S. (9 Wheat.) 1 (1824) | Article I Commerce and Article VI Supremacy | Interstate navigation falls within commerce; conflicting State steamboat exclusivity yields to the federal licensing law. Two separate bounded holdings. |
+| *Youngstown Sheet & Tube Co. v. Sawyer*, 343 U.S. 579 (1952) | Article II executive powers and Take Care | The steel-mill seizure lacked legislative or independent constitutional authorization. Jackson's tripartite framework is a **concurrence**, not the majority holding. |
+| *United States v. Nixon*, 418 U.S. 683 (1974) | Article II privilege and Article III judicial function | General presidential confidentiality claim does not defeat specific need for criminal trial evidence; military/diplomatic secrecy was not decided on this record. |
+| *INS v. Chadha*, 462 U.S. 919 (1983) | Article I bicameralism / presentment | The one-House veto altering external legal rights could not bypass lawmaking procedures; not a ban on congressional oversight. |
+| *Lujan v. Defenders of Wildlife*, 504 U.S. 555 (1992) | Article III cases/controversies | Injury, causation and redressability elements for federal judicial standing; not a newly numbered constitutional clause. |
+| *United States v. Lopez*, 514 U.S. 549 (1995) | Article I commerce limitations | Original statute prohibiting noneconomic school-zone firearm possession lacked requisite interstate-commerce nexus. Does not adjudicate every later or amended statute. |
+| *District of Columbia v. Heller*, 554 U.S. 570 (2008) | Second Amendment | Individual lawful home self-defense protection against D.C. firearm prohibition; application of the Second Amendment to States requires later distinct precedents. |
+| *Obergefell v. Hodges*, 576 U.S. 644 (2015) | Fourteenth Amendment | State civil marriage licensing and recognition duties involving same-sex couples, bounded to the ruling's issues; not an all-purpose resolution of private religious-liberty questions. |
+
+### Distinct judgment and opinion dates: Cooper v. Aaron
+
+*Cooper v. Aaron*, 358 U.S. 1 (1958), had a **September 12, 1958 per curiam judgment** and a **September 29, 1958 reported explanatory opinion**. The existing decision date remains September 12 as recorded by GPO. The source and case now additionally record the explanatory opinion announcement date, and the case includes a procedural note. These different actions may not be flattened into a single release date. Official case document: https://www.govinfo.gov/app/details/USREPORTS-358/USREPORTS-358-1
+
+### Legal traceability and status rules
+
+The judicial model deliberately keeps constitutional authority and judicial decisions in **different source classes**:
+
+- Original constitutional provision → textual norm → actor/capability boundary comes from enacted constitutional text. This is not a court holding.
+- Court case → precise issue-bounded holding → normative constitutional reference → applicability and court/case facts comes from a published decision. This is not newly enacted constitutional text.
+- Later case/holding → earlier treated holding → narrower or expressly overruled issue scope is represented only with an evidenced later opinion. **No new overruling is inferred** from parallel decisions or search absence.
+- An indexed holding with no recorded negative treatment is **not** certified good law. Every status retains unverified, non-comprehensive citator flags and attorney-review caveats.
+
+Government case locators in the official United States Reports must match the cited **reporter volume and first page**. The validator rejects an otherwise trusted government URL pointing to the wrong Court opinion. New negative tests also enforce Heller's D.C. scope, Lujan's Article III location, Youngstown's majority-vs-concurrence distinction, the Cooper opinion announcement date and source/case identity matching. The judicial suite now contains **61 regression tests**, and GitHub CI continues to run every prior Article I–III, federalism and amendment gate.
+
+Every opinion text is indexed by locator, but individual majority opinion page **pinpoints and vote alignments remain unverified**. Before ARFI asserts an authoritatively controlling current rule, an independent reviewer must verify exact source passages, controlling opinion/join patterns, later modifying cases, statutory changes, and licensed citator results. Current status remains preliminary as of October 16, 2026.
+
+The architecture repo does not contain a rendering engine. The afri-website repository owns visualization, API publication and public discussion. Future research candidates include *McDonald v. Chicago* for the State incorporation of Amendment II, *Bruen* and *Rahimi* for later Second Amendment analysis, and additional Supreme Court decisions for Article IV State relations, case/controversy doctrines and State constitutional authority.
