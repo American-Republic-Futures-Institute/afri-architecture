@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://arfinstitute.org/schemas/dod-institutional.schema.json",
-  "title": "ARFI DoD source-bounded institutional/authority/fiscal model v0.1.0",
-  "description": "19 strictly typed record families, each validated using its named $defs record type plus dod-validation-core.mjs source and authority gates.",
+  "title": "ARFI DoD constitutional, statutory, institutional, oversight and fiscal model v0.1.0",
+  "description": "20 strict record-family contracts. Per-source crosswalk, legal authority and immutable evidence semantics are validated in dod-validation-core.mjs.",
   "$defs": {
     "source-registry": {
       "type": "object",
@@ -1288,6 +1288,84 @@
           }
         },
         "closure_condition": {
+          "type": "string"
+        }
+      }
+    },
+    "constitutional-context": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "constitution_id",
+        "competent_actor_id",
+        "statutory_context_id",
+        "relationship_class",
+        "qualification",
+        "source_ids",
+        "status",
+        "source_version",
+        "individual_dod_agency_power_derived",
+        "appropriations_derived",
+        "full_judicial_review_complete",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_constitutional_statutory_research_crosswalk"
+          ]
+        },
+        "constitution_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "competent_actor_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "statutory_context_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "relationship_class": {
+          "type": "string"
+        },
+        "qualification": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "status": {
+          "type": "string"
+        },
+        "source_version": {
+          "type": "string"
+        },
+        "individual_dod_agency_power_derived": {
+          "type": "boolean",
+          "const": false
+        },
+        "appropriations_derived": {
+          "type": "boolean",
+          "const": false
+        },
+        "full_judicial_review_complete": {
+          "type": "boolean",
+          "const": false
+        },
+        "review_status": {
           "type": "string"
         }
       }
