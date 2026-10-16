@@ -1,0 +1,381 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "A47-QUAL-IV-01-01-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-01-01",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Interstate constitutional recognition of public acts, records and judicial proceedings. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-01-SEG-01"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-01-02-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-01-02",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Textual congressional authority concerning proof and effect of sister-State acts, records and judgments. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-01-SEG-02"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-02-01-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-02-01",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Interstate privileges and immunities of citizens of each State in the several States. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-01"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-02-02-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-02-02",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Conditioned delivery of a fugitive charged with an offense following demand of originating State executive. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-02"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-02-03-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-02-03",
+      "qualification_kind": "historical_abolition",
+      "summary": "This original fugitive-service clause is inoperative under Amendment XIII; never model a current rendition power or capability.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-02-CL-03",
+        "CONST-US-AMD-13-SEC-01"
+      ],
+      "current_effect_status": "superseded",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-03-01-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-03-01",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Admit new States and restrictions on creating States within another's territory without required consent. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-01"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-03-02-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-03-02",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Congressional federal territory and property rules and preserved federal/State claims. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-03-CL-02"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-04-01-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-04-01",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "The United States guarantees a republican form of government to each State. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-01"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-04-02-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-04-02",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "The United States shall protect each State against invasion. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-02"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-IV-04-03-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-IV-04-03",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Conditional protection on application of State legislature, or executive if legislature cannot be convened. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-04-SEC-04-SEG-03"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-VI-01-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-VI-01",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Pre-Constitution obligations remain valid against the United States under the new Constitution. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-01"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-VI-02-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-VI-02",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "The Constitution, laws made pursuant to it and federal treaties made under federal authority bind State judges. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-02"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-VI-03-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-VI-03",
+      "qualification_kind": "source_and_legal_boundary",
+      "summary": "Required oaths for specified State and federal officers; federal religious-test prohibition. Source text and constitutional amendments control, and a constitutional role is not a subordinate agency delegation.",
+      "source_provision_ids": [
+        "CONST-US-ART-06-CL-03"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-01-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-01",
+      "qualification_kind": "no_presidential_assent",
+      "summary": "2/3 approval is required separately in House and Senate; Article V proposal is not ordinary enactment or presidential presentment.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-01"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-02-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-02",
+      "qualification_kind": "no_auto_amendment",
+      "summary": "Applications are not ratifications; unresolved questions about application aggregation require separate legal review.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-02"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-03-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-03",
+      "qualification_kind": "conditional_application",
+      "summary": "Convention-call procedure and disputed implementation questions are not settled by textual summary; Congress does not itself ratify.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-03"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-04-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-04",
+      "qualification_kind": "not_proof_of_convention",
+      "summary": "No Article V proposing convention has occurred as of this research snapshot; no asserted live convention power outside procedural text.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-04"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-05-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-05",
+      "qualification_kind": "three_quarters_states",
+      "summary": "The three-fourths threshold concerns States, not three-fourths of votes of legislators nationally, and is not satisfied by proposal alone.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-05"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-06-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-06",
+      "qualification_kind": "three_quarters_states",
+      "summary": "Ratifying conventions are institutionally different from the proposing convention; this route was used for the Twenty-First Amendment.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-06"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-07-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-07",
+      "qualification_kind": "exclusive_alternatives",
+      "summary": "Congress cannot replace the three-fourths State approval rule with simple federal legislation or presidential proclamation.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-07"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-08-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-08",
+      "qualification_kind": "expires_1808",
+      "summary": "The restriction expired after the pre-1808 window and cannot now block amendment proposals or revive slavery-related original text.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-08"
+      ],
+      "current_effect_status": "expired",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-V-09-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-V-09",
+      "qualification_kind": "state_specific_consent",
+      "summary": "Continuing Article V entrenchment is not a prohibition on all Senate reforms; consent is required when a State would lose equal suffrage.",
+      "source_provision_ids": [
+        "CONST-US-ART-05-SEG-09"
+      ],
+      "current_effect_status": "operative",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-VII-01-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-VII-01",
+      "qualification_kind": "historical_convention",
+      "summary": "Historical foundation route; NOT an alternative contemporary amendment proposal or State-admission procedure.",
+      "source_provision_ids": [
+        "CONST-US-ART-07-SEG-01"
+      ],
+      "current_effect_status": "expired",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-VII-02-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-VII-02",
+      "qualification_kind": "1788_threshold_met",
+      "summary": "Fulfilled with New Hampshire's June 21, 1788 ratification; not a 9-of-50 amendment threshold.",
+      "source_provision_ids": [
+        "CONST-US-ART-07-SEG-02"
+      ],
+      "current_effect_status": "expired",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-QUAL-VII-03-01",
+      "type": "article_iv_vii_textual_qualification",
+      "unit_id": "A47-UNIT-VII-03",
+      "qualification_kind": "historical_effect_only",
+      "summary": "Original text must not be construed as a continuing admission mechanism or present-day exemption for nonratifying State governments.",
+      "source_provision_ids": [
+        "CONST-US-ART-07-SEG-03"
+      ],
+      "current_effect_status": "expired",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    }
+  ]
+}

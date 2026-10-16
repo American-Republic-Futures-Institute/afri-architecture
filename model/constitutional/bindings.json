@@ -4730,6 +4730,94 @@
         "SRC-CONST-LATER-AMENDMENTS"
       ],
       "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-A47-V-01",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-A47-V-01",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-A47-V-02",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-A47-V-02",
+      "target_id": "ACT-US-STATE-LEG",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-A47-V-03",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-A47-V-03",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "imposes_duty_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-A47-V-04",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-A47-V-04",
+      "target_id": "ACT-US-AMENDMENT-PROPOSING-CONVENTION",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-A47-V-05",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-A47-V-05",
+      "target_id": "ACT-US-STATE-LEG",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-A47-V-06",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-A47-V-06",
+      "target_id": "ACT-US-STATE-RATIFYING-CONVENTIONS",
+      "relationship_type": "assigns_function_to",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-A47-V-07",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-A47-V-07",
+      "target_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "confers_power_on",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
+    },
+    {
+      "id": "BIND-US-CONST-A47-V-09",
+      "type": "constitutional_actor_binding",
+      "norm_id": "NORM-US-CONST-A47-V-09",
+      "target_id": "ACT-US-STATES",
+      "relationship_type": "restricts",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "assertion_status": "textual_mapping_candidate"
     }
   ]
 }

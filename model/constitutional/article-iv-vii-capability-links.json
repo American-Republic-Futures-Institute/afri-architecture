@@ -1,0 +1,125 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "A47-CAP-V-01",
+      "type": "article_iv_vii_functional_capability_link",
+      "unit_id": "A47-UNIT-V-01",
+      "norm_id": "NORM-US-CONST-A47-V-01",
+      "capability_id": "CAP-FED-58",
+      "qualification_ids": [
+        "A47-QUAL-V-01-01"
+      ],
+      "link_semantics": "constitutional_amendment_process_alignment_not_statutory_agency_delegation",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-CAP-V-02",
+      "type": "article_iv_vii_functional_capability_link",
+      "unit_id": "A47-UNIT-V-02",
+      "norm_id": "NORM-US-CONST-A47-V-02",
+      "capability_id": "CAP-FED-58",
+      "qualification_ids": [
+        "A47-QUAL-V-02-01"
+      ],
+      "link_semantics": "constitutional_amendment_process_alignment_not_statutory_agency_delegation",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-CAP-V-03",
+      "type": "article_iv_vii_functional_capability_link",
+      "unit_id": "A47-UNIT-V-03",
+      "norm_id": "NORM-US-CONST-A47-V-03",
+      "capability_id": "CAP-FED-58",
+      "qualification_ids": [
+        "A47-QUAL-V-03-01"
+      ],
+      "link_semantics": "constitutional_amendment_process_alignment_not_statutory_agency_delegation",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-CAP-V-04",
+      "type": "article_iv_vii_functional_capability_link",
+      "unit_id": "A47-UNIT-V-04",
+      "norm_id": "NORM-US-CONST-A47-V-04",
+      "capability_id": "CAP-FED-58",
+      "qualification_ids": [
+        "A47-QUAL-V-04-01"
+      ],
+      "link_semantics": "constitutional_amendment_process_alignment_not_statutory_agency_delegation",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-CAP-V-05",
+      "type": "article_iv_vii_functional_capability_link",
+      "unit_id": "A47-UNIT-V-05",
+      "norm_id": "NORM-US-CONST-A47-V-05",
+      "capability_id": "CAP-FED-58",
+      "qualification_ids": [
+        "A47-QUAL-V-05-01"
+      ],
+      "link_semantics": "constitutional_amendment_process_alignment_not_statutory_agency_delegation",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-CAP-V-06",
+      "type": "article_iv_vii_functional_capability_link",
+      "unit_id": "A47-UNIT-V-06",
+      "norm_id": "NORM-US-CONST-A47-V-06",
+      "capability_id": "CAP-FED-58",
+      "qualification_ids": [
+        "A47-QUAL-V-06-01"
+      ],
+      "link_semantics": "constitutional_amendment_process_alignment_not_statutory_agency_delegation",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-CAP-V-07",
+      "type": "article_iv_vii_functional_capability_link",
+      "unit_id": "A47-UNIT-V-07",
+      "norm_id": "NORM-US-CONST-A47-V-07",
+      "capability_id": "CAP-FED-58",
+      "qualification_ids": [
+        "A47-QUAL-V-07-01"
+      ],
+      "link_semantics": "constitutional_amendment_process_alignment_not_statutory_agency_delegation",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-CAP-V-09",
+      "type": "article_iv_vii_functional_capability_link",
+      "unit_id": "A47-UNIT-V-09",
+      "norm_id": "NORM-US-CONST-A47-V-09",
+      "capability_id": "CAP-FED-58",
+      "qualification_ids": [
+        "A47-QUAL-V-09-01"
+      ],
+      "link_semantics": "constitutional_amendment_process_alignment_not_statutory_agency_delegation",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    }
+  ]
+}

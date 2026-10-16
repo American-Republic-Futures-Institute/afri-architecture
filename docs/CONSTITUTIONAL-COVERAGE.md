@@ -47,3 +47,7 @@ All 27 ratified amendments and the 33 original numbered sections are now decompo
 ## Judicial source audit and expanded doctrine coverage — October 16, 2026
 
 Eight additional official Supreme Court opinions expand holding-level coverage to 26 cases, 29 holdings, 44 constitutional links and 29 preliminary legal applicability/status records. Congress, executive power, standing, Second Amendment and Fourteenth Amendment marriage rights are added. All interpretations remain derivative court law, not original constitutional clauses; no comprehensive citator review was conducted. [See judicial doctrine coverage](JUDICIAL-PRECEDENT-ARCHITECTURE.md).
+
+## Articles IV–VII comprehensive original-text architecture (2026-10-16)
+
+Cross-indexing existing Articles IV/VI federalism semantic units and adding separately sourced, nonofficial Article V/VII analytic spans completes the initial original-text architectural coverage of all seven original Articles. This is source-traceable research, not authoritative current legal interpretation. See [Articles IV–VII Architecture](docs/ARTICLES-IV-VII-ARCHITECTURE.md). Run `node scripts/validate-article-iv-vii.mjs` and `node --test tests/article-iv-vii.test.mjs`.

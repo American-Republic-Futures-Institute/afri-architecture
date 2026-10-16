@@ -1,0 +1,86 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-A47-IV",
+      "type": "article_iv_vii_viewpoint",
+      "name": "Article IV original-text, conditions and institutional authority",
+      "root_provision_id": "CONST-US-ART-04",
+      "unit_ids": [
+        "A47-UNIT-IV-01-01",
+        "A47-UNIT-IV-01-02",
+        "A47-UNIT-IV-02-01",
+        "A47-UNIT-IV-02-02",
+        "A47-UNIT-IV-02-03",
+        "A47-UNIT-IV-03-01",
+        "A47-UNIT-IV-03-02",
+        "A47-UNIT-IV-04-01",
+        "A47-UNIT-IV-04-02",
+        "A47-UNIT-IV-04-03"
+      ],
+      "renderer_owner": "afri-website",
+      "publication_status": "architecture_only_not_implemented_in_website",
+      "review_status": "research_textual_analysis_pending_human_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "VIEW-A47-V",
+      "type": "article_iv_vii_viewpoint",
+      "name": "Article V original-text, conditions and institutional authority",
+      "root_provision_id": "CONST-US-ART-05",
+      "unit_ids": [
+        "A47-UNIT-V-01",
+        "A47-UNIT-V-02",
+        "A47-UNIT-V-03",
+        "A47-UNIT-V-04",
+        "A47-UNIT-V-05",
+        "A47-UNIT-V-06",
+        "A47-UNIT-V-07",
+        "A47-UNIT-V-08",
+        "A47-UNIT-V-09"
+      ],
+      "renderer_owner": "afri-website",
+      "publication_status": "architecture_only_not_implemented_in_website",
+      "review_status": "research_textual_analysis_pending_human_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "VIEW-A47-VI",
+      "type": "article_iv_vii_viewpoint",
+      "name": "Article VI original-text, conditions and institutional authority",
+      "root_provision_id": "CONST-US-ART-06",
+      "unit_ids": [
+        "A47-UNIT-VI-01",
+        "A47-UNIT-VI-02",
+        "A47-UNIT-VI-03"
+      ],
+      "renderer_owner": "afri-website",
+      "publication_status": "architecture_only_not_implemented_in_website",
+      "review_status": "research_textual_analysis_pending_human_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "VIEW-A47-VII",
+      "type": "article_iv_vii_viewpoint",
+      "name": "Article VII original-text, conditions and institutional authority",
+      "root_provision_id": "CONST-US-ART-07",
+      "unit_ids": [
+        "A47-UNIT-VII-01",
+        "A47-UNIT-VII-02",
+        "A47-UNIT-VII-03"
+      ],
+      "renderer_owner": "afri-website",
+      "publication_status": "architecture_only_not_implemented_in_website",
+      "review_status": "research_textual_analysis_pending_human_legal_review",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    }
+  ]
+}
