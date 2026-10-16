@@ -1,0 +1,89 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "SRC-FSTAT-DHS-111",
+      "type": "federal_statutory_primary_source",
+      "title": "Department of Homeland Security: executive department, mission and civil-liberties and investigation boundaries",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-118/t6/s111/",
+      "citation": "6 U.S.C. § 111",
+      "source_act_history": "Pub. L. 107-296 § 101 as amended",
+      "code_section": "111",
+      "title_number": 6,
+      "accessed_on": "2026-10-16",
+      "positive_law_version_basis": "through Public Law 119-120 (2026-10-07)",
+      "review_status": "official_primary_codification_not_professional_legal_citator_review"
+    },
+    {
+      "id": "SRC-FSTAT-DHS-112",
+      "type": "federal_statutory_primary_source",
+      "title": "Secretary of Homeland Security: appointments, direction and limited delegation",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-118/t6/s112/",
+      "citation": "6 U.S.C. § 112",
+      "source_act_history": "Pub. L. 107-296 § 102 as amended",
+      "code_section": "112",
+      "title_number": 6,
+      "accessed_on": "2026-10-16",
+      "positive_law_version_basis": "through Public Law 119-120 (2026-10-07)",
+      "review_status": "official_primary_codification_not_professional_legal_citator_review"
+    },
+    {
+      "id": "SRC-FSTAT-ED-3411",
+      "type": "federal_statutory_primary_source",
+      "title": "Department of Education: establishment and Secretary appointment",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-118/t20/s3411/",
+      "citation": "20 U.S.C. § 3411",
+      "source_act_history": "Pub. L. 96-88 § 201",
+      "code_section": "3411",
+      "title_number": 20,
+      "accessed_on": "2026-10-16",
+      "positive_law_version_basis": "through Public Law 119-120 (2026-10-07)",
+      "review_status": "official_primary_codification_not_professional_legal_citator_review"
+    },
+    {
+      "id": "SRC-FSTAT-ED-3471",
+      "type": "federal_statutory_primary_source",
+      "title": "Education Secretary: authority for transferred functions",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-118/t20/s3471/",
+      "citation": "20 U.S.C. § 3471",
+      "source_act_history": "Pub. L. 96-88 § 411",
+      "code_section": "3471",
+      "title_number": 20,
+      "accessed_on": "2026-10-16",
+      "positive_law_version_basis": "through Public Law 119-120 (2026-10-07)",
+      "review_status": "official_primary_codification_not_professional_legal_citator_review"
+    },
+    {
+      "id": "SRC-FSTAT-ED-3403",
+      "type": "federal_statutory_primary_source",
+      "title": "Department of Education relationship with States and historical transition provision",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-118/t20/s3403/",
+      "citation": "20 U.S.C. § 3403",
+      "source_act_history": "Pub. L. 96-88 § 103",
+      "code_section": "3403",
+      "title_number": 20,
+      "accessed_on": "2026-10-16",
+      "positive_law_version_basis": "through Public Law 119-120 (2026-10-07)",
+      "review_status": "official_primary_codification_not_professional_legal_citator_review"
+    },
+    {
+      "id": "SRC-FSTAT-ED-1232A",
+      "type": "federal_statutory_primary_source",
+      "title": "General Education Provisions Act: federal-control restriction",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-118/t20/s1232a/",
+      "citation": "20 U.S.C. § 1232a",
+      "source_act_history": "General Education Provisions Act § 438, as amended",
+      "code_section": "1232a",
+      "title_number": 20,
+      "accessed_on": "2026-10-16",
+      "positive_law_version_basis": "through Public Law 119-120 (2026-10-07)",
+      "review_status": "official_primary_codification_not_professional_legal_citator_review"
+    }
+  ]
+}

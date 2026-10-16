@@ -13,7 +13,8 @@
     "Current officeholders, personnel rosters or partisan appointments",
     "Legal conclusions about disputed executive control of independent agencies",
     "Any adopted ARFI reform recommendation",
-    "Browser visualization code or publication server implementation"
+    "Browser visualization code or publication server implementation",
+    "Comprehensive DHS/Department of Education functional powers, active subdelegations, verified appropriations and agency-specific program grant authority."
   ],
   "models": [
     "model/federal/branches.json",
@@ -87,7 +88,15 @@
     "model/constitutional/article-iv-vii-qualifications.json",
     "model/constitutional/article-iv-vii-actor-links.json",
     "model/constitutional/article-iv-vii-capability-links.json",
-    "model/constitutional/article-iv-vii-viewpoints.json"
+    "model/constitutional/article-iv-vii-viewpoints.json",
+    "model/federal/statutory-sources.json",
+    "model/federal/statutes.json",
+    "model/federal/statutory-provisions.json",
+    "model/federal/statutory-powers.json",
+    "model/federal/statutory-conditions.json",
+    "model/federal/statutory-capability-links.json",
+    "model/federal/statutory-traces.json",
+    "model/federal/statutory-viewpoints.json"
   ],
   "standards": [
     {
@@ -306,5 +315,26 @@
     "article_v_equal_senate_suffrage": "ongoing_subject_to_affected_state_consent",
     "article_vii_original_ratification_status": "historical_condition_fulfilled_1788_not_reusable",
     "publication_note": "Completes original-text analysis for Articles IV-VII using existing IV/VI federalism units, distinct unnumbered Article V/VII analytical spans, and indexed current/expired limitations. Does not certify post-1787 legal doctrine, enact statutes, convene Article V conventions or render website views."
+  },
+  "federal_statutory_extension": {
+    "id": "ARFI-COA-FEDERAL-STATUTES-001",
+    "snapshot_date": "2026-10-16",
+    "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+    "pilot_departments": [
+      "ORG-FED-EXE-DEP-DHS",
+      "ORG-FED-EXE-DEP-EDUCATION"
+    ],
+    "source_count": 6,
+    "code_group_count": 3,
+    "codified_section_count": 6,
+    "authority_count": 6,
+    "condition_count": 12,
+    "capability_link_count": 2,
+    "trace_count": 2,
+    "viewpoint_count": 2,
+    "current_codification_basis": "through Public Law 119-120 (2026-10-07)",
+    "fully_researched_department_count": 0,
+    "source_scope": "Official U.S. Code excerpts for DHS, Department of Education, and a separate GEPA constraint with organizational, delegated function, rights-protection and federalism limits.",
+    "publication_note": "No verified funding, budget, actual delegation instrument, program-level statute, judicial citator completeness, independently verified operational effect or website rendering. Code groups remain distinct from enacted Public Law session-history."
   }
 }

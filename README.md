@@ -125,3 +125,7 @@ See [Independent State Architecture](docs/STATE-INSTITUTIONAL-ARCHITECTURE.md). 
 ## Articles IV–VII comprehensive original-text architecture (2026-10-16)
 
 Cross-indexing existing Articles IV/VI federalism semantic units and adding separately sourced, nonofficial Article V/VII analytic spans completes the initial original-text architectural coverage of all seven original Articles. This is source-traceable research, not authoritative current legal interpretation. See [Articles IV–VII Architecture](docs/ARTICLES-IV-VII-ARCHITECTURE.md). Run `node scripts/validate-article-iv-vii.mjs` and `node --test tests/article-iv-vii.test.mjs`.
+
+## Federal statutory authority pilot — October 16, 2026
+
+DHS and Education now have source-indexed, bounded codified statutory authority chain pilots, separate from constitutional function maps. See [Federal Statutory Enabling Authority](docs/FEDERAL-STATUTORY-ENABLING-AUTHORITY.md). They are research models pending legal review; no appropriation, full agency authorization or live website rendering is claimed.\n

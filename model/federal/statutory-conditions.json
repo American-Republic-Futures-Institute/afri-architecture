@@ -1,0 +1,209 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FSTAT-COND-DHS-PRESERVE-OTHER-FUNCTIONS",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "source_provision_ids": [
+        "FSTAT-PROV-DHS-6-111"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-DHS-111"
+      ],
+      "subsection": "(b)(1)(E)",
+      "condition_kind": "preserve_nonsecurity_functions",
+      "summary": "DHS must ensure nonsecurity agency functions are not diminished or neglected except by specific explicit Act of Congress.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-DHS-ECONOMIC-SECURITY",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "source_provision_ids": [
+        "FSTAT-PROV-DHS-6-111"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-DHS-111"
+      ],
+      "subsection": "(b)(1)(F)",
+      "condition_kind": "protect_economic_security",
+      "summary": "DHS mission includes ensuring economic security is not diminished by homeland security efforts.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-DHS-CIVIL-LIBERTIES",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "source_provision_ids": [
+        "FSTAT-PROV-DHS-6-111"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-DHS-111"
+      ],
+      "subsection": "(b)(1)(G)",
+      "condition_kind": "protect_civil_rights_liberties",
+      "summary": "DHS mission includes ensuring civil rights and liberties are not diminished by security efforts.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-DHS-INVESTIGATION-RESPONSIBILITY",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "source_provision_ids": [
+        "FSTAT-PROV-DHS-6-111"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-DHS-111"
+      ],
+      "subsection": "(b)(2)",
+      "condition_kind": "investigation_and_prosecution_not_primary_department_mission",
+      "summary": "Except for specifically provided transferred-entity functions, primary terrorism investigation and prosecution remain with law enforcement agencies having jurisdiction, not DHS as a single department.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-DHS-DELEGATION-EXCEPTION",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "source_provision_ids": [
+        "FSTAT-PROV-DHS-6-112"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-DHS-112"
+      ],
+      "subsection": "(b)(1)",
+      "condition_kind": "delegation_subject_to_specific_exceptions",
+      "summary": "Delegation is authorized except as otherwise provided by the Homeland Security Act; an officer cannot grant a nonexisting function.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-DHS-CONTRACTING-SCOPE",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "source_provision_ids": [
+        "FSTAT-PROV-DHS-6-112"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-DHS-112"
+      ],
+      "subsection": "(b)(2)",
+      "condition_kind": "contracts_within_secretary_responsibilities",
+      "summary": "Secretary may make contracts, grants, and cooperative agreements only as necessary and proper to carry out lawful responsibilities.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-ED-STATE-RESERVATION",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "source_provision_ids": [
+        "FSTAT-PROV-ED-20-3403"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-ED-3403"
+      ],
+      "subsection": "(a)",
+      "condition_kind": "no_extra_federal_authority_from_department_creation",
+      "summary": "Creation of Education Department does not increase Federal authority over education or diminish State/local responsibility.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-ED-CURRICULUM-PROHIBITION",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "source_provision_ids": [
+        "FSTAT-PROV-ED-20-3403"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-ED-3403"
+      ],
+      "subsection": "(b)",
+      "condition_kind": "school_content_and_personnel_direction_prohibited_absent_law",
+      "summary": "No departmental program may be read as permitting curriculum, instruction, administration, personnel, accreditation or materials control except to extent separately authorized by law.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-ED-GEPA-CONTROL-PROHIBITION",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "source_provision_ids": [
+        "FSTAT-PROV-ED-20-1232A"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-ED-1232A"
+      ],
+      "subsection": "full section",
+      "condition_kind": "gepa_applicable_program_control_prohibition",
+      "summary": "No applicable education program authorizes federal direction of curricula, instructional programs, administration, personnel, resource selection or student/teacher assignment to overcome racial imbalance.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-ED-TRANSFER-SCOPE",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "source_provision_ids": [
+        "FSTAT-PROV-ED-20-3471"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-ED-3471"
+      ],
+      "subsection": "(a)",
+      "condition_kind": "authority_only_for_transferred_functions_available_by_law",
+      "summary": "Transferred functions retain only authority that was already available by law (including applicable appropriations); a transfer does not create new programs or rights.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-ED-SECRETARY-APPOINTMENT",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "source_provision_ids": [
+        "FSTAT-PROV-ED-20-3411"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-ED-3411"
+      ],
+      "subsection": "full section",
+      "condition_kind": "presidential_appointment_senate_confirmation",
+      "summary": "The Secretary of Education is appointed by the President with advice and consent of Senate.",
+      "effect_status": "current_applicable_limit",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-COND-ED-HISTORIC-FUNDING-TRANSITION",
+      "type": "federal_statutory_condition",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "source_provision_ids": [
+        "FSTAT-PROV-ED-20-3403"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-ED-3403"
+      ],
+      "subsection": "(c)",
+      "condition_kind": "historical_eight_month_transition_not_current",
+      "summary": "The original eight-month restriction after May 4, 1980 on certain funding terminations was temporary and is not a live modern funding prohibition.",
+      "effect_status": "expired_historical_condition",
+      "qualifies_grant_not_new_grant": true,
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    }
+  ]
+}

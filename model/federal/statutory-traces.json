@@ -1,0 +1,104 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FSTAT-TRACE-DHS-FOUNDATION",
+      "type": "federal_constitution_statute_agency_capability_trace",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "branch_id": "BR-FED-EXE",
+      "enacted_by_id": "ORG-FED-LEG-CONGRESS",
+      "code_group_ids": [
+        "FSTAT-GROUP-DHS-HSA-2002"
+      ],
+      "statutory_provision_ids": [
+        "FSTAT-PROV-DHS-6-111",
+        "FSTAT-PROV-DHS-6-112"
+      ],
+      "constitutional_context_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18",
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "power_ids": [
+        "FSTAT-POWER-DHS-ESTABLISH",
+        "FSTAT-POWER-DHS-MISSION",
+        "FSTAT-POWER-DHS-SECRETARY",
+        "FSTAT-POWER-DHS-DELEGATION"
+      ],
+      "condition_ids": [
+        "FSTAT-COND-DHS-PRESERVE-OTHER-FUNCTIONS",
+        "FSTAT-COND-DHS-ECONOMIC-SECURITY",
+        "FSTAT-COND-DHS-CIVIL-LIBERTIES",
+        "FSTAT-COND-DHS-INVESTIGATION-RESPONSIBILITY",
+        "FSTAT-COND-DHS-DELEGATION-EXCEPTION",
+        "FSTAT-COND-DHS-CONTRACTING-SCOPE"
+      ],
+      "capability_link_ids": [
+        "FSTAT-CAP-DHS-20"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-DHS-111",
+        "SRC-FSTAT-DHS-112"
+      ],
+      "appropriation_verified": false,
+      "program_implementation_authorized": false,
+      "citator_review_complete": false,
+      "full_department_powers_inventoried": false,
+      "publication_owner": "afri-website",
+      "rendering_status": "model_only_unrendered",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+      "scope_note": "Selected organizational and executive supervision/mission source chain only; component law enforcement, intelligence, emergency and adjudicative statutes and current appropriations not comprehensively mapped."
+    },
+    {
+      "id": "FSTAT-TRACE-ED-FOUNDATION",
+      "type": "federal_constitution_statute_agency_capability_trace",
+      "institution_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "branch_id": "BR-FED-EXE",
+      "enacted_by_id": "ORG-FED-LEG-CONGRESS",
+      "code_group_ids": [
+        "FSTAT-GROUP-ED-DEOA-1979",
+        "FSTAT-GROUP-ED-GEPA"
+      ],
+      "statutory_provision_ids": [
+        "FSTAT-PROV-ED-20-3411",
+        "FSTAT-PROV-ED-20-3471",
+        "FSTAT-PROV-ED-20-3403",
+        "FSTAT-PROV-ED-20-1232A"
+      ],
+      "constitutional_context_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18",
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "power_ids": [
+        "FSTAT-POWER-ED-ESTABLISH",
+        "FSTAT-POWER-ED-TRANSFER"
+      ],
+      "condition_ids": [
+        "FSTAT-COND-ED-STATE-RESERVATION",
+        "FSTAT-COND-ED-CURRICULUM-PROHIBITION",
+        "FSTAT-COND-ED-GEPA-CONTROL-PROHIBITION",
+        "FSTAT-COND-ED-TRANSFER-SCOPE",
+        "FSTAT-COND-ED-SECRETARY-APPOINTMENT",
+        "FSTAT-COND-ED-HISTORIC-FUNDING-TRANSITION"
+      ],
+      "capability_link_ids": [
+        "FSTAT-CAP-ED-18"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-ED-3411",
+        "SRC-FSTAT-ED-3471",
+        "SRC-FSTAT-ED-3403",
+        "SRC-FSTAT-ED-1232A"
+      ],
+      "appropriation_verified": false,
+      "program_implementation_authorized": false,
+      "citator_review_complete": false,
+      "full_department_powers_inventoried": false,
+      "publication_owner": "afri-website",
+      "rendering_status": "model_only_unrendered",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+      "scope_note": "Statutory Department establishment, transferred-function and federalism restraints, not complete grants, civil-rights enforcement, staffing budgets or an authorization for federal curricular control."
+    }
+  ]
+}

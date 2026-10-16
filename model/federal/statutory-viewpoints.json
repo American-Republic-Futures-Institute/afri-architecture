@@ -1,0 +1,41 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-FSTAT-DHS-AUTHORITY",
+      "type": "federal_statutory_authority_view",
+      "name": "Homeland Security — enacted authority and boundaries",
+      "root_trace_ids": [
+        "FSTAT-TRACE-DHS-FOUNDATION"
+      ],
+      "root_institution_id": "ORG-FED-EXE-DEP-DHS",
+      "view_kind": "constitution_enacted_statute_institution_conditions_capability",
+      "publisher_owner": "afri-website",
+      "rendering_status": "not_implemented",
+      "source_ids": [
+        "SRC-FSTAT-DHS-111",
+        "SRC-FSTAT-DHS-112"
+      ],
+      "review_status": "architecture_viewpoint_only_no_website_rendering"
+    },
+    {
+      "id": "VIEW-FSTAT-ED-AUTHORITY",
+      "type": "federal_statutory_authority_view",
+      "name": "Education — enacted authority and boundaries",
+      "root_trace_ids": [
+        "FSTAT-TRACE-ED-FOUNDATION"
+      ],
+      "root_institution_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "view_kind": "constitution_enacted_statute_institution_conditions_capability",
+      "publisher_owner": "afri-website",
+      "rendering_status": "not_implemented",
+      "source_ids": [
+        "SRC-FSTAT-ED-3411",
+        "SRC-FSTAT-ED-3471",
+        "SRC-FSTAT-ED-3403",
+        "SRC-FSTAT-ED-1232A"
+      ],
+      "review_status": "architecture_viewpoint_only_no_website_rendering"
+    }
+  ]
+}
