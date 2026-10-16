@@ -1,0 +1,133 @@
+{
+  "version": "0.1.0",
+  "items": [
+    {
+      "id": "AGATE-07-01",
+      "name": "Federal statute, enacted appropriation or valid authorization",
+      "gate_kind": "federal_statute_and_appropriation",
+      "research_question": "Determine governing constitutional power, enactment, appropriation, fiscal limits and delegation.",
+      "evidence_ids": [
+        "EVID-07-03"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    },
+    {
+      "id": "AGATE-07-02",
+      "name": "State/local cooperation or federal funding condition",
+      "gate_kind": "federalism_and_state_law",
+      "research_question": "Determine each jurisdiction's independent authority and constitutional limits on conditional grants; no automatic federal command.",
+      "evidence_ids": [
+        "EVID-07-05",
+        "EVID-07-06"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    },
+    {
+      "id": "AGATE-07-03",
+      "name": "Personal-data collection, sharing or use",
+      "gate_kind": "privacy_statute_and_constitutional_review",
+      "research_question": "Identify applicable government/private-sector law, consent or other lawful basis, data protection and redress.",
+      "evidence_ids": [
+        "EVID-07-04"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    },
+    {
+      "id": "AGATE-07-04",
+      "name": "Public acquisition and compensation",
+      "gate_kind": "public_use_property_and_enabling_statute",
+      "research_question": "Determine necessity of authorizing law, public-use and compensation obligations, and State or federal property rules.",
+      "evidence_ids": [
+        "EVID-07-04"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    },
+    {
+      "id": "AGATE-07-05",
+      "name": "Civilian/military emergency cyber assistance",
+      "gate_kind": "agency_and_defense_authority",
+      "research_question": "Distinguish civilian advisory and defense missions, statutory restrictions, consent and oversight; no general domestic policing power.",
+      "evidence_ids": [
+        "EVID-07-03"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    },
+    {
+      "id": "AGATE-07-06",
+      "name": "Income, capital or wealth-related federal tax",
+      "gate_kind": "constitutional_tax_classification",
+      "research_question": "Examine constitutional classification, statutory enactment, valuation, apportionment issues and administration; feasibility unresolved.",
+      "evidence_ids": [
+        "EVID-07-03"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    },
+    {
+      "id": "AGATE-07-07",
+      "name": "Executive delegation and program operation",
+      "gate_kind": "agency_specific_statute_and_administrative_law",
+      "research_question": "Verify whether the named office actually has competence; a Cabinet label or catalog edge is insufficient.",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-06"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    },
+    {
+      "id": "AGATE-07-08",
+      "name": "Potential change beyond current constitutional arrangements",
+      "gate_kind": "article_v_or_lawful_route_review",
+      "research_question": "Determine if constitutional amendment is truly required; Article V process is separate from ordinary legislation and policy change.",
+      "evidence_ids": [
+        "EVID-07-03"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    },
+    {
+      "id": "AGATE-07-09",
+      "name": "Speech-related content, attribution or government influence activity",
+      "gate_kind": "first_amendment_and_applicable_statutes",
+      "research_question": "Document particular authority, compelled disclosure limits, protected speech and contestable evidence rather than government truth criteria.",
+      "evidence_ids": [
+        "EVID-07-04"
+      ],
+      "legal_status": "not_verified_for_any_option",
+      "satisfied": false,
+      "authorizes_action": false,
+      "reviewer_role": "qualified_constitutional_statutory_and_jurisdictional_review",
+      "release_gate": "no_implementation_until_independently_verified"
+    }
+  ]
+}
