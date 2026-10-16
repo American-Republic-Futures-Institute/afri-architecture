@@ -98,7 +98,9 @@
     "model/federal/statutory-traces.json",
     "model/federal/statutory-viewpoints.json",
     "model/projection/scopes.json",
-    "model/projection/edge-rules.json"
+    "model/projection/edge-rules.json",
+    "model/projection/article-index.json",
+    "model/projection/amendment-index.json"
   ],
   "standards": [
     {
@@ -359,6 +361,10 @@
     "scope_constraints": "Filters never create legal authorities or omit historical legal-effect metadata from canonical models.",
     "cross_domain_policy": "Explicit typed relationships only; no First Amendment/DoD relationship inferred from matching text.",
     "user_interface_status": "future_increment",
-    "policy_mapping_status": "future_increment"
+    "policy_mapping_status": "future_increment",
+    "article_index_count": 7,
+    "amendment_index_count": 27,
+    "source_unit_registry_count": 103,
+    "historic_text_preservation": "repealed_modified_expired_original_text_remains_referenceable"
   }
 }
