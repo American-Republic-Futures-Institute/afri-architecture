@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "INC-07 legal and normative guards",
+  "required": [
+    "version",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "safeguard",
+        "required": [
+          "id",
+          "name",
+          "legal_character",
+          "description",
+          "evidence_ids",
+          "constitutional_record_ids",
+          "auto_grants_authority",
+          "review_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^GUARD-07-[0-9]{2}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 3
+          },
+          "legal_character": {
+            "type": "string",
+            "enum": [
+              "existing_constitutional_text_with_open_applicability",
+              "proposed_normative_safeguard_with_context_specific_law",
+              "proposed_normative_safeguard",
+              "mixed_rights_and_proposed_national_goal",
+              "legal_scope_pending"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 15
+          },
+          "evidence_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^EVID-07-[0-9]{2}$"
+            }
+          },
+          "constitutional_record_ids": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "auto_grants_authority": {
+            "const": false
+          },
+          "review_status": {
+            "const": "legal_and_public_review_pending"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

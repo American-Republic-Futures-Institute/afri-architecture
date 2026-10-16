@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "INC-07 graph manifest",
+  "required": [
+    "id",
+    "version",
+    "status",
+    "created_on",
+    "title",
+    "scope",
+    "source_contracts",
+    "models",
+    "semantic_contract",
+    "safety",
+    "publication"
+  ],
+  "properties": {
+    "id": {
+      "const": "ARFI-COA-OUTCOMES-INC07"
+    },
+    "version": {
+      "const": "0.1.0"
+    },
+    "status": {
+      "const": "research_baseline_unratified"
+    },
+    "created_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_contracts": {
+      "type": "object",
+      "title": "pinned provenance",
+      "required": [
+        "plan_repo",
+        "plan_commit_sha",
+        "architecture_repository",
+        "reference_baseline_commit_sha",
+        "shared_capability_catalog",
+        "domain_catalog"
+      ],
+      "properties": {
+        "plan_repo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "plan_commit_sha": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "architecture_repository": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference_baseline_commit_sha": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "shared_capability_catalog": {
+          "const": "model/reference/shared-capabilities.json"
+        },
+        "domain_catalog": {
+          "const": "model/reference/domain-contract.json"
+        }
+      },
+      "additionalProperties": false
+    },
+    "models": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "string",
+        "pattern": "^model/outcomes/[a-z-]+\\.json$"
+      }
+    },
+    "semantic_contract": {
+      "type": "object",
+      "required": [
+        "supports",
+        "depends_on",
+        "conflicts_with",
+        "constrained_by",
+        "requires_legal_authority"
+      ],
+      "properties": {
+        "supports": {
+          "type": "string",
+          "minLength": 20
+        },
+        "depends_on": {
+          "type": "string",
+          "minLength": 20
+        },
+        "conflicts_with": {
+          "type": "string",
+          "minLength": 20
+        },
+        "constrained_by": {
+          "type": "string",
+          "minLength": 20
+        },
+        "requires_legal_authority": {
+          "type": "string",
+          "minLength": 20
+        }
+      },
+      "additionalProperties": false
+    },
+    "safety": {
+      "type": "object",
+      "title": "publication prohibitions",
+      "required": [
+        "all_proposed_options_unratified",
+        "proposed_rights_not_automatically_enacted",
+        "public_review_required",
+        "legal_authority_assigned",
+        "government_action_authorized",
+        "quantified_effect_predictions"
+      ],
+      "properties": {
+        "all_proposed_options_unratified": {
+          "const": true
+        },
+        "proposed_rights_not_automatically_enacted": {
+          "const": true
+        },
+        "public_review_required": {
+          "const": true
+        },
+        "legal_authority_assigned": {
+          "const": false
+        },
+        "government_action_authorized": {
+          "const": false
+        },
+        "quantified_effect_predictions": {
+          "const": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "publication": {
+      "type": "object",
+      "title": "publication constraints",
+      "required": [
+        "stable_identifiers",
+        "referential_validation_required",
+        "negative_regression_tests_required",
+        "rights_and_intergovernmental_review_pending"
+      ],
+      "properties": {
+        "stable_identifiers": {
+          "const": true
+        },
+        "referential_validation_required": {
+          "const": true
+        },
+        "negative_regression_tests_required": {
+          "const": true
+        },
+        "rights_and_intergovernmental_review_pending": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

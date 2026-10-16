@@ -1,0 +1,119 @@
+{
+  "version": "0.1.0",
+  "items": [
+    {
+      "id": "EVID-07-01",
+      "evidence_class": "existing_plan_draft",
+      "title": "The Republic We Build Part II and III outcome proposals",
+      "publisher": "American Republic Futures Institute",
+      "url": "https://github.com/American-Republic-Futures-Institute/afri-plan-therepublicwebuild/tree/d856e926f4180225fc74cb57ba770b6189016be3/manuscript",
+      "scope": "The four domain chapters provide proposed objectives, not enacted policies or empirical proof of mechanisms.",
+      "constitutional_record_ids": [],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-02",
+      "evidence_class": "existing_architecture_draft",
+      "title": "INC-06 reusable capability catalogue",
+      "publisher": "American Republic Futures Institute",
+      "url": "https://github.com/American-Republic-Futures-Institute/afri-architecture/tree/ac04222e2f543e12c1c460d6d5581a33ba9b4d2a/model/reference",
+      "scope": "Candidate capability identifiers and trace hypotheses; does not assign a legal power or exclusive owner.",
+      "constitutional_record_ids": [],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-03",
+      "evidence_class": "primary_constitutional_text",
+      "title": "United States Constitution, original Articles I–VII",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "scope": "Confirms constitutional textual allocations; provision-specific interpretations and applicability require current legal review.",
+      "constitutional_record_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01",
+        "CONST-US-ART-01-SEC-09-CL-07",
+        "CONST-US-ART-03-SEC-01",
+        "CONST-US-ART-05"
+      ],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-04",
+      "evidence_class": "primary_constitutional_text",
+      "title": "First, Fourth and Fifth Amendment text",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "scope": "Legal text relevant to speech, searches, due process and public takings; not automatically applicable to every private actor.",
+      "constitutional_record_ids": [
+        "AMD-UNIT-01-U-03",
+        "AMD-UNIT-04-U-01",
+        "AMD-UNIT-05-U-05",
+        "AMD-UNIT-05-U-07"
+      ],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-05",
+      "evidence_class": "primary_constitutional_text",
+      "title": "Tenth Amendment original text",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "scope": "Reserved-powers constitutional text, not a complete independent description of current State authority or anti-commandeering doctrine.",
+      "constitutional_record_ids": [
+        "AMD-UNIT-10-U-01"
+      ],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-06",
+      "evidence_class": "official_legal_research",
+      "title": "Funding Conditions: Constitutional Limits on Congress's Spending Power",
+      "publisher": "Congressional Research Service",
+      "url": "https://www.congress.gov/crs_external_products/R/PDF/R46827/R46827.2.pdf",
+      "scope": "Explains notice, relation, coercion and other limitations on federal funding conditions; cannot substitute for program-level law and current precedent.",
+      "constitutional_record_ids": [],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-07",
+      "evidence_class": "technical_guidance",
+      "title": "NIST Cybersecurity Framework 2.0",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+      "scope": "Provides flexible security outcome functions, not evidence of any particular proposal's efficacy or legal authority.",
+      "constitutional_record_ids": [],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-08",
+      "evidence_class": "uncertainty_and_scenario_method",
+      "title": "INC-05 Cross-Domain Future-State Validation",
+      "publisher": "American Republic Futures Institute",
+      "url": "https://github.com/American-Republic-Futures-Institute/afri-plan-therepublicwebuild/blob/d856e926f4180225fc74cb57ba770b6189016be3/research/INC05_CROSS_DOMAIN_VALIDATION.md",
+      "scope": "Five preliminary stress tests reveal risk hypotheses; they are not simulations, forecasts, measured findings or evidence of public consensus.",
+      "constitutional_record_ids": [],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-09",
+      "evidence_class": "primary_constitutional_text",
+      "title": "Fourteenth Amendment original text",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+      "scope": "Due process and equal protection textual source; incorporation and context-specific rights require independent present-law review.",
+      "constitutional_record_ids": [
+        "AMD-UNIT-14-S01-04",
+        "AMD-UNIT-14-S01-05"
+      ],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    }
+  ]
+}

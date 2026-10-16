@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "INC-07 qualitative stress scenarios",
+  "required": [
+    "version",
+    "status",
+    "disclaimer",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "status": {
+      "const": "qualitative_stress_tests_unratified"
+    },
+    "disclaimer": {
+      "type": "string",
+      "minLength": 30
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "stress scenario",
+        "required": [
+          "id",
+          "name",
+          "stress_condition",
+          "option_id",
+          "capability_ids",
+          "outcome_ids",
+          "edge_ids",
+          "guardrail_ids",
+          "authority_gate_ids",
+          "potential_benefit",
+          "adverse_path",
+          "evidence_required",
+          "prohibited_inference",
+          "alternative_models",
+          "probability",
+          "effect_quantification",
+          "status",
+          "review_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^SCN-07-[0-9]{2}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 4
+          },
+          "stress_condition": {
+            "type": "string",
+            "minLength": 25
+          },
+          "option_id": {
+            "type": "string",
+            "pattern": "^OPT-07-[0-9]{2}$"
+          },
+          "capability_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^CAP-XDOM-[0-9]{3}$"
+            }
+          },
+          "outcome_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}-O[0-9]{2}$"
+            }
+          },
+          "edge_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^EDGE-07-[0-9]{4}$"
+            }
+          },
+          "guardrail_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^GUARD-07-[0-9]{2}$"
+            }
+          },
+          "authority_gate_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^AGATE-07-[0-9]{2}$"
+            }
+          },
+          "potential_benefit": {
+            "type": "string",
+            "minLength": 20
+          },
+          "adverse_path": {
+            "type": "string",
+            "minLength": 20
+          },
+          "evidence_required": {
+            "type": "string",
+            "minLength": 20
+          },
+          "prohibited_inference": {
+            "type": "string",
+            "minLength": 20
+          },
+          "alternative_models": {
+            "type": "string",
+            "minLength": 25
+          },
+          "probability": {
+            "const": "not_estimated"
+          },
+          "effect_quantification": {
+            "const": "not_estimated"
+          },
+          "status": {
+            "const": "qualitative_stress_test_not_simulation"
+          },
+          "review_status": {
+            "const": "independent_public_and_expert_review_pending"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

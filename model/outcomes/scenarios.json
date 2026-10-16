@@ -1,0 +1,410 @@
+{
+  "version": "0.1.0",
+  "status": "qualitative_stress_tests_unratified",
+  "disclaimer": "These are adversarial questions and explicit uncertainties, not forecasts, calibrated simulations or support for adopting any option.",
+  "items": [
+    {
+      "id": "SCN-07-01",
+      "name": "Rural infrastructure and clinical-service outage",
+      "stress_condition": "A regional grid disturbance coincides with compromised communications supporting a hospital, local employers and emergency transport.",
+      "option_id": "OPT-07-06",
+      "capability_ids": [
+        "CAP-XDOM-002",
+        "CAP-XDOM-007"
+      ],
+      "outcome_ids": [
+        "HLT-O08",
+        "CYB-O01",
+        "EPR-O08"
+      ],
+      "edge_ids": [
+        "EDGE-07-0001",
+        "EDGE-07-0002",
+        "EDGE-07-0011",
+        "EDGE-07-0012",
+        "EDGE-07-0017",
+        "EDGE-07-0018",
+        "EDGE-07-0027",
+        "EDGE-07-0035",
+        "EDGE-07-0054",
+        "EDGE-07-0055",
+        "EDGE-07-0056",
+        "EDGE-07-0078",
+        "EDGE-07-0079"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-10",
+        "GUARD-07-04",
+        "GUARD-07-03"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-05",
+        "AGATE-07-07"
+      ],
+      "potential_benefit": "Service restoration might be coordinated across independently owned systems.",
+      "adverse_path": "A broad incident response could expose private information or exceed civilian/military legal boundaries.",
+      "evidence_required": "Validate clinical and economic service impacts, owners' actual authorities, recovery evidence and multiple coordination approaches.",
+      "prohibited_inference": "No probability of occurrence, guaranteed incident response or military authority is established.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    },
+    {
+      "id": "SCN-07-02",
+      "name": "Universal identity creates access exclusion",
+      "stress_condition": "A proposed centrally issued digital credential becomes necessary for hospital appointments, student services or financial accounts.",
+      "option_id": "OPT-07-02",
+      "capability_ids": [
+        "CAP-XDOM-008",
+        "CAP-XDOM-006"
+      ],
+      "outcome_ids": [
+        "EDU-O06",
+        "CYB-O04",
+        "CYB-O03"
+      ],
+      "edge_ids": [
+        "EDGE-07-0010",
+        "EDGE-07-0015",
+        "EDGE-07-0016",
+        "EDGE-07-0020",
+        "EDGE-07-0029",
+        "EDGE-07-0030",
+        "EDGE-07-0043",
+        "EDGE-07-0044",
+        "EDGE-07-0045",
+        "EDGE-07-0069",
+        "EDGE-07-0070"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-04",
+        "GUARD-07-07",
+        "GUARD-07-02"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-03",
+        "AGATE-07-01"
+      ],
+      "potential_benefit": "Identity assurance might help reduce some impersonation or account-takeover risks.",
+      "adverse_path": "People without devices, correct records or approved documents could lose services, while centralized records invite misuse.",
+      "evidence_required": "Compare accessible credentials, offline fallback, error rates, appeal pathways, breach exposure and lawful basis.",
+      "prohibited_inference": "No universal credential is endorsed or required.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    },
+    {
+      "id": "SCN-07-03",
+      "name": "Federal education grant conditions strain autonomy",
+      "stress_condition": "A contemplated performance reporting condition is attached to a future education grant used by State or local education bodies.",
+      "option_id": "OPT-07-03",
+      "capability_ids": [
+        "CAP-XDOM-004",
+        "CAP-XDOM-001"
+      ],
+      "outcome_ids": [
+        "EDU-O10",
+        "EDU-O06",
+        "CYB-O03"
+      ],
+      "edge_ids": [
+        "EDGE-07-0005",
+        "EDGE-07-0013",
+        "EDGE-07-0022",
+        "EDGE-07-0024",
+        "EDGE-07-0031",
+        "EDGE-07-0032",
+        "EDGE-07-0046",
+        "EDGE-07-0047",
+        "EDGE-07-0048",
+        "EDGE-07-0071",
+        "EDGE-07-0072"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-03",
+        "GUARD-07-07",
+        "GUARD-07-09"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-02",
+        "AGATE-07-01"
+      ],
+      "potential_benefit": "Comparable information may aid public accountability.",
+      "adverse_path": "The condition may be coercive, expensive, invasive or misaligned with actual learning.",
+      "evidence_required": "Review the particular grant statute, relatedness, clear notice, anti-coercion, privacy scope and current educational outcomes.",
+      "prohibited_inference": "No unconditional federal power over State schooling or curricula is created.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    },
+    {
+      "id": "SCN-07-04",
+      "name": "Capital levy affects opportunity and fiscal capacity",
+      "stress_condition": "A hypothetical federal levy on high-value assets is proposed without an enacted instrument, rate, valuation process or transition rule.",
+      "option_id": "OPT-07-04",
+      "capability_ids": [
+        "CAP-XDOM-005",
+        "CAP-XDOM-004"
+      ],
+      "outcome_ids": [
+        "EPR-O07",
+        "EPR-O10",
+        "EPR-O08"
+      ],
+      "edge_ids": [
+        "EDGE-07-0007",
+        "EDGE-07-0023",
+        "EDGE-07-0033",
+        "EDGE-07-0049",
+        "EDGE-07-0050",
+        "EDGE-07-0073",
+        "EDGE-07-0074"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-05",
+        "GUARD-07-09"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-06",
+        "AGATE-07-01"
+      ],
+      "potential_benefit": "A lawful, workable fiscal instrument might support public resources or change distribution.",
+      "adverse_path": "Valuation, liquidity, compliance cost, legal classification, behavior and capital allocation may undermine the intended result.",
+      "evidence_required": "Conduct constitutional and administrative tax analysis, distributional modeling, revenue uncertainty and alternatives.",
+      "prohibited_inference": "No wealth tax, unrealized-gain tax or rate is approved as constitutional or enacted.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    },
+    {
+      "id": "SCN-07-05",
+      "name": "Rural essential-care facility acquisition",
+      "stress_condition": "A local market lacks access to a critical medical service and a public acquisition is one concept compared with private/nonprofit approaches.",
+      "option_id": "OPT-07-05",
+      "capability_ids": [
+        "CAP-XDOM-002",
+        "CAP-XDOM-005"
+      ],
+      "outcome_ids": [
+        "HLT-O01",
+        "HLT-O03",
+        "EPR-O10"
+      ],
+      "edge_ids": [
+        "EDGE-07-0007",
+        "EDGE-07-0008",
+        "EDGE-07-0023",
+        "EDGE-07-0034",
+        "EDGE-07-0051",
+        "EDGE-07-0052",
+        "EDGE-07-0053",
+        "EDGE-07-0075",
+        "EDGE-07-0076",
+        "EDGE-07-0077"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-06",
+        "GUARD-07-07",
+        "GUARD-07-05"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-04",
+        "AGATE-07-01",
+        "AGATE-07-02"
+      ],
+      "potential_benefit": "A lawful transition could preserve care if other viable models are insufficient.",
+      "adverse_path": "Acquisition and maintenance may create disruption, compensation obligations and long-term public liabilities.",
+      "evidence_required": "Compare quality, full lifecycle cost, property authority, alternatives, workforce, patient access and post-transition care.",
+      "prohibited_inference": "No nationwide public takeover or right to uncompensated taking is presumed.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    },
+    {
+      "id": "SCN-07-06",
+      "name": "Information-source transparency becomes viewpoint policing",
+      "stress_condition": "A proposed official disclosure mechanism for civic claims expands from verifiable provenance to judgments about accepted opinion.",
+      "option_id": "OPT-07-09",
+      "capability_ids": [
+        "CAP-XDOM-001",
+        "CAP-XDOM-004"
+      ],
+      "outcome_ids": [
+        "CYB-O07",
+        "CYB-O08"
+      ],
+      "edge_ids": [
+        "EDGE-07-0038",
+        "EDGE-07-0061",
+        "EDGE-07-0062",
+        "EDGE-07-0063",
+        "EDGE-07-0084",
+        "EDGE-07-0085"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-01",
+        "GUARD-07-02",
+        "GUARD-07-09"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-09",
+        "AGATE-07-07"
+      ],
+      "potential_benefit": "Reliable origin disclosure might help citizens evaluate credibility for themselves.",
+      "adverse_path": "Official labeling could suppress lawful speech, wrongly accuse speakers or create compelled ideological conformity.",
+      "evidence_required": "Compare voluntary provenance tools, lawful sponsorship disclosures, attribution proof, appeals and viewpoint-neutral alternatives.",
+      "prohibited_inference": "No government authority to determine which lawful opinions are true is granted.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    },
+    {
+      "id": "SCN-07-07",
+      "name": "Industrial incentives redirect finite resources",
+      "stress_condition": "A proposed production grant expands domestic high-technology capacity but faces possible market concentration and public cost.",
+      "option_id": "OPT-07-07",
+      "capability_ids": [
+        "CAP-XDOM-007",
+        "CAP-XDOM-005"
+      ],
+      "outcome_ids": [
+        "EPR-O08",
+        "EPR-O03",
+        "EPR-O10"
+      ],
+      "edge_ids": [
+        "EDGE-07-0007",
+        "EDGE-07-0012",
+        "EDGE-07-0018",
+        "EDGE-07-0023",
+        "EDGE-07-0036",
+        "EDGE-07-0057",
+        "EDGE-07-0058",
+        "EDGE-07-0080",
+        "EDGE-07-0081"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-05",
+        "GUARD-07-09"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-01",
+        "AGATE-07-07"
+      ],
+      "potential_benefit": "Distributed capability may strengthen supply resilience and high-value employment.",
+      "adverse_path": "Vendor capture and uncompetitive spending might displace better opportunities and weaken market entry.",
+      "evidence_required": "Evaluate full public costs, risk sharing, competing suppliers, verified output, workforce needs and conditional termination.",
+      "prohibited_inference": "No grant, procurement, subsidy or future fiscal target is adopted.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    },
+    {
+      "id": "SCN-07-08",
+      "name": "National outcomes portal risks statistical intrusion",
+      "stress_condition": "A national portal is contemplated to explain education, clinical, economy and cybersecurity outcomes and respond to public criticism.",
+      "option_id": "OPT-07-10",
+      "capability_ids": [
+        "CAP-XDOM-004",
+        "CAP-XDOM-001"
+      ],
+      "outcome_ids": [
+        "EDU-O10",
+        "HLT-O02",
+        "EPR-O01",
+        "CYB-O03"
+      ],
+      "edge_ids": [
+        "EDGE-07-0005",
+        "EDGE-07-0006",
+        "EDGE-07-0013",
+        "EDGE-07-0022",
+        "EDGE-07-0024",
+        "EDGE-07-0028",
+        "EDGE-07-0039",
+        "EDGE-07-0064",
+        "EDGE-07-0065",
+        "EDGE-07-0066",
+        "EDGE-07-0086",
+        "EDGE-07-0087"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-04",
+        "GUARD-07-09",
+        "GUARD-07-07"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-03",
+        "AGATE-07-07"
+      ],
+      "potential_benefit": "Versioned evidence could improve understanding and institutional correction.",
+      "adverse_path": "Bad denominators, selective reporting and disclosive datasets could harm trust or privacy.",
+      "evidence_required": "Require denominator audits, privacy protections, public correction, confidence, suppression and multiple evidence types.",
+      "prohibited_inference": "A dashboard is not a democratic vote, a mandate, or proof of causal policy success.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    },
+    {
+      "id": "SCN-07-09",
+      "name": "Portable learning credentials expose private histories",
+      "stress_condition": "A voluntary cross-provider competency record improves skills portability but accumulates unneeded personal history.",
+      "option_id": "OPT-07-08",
+      "capability_ids": [
+        "CAP-XDOM-003",
+        "CAP-XDOM-001"
+      ],
+      "outcome_ids": [
+        "EDU-O08",
+        "EPR-O02",
+        "CYB-O03"
+      ],
+      "edge_ids": [
+        "EDGE-07-0003",
+        "EDGE-07-0004",
+        "EDGE-07-0013",
+        "EDGE-07-0019",
+        "EDGE-07-0022",
+        "EDGE-07-0026",
+        "EDGE-07-0037",
+        "EDGE-07-0059",
+        "EDGE-07-0060",
+        "EDGE-07-0082",
+        "EDGE-07-0083"
+      ],
+      "guardrail_ids": [
+        "GUARD-07-04",
+        "GUARD-07-07"
+      ],
+      "authority_gate_ids": [
+        "AGATE-07-03",
+        "AGATE-07-02"
+      ],
+      "potential_benefit": "Student-controlled, demonstrable learning might broaden advancement.",
+      "adverse_path": "Biographical profiling, exclusion and inaccurate credentials might undermine opportunity.",
+      "evidence_required": "Compare purpose-bounded credentials, zero-knowledge or minimal-attribute alternatives, correction, offline access and real employer outcomes.",
+      "prohibited_inference": "No new credential system or mandatory learner profile is enacted.",
+      "alternative_models": "Competing lawful choices must be compared for outcomes, rights, cost, feasibility and local context.",
+      "probability": "not_estimated",
+      "effect_quantification": "not_estimated",
+      "status": "qualitative_stress_test_not_simulation",
+      "review_status": "independent_public_and_expert_review_pending"
+    }
+  ]
+}

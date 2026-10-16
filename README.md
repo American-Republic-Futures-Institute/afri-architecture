@@ -20,6 +20,12 @@ The [government institution and cross-domain capability reference](docs/INSTITUT
 
 Machine-readable models: [`model/reference/`](model/reference/) · [schema contracts](schemas/) · validation: `node scripts/validate-reference.mjs` · regression tests: `node --test tests/reference.test.mjs`. The reference model is versioned independently of the constitutional baseline. All candidate relationships require legal and independent subject-matter review before being treated as implementable proposals.
 
+## INC-07 national outcomes dependency graph
+
+See [the integrated outcomes architecture](docs/INTEGRATED-NATIONAL-OUTCOMES-AND-DEPENDENCIES.md) for the unratified typed graph, ten candidate options, nine legal review gates, and qualitative scenario tests across four initial outcome domains. Data is in [`model/outcomes/`](model/outcomes/) with matching publication schemas.
+
+Run `node scripts/validate-outcome-dependencies.mjs` and `node --test tests/outcomes.test.mjs` for graph integrity; run `node scripts/validate-outcome-schemas.mjs` and `node --test tests/outcome-schemas.test.mjs` for publication contract checks. These validations do not establish legal authority or policy adoption.
+
 ## Repository organization
 
 ```

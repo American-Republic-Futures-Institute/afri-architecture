@@ -75,3 +75,11 @@ jobs:
         run: node scripts/validate-reference.mjs
       - name: Test INC-06 authority, jurisdiction and traceability regressions
         run: node --test tests/reference.test.mjs
+      - name: Validate INC-07 national outcome graph and legal research gates
+        run: node scripts/validate-outcome-dependencies.mjs
+      - name: Verify INC-07 publication schemas against data
+        run: node scripts/validate-outcome-schemas.mjs
+      - name: Test INC-07 typed dependencies, rights and law boundaries
+        run: node --test tests/outcomes.test.mjs
+      - name: Test INC-07 schema positive and negative cases
+        run: node --test tests/outcome-schemas.test.mjs

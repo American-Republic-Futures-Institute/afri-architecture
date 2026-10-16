@@ -1,0 +1,151 @@
+{
+  "version": "0.1.0",
+  "items": [
+    {
+      "id": "GUARD-07-01",
+      "name": "Freedom of lawful expression and independent judgment",
+      "legal_character": "existing_constitutional_text_with_open_applicability",
+      "description": "First Amendment; no government-determined acceptable ideology.",
+      "evidence_ids": [
+        "EVID-07-04"
+      ],
+      "constitutional_record_ids": [
+        "AMD-UNIT-01-U-03"
+      ],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-02",
+      "name": "Individual due process and effective redress",
+      "legal_character": "existing_constitutional_text_with_open_applicability",
+      "description": "Process before deprivation and meaningful challenge of legal decisions are context-dependent.",
+      "evidence_ids": [
+        "EVID-07-04",
+        "EVID-07-05",
+        "EVID-07-09"
+      ],
+      "constitutional_record_ids": [
+        "AMD-UNIT-05-U-05",
+        "AMD-UNIT-14-S01-04"
+      ],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-03",
+      "name": "Distinct State and federal authority",
+      "legal_character": "existing_constitutional_text_with_open_applicability",
+      "description": "Respect reserved State and people's powers and the legal limits of federal funding conditions.",
+      "evidence_ids": [
+        "EVID-07-05",
+        "EVID-07-06"
+      ],
+      "constitutional_record_ids": [
+        "AMD-UNIT-10-U-01"
+      ],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-04",
+      "name": "Personal data purpose, privacy and minimization",
+      "legal_character": "proposed_normative_safeguard_with_context_specific_law",
+      "description": "Privacy is broader than cybersecurity; lawful purposes and specific governing law must be determined separately.",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-04"
+      ],
+      "constitutional_record_ids": [
+        "AMD-UNIT-04-U-01"
+      ],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-05",
+      "name": "Congressional appropriations and fiscal accountability",
+      "legal_character": "existing_constitutional_text_with_open_applicability",
+      "description": "Fiscal or budget concepts cannot grant executive spending or taxing authority.",
+      "evidence_ids": [
+        "EVID-07-03"
+      ],
+      "constitutional_record_ids": [
+        "CONST-US-ART-01-SEC-08-CL-01",
+        "CONST-US-ART-01-SEC-09-CL-07"
+      ],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-06",
+      "name": "Just compensation and lawful treatment of property",
+      "legal_character": "existing_constitutional_text_with_open_applicability",
+      "description": "Public acquisition scenarios must not bypass public-use and just-compensation requirements where applicable.",
+      "evidence_ids": [
+        "EVID-07-04"
+      ],
+      "constitutional_record_ids": [
+        "AMD-UNIT-05-U-07"
+      ],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-07",
+      "name": "Meaningful access and nondiscriminatory service outcomes",
+      "legal_character": "mixed_rights_and_proposed_national_goal",
+      "description": "Existing equality obligations are context-dependent; no proposed universal service promise is treated as enacted.",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-05",
+        "EVID-07-09"
+      ],
+      "constitutional_record_ids": [
+        "AMD-UNIT-14-S01-05"
+      ],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-08",
+      "name": "Judicial independence and bounded adjudication",
+      "legal_character": "existing_constitutional_text_with_open_applicability",
+      "description": "Courts decide cases under actual jurisdiction; planning cannot turn them into executive program managers.",
+      "evidence_ids": [
+        "EVID-07-03"
+      ],
+      "constitutional_record_ids": [
+        "CONST-US-ART-03-SEC-01"
+      ],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-09",
+      "name": "Transparent evidence, public dissent and revision",
+      "legal_character": "proposed_normative_safeguard",
+      "description": "People must be able to contest evidence, proposed values and use of statistics without compelled agreement.",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "constitutional_record_ids": [],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    },
+    {
+      "id": "GUARD-07-10",
+      "name": "Civilian, military and intelligence boundary",
+      "legal_character": "legal_scope_pending",
+      "description": "Domestic cyber assistance or emergency powers cannot be inferred from technical capability; specific statutes and constitutional limits require research.",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "constitutional_record_ids": [],
+      "auto_grants_authority": false,
+      "review_status": "legal_and_public_review_pending"
+    }
+  ]
+}

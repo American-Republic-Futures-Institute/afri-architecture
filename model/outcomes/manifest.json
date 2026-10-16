@@ -1,0 +1,45 @@
+{
+  "id": "ARFI-COA-OUTCOMES-INC07",
+  "version": "0.1.0",
+  "status": "research_baseline_unratified",
+  "created_on": "2026-10-16",
+  "title": "First Integrated National Outcomes and Dependency Graph",
+  "scope": "Four initial manuscript domains and eight shared capabilities. Typed research relationships, safeguard conditions and legal authority review gates only; no implementation mandates.",
+  "source_contracts": {
+    "plan_repo": "American-Republic-Futures-Institute/afri-plan-therepublicwebuild",
+    "plan_commit_sha": "d856e926f4180225fc74cb57ba770b6189016be3",
+    "architecture_repository": "American-Republic-Futures-Institute/afri-architecture",
+    "reference_baseline_commit_sha": "ac04222e2f543e12c1c460d6d5581a33ba9b4d2a",
+    "shared_capability_catalog": "model/reference/shared-capabilities.json",
+    "domain_catalog": "model/reference/domain-contract.json"
+  },
+  "models": [
+    "model/outcomes/evidence.json",
+    "model/outcomes/guardrails.json",
+    "model/outcomes/authority-gates.json",
+    "model/outcomes/options.json",
+    "model/outcomes/relationships.json",
+    "model/outcomes/scenarios.json"
+  ],
+  "semantic_contract": {
+    "supports": "Proposed contribution to a people-centered outcome, not a validated causal estimate.",
+    "depends_on": "Potential enabling condition, not proof that no alternative path exists.",
+    "conflicts_with": "Conditional risk from a specified option or pathway; never an assertion that two public values cannot coexist.",
+    "constrained_by": "Limits the design space. A normative constraint is not automatically existing enforceable law.",
+    "requires_legal_authority": "A pending jurisdiction- and action-specific legal research gate, not an authorization or conclusion that a proposed act is lawful."
+  },
+  "safety": {
+    "all_proposed_options_unratified": true,
+    "legal_authority_assigned": false,
+    "government_action_authorized": false,
+    "proposed_rights_not_automatically_enacted": true,
+    "quantified_effect_predictions": false,
+    "public_review_required": true
+  },
+  "publication": {
+    "stable_identifiers": true,
+    "referential_validation_required": true,
+    "negative_regression_tests_required": true,
+    "rights_and_intergovernmental_review_pending": true
+  }
+}
