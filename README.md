@@ -14,6 +14,12 @@ This public repository is the canonical, model-driven source for the American Re
 - Supreme Court, appellate courts (13), district courts (94), bankruptcy courts (90), specialized courts, and judicial administration. Aggregate counts do **not** imply that the courts form a simple management hierarchy.
 - Cross-referenced legal authority anchors, a provisional capability catalog, typed institutional relationships, source provenance and declarative viewpoints.
 
+## INC-06 institutional reference overlay — unratified
+
+The [government institution and cross-domain capability reference](docs/INSTITUTIONAL-REFERENCE-STRUCTURE.md) links the **existing** federal and State model identities to a pinned set of four draft manuscript outcome domains. It adds five nonduplicating federal navigation views, eight cross-domain **candidate** capabilities and explicitly nonbinding research links to existing institutions; it **does not** add governmental authority, departments, courts or public policy mandates. Tribal, territorial and local institution inventories remain research pending.
+
+Machine-readable models: [`model/reference/`](model/reference/) · [schema contracts](schemas/) · validation: `node scripts/validate-reference.mjs` · regression tests: `node --test tests/reference.test.mjs`. The reference model is versioned independently of the constitutional baseline. All candidate relationships require legal and independent subject-matter review before being treated as implementable proposals.
+
 ## Repository organization
 
 ```
