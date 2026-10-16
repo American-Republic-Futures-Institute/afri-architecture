@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
 import {CENSUS_MODEL_PATHS,validateFederalCensus,projectFederalCensus} from "../scripts/federal-census-validation-core.mjs";
+import {inspectFederalCensusSchema} from "../scripts/federal-census-schema-validator.mjs";
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),"utf8"));
 const fixture=()=>({manifest:read("model/federal/manifest.json"),
@@ -13,6 +14,21 @@ const find=(f,p,id)=>{const x=f.files[p].items.find(x=>x.id===id);assert(x,"miss
 const reject=(name,mutation,expected)=>test(name,()=>{
  const f=structuredClone(original);mutation(f);
  assert.throws(()=>validateFederalCensus(f.manifest,f.files),new RegExp(expected));
+});
+test("eight published model families satisfy strict bounded JSON Schema",()=>{
+ const schema=read("schemas/federal-census.schema.json");
+ const report=inspectFederalCensusSchema(schema,original.files);
+ assert.deepEqual(report.errors,[]);
+ assert.equal(report.model_families,8);
+ const tampered=structuredClone(original.files);
+ tampered["model/federal/coverage/components.json"].items[0].unknown_runtime_authority=true;
+ assert(inspectFederalCensusSchema(schema,tampered).errors.some(x=>x.includes("additional property forbidden")));
+ const falseGrant=structuredClone(original.files);
+ falseGrant["model/federal/coverage/components.json"].items[0].delegation_verified=true;
+ assert(inspectFederalCensusSchema(schema,falseGrant).errors.some(x=>x.includes("constant changed")));
+ const badVersion=structuredClone(schema);
+ delete badVersion.$defs.components.properties.id.pattern;
+ assert(inspectFederalCensusSchema(badVersion,original.files).errors.some(x=>x.includes("missing strict item schema")));
 });
 test("canonical federal census has 61 references, 15 departments, no certified ADL or government-wide denominator",()=>{
  assert.equal(verified.counts.canonical_institutions,61);
