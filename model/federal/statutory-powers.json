@@ -1,0 +1,173 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FSTAT-POWER-DHS-ESTABLISH",
+      "type": "federal_statutory_authority",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "statutory_provision_id": "FSTAT-PROV-DHS-6-111",
+      "source_ids": [
+        "SRC-FSTAT-DHS-111"
+      ],
+      "subsection": "(a)",
+      "power_kind": "department_establishment_not_program_power",
+      "summary": "Congress established a separate DHS executive department within 5 U.S.C. executive-department structure.",
+      "scope_boundary": "Organizational creation alone neither grants universal police authority nor verifies a federal appropriation.",
+      "constitutional_context_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18",
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "actor_classification": "federal_executive_department_not_constitutional_branch",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+      "condition_ids": [
+        "FSTAT-COND-DHS-PRESERVE-OTHER-FUNCTIONS",
+        "FSTAT-COND-DHS-ECONOMIC-SECURITY",
+        "FSTAT-COND-DHS-CIVIL-LIBERTIES",
+        "FSTAT-COND-DHS-INVESTIGATION-RESPONSIBILITY",
+        "FSTAT-COND-DHS-DELEGATION-EXCEPTION",
+        "FSTAT-COND-DHS-CONTRACTING-SCOPE"
+      ]
+    },
+    {
+      "id": "FSTAT-POWER-DHS-MISSION",
+      "type": "federal_statutory_authority",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "statutory_provision_id": "FSTAT-PROV-DHS-6-111",
+      "source_ids": [
+        "SRC-FSTAT-DHS-111"
+      ],
+      "subsection": "(b)(1)",
+      "power_kind": "statutory_mission_not_independent_coercive_authority",
+      "summary": "Defines departmental counterterrorism, emergency coordination, transferred functions and security duties within existing law.",
+      "scope_boundary": "Mission language must be read with express preservation of civil rights, nonsecurity services, economic security and investigation/prosecution assignments.",
+      "constitutional_context_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18",
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "actor_classification": "federal_executive_department_not_constitutional_branch",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+      "condition_ids": [
+        "FSTAT-COND-DHS-PRESERVE-OTHER-FUNCTIONS",
+        "FSTAT-COND-DHS-ECONOMIC-SECURITY",
+        "FSTAT-COND-DHS-CIVIL-LIBERTIES",
+        "FSTAT-COND-DHS-INVESTIGATION-RESPONSIBILITY",
+        "FSTAT-COND-DHS-DELEGATION-EXCEPTION",
+        "FSTAT-COND-DHS-CONTRACTING-SCOPE"
+      ]
+    },
+    {
+      "id": "FSTAT-POWER-DHS-SECRETARY",
+      "type": "federal_statutory_authority",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "statutory_provision_id": "FSTAT-PROV-DHS-6-112",
+      "source_ids": [
+        "SRC-FSTAT-DHS-112"
+      ],
+      "subsection": "(a)(1)-(3)",
+      "power_kind": "department_internal_direction_not_every_law_enforcement_power",
+      "summary": "Presidentially appointed and Senate-confirmed DHS Secretary directs and controls the Department, subject to applicable law.",
+      "scope_boundary": "Secretary oversight is departmental; no independent unrestricted prosecutorial, surveillance, or military jurisdiction is inferred.",
+      "constitutional_context_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18",
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "actor_classification": "federal_executive_department_not_constitutional_branch",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+      "condition_ids": [
+        "FSTAT-COND-DHS-PRESERVE-OTHER-FUNCTIONS",
+        "FSTAT-COND-DHS-ECONOMIC-SECURITY",
+        "FSTAT-COND-DHS-CIVIL-LIBERTIES",
+        "FSTAT-COND-DHS-INVESTIGATION-RESPONSIBILITY",
+        "FSTAT-COND-DHS-DELEGATION-EXCEPTION",
+        "FSTAT-COND-DHS-CONTRACTING-SCOPE"
+      ]
+    },
+    {
+      "id": "FSTAT-POWER-DHS-DELEGATION",
+      "type": "federal_statutory_authority",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "statutory_provision_id": "FSTAT-PROV-DHS-6-112",
+      "source_ids": [
+        "SRC-FSTAT-DHS-112"
+      ],
+      "subsection": "(b)(1)",
+      "power_kind": "delegable_only_except_statutory_restrictions",
+      "summary": "Secretary may delegate specified functions to DHS officers, employees or organizational units unless otherwise provided by statute.",
+      "scope_boundary": "A delegation requires an authorized underlying function and compliance with express exceptions; no authority transfers to unrelated State or private actors.",
+      "constitutional_context_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18",
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "actor_classification": "federal_executive_department_not_constitutional_branch",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+      "condition_ids": [
+        "FSTAT-COND-DHS-PRESERVE-OTHER-FUNCTIONS",
+        "FSTAT-COND-DHS-ECONOMIC-SECURITY",
+        "FSTAT-COND-DHS-CIVIL-LIBERTIES",
+        "FSTAT-COND-DHS-INVESTIGATION-RESPONSIBILITY",
+        "FSTAT-COND-DHS-DELEGATION-EXCEPTION",
+        "FSTAT-COND-DHS-CONTRACTING-SCOPE"
+      ]
+    },
+    {
+      "id": "FSTAT-POWER-ED-ESTABLISH",
+      "type": "federal_statutory_authority",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "statutory_provision_id": "FSTAT-PROV-ED-20-3411",
+      "source_ids": [
+        "SRC-FSTAT-ED-3411"
+      ],
+      "subsection": "(1)",
+      "power_kind": "department_establishment_not_program_power",
+      "summary": "Congress established the Department of Education and provided for the appointed Senate-confirmed Secretary.",
+      "scope_boundary": "Creation does not displace State/local educational responsibilities, compel national curricula, or establish unreviewed expenditure authority.",
+      "constitutional_context_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18",
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "actor_classification": "federal_executive_department_not_constitutional_branch",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+      "condition_ids": [
+        "FSTAT-COND-ED-STATE-RESERVATION",
+        "FSTAT-COND-ED-CURRICULUM-PROHIBITION",
+        "FSTAT-COND-ED-GEPA-CONTROL-PROHIBITION",
+        "FSTAT-COND-ED-TRANSFER-SCOPE",
+        "FSTAT-COND-ED-SECRETARY-APPOINTMENT",
+        "FSTAT-COND-ED-HISTORIC-FUNDING-TRANSITION"
+      ]
+    },
+    {
+      "id": "FSTAT-POWER-ED-TRANSFER",
+      "type": "federal_statutory_authority",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "statutory_provision_id": "FSTAT-PROV-ED-20-3471",
+      "source_ids": [
+        "SRC-FSTAT-ED-3471"
+      ],
+      "subsection": "(a)",
+      "power_kind": "only_preexisting_transferred_function_authority",
+      "summary": "In administering functions lawfully transferred by the Department of Education Organization Act, the Secretary may exercise authority previously available by law for those specific functions.",
+      "scope_boundary": "Transfer preserves existing limits; this is not a new universal federal power to direct local schools, instruction, or teachers.",
+      "constitutional_context_ids": [
+        "CONST-US-ART-01-SEC-08-CL-18",
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-02-SEC-02-CL-02"
+      ],
+      "actor_classification": "federal_executive_department_not_constitutional_branch",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification",
+      "condition_ids": [
+        "FSTAT-COND-ED-STATE-RESERVATION",
+        "FSTAT-COND-ED-CURRICULUM-PROHIBITION",
+        "FSTAT-COND-ED-GEPA-CONTROL-PROHIBITION",
+        "FSTAT-COND-ED-TRANSFER-SCOPE",
+        "FSTAT-COND-ED-SECRETARY-APPOINTMENT",
+        "FSTAT-COND-ED-HISTORIC-FUNDING-TRANSITION"
+      ]
+    }
+  ]
+}

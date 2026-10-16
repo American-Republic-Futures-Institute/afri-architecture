@@ -1,0 +1,95 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FSTAT-PROV-DHS-6-111",
+      "type": "federal_codified_section",
+      "code_group_id": "FSTAT-GROUP-DHS-HSA-2002",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "title": "Department of Homeland Security: executive department, mission and civil-liberties and investigation boundaries",
+      "citation": "6 U.S.C. § 111",
+      "source_ids": [
+        "SRC-FSTAT-DHS-111"
+      ],
+      "source_scope": "Establishes DHS and defines its mission; expressly preserves nonsecurity functions, economic security, civil rights, civil liberties, and investigative/prosecution jurisdiction boundaries.",
+      "current_codification_snapshot": "2026-10-16",
+      "legal_effect_status": "codified_current_section_subject_to_valid_law_and_judicial_review",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-PROV-DHS-6-112",
+      "type": "federal_codified_section",
+      "code_group_id": "FSTAT-GROUP-DHS-HSA-2002",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "title": "Secretary of Homeland Security: appointments, direction and limited delegation",
+      "citation": "6 U.S.C. § 112",
+      "source_ids": [
+        "SRC-FSTAT-DHS-112"
+      ],
+      "source_scope": "Creates and specifies Secretary's departmental direction and delegation, with express statutory exceptions and responsibility limits.",
+      "current_codification_snapshot": "2026-10-16",
+      "legal_effect_status": "codified_current_section_subject_to_valid_law_and_judicial_review",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-PROV-ED-20-3411",
+      "type": "federal_codified_section",
+      "code_group_id": "FSTAT-GROUP-ED-DEOA-1979",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "title": "Department of Education: establishment and Secretary appointment",
+      "citation": "20 U.S.C. § 3411",
+      "source_ids": [
+        "SRC-FSTAT-ED-3411"
+      ],
+      "source_scope": "Establishes Department of Education and presidential appointment of Senate-confirmed Secretary.",
+      "current_codification_snapshot": "2026-10-16",
+      "legal_effect_status": "codified_current_section_subject_to_valid_law_and_judicial_review",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-PROV-ED-20-3471",
+      "type": "federal_codified_section",
+      "code_group_id": "FSTAT-GROUP-ED-DEOA-1979",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "title": "Education Secretary: authority for transferred functions",
+      "citation": "20 U.S.C. § 3471",
+      "source_ids": [
+        "SRC-FSTAT-ED-3471"
+      ],
+      "source_scope": "Transfers preexisting function authorities as available by law; no new general federal control over schools.",
+      "current_codification_snapshot": "2026-10-16",
+      "legal_effect_status": "codified_current_section_subject_to_valid_law_and_judicial_review",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-PROV-ED-20-3403",
+      "type": "federal_codified_section",
+      "code_group_id": "FSTAT-GROUP-ED-DEOA-1979",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "title": "Department of Education relationship with States and historical transition provision",
+      "citation": "20 U.S.C. § 3403",
+      "source_ids": [
+        "SRC-FSTAT-ED-3403"
+      ],
+      "source_scope": "Protects State/local educational control; limits construction of Department power; includes historically time-limited subsection (c).",
+      "current_codification_snapshot": "2026-10-16",
+      "legal_effect_status": "codified_current_section_subject_to_valid_law_and_judicial_review",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-PROV-ED-20-1232A",
+      "type": "federal_codified_section",
+      "code_group_id": "FSTAT-GROUP-ED-GEPA",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "title": "General Education Provisions Act: federal-control restriction",
+      "citation": "20 U.S.C. § 1232a",
+      "source_ids": [
+        "SRC-FSTAT-ED-1232A"
+      ],
+      "source_scope": "General Education Provisions Act restriction on inferring curriculum/program/school personnel direction from covered federal educational programs.",
+      "current_codification_snapshot": "2026-10-16",
+      "legal_effect_status": "codified_current_section_subject_to_valid_law_and_judicial_review",
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    }
+  ]
+}

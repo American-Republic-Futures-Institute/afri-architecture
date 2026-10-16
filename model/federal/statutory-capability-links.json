@@ -1,0 +1,56 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "FSTAT-CAP-DHS-20",
+      "type": "federal_statutory_capability_link",
+      "department_id": "ORG-FED-EXE-DEP-DHS",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "capability_id": "CAP-FED-20",
+      "statutory_power_ids": [
+        "FSTAT-POWER-DHS-MISSION",
+        "FSTAT-POWER-DHS-SECRETARY",
+        "FSTAT-POWER-DHS-DELEGATION"
+      ],
+      "condition_ids": [
+        "FSTAT-COND-DHS-PRESERVE-OTHER-FUNCTIONS",
+        "FSTAT-COND-DHS-ECONOMIC-SECURITY",
+        "FSTAT-COND-DHS-CIVIL-LIBERTIES",
+        "FSTAT-COND-DHS-INVESTIGATION-RESPONSIBILITY",
+        "FSTAT-COND-DHS-DELEGATION-EXCEPTION",
+        "FSTAT-COND-DHS-CONTRACTING-SCOPE"
+      ],
+      "classification": "descriptive_capability_alignment_not_new_law_enforcement_power",
+      "source_ids": [
+        "SRC-FSTAT-DHS-111",
+        "SRC-FSTAT-DHS-112"
+      ],
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    },
+    {
+      "id": "FSTAT-CAP-ED-18",
+      "type": "federal_statutory_capability_link",
+      "department_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "institution_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "capability_id": "CAP-FED-18",
+      "statutory_power_ids": [
+        "FSTAT-POWER-ED-TRANSFER"
+      ],
+      "condition_ids": [
+        "FSTAT-COND-ED-STATE-RESERVATION",
+        "FSTAT-COND-ED-CURRICULUM-PROHIBITION",
+        "FSTAT-COND-ED-GEPA-CONTROL-PROHIBITION",
+        "FSTAT-COND-ED-TRANSFER-SCOPE",
+        "FSTAT-COND-ED-SECRETARY-APPOINTMENT",
+        "FSTAT-COND-ED-HISTORIC-FUNDING-TRANSITION"
+      ],
+      "classification": "descriptive_capability_alignment_not_new_law_enforcement_power",
+      "source_ids": [
+        "SRC-FSTAT-ED-3471",
+        "SRC-FSTAT-ED-3403",
+        "SRC-FSTAT-ED-1232A"
+      ],
+      "review_status": "official_codified_text_indexed_no_current_citator_or_program_verification"
+    }
+  ]
+}
