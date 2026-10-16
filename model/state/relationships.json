@@ -1,0 +1,243 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "STATE-REL-0001",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-LEG-GENERAL-ASSEMBLY",
+      "to_norm_id": "NORM-STATE-VA-ART-IV-SEC-1-01",
+      "relationship_kind": "vested_state_legislative_power",
+      "source_provision_id": "STATE-PROV-VA-ART-IV-SEC-1",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0002",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-LEG-SENATE",
+      "to_norm_id": "NORM-STATE-VA-ART-IV-SEC-1-01",
+      "relationship_kind": "constituent_state_legislative_chamber",
+      "source_provision_id": "STATE-PROV-VA-ART-IV-SEC-1",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0003",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-LEG-HOUSE",
+      "to_norm_id": "NORM-STATE-VA-ART-IV-SEC-1-01",
+      "relationship_kind": "constituent_state_legislative_chamber",
+      "source_provision_id": "STATE-PROV-VA-ART-IV-SEC-1",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0004",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-LEG-GENERAL-ASSEMBLY",
+      "to_norm_id": "NORM-STATE-VA-ART-IV-SEC-11-01",
+      "relationship_kind": "subject_to_state_legislative_procedure",
+      "source_provision_id": "STATE-PROV-VA-ART-IV-SEC-11",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0005",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-EXE-GOVERNOR",
+      "to_norm_id": "NORM-STATE-VA-ART-V-SEC-1-01",
+      "relationship_kind": "vested_state_executive_power",
+      "source_provision_id": "STATE-PROV-VA-ART-V-SEC-1",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0006",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-EXE-GOVERNOR",
+      "to_norm_id": "NORM-STATE-VA-ART-V-SEC-1-02",
+      "relationship_kind": "subject_to_state_office_eligibility_limit",
+      "source_provision_id": "STATE-PROV-VA-ART-V-SEC-1",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0007",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-EXE-LIEUTENANT-GOVERNOR",
+      "to_norm_id": "NORM-STATE-VA-ART-V-SEC-14-01",
+      "relationship_kind": "participates_in_legislative_procedure_not_branch_containment",
+      "source_provision_id": "STATE-PROV-VA-ART-V-SEC-14",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0008",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-EXE-ATTORNEY-GENERAL",
+      "to_norm_id": "NORM-STATE-VA-ART-V-SEC-15-01",
+      "relationship_kind": "office_established_specific_duties_need_statute",
+      "source_provision_id": "STATE-PROV-VA-ART-V-SEC-15",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0009",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-JUD-SUPREME-COURT",
+      "to_norm_id": "NORM-STATE-VA-ART-VI-SEC-1-01",
+      "relationship_kind": "vested_state_judicial_power",
+      "source_provision_id": "STATE-PROV-VA-ART-VI-SEC-1",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VI"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0010",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-SPECIAL-REDISTRICTING-COMMISSION",
+      "to_norm_id": "NORM-STATE-VA-ART-II-SEC-6-A-01",
+      "relationship_kind": "constitutionally_assigned_redistricting_function",
+      "source_provision_id": "STATE-PROV-VA-ART-II-SEC-6-A",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0011",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-JUD-SUPREME-COURT",
+      "to_norm_id": "NORM-STATE-VA-ART-II-SEC-6-A-02",
+      "relationship_kind": "contingent_state_redistricting_fallback",
+      "source_provision_id": "STATE-PROV-VA-ART-II-SEC-6-A",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0012",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-VA",
+      "from_id": "ORG-STATE-VA-SPECIAL-LOCAL-GOVERNMENT-CLASSES",
+      "to_norm_id": "NORM-STATE-VA-ART-VII-SEC-2-01",
+      "relationship_kind": "requires_state_local_government_enabling_law",
+      "source_provision_id": "STATE-PROV-VA-ART-VII-SEC-2",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VII"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0013",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-NE",
+      "from_id": "ORG-STATE-NE-LEG-LEGISLATURE",
+      "to_norm_id": "NORM-STATE-NE-ART-III-SEC-1-01",
+      "relationship_kind": "vested_unicameral_state_legislative_power",
+      "source_provision_id": "STATE-PROV-NE-ART-III-SEC-1",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0014",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-NE",
+      "from_id": "ACT-STATE-NE-PEOPLE",
+      "to_norm_id": "NORM-STATE-NE-ART-III-SEC-1-02",
+      "relationship_kind": "people_reserve_initiative_and_referendum",
+      "source_provision_id": "STATE-PROV-NE-ART-III-SEC-1",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0015",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-NE",
+      "from_id": "ORG-STATE-NE-EXE-GOVERNOR",
+      "to_norm_id": "NORM-STATE-NE-ART-IV-SEC-1-01",
+      "relationship_kind": "state_elected_executive_structure",
+      "source_provision_id": "STATE-PROV-NE-ART-IV-SEC-1",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-IV"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0016",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-NE",
+      "from_id": "ORG-STATE-NE-JUD-SUPREME-COURT",
+      "to_norm_id": "NORM-STATE-NE-ART-V-SEC-1-01",
+      "relationship_kind": "vested_state_judicial_power",
+      "source_provision_id": "STATE-PROV-NE-ART-V-SEC-1",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    },
+    {
+      "id": "STATE-REL-0017",
+      "type": "state_institution_norm_relationship",
+      "jurisdiction_id": "JUR-US-NE",
+      "from_id": "ORG-STATE-NE-JUD-SUPREME-COURT",
+      "to_norm_id": "NORM-STATE-NE-ART-V-SEC-1-02",
+      "relationship_kind": "limited_state_court_admin_authority",
+      "source_provision_id": "STATE-PROV-NE-ART-V-SEC-1",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "relationship_classification": "source_defined_state_legal_function_not_federal_delegation",
+      "review_status": "research_textual_institutional_mapping_pending_review"
+    }
+  ]
+}

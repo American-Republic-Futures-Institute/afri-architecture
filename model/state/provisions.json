@@ -1,0 +1,347 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "STATE-PROV-VA-ART-I-SEC-11",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "I",
+      "section_number": "11",
+      "name": "State due process and anti-discrimination protections",
+      "citation": "Va. Const. art. I, § 11",
+      "summary": "Right-related original State constitutional text is independently constrained by the federal Fourteenth Amendment.",
+      "source_scope_kind": "rights",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-I-SEC-15-A",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "I",
+      "section_number": "15-A",
+      "name": "Published State marriage-restriction text",
+      "citation": "Va. Const. art. I, § 15-A",
+      "summary": "This original State provision remains visible in the published constitution; current enforceability is limited by federal judicial interpretation. It is not to be modeled as affirmative authority to discriminate.",
+      "source_scope_kind": "historical_federal_conflict",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "published_text_federal_judicial_conflict_pending_legal_review",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-II-SEC-4",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "II",
+      "section_number": "4",
+      "name": "Election administration by General Assembly",
+      "citation": "Va. Const. art. II, § 4",
+      "summary": "General Assembly prescribes election registration and administration subject to State and federal constitutional constraints.",
+      "source_scope_kind": "state_power_conditioned",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-II-SEC-6-A",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "II",
+      "section_number": "6-A",
+      "name": "Virginia Redistricting Commission and contingent Supreme Court role",
+      "citation": "Va. Const. art. II, § 6-A",
+      "summary": "Commission district plans, General Assembly consideration and specified Supreme Court fallback are subject to express voting, timing and review conditions.",
+      "source_scope_kind": "constitutional_procedure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-III-SEC-1",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "III",
+      "section_number": "1",
+      "name": "Distinct legislative executive judicial departments",
+      "citation": "Va. Const. art. III, § 1",
+      "summary": "State constitutional separation, with limited General Assembly authority to create administrative agencies and provide for judicial review.",
+      "source_scope_kind": "constitutional_structure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-III"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-IV-SEC-1",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "IV",
+      "section_number": "1",
+      "name": "General Assembly and two legislative chambers",
+      "citation": "Va. Const. art. IV, § 1",
+      "summary": "Legislative power vested in General Assembly consisting of a Senate and House of Delegates.",
+      "source_scope_kind": "constitutional_structure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-IV-SEC-11",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "IV",
+      "section_number": "11",
+      "name": "Enactment of State laws",
+      "citation": "Va. Const. art. IV, § 11",
+      "summary": "Legislative passage, presentation and executive response are subject to the State Constitution's procedures.",
+      "source_scope_kind": "constitutional_procedure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-V-SEC-1",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "V",
+      "section_number": "1",
+      "name": "Governor executive vesting and consecutive term restriction",
+      "citation": "Va. Const. art. V, § 1",
+      "summary": "Chief executive power vested in Governor; no consecutive immediately succeeding term in same office.",
+      "source_scope_kind": "constitutional_structure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-V-SEC-9",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "V",
+      "section_number": "9",
+      "name": "State administrative agencies established and assigned duties by law",
+      "citation": "Va. Const. art. V, § 9",
+      "summary": "Functions powers and duties of executive and legislative administrative bodies may be prescribed by law; specific statutory grants require separate evidence.",
+      "source_scope_kind": "statute_required",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-V-SEC-14",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "V",
+      "section_number": "14",
+      "name": "Lieutenant Governor presides over Senate",
+      "citation": "Va. Const. art. V, § 14",
+      "summary": "Lieutenant Governor presides as President of Senate with vote only on equal division.",
+      "source_scope_kind": "constitutional_procedure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-V-SEC-15",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "V",
+      "section_number": "15",
+      "name": "Elected Attorney General with statutory duties",
+      "citation": "Va. Const. art. V, § 15",
+      "summary": "Attorney General is a separately elected constitutional office; the detailed responsibilities are prescribed by law.",
+      "source_scope_kind": "statute_required",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-V-SEC-16",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "V",
+      "section_number": "16",
+      "name": "Succession and temporary gubernatorial inability",
+      "citation": "Va. Const. art. V, § 16",
+      "summary": "Governor and Lieutenant Governor succession and inability handling use State-specific written declarations and procedural conditions.",
+      "source_scope_kind": "constitutional_procedure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-VI-SEC-1",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "VI",
+      "section_number": "1",
+      "name": "State judicial vesting, Supreme Court and lawful subordinate courts",
+      "citation": "Va. Const. art. VI, § 1",
+      "summary": "Virginia judicial power vested in Supreme Court and other courts as General Assembly may establish, with explicitly limited original jurisdiction.",
+      "source_scope_kind": "constitutional_structure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VI"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-VII-SEC-2",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "VII",
+      "section_number": "2",
+      "name": "Organization and delegation to local governments",
+      "citation": "Va. Const. art. VII, § 2",
+      "summary": "General Assembly law regulates counties, independent cities, towns and regional governments, with general and special act restrictions.",
+      "source_scope_kind": "statute_required",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VII"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-VA-ART-VII-SEC-5",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-VA",
+      "jurisdiction_id": "JUR-US-VA",
+      "article_number": "VII",
+      "section_number": "5",
+      "name": "Elected local government governing bodies",
+      "citation": "Va. Const. art. VII, § 5",
+      "summary": "Local government governing bodies elected in the manner and with proportional representation conditions provided by Constitution and law.",
+      "source_scope_kind": "constitutional_procedure",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VII"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-NE-ART-II-SEC-1",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-NE",
+      "jurisdiction_id": "JUR-US-NE",
+      "article_number": "II",
+      "section_number": "1",
+      "name": "Distinct State legislative executive and judicial departments",
+      "citation": "Neb. Const. art. II, § 1",
+      "summary": "Three constitutional departments; limited express supervised probation/parole/program exception to separation.",
+      "source_scope_kind": "constitutional_structure",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-II"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-NE-ART-III-SEC-1",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-NE",
+      "jurisdiction_id": "JUR-US-NE",
+      "article_number": "III",
+      "section_number": "1",
+      "name": "Unicameral Legislature and popular initiative and referendum",
+      "citation": "Neb. Const. art. III, § 1",
+      "summary": "Legislative authority in one chamber with distinct people's reserved direct lawmaking and referendum powers.",
+      "source_scope_kind": "constitutional_structure",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-NE-ART-IV-SEC-1",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-NE",
+      "jurisdiction_id": "JUR-US-NE",
+      "article_number": "IV",
+      "section_number": "1",
+      "name": "Elected State executive officers and appointments",
+      "citation": "Neb. Const. art. IV, § 1",
+      "summary": "Governor, lieutenant governor and other elected constitutional executive officers; department-head appointment/consent boundaries.",
+      "source_scope_kind": "constitutional_structure",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-IV"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    },
+    {
+      "id": "STATE-PROV-NE-ART-V-SEC-1",
+      "type": "state_constitutional_provision",
+      "constitution_id": "CONST-STATE-NE",
+      "jurisdiction_id": "JUR-US-NE",
+      "article_number": "V",
+      "section_number": "1",
+      "name": "State courts and Supreme Court administrative power",
+      "citation": "Neb. Const. art. V, § 1",
+      "summary": "State Supreme Court, appellate, district and county courts; Chief Justice's administrative authority subject to constitutional and statutory limits.",
+      "source_scope_kind": "constitutional_structure",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "source_status": "official_current_text_indexed",
+      "legal_effect_review_status": "not_certified_current_controlling_scope",
+      "review_status": "selected_state_original_text_summary_pending_legal_review"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "STATE-FED-LINK-0001",
+      "type": "state_federal_constitutional_crosswalk",
+      "jurisdiction_id": "JUR-US-VA",
+      "subject_id": "JUR-US-VA",
+      "federal_provision_id": "CONST-US-AMD-10",
+      "relationship_kind": "reserved_state_power_context_not_specific_agency_delegation",
+      "legal_role_classification": "federalism_guardrail_not_federal_parent_or_department",
+      "statutory_delegation_claim": "none",
+      "source_ids": [
+        "SRC-STATE-NARA-TENTH"
+      ],
+      "review_status": "cross_jurisdiction_constitutional_context_pending_legal_review"
+    },
+    {
+      "id": "STATE-FED-LINK-0002",
+      "type": "state_federal_constitutional_crosswalk",
+      "jurisdiction_id": "JUR-US-VA",
+      "subject_id": "JUR-US-VA",
+      "federal_provision_id": "CONST-US-ART-06-CL-02",
+      "relationship_kind": "applicable_federal_supremacy_conditional_on_valid_law",
+      "legal_role_classification": "federalism_guardrail_not_federal_parent_or_department",
+      "statutory_delegation_claim": "none",
+      "source_ids": [
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "review_status": "cross_jurisdiction_constitutional_context_pending_legal_review"
+    },
+    {
+      "id": "STATE-FED-LINK-0003",
+      "type": "state_federal_constitutional_crosswalk",
+      "jurisdiction_id": "JUR-US-VA",
+      "subject_id": "JUR-US-VA",
+      "federal_provision_id": "CONST-US-AMD-14-SEC-01",
+      "relationship_kind": "federal_rights_constraint_on_state_action",
+      "legal_role_classification": "federalism_guardrail_not_federal_parent_or_department",
+      "statutory_delegation_claim": "none",
+      "source_ids": [
+        "SRC-STATE-NARA-AMENDMENTS"
+      ],
+      "review_status": "cross_jurisdiction_constitutional_context_pending_legal_review"
+    },
+    {
+      "id": "STATE-FED-LINK-0004",
+      "type": "state_federal_constitutional_crosswalk",
+      "jurisdiction_id": "JUR-US-VA",
+      "subject_id": "JUR-US-VA",
+      "federal_provision_id": "CONST-US-ART-04-SEC-04-SEG-01",
+      "relationship_kind": "republican_form_guarantee_context_not_administrative_command",
+      "legal_role_classification": "federalism_guardrail_not_federal_parent_or_department",
+      "statutory_delegation_claim": "none",
+      "source_ids": [
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "review_status": "cross_jurisdiction_constitutional_context_pending_legal_review"
+    },
+    {
+      "id": "STATE-FED-LINK-0005",
+      "type": "state_federal_constitutional_crosswalk",
+      "jurisdiction_id": "JUR-US-NE",
+      "subject_id": "JUR-US-NE",
+      "federal_provision_id": "CONST-US-AMD-10",
+      "relationship_kind": "reserved_state_power_context_not_specific_agency_delegation",
+      "legal_role_classification": "federalism_guardrail_not_federal_parent_or_department",
+      "statutory_delegation_claim": "none",
+      "source_ids": [
+        "SRC-STATE-NARA-TENTH"
+      ],
+      "review_status": "cross_jurisdiction_constitutional_context_pending_legal_review"
+    },
+    {
+      "id": "STATE-FED-LINK-0006",
+      "type": "state_federal_constitutional_crosswalk",
+      "jurisdiction_id": "JUR-US-NE",
+      "subject_id": "JUR-US-NE",
+      "federal_provision_id": "CONST-US-ART-06-CL-02",
+      "relationship_kind": "applicable_federal_supremacy_conditional_on_valid_law",
+      "legal_role_classification": "federalism_guardrail_not_federal_parent_or_department",
+      "statutory_delegation_claim": "none",
+      "source_ids": [
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "review_status": "cross_jurisdiction_constitutional_context_pending_legal_review"
+    },
+    {
+      "id": "STATE-FED-LINK-0007",
+      "type": "state_federal_constitutional_crosswalk",
+      "jurisdiction_id": "JUR-US-NE",
+      "subject_id": "JUR-US-NE",
+      "federal_provision_id": "CONST-US-AMD-14-SEC-01",
+      "relationship_kind": "federal_rights_constraint_on_state_action",
+      "legal_role_classification": "federalism_guardrail_not_federal_parent_or_department",
+      "statutory_delegation_claim": "none",
+      "source_ids": [
+        "SRC-STATE-NARA-AMENDMENTS"
+      ],
+      "review_status": "cross_jurisdiction_constitutional_context_pending_legal_review"
+    },
+    {
+      "id": "STATE-FED-LINK-0008",
+      "type": "state_federal_constitutional_crosswalk",
+      "jurisdiction_id": "JUR-US-NE",
+      "subject_id": "JUR-US-NE",
+      "federal_provision_id": "CONST-US-ART-04-SEC-04-SEG-01",
+      "relationship_kind": "republican_form_guarantee_context_not_administrative_command",
+      "legal_role_classification": "federalism_guardrail_not_federal_parent_or_department",
+      "statutory_delegation_claim": "none",
+      "source_ids": [
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "review_status": "cross_jurisdiction_constitutional_context_pending_legal_review"
+    }
+  ]
+}

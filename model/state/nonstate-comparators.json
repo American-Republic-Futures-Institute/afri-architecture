@@ -1,0 +1,20 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "JUR-US-DC-NONSTATE",
+      "type": "nonstate_federal_district_reference",
+      "name": "District of Columbia",
+      "usps_code": "DC",
+      "fips_state_code": "11",
+      "is_member_state": false,
+      "constitutional_status": "federal_district_not_member_state",
+      "institutional_coverage": "excluded_from_this_state_institutional_increment",
+      "source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "review_status": "state_identity_verified_institutional_scope_explicit"
+    }
+  ]
+}

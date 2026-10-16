@@ -1,0 +1,101 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "BR-STATE-VA-LEG",
+      "type": "state_branch",
+      "jurisdiction_id": "JUR-US-VA",
+      "name": "Virginia legislative department",
+      "branch_kind": "legislative",
+      "parent_id": "JUR-US-VA",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-III-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-III"
+      ],
+      "separation_status": "constitutional_state_branch_not_federal_institution",
+      "review_status": "source_limited_state_branch_mapping_pending_review"
+    },
+    {
+      "id": "BR-STATE-VA-EXE",
+      "type": "state_branch",
+      "jurisdiction_id": "JUR-US-VA",
+      "name": "Virginia executive department",
+      "branch_kind": "executive",
+      "parent_id": "JUR-US-VA",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-III-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-III"
+      ],
+      "separation_status": "constitutional_state_branch_not_federal_institution",
+      "review_status": "source_limited_state_branch_mapping_pending_review"
+    },
+    {
+      "id": "BR-STATE-VA-JUD",
+      "type": "state_branch",
+      "jurisdiction_id": "JUR-US-VA",
+      "name": "Virginia judicial department",
+      "branch_kind": "judicial",
+      "parent_id": "JUR-US-VA",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-III-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-III"
+      ],
+      "separation_status": "constitutional_state_branch_not_federal_institution",
+      "review_status": "source_limited_state_branch_mapping_pending_review"
+    },
+    {
+      "id": "BR-STATE-NE-LEG",
+      "type": "state_branch",
+      "jurisdiction_id": "JUR-US-NE",
+      "name": "Nebraska legislative department",
+      "branch_kind": "legislative",
+      "parent_id": "JUR-US-NE",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-II-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-II"
+      ],
+      "separation_status": "constitutional_state_branch_not_federal_institution",
+      "review_status": "source_limited_state_branch_mapping_pending_review"
+    },
+    {
+      "id": "BR-STATE-NE-EXE",
+      "type": "state_branch",
+      "jurisdiction_id": "JUR-US-NE",
+      "name": "Nebraska executive department",
+      "branch_kind": "executive",
+      "parent_id": "JUR-US-NE",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-II-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-II"
+      ],
+      "separation_status": "constitutional_state_branch_not_federal_institution",
+      "review_status": "source_limited_state_branch_mapping_pending_review"
+    },
+    {
+      "id": "BR-STATE-NE-JUD",
+      "type": "state_branch",
+      "jurisdiction_id": "JUR-US-NE",
+      "name": "Nebraska judicial department",
+      "branch_kind": "judicial",
+      "parent_id": "JUR-US-NE",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-II-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-II"
+      ],
+      "separation_status": "constitutional_state_branch_not_federal_institution",
+      "review_status": "source_limited_state_branch_mapping_pending_review"
+    }
+  ]
+}

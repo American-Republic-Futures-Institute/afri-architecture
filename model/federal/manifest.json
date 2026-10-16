@@ -9,7 +9,7 @@
   "non_goals": [
     "Exhaustive subordinate agencies and field offices",
     "All Article I tribunals",
-    "State, tribal, territorial and local government",
+    "Exhaustive State institutions in all 50 States; tribal, territorial and local office inventories (except explicitly documented pilot State local-government classes)",
     "Current officeholders, personnel rosters or partisan appointments",
     "Legal conclusions about disputed executive control of independent agencies",
     "Any adopted ARFI reform recommendation",
@@ -61,7 +61,20 @@
     "model/judicial/treatments.json",
     "model/judicial/status-assessments.json",
     "model/judicial/viewpoints.json",
-    "model/judicial/applicability.json"
+    "model/judicial/applicability.json",
+    "model/state/jurisdictions.json",
+    "model/state/nonstate-comparators.json",
+    "model/state/sources.json",
+    "model/state/constitutions.json",
+    "model/state/provisions.json",
+    "model/state/norms.json",
+    "model/state/actors.json",
+    "model/state/branches.json",
+    "model/state/institutions.json",
+    "model/state/relationships.json",
+    "model/state/federalism-links.json",
+    "model/state/judicial-links.json",
+    "model/state/viewpoints.json"
   ],
   "standards": [
     {
@@ -208,5 +221,38 @@
     "citation_integrity": "Never infer negative precedent history from absent citation edges; citator coverage is non-exhaustive and all statuses are explicitly provisional.",
     "publication_note": "No opinion text copyrighted reproduction. No website rendering engine or API changes.",
     "applicability_count": 29
+  },
+  "state_institutional_extension": {
+    "id": "ARFI-COA-STATE-INSTITUTIONS-001",
+    "review_status": "selected_state_primary_text_and_institutions_pending_human_legal_review",
+    "snapshot_date": "2026-10-16",
+    "state_jurisdiction_count": 50,
+    "nonstate_federal_district_comparators": 1,
+    "pilot_state_codes": [
+      "VA",
+      "NE"
+    ],
+    "fully_modelled_state_count": 0,
+    "institutional_coverage": "Independent, source-located starter architecture for Virginia and Nebraska; 48 State institutional models remain deliberately unpopulated, not identical copies.",
+    "state_constitution_count": 2,
+    "state_provision_count": 19,
+    "state_norm_count": 24,
+    "state_branch_count": 6,
+    "state_institution_count": 19,
+    "constitutional_crosswalk_count": 8,
+    "judicial_overlay_count": 1,
+    "source_text_basis": [
+      "SRC-STATE-CENSUS-CODES",
+      "SRC-STATE-VA-CONST-III",
+      "SRC-STATE-VA-CONST-IV",
+      "SRC-STATE-VA-CONST-V",
+      "SRC-STATE-VA-CONST-VI",
+      "SRC-STATE-NE-CONST-II",
+      "SRC-STATE-NE-CONST-III",
+      "SRC-STATE-NE-CONST-IV",
+      "SRC-STATE-NE-CONST-V"
+    ],
+    "scope": "Non-federal constitutional State governments, first-pass Virginia and Nebraska independent institutional authorities, State-to-federal constitutional ceilings, original State text separately from later Supreme Court limits.",
+    "publication_note": "No website renderer, no State institution under federal organizational hierarchy, no implied State agency statutory enabling authority, no asserted final/current citator results. District of Columbia is a separate federal district, never the fifty-first State."
   }
 }

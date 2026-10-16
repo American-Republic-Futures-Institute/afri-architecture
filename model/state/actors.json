@@ -1,0 +1,27 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "ACT-STATE-VA-PEOPLE",
+      "type": "state_constitutional_actor_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "name": "People of Virginia",
+      "role": "constitutional_rights_and_public_power_holders",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I"
+      ],
+      "review_status": "source_limited_state_actor_class"
+    },
+    {
+      "id": "ACT-STATE-NE-PEOPLE",
+      "type": "state_constitutional_actor_class",
+      "jurisdiction_id": "JUR-US-NE",
+      "name": "People of Nebraska",
+      "role": "constitutionally_reserved_initiative_and_referendum_holders",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ],
+      "review_status": "source_limited_state_actor_class"
+    }
+  ]
+}
