@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-06 candidate shared capabilities",
+  "type": "object",
+  "required": [
+    "version",
+    "status",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "status": {
+      "const": "candidate_shared_capabilities_unratified"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "shared capability",
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "definition",
+          "family",
+          "status",
+          "feaf_reference_model_families",
+          "feaf_mapping_status",
+          "guardrails",
+          "government_power_assigned",
+          "owner_institution_id",
+          "review_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^CAP-XDOM-[0-9]{3}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 3
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 35
+          },
+          "family": {
+            "type": "string"
+          },
+          "status": {
+            "const": "research_hypothesis_unratified"
+          },
+          "feaf_reference_model_families": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "PRM",
+                "BRM",
+                "DRM",
+                "ARM",
+                "IRM",
+                "SRM"
+              ]
+            }
+          },
+          "feaf_mapping_status": {
+            "const": "reference_family_only_not_certified"
+          },
+          "guardrails": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "government_power_assigned": {
+            "const": false
+          },
+          "owner_institution_id": {
+            "type": "null"
+          },
+          "review_status": {
+            "const": "public_and_expert_review_pending"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
