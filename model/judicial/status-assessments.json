@@ -428,6 +428,186 @@
       "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
       "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
       "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-GIBBONS-1824-01",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-GIBBONS-1824-01",
+      "case_id": "CASE-US-SCOTUS-GIBBONS-1824",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "congress_commerce_power_includes_interstate_navigation",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-GIBBONS-1824"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-GIBBONS-1824-02",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-GIBBONS-1824-02",
+      "case_id": "CASE-US-SCOTUS-GIBBONS-1824",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "state_navigation_monopoly_conflict_with_federal_coasting_license",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-GIBBONS-1824"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-YOUNGSTOWN-1952-01",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-YOUNGSTOWN-1952-01",
+      "case_id": "CASE-US-SCOTUS-YOUNGSTOWN-1952",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "presidential_seizure_private_industry_without_statutory_authority",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-YOUNGSTOWN-1952"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-NIXON-1974-01",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-NIXON-1974-01",
+      "case_id": "CASE-US-SCOTUS-NIXON-1974",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "presidential_communications_generalized_privilege_criminal_subpoena",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-NIXON-1974"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-CHADHA-1983-01",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-CHADHA-1983-01",
+      "case_id": "CASE-US-SCOTUS-CHADHA-1983",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "legislative_one_house_veto_affecting_external_legal_rights",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-CHADHA-1983"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-LUJAN-1992-01",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-LUJAN-1992-01",
+      "case_id": "CASE-US-SCOTUS-LUJAN-1992",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "federal_article_iii_injury_causation_redressability_standing",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-LUJAN-1992"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-LOPEZ-1995-01",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-LOPEZ-1995-01",
+      "case_id": "CASE-US-SCOTUS-LOPEZ-1995",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "original_gun_free_school_zones_act_no_commerce_nexus",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-LOPEZ-1995"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-HELLER-2008-01",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-HELLER-2008-01",
+      "case_id": "CASE-US-SCOTUS-HELLER-2008",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "federal_district_home_self_defense_handgun_possession",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-HELLER-2008"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
+    },
+    {
+      "id": "JUD-STATUS-OBERGEFELL-2015-01",
+      "type": "holding_precedential_status_assessment",
+      "holding_id": "HOLD-US-SCOTUS-OBERGEFELL-2015-01",
+      "case_id": "CASE-US-SCOTUS-OBERGEFELL-2015",
+      "as_of": "2026-10-16",
+      "classification": "no_adverse_treatment_identified_in_seed_only",
+      "case_level_status_not_inferred": true,
+      "context_scope": "state_civil_marriage_licensing_and_interstate_recognition_same_sex_couples",
+      "modeled_treatment_ids": [],
+      "source_ids": [
+        "SRC-JUD-OPINION-OBERGEFELL-2015"
+      ],
+      "review_method": "curated_explicit_opinion_treatment_only",
+      "comprehensive_citator_review_completed": false,
+      "current_binding_effect_verified": false,
+      "assessment": "No displacement appears in the initial curated collection. This is not confirmation the holding remains good law after a comprehensive citator review.",
+      "caveat": "Do not represent absence of treatment as definitive good law; further opinions, legislation, controlling scope and stare decisis require human legal review.",
+      "legal_review_status": "preliminary_unverified_beyond_seeded_sources"
     }
   ]
 }

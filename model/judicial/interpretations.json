@@ -480,6 +480,230 @@
         "SRC-JUD-OPINION-LOPER-BRIGHT-2024"
       ],
       "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0031",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-GIBBONS-1824",
+      "holding_id": "HOLD-US-SCOTUS-GIBBONS-1824-01",
+      "constitutional_provision_id": "CONST-US-ART-01-SEC-08-CL-03",
+      "constitutional_norm_id": "NORM-US-CONST-P03",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "congress_commerce_power_includes_interstate_navigation",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-GIBBONS-1824"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0032",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-GIBBONS-1824",
+      "holding_id": "HOLD-US-SCOTUS-GIBBONS-1824-02",
+      "constitutional_provision_id": "CONST-US-ART-06-CL-02",
+      "constitutional_norm_id": "NORM-US-CONST-045",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "state_navigation_monopoly_conflict_with_federal_coasting_license",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-GIBBONS-1824"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0033",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-GIBBONS-1824",
+      "holding_id": "HOLD-US-SCOTUS-GIBBONS-1824-02",
+      "constitutional_provision_id": "CONST-US-ART-01-SEC-08-CL-03",
+      "constitutional_norm_id": "NORM-US-CONST-P03",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "state_navigation_monopoly_conflict_with_federal_coasting_license",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-GIBBONS-1824"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0034",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-YOUNGSTOWN-1952",
+      "holding_id": "HOLD-US-SCOTUS-YOUNGSTOWN-1952-01",
+      "constitutional_provision_id": "CONST-US-ART-02-SEC-01-CL-01",
+      "constitutional_norm_id": "NORM-US-CONST-018",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "presidential_seizure_private_industry_without_statutory_authority",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-YOUNGSTOWN-1952"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0035",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-YOUNGSTOWN-1952",
+      "holding_id": "HOLD-US-SCOTUS-YOUNGSTOWN-1952-01",
+      "constitutional_provision_id": "CONST-US-ART-02-SEC-03-SEG-04",
+      "constitutional_norm_id": "NORM-US-CONST-027",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "presidential_seizure_private_industry_without_statutory_authority",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-YOUNGSTOWN-1952"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0036",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-NIXON-1974",
+      "holding_id": "HOLD-US-SCOTUS-NIXON-1974-01",
+      "constitutional_provision_id": "CONST-US-ART-02-SEC-01-CL-01",
+      "constitutional_norm_id": "NORM-US-CONST-018",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "presidential_communications_generalized_privilege_criminal_subpoena",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-NIXON-1974"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0037",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-NIXON-1974",
+      "holding_id": "HOLD-US-SCOTUS-NIXON-1974-01",
+      "constitutional_provision_id": "CONST-US-ART-03-SEC-01-SEG-01",
+      "constitutional_norm_id": "NORM-US-CONST-030",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "presidential_communications_generalized_privilege_criminal_subpoena",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-NIXON-1974"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0038",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-CHADHA-1983",
+      "holding_id": "HOLD-US-SCOTUS-CHADHA-1983-01",
+      "constitutional_provision_id": "CONST-US-ART-01-SEC-01-CL-01",
+      "constitutional_norm_id": "NORM-US-CONST-001",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "legislative_one_house_veto_affecting_external_legal_rights",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-CHADHA-1983"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0039",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-CHADHA-1983",
+      "holding_id": "HOLD-US-SCOTUS-CHADHA-1983-01",
+      "constitutional_provision_id": "CONST-US-ART-01-SEC-07-CL-02",
+      "constitutional_norm_id": "NORM-US-CONST-005",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "legislative_one_house_veto_affecting_external_legal_rights",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-CHADHA-1983"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0040",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-LUJAN-1992",
+      "holding_id": "HOLD-US-SCOTUS-LUJAN-1992-01",
+      "constitutional_provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "constitutional_norm_id": "NORM-US-CONST-032",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "federal_article_iii_injury_causation_redressability_standing",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-LUJAN-1992"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0041",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-LOPEZ-1995",
+      "holding_id": "HOLD-US-SCOTUS-LOPEZ-1995-01",
+      "constitutional_provision_id": "CONST-US-ART-01-SEC-08-CL-03",
+      "constitutional_norm_id": "NORM-US-CONST-P03",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "original_gun_free_school_zones_act_no_commerce_nexus",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-LOPEZ-1995"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0042",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-HELLER-2008",
+      "holding_id": "HOLD-US-SCOTUS-HELLER-2008-01",
+      "constitutional_provision_id": "CONST-US-AMD-02-SEG-02",
+      "constitutional_norm_id": "NORM-US-CONST-AMD-02-SEG-02",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "federal_district_home_self_defense_handgun_possession",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-HELLER-2008"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0043",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-OBERGEFELL-2015",
+      "holding_id": "HOLD-US-SCOTUS-OBERGEFELL-2015-01",
+      "constitutional_provision_id": "CONST-US-AMD-14-SEC-01",
+      "constitutional_norm_id": "NORM-US-CONST-069",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "state_civil_marriage_licensing_and_interstate_recognition_same_sex_couples",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-OBERGEFELL-2015"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
+    },
+    {
+      "id": "JUD-INT-0044",
+      "type": "judicial_constitutional_mapping",
+      "case_id": "CASE-US-SCOTUS-OBERGEFELL-2015",
+      "holding_id": "HOLD-US-SCOTUS-OBERGEFELL-2015-01",
+      "constitutional_provision_id": "CONST-US-AMD-14-SEC-01",
+      "constitutional_norm_id": "NORM-US-CONST-070",
+      "relation_kind": "court_interprets_constitutional_provision",
+      "derivative_status": "opinion_sourced_judicial_interpretation_not_original_constitutional_text",
+      "mapping_scope": "state_civil_marriage_licensing_and_interstate_recognition_same_sex_couples",
+      "created_by_case_decision_not_ratification": true,
+      "evidence_source_ids": [
+        "SRC-JUD-OPINION-OBERGEFELL-2015"
+      ],
+      "review_status": "provisional_traceability_pending_legal_review"
     }
   ]
 }

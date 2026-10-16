@@ -167,7 +167,9 @@
       "jurisdiction": "federal_constitutional_or_federal_statutory_question",
       "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
       "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
-      "source_as_of": "2026-10-16"
+      "source_as_of": "2026-10-16",
+      "opinion_announced_on": "1958-09-29",
+      "decision_date_note": "Per curiam judgment announced September 12, 1958; explanatory opinion announced September 29, 1958, as distinguished by published reporter."
     },
     {
       "id": "CASE-US-SCOTUS-GIDEON-1963",
@@ -373,6 +375,184 @@
       ],
       "opinion_source_ids": [
         "SRC-JUD-OPINION-LOPER-BRIGHT-2024"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-GIBBONS-1824",
+      "type": "judicial_case",
+      "name": "Gibbons v. Ogden",
+      "decided_on": "1824-03-02",
+      "reporter_citation": "22 U.S. (9 Wheat.) 1 (1824)",
+      "reporter_volume": 22,
+      "reporter_first_page": 1,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "interstate_commerce",
+        "state_federal_conflict"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-GIBBONS-1824"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-YOUNGSTOWN-1952",
+      "type": "judicial_case",
+      "name": "Youngstown Sheet & Tube Co. v. Sawyer",
+      "decided_on": "1952-06-02",
+      "reporter_citation": "343 U.S. 579 (1952)",
+      "reporter_volume": 343,
+      "reporter_first_page": 579,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "executive_authority",
+        "separation_of_powers"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-YOUNGSTOWN-1952"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-NIXON-1974",
+      "type": "judicial_case",
+      "name": "United States v. Nixon",
+      "decided_on": "1974-07-24",
+      "reporter_citation": "418 U.S. 683 (1974)",
+      "reporter_volume": 418,
+      "reporter_first_page": 683,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "executive_privilege",
+        "judicial_process"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-NIXON-1974"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-CHADHA-1983",
+      "type": "judicial_case",
+      "name": "INS v. Chadha",
+      "decided_on": "1983-06-23",
+      "reporter_citation": "462 U.S. 919 (1983)",
+      "reporter_volume": 462,
+      "reporter_first_page": 919,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "legislative_veto",
+        "bicameralism_presentment"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-CHADHA-1983"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-LUJAN-1992",
+      "type": "judicial_case",
+      "name": "Lujan v. Defenders of Wildlife",
+      "decided_on": "1992-06-12",
+      "reporter_citation": "504 U.S. 555 (1992)",
+      "reporter_volume": 504,
+      "reporter_first_page": 555,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "judicial_standing",
+        "case_or_controversy"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-LUJAN-1992"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-LOPEZ-1995",
+      "type": "judicial_case",
+      "name": "United States v. Lopez",
+      "decided_on": "1995-04-26",
+      "reporter_citation": "514 U.S. 549 (1995)",
+      "reporter_volume": 514,
+      "reporter_first_page": 549,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "commerce_clause",
+        "enumerated_powers"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-LOPEZ-1995"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-HELLER-2008",
+      "type": "judicial_case",
+      "name": "District of Columbia v. Heller",
+      "decided_on": "2008-06-26",
+      "reporter_citation": "554 U.S. 570 (2008)",
+      "reporter_volume": 554,
+      "reporter_first_page": 570,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "second_amendment",
+        "district_of_columbia",
+        "self_defense"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-HELLER-2008"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-OBERGEFELL-2015",
+      "type": "judicial_case",
+      "name": "Obergefell v. Hodges",
+      "decided_on": "2015-06-26",
+      "reporter_citation": "576 U.S. 644 (2015)",
+      "reporter_volume": 576,
+      "reporter_first_page": 644,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "marriage",
+        "fourteenth_amendment",
+        "equal_protection"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-OBERGEFELL-2015"
       ],
       "jurisdiction": "federal_constitutional_or_federal_statutory_question",
       "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
