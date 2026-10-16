@@ -13,7 +13,10 @@ assert(manifest.release_status==="research_baseline_unratified","Published as a 
 assert(manifest.models.length===new Set(manifest.models).size,"Repeated model in manifest");
 const mandatory=["branches","legislative","executive-leadership","executive-departments","executive-independent","judiciary","authorities","capabilities","relationships","sources","viewpoints"];
 for(const m of mandatory)assert(manifest.models.includes("model/federal/"+m+".json"),"Missing model "+m);
-const all=Object.fromEntries(manifest.models.filter(p=>p.startsWith("model/federal/")).map(p=>[path.basename(p,".json"),read(p)]));
+// The v0.1.0 core federal catalog lives one level below model/federal/.
+// Nested extension collections use their own schemas and validators; flattening
+// by basename would overwrite unrelated sources/relationships/viewpoints.
+const all=Object.fromEntries(manifest.models.filter(p=>/^model\/federal\/[^/]+\.json$/.test(p)).map(p=>[path.basename(p,".json"),read(p)]));
 for(const [name,data] of Object.entries(all)) {
   assert(data.model_version===manifest.model_version,"Version mismatch "+name);
   assert(Array.isArray(data.items),"Model missing items array "+name);
