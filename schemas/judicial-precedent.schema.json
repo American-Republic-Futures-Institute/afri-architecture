@@ -1,0 +1,872 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/judicial-precedent.schema.json",
+  "title": "ARFI-COA Judicial Precedent and Holding Treatment Registry v0.1.0",
+  "description": "Case/holding-specific research index, official opinion provenance, constitutional traceability, later treatment, provisional status and court binding scope. No automatic citation validation or full citator claim.",
+  "$defs": {
+    "ref": {
+      "type": "string",
+      "minLength": 3
+    },
+    "refs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "anyrefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "title",
+        "publisher",
+        "url",
+        "source_kind",
+        "source_scope",
+        "retrieved_as_of",
+        "verification_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^SRC-JUD-"
+        },
+        "type": {
+          "const": "judicial_source"
+        },
+        "title": {
+          "$ref": "#/$defs/ref"
+        },
+        "publisher": {
+          "$ref": "#/$defs/ref"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_kind": {
+          "enum": [
+            "official_published_us_reports_opinion",
+            "official_supreme_court_opinion_pdf",
+            "official_explanatory_analysis_not_opinion"
+          ]
+        },
+        "source_scope": {
+          "type": "string",
+          "minLength": 12
+        },
+        "date_decided": {
+          "$ref": "#/$defs/date"
+        },
+        "reporter_citation": {
+          "type": "string"
+        },
+        "retrieved_as_of": {
+          "$ref": "#/$defs/date"
+        },
+        "verification_status": {
+          "type": "string",
+          "minLength": 4
+        }
+      },
+      "additionalProperties": false
+    },
+    "court": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "court_system",
+        "level",
+        "jurisdiction_basis",
+        "territorial_scope",
+        "vertical_precedential_role",
+        "source_ids",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^COURT-"
+        },
+        "type": {
+          "const": "judicial_court"
+        },
+        "name": {
+          "$ref": "#/$defs/ref"
+        },
+        "court_system": {
+          "$ref": "#/$defs/ref"
+        },
+        "level": {
+          "$ref": "#/$defs/ref"
+        },
+        "jurisdiction_basis": {
+          "$ref": "#/$defs/refs"
+        },
+        "territorial_scope": {
+          "$ref": "#/$defs/ref"
+        },
+        "vertical_precedential_role": {
+          "$ref": "#/$defs/ref"
+        },
+        "binding_authority_description": {
+          "type": "string"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "status": {
+          "const": "institutional_candidate_pending_legal_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "case": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "decided_on",
+        "reporter_citation",
+        "reporter_volume",
+        "reporter_first_page",
+        "court_id",
+        "decision_kind",
+        "subject_tags",
+        "opinion_source_ids",
+        "jurisdiction",
+        "court_authority_scope",
+        "opinion_text_review_status",
+        "source_as_of"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^CASE-US-SCOTUS-"
+        },
+        "type": {
+          "const": "judicial_case"
+        },
+        "name": {
+          "$ref": "#/$defs/ref"
+        },
+        "decided_on": {
+          "$ref": "#/$defs/date"
+        },
+        "reporter_citation": {
+          "$ref": "#/$defs/ref"
+        },
+        "reporter_volume": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "reporter_first_page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "court_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "decision_kind": {
+          "const": "us_supreme_court_decision"
+        },
+        "subject_tags": {
+          "$ref": "#/$defs/refs"
+        },
+        "opinion_source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "jurisdiction": {
+          "$ref": "#/$defs/ref"
+        },
+        "court_authority_scope": {
+          "const": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings"
+        },
+        "opinion_text_review_status": {
+          "const": "indexed_official_opinion_summary_pending_human_review"
+        },
+        "source_as_of": {
+          "$ref": "#/$defs/date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "holding": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "case_id",
+        "holding_summary",
+        "rule_summary",
+        "opinion_role",
+        "basis_kind",
+        "issue_scope",
+        "constitutional_provision_ids",
+        "constitutional_norm_ids",
+        "affected_actor_ids",
+        "treatment_scope",
+        "review_status",
+        "opinion_source_ids",
+        "pinpoint_status",
+        "opinion_section_reference"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^HOLD-US-SCOTUS-"
+        },
+        "type": {
+          "const": "judicial_holding"
+        },
+        "case_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "holding_summary": {
+          "$ref": "#/$defs/ref"
+        },
+        "rule_summary": {
+          "type": "string",
+          "minLength": 35
+        },
+        "opinion_role": {
+          "enum": [
+            "majority",
+            "unanimous",
+            "controlling_joint_opinion",
+            "per_curiam",
+            "controlling_plurality"
+          ]
+        },
+        "basis_kind": {
+          "enum": [
+            "constitutional_interpretation",
+            "federal_statutory_interpretation_with_constitutional_context"
+          ]
+        },
+        "issue_scope": {
+          "$ref": "#/$defs/ref"
+        },
+        "constitutional_provision_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "constitutional_norm_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "affected_actor_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "treatment_scope": {
+          "const": "holding_specific_not_whole_case_automatic"
+        },
+        "review_status": {
+          "const": "preliminary_holding_summary_pending_human_legal_review"
+        },
+        "opinion_source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "pinpoint_status": {
+          "const": "full_opinion_indexed_pinpoint_not_verified"
+        },
+        "opinion_section_reference": {
+          "type": "null"
+        }
+      },
+      "additionalProperties": false
+    },
+    "interpretation": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "case_id",
+        "holding_id",
+        "constitutional_provision_id",
+        "constitutional_norm_id",
+        "relation_kind",
+        "derivative_status",
+        "mapping_scope",
+        "created_by_case_decision_not_ratification",
+        "evidence_source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JUD-INT-"
+        },
+        "type": {
+          "const": "judicial_constitutional_mapping"
+        },
+        "case_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "holding_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "constitutional_provision_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "constitutional_norm_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "relation_kind": {
+          "enum": [
+            "court_interprets_constitutional_provision",
+            "constitutional_context_only_not_direct_textual_holding"
+          ]
+        },
+        "derivative_status": {
+          "const": "opinion_sourced_judicial_interpretation_not_original_constitutional_text"
+        },
+        "mapping_scope": {
+          "$ref": "#/$defs/ref"
+        },
+        "created_by_case_decision_not_ratification": {
+          "const": true
+        },
+        "evidence_source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "provisional_traceability_pending_legal_review"
+        }
+      },
+      "additionalProperties": false
+    },
+    "treatment": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "treating_case_id",
+        "treating_holding_id",
+        "treated_case_id",
+        "treated_holding_id",
+        "relationship_type",
+        "affected_issue_scope",
+        "qualified_effect",
+        "impact_kind",
+        "effective_on",
+        "review_status",
+        "source_ids",
+        "opinion_pinpoint_status",
+        "does_not_imply_whole_case_overruling",
+        "citations_as_legal_effect_not_original_text"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JUD-TREAT-"
+        },
+        "type": {
+          "const": "judicial_precedent_treatment"
+        },
+        "treating_case_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "treating_holding_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "treated_case_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "treated_holding_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "relationship_type": {
+          "enum": [
+            "narrow_remedial_exception",
+            "repudiates_doctrine_in_defined_context",
+            "reaffirms_and_applies",
+            "reaffirms_core_modifies_test",
+            "extends_doctrine",
+            "reaffirms_and_extends",
+            "expressly_overrules"
+          ]
+        },
+        "affected_issue_scope": {
+          "$ref": "#/$defs/ref"
+        },
+        "qualified_effect": {
+          "type": "string",
+          "minLength": 30
+        },
+        "impact_kind": {
+          "$ref": "#/$defs/ref"
+        },
+        "effective_on": {
+          "$ref": "#/$defs/date"
+        },
+        "review_status": {
+          "const": "opinion_based_treatment_pending_full_legal_review"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "opinion_pinpoint_status": {
+          "const": "review_full_opinion_for_pinpoint"
+        },
+        "does_not_imply_whole_case_overruling": {
+          "type": "boolean"
+        },
+        "citations_as_legal_effect_not_original_text": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "status": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "holding_id",
+        "case_id",
+        "as_of",
+        "classification",
+        "case_level_status_not_inferred",
+        "context_scope",
+        "modeled_treatment_ids",
+        "source_ids",
+        "review_method",
+        "comprehensive_citator_review_completed",
+        "current_binding_effect_verified",
+        "assessment",
+        "caveat",
+        "legal_review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JUD-STATUS-"
+        },
+        "type": {
+          "const": "holding_precedential_status_assessment"
+        },
+        "holding_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "case_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "as_of": {
+          "$ref": "#/$defs/date"
+        },
+        "classification": {
+          "enum": [
+            "expressly_overruled_on_modeled_holding",
+            "qualified_or_repudiated_in_defined_scope",
+            "affirmed_or_developed_in_seeded_treatment",
+            "no_adverse_treatment_identified_in_seed_only"
+          ]
+        },
+        "case_level_status_not_inferred": {
+          "const": true
+        },
+        "context_scope": {
+          "$ref": "#/$defs/ref"
+        },
+        "modeled_treatment_ids": {
+          "$ref": "#/$defs/anyrefs"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_method": {
+          "const": "curated_explicit_opinion_treatment_only"
+        },
+        "comprehensive_citator_review_completed": {
+          "const": false
+        },
+        "current_binding_effect_verified": {
+          "const": false
+        },
+        "assessment": {
+          "type": "string",
+          "minLength": 35
+        },
+        "caveat": {
+          "type": "string",
+          "minLength": 40
+        },
+        "legal_review_status": {
+          "const": "preliminary_unverified_beyond_seeded_sources"
+        }
+      },
+      "additionalProperties": false
+    },
+    "applicability": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "holding_id",
+        "case_id",
+        "court_id",
+        "legal_question_family",
+        "judiciary_systems_to_consider",
+        "territorial_scope",
+        "precedential_role",
+        "government_addressee_actor_ids",
+        "bounded_issue_scope",
+        "precedential_status_id",
+        "binding_status",
+        "scope_note",
+        "source_ids",
+        "review_status",
+        "as_of"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JUD-APP-"
+        },
+        "type": {
+          "const": "judicial_holding_applicability"
+        },
+        "holding_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "case_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "court_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "legal_question_family": {
+          "enum": [
+            "federal_constitutional_question",
+            "federal_statutory_review_with_article_iii_context"
+          ]
+        },
+        "judiciary_systems_to_consider": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "federal",
+              "state"
+            ]
+          }
+        },
+        "territorial_scope": {
+          "const": "United States"
+        },
+        "precedential_role": {
+          "const": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope"
+        },
+        "government_addressee_actor_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "bounded_issue_scope": {
+          "$ref": "#/$defs/ref"
+        },
+        "precedential_status_id": {
+          "$ref": "#/$defs/ref"
+        },
+        "binding_status": {
+          "enum": [
+            "superseded_modeled_holding_not_current_controlling",
+            "not_certified_current_controlling_pending_citator_review"
+          ]
+        },
+        "scope_note": {
+          "type": "string",
+          "minLength": 40
+        },
+        "source_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "review_status": {
+          "const": "scope_candidate_pending_legal_review"
+        },
+        "as_of": {
+          "$ref": "#/$defs/date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "viewpoint": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "case_topic_filters",
+        "constitutional_root_ids",
+        "include_holdings",
+        "include_judicial_treatment",
+        "include_status_assessments",
+        "scope",
+        "review_status",
+        "publication_owner"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^VIEW-JUD-"
+        },
+        "type": {
+          "const": "judicial_precedent_viewpoint"
+        },
+        "name": {
+          "$ref": "#/$defs/ref"
+        },
+        "case_topic_filters": {
+          "$ref": "#/$defs/refs"
+        },
+        "constitutional_root_ids": {
+          "$ref": "#/$defs/refs"
+        },
+        "include_holdings": {
+          "const": true
+        },
+        "include_judicial_treatment": {
+          "const": true
+        },
+        "include_status_assessments": {
+          "const": true
+        },
+        "scope": {
+          "$ref": "#/$defs/ref"
+        },
+        "review_status": {
+          "const": "candidate_viewpoint_no_renderer"
+        },
+        "publication_owner": {
+          "const": "afri-website"
+        }
+      },
+      "additionalProperties": false
+    },
+    "courtsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/court"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "sourcesCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "casesCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/case"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "holdingsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/holding"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "interpretationsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/interpretation"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "treatmentsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/treatment"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "statusAssessmentsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/status"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "applicabilityCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/applicability"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "viewpointsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/viewpoint"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/courtsCollection"
+    },
+    {
+      "$ref": "#/$defs/sourcesCollection"
+    },
+    {
+      "$ref": "#/$defs/casesCollection"
+    },
+    {
+      "$ref": "#/$defs/holdingsCollection"
+    },
+    {
+      "$ref": "#/$defs/interpretationsCollection"
+    },
+    {
+      "$ref": "#/$defs/treatmentsCollection"
+    },
+    {
+      "$ref": "#/$defs/statusAssessmentsCollection"
+    },
+    {
+      "$ref": "#/$defs/applicabilityCollection"
+    },
+    {
+      "$ref": "#/$defs/viewpointsCollection"
+    }
+  ]
+}
