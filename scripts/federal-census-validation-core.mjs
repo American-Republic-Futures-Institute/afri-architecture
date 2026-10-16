@@ -33,7 +33,7 @@ function requireFact(condition,message){if(!condition)bad(message);}
 const id=x=>typeof x==="string"&&/^[A-Z][A-Z0-9-]{2,170}$/.test(x);
 const uniq=arr=>new Set(arr).size===arr.length;
 const isDate=x=>typeof x==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x)&&!Number.isNaN(Date.parse(x+"T00:00:00Z"));
-const pathGuard=x=>typeof x==="string"&&/^model\/federal\/[a-z0-9/-]+\.json$/.test(x);
+const pathGuard=x=>typeof x==="string"&&/^model\/[a-z0-9-]+(?:\/[a-z0-9-]+)*\.json$/.test(x);
 const asArray=x=>Array.isArray(x)?x:[];
 function dataset(manifest,files,path){
  requireFact(manifest.models.includes(path),"unregistered collection "+path);
