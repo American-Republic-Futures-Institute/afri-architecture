@@ -25,10 +25,10 @@ test("all nineteen public DoD collection types conform to exact versioned field 
  assert.equal(result.model_families,19);
  assert.deepEqual(result.errors,[]);
  const unauthorized=structuredClone(initial.files);
- find(unauthorized,"dafas","DOD-DAFA-DIA").unreviewed_contract_promotion="yes";
+ find({files:unauthorized},"dafas","DOD-DAFA-DIA").unreviewed_contract_promotion="yes";
  assert(checkDodSchema(schema,unauthorized).errors.some(x=>x.includes("unknown publication field")));
  const overgrant=structuredClone(initial.files);
- find(overgrant,"fiscal-crosswalks","DOD-FISCAL-FY26-OM").appropriation_verified=true;
+ find({files:overgrant},"fiscal-crosswalks","DOD-FISCAL-FY26-OM").appropriation_verified=true;
  assert(checkDodSchema(schema,overgrant).errors.some(x=>x.includes("constant mismatch")));
  const missingRule=structuredClone(schema);delete missingRule.$defs.offices.properties.id.pattern;
  assert(checkDodSchema(missingRule,initial.files).errors.some(x=>x.includes("missing strict record schema")));
