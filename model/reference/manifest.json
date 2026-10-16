@@ -1,0 +1,36 @@
+{
+  "id": "ARFI-COA-INST-REF-001",
+  "standard": "ARFI-COA",
+  "version": "0.1.0",
+  "status": "research_baseline_unratified",
+  "snapshot_date": "2026-10-16",
+  "description": "Non-authoritative, reusable institutional and cross-domain capability reference overlay. Existing federal and State model IDs remain canonical.",
+  "source_catalog": "model/federal/manifest.json",
+  "plan_contract": {
+    "repository": "American-Republic-Futures-Institute/afri-plan-therepublicwebuild",
+    "commit_sha": "173476efd1e66988d7f51f67526025d007e44e93",
+    "authoritative_content_status": "draft_unratified"
+  },
+  "models": [
+    "model/reference/institution-view.json",
+    "model/reference/domain-contract.json",
+    "model/reference/shared-capabilities.json",
+    "model/reference/capability-relationships.json",
+    "model/reference/institution-candidates.json"
+  ],
+  "constraints": [
+    "No proposed capability or catalog containment grants governmental authority.",
+    "No branch other than legislative, executive and judicial is created.",
+    "State institutions are not federal subdivisions; territorial and tribal organizational details remain unmodeled.",
+    "Judicial appeal, oversight, independent regulatory judgment and functional collaboration cannot be inferred from parent_id.",
+    "Only descriptive relationships; no new federal institution or named office without a source."
+  ],
+  "publication_contract": {
+    "schema_version": "0.1.0",
+    "machine_readable": true,
+    "no_web_renderer": true,
+    "public_review_required": true,
+    "authority_edge_status": "not_asserted",
+    "cross_repo_links": "immutable_plan_commit"
+  }
+}

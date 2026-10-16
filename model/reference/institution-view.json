@@ -1,0 +1,168 @@
+{
+  "version": "0.1.0",
+  "status": "research_baseline_unratified",
+  "semantics": {
+    "containment": "Existing parent_id is catalog containment only and never implies legal command.",
+    "role": "Selected source files and filters are index/view definitions, not additional institutional records.",
+    "legal_power": "Authority must be proven in its own controlling legal source. Branch and organizational membership alone are insufficient."
+  },
+  "federal_views": [
+    {
+      "id": "INST-VIEW-LEG",
+      "branch_id": "BR-FED-LEG",
+      "label": "Legislative branch",
+      "files": [
+        "model/federal/legislative.json"
+      ],
+      "kinds": [
+        "bicameral_legislature",
+        "legislative_chamber",
+        "legislative_support_agency",
+        "legislative_research_service"
+      ],
+      "coverage": "existing_catalog_only",
+      "focus": "Lawmaking, appropriation, representation, legislative research and oversight"
+    },
+    {
+      "id": "INST-VIEW-EXE-LEAD",
+      "branch_id": "BR-FED-EXE",
+      "label": "Executive constitutional and EOP offices",
+      "files": [
+        "model/federal/executive-leadership.json"
+      ],
+      "kinds": [
+        "constitutional_office",
+        "executive_office",
+        "eop_component"
+      ],
+      "coverage": "existing_catalog_only",
+      "focus": "Distinct constitutional offices and selected EOP functions; no EOP-wide legal command inference"
+    },
+    {
+      "id": "INST-VIEW-EXE-DEPT",
+      "branch_id": "BR-FED-EXE",
+      "label": "Fifteen executive departments",
+      "files": [
+        "model/federal/executive-departments.json"
+      ],
+      "kinds": [
+        "executive_department"
+      ],
+      "expected_count": 15,
+      "coverage": "fifteen_cabinet_departments_only",
+      "focus": "Statutory Cabinet departments; subordinate bureaus and offices not exhaustively modeled"
+    },
+    {
+      "id": "INST-VIEW-EXE-IND",
+      "branch_id": "BR-FED-EXE",
+      "label": "Selected independent federal entities",
+      "files": [
+        "model/federal/executive-independent.json"
+      ],
+      "kinds": [
+        "independent_federal_body"
+      ],
+      "coverage": "selected_non_exhaustive",
+      "focus": "Independent statutory authorities and leadership structures differ; grouping is not presidential direction"
+    },
+    {
+      "id": "INST-VIEW-JUD",
+      "branch_id": "BR-FED-JUD",
+      "label": "Federal judiciary and judicial-support catalog",
+      "files": [
+        "model/federal/judiciary.json"
+      ],
+      "kinds": [
+        "constitutional_court",
+        "court_group",
+        "specialized_federal_court",
+        "specialized_legislative_court",
+        "judicial_support_agency",
+        "judicial_governing_body"
+      ],
+      "coverage": "existing_aggregates_only",
+      "focus": "Courts, case jurisdiction and independent judicial administration; catalog grouping is not hierarchy of appellate review"
+    }
+  ],
+  "non_federal": [
+    {
+      "id": "INST-SCOPE-STATE",
+      "jurisdiction_kind": "member_states",
+      "source_file": "model/state/jurisdictions.json",
+      "coverage": "50_jurisdictions_with_selected_state_institutional_pilots",
+      "status": "partially_modeled",
+      "federal_subordinate": false,
+      "note": "State branches and offices derive from each State constitution and enabling laws."
+    },
+    {
+      "id": "INST-SCOPE-FED-DISTRICT",
+      "jurisdiction_kind": "federal_district",
+      "source_file": "model/state/nonstate-comparators.json",
+      "coverage": "district_of_columbia_comparator_only",
+      "status": "partially_modeled",
+      "federal_subordinate": false,
+      "note": "D.C. is not the fifty-first member State; treat authorities and representation on their own terms."
+    },
+    {
+      "id": "INST-SCOPE-TRIBAL",
+      "jurisdiction_kind": "tribal_nations",
+      "source_file": null,
+      "coverage": "not_yet_modeled",
+      "status": "research_pending",
+      "federal_subordinate": false,
+      "note": "Distinct sovereign governments. Do not impose State or federal branch organization templates or invented jurisdiction IDs."
+    },
+    {
+      "id": "INST-SCOPE-TERR",
+      "jurisdiction_kind": "us_territories",
+      "source_file": null,
+      "coverage": "not_yet_modeled",
+      "status": "research_pending",
+      "federal_subordinate": false,
+      "note": "Territorial powers and local institutions vary. Do not assume a uniform State template."
+    },
+    {
+      "id": "INST-SCOPE-LOCAL",
+      "jurisdiction_kind": "local_government",
+      "source_file": null,
+      "coverage": "not_exhaustively_modeled",
+      "status": "research_pending",
+      "federal_subordinate": false,
+      "note": "Local arrangements derive from relevant State/territorial laws and special government structures."
+    }
+  ],
+  "publication_views": [
+    {
+      "id": "NAV-001",
+      "label": "By constitutional branch",
+      "selector_ids": [
+        "INST-VIEW-LEG",
+        "INST-VIEW-EXE-LEAD",
+        "INST-VIEW-EXE-DEPT",
+        "INST-VIEW-EXE-IND",
+        "INST-VIEW-JUD"
+      ]
+    },
+    {
+      "id": "NAV-002",
+      "label": "By national outcome and shared capability",
+      "selector_ids": [
+        "INST-VIEW-LEG",
+        "INST-VIEW-EXE-DEPT",
+        "INST-VIEW-EXE-IND",
+        "INST-VIEW-JUD"
+      ]
+    },
+    {
+      "id": "NAV-003",
+      "label": "By jurisdiction boundary",
+      "selector_ids": [
+        "INST-SCOPE-STATE",
+        "INST-SCOPE-FED-DISTRICT",
+        "INST-SCOPE-TRIBAL",
+        "INST-SCOPE-TERR",
+        "INST-SCOPE-LOCAL"
+      ]
+    }
+  ]
+}

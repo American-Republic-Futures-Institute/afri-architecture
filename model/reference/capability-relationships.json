@@ -1,0 +1,443 @@
+{
+  "version": "0.1.0",
+  "status": "conceptual_traces_unratified",
+  "items": [
+    {
+      "id": "XLINK-0001",
+      "shared_capability_id": "CAP-XDOM-001",
+      "domain_id": "DOM-02",
+      "domain_capability_ids": [
+        "EDU-C11"
+      ],
+      "outcome_ids": [
+        "EDU-O10"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Learning statistics require privacy and responsible use of student information."
+    },
+    {
+      "id": "XLINK-0002",
+      "shared_capability_id": "CAP-XDOM-001",
+      "domain_id": "DOM-03",
+      "domain_capability_ids": [
+        "HLT-C10"
+      ],
+      "outcome_ids": [
+        "HLT-O09"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Care coordination requires lawful, limited information sharing."
+    },
+    {
+      "id": "XLINK-0003",
+      "shared_capability_id": "CAP-XDOM-001",
+      "domain_id": "DOM-05",
+      "domain_capability_ids": [
+        "EPR-C06"
+      ],
+      "outcome_ids": [
+        "EPR-O03"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Market information practices should protect individuals and honest competition."
+    },
+    {
+      "id": "XLINK-0004",
+      "shared_capability_id": "CAP-XDOM-001",
+      "domain_id": "DOM-12",
+      "domain_capability_ids": [
+        "CYB-C04"
+      ],
+      "outcome_ids": [
+        "CYB-O03"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Privacy is an explicit security-adjacent public outcome."
+    },
+    {
+      "id": "XLINK-0005",
+      "shared_capability_id": "CAP-XDOM-002",
+      "domain_id": "DOM-03",
+      "domain_capability_ids": [
+        "HLT-C08"
+      ],
+      "outcome_ids": [
+        "HLT-O08"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Clinical services must continue during disruptions."
+    },
+    {
+      "id": "XLINK-0006",
+      "shared_capability_id": "CAP-XDOM-002",
+      "domain_id": "DOM-05",
+      "domain_capability_ids": [
+        "EPR-C08"
+      ],
+      "outcome_ids": [
+        "EPR-O08"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Disruptions affect productive capacity and household stability."
+    },
+    {
+      "id": "XLINK-0007",
+      "shared_capability_id": "CAP-XDOM-002",
+      "domain_id": "DOM-12",
+      "domain_capability_ids": [
+        "CYB-C06",
+        "CYB-C07"
+      ],
+      "outcome_ids": [
+        "CYB-O01"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Essential cyber resilience is measured in service continuity."
+    },
+    {
+      "id": "XLINK-0008",
+      "shared_capability_id": "CAP-XDOM-003",
+      "domain_id": "DOM-02",
+      "domain_capability_ids": [
+        "EDU-C06",
+        "EDU-C08"
+      ],
+      "outcome_ids": [
+        "EDU-O08"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Learning pathways remain open across life stages."
+    },
+    {
+      "id": "XLINK-0009",
+      "shared_capability_id": "CAP-XDOM-003",
+      "domain_id": "DOM-03",
+      "domain_capability_ids": [
+        "HLT-C05"
+      ],
+      "outcome_ids": [
+        "HLT-O01"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Clinical availability depends on a capable workforce."
+    },
+    {
+      "id": "XLINK-0010",
+      "shared_capability_id": "CAP-XDOM-003",
+      "domain_id": "DOM-05",
+      "domain_capability_ids": [
+        "EPR-C03"
+      ],
+      "outcome_ids": [
+        "EPR-O02"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Learning and skills support work and upward mobility."
+    },
+    {
+      "id": "XLINK-0011",
+      "shared_capability_id": "CAP-XDOM-003",
+      "domain_id": "DOM-12",
+      "domain_capability_ids": [
+        "CYB-C12"
+      ],
+      "outcome_ids": [
+        "CYB-O09"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Evolving cyber threats require continued professional learning."
+    },
+    {
+      "id": "XLINK-0012",
+      "shared_capability_id": "CAP-XDOM-004",
+      "domain_id": "DOM-02",
+      "domain_capability_ids": [
+        "EDU-C11"
+      ],
+      "outcome_ids": [
+        "EDU-O10"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Reliable learning evidence informs public correction."
+    },
+    {
+      "id": "XLINK-0013",
+      "shared_capability_id": "CAP-XDOM-004",
+      "domain_id": "DOM-03",
+      "domain_capability_ids": [
+        "HLT-C12"
+      ],
+      "outcome_ids": [
+        "HLT-O02"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Health outcomes require reliable risk-adjusted evidence."
+    },
+    {
+      "id": "XLINK-0014",
+      "shared_capability_id": "CAP-XDOM-004",
+      "domain_id": "DOM-05",
+      "domain_capability_ids": [
+        "EPR-C10"
+      ],
+      "outcome_ids": [
+        "EPR-O01"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Output and household well-being need distinct evidence."
+    },
+    {
+      "id": "XLINK-0015",
+      "shared_capability_id": "CAP-XDOM-004",
+      "domain_id": "DOM-12",
+      "domain_capability_ids": [
+        "CYB-C11"
+      ],
+      "outcome_ids": [
+        "CYB-O09"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Audit and consequence metrics must resist under-reporting."
+    },
+    {
+      "id": "XLINK-0016",
+      "shared_capability_id": "CAP-XDOM-005",
+      "domain_id": "DOM-02",
+      "domain_capability_ids": [
+        "EDU-C12"
+      ],
+      "outcome_ids": [
+        "EDU-O09"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Education affordability depends on sustainable arrangements."
+    },
+    {
+      "id": "XLINK-0017",
+      "shared_capability_id": "CAP-XDOM-005",
+      "domain_id": "DOM-03",
+      "domain_capability_ids": [
+        "HLT-C06"
+      ],
+      "outcome_ids": [
+        "HLT-O03"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Care financing must protect households while sustaining service quality."
+    },
+    {
+      "id": "XLINK-0018",
+      "shared_capability_id": "CAP-XDOM-005",
+      "domain_id": "DOM-05",
+      "domain_capability_ids": [
+        "EPR-C11"
+      ],
+      "outcome_ids": [
+        "EPR-O10"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Fiscal choices should remain credible over generations."
+    },
+    {
+      "id": "XLINK-0019",
+      "shared_capability_id": "CAP-XDOM-006",
+      "domain_id": "DOM-02",
+      "domain_capability_ids": [
+        "EDU-C05"
+      ],
+      "outcome_ids": [
+        "EDU-O06"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Disabled and underserved learners require practical access."
+    },
+    {
+      "id": "XLINK-0020",
+      "shared_capability_id": "CAP-XDOM-006",
+      "domain_id": "DOM-03",
+      "domain_capability_ids": [
+        "HLT-C11"
+      ],
+      "outcome_ids": [
+        "HLT-O07"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Patients require information and meaningful appeal."
+    },
+    {
+      "id": "XLINK-0021",
+      "shared_capability_id": "CAP-XDOM-006",
+      "domain_id": "DOM-05",
+      "domain_capability_ids": [
+        "EPR-C05"
+      ],
+      "outcome_ids": [
+        "EPR-O01"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Economic capacity supports full civic and market participation."
+    },
+    {
+      "id": "XLINK-0022",
+      "shared_capability_id": "CAP-XDOM-006",
+      "domain_id": "DOM-12",
+      "domain_capability_ids": [
+        "CYB-C11"
+      ],
+      "outcome_ids": [
+        "CYB-O04"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Security errors and compromised accounts require fair remedies."
+    },
+    {
+      "id": "XLINK-0023",
+      "shared_capability_id": "CAP-XDOM-007",
+      "domain_id": "DOM-03",
+      "domain_capability_ids": [
+        "HLT-C08"
+      ],
+      "outcome_ids": [
+        "HLT-O08"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Hospital continuity depends on energy and supply systems."
+    },
+    {
+      "id": "XLINK-0024",
+      "shared_capability_id": "CAP-XDOM-007",
+      "domain_id": "DOM-05",
+      "domain_capability_ids": [
+        "EPR-C08"
+      ],
+      "outcome_ids": [
+        "EPR-O08"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Industrial supply diversity reduces certain critical dependencies."
+    },
+    {
+      "id": "XLINK-0025",
+      "shared_capability_id": "CAP-XDOM-007",
+      "domain_id": "DOM-12",
+      "domain_capability_ids": [
+        "CYB-C07"
+      ],
+      "outcome_ids": [
+        "CYB-O01"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Critical infrastructure recovery intersects with cyber operations."
+    },
+    {
+      "id": "XLINK-0026",
+      "shared_capability_id": "CAP-XDOM-008",
+      "domain_id": "DOM-02",
+      "domain_capability_ids": [
+        "EDU-C10"
+      ],
+      "outcome_ids": [
+        "EDU-O06"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Learning platforms must admit people with varied access needs."
+    },
+    {
+      "id": "XLINK-0027",
+      "shared_capability_id": "CAP-XDOM-008",
+      "domain_id": "DOM-03",
+      "domain_capability_ids": [
+        "HLT-C10"
+      ],
+      "outcome_ids": [
+        "HLT-O09"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Health identity must respect sensitive records and correction."
+    },
+    {
+      "id": "XLINK-0028",
+      "shared_capability_id": "CAP-XDOM-008",
+      "domain_id": "DOM-05",
+      "domain_capability_ids": [
+        "EPR-C06"
+      ],
+      "outcome_ids": [
+        "EPR-O03"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Markets depend on trustworthy consumer interactions."
+    },
+    {
+      "id": "XLINK-0029",
+      "shared_capability_id": "CAP-XDOM-008",
+      "domain_id": "DOM-12",
+      "domain_capability_ids": [
+        "CYB-C03"
+      ],
+      "outcome_ids": [
+        "CYB-O04"
+      ],
+      "relationship_type": "candidate_enabler_of",
+      "status": "research_hypothesis_unratified",
+      "authority_asserted": false,
+      "rationale": "Fraud controls must support verified correction and recovery."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-06 institutional selector reference",
+  "type": "object",
+  "required": [
+    "version",
+    "status",
+    "semantics",
+    "federal_views",
+    "non_federal",
+    "publication_views"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "status": {
+      "const": "research_baseline_unratified"
+    },
+    "semantics": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "title": "semantics",
+      "type": "object",
+      "required": [
+        "containment",
+        "role",
+        "legal_power"
+      ],
+      "properties": {
+        "containment": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "legal_power": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "federal_views": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "federal selector",
+        "type": "object",
+        "required": [
+          "id",
+          "branch_id",
+          "label",
+          "files",
+          "kinds",
+          "coverage",
+          "focus"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^INST-VIEW-[A-Z-]+$"
+          },
+          "branch_id": {
+            "type": "string",
+            "pattern": "^BR-FED-(LEG|EXE|JUD)$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "files": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^model/[a-z-]+/[a-z-]+\\.json$"
+            }
+          },
+          "kinds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "coverage": {
+            "type": "string",
+            "enum": [
+              "existing_catalog_only",
+              "selected_non_exhaustive",
+              "existing_aggregates_only",
+              "fifteen_cabinet_departments_only"
+            ]
+          },
+          "focus": {
+            "type": "string"
+          },
+          "expected_count": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "non_federal": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "jurisdiction scope",
+        "type": "object",
+        "required": [
+          "id",
+          "jurisdiction_kind",
+          "source_file",
+          "coverage",
+          "status",
+          "federal_subordinate",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^INST-SCOPE-[A-Z-]+$"
+          },
+          "jurisdiction_kind": {
+            "type": "string",
+            "enum": [
+              "member_states",
+              "federal_district",
+              "tribal_nations",
+              "us_territories",
+              "local_government"
+            ]
+          },
+          "source_file": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^model/[a-z-]+/[a-z-]+\\.json$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "coverage": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "partially_modeled",
+              "research_pending"
+            ]
+          },
+          "federal_subordinate": {
+            "const": false
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "publication_views": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "publication view",
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "selector_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^NAV-[0-9]{3}$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "selector_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

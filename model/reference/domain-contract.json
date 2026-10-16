@@ -1,0 +1,174 @@
+{
+  "version": "0.1.0",
+  "status": "source_snapshot_unratified",
+  "repository": "American-Republic-Futures-Institute/afri-plan-therepublicwebuild",
+  "commit_sha": "173476efd1e66988d7f51f67526025d007e44e93",
+  "domains": [
+    {
+      "id": "DOM-02",
+      "name": "Education and Lifelong Learning",
+      "plan_path": "manuscript/02-education-and-lifelong-learning.md",
+      "outcome_ids": [
+        "EDU-O01",
+        "EDU-O02",
+        "EDU-O03",
+        "EDU-O04",
+        "EDU-O05",
+        "EDU-O06",
+        "EDU-O07",
+        "EDU-O08",
+        "EDU-O09",
+        "EDU-O10"
+      ],
+      "capability_ids": [
+        "EDU-C01",
+        "EDU-C02",
+        "EDU-C03",
+        "EDU-C04",
+        "EDU-C05",
+        "EDU-C06",
+        "EDU-C07",
+        "EDU-C08",
+        "EDU-C09",
+        "EDU-C10",
+        "EDU-C11",
+        "EDU-C12"
+      ],
+      "progress_ids": [
+        "EDU-P01",
+        "EDU-P02",
+        "EDU-P03",
+        "EDU-P04",
+        "EDU-P05",
+        "EDU-P06",
+        "EDU-P07",
+        "EDU-P08"
+      ],
+      "integrity_note": "Identifiers are imported from a named manuscript commit; changes require a versioned reconciliation and independent review."
+    },
+    {
+      "id": "DOM-03",
+      "name": "Health and Human Well-Being",
+      "plan_path": "manuscript/domains/DOM-03-health-and-human-well-being.md",
+      "outcome_ids": [
+        "HLT-O01",
+        "HLT-O02",
+        "HLT-O03",
+        "HLT-O04",
+        "HLT-O05",
+        "HLT-O06",
+        "HLT-O07",
+        "HLT-O08",
+        "HLT-O09"
+      ],
+      "capability_ids": [
+        "HLT-C01",
+        "HLT-C02",
+        "HLT-C03",
+        "HLT-C04",
+        "HLT-C05",
+        "HLT-C06",
+        "HLT-C07",
+        "HLT-C08",
+        "HLT-C09",
+        "HLT-C10",
+        "HLT-C11",
+        "HLT-C12"
+      ],
+      "progress_ids": [
+        "HLT-P01",
+        "HLT-P02",
+        "HLT-P03",
+        "HLT-P04",
+        "HLT-P05",
+        "HLT-P06",
+        "HLT-P07"
+      ],
+      "integrity_note": "Identifiers are imported from a named manuscript commit; changes require a versioned reconciliation and independent review."
+    },
+    {
+      "id": "DOM-05",
+      "name": "Economy, Work, and Prosperity",
+      "plan_path": "manuscript/domains/DOM-05-economy-work-and-prosperity.md",
+      "outcome_ids": [
+        "EPR-O01",
+        "EPR-O02",
+        "EPR-O03",
+        "EPR-O04",
+        "EPR-O05",
+        "EPR-O06",
+        "EPR-O07",
+        "EPR-O08",
+        "EPR-O09",
+        "EPR-O10"
+      ],
+      "capability_ids": [
+        "EPR-C01",
+        "EPR-C02",
+        "EPR-C03",
+        "EPR-C04",
+        "EPR-C05",
+        "EPR-C06",
+        "EPR-C07",
+        "EPR-C08",
+        "EPR-C09",
+        "EPR-C10",
+        "EPR-C11",
+        "EPR-C12"
+      ],
+      "progress_ids": [
+        "EPR-P01",
+        "EPR-P02",
+        "EPR-P03",
+        "EPR-P04",
+        "EPR-P05",
+        "EPR-P06",
+        "EPR-P07",
+        "EPR-P08"
+      ],
+      "integrity_note": "Identifiers are imported from a named manuscript commit; changes require a versioned reconciliation and independent review."
+    },
+    {
+      "id": "DOM-12",
+      "name": "Cybersecurity, Privacy, and Information Integrity",
+      "plan_path": "manuscript/domains/DOM-12-cybersecurity-privacy-and-information-integrity.md",
+      "outcome_ids": [
+        "CYB-O01",
+        "CYB-O02",
+        "CYB-O03",
+        "CYB-O04",
+        "CYB-O05",
+        "CYB-O06",
+        "CYB-O07",
+        "CYB-O08",
+        "CYB-O09",
+        "CYB-O10"
+      ],
+      "capability_ids": [
+        "CYB-C01",
+        "CYB-C02",
+        "CYB-C03",
+        "CYB-C04",
+        "CYB-C05",
+        "CYB-C06",
+        "CYB-C07",
+        "CYB-C08",
+        "CYB-C09",
+        "CYB-C10",
+        "CYB-C11",
+        "CYB-C12"
+      ],
+      "progress_ids": [
+        "CYB-P01",
+        "CYB-P02",
+        "CYB-P03",
+        "CYB-P04",
+        "CYB-P05",
+        "CYB-P06",
+        "CYB-P07",
+        "CYB-P08"
+      ],
+      "integrity_note": "Identifiers are imported from a named manuscript commit; changes require a versioned reconciliation and independent review."
+    }
+  ]
+}

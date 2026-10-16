@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-06 pinned manuscript reference identifiers",
+  "type": "object",
+  "required": [
+    "version",
+    "status",
+    "repository",
+    "commit_sha",
+    "domains"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "status": {
+      "const": "source_snapshot_unratified"
+    },
+    "repository": {
+      "type": "string"
+    },
+    "commit_sha": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "domains": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "domain",
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "plan_path",
+          "outcome_ids",
+          "capability_ids",
+          "progress_ids",
+          "integrity_note"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^DOM-[0-9]{2}$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "plan_path": {
+            "type": "string"
+          },
+          "outcome_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}-O[0-9]{2}$"
+            }
+          },
+          "capability_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}-C[0-9]{2}$"
+            }
+          },
+          "progress_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}-P[0-9]{2}$"
+            }
+          },
+          "integrity_note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
