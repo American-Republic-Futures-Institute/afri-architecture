@@ -22,7 +22,7 @@ const reject=(name,change,error)=>test(name,()=>{
 test("all nineteen public DoD collection types conform to exact versioned field contracts",()=>{
  const schema=read("schemas/dod-institutional.schema.json");
  const result=checkDodSchema(schema,initial.files);
- assert.equal(result.model_families,19);
+ assert.equal(result.model_families,20);
  assert.deepEqual(result.errors,[]);
  const unauthorized=structuredClone(initial.files);
  find({files:unauthorized},"dafas","DOD-DAFA-DIA").unreviewed_contract_promotion="yes";
@@ -107,8 +107,8 @@ test("FY26 Defense-wide categories are budget requests and not legally available
   assert.equal(x.spent_or_obligated_derived,false);
  }
 });
-test("each of the seven bounded institutional and authority viewpoints has only cited data",()=>{
- assert.equal(verified.views.length,7);
+test("each of the eight bounded institutional, constitutional and authority viewpoints has only cited data",()=>{
+ assert.equal(verified.views.length,8);
  for(const x of verified.views){
   const p=projectDodView(verified,x.id);
   assert(p.nodes.length>0);
@@ -122,8 +122,23 @@ test("each of the seven bounded institutional and authority viewpoints has only 
  assert(cc.nodes.some(x=>x.id==="DOD-CCMD-AFRICOM"));
  assert(!cc.nodes.some(x=>x.id==="DOD-DAFA-DIA"));
 });
-test("19 bounded DoD collections retain canonical manifest and unresolved gap declarations",()=>{
- assert.equal(DOD_MODEL_PATHS.length,19);
+test("seven textual military and fiscal constitutional contexts map only to Congress and President",()=>{
+ const links=verified.data["constitutional-context"];
+ assert.equal(links.length,7);
+ assert.equal(verified.checks.constitution_context_links,7);
+ assert.equal(links.filter(x=>x.competent_actor_id==="ORG-FED-LEG-CONGRESS").length,6);
+ assert.equal(links.filter(x=>x.competent_actor_id==="ORG-FED-EXE-PRESIDENT").length,1);
+ assert(links.every(x=>x.individual_dod_agency_power_derived===false));
+ assert(links.every(x=>x.appropriations_derived===false));
+ const graph=projectDodView(verified,"VIEW-DOD-CONSTITUTION");
+ assert.equal(graph.nodes.length,21);
+ assert.equal(graph.relationships.length,14);
+ assert(graph.relationships.every(x=>x.legal_authority_proven===false));
+ assert(graph.nodes.some(x=>x.id==="CONST-US-ART-02-SEC-02-CL-01"));
+ assert(graph.nodes.some(x=>x.id==="CONST-US-ART-01-SEC-09-CL-07"));
+});
+test("20 bounded DoD collections retain canonical manifest and unresolved gap declarations",()=>{
+ assert.equal(DOD_MODEL_PATHS.length,20);
  for(const p of DOD_MODEL_PATHS)assert(initial.manifest.models.includes(p));
  assert.equal(verified.checks.open_gaps,11);
  assert.equal(verified.extension.public_current_roster_reconciled,false);
@@ -158,3 +173,16 @@ reject("website rendering cannot be certified in architecture-only PR",f=>{find(
 reject("DoD new component cannot replace old census identifier",f=>{find(f,"statutory-composition","CENSUS-COMP-DEF-NAVY").legacy_census_ref="DOD-COMP-NEW-NAVY";},"original census ID");
 reject("unsupported legal interpretation cannot claim complete citator",f=>{f.manifest.dod_institutional_authority_extension.legal_citator_review_complete=true;},"extension incorrectly claims");
 reject("individual DAFA charter cannot be fabricated from GAO organization chart",f=>{find(f,"dafas","DOD-DAFA-DLA").individual_charter_or_delegation_verified=true;},"falsely establishes");
+reject("President's constitutional Commander-in-Chief clause cannot be assigned to Congress",f=>{
+ find(f,"constitutional-context","DOD-CONTEXT-COMMANDER").competent_actor_id="ORG-FED-LEG-CONGRESS";
+},"constitution-statutory crosswalk invents");
+reject("Article I Army raising clause cannot independently grant agency authority",f=>{
+ find(f,"constitutional-context","DOD-CONTEXT-ARMIES").individual_dod_agency_power_derived=true;
+},"constitution-statutory crosswalk invents");
+reject("original constitutional witness cannot be substituted with an unreviewed source",f=>{
+ find(f,"constitutional-context","DOD-CONTEXT-APPROPRIATIONS").source_ids=["DOD-SRC-FY26-DEFENSE-WIDE"];
+},"constitution-statutory crosswalk invents");
+reject("FY2026 budget request cannot supply appropriations under the Constitution",f=>{
+ find(f,"constitutional-context","DOD-CONTEXT-APPROPRIATIONS").appropriations_derived=true;
+},"constitution-statutory crosswalk invents");
+
