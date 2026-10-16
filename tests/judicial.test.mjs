@@ -28,7 +28,7 @@ function reject(f,msg){
 }
 test("initial 18-case judicial precedent dataset passes every legal provenance gate",()=>{
  const r=validateJudicialPrecedent(fixture());assert.deepEqual(r.errors,[]);
- assert.deepEqual(r.counts,{courts:1,official_opinion_sources:18,supporting_sources:7,cases:18,holdings:20,constitutional_links:30,treatments:10,status_assessments:20,applicability:20,viewpoints:6});
+ assert.deepEqual(r.counts,{courts:1,official_opinion_sources:26,supporting_sources:7,cases:26,holdings:29,constitutional_links:44,treatments:10,status_assessments:29,applicability:29,viewpoints:10});
 });
 test("Supreme Court case registry contains two distinct Marbury holdings and two McCulloch holdings",()=>{
  const f=fixture();
@@ -160,4 +160,59 @@ test("reject a judicial viewpoint moved into the architecture data repo as websi
 });
 test("reject omission of one judicial register from manifest",()=>{
  const f=fixture();f.manifest.models=f.manifest.models.filter(x=>!x.endsWith("/judicial/applicability.json"));reject(f,"Missing judicial publication model applicability");
+});
+
+test("eight official-source cases cover legislative, executive, standing and rights issues",()=>{
+ const f=fixture();
+ for(const slug of ["GIBBONS-1824","YOUNGSTOWN-1952","NIXON-1974","CHADHA-1983","LUJAN-1992","LOPEZ-1995","HELLER-2008","OBERGEFELL-2015"])
+  assert.ok(found(f,"cases",c(slug)),"Missing "+slug);
+});
+test("reject missing official Commerce Clause holding from Gibbons",()=>{
+ const f=fixture();f.models.holdings.items=f.models.holdings.items.filter(x=>x.id!==h("GIBBONS-1824"));reject(f,"Expanded judicial case holding scope incomplete CASE-US-SCOTUS-GIBBONS-1824");
+});
+test("reject Gibbons citation mutated to wrong U.S. reporter volume",()=>{
+ const f=fixture();found(f,"cases",c("GIBBONS-1824")).reporter_volume=23;reject(f,"Expanded judicial case reporter citation mismatch");
+});
+test("reject valid govinfo URL pointing to unrelated reporter document",()=>{
+ const f=fixture();found(f,"sources","SRC-JUD-OPINION-GIBBONS-1824").url="https://www.govinfo.gov/app/details/USREPORTS-23/USREPORTS-23-1";reject(f,"Court opinion URL does not match exact official reporter citation");
+});
+test("reject official opinion source date changed while case date retained",()=>{
+ const f=fixture();found(f,"sources","SRC-JUD-OPINION-CHADHA-1983").date_decided="1983-06-24";reject(f,"Judicial case cites secondary material as controlling opinion");
+});
+test("reject Cooper opinion-announcement date conflated with summary judgment",()=>{
+ const f=fixture();found(f,"cases",c("COOPER-1958")).opinion_announced_on="1958-09-12";reject(f,"Cooper judgment versus reasoned opinion date distinction lost");
+});
+test("reject Cooper source recording a false final opinion announcement",()=>{
+ const f=fixture();found(f,"sources","SRC-JUD-OPINION-COOPER-1958").opinion_announced_on="1958-09-12";reject(f,"Cooper judgment versus reasoned opinion date distinction lost");
+});
+test("reject Justice Jackson concurring Youngstown framework misrepresented as majority holding",()=>{
+ const f=fixture();found(f,"holdings",h("YOUNGSTOWN-1952")).opinion_role="controlling_plurality";reject(f,"Youngstown Jackson concurrence incorrectly promoted to controlling majority holding");
+});
+test("reject Heller federal D.C. case incorrectly mapped as binding only State official",()=>{
+ const f=fixture();found(f,"holdings",h("HELLER-2008")).affected_actor_ids=["ACT-US-STATES"];reject(f,"Heller federal District scope confused with State Fourteenth Amendment incorporation");
+});
+test("reject Heller federal constitutional source silently replaced with State incorporation",()=>{
+ const f=fixture();found(f,"holdings",h("HELLER-2008")).constitutional_provision_ids=["CONST-US-AMD-14-SEC-01"];reject(f,"Heller federal District scope confused with State Fourteenth Amendment incorporation");
+});
+test("reject Lopez Commerce Clause holding dropped from case-specific model",()=>{
+ const f=fixture();found(f,"holdings",h("LOPEZ-1995")).issue_scope="generic_federal_all_powers";reject(f,"Expanded judicial case holding scope incomplete");
+});
+test("reject Lujan standing rule misrepresented as legislation instead of Article III",()=>{
+ const f=fixture();found(f,"holdings",h("LUJAN-1992")).constitutional_provision_ids=["CONST-US-ART-01-SEC-01-CL-01"];reject(f,"Article III standing case mislabeled as an express Amendment");
+});
+test("reject absence of an applicability assessment for new case",()=>{
+ const f=fixture();f.models.applicability.items=f.models.applicability.items.filter(x=>x.holding_id!==h("NIXON-1974"));reject(f,"Holding-specific jurisdiction applicability inventory missing");
+});
+test("reject new precedent presented as current law without a completed citator",()=>{
+ const f=fixture();status(f,h("OBERGEFELL-2015")).current_binding_effect_verified=true;reject(f,"Incomplete legal citator wrongly claimed fully current controlling precedent");
+});
+test("reject incorrectly applying Fourteenth Amendment State obligation to federal-only Nixon privilege",()=>{
+ const f=fixture();cap(f,h("NIXON-1974")).government_addressee_actor_ids=["ACT-US-STATES"];reject(f,"Judicial precedent binding actor scope expanded or changed");
+});
+test("reject new source erased from case opinion provenance",()=>{
+ const f=fixture();found(f,"cases",c("CHADHA-1983")).opinion_source_ids=[];reject(f,"Missing primary case opinion");
+});
+test("reject opinion basis changed from constitutional interpretation to agency statutory law",()=>{
+ const f=fixture();found(f,"holdings",h("CHADHA-1983")).basis_kind="federal_statutory_interpretation_with_constitutional_context";
+ reject(f,"Statutory holding falsely elevated to direct constitutional interpretation");
 });

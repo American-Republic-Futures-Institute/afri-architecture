@@ -524,6 +524,241 @@
       ],
       "review_status": "scope_candidate_pending_legal_review",
       "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0021",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-GIBBONS-1824-01",
+      "case_id": "CASE-US-SCOTUS-GIBBONS-1824",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED",
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "congress_commerce_power_includes_interstate_navigation",
+      "precedential_status_id": "JUD-STATUS-GIBBONS-1824-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-GIBBONS-1824"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0022",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-GIBBONS-1824-02",
+      "case_id": "CASE-US-SCOTUS-GIBBONS-1824",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "state_navigation_monopoly_conflict_with_federal_coasting_license",
+      "precedential_status_id": "JUD-STATUS-GIBBONS-1824-02",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-GIBBONS-1824"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0023",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-YOUNGSTOWN-1952-01",
+      "case_id": "CASE-US-SCOTUS-YOUNGSTOWN-1952",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "presidential_seizure_private_industry_without_statutory_authority",
+      "precedential_status_id": "JUD-STATUS-YOUNGSTOWN-1952-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-YOUNGSTOWN-1952"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0024",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-NIXON-1974-01",
+      "case_id": "CASE-US-SCOTUS-NIXON-1974",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "presidential_communications_generalized_privilege_criminal_subpoena",
+      "precedential_status_id": "JUD-STATUS-NIXON-1974-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-NIXON-1974"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0025",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-CHADHA-1983-01",
+      "case_id": "CASE-US-SCOTUS-CHADHA-1983",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "legislative_one_house_veto_affecting_external_legal_rights",
+      "precedential_status_id": "JUD-STATUS-CHADHA-1983-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-CHADHA-1983"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0026",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-LUJAN-1992-01",
+      "case_id": "CASE-US-SCOTUS-LUJAN-1992",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED-COURTS"
+      ],
+      "bounded_issue_scope": "federal_article_iii_injury_causation_redressability_standing",
+      "precedential_status_id": "JUD-STATUS-LUJAN-1992-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-LUJAN-1992"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0027",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-LOPEZ-1995-01",
+      "case_id": "CASE-US-SCOTUS-LOPEZ-1995",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "original_gun_free_school_zones_act_no_commerce_nexus",
+      "precedential_status_id": "JUD-STATUS-LOPEZ-1995-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-LOPEZ-1995"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0028",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-HELLER-2008-01",
+      "case_id": "CASE-US-SCOTUS-HELLER-2008",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-DC"
+      ],
+      "bounded_issue_scope": "federal_district_home_self_defense_handgun_possession",
+      "precedential_status_id": "JUD-STATUS-HELLER-2008-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-HELLER-2008"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0029",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-OBERGEFELL-2015-01",
+      "case_id": "CASE-US-SCOTUS-OBERGEFELL-2015",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "state_civil_marriage_licensing_and_interstate_recognition_same_sex_couples",
+      "precedential_status_id": "JUD-STATUS-OBERGEFELL-2015-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, jurisdiction, the specific case holding and substantive/factual conditions; does not certify binding effect outside the matter decided or after unindexed later decisions.",
+      "source_ids": [
+        "SRC-JUD-OPINION-OBERGEFELL-2015"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
     }
   ]
 }

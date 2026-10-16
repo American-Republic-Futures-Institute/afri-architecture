@@ -114,6 +114,87 @@
       "scope": "case_holding_specific_no_unsourced_stare_decisis",
       "review_status": "candidate_viewpoint_no_renderer",
       "publication_owner": "afri-website"
+    },
+    {
+      "id": "VIEW-JUD-CONGRESS",
+      "type": "judicial_precedent_viewpoint",
+      "name": "Congressional Legislative Powers and Limits",
+      "case_topic_filters": [
+        "interstate_commerce",
+        "commerce_clause",
+        "enumerated_powers",
+        "legislative_veto",
+        "bicameralism_presentment"
+      ],
+      "constitutional_root_ids": [
+        "CONST-US-ART-01-SEC-08-CL-03",
+        "CONST-US-ART-01-SEC-07-CL-02"
+      ],
+      "include_holdings": true,
+      "include_judicial_treatment": true,
+      "include_status_assessments": true,
+      "scope": "case_holding_specific_no_unsourced_stare_decisis",
+      "review_status": "candidate_viewpoint_no_renderer",
+      "publication_owner": "afri-website"
+    },
+    {
+      "id": "VIEW-JUD-EXECUTIVE",
+      "type": "judicial_precedent_viewpoint",
+      "name": "Presidential Authority and Judicial Review",
+      "case_topic_filters": [
+        "executive_authority",
+        "executive_privilege",
+        "judicial_process"
+      ],
+      "constitutional_root_ids": [
+        "CONST-US-ART-02-SEC-01-CL-01",
+        "CONST-US-ART-03-SEC-01-SEG-01"
+      ],
+      "include_holdings": true,
+      "include_judicial_treatment": true,
+      "include_status_assessments": true,
+      "scope": "case_holding_specific_no_unsourced_stare_decisis",
+      "review_status": "candidate_viewpoint_no_renderer",
+      "publication_owner": "afri-website"
+    },
+    {
+      "id": "VIEW-JUD-STANDING",
+      "type": "judicial_precedent_viewpoint",
+      "name": "Article III Standing and Cases or Controversies",
+      "case_topic_filters": [
+        "judicial_standing",
+        "case_or_controversy"
+      ],
+      "constitutional_root_ids": [
+        "CONST-US-ART-03-SEC-02-CL-01"
+      ],
+      "include_holdings": true,
+      "include_judicial_treatment": true,
+      "include_status_assessments": true,
+      "scope": "case_holding_specific_no_unsourced_stare_decisis",
+      "review_status": "candidate_viewpoint_no_renderer",
+      "publication_owner": "afri-website"
+    },
+    {
+      "id": "VIEW-JUD-RIGHTS-INTERPRETATIONS",
+      "type": "judicial_precedent_viewpoint",
+      "name": "Second and Fourteenth Amendment Rights Interpretation",
+      "case_topic_filters": [
+        "second_amendment",
+        "fourteenth_amendment",
+        "marriage",
+        "equal_protection"
+      ],
+      "constitutional_root_ids": [
+        "CONST-US-AMD-02",
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "include_holdings": true,
+      "include_judicial_treatment": true,
+      "include_status_assessments": true,
+      "scope": "case_holding_specific_no_unsourced_stare_decisis",
+      "review_status": "candidate_viewpoint_no_renderer",
+      "publication_owner": "afri-website"
     }
   ]
 }

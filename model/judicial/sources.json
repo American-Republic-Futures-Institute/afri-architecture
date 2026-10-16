@@ -103,7 +103,8 @@
       "reporter_citation": "358 U.S. 1 (1958)",
       "source_scope": "Full Court opinion; holding summaries and treatment status remain human-review candidates. A syllabus, if present, is not the opinion of the Court.",
       "retrieved_as_of": "2026-10-16",
-      "verification_status": "public_government_opinion_locator"
+      "verification_status": "public_government_opinion_locator",
+      "opinion_announced_on": "1958-09-29"
     },
     {
       "id": "SRC-JUD-OPINION-GIDEON-1963",
@@ -311,6 +312,110 @@
       "source_scope": "Secondary commentary or archival synopsis. Cannot independently establish a holding, overrule, or decide a current dispute.",
       "retrieved_as_of": "2026-10-16",
       "verification_status": "public_government_analysis_locator"
+    },
+    {
+      "id": "SRC-JUD-OPINION-GIBBONS-1824",
+      "type": "judicial_source",
+      "title": "Gibbons v. Ogden — 22 U.S. (9 Wheat.) 1 (1824)",
+      "publisher": "United States Government Publishing Office (United States Reports)",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-22/USREPORTS-22-1",
+      "source_kind": "official_published_us_reports_opinion",
+      "date_decided": "1824-03-02",
+      "reporter_citation": "22 U.S. (9 Wheat.) 1 (1824)",
+      "source_scope": "Original published Supreme Court opinion from United States Reports; summary and controlling opinion-part analysis are preliminary and not citator-verified.",
+      "retrieved_as_of": "2026-10-16",
+      "verification_status": "public_government_opinion_locator"
+    },
+    {
+      "id": "SRC-JUD-OPINION-YOUNGSTOWN-1952",
+      "type": "judicial_source",
+      "title": "Youngstown Sheet & Tube Co. v. Sawyer — 343 U.S. 579 (1952)",
+      "publisher": "United States Government Publishing Office (United States Reports)",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-343/USREPORTS-343-579",
+      "source_kind": "official_published_us_reports_opinion",
+      "date_decided": "1952-06-02",
+      "reporter_citation": "343 U.S. 579 (1952)",
+      "source_scope": "Original published Supreme Court opinion from United States Reports; summary and controlling opinion-part analysis are preliminary and not citator-verified.",
+      "retrieved_as_of": "2026-10-16",
+      "verification_status": "public_government_opinion_locator"
+    },
+    {
+      "id": "SRC-JUD-OPINION-NIXON-1974",
+      "type": "judicial_source",
+      "title": "United States v. Nixon — 418 U.S. 683 (1974)",
+      "publisher": "United States Government Publishing Office (United States Reports)",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-418/USREPORTS-418-683",
+      "source_kind": "official_published_us_reports_opinion",
+      "date_decided": "1974-07-24",
+      "reporter_citation": "418 U.S. 683 (1974)",
+      "source_scope": "Original published Supreme Court opinion from United States Reports; summary and controlling opinion-part analysis are preliminary and not citator-verified.",
+      "retrieved_as_of": "2026-10-16",
+      "verification_status": "public_government_opinion_locator"
+    },
+    {
+      "id": "SRC-JUD-OPINION-CHADHA-1983",
+      "type": "judicial_source",
+      "title": "INS v. Chadha — 462 U.S. 919 (1983)",
+      "publisher": "United States Government Publishing Office (United States Reports)",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-462/USREPORTS-462-919",
+      "source_kind": "official_published_us_reports_opinion",
+      "date_decided": "1983-06-23",
+      "reporter_citation": "462 U.S. 919 (1983)",
+      "source_scope": "Original published Supreme Court opinion from United States Reports; summary and controlling opinion-part analysis are preliminary and not citator-verified.",
+      "retrieved_as_of": "2026-10-16",
+      "verification_status": "public_government_opinion_locator"
+    },
+    {
+      "id": "SRC-JUD-OPINION-LUJAN-1992",
+      "type": "judicial_source",
+      "title": "Lujan v. Defenders of Wildlife — 504 U.S. 555 (1992)",
+      "publisher": "United States Government Publishing Office (United States Reports)",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-504/USREPORTS-504-555",
+      "source_kind": "official_published_us_reports_opinion",
+      "date_decided": "1992-06-12",
+      "reporter_citation": "504 U.S. 555 (1992)",
+      "source_scope": "Original published Supreme Court opinion from United States Reports; summary and controlling opinion-part analysis are preliminary and not citator-verified.",
+      "retrieved_as_of": "2026-10-16",
+      "verification_status": "public_government_opinion_locator"
+    },
+    {
+      "id": "SRC-JUD-OPINION-LOPEZ-1995",
+      "type": "judicial_source",
+      "title": "United States v. Lopez — 514 U.S. 549 (1995)",
+      "publisher": "United States Government Publishing Office (United States Reports)",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-514/USREPORTS-514-549",
+      "source_kind": "official_published_us_reports_opinion",
+      "date_decided": "1995-04-26",
+      "reporter_citation": "514 U.S. 549 (1995)",
+      "source_scope": "Original published Supreme Court opinion from United States Reports; summary and controlling opinion-part analysis are preliminary and not citator-verified.",
+      "retrieved_as_of": "2026-10-16",
+      "verification_status": "public_government_opinion_locator"
+    },
+    {
+      "id": "SRC-JUD-OPINION-HELLER-2008",
+      "type": "judicial_source",
+      "title": "District of Columbia v. Heller — 554 U.S. 570 (2008)",
+      "publisher": "United States Government Publishing Office (United States Reports)",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-554/USREPORTS-554-570",
+      "source_kind": "official_published_us_reports_opinion",
+      "date_decided": "2008-06-26",
+      "reporter_citation": "554 U.S. 570 (2008)",
+      "source_scope": "Original published Supreme Court opinion from United States Reports; summary and controlling opinion-part analysis are preliminary and not citator-verified.",
+      "retrieved_as_of": "2026-10-16",
+      "verification_status": "public_government_opinion_locator"
+    },
+    {
+      "id": "SRC-JUD-OPINION-OBERGEFELL-2015",
+      "type": "judicial_source",
+      "title": "Obergefell v. Hodges — 576 U.S. 644 (2015)",
+      "publisher": "United States Government Publishing Office (United States Reports)",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-576/USREPORTS-576-644",
+      "source_kind": "official_published_us_reports_opinion",
+      "date_decided": "2015-06-26",
+      "reporter_citation": "576 U.S. 644 (2015)",
+      "source_scope": "Original published Supreme Court opinion from United States Reports; summary and controlling opinion-part analysis are preliminary and not citator-verified.",
+      "retrieved_as_of": "2026-10-16",
+      "verification_status": "public_government_opinion_locator"
     }
   ]
 }

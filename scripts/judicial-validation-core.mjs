@@ -42,7 +42,15 @@ const requiredIDs={
  "CASE-US-SCOTUS-PRINTZ-1997":"1997-06-27",
  "CASE-US-SCOTUS-MURPHY-2018":"2018-05-14",
  "CASE-US-SCOTUS-DOBBS-2022":"2022-06-24",
- "CASE-US-SCOTUS-LOPER-BRIGHT-2024":"2024-06-28"
+ "CASE-US-SCOTUS-LOPER-BRIGHT-2024":"2024-06-28",
+ "CASE-US-SCOTUS-GIBBONS-1824":"1824-03-02",
+ "CASE-US-SCOTUS-YOUNGSTOWN-1952":"1952-06-02",
+ "CASE-US-SCOTUS-NIXON-1974":"1974-07-24",
+ "CASE-US-SCOTUS-CHADHA-1983":"1983-06-23",
+ "CASE-US-SCOTUS-LUJAN-1992":"1992-06-12",
+ "CASE-US-SCOTUS-LOPEZ-1995":"1995-04-26",
+ "CASE-US-SCOTUS-HELLER-2008":"2008-06-26",
+ "CASE-US-SCOTUS-OBERGEFELL-2015":"2015-06-26"
 };
 const requiredOverrules=[
  ["CASE-US-SCOTUS-DOBBS-2022","CASE-US-SCOTUS-ROE-1973"],
@@ -55,7 +63,7 @@ export function validateJudicialPrecedent(d){
   if(data[key]?.model_version!=="0.1.0"||!Array.isArray(data[key]?.items))err("Invalid judicial register "+key);
   if(!list(manifest.models).includes("model/judicial/"+file+".json"))err("Missing judicial publication model "+file);
  }
- if(meta.review_status!=="initial_case_holding_index_not_citator_verified"||meta.seed_case_count!==18||meta.seed_holding_count!==20)
+ if(meta.review_status!=="initial_case_holding_index_not_citator_verified"||meta.seed_case_count!==26||meta.seed_holding_count!==29)
   err("Judicial publication claims unsupported citator completeness");
  const court=list(data.courts?.items),source=list(data.sources?.items),cases=list(data.cases?.items),holds=list(data.holdings?.items);
  const ints=list(data.interpretations?.items),treats=list(data.treatments?.items),st=list(data.statusAssessments?.items),apps=list(data.applicability?.items),views=list(data.viewpoints?.items);
@@ -89,7 +97,7 @@ export function validateJudicialPrecedent(d){
   if(s.source_kind==="official_supreme_court_opinion_pdf"&&!s.url.startsWith("https://www.supremecourt.gov/opinions/"))err("Modern Court opinion not official PDF "+s.id);
   if(s.source_kind==="official_explanatory_analysis_not_opinion"&&s.date_decided)err("Commentary source misrepresented as Court opinion "+s.id);
  }
- if(cases.length<18||holds.length<20)err("Foundational judicial precedent inventory incomplete");
+ if(cases.length<26||holds.length<29)err("Foundational judicial precedent inventory incomplete");
  for(const [id,day] of Object.entries(requiredIDs))if(cs.get(id)?.decided_on!==day)err("Judicial decision date or case missing "+id);
  for(const c of cases){
   valid(c,["type","name","decided_on","reporter_citation","court_id","decision_kind","subject_tags","opinion_source_ids","jurisdiction","court_authority_scope","opinion_text_review_status","source_as_of"],err);
@@ -101,6 +109,18 @@ export function validateJudicialPrecedent(d){
     err("Judicial case cites secondary material as controlling opinion or wrong decision date "+c.id);
   }
   if(c.court_id==="COURT-US-SCOTUS"&&c.court_authority_scope!=="final_us_supreme_court_federal_law_review_subject_to_controlling_holdings")err("Overbroad Supreme Court nationwide holding scope "+c.id);
+  for(const sid of list(c.opinion_source_ids)){
+   const s=src.get(sid);
+   if(s?.source_kind==="official_published_us_reports_opinion"){
+    const expect="https://www.govinfo.gov/app/details/USREPORTS-"+c.reporter_volume+"/USREPORTS-"+c.reporter_volume+"-"+c.reporter_first_page;
+    if(s.url!==expect)err("Court opinion URL does not match exact official reporter citation "+c.id);
+   }
+  }
+  if(c.id==="CASE-US-SCOTUS-COOPER-1958"){
+   const opinion=src.get("SRC-JUD-OPINION-COOPER-1958");
+   if(c.decided_on!=="1958-09-12"||c.opinion_announced_on!=="1958-09-29"||opinion?.opinion_announced_on!=="1958-09-29"||!c.decision_date_note?.includes("Per curiam"))
+    err("Cooper judgment versus reasoned opinion date distinction lost");
+  }
  }
  const mapping=new Map;
  for(const h of holds){
@@ -120,7 +140,32 @@ export function validateJudicialPrecedent(d){
   }
   mapping.set(h.id,new Set(own));
  }
- if(ints.length<30)err("Judicial-to-constitution traceability incomplete");
+ if(ints.length<44)err("Judicial-to-constitution traceability incomplete");
+ // Required doctrinal coverage is issue-specific and does not certify any current citator status.
+ const requiredCoverage=[
+  ["GIBBONS-1824","22 U.S. (9 Wheat.) 1 (1824)",22,1,["congress_commerce_power_includes_interstate_navigation","state_navigation_monopoly_conflict_with_federal_coasting_license"]],
+  ["YOUNGSTOWN-1952","343 U.S. 579 (1952)",343,579,["presidential_seizure_private_industry_without_statutory_authority"]],
+  ["NIXON-1974","418 U.S. 683 (1974)",418,683,["presidential_communications_generalized_privilege_criminal_subpoena"]],
+  ["CHADHA-1983","462 U.S. 919 (1983)",462,919,["legislative_one_house_veto_affecting_external_legal_rights"]],
+  ["LUJAN-1992","504 U.S. 555 (1992)",504,555,["federal_article_iii_injury_causation_redressability_standing"]],
+  ["LOPEZ-1995","514 U.S. 549 (1995)",514,549,["original_gun_free_school_zones_act_no_commerce_nexus"]],
+  ["HELLER-2008","554 U.S. 570 (2008)",554,570,["federal_district_home_self_defense_handgun_possession"]],
+  ["OBERGEFELL-2015","576 U.S. 644 (2015)",576,644,["state_civil_marriage_licensing_and_interstate_recognition_same_sex_couples"]]
+ ];
+ for(const [slug,citation,volume,firstPage,scopes] of requiredCoverage){
+  const id="CASE-US-SCOTUS-"+slug,c=cs.get(id);
+  if(c?.reporter_citation!==citation||c?.reporter_volume!==volume||c?.reporter_first_page!==firstPage)err("Expanded judicial case reporter citation mismatch "+id);
+  const hsFor=holds.filter(h=>h.case_id===id);
+  if(hsFor.length!==scopes.length||!scopes.every(scope=>hsFor.some(h=>h.issue_scope===scope)))
+   err("Expanded judicial case holding scope incomplete "+id);
+ }
+ if(hs.get("HOLD-US-SCOTUS-HELLER-2008-01")?.affected_actor_ids?.join("|")!=="ACT-US-DC"||hs.get("HOLD-US-SCOTUS-HELLER-2008-01")?.constitutional_provision_ids?.join("|")!=="CONST-US-AMD-02-SEG-02")
+  err("Heller federal District scope confused with State Fourteenth Amendment incorporation");
+ if(hs.get("HOLD-US-SCOTUS-YOUNGSTOWN-1952-01")?.opinion_role!=="majority")
+  err("Youngstown Jackson concurrence incorrectly promoted to controlling majority holding");
+ if(hs.get("HOLD-US-SCOTUS-LUJAN-1992-01")?.constitutional_provision_ids?.join("|")!=="CONST-US-ART-03-SEC-02-CL-01")
+  err("Article III standing case mislabeled as an express Amendment");
+
  const byHolding=new Map;
  for(const i of ints){
   valid(i,["type","case_id","holding_id","constitutional_provision_id","constitutional_norm_id","relation_kind","derivative_status","created_by_case_decision_not_ratification","evidence_source_ids","review_status"],err);
@@ -165,7 +210,7 @@ export function validateJudicialPrecedent(d){
   if(new Set(s.modeled_treatment_ids).size!==incoming.length||!incoming.every(t=>s.modeled_treatment_ids.includes(t.id)))err("Precedent status missing directed treatment edge "+s.id);
   for(const t of list(s.modeled_treatment_ids))if(!treatIds.has(t))err("Dangling treatment cited by precedent assessment "+s.id+":"+t);
  }
- if(apps.length!==holds.length||meta.applicability_count!==20)err("Holding-specific jurisdiction applicability inventory missing");
+ if(apps.length!==holds.length||meta.applicability_count!==holds.length)err("Holding-specific jurisdiction applicability inventory missing");
  const appMap=new Map(apps.map(a=>[a.holding_id,a]));
  for(const a of apps){
   valid(a,["type","holding_id","case_id","court_id","legal_question_family","judiciary_systems_to_consider","territorial_scope","precedential_role","government_addressee_actor_ids","bounded_issue_scope","precedential_status_id","binding_status","scope_note","source_ids","review_status","as_of"],err);

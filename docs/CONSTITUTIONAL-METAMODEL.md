@@ -97,3 +97,7 @@ Cross-referenced `amendment-effects` distinguish original-text repeal/modificati
 The judicial model introduces court/case/holding identities (`COURT-*`, `CASE-*`, `HOLD-*`) whose existence and effective date derive from an **official opinion**, never a constitutional clause. Typed `JUD-INT-*` records connect a holding to prior authoritative constitutional provision and norm IDs; `JUD-TREAT-*` point from a **later holding to an earlier holding** and specify only source-verifiable issue-limited treatment. `JUD-STATUS-*` projections are not comprehensive citator assessments, and `JUD-APP-*` capture jurisdiction, affected actors, scope and provisional precedential reach.
 
 Interpretation is not original ratified law; administrative-law statutory holdings, even if they refer to Article III, are labeled **constitutional context only**. Preliminary case status must never be rendered as final good law. See [Judicial Precedent Architecture](JUDICIAL-PRECEDENT-ARCHITECTURE.md).
+
+## Reporter identity and decision-versus-opinion publication dates
+
+Judicial primary opinion provenance now checks exact GPO United States Reports volume and first page, not merely its domain. Separate optional opinion-announcement date metadata records the September 12 judgment versus September 29 explanatory opinion in *Cooper v. Aaron*. All 29 holding applicability and precedent statuses remain issue-bounded, provisional and non-citator-verified. Details: [Judicial Precedent Architecture](JUDICIAL-PRECEDENT-ARCHITECTURE.md).
