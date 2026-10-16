@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "INC-07 typed graph edges",
+  "required": [
+    "version",
+    "status",
+    "relationship_types",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "status": {
+      "const": "typed_research_hypotheses_unratified"
+    },
+    "relationship_types": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "string",
+        "enum": [
+          "supports",
+          "depends_on",
+          "conflicts_with",
+          "constrained_by",
+          "requires_legal_authority"
+        ]
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "graph edge",
+        "required": [
+          "id",
+          "relationship_type",
+          "from_id",
+          "to_id",
+          "claim_status",
+          "effect_strength",
+          "evidence_ids",
+          "rationale",
+          "uncertainty",
+          "disconfirmation_prompt",
+          "authority_asserted",
+          "review_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^EDGE-07-[0-9]{4}$"
+          },
+          "relationship_type": {
+            "type": "string",
+            "enum": [
+              "supports",
+              "depends_on",
+              "conflicts_with",
+              "constrained_by",
+              "requires_legal_authority"
+            ]
+          },
+          "from_id": {
+            "type": "string",
+            "minLength": 4
+          },
+          "to_id": {
+            "type": "string",
+            "minLength": 4
+          },
+          "claim_status": {
+            "const": "candidate_hypothesis_unratified"
+          },
+          "effect_strength": {
+            "const": "unknown_not_quantified"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^EVID-07-[0-9]{2}$"
+            }
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 20
+          },
+          "uncertainty": {
+            "type": "string",
+            "minLength": 20
+          },
+          "disconfirmation_prompt": {
+            "type": "string",
+            "minLength": 20
+          },
+          "authority_asserted": {
+            "const": false
+          },
+          "review_status": {
+            "const": "independent_evidence_legal_and_public_review_pending"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
