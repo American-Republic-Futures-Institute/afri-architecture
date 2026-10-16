@@ -314,9 +314,11 @@ export function validateDod(manifest,files){
  const presidentEntity=files["model/federal/executive-leadership.json"].items.find(x=>x.id==="ORG-FED-EXE-PRESIDENT");
  check(presidentEntity?.branch_id==="BR-FED-EXE","Commander-in-Chief actor must preserve original canonical President identity");
  const department=files["model/federal/executive-departments.json"].items.find(x=>x.id===ext.department_id);
- check(department?.kind==="executive_department"&&department.branch_id==="BR-FED-EXE",
-  "missing unchanged canonical DoD department");
- return {manifest,extension:ext,data,sources,department,congressEntity,presidentEntity,constitutionalIndex,components:compMap,dafas:daMap,roles,commands:cmds,
+ const dhsComparator=files["model/federal/executive-departments.json"].items.find(x=>x.id==="ORG-FED-EXE-DEP-DHS");
+ check(department?.kind==="executive_department"&&department.branch_id==="BR-FED-EXE"&&
+  dhsComparator?.kind==="executive_department"&&dhsComparator.branch_id==="BR-FED-EXE",
+  "missing unchanged canonical DoD and DHS department identities");
+ return {manifest,extension:ext,data,sources,department,dhsComparator,congressEntity,presidentEntity,constitutionalIndex,components:compMap,dafas:daMap,roles,commands:cmds,
   services,conditions,provisions:prov,powers,relationships:relations,congressional:congress,fiscal,
   views,gaps,checks:{
    statute_composition:composition.length,defense_agencies:agen.length,field_activities:fields.length,
@@ -369,7 +371,7 @@ export function projectDodView(data,viewId){
   for(const x of data.data.offices.filter(y=>["DOD-ROLE-SECDEF","DOD-ROLE-CHAIRMAN","DOD-CCMD-ROLE"].includes(y.id)))push(x);
   push(data.components.get("CENSUS-COMP-DEF-COMBATANT-COMMANDS"));
  }
- if(v.id==="VIEW-DOD-SERVICES")for(const x of data.services)push(x);
+ if(v.id==="VIEW-DOD-SERVICES"){for(const x of data.services)push(x);push(data.dhsComparator);}
  if(v.id==="VIEW-DOD-AUTHORITY"){
   for(const x of data.data.offices)push(x);
   for(const x of data.data.powers)push(x);
