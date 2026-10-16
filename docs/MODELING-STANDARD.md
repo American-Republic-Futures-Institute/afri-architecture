@@ -34,3 +34,9 @@ New elements require stable IDs, concise neutral mission summaries, jurisdiction
 ## Notation interoperability
 
 FEAF v2 supplies reference-model families; ArchiMate and UAF/DoDAF supply potential interchange and special-purpose viewpoints. The ARFI JSON metamodel remains authoritative for ARFI-specific legal authority, social outcomes, temporal and editorial review semantics. No official government certification or framework endorsement is implied.
+
+## INC-06 institutional and cross-domain overlays
+
+The versioned `model/reference/` overlay is a **separate, unratified analytical index**. It selects the existing `BR-FED-*` and `ORG-FED-*` records without creating duplicate institutional facts. `CAP-XDOM-*` are candidate cross-domain enabling capabilities; `XLINK-*` are outcome/capability research hypotheses and `ICAND-*` are possible institutional contributors for further legal review. None of these constructs asserts an agency's statutory power or assigns an exclusive institutional owner.
+
+The cross-repository contract pins plan domain IDs to a specific manuscript commit and never silently imports enacted rights from provisional national outcomes. Changes require versioned reconciliation and CI validation. See [the reference structure specification](INSTITUTIONAL-REFERENCE-STRUCTURE.md).
