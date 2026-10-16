@@ -3,12 +3,12 @@
 export const DOD_FAMILIES=Object.freeze(["source-registry","source-snapshots","statutory-composition","dafas",
  "offices","armed-services","combatant-commands","name-events","statutory-provisions","conditions","powers",
  "relationships","congressional-committees","congressional-crosswalks","fiscal-crosswalks","capability-links",
- "authority-traces","viewpoints","gaps"]);
+ "authority-traces","viewpoints","gaps","constitutional-context"]);
 export const DOD_MODEL_PATHS=Object.freeze(DOD_FAMILIES.map(x=>"model/federal/dod/"+x+".json"));
 export const OTHER_MODEL_PATHS=Object.freeze(["model/federal/coverage/components.json",
  "model/federal/coverage/source-registry.json","model/federal/executive-leadership.json",
  "model/federal/legislative.json","model/federal/executive-departments.json",
- "model/federal/capabilities.json","model/constitutional/provisions.json"]);
+ "model/federal/capabilities.json","model/federal/sources.json","model/constitutional/provisions.json"]);
 const FAIL=x=>{throw Error("DoD model invalid: "+x);};
 const check=(ok,msg)=>{if(!ok)FAIL(msg);};
 const id=x=>typeof x==="string"&&/^[A-Z][A-Z0-9-]{2,160}$/.test(x);
@@ -45,9 +45,10 @@ export function validateDod(manifest,files){
  for(const path of OTHER_MODEL_PATHS)check(files[path]?.items?.length>0,"missing canonical cross-family reference "+path);
  const sources=new Map([
   ...data["source-registry"].map(x=>[x.id,x]),
-  ...files["model/federal/coverage/source-registry.json"].items.map(x=>[x.id,x])
+  ...files["model/federal/coverage/source-registry.json"].items.map(x=>[x.id,x]),
+  ...files["model/federal/sources.json"].items.map(x=>[x.id,x])
  ]);
- check(sources.size===data["source-registry"].length+files["model/federal/coverage/source-registry.json"].items.length,
+ check(sources.size===data["source-registry"].length+files["model/federal/coverage/source-registry.json"].items.length+files["model/federal/sources.json"].items.length,
   "duplicate external citation identifiers");
  for(const s of data["source-registry"]){
   check(official(s.url)&&s.accessed_on==="2026-10-16"&&typeof s.source_version==="string"&&
@@ -264,10 +265,39 @@ export function validateDod(manifest,files){
    t.role_to_individual_delegation_verified===false&&t.judicial_interpretation_completed===false,
    "multi-actor authority chain or unsupported citation "+t.id);
  }
- const views=data.viewpoints;check(views.length===ext.declarative_views&&views.length===7,
+ const contextual=data["constitutional-context"];
+ const constitutionalIndex=new Map(files["model/constitutional/provisions.json"].items.map(x=>[x.id,x]));
+ const officialTranscript=findOne(sources,"SRC-CONST-ORIGINAL-TRANSCRIPT");
+ check(officialTranscript.url==="https://www.archives.gov/founding-docs/constitution-transcript",
+  "constitutional context must preserve the National Archives primary original-text witness");
+ const expectedContexts=[
+ ["WAR","CONST-US-ART-01-SEC-08-CL-11","ORG-FED-LEG-CONGRESS"],
+ ["ARMIES","CONST-US-ART-01-SEC-08-CL-12","ORG-FED-LEG-CONGRESS"],
+ ["NAVY","CONST-US-ART-01-SEC-08-CL-13","ORG-FED-LEG-CONGRESS"],
+ ["REGULATION","CONST-US-ART-01-SEC-08-CL-14","ORG-FED-LEG-CONGRESS"],
+ ["APPROPRIATIONS","CONST-US-ART-01-SEC-09-CL-07","ORG-FED-LEG-CONGRESS"],
+ ["NECESSARY-PROPER","CONST-US-ART-01-SEC-08-CL-18","ORG-FED-LEG-CONGRESS"],
+ ["COMMANDER","CONST-US-ART-02-SEC-02-CL-01","ORG-FED-EXE-PRESIDENT"]
+ ];
+ check(contextual.length===ext.constitutional_context_records&&contextual.length===expectedContexts.length,
+  "DoD constitutional context subset is missing");
+ const constitutionalActors=new Set([...files["model/federal/legislative.json"].items,
+   ...files["model/federal/executive-leadership.json"].items].map(x=>x.id));
+ for(const [short,clause,actor]of expectedContexts){
+  const context=contextual.find(x=>x.id==="DOD-CONTEXT-"+short);
+  check(context?.constitution_id===clause&&context.competent_actor_id===actor&&
+   constitutionalActors.has(actor)&&constitutionalIndex.has(clause)&&
+   context.source_ids.length===1&&context.source_ids[0]==="SRC-CONST-ORIGINAL-TRANSCRIPT"&&
+   prov.has(context.statutory_context_id)&&
+   context.status==="contextual_connection_not_direct_statutory_delegation"&&
+   context.individual_dod_agency_power_derived===false&&context.appropriations_derived===false&&
+   context.full_judicial_review_complete===false,
+   "constitution-statutory crosswalk invents constitutional military power or delegation: "+short);
+ }
+ const views=data.viewpoints;check(views.length===ext.declarative_views&&views.length===8,
   "missing independent DoD source viewpoints");
  const selectRoots=new Set([...known,...prov.keys(),...trace.map(x=>x.id),...congress.map(x=>x.id),
-  ...fiscal.map(x=>x.id)]);
+  ...fiscal.map(x=>x.id),...contextual.map(x=>x.id)]);
  for(const v of views)check(v.rendering_status==="data_contract_only_not_web_rendered"&&
    v.source_evidence_required===true&&v.root_ids.every(x=>selectRoots.has(x))&&
    v.max_hops<=4&&v.legal_review_status==="research_pending_citator_and_responsible_official_review",
@@ -281,14 +311,14 @@ export function validateDod(manifest,files){
  const department=files["model/federal/executive-departments.json"].items.find(x=>x.id===ext.department_id);
  check(department?.kind==="executive_department"&&department.branch_id==="BR-FED-EXE",
   "missing unchanged canonical DoD department");
- return {manifest,extension:ext,data,sources,department,components:compMap,dafas:daMap,roles,commands:cmds,
+ return {manifest,extension:ext,data,sources,department,constitutionalIndex,components:compMap,dafas:daMap,roles,commands:cmds,
   services,conditions,provisions:prov,powers,relationships:relations,congressional:congress,fiscal,
   views,gaps,checks:{
    statute_composition:composition.length,defense_agencies:agen.length,field_activities:fields.length,
    combat_support:8,office_roles:roles.size,armed_services:services.length,public_commands:cmds.length,
    legal_provisions:prov.size,powers:powers.size,relationships:relations.length,statutory_limits:conditions.size,
    congressional_committees:congress.length,reporting_pathways:reps.length,fiscal_proposal_categories:fiscal.length,
-   authority_chains:trace.length,viewpoints:views.length,open_gaps:gaps.length,
+   authority_chains:trace.length,constitution_context_links:contextual.length,viewpoints:views.length,open_gaps:gaps.length,
    complete_current_organization_claims:0,verified_enacted_appropriations:0}};
 }
 export function projectDodView(data,viewId){
@@ -319,8 +349,25 @@ export function projectDodView(data,viewId){
  }
  if(v.id==="VIEW-DOD-CONGRESS")for(const x of [...data.congressional,...data.data["congressional-crosswalks"]])push(x);
  if(v.id==="VIEW-DOD-FISCAL")for(const x of data.fiscal)push(x);
+ if(v.id==="VIEW-DOD-CONSTITUTION"){
+  for(const x of data.data["constitutional-context"]){
+   push(x);push(data.constitutionalIndex.get(x.constitution_id));
+   push(data.provisions.get(x.statutory_context_id));
+  }
+ }
  const relationships=data.relationships.filter(x=>nodes.has(x.from_id)&&nodes.has(x.to_id)&&
   v.include_relationship_types.includes(x.relationship_type));
+ if(v.id==="VIEW-DOD-CONSTITUTION"){
+  for(const x of data.data["constitutional-context"]){
+   relationships.push({id:x.id+"-ORIGINAL",from_id:x.constitution_id,to_id:x.id,
+    relationship_type:"constitutional_context_not_direct_statutory_delegation",
+    source_ids:x.source_ids,legal_authority_proven:false});
+   relationships.push({id:x.id+"-STATUTE",from_id:x.id,to_id:x.statutory_context_id,
+    relationship_type:"source_research_context_only",
+    source_ids:[...x.source_ids,...data.provisions.get(x.statutory_context_id).source_ids],
+    legal_authority_proven:false});
+  }
+ }
  return {model_standard:"ARFI-COA",id:v.id,title:v.title,status:v.rendering_status,
   reference_as_of:v.applicability_label,department_id:data.extension.department_id,
   nodes:[...nodes.values()].sort((a,b)=>a.id.localeCompare(b.id)),relationships,
