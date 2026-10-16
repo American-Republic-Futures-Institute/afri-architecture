@@ -39,3 +39,7 @@ The historical Article IV fugitive-service provision is preserved but never acti
 ## Ratified amendment completion — October 15, 2026
 
 All 27 ratified amendments and the 33 original numbered sections are now decomposed via 126 analytically distinct, explicitly nonofficial spans. Timeline coverage: 27 ratification/adoption records, 15 special date/repeal/ratification condition events. The amendment-specific register adds 172 textual/historical qualifications, 126 Article/prior-amendment effect/context cross-references and 114 operative functional capability links, excluding 12 repealed or historically fulfilled analytical spans. Every record remains research pending legal review, not a statement of adjudicated precedent. [Detailed coverage and exceptions](AMENDMENT-DECOMPOSITION.md).
+
+## Judicial precedent source seed — 2026-10-16
+
+18 official U.S. Supreme Court decisions, 20 particular holdings, 30 original-provision/norm links, 10 explicit subsequent-treatment edges, 20 case-law status assessments, 20 holding-specific jurisdiction applicability profiles, and six model-only viewpoints. Published source registry separates 18 opinion sources from seven official legal research/explanatory sources. All conclusions remain pending full opinion pinpoint and professional citator review. Historical, overruled and issue-specific precedents cannot be relabeled as active original constitutional grants. [Details](JUDICIAL-PRECEDENT-ARCHITECTURE.md).
