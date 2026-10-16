@@ -1,0 +1,33 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import {fileURLToPath} from "node:url";
+import {validateStateStatutes} from "../scripts/state-statutory-validation-core.mjs";
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),"utf8"));
+const families=["statutory-sources","statutes","statutory-provisions","statutory-powers","statutory-conditions","statutory-capabilities","statutory-traces","statutory-viewpoints"];
+function fixture(){return {manifest:read("model/federal/manifest.json"),models:Object.fromEntries(families.map(n=>[n,read("model/state/"+n+".json")])),stateProvisions:read("model/state/provisions.json").items,stateInstitutions:read("model/state/institutions.json").items,stateJurisdictions:read("model/state/jurisdictions.json").items};}
+const row=(f,n,id)=>{const x=f.models[n].items.find(x=>x.id===id);assert(x,"Missing "+id);return x;};
+function fails(f,part){const errors=validateStateStatutes(f).errors;assert(errors.some(e=>e.includes(part)),"Missing expected error "+part+": "+errors.join("; "));}
+test("baseline validates separate Virginia and Nebraska enacted statutory court chains",()=>{const r=validateStateStatutes(fixture());assert.deepEqual(r.errors,[]);assert.equal(r.counts["statutory-traces"],2);assert.equal(r.publicationStatus,"architecture_source_only");});
+test("two pilot chains preserve independent constitutional state roots",()=>{const f=fixture();assert.equal(row(f,"statutory-traces","TRACE-STATE-VA-COA-STATUTORY-01").constitutional_provision_id,"STATE-PROV-VA-ART-VI-SEC-1");assert.equal(row(f,"statutory-traces","TRACE-STATE-NE-COA-STATUTORY-01").constitutional_provision_id,"STATE-PROV-NE-ART-V-SEC-1");});
+test("reject extraneous unverified third State statutory powers",()=>{const f=fixture();f.models["statutory-powers"].items.push({...row(f,"statutory-powers","POWER-STAT-VA-COA-APPEAL"),id:"POWER-STAT-CA-UNVERIFIED"});fails(f,"Unapproved State statutory record");});
+test("reject cross-state institutional power claims",()=>{const f=fixture();row(f,"statutory-powers","POWER-STAT-VA-COA-CIVIL-APPEAL").institution_id="ORG-STATE-NE-JUD-APPELLATE";fails(f,"Statutory power chain invalid");});
+test("reject powers derived solely from unsupported constitutional text",()=>{const f=fixture();row(f,"statutory-powers","POWER-STAT-NE-COA-APPEAL").statutory_provision_id="STATE-PROV-NE-ART-V-SEC-1";fails(f,"Statutory power chain invalid");});
+test("reject federal institution used as State statute enactor",()=>{const f=fixture();row(f,"statutes","STAT-STATE-VA-CODE-17.1-CH4").enacting_institution_id="ORG-FED-CONGRESS";fails(f,"Statute cannot trace State constitutional legislature");});
+test("reject court creation mislabeled unrestricted jurisdiction",()=>{const f=fixture();row(f,"statutory-powers","POWER-STAT-VA-COA-ESTABLISH").power_kind="unlimited_jurisdiction";fails(f,"Statutory authority lacks operative limitation");});
+test("reject removal of Nebraska Supreme Court review condition",()=>{const f=fixture();row(f,"statutory-traces","TRACE-STATE-NE-COA-STATUTORY-01").condition_ids=[];fails(f,"Statutory trace drops restrictive conditions");});
+test("reject omission of even one known statutory constraint",()=>{const f=fixture();row(f,"statutory-traces","TRACE-STATE-VA-COA-STATUTORY-01").condition_ids.pop();fails(f,"Statutory trace omits known limitation");});
+test("reject condition applied to wrong State's appellate authority",()=>{const f=fixture();row(f,"statutory-conditions","COND-STAT-VA-COA-21-JUDGES").power_id="POWER-STAT-NE-COA-ESTABLISH";fails(f,"Statutory condition is detached");});
+test("reject an unverified legal citation treated as a completed citator review",()=>{const f=fixture();row(f,"statutory-traces","TRACE-STATE-VA-COA-STATUTORY-01").judicial_citator_review_complete=true;fails(f,"Statutory research misrepresented");});
+test("reject invented appropriation or funding assurance",()=>{const f=fixture();row(f,"statutory-traces","TRACE-STATE-NE-COA-STATUTORY-01").appropriation_verified=true;fails(f,"Statutory research misrepresented");});
+test("reject falsely claiming State architecture rendered on public website",()=>{const f=fixture();row(f,"statutory-traces","TRACE-STATE-VA-COA-STATUTORY-01").rendering_status="live";fails(f,"Statutory research misrepresented");});
+test("reject tampered Virginia 2026 judge-count history",()=>{const f=fixture();row(f,"statutory-provisions","STAT-PROV-VA-17.1-400").effective_from="2025-01-01";fails(f,"Virginia appellate judge-count revision not dated");});
+test("reject wrong-State official source publisher",()=>{const f=fixture();row(f,"statutory-sources","SRC-STAT-NE-24-1101").url="https://law.lis.virginia.gov/fake";fails(f,"Statute lacks corresponding official State publisher");});
+test("reject missing primary-law source in bounded authority",()=>{const f=fixture();row(f,"statutory-powers","POWER-STAT-NE-COA-APPEAL").source_ids=["SRC-STAT-NE-NOT-FOUND"];fails(f,"Statutory source reference invalid");});
+test("reject section references crossing State legal jurisdictions",()=>{const f=fixture();row(f,"statutory-provisions","STAT-PROV-NE-24-1106").statute_id="STAT-STATE-VA-CODE-17.1-CH4";fails(f,"Statutory provision cross-jurisdiction");});
+test("reject manifest family missing from immutable publication contract",()=>{const f=fixture();f.manifest.models=f.manifest.models.filter(x=>x!=="model/state/statutory-powers.json");fails(f,"Statutory model missing from manifest");});
+test("reject falsely claiming every State was researched",()=>{const f=fixture();f.manifest.state_statutory_extension.fully_modelled_state_count=50;fails(f,"Statutory publication coverage overclaim");});
+test("reject unversioned statutory models",()=>{const f=fixture();f.models["statutory-powers"].model_version="999";fails(f,"Invalid statutory collection");});
+test("reject duplicate cross-family State authority identities",()=>{const f=fixture();row(f,"statutory-capabilities","CAP-STATE-VA-COA-APPELLATE-REVIEW").id="POWER-STAT-VA-COA-ESTABLISH";fails(f,"Duplicate or missing statutory identifier");});
