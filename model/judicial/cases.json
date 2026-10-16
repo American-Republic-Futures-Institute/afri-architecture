@@ -1,0 +1,383 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CASE-US-SCOTUS-MARBURY-1803",
+      "type": "judicial_case",
+      "name": "Marbury v. Madison",
+      "decided_on": "1803-02-24",
+      "reporter_citation": "5 U.S. (1 Cranch) 137 (1803)",
+      "reporter_volume": 5,
+      "reporter_first_page": 137,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "judicial_review"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MARBURY-1803"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-MARTIN-1816",
+      "type": "judicial_case",
+      "name": "Martin v. Hunter's Lessee",
+      "decided_on": "1816-03-20",
+      "reporter_citation": "14 U.S. (1 Wheat.) 304 (1816)",
+      "reporter_volume": 14,
+      "reporter_first_page": 304,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "judicial_review"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MARTIN-1816"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-MCCULLOCH-1819",
+      "type": "judicial_case",
+      "name": "McCulloch v. Maryland",
+      "decided_on": "1819-03-06",
+      "reporter_citation": "17 U.S. (4 Wheat.) 316 (1819)",
+      "reporter_volume": 17,
+      "reporter_first_page": 316,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "federalism"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MCCULLOCH-1819"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-HANS-1890",
+      "type": "judicial_case",
+      "name": "Hans v. Louisiana",
+      "decided_on": "1890-03-03",
+      "reporter_citation": "134 U.S. 1 (1890)",
+      "reporter_volume": 134,
+      "reporter_first_page": 1,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "sovereign_immunity"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-HANS-1890"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-PLESSY-1896",
+      "type": "judicial_case",
+      "name": "Plessy v. Ferguson",
+      "decided_on": "1896-05-18",
+      "reporter_citation": "163 U.S. 537 (1896)",
+      "reporter_volume": 163,
+      "reporter_first_page": 537,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "equal_protection"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-PLESSY-1896"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-EX-PARTE-YOUNG-1908",
+      "type": "judicial_case",
+      "name": "Ex parte Young",
+      "decided_on": "1908-03-23",
+      "reporter_citation": "209 U.S. 123 (1908)",
+      "reporter_volume": 209,
+      "reporter_first_page": 123,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "sovereign_immunity"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-EX-PARTE-YOUNG-1908"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-BROWN-1954",
+      "type": "judicial_case",
+      "name": "Brown v. Board of Education",
+      "decided_on": "1954-05-17",
+      "reporter_citation": "347 U.S. 483 (1954)",
+      "reporter_volume": 347,
+      "reporter_first_page": 483,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "equal_protection"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-BROWN-1954"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-COOPER-1958",
+      "type": "judicial_case",
+      "name": "Cooper v. Aaron",
+      "decided_on": "1958-09-12",
+      "reporter_citation": "358 U.S. 1 (1958)",
+      "reporter_volume": 358,
+      "reporter_first_page": 1,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "supremacy"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-COOPER-1958"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-GIDEON-1963",
+      "type": "judicial_case",
+      "name": "Gideon v. Wainwright",
+      "decided_on": "1963-03-18",
+      "reporter_citation": "372 U.S. 335 (1963)",
+      "reporter_volume": 372,
+      "reporter_first_page": 335,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "incorporation"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-GIDEON-1963"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-ROE-1973",
+      "type": "judicial_case",
+      "name": "Roe v. Wade",
+      "decided_on": "1973-01-22",
+      "reporter_citation": "410 U.S. 113 (1973)",
+      "reporter_volume": 410,
+      "reporter_first_page": 113,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "substantive_due_process"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-ROE-1973"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-CHEVRON-1984",
+      "type": "judicial_case",
+      "name": "Chevron U.S.A., Inc. v. Natural Resources Defense Council, Inc.",
+      "decided_on": "1984-06-25",
+      "reporter_citation": "467 U.S. 837 (1984)",
+      "reporter_volume": 467,
+      "reporter_first_page": 837,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "administrative_law"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-CHEVRON-1984"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-NEW-YORK-1992",
+      "type": "judicial_case",
+      "name": "New York v. United States",
+      "decided_on": "1992-06-19",
+      "reporter_citation": "505 U.S. 144 (1992)",
+      "reporter_volume": 505,
+      "reporter_first_page": 144,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "anticommandeering"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-NEW-YORK-1992"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-CASEY-1992",
+      "type": "judicial_case",
+      "name": "Planned Parenthood of Southeastern Pennsylvania v. Casey",
+      "decided_on": "1992-06-29",
+      "reporter_citation": "505 U.S. 833 (1992)",
+      "reporter_volume": 505,
+      "reporter_first_page": 833,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "substantive_due_process"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-CASEY-1992"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-BOERNE-1997",
+      "type": "judicial_case",
+      "name": "City of Boerne v. Flores",
+      "decided_on": "1997-06-25",
+      "reporter_citation": "521 U.S. 507 (1997)",
+      "reporter_volume": 521,
+      "reporter_first_page": 507,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "enforcement_power"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-BOERNE-1997"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-PRINTZ-1997",
+      "type": "judicial_case",
+      "name": "Printz v. United States",
+      "decided_on": "1997-06-27",
+      "reporter_citation": "521 U.S. 898 (1997)",
+      "reporter_volume": 521,
+      "reporter_first_page": 898,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "anticommandeering"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-PRINTZ-1997"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-MURPHY-2018",
+      "type": "judicial_case",
+      "name": "Murphy v. National Collegiate Athletic Association",
+      "decided_on": "2018-05-14",
+      "reporter_citation": "584 U.S. 453 (2018)",
+      "reporter_volume": 584,
+      "reporter_first_page": 453,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "anticommandeering"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-MURPHY-2018"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-DOBBS-2022",
+      "type": "judicial_case",
+      "name": "Dobbs v. Jackson Women's Health Organization",
+      "decided_on": "2022-06-24",
+      "reporter_citation": "597 U.S. 215 (2022)",
+      "reporter_volume": 597,
+      "reporter_first_page": 215,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "substantive_due_process"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-DOBBS-2022"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    },
+    {
+      "id": "CASE-US-SCOTUS-LOPER-BRIGHT-2024",
+      "type": "judicial_case",
+      "name": "Loper Bright Enterprises v. Raimondo",
+      "decided_on": "2024-06-28",
+      "reporter_citation": "603 U.S. 369 (2024)",
+      "reporter_volume": 603,
+      "reporter_first_page": 369,
+      "court_id": "COURT-US-SCOTUS",
+      "decision_kind": "us_supreme_court_decision",
+      "subject_tags": [
+        "administrative_law"
+      ],
+      "opinion_source_ids": [
+        "SRC-JUD-OPINION-LOPER-BRIGHT-2024"
+      ],
+      "jurisdiction": "federal_constitutional_or_federal_statutory_question",
+      "court_authority_scope": "final_us_supreme_court_federal_law_review_subject_to_controlling_holdings",
+      "opinion_text_review_status": "indexed_official_opinion_summary_pending_human_review",
+      "source_as_of": "2026-10-16"
+    }
+  ]
+}
