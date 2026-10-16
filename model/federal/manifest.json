@@ -82,7 +82,12 @@
     "model/state/statutory-conditions.json",
     "model/state/statutory-capabilities.json",
     "model/state/statutory-traces.json",
-    "model/state/statutory-viewpoints.json"
+    "model/state/statutory-viewpoints.json",
+    "model/constitutional/article-iv-vii-units.json",
+    "model/constitutional/article-iv-vii-qualifications.json",
+    "model/constitutional/article-iv-vii-actor-links.json",
+    "model/constitutional/article-iv-vii-capability-links.json",
+    "model/constitutional/article-iv-vii-viewpoints.json"
   ],
   "standards": [
     {
@@ -282,5 +287,24 @@
     "fully_modelled_state_count": 0,
     "scope": "First statute-proven authority trails for Virginia and Nebraska Court of Appeals, including section-specific jurisdictional boundaries. No complete State agency rosters or court jurisdiction coverage.",
     "publication_note": "Research data only. Statutory court establishment differs from jurisdiction; no new governmental powers, appropriations, live website rendering, or professional citator verification inferred."
+  },
+  "articles_iv_vii_completion_extension": {
+    "id": "ARFI-COA-ARTICLES-IV-VII-001",
+    "review_status": "research_textual_analysis_pending_human_legal_review",
+    "snapshot_date": "2026-10-16",
+    "article_iv_units": 10,
+    "article_v_units": 9,
+    "article_vi_units": 3,
+    "article_vii_units": 3,
+    "analytical_article_spans": 12,
+    "qualifications": 25,
+    "actor_links": 8,
+    "capability_links": 8,
+    "viewpoints": 4,
+    "historical_fugitive_service_status": "superseded_by_thirteenth_amendment_not_operational",
+    "article_v_1808_limitation_status": "expired_non_operational",
+    "article_v_equal_senate_suffrage": "ongoing_subject_to_affected_state_consent",
+    "article_vii_original_ratification_status": "historical_condition_fulfilled_1788_not_reusable",
+    "publication_note": "Completes original-text analysis for Articles IV-VII using existing IV/VI federalism units, distinct unnumbered Article V/VII analytical spans, and indexed current/expired limitations. Does not certify post-1787 legal doctrine, enact statutes, convene Article V conventions or render website views."
   }
 }

@@ -1,0 +1,133 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "A47-ACTOR-V-01",
+      "type": "article_iv_vii_actor_relationship",
+      "unit_id": "A47-UNIT-V-01",
+      "norm_id": "NORM-US-CONST-A47-V-01",
+      "actor_id": "ORG-FED-LEG-CONGRESS",
+      "actor_role": "procedural_amendment_proposal",
+      "actor_relationship_classification": "constitutional_procedural_role_not_organizational_subordination",
+      "qualification_ids": [
+        "A47-QUAL-V-01-01"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-ACTOR-V-02",
+      "type": "article_iv_vii_actor_relationship",
+      "unit_id": "A47-UNIT-V-02",
+      "norm_id": "NORM-US-CONST-A47-V-02",
+      "actor_id": "ACT-US-STATE-LEG",
+      "actor_role": "constitutional_application_threshold",
+      "actor_relationship_classification": "constitutional_procedural_role_not_organizational_subordination",
+      "qualification_ids": [
+        "A47-QUAL-V-02-01"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-ACTOR-V-03",
+      "type": "article_iv_vii_actor_relationship",
+      "unit_id": "A47-UNIT-V-03",
+      "norm_id": "NORM-US-CONST-A47-V-03",
+      "actor_id": "ORG-FED-LEG-CONGRESS",
+      "actor_role": "conditional_convention_call",
+      "actor_relationship_classification": "constitutional_procedural_role_not_organizational_subordination",
+      "qualification_ids": [
+        "A47-QUAL-V-03-01"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-ACTOR-V-04",
+      "type": "article_iv_vii_actor_relationship",
+      "unit_id": "A47-UNIT-V-04",
+      "norm_id": "NORM-US-CONST-A47-V-04",
+      "actor_id": "ACT-US-AMENDMENT-PROPOSING-CONVENTION",
+      "actor_role": "convention_proposal_only",
+      "actor_relationship_classification": "constitutional_procedural_role_not_organizational_subordination",
+      "qualification_ids": [
+        "A47-QUAL-V-04-01"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-ACTOR-V-05",
+      "type": "article_iv_vii_actor_relationship",
+      "unit_id": "A47-UNIT-V-05",
+      "norm_id": "NORM-US-CONST-A47-V-05",
+      "actor_id": "ACT-US-STATE-LEG",
+      "actor_role": "ratification_state_legislatures",
+      "actor_relationship_classification": "constitutional_procedural_role_not_organizational_subordination",
+      "qualification_ids": [
+        "A47-QUAL-V-05-01"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-ACTOR-V-06",
+      "type": "article_iv_vii_actor_relationship",
+      "unit_id": "A47-UNIT-V-06",
+      "norm_id": "NORM-US-CONST-A47-V-06",
+      "actor_id": "ACT-US-STATE-RATIFYING-CONVENTIONS",
+      "actor_role": "ratification_state_conventions",
+      "actor_relationship_classification": "constitutional_procedural_role_not_organizational_subordination",
+      "qualification_ids": [
+        "A47-QUAL-V-06-01"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-ACTOR-V-07",
+      "type": "article_iv_vii_actor_relationship",
+      "unit_id": "A47-UNIT-V-07",
+      "norm_id": "NORM-US-CONST-A47-V-07",
+      "actor_id": "ORG-FED-LEG-CONGRESS",
+      "actor_role": "selects_ratification_route",
+      "actor_relationship_classification": "constitutional_procedural_role_not_organizational_subordination",
+      "qualification_ids": [
+        "A47-QUAL-V-07-01"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-ACTOR-V-09",
+      "type": "article_iv_vii_actor_relationship",
+      "unit_id": "A47-UNIT-V-09",
+      "norm_id": "NORM-US-CONST-A47-V-09",
+      "actor_id": "ACT-US-STATES",
+      "actor_role": "equal_state_senate_suffrage",
+      "actor_relationship_classification": "constitutional_procedural_role_not_organizational_subordination",
+      "qualification_ids": [
+        "A47-QUAL-V-09-01"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    }
+  ]
+}

@@ -273,6 +273,36 @@
         "SRC-CONST-ORIGINAL-TRANSCRIPT",
         "SRC-USCOURTS-TYPES-JUDGES"
       ]
+    },
+    {
+      "id": "ACT-US-AMENDMENT-PROPOSING-CONVENTION",
+      "type": "constitutional_actor_class",
+      "name": "Article V proposing convention",
+      "description": "Constitutionally described convention that may propose amendments when called following sufficient State legislative applications; no assertion one has convened.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-STATE-RATIFYING-CONVENTIONS",
+      "type": "constitutional_actor_class",
+      "name": "State amendment ratifying conventions",
+      "description": "State conventions available as a separate Article V ratification route when Congress selects that mode; not identical to proposing convention.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
+    },
+    {
+      "id": "ACT-US-ORIGINAL-RATIFYING-CONVENTIONS",
+      "type": "constitutional_actor_class",
+      "name": "Original constitutional ratifying conventions",
+      "description": "Historical State conventions used to ratify the original 1787 Constitution under Article VII; no recurring current ratification authority.",
+      "status": "descriptive_class",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
     }
   ]
 }

@@ -1060,6 +1060,23 @@
         "SRC-CONST-BILL-OF-RIGHTS-TRANSCRIPT",
         "SRC-CONST-LATER-AMENDMENTS"
       ]
+    },
+    {
+      "id": "CAP-FED-58",
+      "type": "capability",
+      "name": "Constitutional amendment proposal and ratification coordination",
+      "definition": "The limited, multi-institutional process of proposing federal constitutional amendments and certifying State ratification under the Article V pathways and thresholds; not ordinary lawmaking or agency delegated authority.",
+      "framework_mappings": [
+        {
+          "framework": "FEAF-v2",
+          "reference_model": "BRM",
+          "mapping_status": "reference_level_only"
+        }
+      ],
+      "status": "descriptive_candidate",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ]
     }
   ]
 }

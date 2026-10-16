@@ -1,0 +1,849 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "A47-UNIT-IV-01-01",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 1,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-01-SEG-01",
+      "name": "Full faith and credit to other States",
+      "summary": "Interstate constitutional recognition of public acts, records and judicial proceedings.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-036",
+        "NORM-US-CONST-FED-IV-01-RECOGNITION-SCOPE"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-01-01-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-01-01",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-01-RECORDS",
+        "FED-QUAL-IV-01-JUDGMENTS-NOT-GENERAL-ENFORCEMENT"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0001"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0001",
+        "FED-CAP-0002"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-01-02",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 2,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-01-SEG-02",
+      "name": "Congress may prescribe proof and effects by general laws",
+      "summary": "Textual congressional authority concerning proof and effect of sister-State acts, records and judgments.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-FED-IV-01-CONGRESS-PROOF"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-01-02-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-01-02",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-01-CONGRESS-GENERAL-LAWS",
+        "FED-QUAL-IV-01-NO-FEDERAL-SUBORDINATION"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0002"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0003"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-02-01",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 3,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-02-CL-01",
+      "name": "Privileges and immunities of citizens among States",
+      "summary": "Interstate privileges and immunities of citizens of each State in the several States.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-037",
+        "NORM-US-CONST-FED-IV-02-CITIZEN-INTERSTATE"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-02-01-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-02-01",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-02-STATE-CITIZENS",
+        "FED-QUAL-IV-02-STATE-CITIZENSHIP-DISTINCTION"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0003",
+        "FED-REL-0004"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0004",
+        "FED-CAP-0005"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-02-02",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 4,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-02-CL-02",
+      "name": "Interstate criminal rendition",
+      "summary": "Conditioned delivery of a fugitive charged with an offense following demand of originating State executive.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-038",
+        "NORM-US-CONST-FED-IV-02-RENDITION-DEMAND"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-02-02-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-02-02",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-02-CHARGED-PERSON",
+        "FED-QUAL-IV-02-FOUND-IN-OTHER-STATE",
+        "FED-QUAL-IV-02-EXECUTIVE-DEMAND",
+        "FED-QUAL-IV-02-RETURN-TO-CRIME-JURISDICTION",
+        "FED-QUAL-IV-02-EXTRADITION-STATUTES"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0005",
+        "FED-REL-0006"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0006",
+        "FED-CAP-0007"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-02-03",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 5,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-02-CL-03",
+      "name": "Historical fugitive-service provision, inoperative",
+      "summary": "Original slave-service rendition text superseded by the Thirteenth Amendment; research archive only.",
+      "current_effect_status": "superseded",
+      "norm_ids": [
+        "NORM-US-CONST-FED-IV-02-HISTORICAL-SERVICE"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-02-03-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-02-03",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-02-SLAVERY-HISTORICAL",
+        "FED-QUAL-IV-02-NO-ACTIVE-SERVICE-RIGHTS"
+      ],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-03-01",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 6,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-03-CL-01",
+      "name": "Congressional State admission and consent",
+      "summary": "Admit new States and restrictions on creating States within another's territory without required consent.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-039",
+        "NORM-US-CONST-FED-IV-03-STATE-CONSENTS"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-03-01-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-03-01",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-03-CONGRESS-ADMISSION",
+        "FED-QUAL-IV-03-STATE-LEGISLATURE-CONSENT",
+        "FED-QUAL-IV-03-NO-UNCONDITIONAL-STATE-DIVISION"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0007",
+        "FED-REL-0008"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0008",
+        "FED-CAP-0009"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-03-02",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 7,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-03-CL-02",
+      "name": "Federal territories, property and claims",
+      "summary": "Congressional federal territory and property rules and preserved federal/State claims.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-040",
+        "NORM-US-CONST-FED-IV-03-PROPERTY-CLAIMS"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-03-02-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-03-02",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-03-FEDERAL-TERRITORY-ONLY",
+        "FED-QUAL-IV-03-US-STATE-CLAIMS",
+        "FED-QUAL-IV-03-STATE-OWNERSHIP-DOCTRINE"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0009",
+        "FED-REL-0010"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0010",
+        "FED-CAP-0011"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-04-01",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 8,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-04-SEG-01",
+      "name": "Guarantee of republican State government",
+      "summary": "The United States guarantees a republican form of government to each State.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-REPUBLICAN"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-04-01-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-04-01",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-04-REPUBLICAN-STATE",
+        "FED-QUAL-IV-04-GUARANTEE-DOCTRINE"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0011"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0012",
+        "FED-CAP-0013"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-04-02",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 9,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-04-SEG-02",
+      "name": "Protection of States against invasion",
+      "summary": "The United States shall protect each State against invasion.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-INVASION"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-04-02-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-04-02",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-04-INVASION-ALL-STATES",
+        "FED-QUAL-IV-04-CROSS-DEFENSE-POWERS"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0012"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0014",
+        "FED-CAP-0015"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-IV-04-03",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 4,
+      "ordinal": 10,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-04-SEC-04-SEG-03",
+      "name": "Protection against domestic violence by State application",
+      "summary": "Conditional protection on application of State legislature, or executive if legislature cannot be convened.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-041",
+        "NORM-US-CONST-FED-IV-04-DOMESTIC"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-IV-04-03-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-IV-04-03",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-IV-04-DOMESTIC-LEGISLATURE-REQUEST",
+        "FED-QUAL-IV-04-DOMESTIC-EXECUTIVE-FALLBACK",
+        "FED-QUAL-IV-04-NOT-UNCONDITIONAL-DOMESTIC"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0013",
+        "FED-REL-0014",
+        "FED-REL-0015"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0016",
+        "FED-CAP-0017"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-VI-01",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 6,
+      "ordinal": 1,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-06-CL-01",
+      "name": "Pre-constitutional debts remain valid",
+      "summary": "Pre-Constitution obligations remain valid against the United States under the new Constitution.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-FED-VI-01-OBLIGATION"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-VI-01-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-VI-01",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-VI-01-HISTORICAL-DEBTS",
+        "FED-QUAL-VI-01-DISTINGUISH-XIV-DEBT"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0016"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0018"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-VI-02",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 6,
+      "ordinal": 2,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-06-CL-02",
+      "name": "Federal constitutional supremacy and State judges",
+      "summary": "The Constitution, laws made pursuant to it and federal treaties made under federal authority bind State judges.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-045",
+        "NORM-US-CONST-FED-VI-02-STATE-JUDGES",
+        "NORM-US-CONST-FED-VI-02-LAW-PURSUANT",
+        "NORM-US-CONST-FED-VI-02-TREATIES-AUTHORITY"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-VI-02-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-VI-02",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-VI-02-CONSTITUTION-SUPREME",
+        "FED-QUAL-VI-02-LAWS-IN-PURSUANCE",
+        "FED-QUAL-VI-02-TREATIES-US-AUTHORITY",
+        "FED-QUAL-VI-02-STATE-JUDGES-BOUND",
+        "FED-QUAL-VI-02-NO-BLANKET-FEDERAL-AUTHORITY",
+        "FED-QUAL-VI-02-ANTI-COMMANDEERING-CASE-LAW"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0017",
+        "FED-REL-0018",
+        "FED-REL-0019"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0019",
+        "FED-CAP-0020",
+        "FED-CAP-0021",
+        "FED-CAP-0022"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-VI-03",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 6,
+      "ordinal": 3,
+      "unit_kind": "existing_source_decomposition_crosswalk",
+      "provision_id": "CONST-US-ART-06-CL-03",
+      "name": "Federal and State constitutional oaths; no religious tests",
+      "summary": "Required oaths for specified State and federal officers; federal religious-test prohibition.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-046",
+        "NORM-US-CONST-047",
+        "NORM-US-CONST-FED-VI-03-STATE-LEG-OATH",
+        "NORM-US-CONST-FED-VI-03-FED-LEG-OATH"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-VI-03-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": "FED-UNIT-VI-03",
+      "existing_federalism_qualification_ids": [
+        "FED-QUAL-VI-03-FEDERAL-OATHS",
+        "FED-QUAL-VI-03-STATE-OATHS",
+        "FED-QUAL-VI-03-NO-FEDERAL-RELIGIOUS-TEST",
+        "FED-QUAL-VI-03-STATE-TESTS-DOCTRINE"
+      ],
+      "existing_federalism_actor_link_ids": [
+        "FED-REL-0020",
+        "FED-REL-0021",
+        "FED-REL-0022"
+      ],
+      "existing_federalism_capability_link_ids": [
+        "FED-CAP-0023",
+        "FED-CAP-0024",
+        "FED-CAP-0025",
+        "FED-CAP-0026"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-01",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 1,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-01",
+      "name": "Congressional two-thirds proposal route",
+      "summary": "Article V authorizes Congress to propose amendments when two thirds of EACH House deem it necessary.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-01"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-01-01"
+      ],
+      "actor_link_ids": [
+        "A47-ACTOR-V-01"
+      ],
+      "capability_link_ids": [
+        "A47-CAP-V-01"
+      ],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-02",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 2,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-02",
+      "name": "State-legislature applications for convention",
+      "summary": "Application of the legislatures of two thirds of the several States is the textual predicate for a congressional convention call.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-02"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-02-01"
+      ],
+      "actor_link_ids": [
+        "A47-ACTOR-V-02"
+      ],
+      "capability_link_ids": [
+        "A47-CAP-V-02"
+      ],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-03",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 3,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-03",
+      "name": "Congress shall call the proposing convention",
+      "summary": "On constitutionally sufficient State legislative applications, Congress is directed to call a convention for proposing amendments.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-03"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-03-01"
+      ],
+      "actor_link_ids": [
+        "A47-ACTOR-V-03"
+      ],
+      "capability_link_ids": [
+        "A47-CAP-V-03"
+      ],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-04",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 4,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-04",
+      "name": "Convention proposal distinct from ratification",
+      "summary": "The Article V convention route is a route to PROPOSE constitutional amendments rather than to adopt them without ratification.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-04"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-04-01"
+      ],
+      "actor_link_ids": [
+        "A47-ACTOR-V-04"
+      ],
+      "capability_link_ids": [
+        "A47-CAP-V-04"
+      ],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-05",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 5,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-05",
+      "name": "Ratification by three-fourths of State legislatures",
+      "summary": "A proposed amendment becomes part of the Constitution when ratified by the legislatures of three fourths of the States under the congressionally selected mode.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-05"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-05-01"
+      ],
+      "actor_link_ids": [
+        "A47-ACTOR-V-05"
+      ],
+      "capability_link_ids": [
+        "A47-CAP-V-05"
+      ],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-06",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 6,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-06",
+      "name": "Ratification by three-fourths of State conventions",
+      "summary": "Congress can choose ratification by conventions in three fourths of the States, instead of the State-legislature mode.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-06"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-06-01"
+      ],
+      "actor_link_ids": [
+        "A47-ACTOR-V-06"
+      ],
+      "capability_link_ids": [
+        "A47-CAP-V-06"
+      ],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-07",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 7,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-07",
+      "name": "Congress chooses between Article V ratification modes",
+      "summary": "Congress selects which of the two State ratification modes will be used for a proposed constitutional amendment.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-07"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-07-01"
+      ],
+      "actor_link_ids": [
+        "A47-ACTOR-V-07"
+      ],
+      "capability_link_ids": [
+        "A47-CAP-V-07"
+      ],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-08",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 8,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-08",
+      "name": "Before-1808 Article I Section 9 amendment protection",
+      "summary": "Original Article V restricted pre-1808 amendments affecting the original Article I §9 clauses 1 and 4.",
+      "current_effect_status": "expired",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-08"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-08-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-V-09",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 5,
+      "ordinal": 9,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-05-SEG-09",
+      "name": "State consent prerequisite for loss of equal Senate suffrage",
+      "summary": "No State may be deprived of equal suffrage in the Senate without its own consent.",
+      "current_effect_status": "operative",
+      "norm_ids": [
+        "NORM-US-CONST-A47-V-09"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-V-09-01"
+      ],
+      "actor_link_ids": [
+        "A47-ACTOR-V-09"
+      ],
+      "capability_link_ids": [
+        "A47-CAP-V-09"
+      ],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-VII-01",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 7,
+      "ordinal": 1,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-07-SEG-01",
+      "name": "Original State convention ratification route",
+      "summary": "The original Constitution's ratification was committed to State ratifying conventions rather than State legislative enactment.",
+      "current_effect_status": "expired",
+      "norm_ids": [
+        "NORM-US-CONST-A47-VII-01"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-VII-01-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-VII-02",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 7,
+      "ordinal": 2,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-07-SEG-02",
+      "name": "Nine-State historical sufficiency threshold",
+      "summary": "The ratification of conventions of nine of the original States was sufficient to establish the Constitution between States ratifying it.",
+      "current_effect_status": "expired",
+      "norm_ids": [
+        "NORM-US-CONST-A47-VII-02"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-VII-02-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    },
+    {
+      "id": "A47-UNIT-VII-03",
+      "type": "article_iv_vii_comprehensive_unit",
+      "article": 7,
+      "ordinal": 3,
+      "unit_kind": "arfi_nonofficial_analytical_segment",
+      "provision_id": "CONST-US-ART-07-SEG-03",
+      "name": "Inter-ratifying-State effect, not automatic universal accession",
+      "summary": "The Constitution's original nine-State ratification rule established authority between the States so ratifying.",
+      "current_effect_status": "expired",
+      "norm_ids": [
+        "NORM-US-CONST-A47-VII-03"
+      ],
+      "qualification_ids": [
+        "A47-QUAL-VII-03-01"
+      ],
+      "actor_link_ids": [],
+      "capability_link_ids": [],
+      "existing_federalism_unit_id": null,
+      "existing_federalism_qualification_ids": [],
+      "existing_federalism_actor_link_ids": [],
+      "existing_federalism_capability_link_ids": [],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "review_status": "research_textual_analysis_pending_human_legal_review"
+    }
+  ]
+}
