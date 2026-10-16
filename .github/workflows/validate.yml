@@ -39,7 +39,7 @@ jobs:
         run: node scripts/validate-dod.mjs --validate
       - name: Validate statutory command, GAO Defense Agency and fiscal request viewpoints
         run: node scripts/validate-dod.mjs --view VIEW-DOD-COMMAND > /dev/null && node scripts/validate-dod.mjs --view VIEW-DOD-DAFA > /dev/null && node scripts/validate-dod.mjs --view VIEW-DOD-FISCAL > /dev/null
-      - name: Verify all 19 typed DoD source, statutory, oversight and fiscal data contracts
+      - name: Verify all 20 typed DoD constitutional, statutory, institutional and fiscal data contracts
         run: node scripts/validate-dod-schema.mjs
       - name: Test DoD institutional and statutory source, command, IG and funding safeguards
         run: node --test tests/dod.test.mjs
