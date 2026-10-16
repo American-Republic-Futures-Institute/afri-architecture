@@ -1,3 +1,4 @@
+import {createHash} from "node:crypto";
 // Source-bounded ARFI-COA DoD validation + deterministic research-view projection.
 // Legal propositions must be directly supported; graph proximity never grants power.
 export const DOD_FAMILIES=Object.freeze(["source-registry","source-snapshots","statutory-composition","dafas",
@@ -308,10 +309,12 @@ export function validateDod(manifest,files){
   "coverage ledger hides unfinished organizational/fiscal review");
  for(const required of ["DOD-GAP-DAFA-NAME-CURRENCY","DOD-GAP-FISCAL-ACCOUNT","DOD-GAP-COMBATANT-UCP","DOD-GAP-INDIVIDUAL-DELEGATION"])
  check(gaps.some(x=>x.id===required),"incomplete DoD coverage must disclose "+required);
+ const congressEntity=files["model/federal/legislative.json"].items.find(x=>x.id==="ORG-FED-LEG-CONGRESS");
+ check(congressEntity?.branch_id==="BR-FED-LEG","congress reporting recipient must be the real canonical legislative institution");
  const department=files["model/federal/executive-departments.json"].items.find(x=>x.id===ext.department_id);
  check(department?.kind==="executive_department"&&department.branch_id==="BR-FED-EXE",
   "missing unchanged canonical DoD department");
- return {manifest,extension:ext,data,sources,department,constitutionalIndex,components:compMap,dafas:daMap,roles,commands:cmds,
+ return {manifest,extension:ext,data,sources,department,congressEntity,constitutionalIndex,components:compMap,dafas:daMap,roles,commands:cmds,
   services,conditions,provisions:prov,powers,relationships:relations,congressional:congress,fiscal,
   views,gaps,checks:{
    statute_composition:composition.length,defense_agencies:agen.length,field_activities:fields.length,
@@ -324,17 +327,39 @@ export function validateDod(manifest,files){
 export function projectDodView(data,viewId){
  const v=data.views.find(x=>x.id===viewId);
  check(!!v,"unregistered or prohibited DoD viewpoint "+viewId);
- const nodes=new Map();
- const push=(x)=>{if(x?.id)nodes.set(x.id,{id:x.id,name:x.name||x.title||x.id,
-  kind:x.type||x.category,legal_status:"source_bounded_research_not_independently_legally_certified"});};
- // Contract deliberately selects bounded authoritative evidence, never hypothesized links.
- for(const x of data.data["statutory-composition"])if(v.id==="VIEW-DOD-COMPOSITION"||v.id==="VIEW-DOD-SERVICES")push(x);
+ const nodes=new Map(),edges=[],relIds=new Set();
+ const push=x=>{
+  if(!x?.id)return;
+  const source_ids=Array.isArray(x.source_ids)?x.source_ids:[];
+  check(source_ids.every(y=>data.sources.has(y)),
+   "DoD projection contains an uncited source record: "+x.id);
+  const sourceUrls=source_ids.map(y=>data.sources.get(y)?.url).filter(Boolean);
+  nodes.set(x.id,{id:x.id,name:x.name||x.title||x.id,kind:x.type||x.category||x.kind,
+   source_ids,source_urls:sourceUrls,review_status:x.review_status||x.legal_review_status||x.status||"research_bounded",
+   model_source_locator:x.legal_locator||x.source_locator||x.section_locator||null,
+   legal_status:"source_bounded_research_not_independently_legally_certified"});
+ };
+ const emit=(from_id,to_id,relationship_type,source_ids,qualification)=>{
+  check(nodes.has(from_id)&&nodes.has(to_id),"projection attempted a dangling evidentiary connection "+from_id+" -> "+to_id);
+  check(Array.isArray(source_ids)&&source_ids.length>0&&source_ids.every(x=>data.sources.has(x)),
+   "projection cannot infer an unsourced relationship "+relationship_type);
+  const fingerprint=[v.id,from_id,to_id,relationship_type,[...new Set(source_ids)].sort().join("|")].join("/");
+  const id="DOD-VIEW-EDGE-"+createHash("sha256").update(fingerprint).digest("hex").slice(0,32).toUpperCase();
+  check(!relIds.has(id),"duplicate projected authority, oversight or financial edge "+id);
+  relIds.add(id);
+  edges.push({id,from_id,to_id,relationship_type,source_ids,legal_authority_proven:false,
+   derived_from_canonical_record:true,qualification:qualification||"Research-only relation; this edge creates no new legal power."});
+ };
+ const original=data.relationships;
+ if(v.id==="VIEW-DOD-COMPOSITION"||v.id==="VIEW-DOD-SERVICES"){
+  for(const x of data.data["statutory-composition"])push(x);
+  if(v.id==="VIEW-DOD-COMPOSITION")push(data.department);
+ }
  if(v.id==="VIEW-DOD-DAFA"){
   for(const x of data.data.dafas)push(x);
-  for(const x of data.data.offices.filter(y=>y.category==="osd_supervisory_office"))push(x);
+  for(const x of data.data.offices.filter(y=>y.category==="osd_supervisory_office"||y.id==="DOD-ROLE-CHAIRMAN"))push(x);
   for(const x of data.data["statutory-composition"].filter(y=>/AGENCIES|FIELD-ACTIVITIES/.test(y.short_code)))push(x);
  }
- if(v.id==="VIEW-DOD-COMPOSITION")push(data.department);
  if(v.id==="VIEW-DOD-COMMAND"){
   for(const x of data.commands)push(x);
   for(const x of data.data.offices.filter(y=>["DOD-ROLE-SECDEF","DOD-ROLE-CHAIRMAN","DOD-CCMD-ROLE"].includes(y.id)))push(x);
@@ -345,33 +370,90 @@ export function projectDodView(data,viewId){
   for(const x of data.data.offices)push(x);
   for(const x of data.data.powers)push(x);
   for(const x of data.data.conditions)push(x);
+  for(const x of data.data["statutory-provisions"])push(x);
   for(const x of data.data["authority-traces"])push(x);
- }
- if(v.id==="VIEW-DOD-CONGRESS")for(const x of [...data.congressional,...data.data["congressional-crosswalks"]])push(x);
- if(v.id==="VIEW-DOD-FISCAL")for(const x of data.fiscal)push(x);
- if(v.id==="VIEW-DOD-CONSTITUTION"){
-  for(const x of data.data["constitutional-context"]){
-   push(x);push(data.constitutionalIndex.get(x.constitution_id));
-   push(data.provisions.get(x.statutory_context_id));
+  push(data.congressEntity); // source referenced; no inferred legislative delegation
+  push(data.department);
+  push(data.data.offices.find(x=>x.id==="DOD-ROLE-SECDEF"));
+  push(data.data.offices.find(x=>x.id==="DOD-CCMD-ROLE"));
+  for(const x of data.data.powers){
+   if(!nodes.has(x.authorized_actor_id)){
+    if(x.authorized_actor_id==="ORG-FED-EXE-PRESIDENT"){
+     const president={id:"ORG-FED-EXE-PRESIDENT",name:"President of the United States",
+      source_ids:data.data["constitutional-context"].filter(z=>z.competent_actor_id==="ORG-FED-EXE-PRESIDENT")
+       .flatMap(z=>z.source_ids),type:"constitutional_office"};
+     push(president);
+    }else check(false,"power assigned to a missing statutory role "+x.id);
+   }
+   emit(x.authorized_actor_id,x.id,"bounded_statutory_role_authority",x.source_ids,
+     "Limited to a text-indexed actor/function; legal advice and individual delegated authority remain unverified.");
+   const p=data.provisions.get(x.provision_id);
+   emit(x.id,p.id,"bounded_statutory_legal_basis",p.source_ids);
+   for(const condId of x.condition_ids){
+    const c=data.conditions.get(condId);
+    emit(x.id,c.id,"explicit_statutory_limitation",c.source_ids,
+     "Restriction accompanies the indexed function, not a new legal authority.");
+   }
+  }
+  for(const x of data.data["authority-traces"]){
+   if(nodes.has(x.actor_id))emit(x.id,x.actor_id,"trace_has_statutory_actor",x.source_ids);
+   for(const id of x.power_ids)emit(x.id,id,"trace_cites_bounded_power",x.source_ids);
   }
  }
- const relationships=data.relationships.filter(x=>nodes.has(x.from_id)&&nodes.has(x.to_id)&&
-  v.include_relationship_types.includes(x.relationship_type));
- if(v.id==="VIEW-DOD-CONSTITUTION"){
-  for(const x of data.data["constitutional-context"]){
-   relationships.push({id:x.id+"-ORIGINAL",from_id:x.constitution_id,to_id:x.id,
-    relationship_type:"constitutional_context_not_direct_statutory_delegation",
-    source_ids:x.source_ids,legal_authority_proven:false});
-   relationships.push({id:x.id+"-STATUTE",from_id:x.id,to_id:x.statutory_context_id,
-    relationship_type:"source_research_context_only",
-    source_ids:[...x.source_ids,...data.provisions.get(x.statutory_context_id).source_ids],
-    legal_authority_proven:false});
+ if(v.id==="VIEW-DOD-CONGRESS"){
+  for(const x of [...data.congressional,...data.data["congressional-crosswalks"]])push(x);
+  for(const x of data.data.offices.filter(y=>["DOD-ROLE-SECDEF","DOD-ROLE-CHAIRMAN"].includes(y.id)))push(x);
+  push(data.congressEntity);
+  for(const x of data.data["congressional-crosswalks"]){
+   emit(x.actor_id,x.id,"congressional_reporting",x.source_ids,
+    "Statutory reporting duty, not proof of delivered report.");
+   const recipients=x.recipient_committee_ids.length?x.recipient_committee_ids:[data.congressEntity.id];
+   for(const id of recipients)emit(x.id,id,"statutory_report_recipient",x.source_ids,
+    "Statutorily identified recipient only; does not prove submitted, accepted or reviewed report.");
   }
  }
+ if(v.id==="VIEW-DOD-FISCAL"){
+  for(const x of data.fiscal)push(x);
+  for(const id of ["DOD-COND-PURPOSE-RULE","DOD-COND-ANTIDEFICIENCY"]){
+   const condition=data.conditions.get(id);push(condition);
+   push(data.provisions.get(condition.provision_id));
+  }
+  for(const x of data.fiscal){
+   for(const limitId of [x.purpose_limitation_id,x.availability_limitation_id])
+    emit(x.id,limitId,"proposed_budget_only",[
+     ...x.source_ids,...data.conditions.get(limitId).source_ids],
+     "FY2026 request is not an enacted appropriation; these laws constrain future expenditures, not grant funding.");
+  }
+  for(const id of ["DOD-COND-PURPOSE-RULE","DOD-COND-ANTIDEFICIENCY"]){
+   const condition=data.conditions.get(id);
+   emit(id,condition.provision_id,"fiscal_guardrail_source_basis",condition.source_ids);
+  }
+ }
+ if(v.id==="VIEW-DOD-CONSTITUTION"){
+  for(const x of data.data["constitutional-context"]){
+   push(x);push(data.constitutionalIndex.get(x.constitution_id));push(data.provisions.get(x.statutory_context_id));
+  }
+  for(const x of data.data["constitutional-context"]){
+   emit(x.constitution_id,x.id,"constitutional_context_not_direct_statutory_delegation",
+    x.source_ids,"Original constitutional text is context, not agency-specific delegation.");
+   emit(x.id,x.statutory_context_id,"source_research_context_only",
+    [...x.source_ids,...data.provisions.get(x.statutory_context_id).source_ids],
+    "Analytical Article/Title crosswalk; no independent power or appropriation inferred.");
+  }
+ }
+ for(const x of original.filter(x=>nodes.has(x.from_id)&&nodes.has(x.to_id)&&
+   v.include_relationship_types.includes(x.relationship_type)))
+  emit(x.from_id,x.to_id,x.relationship_type,x.source_ids,
+   x.qualifications?.length?x.qualifications.join("; "):"Source-dated statutory or descriptive relationship; see legal authority qualification.");
+ check(edges.every(e=>v.include_relationship_types.includes(e.relationship_type)),
+  "view selection must declare every rendered relationship class "+v.id);
  return {model_standard:"ARFI-COA",id:v.id,title:v.title,status:v.rendering_status,
   reference_as_of:v.applicability_label,department_id:data.extension.department_id,
-  nodes:[...nodes.values()].sort((a,b)=>a.id.localeCompare(b.id)),relationships,
-  caveats:["Official research graph, not certified comprehensive legal interpretation.",
+  nodes:[...nodes.values()].sort((a,b)=>a.id.localeCompare(b.id)),relationships:edges,
+  counts:{nodes:nodes.size,relationships:edges.length},
+  source_snapshot_revision:data.extension.latest_legal_codification,
+  caveats:["Official dated research graph, not certified comprehensive legal interpretation.",
    "Legal command, agency oversight, congressional reporting and fiscal authority are different relationships.",
+   "All derived edges are source-linked and do not create legal powers, funding authority or military command.",
    "This source subset has not been rendered or deployed to the public website."]};
 }
