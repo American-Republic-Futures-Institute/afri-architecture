@@ -59,3 +59,7 @@ jobs:
         run: node scripts/validate-state.mjs
       - name: Test State source, D.C., federalism and judicial conflict regressions
         run: node --test tests/state.test.mjs
+      - name: Validate State statutory enabling authority and limits
+        run: node scripts/validate-state-statutes.mjs
+      - name: Test statute-proven authority, jurisdiction boundaries and publication safety
+        run: node --test tests/state-statutes.test.mjs
