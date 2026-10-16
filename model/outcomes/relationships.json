@@ -1,0 +1,1577 @@
+{
+  "version": "0.1.0",
+  "status": "typed_research_hypotheses_unratified",
+  "relationship_types": [
+    "supports",
+    "depends_on",
+    "conflicts_with",
+    "constrained_by",
+    "requires_legal_authority"
+  ],
+  "items": [
+    {
+      "id": "EDGE-07-0001",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-002",
+      "to_id": "HLT-O08",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Resilient services could contribute to continuity of necessary healthcare.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0002",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-002",
+      "to_id": "CYB-O01",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-02",
+        "EVID-07-07"
+      ],
+      "rationale": "Recovery capability could improve the continuity of essential digital services.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0003",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-003",
+      "to_id": "EDU-O08",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Transferable learning opportunities could sustain adult reentry and advancement.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0004",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-003",
+      "to_id": "EPR-O02",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Transferable skills may improve meaningful mobility in the labor market.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0005",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-004",
+      "to_id": "EDU-O10",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Independent learning evidence could improve public correction and accountability.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0006",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-004",
+      "to_id": "HLT-O02",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "Reliable outcomes evidence may help distinguish care quality from spending.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0007",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-005",
+      "to_id": "EPR-O10",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Transparent resource stewardship could improve assessment of long-term fiscal capacity.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0008",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-005",
+      "to_id": "HLT-O03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Honest household and public-finance accounting could expose hidden care costs.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0009",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-006",
+      "to_id": "HLT-O07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Accessible correction and participation could improve patient decision-making and remedies.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0010",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-006",
+      "to_id": "CYB-O04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Accessible redress may limit the duration of digital identity harm.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0011",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-007",
+      "to_id": "HLT-O08",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "Reliable supply and infrastructure networks could reduce service disruption.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0012",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-007",
+      "to_id": "EPR-O08",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Supply diversity and infrastructure resilience could help sustain productive activity.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0013",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-001",
+      "to_id": "CYB-O03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Purpose limitation could reduce inappropriate secondary use of personal data.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0014",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-001",
+      "to_id": "HLT-O09",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Constrained information sharing could improve medical-record stewardship.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0015",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-008",
+      "to_id": "CYB-O04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Identity restoration and verification may help remedy account compromise.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0016",
+      "relationship_type": "supports",
+      "from_id": "CAP-XDOM-008",
+      "to_id": "EDU-O06",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Accessible verification alternatives might reduce erroneous exclusion of learners.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0017",
+      "relationship_type": "depends_on",
+      "from_id": "HLT-O08",
+      "to_id": "CAP-XDOM-002",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Durable clinical continuity plausibly depends on the ability to recover from disruption.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0018",
+      "relationship_type": "depends_on",
+      "from_id": "EPR-O08",
+      "to_id": "CAP-XDOM-007",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Resilient industry plausibly depends on some functioning critical supply and infrastructure networks.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0019",
+      "relationship_type": "depends_on",
+      "from_id": "EDU-O08",
+      "to_id": "CAP-XDOM-003",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Adult education opportunity depends in part on continued availability of useful learning pathways.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0020",
+      "relationship_type": "depends_on",
+      "from_id": "CYB-O04",
+      "to_id": "CAP-XDOM-008",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Correctable digital identity harm plausibly depends on recovery capabilities and alternatives.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0021",
+      "relationship_type": "depends_on",
+      "from_id": "HLT-O09",
+      "to_id": "CAP-XDOM-001",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Trustworthy medical information depends in part on constrained data stewardship.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0022",
+      "relationship_type": "depends_on",
+      "from_id": "CYB-O03",
+      "to_id": "CAP-XDOM-001",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Personal data protection depends in part on lawful purpose and data governance.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0023",
+      "relationship_type": "depends_on",
+      "from_id": "EPR-O10",
+      "to_id": "CAP-XDOM-005",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Meaningful fiscal stability analysis depends on reliable public accounting of obligations.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0024",
+      "relationship_type": "depends_on",
+      "from_id": "EDU-O10",
+      "to_id": "CAP-XDOM-004",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Correcting education systems plausibly depends on credible educational outcome evidence.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0025",
+      "relationship_type": "depends_on",
+      "from_id": "HLT-O07",
+      "to_id": "CAP-XDOM-006",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Meaningful patient autonomy depends partly on accessible information and remedies.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0026",
+      "relationship_type": "depends_on",
+      "from_id": "EPR-O02",
+      "to_id": "CAP-XDOM-003",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-02"
+      ],
+      "rationale": "Economic mobility can be influenced by pathways for continued learning and skill development.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0027",
+      "relationship_type": "depends_on",
+      "from_id": "CYB-O01",
+      "to_id": "CAP-XDOM-002",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-07",
+        "EVID-07-02"
+      ],
+      "rationale": "Cyber resilience requires more than prevention; continuity and recovery are needed.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0028",
+      "relationship_type": "depends_on",
+      "from_id": "HLT-O02",
+      "to_id": "CAP-XDOM-004",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "The evaluation of clinical benefit depends on high-quality evidence and meaningful risk adjustment.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0029",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-02",
+      "to_id": "CYB-O03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "A centralized mandatory identity store could increase exposure or create surveillance incentives.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0030",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-02",
+      "to_id": "EDU-O06",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "An all-digital identity requirement could exclude people without suitable equipment or records.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0031",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-03",
+      "to_id": "EDU-O10",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-06"
+      ],
+      "rationale": "Uniform funding-linked performance reporting could invite metric gaming or shift attention from genuine learning.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0032",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-03",
+      "to_id": "CYB-O03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "Additional learner reporting could expose sensitive personal information.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0033",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-04",
+      "to_id": "EPR-O08",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "A poorly specified asset tax could change capital allocation or impose liquidity costs; size and direction unknown.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0034",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-05",
+      "to_id": "EPR-O10",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "Facility acquisition could consume fiscal capacity or shift operating liabilities.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0035",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-06",
+      "to_id": "CYB-O06",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "A broader crisis cyber role could impair civil liberties without narrow authority and review.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0036",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-07",
+      "to_id": "EPR-O03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "Subsidies could favor incumbents or reduce competitive entry if not designed transparently.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0037",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-08",
+      "to_id": "CYB-O03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "Portable learning credentials could invite excessive profiling if data is collected or shared broadly.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0038",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-09",
+      "to_id": "CYB-O08",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-04"
+      ],
+      "rationale": "Compulsory civic origin labeling could become viewpoint discrimination or chill lawful expression.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0039",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-10",
+      "to_id": "CYB-O03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "An outcome portal built from identifiable service records could harm privacy even when statistically useful.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0040",
+      "relationship_type": "conflicts_with",
+      "from_id": "OPT-07-01",
+      "to_id": "CYB-O03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-08"
+      ],
+      "rationale": "Even a federated exchange could permit secondary use outside the specific authorized purpose.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What design features or comparison evidence would show this risk does not materialize?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0041",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-01",
+      "to_id": "GUARD-07-04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Data exchange cannot supersede legitimate-purpose restrictions.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0042",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-01",
+      "to_id": "GUARD-07-03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "State and other governments must retain their own lawful authority.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0043",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-02",
+      "to_id": "GUARD-07-04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Identity consolidation creates privacy and minimization risks.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0044",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-02",
+      "to_id": "GUARD-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Essential services need accessible alternatives.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0045",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-02",
+      "to_id": "GUARD-07-02",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Erroneous account exclusion needs a suitable challenge route.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0046",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-03",
+      "to_id": "GUARD-07-03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Federal grant conditions must respect State roles and constitutional limits.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0047",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-03",
+      "to_id": "GUARD-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Learning measurement must account for affected people.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0048",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-03",
+      "to_id": "GUARD-07-09",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Published school metrics must disclose uncertainty and possible distortion.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0049",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-04",
+      "to_id": "GUARD-07-05",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Any tax must be legislated and classified in a constitutionally valid way.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0050",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-04",
+      "to_id": "GUARD-07-09",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Valuation evidence must be transparent rather than invented.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0051",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-05",
+      "to_id": "GUARD-07-06",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Potential public acquisition must address lawful property and compensation limits.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0052",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-05",
+      "to_id": "GUARD-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Any transition must not leave patients without care.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0053",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-05",
+      "to_id": "GUARD-07-05",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Fiscal implications must be made transparent.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0054",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-06",
+      "to_id": "GUARD-07-10",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Defense and civilian roles require specific legal boundaries.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0055",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-06",
+      "to_id": "GUARD-07-04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Emergency cyber information access must be purpose-bounded.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0056",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-06",
+      "to_id": "GUARD-07-03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "State and private operator responsibilities remain distinct.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0057",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-07",
+      "to_id": "GUARD-07-05",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Public fiscal incentives need valid authorization and appropriations.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0058",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-07",
+      "to_id": "GUARD-07-09",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Performance reporting must not reward announcements rather than productive capacity.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0059",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-08",
+      "to_id": "GUARD-07-04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Credentials should not become unrestricted learner profiles.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0060",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-08",
+      "to_id": "GUARD-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Offline or alternative paths must remain accessible.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0061",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-09",
+      "to_id": "GUARD-07-01",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Attribution and provenance must not require ideological conformity.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0062",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-09",
+      "to_id": "GUARD-07-02",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Inaccurate labels require appropriate contestability and correction.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0063",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-09",
+      "to_id": "GUARD-07-09",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Evidence and uncertainty should remain visible.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0064",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-10",
+      "to_id": "GUARD-07-04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Public data products must minimize the risk of identifying private persons.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0065",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-10",
+      "to_id": "GUARD-07-09",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Statistics must preserve uncertainty and dissent.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0066",
+      "relationship_type": "constrained_by",
+      "from_id": "OPT-07-10",
+      "to_id": "GUARD-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-01",
+        "EVID-07-03"
+      ],
+      "rationale": "Reporting must not hide underserved populations.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0067",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-01",
+      "to_id": "AGATE-07-03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-03 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0068",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-01",
+      "to_id": "AGATE-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-07 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0069",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-02",
+      "to_id": "AGATE-07-03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-03 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0070",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-02",
+      "to_id": "AGATE-07-01",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-01 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0071",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-03",
+      "to_id": "AGATE-07-02",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-02 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0072",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-03",
+      "to_id": "AGATE-07-01",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-01 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0073",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-04",
+      "to_id": "AGATE-07-06",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-06 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0074",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-04",
+      "to_id": "AGATE-07-01",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-01 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0075",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-05",
+      "to_id": "AGATE-07-04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-04 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0076",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-05",
+      "to_id": "AGATE-07-01",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-01 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0077",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-05",
+      "to_id": "AGATE-07-02",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-02 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0078",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-06",
+      "to_id": "AGATE-07-05",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-05 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0079",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-06",
+      "to_id": "AGATE-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-07 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0080",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-07",
+      "to_id": "AGATE-07-01",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-01 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0081",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-07",
+      "to_id": "AGATE-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-07 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0082",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-08",
+      "to_id": "AGATE-07-03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-03 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0083",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-08",
+      "to_id": "AGATE-07-02",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-02 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0084",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-09",
+      "to_id": "AGATE-07-09",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-09 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0085",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-09",
+      "to_id": "AGATE-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-07 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0086",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-10",
+      "to_id": "AGATE-07-03",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-03 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0087",
+      "relationship_type": "requires_legal_authority",
+      "from_id": "OPT-07-10",
+      "to_id": "AGATE-07-07",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-03",
+        "EVID-07-01"
+      ],
+      "rationale": "This option cannot be proposed as an actionable governmental measure until the AGATE-07-07 legal route, jurisdiction and limits have been independently established.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "Which controlling law, actual jurisdiction and authority conditions would authorize or prohibit this exact action?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0088",
+      "relationship_type": "constrained_by",
+      "from_id": "CAP-XDOM-001",
+      "to_id": "GUARD-07-04",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-02",
+        "EVID-07-01"
+      ],
+      "rationale": "Information stewardship must respect purpose limitations even when it improves coordination.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0089",
+      "relationship_type": "constrained_by",
+      "from_id": "CAP-XDOM-002",
+      "to_id": "GUARD-07-10",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-02",
+        "EVID-07-01"
+      ],
+      "rationale": "Critical resilience must not silently confer a general domestic defense policing mission.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0090",
+      "relationship_type": "constrained_by",
+      "from_id": "CAP-XDOM-004",
+      "to_id": "GUARD-07-09",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-02",
+        "EVID-07-01"
+      ],
+      "rationale": "Public evidence should remain contestable and clearly differentiated from causal proof.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0091",
+      "relationship_type": "constrained_by",
+      "from_id": "CAP-XDOM-005",
+      "to_id": "GUARD-07-05",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-02",
+        "EVID-07-01"
+      ],
+      "rationale": "Public finance capability never implies authority to tax or appropriate.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    },
+    {
+      "id": "EDGE-07-0092",
+      "relationship_type": "constrained_by",
+      "from_id": "CAP-XDOM-008",
+      "to_id": "GUARD-07-02",
+      "claim_status": "candidate_hypothesis_unratified",
+      "effect_strength": "unknown_not_quantified",
+      "evidence_ids": [
+        "EVID-07-02",
+        "EVID-07-01"
+      ],
+      "rationale": "Digital identity recovery must have routes for correcting wrongful exclusions.",
+      "uncertainty": "This is a plausible connection, not an empirically demonstrated causal effect or a legal determination.",
+      "disconfirmation_prompt": "What observed evidence or credible alternative would show this pathway is unnecessary or ineffective?",
+      "authority_asserted": false,
+      "review_status": "independent_evidence_legal_and_public_review_pending"
+    }
+  ]
+}
