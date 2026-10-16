@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/focused-view-query.schema.json",
+  "title": "ARFI focused and composed view data query v0.1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "description": "A bounded deterministic data projection request. No NLP inference, UI canvas, evidence fabrication or policy matching.",
+  "properties": {
+    "scope_id": {
+      "type": "string",
+      "pattern": "^SCOPE-CONST-(ART|AMD)-[0-9]{2}$"
+    },
+    "focus_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 16,
+      "items": {
+        "type": "string",
+        "minLength": 4
+      }
+    },
+    "exclude_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 100,
+      "items": {
+        "type": "string"
+      }
+    },
+    "include_record_kinds": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 100,
+      "items": {
+        "type": "string"
+      }
+    },
+    "include_relation_classes": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 7,
+      "items": {
+        "enum": [
+          "structural",
+          "research_analysis",
+          "textual_candidate",
+          "qualification",
+          "historical_context",
+          "functional_alignment",
+          "federal_observed"
+        ]
+      }
+    },
+    "max_hops": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 8
+    },
+    "max_nodes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2500
+    },
+    "max_edges": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10000
+    },
+    "search_text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160
+    },
+    "search_mode": {
+      "enum": [
+        "all",
+        "any"
+      ]
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "scope_id"
+      ]
+    },
+    {
+      "required": [
+        "focus_ids"
+      ]
+    },
+    {
+      "required": [
+        "search_text"
+      ]
+    }
+  ]
+}
