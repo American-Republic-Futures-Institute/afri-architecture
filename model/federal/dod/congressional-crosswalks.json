@@ -7,19 +7,14 @@
       "provision_id": "DOD-PROV-10-113-C",
       "actor_id": "DOD-ROLE-SECDEF",
       "report_type": "report_to_congress_annual_expenditures",
-      "recipient_committee_ids": [
-        "DOD-CONG-HOUSE-ASC",
-        "DOD-CONG-HOUSE-APP",
-        "DOD-CONG-SENATE-ASC",
-        "DOD-CONG-SENATE-APP"
-      ],
-      "recipient_status": "statutory_congressional_defense_committees_defined_in_10_USC_101_a_16",
+      "recipient_committee_ids": [],
+      "recipient_status": "Congress_at_large_not_specific_defense_committees",
       "source_ids": [
         "CENSUS-SRC-DOD-113"
       ],
       "operational_reporting_compliance_verified": false,
       "appropriations_legally_enacted": false,
-      "notes": "10 U.S.C. §113(c) annual report, reporting obligation needs a separate subsection source record",
+      "notes": "10 U.S.C. §113(c) annual report, reporting obligation needs a separate subsection source record Recipient is Congress, not automatically the four 10 U.S.C. §101(a)(16) committees.",
       "review_status": "textual_recipient_crosswalk_not_report_delivery_verified"
     },
     {
@@ -28,19 +23,14 @@
       "provision_id": "DOD-PROV-10-161-B",
       "actor_id": "DOD-ROLE-SECDEF",
       "report_type": "report_command_establishment",
-      "recipient_committee_ids": [
-        "DOD-CONG-HOUSE-ASC",
-        "DOD-CONG-HOUSE-APP",
-        "DOD-CONG-SENATE-ASC",
-        "DOD-CONG-SENATE-APP"
-      ],
-      "recipient_status": "statutory_congressional_defense_committees_defined_in_10_USC_101_a_16",
+      "recipient_committee_ids": [],
+      "recipient_status": "Congress_at_large_not_specific_defense_committees",
       "source_ids": [
         "DOD-SRC-10-161"
       ],
       "operational_reporting_compliance_verified": false,
       "appropriations_legally_enacted": false,
-      "notes": "Statutory President-through-Secretary notification and briefing within 60 days subject to exception",
+      "notes": "Statutory President-through-Secretary notification and briefing within 60 days subject to exception Recipient is Congress, not automatically the four 10 U.S.C. §101(a)(16) committees.",
       "review_status": "textual_recipient_crosswalk_not_report_delivery_verified"
     },
     {

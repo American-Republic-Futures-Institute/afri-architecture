@@ -256,6 +256,22 @@
       "military_command_role_verified": false,
       "oversight_independence": "independent_ig_act_powers",
       "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-CCMD-ROLE",
+      "type": "dod_office_or_official_role",
+      "name": "Commander of a combatant command (statutory office class)",
+      "category": "statutory_combatant_commander_class",
+      "parent_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-10-164"
+      ],
+      "source_locator": "10 U.S.C. § 164",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": false,
+      "military_command_role_verified": true,
+      "oversight_independence": "not_applicable",
+      "review_status": "statutory_role_class_not_specific_incumbent"
     }
   ]
 }

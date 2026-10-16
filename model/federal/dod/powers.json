@@ -44,7 +44,7 @@
     {
       "id": "DOD-POWER-PRESIDENT-CCMD-ESTABLISH",
       "type": "dod_bounded_statutory_function",
-      "authorized_actor_id": "DOD-ACTOR-PRESIDENT",
+      "authorized_actor_id": "ORG-FED-EXE-PRESIDENT",
       "provision_id": "DOD-PROV-10-161-A",
       "condition_ids": [
         "DOD-COND-COMMAND-NOTICE"
