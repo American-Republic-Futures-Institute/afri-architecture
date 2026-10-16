@@ -1,0 +1,470 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/articles-iv-vii.schema.json",
+  "title": "ARFI-COA Articles IV–VII Original-Text Model",
+  "description": "Five strict, separate original-text analytical model family shapes. Semantic legal boundaries validated by scripts/validate-article-iv-vii.mjs.",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/units"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/qualifications"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/actor-links"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/capability-links"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/viewpoints"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ],
+  "$defs": {
+    "units": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "article",
+        "ordinal",
+        "unit_kind",
+        "provision_id",
+        "name",
+        "summary",
+        "current_effect_status",
+        "norm_ids",
+        "qualification_ids",
+        "actor_link_ids",
+        "capability_link_ids",
+        "existing_federalism_unit_id",
+        "existing_federalism_qualification_ids",
+        "existing_federalism_actor_link_ids",
+        "existing_federalism_capability_link_ids",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "article_iv_vii_comprehensive_unit"
+        },
+        "article": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "ordinal": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "unit_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_effect_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "norm_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "qualification_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "actor_link_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "capability_link_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "existing_federalism_unit_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "existing_federalism_qualification_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "existing_federalism_actor_link_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "existing_federalism_capability_link_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "qualifications": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit_id",
+        "qualification_kind",
+        "summary",
+        "source_provision_ids",
+        "current_effect_status",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "article_iv_vii_textual_qualification"
+        },
+        "unit_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualification_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_provision_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "current_effect_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "actor-links": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit_id",
+        "norm_id",
+        "actor_id",
+        "actor_role",
+        "actor_relationship_classification",
+        "qualification_ids",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "article_iv_vii_actor_relationship"
+        },
+        "unit_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "norm_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "actor_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "actor_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "actor_relationship_classification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualification_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "capability-links": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "unit_id",
+        "norm_id",
+        "capability_id",
+        "qualification_ids",
+        "link_semantics",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "article_iv_vii_functional_capability_link"
+        },
+        "unit_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "norm_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "capability_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualification_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "link_semantics": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "viewpoints": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "root_provision_id",
+        "unit_ids",
+        "renderer_owner",
+        "publication_status",
+        "review_status",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "article_iv_vii_viewpoint"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "root_provision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unit_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "renderer_owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
