@@ -38,7 +38,7 @@ DoD statutory references preserve the legal Department of Defense identity notwi
 
 ## Data model and declarative views
 
-Nineteen new collections under model/federal/dod/ are registered in model/federal/manifest.json:
+Nineteen new collections under model/federal/dod/ are registered in model/federal/manifest.json and described in schemas/dod-institutional.schema.json (strict per-family JSON Schema 2020-12 structural contract):
 
 - Source registry and source snapshots
 - Statutory composition; May 2026 Defense Agencies and Field Activities; office roles; armed services; public combatant commands; temporal name events
@@ -56,6 +56,7 @@ Commands:
 
     node scripts/validate-dod.mjs --validate
     node scripts/validate-dod.mjs --view VIEW-DOD-DAFA
+    node scripts/validate-dod-schema.mjs
     node --test tests/dod.test.mjs
 
 Negative regression coverage includes false operational command, removal of President and §192 qualifications, spoofed sources, fabricated current DAFA status, duplicate identity, unsourced legal authority, a false Coast Guard placement, IG loss of independence, conflating budget request with enacted appropriation, and declaring human legal/citator review complete without evidence.
