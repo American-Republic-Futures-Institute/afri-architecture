@@ -1,0 +1,529 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "JUD-APP-0001",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-MARBURY-1803-01",
+      "case_id": "CASE-US-SCOTUS-MARBURY-1803",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "federal_statutes_in_justiciable_cases",
+      "precedential_status_id": "JUD-STATUS-MARBURY-1803-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-MARBURY-1803"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0002",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-MARBURY-1803-02",
+      "case_id": "CASE-US-SCOTUS-MARBURY-1803",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "supreme_court_original_jurisdiction",
+      "precedential_status_id": "JUD-STATUS-MARBURY-1803-02",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-MARBURY-1803"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0003",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-MARTIN-1816-01",
+      "case_id": "CASE-US-SCOTUS-MARTIN-1816",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATE-JUDGES"
+      ],
+      "bounded_issue_scope": "state_judgment_federal_question_review",
+      "precedential_status_id": "JUD-STATUS-MARTIN-1816-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-MARTIN-1816"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0004",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-MCCULLOCH-1819-01",
+      "case_id": "CASE-US-SCOTUS-MCCULLOCH-1819",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "enumerated_federal_ends_and_implementing_means",
+      "precedential_status_id": "JUD-STATUS-MCCULLOCH-1819-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-MCCULLOCH-1819"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0005",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-MCCULLOCH-1819-02",
+      "case_id": "CASE-US-SCOTUS-MCCULLOCH-1819",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "state_tax_on_constitutional_federal_instrumentality",
+      "precedential_status_id": "JUD-STATUS-MCCULLOCH-1819-02",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-MCCULLOCH-1819"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0006",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-HANS-1890-01",
+      "case_id": "CASE-US-SCOTUS-HANS-1890",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "federal_court_state_sovereign_immunity",
+      "precedential_status_id": "JUD-STATUS-HANS-1890-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-HANS-1890"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0007",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-PLESSY-1896-01",
+      "case_id": "CASE-US-SCOTUS-PLESSY-1896",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "historical_state_railcar_segregation",
+      "precedential_status_id": "JUD-STATUS-PLESSY-1896-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-PLESSY-1896"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0008",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-EX-PARTE-YOUNG-1908-01",
+      "case_id": "CASE-US-SCOTUS-EX-PARTE-YOUNG-1908",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATE-OFFICERS"
+      ],
+      "bounded_issue_scope": "prospective_relief_against_state_officials",
+      "precedential_status_id": "JUD-STATUS-EX-PARTE-YOUNG-1908-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-EX-PARTE-YOUNG-1908"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0009",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-BROWN-1954-01",
+      "case_id": "CASE-US-SCOTUS-BROWN-1954",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "public_k12_state_school_racial_segregation",
+      "precedential_status_id": "JUD-STATUS-BROWN-1954-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-BROWN-1954"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0010",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-COOPER-1958-01",
+      "case_id": "CASE-US-SCOTUS-COOPER-1958",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES",
+        "ACT-US-STATE-OFFICERS"
+      ],
+      "bounded_issue_scope": "state_official_compliance_with_scotus_equal_protection",
+      "precedential_status_id": "JUD-STATUS-COOPER-1958-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-COOPER-1958"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0011",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-GIDEON-1963-01",
+      "case_id": "CASE-US-SCOTUS-GIDEON-1963",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES",
+        "ACT-US-CRIMINAL-ACCUSED"
+      ],
+      "bounded_issue_scope": "indigent_state_felony_defendants_counsel",
+      "precedential_status_id": "JUD-STATUS-GIDEON-1963-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-GIDEON-1963"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0012",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-ROE-1973-01",
+      "case_id": "CASE-US-SCOTUS-ROE-1973",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "historical_abortion_due_process_framework",
+      "precedential_status_id": "JUD-STATUS-ROE-1973-01",
+      "binding_status": "superseded_modeled_holding_not_current_controlling",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-ROE-1973"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0013",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-CHEVRON-1984-01",
+      "case_id": "CASE-US-SCOTUS-CHEVRON-1984",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_statutory_review_with_article_iii_context",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "administrative_agency_statutory_review_under_prior_chevron_framework",
+      "precedential_status_id": "JUD-STATUS-CHEVRON-1984-01",
+      "binding_status": "superseded_modeled_holding_not_current_controlling",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-CHEVRON-1984"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0014",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-NEW-YORK-1992-01",
+      "case_id": "CASE-US-SCOTUS-NEW-YORK-1992",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "federal_direction_of_state_legislative_regulatory_programs",
+      "precedential_status_id": "JUD-STATUS-NEW-YORK-1992-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-NEW-YORK-1992"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0015",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-CASEY-1992-01",
+      "case_id": "CASE-US-SCOTUS-CASEY-1992",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "historical_previability_abortion_undue_burden_framework",
+      "precedential_status_id": "JUD-STATUS-CASEY-1992-01",
+      "binding_status": "superseded_modeled_holding_not_current_controlling",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-CASEY-1992"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0016",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-BOERNE-1997-01",
+      "case_id": "CASE-US-SCOTUS-BOERNE-1997",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED",
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "congressional_fourteenth_amendment_section5_enforcement",
+      "precedential_status_id": "JUD-STATUS-BOERNE-1997-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-BOERNE-1997"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0017",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-PRINTZ-1997-01",
+      "case_id": "CASE-US-SCOTUS-PRINTZ-1997",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATE-EXE",
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "federal_commands_to_state_executive_officers",
+      "precedential_status_id": "JUD-STATUS-PRINTZ-1997-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-PRINTZ-1997"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0018",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-MURPHY-2018-01",
+      "case_id": "CASE-US-SCOTUS-MURPHY-2018",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "federal_prohibitions_directed_at_state_legislative_authorization",
+      "precedential_status_id": "JUD-STATUS-MURPHY-2018-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-MURPHY-2018"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0019",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-DOBBS-2022-01",
+      "case_id": "CASE-US-SCOTUS-DOBBS-2022",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_constitutional_question",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-STATES"
+      ],
+      "bounded_issue_scope": "federal_constitutional_abortion_right_under_due_process",
+      "precedential_status_id": "JUD-STATUS-DOBBS-2022-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-DOBBS-2022"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    },
+    {
+      "id": "JUD-APP-0020",
+      "type": "judicial_holding_applicability",
+      "holding_id": "HOLD-US-SCOTUS-LOPER-BRIGHT-2024-01",
+      "case_id": "CASE-US-SCOTUS-LOPER-BRIGHT-2024",
+      "court_id": "COURT-US-SCOTUS",
+      "legal_question_family": "federal_statutory_review_with_article_iii_context",
+      "judiciary_systems_to_consider": [
+        "federal",
+        "state"
+      ],
+      "territorial_scope": "United States",
+      "precedential_role": "supreme_court_precedent_on_federal_question_subject_to_controlling_scope",
+      "government_addressee_actor_ids": [
+        "ACT-US-FED"
+      ],
+      "bounded_issue_scope": "administrative_procedure_act_statutory_review",
+      "precedential_status_id": "JUD-STATUS-LOPER-BRIGHT-2024-01",
+      "binding_status": "not_certified_current_controlling_pending_citator_review",
+      "scope_note": "Applicable only to relevant federal-law issues, judicial jurisdiction, actual holding and factual/doctrinal conditions; no case-wide, retroactive, or State-law binding generalization.",
+      "source_ids": [
+        "SRC-JUD-OPINION-LOPER-BRIGHT-2024"
+      ],
+      "review_status": "scope_candidate_pending_legal_review",
+      "as_of": "2026-10-16"
+    }
+  ]
+}

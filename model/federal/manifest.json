@@ -60,7 +60,8 @@
     "model/judicial/interpretations.json",
     "model/judicial/treatments.json",
     "model/judicial/status-assessments.json",
-    "model/judicial/viewpoints.json"
+    "model/judicial/viewpoints.json",
+    "model/judicial/applicability.json"
   ],
   "standards": [
     {
@@ -205,6 +206,7 @@
     "source_text_basis": "official United States Reports, official Supreme Court opinion PDFs, and separately labeled official explanatory research sources",
     "scope": "Holding-level judicial interpretation and treatment graph; distinguished from ratified constitutional text, executive administrative law, agency statutory delegations, and opinion dicta.",
     "citation_integrity": "Never infer negative precedent history from absent citation edges; citator coverage is non-exhaustive and all statuses are explicitly provisional.",
-    "publication_note": "No opinion text copyrighted reproduction. No website rendering engine or API changes."
+    "publication_note": "No opinion text copyrighted reproduction. No website rendering engine or API changes.",
+    "applicability_count": 20
   }
 }

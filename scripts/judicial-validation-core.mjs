@@ -7,7 +7,7 @@ const date=x=>typeof x==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x)&&!Number.isNaN(
 const kPaths={
  courts:"courts",sources:"sources",cases:"cases",holdings:"holdings",
  interpretations:"interpretations",treatments:"treatments",
- statusAssessments:"status-assessments",viewpoints:"viewpoints"
+ statusAssessments:"status-assessments",applicability:"applicability",viewpoints:"viewpoints"
 };
 const basisKinds=new Set(["constitutional_interpretation","federal_statutory_interpretation_with_constitutional_context"]);
 const opinionRoles=new Set(["majority","unanimous","controlling_joint_opinion","per_curiam","controlling_plurality"]);
@@ -58,7 +58,7 @@ export function validateJudicialPrecedent(d){
  if(meta.review_status!=="initial_case_holding_index_not_citator_verified"||meta.seed_case_count!==18||meta.seed_holding_count!==20)
   err("Judicial publication claims unsupported citator completeness");
  const court=list(data.courts?.items),source=list(data.sources?.items),cases=list(data.cases?.items),holds=list(data.holdings?.items);
- const ints=list(data.interpretations?.items),treats=list(data.treatments?.items),st=list(data.statusAssessments?.items),views=list(data.viewpoints?.items);
+ const ints=list(data.interpretations?.items),treats=list(data.treatments?.items),st=list(data.statusAssessments?.items),apps=list(data.applicability?.items),views=list(data.viewpoints?.items);
  const courts=new Map(court.map(x=>[x.id,x])),src=new Map(source.map(x=>[x.id,x])),cs=new Map(cases.map(x=>[x.id,x])),hs=new Map(holds.map(x=>[x.id,x]));
  const prs=new Map(list(d.provisions).map(x=>[x.id,x])),nms=new Map(list(d.norms).map(x=>[x.id,x]));
  const actors=new Set([...list(d.actors).map(x=>x.id),...list(d.federalInstitutions).map(x=>x.id)]);
@@ -66,7 +66,7 @@ export function validateJudicialPrecedent(d){
  const sourceCheck=o=>{
   for(const id of list(o.source_ids||o.opinion_source_ids||o.evidence_source_ids))if(!src.has(id))err("Unknown judicial source "+o.id+":"+id);
  };
- for(const [name,rows] of Object.entries({courts:court,sources:source,cases,holdings:holds,interpretations:ints,treatments:treats,status:st,viewpoints:views})){
+ for(const [name,rows] of Object.entries({courts:court,sources:source,cases,holdings:holds,interpretations:ints,treatments:treats,status:st,applicability:apps,viewpoints:views})){
   const seen=new Set;
   for(const r of rows){
    if(!r?.id||seen.has(r.id))err("Duplicate or missing judicial "+name+" record "+r?.id);
@@ -164,12 +164,31 @@ export function validateJudicialPrecedent(d){
   if(s.classification!==deriveClass(incoming))err("Precedent status inconsistent with sourced subsequent holdings "+s.id);
   if(new Set(s.modeled_treatment_ids).size!==incoming.length||!incoming.every(t=>s.modeled_treatment_ids.includes(t.id)))err("Precedent status missing directed treatment edge "+s.id);
   for(const t of list(s.modeled_treatment_ids))if(!treatIds.has(t))err("Dangling treatment cited by precedent assessment "+s.id+":"+t);
-  if(s.as_of<h?.case_id?.slice(-4)){} // Status is an indexed date, not a case date comparator.
  }
+ if(apps.length!==holds.length||meta.applicability_count!==20)err("Holding-specific jurisdiction applicability inventory missing");
+ const appMap=new Map(apps.map(a=>[a.holding_id,a]));
+ for(const a of apps){
+  valid(a,["type","holding_id","case_id","court_id","legal_question_family","judiciary_systems_to_consider","territorial_scope","precedential_role","government_addressee_actor_ids","bounded_issue_scope","precedential_status_id","binding_status","scope_note","source_ids","review_status","as_of"],err);
+  const h=hs.get(a.holding_id),ca=cs.get(a.case_id),assessment=statuses.get(a.holding_id);
+  if(!h||h.case_id!==a.case_id||ca?.court_id!==a.court_id||!assessment||a.precedential_status_id!==assessment.id||h.issue_scope!==a.bounded_issue_scope)
+   err("Judicial holding jurisdiction or precedent projection has wrong identity "+a.id);
+  if(a.type!=="judicial_holding_applicability"||a.territorial_scope!=="United States"||a.precedential_role!=="supreme_court_precedent_on_federal_question_subject_to_controlling_scope"||a.review_status!=="scope_candidate_pending_legal_review")
+   err("Judicial applicability claims unsupported blanket nationwide precedent "+a.id);
+  if(a.as_of!=="2026-10-16"||a.scope_note?.length<50)err("Judicial jurisdiction lacks dated factual or issue-specific limits "+a.id);
+  if(JSON.stringify(a.judiciary_systems_to_consider)!=='["federal","state"]')err("U.S. Supreme Court's federal question reach incorrectly scoped "+a.id);
+  const statutory=h?.basis_kind==="federal_statutory_interpretation_with_constitutional_context";
+  if(a.legal_question_family!==(statutory?"federal_statutory_review_with_article_iii_context":"federal_constitutional_question"))
+   err("Statutory precedent mistaken for a ratified constitutional rule "+a.id);
+  if(new Set(a.government_addressee_actor_ids).size!==new Set(h?.affected_actor_ids||[]).size||!list(h?.affected_actor_ids).every(x=>a.government_addressee_actor_ids.includes(x)))
+   err("Judicial precedent binding actor scope expanded or changed "+a.id);
+  const expected=assessment?.classification==="expressly_overruled_on_modeled_holding"?"superseded_modeled_holding_not_current_controlling":"not_certified_current_controlling_pending_citator_review";
+  if(a.binding_status!==expected)err("Overruled or unverified holding improperly labeled currently binding "+a.id);
+ }
+ for(const h of holds)if(!appMap.has(h.id))err("Holding missing federal/State scope assessment "+h.id);
  for(const v of views){
   valid(v,["type","name","case_topic_filters","constitutional_root_ids","include_holdings","include_judicial_treatment","include_status_assessments","scope","review_status","publication_owner"],err);
   if(v.type!=="judicial_precedent_viewpoint"||v.review_status!=="candidate_viewpoint_no_renderer"||v.publication_owner!=="afri-website")err("Judicial viewpoint incorrectly implies website-renderer ownership "+v.id);
   for(const pid of list(v.constitutional_root_ids))if(!prs.has(pid))err("Judicial viewpoint unknown constitutional root "+v.id+":"+pid);
  }
- return {errors,counts:{courts:court.length,official_opinion_sources:source.filter(s=>s.source_kind!=="official_explanatory_analysis_not_opinion").length,supporting_sources:source.filter(s=>s.source_kind==="official_explanatory_analysis_not_opinion").length,cases:cases.length,holdings:holds.length,constitutional_links:ints.length,treatments:treats.length,status_assessments:st.length,viewpoints:views.length},review_status:"initial_precedent_index_pending_human_legal_and_comprehensive_citator_review"};
+ return {errors,counts:{courts:court.length,official_opinion_sources:source.filter(s=>s.source_kind!=="official_explanatory_analysis_not_opinion").length,supporting_sources:source.filter(s=>s.source_kind==="official_explanatory_analysis_not_opinion").length,cases:cases.length,holdings:holds.length,constitutional_links:ints.length,treatments:treats.length,status_assessments:st.length,applicability:apps.length,viewpoints:views.length},review_status:"initial_precedent_index_pending_human_legal_and_comprehensive_citator_review"};
 }
