@@ -1,0 +1,40 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-STATE-VA-STATUTORY-AUTHORITY",
+      "type": "state_statutory_authority_viewpoint",
+      "name": "Virginia Court of Appeals — enabling and jurisdiction crosswalk",
+      "jurisdiction_id": "JUR-US-VA",
+      "root_trace_ids": [
+        "TRACE-STATE-VA-COA-STATUTORY-01"
+      ],
+      "view_kind": "constitutional_to_codified_statutory_authority",
+      "publication_owner": "afri-website",
+      "rendering_status": "not_implemented",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-400",
+        "SRC-STAT-VA-17.1-405",
+        "SRC-STAT-VA-17.1-406"
+      ],
+      "review_status": "architecture_viewpoint_no_renderer_claim"
+    },
+    {
+      "id": "VIEW-STATE-NE-STATUTORY-AUTHORITY",
+      "type": "state_statutory_authority_viewpoint",
+      "name": "Nebraska Court of Appeals — enabling and review limits",
+      "jurisdiction_id": "JUR-US-NE",
+      "root_trace_ids": [
+        "TRACE-STATE-NE-COA-STATUTORY-01"
+      ],
+      "view_kind": "constitutional_to_codified_statutory_authority",
+      "publication_owner": "afri-website",
+      "rendering_status": "not_implemented",
+      "source_ids": [
+        "SRC-STAT-NE-24-1101",
+        "SRC-STAT-NE-24-1106"
+      ],
+      "review_status": "architecture_viewpoint_no_renderer_claim"
+    }
+  ]
+}

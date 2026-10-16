@@ -1,0 +1,70 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "SRC-STAT-VA-17.1-400",
+      "type": "state_primary_codified_statute_source",
+      "jurisdiction_id": "JUR-US-VA",
+      "title": "Virginia Code § 17.1-400 — Court of Appeals creation and organization (effective September 1, 2026)",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/vacodeupdates/title17.1/section17.1-400/",
+      "kind": "official_enacted_statute_codification",
+      "section": "VA400",
+      "scope": "2026 effective-version section; 21 judges replaces earlier published 17-judge version",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_primary_law_locator_not_professional_citator_review"
+    },
+    {
+      "id": "SRC-STAT-VA-17.1-405",
+      "type": "state_primary_codified_statute_source",
+      "jurisdiction_id": "JUR-US-VA",
+      "title": "Virginia Code § 17.1-405 — appellate jurisdiction",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/vacode/title17.1/chapter4/section17.1-405/",
+      "kind": "official_enacted_statute_codification",
+      "section": "VA405",
+      "scope": "Selected final civil appellate jurisdiction; other categories deliberately not inventoried",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_primary_law_locator_not_professional_citator_review"
+    },
+    {
+      "id": "SRC-STAT-VA-17.1-406",
+      "type": "state_primary_codified_statute_source",
+      "jurisdiction_id": "JUR-US-VA",
+      "title": "Virginia Code § 17.1-406 — criminal appellate review and excluded cases",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/vacode/title17.1/chapter4/section17.1-406/",
+      "kind": "official_enacted_statute_codification",
+      "section": "VA406",
+      "scope": "Exceptions: direct Supreme Court proceedings excluded from Court of Appeals jurisdiction",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_primary_law_locator_not_professional_citator_review"
+    },
+    {
+      "id": "SRC-STAT-NE-24-1101",
+      "type": "state_primary_codified_statute_source",
+      "jurisdiction_id": "JUR-US-NE",
+      "title": "Nebraska Revised Statute § 24-1101 — creation, six judges and panels",
+      "publisher": "Nebraska Legislature",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=24-1101",
+      "kind": "official_enacted_statute_codification",
+      "section": "NE1101",
+      "scope": "Court creation, staffing, statutory selection and panel procedure",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_primary_law_locator_not_professional_citator_review"
+    },
+    {
+      "id": "SRC-STAT-NE-24-1106",
+      "type": "state_primary_codified_statute_source",
+      "jurisdiction_id": "JUR-US-NE",
+      "title": "Nebraska Revised Statute § 24-1106 — jurisdiction and bypass/removal",
+      "publisher": "Nebraska Legislature",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=24-1106",
+      "kind": "official_enacted_statute_codification",
+      "section": "NE1106",
+      "scope": "Appellate jurisdiction exclusions; petitions for direct Supreme Court review; Supreme Court removal",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_primary_law_locator_not_professional_citator_review"
+    }
+  ]
+}

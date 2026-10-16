@@ -74,7 +74,15 @@
     "model/state/relationships.json",
     "model/state/federalism-links.json",
     "model/state/judicial-links.json",
-    "model/state/viewpoints.json"
+    "model/state/viewpoints.json",
+    "model/state/statutory-sources.json",
+    "model/state/statutes.json",
+    "model/state/statutory-provisions.json",
+    "model/state/statutory-powers.json",
+    "model/state/statutory-conditions.json",
+    "model/state/statutory-capabilities.json",
+    "model/state/statutory-traces.json",
+    "model/state/statutory-viewpoints.json"
   ],
   "standards": [
     {
@@ -253,6 +261,26 @@
       "SRC-STATE-NE-CONST-V"
     ],
     "scope": "Non-federal constitutional State governments, first-pass Virginia and Nebraska independent institutional authorities, State-to-federal constitutional ceilings, original State text separately from later Supreme Court limits.",
-    "publication_note": "No website renderer, no State institution under federal organizational hierarchy, no implied State agency statutory enabling authority, no asserted final/current citator results. District of Columbia is a separate federal district, never the fifty-first State."
+    "publication_note": "Constitutional institutional model remains separately source-indexed. Two pilot appellate courts now have distinct bounded statutory enabling-authority overlays in model/state/statutory-*.json; no other State office or agency power is inferred. The District of Columbia remains non-State."
+  },
+  "state_statutory_extension": {
+    "id": "ARFI-COA-STATE-STATUTES-001",
+    "snapshot_date": "2026-10-16",
+    "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review",
+    "pilot_state_codes": [
+      "VA",
+      "NE"
+    ],
+    "source_count": 5,
+    "statute_group_count": 2,
+    "codified_section_count": 5,
+    "statutory_power_count": 4,
+    "condition_count": 7,
+    "capability_count": 2,
+    "trace_count": 2,
+    "viewpoint_count": 2,
+    "fully_modelled_state_count": 0,
+    "scope": "First statute-proven authority trails for Virginia and Nebraska Court of Appeals, including section-specific jurisdictional boundaries. No complete State agency rosters or court jurisdiction coverage.",
+    "publication_note": "Research data only. Statutory court establishment differs from jurisdiction; no new governmental powers, appropriations, live website rendering, or professional citator verification inferred."
   }
 }

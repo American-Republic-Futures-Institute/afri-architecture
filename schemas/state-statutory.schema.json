@@ -1,0 +1,739 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/state-statutory.schema.json",
+  "title": "ARFI State Statutory Enabling Authority v0.1.0",
+  "description": "Eight source-bound statutory authority collections. Schema validates portable shapes; scripts/state-statutory-validation-core.mjs validates cross-record legal constraints.",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-sources"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutes"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-provisions"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-powers"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-conditions"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-capabilities"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-traces"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-viewpoints"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ],
+  "$defs": {
+    "statutory-sources": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "state_primary_codified_statute_source"
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "accessed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "title",
+        "publisher",
+        "url",
+        "kind",
+        "section",
+        "scope",
+        "accessed_on",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "statutes": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "state_code_chapter_group"
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "constitutional_provision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "enacting_institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "enactment_classification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "name",
+        "constitutional_provision_id",
+        "enacting_institution_id",
+        "enactment_classification",
+        "source_ids",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "statutory-provisions": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "state_codified_statutory_section"
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statute_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "effective_from": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "published_current_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "superseded_statutory_fact": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "statute_id",
+        "section",
+        "citation",
+        "source_ids",
+        "effective_from",
+        "published_current_on",
+        "superseded_statutory_fact",
+        "scope_summary",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "statutory-powers": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "state_statutory_authority"
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "constitutional_provision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statutory_provision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statute_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "power_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subsection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_boundary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "institution_id",
+        "constitutional_provision_id",
+        "statutory_provision_id",
+        "statute_id",
+        "source_ids",
+        "power_kind",
+        "subsection",
+        "summary",
+        "scope_boundary",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "statutory-conditions": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "state_statutory_authority_condition"
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "power_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "condition_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_provision_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "limits_unrestricted_power": {
+          "type": "boolean"
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "power_id",
+        "condition_kind",
+        "summary",
+        "source_provision_ids",
+        "source_ids",
+        "limits_unrestricted_power",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "statutory-capabilities": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "state_government_functional_capability"
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "functional_family": {
+          "type": "string",
+          "minLength": 1
+        },
+        "authority_classification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "name",
+        "institution_id",
+        "functional_family",
+        "authority_classification",
+        "description",
+        "source_ids",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "statutory-traces": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "state_constitution_statute_institution_capability_trace"
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "constitutional_provision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statute_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statutory_provision_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "establishment_power_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction_power_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "condition_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "capability_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "appropriation_verified": {
+          "type": "boolean"
+        },
+        "judicial_citator_review_complete": {
+          "type": "boolean"
+        },
+        "disposition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rendering_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "constitutional_provision_id",
+        "statute_id",
+        "statutory_provision_ids",
+        "institution_id",
+        "establishment_power_id",
+        "jurisdiction_power_id",
+        "condition_ids",
+        "capability_id",
+        "source_ids",
+        "appropriation_verified",
+        "judicial_citator_review_complete",
+        "disposition",
+        "publication_owner",
+        "rendering_status",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "statutory-viewpoints": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 8
+        },
+        "type": {
+          "const": "state_statutory_authority_viewpoint"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "root_trace_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "view_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rendering_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "name",
+        "jurisdiction_id",
+        "root_trace_ids",
+        "view_kind",
+        "publication_owner",
+        "rendering_status",
+        "source_ids",
+        "review_status"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

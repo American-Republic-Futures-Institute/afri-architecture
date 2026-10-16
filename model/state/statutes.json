@@ -1,0 +1,34 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "STAT-STATE-VA-CODE-17.1-CH4",
+      "type": "state_code_chapter_group",
+      "jurisdiction_id": "JUR-US-VA",
+      "name": "Code of Virginia, Title 17.1, Chapter 4 — Court of Appeals",
+      "constitutional_provision_id": "STATE-PROV-VA-ART-VI-SEC-1",
+      "enacting_institution_id": "ORG-STATE-VA-LEG-GENERAL-ASSEMBLY",
+      "enactment_classification": "codification_of_multiple_enacted_acts_not_one_new_enactment",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-400",
+        "SRC-STAT-VA-17.1-405",
+        "SRC-STAT-VA-17.1-406"
+      ],
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "STAT-STATE-NE-REV-24-COA",
+      "type": "state_code_chapter_group",
+      "jurisdiction_id": "JUR-US-NE",
+      "name": "Nebraska Revised Statutes, Chapter 24 — Court of Appeals provisions",
+      "constitutional_provision_id": "STATE-PROV-NE-ART-V-SEC-1",
+      "enacting_institution_id": "ORG-STATE-NE-LEG-LEGISLATURE",
+      "enactment_classification": "codification_of_multiple_enacted_acts_not_one_new_enactment",
+      "source_ids": [
+        "SRC-STAT-NE-24-1101",
+        "SRC-STAT-NE-24-1106"
+      ],
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    }
+  ]
+}

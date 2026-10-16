@@ -1,0 +1,119 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "COND-STAT-VA-COA-21-JUDGES",
+      "type": "state_statutory_authority_condition",
+      "jurisdiction_id": "JUR-US-VA",
+      "power_id": "POWER-STAT-VA-COA-ESTABLISH",
+      "condition_kind": "authorized_composition",
+      "summary": "Current effective 2026-09-01 law specifies 21 judges, not the superseded 17-judge version.",
+      "source_provision_ids": [
+        "STAT-PROV-VA-17.1-400"
+      ],
+      "source_ids": [
+        "SRC-STAT-VA-17.1-400"
+      ],
+      "limits_unrestricted_power": true,
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "COND-STAT-VA-COA-JUDICIAL-ELECTION",
+      "type": "state_statutory_authority_condition",
+      "jurisdiction_id": "JUR-US-VA",
+      "power_id": "POWER-STAT-VA-COA-ESTABLISH",
+      "condition_kind": "institutional_selection",
+      "summary": "Judges elected for eight-year terms by majorities in both Virginia legislative chambers; vacancy and eligibility requirements remain statutory.",
+      "source_provision_ids": [
+        "STAT-PROV-VA-17.1-400"
+      ],
+      "source_ids": [
+        "SRC-STAT-VA-17.1-400"
+      ],
+      "limits_unrestricted_power": true,
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "COND-STAT-VA-COA-EXCLUDED-CIVIL-CASES",
+      "type": "state_statutory_authority_condition",
+      "jurisdiction_id": "JUR-US-VA",
+      "power_id": "POWER-STAT-VA-COA-CIVIL-APPEAL",
+      "condition_kind": "jurisdictional_exclusion",
+      "summary": "§ 17.1-405(A)(3) excludes final civil matters routed directly to the Supreme Court by § 17.1-406(B).",
+      "source_provision_ids": [
+        "STAT-PROV-VA-17.1-405",
+        "STAT-PROV-VA-17.1-406"
+      ],
+      "source_ids": [
+        "SRC-STAT-VA-17.1-405",
+        "SRC-STAT-VA-17.1-406"
+      ],
+      "limits_unrestricted_power": true,
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "COND-STAT-VA-COA-INTERLOCUTORY-BOUNDARY",
+      "type": "state_statutory_authority_condition",
+      "jurisdiction_id": "JUR-US-VA",
+      "power_id": "POWER-STAT-VA-COA-CIVIL-APPEAL",
+      "condition_kind": "jurisdictional_scope",
+      "summary": "Selected final-civil authority does not establish general interlocutory jurisdiction; § 17.1-405 identifies distinct and limited interlocutory classes.",
+      "source_provision_ids": [
+        "STAT-PROV-VA-17.1-405"
+      ],
+      "source_ids": [
+        "SRC-STAT-VA-17.1-405"
+      ],
+      "limits_unrestricted_power": true,
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "COND-STAT-NE-COA-SIX-JUDGE-PANELS",
+      "type": "state_statutory_authority_condition",
+      "jurisdiction_id": "JUR-US-NE",
+      "power_id": "POWER-STAT-NE-COA-ESTABLISH",
+      "condition_kind": "authorized_composition",
+      "summary": "The enacted appellate court has six judges sitting in three-judge panels; staffing and panel administration are not jurisdiction grants.",
+      "source_provision_ids": [
+        "STAT-PROV-NE-24-1101"
+      ],
+      "source_ids": [
+        "SRC-STAT-NE-24-1101"
+      ],
+      "limits_unrestricted_power": true,
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "COND-STAT-NE-COA-MANDATORY-EXCLUSIONS",
+      "type": "state_statutory_authority_condition",
+      "jurisdiction_id": "JUR-US-NE",
+      "power_id": "POWER-STAT-NE-COA-APPEAL",
+      "condition_kind": "jurisdictional_exclusion",
+      "summary": "Statute excepts capital cases, life-imprisonment cases and cases genuinely involving constitutionality of a statute.",
+      "source_provision_ids": [
+        "STAT-PROV-NE-24-1106"
+      ],
+      "source_ids": [
+        "SRC-STAT-NE-24-1106"
+      ],
+      "limits_unrestricted_power": true,
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "COND-STAT-NE-COA-SUPREME-COURT-REVIEW",
+      "type": "state_statutory_authority_condition",
+      "jurisdiction_id": "JUR-US-NE",
+      "power_id": "POWER-STAT-NE-COA-APPEAL",
+      "condition_kind": "review_and_removal",
+      "summary": "A party may petition for Supreme Court direct review; the Supreme Court may remove a case before final appellate decision under statutory procedures.",
+      "source_provision_ids": [
+        "STAT-PROV-NE-24-1106"
+      ],
+      "source_ids": [
+        "SRC-STAT-NE-24-1106"
+      ],
+      "limits_unrestricted_power": true,
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "TRACE-STATE-VA-COA-STATUTORY-01",
+      "type": "state_constitution_statute_institution_capability_trace",
+      "jurisdiction_id": "JUR-US-VA",
+      "constitutional_provision_id": "STATE-PROV-VA-ART-VI-SEC-1",
+      "statute_id": "STAT-STATE-VA-CODE-17.1-CH4",
+      "statutory_provision_ids": [
+        "STAT-PROV-VA-17.1-400",
+        "STAT-PROV-VA-17.1-405",
+        "STAT-PROV-VA-17.1-406"
+      ],
+      "institution_id": "ORG-STATE-VA-JUD-COURT-APPEALS",
+      "establishment_power_id": "POWER-STAT-VA-COA-ESTABLISH",
+      "jurisdiction_power_id": "POWER-STAT-VA-COA-CIVIL-APPEAL",
+      "condition_ids": [
+        "COND-STAT-VA-COA-21-JUDGES",
+        "COND-STAT-VA-COA-JUDICIAL-ELECTION",
+        "COND-STAT-VA-COA-EXCLUDED-CIVIL-CASES",
+        "COND-STAT-VA-COA-INTERLOCUTORY-BOUNDARY"
+      ],
+      "capability_id": "CAP-STATE-VA-COA-APPELLATE-REVIEW",
+      "source_ids": [
+        "SRC-STAT-VA-17.1-400",
+        "SRC-STAT-VA-17.1-405",
+        "SRC-STAT-VA-17.1-406"
+      ],
+      "appropriation_verified": false,
+      "judicial_citator_review_complete": false,
+      "disposition": "bounded_primary_law_research_not_certified_current_legal_advice",
+      "publication_owner": "afri-website",
+      "rendering_status": "not_implemented_in_architecture_repo",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    },
+    {
+      "id": "TRACE-STATE-NE-COA-STATUTORY-01",
+      "type": "state_constitution_statute_institution_capability_trace",
+      "jurisdiction_id": "JUR-US-NE",
+      "constitutional_provision_id": "STATE-PROV-NE-ART-V-SEC-1",
+      "statute_id": "STAT-STATE-NE-REV-24-COA",
+      "statutory_provision_ids": [
+        "STAT-PROV-NE-24-1101",
+        "STAT-PROV-NE-24-1106"
+      ],
+      "institution_id": "ORG-STATE-NE-JUD-APPELLATE",
+      "establishment_power_id": "POWER-STAT-NE-COA-ESTABLISH",
+      "jurisdiction_power_id": "POWER-STAT-NE-COA-APPEAL",
+      "condition_ids": [
+        "COND-STAT-NE-COA-SIX-JUDGE-PANELS",
+        "COND-STAT-NE-COA-MANDATORY-EXCLUSIONS",
+        "COND-STAT-NE-COA-SUPREME-COURT-REVIEW"
+      ],
+      "capability_id": "CAP-STATE-NE-COA-APPELLATE-REVIEW",
+      "source_ids": [
+        "SRC-STAT-NE-24-1101",
+        "SRC-STAT-NE-24-1106"
+      ],
+      "appropriation_verified": false,
+      "judicial_citator_review_complete": false,
+      "disposition": "bounded_primary_law_research_not_certified_current_legal_advice",
+      "publication_owner": "afri-website",
+      "rendering_status": "not_implemented_in_architecture_repo",
+      "review_status": "primary_statutory_text_indexed_pending_qualified_legal_review"
+    }
+  ]
+}
