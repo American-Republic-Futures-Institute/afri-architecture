@@ -1,0 +1,166 @@
+{
+  "version": "0.1.0",
+  "status": "candidate_shared_capabilities_unratified",
+  "items": [
+    {
+      "id": "CAP-XDOM-001",
+      "name": "Privacy-preserving information stewardship",
+      "definition": "Enable legitimate, useful sharing of personal or institutional information while limiting collection, secondary use, retention and exposure.",
+      "family": "information_governance",
+      "status": "research_hypothesis_unratified",
+      "feaf_reference_model_families": [
+        "DRM",
+        "BRM",
+        "SRM"
+      ],
+      "feaf_mapping_status": "reference_family_only_not_certified",
+      "guardrails": [
+        "Privacy law varies by government and sector.",
+        "No surveillance authority follows from modeling data exchange."
+      ],
+      "government_power_assigned": false,
+      "owner_institution_id": null,
+      "review_status": "public_and_expert_review_pending"
+    },
+    {
+      "id": "CAP-XDOM-002",
+      "name": "Essential-service continuity and recovery",
+      "definition": "Sustain or restore critical services that people depend on across organizational disruption, infrastructure faults and malicious digital activity.",
+      "family": "resilience",
+      "status": "research_hypothesis_unratified",
+      "feaf_reference_model_families": [
+        "PRM",
+        "BRM",
+        "IRM",
+        "SRM"
+      ],
+      "feaf_mapping_status": "reference_family_only_not_certified",
+      "guardrails": [
+        "Service availability must reflect actual human need, not just IT uptime.",
+        "Emergency response does not create permanent extraordinary power."
+      ],
+      "government_power_assigned": false,
+      "owner_institution_id": null,
+      "review_status": "public_and_expert_review_pending"
+    },
+    {
+      "id": "CAP-XDOM-003",
+      "name": "Lifelong skill and workforce development",
+      "definition": "Make durable learning, professional development and transferable competencies possible throughout changing technologies, careers and individual circumstances.",
+      "family": "human_capacity",
+      "status": "research_hypothesis_unratified",
+      "feaf_reference_model_families": [
+        "PRM",
+        "BRM"
+      ],
+      "feaf_mapping_status": "reference_family_only_not_certified",
+      "guardrails": [
+        "Avoid conflating training volume with learning.",
+        "Respect State and local education governance and learner choice."
+      ],
+      "government_power_assigned": false,
+      "owner_institution_id": null,
+      "review_status": "public_and_expert_review_pending"
+    },
+    {
+      "id": "CAP-XDOM-004",
+      "name": "Independent evidence and outcome measurement",
+      "definition": "Publish transparent, reliable and privacy-respecting evidence that can test national outcomes, institutional performance claims and unforeseen harms.",
+      "family": "research_and_accountability",
+      "status": "research_hypothesis_unratified",
+      "feaf_reference_model_families": [
+        "PRM",
+        "DRM",
+        "BRM"
+      ],
+      "feaf_mapping_status": "reference_family_only_not_certified",
+      "guardrails": [
+        "Do not substitute output proxies for citizen benefit.",
+        "Disclose representativeness, uncertainty and measurement incentives."
+      ],
+      "government_power_assigned": false,
+      "owner_institution_id": null,
+      "review_status": "public_and_expert_review_pending"
+    },
+    {
+      "id": "CAP-XDOM-005",
+      "name": "Transparent public finance and stewardship",
+      "definition": "Evaluate how public revenue, appropriation, debt, investment and economic sustainability interact with essential services and long-term public outcomes.",
+      "family": "finance",
+      "status": "research_hypothesis_unratified",
+      "feaf_reference_model_families": [
+        "PRM",
+        "BRM",
+        "DRM"
+      ],
+      "feaf_mapping_status": "reference_family_only_not_certified",
+      "guardrails": [
+        "Modeling a fiscal concept does not create taxing or spending authority.",
+        "Preserve distinct roles of Congress, Treasury, Federal Reserve and States."
+      ],
+      "government_power_assigned": false,
+      "owner_institution_id": null,
+      "review_status": "public_and_expert_review_pending"
+    },
+    {
+      "id": "CAP-XDOM-006",
+      "name": "Accessible participation and meaningful remedies",
+      "definition": "Make services and institutions practically reachable for people and provide fair ways to challenge harmful decisions or errors.",
+      "family": "rights_and_access",
+      "status": "research_hypothesis_unratified",
+      "feaf_reference_model_families": [
+        "PRM",
+        "BRM",
+        "SRM"
+      ],
+      "feaf_mapping_status": "reference_family_only_not_certified",
+      "guardrails": [
+        "Procedural rights depend on applicable law; avoid inventing entitlements.",
+        "No automated denial without proportionate review pathways."
+      ],
+      "government_power_assigned": false,
+      "owner_institution_id": null,
+      "review_status": "public_and_expert_review_pending"
+    },
+    {
+      "id": "CAP-XDOM-007",
+      "name": "Resilient infrastructure and productive supply networks",
+      "definition": "Support adaptable transportation, energy, communications, clinical supply and industrial capacity with safe recovery from common shocks.",
+      "family": "infrastructure",
+      "status": "research_hypothesis_unratified",
+      "feaf_reference_model_families": [
+        "BRM",
+        "IRM",
+        "SRM"
+      ],
+      "feaf_mapping_status": "reference_family_only_not_certified",
+      "guardrails": [
+        "Do not assume central governmental ownership or direction.",
+        "Assess costs, geography and dependencies rather than output counts alone."
+      ],
+      "government_power_assigned": false,
+      "owner_institution_id": null,
+      "review_status": "public_and_expert_review_pending"
+    },
+    {
+      "id": "CAP-XDOM-008",
+      "name": "Secure identity, verification and restoration",
+      "definition": "Protect identities and the integrity of access/transactions while enabling correction, recovery and lawful privacy or anonymity.",
+      "family": "identity_and_trust",
+      "status": "research_hypothesis_unratified",
+      "feaf_reference_model_families": [
+        "PRM",
+        "BRM",
+        "SRM"
+      ],
+      "feaf_mapping_status": "reference_family_only_not_certified",
+      "guardrails": [
+        "No mandatory universal biometric or digital ID is implied.",
+        "Identity assurance must not unnecessarily exclude individuals."
+      ],
+      "government_power_assigned": false,
+      "owner_institution_id": null,
+      "review_status": "public_and_expert_review_pending"
+    }
+  ]
+}
