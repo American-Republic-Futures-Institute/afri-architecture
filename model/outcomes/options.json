@@ -1,0 +1,240 @@
+{
+  "version": "0.1.0",
+  "items": [
+    {
+      "id": "OPT-07-01",
+      "name": "Federated, purpose-bounded essential-service data exchange",
+      "description": "Information sharing across health, education or services using minimized data, independent custody and narrow permitted purposes.",
+      "mechanism_hypothesis": "Minimized exchange may improve continuity and reduce repeated administrative burden; causal effect not established.",
+      "related_outcome_ids": [
+        "HLT-O01",
+        "EDU-O10",
+        "CYB-O03"
+      ],
+      "risk_categories": [
+        "privacy",
+        "federalism",
+        "provider_autonomy"
+      ],
+      "contrast_option_ids": [
+        "OPT-07-02"
+      ],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-02",
+      "name": "Universal mandatory centralized digital identity",
+      "description": "One centrally managed identity credential required for routine access to specified essential services.",
+      "mechanism_hypothesis": "Some forms of centralized authentication may reduce fraud but could create exclusion, surveillance and correlated failure.",
+      "related_outcome_ids": [
+        "CYB-O04",
+        "HLT-O01",
+        "EDU-O06"
+      ],
+      "risk_categories": [
+        "accessibility",
+        "data_concentration",
+        "civil_liberties"
+      ],
+      "contrast_option_ids": [
+        "OPT-07-01"
+      ],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-03",
+      "name": "New federal education funding outcome conditions",
+      "description": "Condition future selected federal education grants on a proposed nationwide reporting and performance regime.",
+      "mechanism_hypothesis": "Could increase comparable evidence while causing compliance cost, privacy risk and federalism issues.",
+      "related_outcome_ids": [
+        "EDU-O10",
+        "EDU-O06",
+        "CYB-O03"
+      ],
+      "risk_categories": [
+        "federalism",
+        "curricular_independence",
+        "measurement_gaming"
+      ],
+      "contrast_option_ids": [],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-04",
+      "name": "Proposed federal levy on high-value assets or unrealized appreciation",
+      "description": "Study an additional federal fiscal instrument aimed at highly concentrated wealth, with open thresholds and classification.",
+      "mechanism_hypothesis": "Revenue and distributional effects cannot be asserted until constitutionality, liquidity, administrative costs and behavioral responses are assessed.",
+      "related_outcome_ids": [
+        "EPR-O07",
+        "EPR-O10"
+      ],
+      "risk_categories": [
+        "constitutional_tax",
+        "capital_mobility",
+        "valuation"
+      ],
+      "contrast_option_ids": [],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-05",
+      "name": "Potential public acquisition of selected critical care facilities",
+      "description": "Compare public acquisition to private, nonprofit, cooperative and mixed improvement alternatives in a specifically evidenced failure market.",
+      "mechanism_hypothesis": "May address access in a particular case but introduces capital, legal, compensation, workforce and quality risks.",
+      "related_outcome_ids": [
+        "HLT-O01",
+        "HLT-O03",
+        "EPR-O10"
+      ],
+      "risk_categories": [
+        "property_rights",
+        "fiscal_capacity",
+        "local_access"
+      ],
+      "contrast_option_ids": [],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-06",
+      "name": "Expanded interagency cyber response with selected defense support",
+      "description": "Study closer crisis coordination for critical services while retaining civilian, private, State and military legal boundaries.",
+      "mechanism_hypothesis": "Could improve response in qualifying contexts but risks overreach, surveillance and unclear civilian command.",
+      "related_outcome_ids": [
+        "CYB-O01",
+        "CYB-O06",
+        "HLT-O08"
+      ],
+      "risk_categories": [
+        "civil_military",
+        "privacy",
+        "federalism"
+      ],
+      "contrast_option_ids": [],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-07",
+      "name": "Targeted advanced-manufacturing production incentives",
+      "description": "Consider conditionally funded advanced manufacturing and resilient supply incentives that must demonstrate public value.",
+      "mechanism_hypothesis": "Might diversify strategic supply and skills; could also distort markets, create capture and displace other priorities.",
+      "related_outcome_ids": [
+        "EPR-O08",
+        "EPR-O03",
+        "EPR-O10"
+      ],
+      "risk_categories": [
+        "budget",
+        "competition",
+        "capture"
+      ],
+      "contrast_option_ids": [],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-08",
+      "name": "Voluntary interoperable learning and skills credentials",
+      "description": "Explore portable credentials built around demonstrated learning with learner control and accessible offline alternatives.",
+      "mechanism_hypothesis": "Could help mobility across providers and careers but has privacy, employer-adoption and fairness uncertainties.",
+      "related_outcome_ids": [
+        "EDU-O08",
+        "EPR-O02",
+        "CYB-O03"
+      ],
+      "risk_categories": [
+        "privacy",
+        "accessible_alternatives",
+        "measurement_quality"
+      ],
+      "contrast_option_ids": [
+        "OPT-07-02"
+      ],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-09",
+      "name": "Official content-origin labeling for civic information",
+      "description": "Evaluate a bounded scheme for factual origin, sponsor and authenticity disclosures rather than government judgments about lawful opinion.",
+      "mechanism_hypothesis": "Provenance can support independent assessment; mandatory labels can become de facto political suppression or false confidence.",
+      "related_outcome_ids": [
+        "CYB-O07",
+        "CYB-O08"
+      ],
+      "risk_categories": [
+        "speech",
+        "due_process",
+        "attribution_uncertainty"
+      ],
+      "contrast_option_ids": [],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    },
+    {
+      "id": "OPT-07-10",
+      "name": "Integrated public outcomes information portal",
+      "description": "Publish transparent, privacy-preserving national outcome trends, limitations and responsive public commentary.",
+      "mechanism_hypothesis": "Could strengthen scrutiny, but false precision, sampling exclusions and gaming could undermine trust.",
+      "related_outcome_ids": [
+        "EDU-O10",
+        "HLT-O02",
+        "EPR-O01",
+        "CYB-O09"
+      ],
+      "risk_categories": [
+        "statistical_integrity",
+        "privacy",
+        "public_participation"
+      ],
+      "contrast_option_ids": [],
+      "status": "hypothetical_option_not_recommended",
+      "decision": "open",
+      "government_action_authorized": false,
+      "lawful_implementer": "not_determined",
+      "causal_evidence_status": "not_established",
+      "tradeoff_review_required": true
+    }
+  ]
+}
