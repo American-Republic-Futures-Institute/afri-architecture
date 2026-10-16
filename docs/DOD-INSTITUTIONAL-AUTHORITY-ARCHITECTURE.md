@@ -38,15 +38,16 @@ DoD statutory references preserve the legal Department of Defense identity notwi
 
 ## Data model and declarative views
 
-Nineteen new collections under model/federal/dod/ are registered in model/federal/manifest.json and described in schemas/dod-institutional.schema.json (strict per-family JSON Schema 2020-12 structural contract):
+Twenty new collections under model/federal/dod/ are registered in model/federal/manifest.json and described in schemas/dod-institutional.schema.json (strict per-family JSON Schema 2020-12 structural contract):
 
 - Source registry and source snapshots
 - Statutory composition; May 2026 Defense Agencies and Field Activities; office roles; armed services; public combatant commands; temporal name events
 - Statutory provisions, conditions, bounded powers, typed relationships, capability links, source authority traces
 - Congressional committees and reporting crosswalks; fiscal proposal crosswalks
+- Original U.S. Constitution Article I and II military/appropriations powers crosswalks with source-cited contextual, explicitly nondelegating graph relations.
 - Declarative viewpoints and eleven unresolved evidence gaps
 
-Seven model-only views exist: VIEW-DOD-COMPOSITION, VIEW-DOD-DAFA, VIEW-DOD-COMMAND, VIEW-DOD-SERVICES, VIEW-DOD-AUTHORITY, VIEW-DOD-CONGRESS and VIEW-DOD-FISCAL.
+Eight model-only views exist: VIEW-DOD-COMPOSITION, VIEW-DOD-DAFA, VIEW-DOD-COMMAND, VIEW-DOD-SERVICES, VIEW-DOD-AUTHORITY, VIEW-DOD-CONGRESS and VIEW-DOD-FISCAL and VIEW-DOD-CONSTITUTION.
 
 Each is a read-only, source-traced bounded graph. They are **not yet rendered by the public ARFI website**. The version contract and stable IDs must be honored by a subsequent independent website PR; constitutional focused views and comments remain unchanged.
 
@@ -67,3 +68,9 @@ Negative regression coverage includes false operational command, removal of Pres
 2. Map individual Defense Agency and Field Activity legal delegations, Defense-wide civilian authorities, congressional reporting in more detail.
 3. Verify enacted fiscal-year appropriation acts, Treasury account symbols, program authorities, responsibilities, and measurable service effectiveness.
 4. Integrate these researched, immutable source-pinned models into website authority explorer through a separate, validated website PR. No policy mapping in this release.
+
+## Constitutional competence is not statutory agency authority
+
+Seven original-text constitutional contexts are mapped to existing canonical constitutional IDs. Article I clauses 11 (declare war), 12 (raise/support armies), 13 (provide/maintain Navy), 14 (rules for armed forces), 18 (Necessary and Proper) and Article I section 9 clause 7 (appropriations) identify **Congress** as the constitutionally competent institution. Article II section 2 clause 1 identifies the **President** as Commander in Chief. All seven cite the official National Archives original Constitution transcript and selected relevant statutes, but each explicitly records that **no new individual DoD statutory agency power or appropriation is inferred** and completed doctrinal/legal review remains pending.
+
+The constitutional view VIEW-DOD-CONSTITUTION renders seven 3-node source/context/statutory chains as explicitly descriptive provenance links with legal_authority_proven=false. This does not certify that an original-text clause independently delegates an official power or that a proposed FY2026 spending line is available money.
