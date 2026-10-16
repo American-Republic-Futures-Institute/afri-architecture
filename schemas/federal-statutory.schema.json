@@ -1,0 +1,803 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/federal-statutory.schema.json",
+  "title": "ARFI-COA Federal Statutory Enabling Authority v0.1.0",
+  "description": "Strict portable collection contract for federal agency codified laws; legal semantics and cross-family conditions enforced by scripts/validate-federal-statutes.mjs.",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-sources"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutes"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-provisions"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-powers"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-conditions"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-capability-links"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-traces"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-viewpoints"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ],
+  "$defs": {
+    "statutory-sources": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "title",
+        "publisher",
+        "url",
+        "citation",
+        "source_act_history",
+        "code_section",
+        "title_number",
+        "accessed_on",
+        "positive_law_version_basis",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 10
+        },
+        "type": {
+          "const": "federal_statutory_primary_source"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_act_history": {
+          "type": "string",
+          "minLength": 1
+        },
+        "code_section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "accessed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "positive_law_version_basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "statutes": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "department_id",
+        "title",
+        "code_title",
+        "source_act",
+        "section_ids",
+        "source_ids",
+        "enacted_by_institution_id",
+        "classification",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 10
+        },
+        "type": {
+          "const": "federal_codification_group"
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "code_title": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_act": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "enacted_by_institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "statutory-provisions": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "code_group_id",
+        "department_id",
+        "title",
+        "citation",
+        "source_ids",
+        "source_scope",
+        "current_codification_snapshot",
+        "legal_effect_status",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 10
+        },
+        "type": {
+          "const": "federal_codified_section"
+        },
+        "code_group_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_codification_snapshot": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legal_effect_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "statutory-powers": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "department_id",
+        "statutory_provision_id",
+        "source_ids",
+        "subsection",
+        "power_kind",
+        "summary",
+        "scope_boundary",
+        "constitutional_context_ids",
+        "actor_classification",
+        "review_status",
+        "condition_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 10
+        },
+        "type": {
+          "const": "federal_statutory_authority"
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statutory_provision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "subsection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "power_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_boundary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "constitutional_context_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "actor_classification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "condition_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "statutory-conditions": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "department_id",
+        "source_provision_ids",
+        "source_ids",
+        "subsection",
+        "condition_kind",
+        "summary",
+        "effect_status",
+        "qualifies_grant_not_new_grant",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 10
+        },
+        "type": {
+          "const": "federal_statutory_condition"
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_provision_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "subsection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "condition_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "effect_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualifies_grant_not_new_grant": {
+          "type": "boolean"
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "statutory-capability-links": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "department_id",
+        "institution_id",
+        "capability_id",
+        "statutory_power_ids",
+        "condition_ids",
+        "classification",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 10
+        },
+        "type": {
+          "const": "federal_statutory_capability_link"
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "capability_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statutory_power_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "condition_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "classification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "statutory-traces": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "institution_id",
+        "branch_id",
+        "enacted_by_id",
+        "code_group_ids",
+        "statutory_provision_ids",
+        "constitutional_context_ids",
+        "power_ids",
+        "condition_ids",
+        "capability_link_ids",
+        "source_ids",
+        "appropriation_verified",
+        "program_implementation_authorized",
+        "citator_review_complete",
+        "full_department_powers_inventoried",
+        "publication_owner",
+        "rendering_status",
+        "review_status",
+        "scope_note"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 10
+        },
+        "type": {
+          "const": "federal_constitution_statute_agency_capability_trace"
+        },
+        "institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "branch_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "enacted_by_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "code_group_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "statutory_provision_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "constitutional_context_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "power_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "condition_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "capability_link_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "appropriation_verified": {
+          "type": "boolean"
+        },
+        "program_implementation_authorized": {
+          "type": "boolean"
+        },
+        "citator_review_complete": {
+          "type": "boolean"
+        },
+        "full_department_powers_inventoried": {
+          "type": "boolean"
+        },
+        "publication_owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rendering_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "statutory-viewpoints": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "root_trace_ids",
+        "root_institution_id",
+        "view_kind",
+        "publisher_owner",
+        "rendering_status",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 10
+        },
+        "type": {
+          "const": "federal_statutory_authority_view"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "root_trace_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "root_institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "view_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher_owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rendering_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
