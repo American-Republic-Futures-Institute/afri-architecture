@@ -1,0 +1,101 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CENSUS-SRC-GOVMAN-2025",
+      "type": "census_primary_source",
+      "title": "United States Government Manual, December 31 2025",
+      "publisher": "Office of the Federal Register / Government Publishing Office",
+      "url": "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31",
+      "published_on": "2025-12-31",
+      "accessed_on": "2026-10-16",
+      "evidence_kind": "dated_official_government_census",
+      "revision_basis": "GovInfo fixed edition GOVMAN-2025-12-31",
+      "scope_boundary": "Official handbook, not a claim of full subordinate agency coverage or current workforce/leadership accuracy."
+    },
+    {
+      "id": "CENSUS-SRC-DOD-111",
+      "type": "census_primary_source",
+      "title": "10 U.S.C. § 111 — Department of Defense Composition",
+      "publisher": "Office of Law Revision Counsel",
+      "url": "https://uscode.house.gov/us/usc/119-118/t10/s111/",
+      "published_on": null,
+      "accessed_on": "2026-10-16",
+      "evidence_kind": "codified_statute",
+      "revision_basis": "U.S. Code text through Public Law 119-120, October 7 2026; section 111",
+      "scope_boundary": "Composition only; does not establish specific operational command, budget, or all field units."
+    },
+    {
+      "id": "CENSUS-SRC-DOD-113",
+      "type": "census_primary_source",
+      "title": "10 U.S.C. § 113 — Secretary of Defense",
+      "publisher": "Office of Law Revision Counsel",
+      "url": "https://uscode.house.gov/us/usc/119-118/t10/s113/",
+      "published_on": null,
+      "accessed_on": "2026-10-16",
+      "evidence_kind": "codified_statute",
+      "revision_basis": "U.S. Code section 113, 119th Congress citation edition; confirm amendments for later changes",
+      "scope_boundary": "Selected Secretary establishment; no asserted new chain of command."
+    },
+    {
+      "id": "CENSUS-SRC-DHS-CHART-2025",
+      "type": "census_primary_source",
+      "title": "DHS FY 2024 Annual Performance Report, organization chart (published Jan 2025)",
+      "publisher": "Department of Homeland Security",
+      "url": "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf",
+      "published_on": "2025-01-17",
+      "accessed_on": "2026-10-16",
+      "evidence_kind": "dated_official_agency_org_chart",
+      "revision_basis": "FY2024 report, figure 1 organizational chart; edition predates current as-of",
+      "scope_boundary": "Historical organizational illustration; changes after chart date must be verified before marking current."
+    },
+    {
+      "id": "CENSUS-SRC-DHS-111",
+      "type": "census_primary_source",
+      "title": "6 U.S.C. § 111 — DHS department establishment",
+      "publisher": "Office of Law Revision Counsel",
+      "url": "https://uscode.house.gov/us/usc/119-118/t6/s111/",
+      "published_on": null,
+      "accessed_on": "2026-10-16",
+      "evidence_kind": "codified_statute",
+      "revision_basis": "U.S. Code through Public Law 119-120 Oct 7 2026",
+      "scope_boundary": "Department establishment and mission, not a source for individual component statutory delegation."
+    },
+    {
+      "id": "CENSUS-SRC-ED-OFFICES",
+      "type": "census_primary_source",
+      "title": "Department of Education official offices directory",
+      "publisher": "U.S. Department of Education",
+      "url": "https://www.ed.gov/about/ed-offices",
+      "published_on": null,
+      "accessed_on": "2026-10-16",
+      "evidence_kind": "undated_official_agency_directory",
+      "revision_basis": "Live site snapshot examined Oct 16 2026; source URL not intrinsically immutable",
+      "scope_boundary": "List of offices only; no certification of all authorities, program transfers, or unchanged 2026 offices."
+    },
+    {
+      "id": "CENSUS-SRC-ED-3411",
+      "type": "census_primary_source",
+      "title": "20 U.S.C. § 3411 — Department of Education",
+      "publisher": "Office of Law Revision Counsel",
+      "url": "https://uscode.house.gov/us/usc/119-118/t20/s3411/",
+      "published_on": null,
+      "accessed_on": "2026-10-16",
+      "evidence_kind": "codified_statute",
+      "revision_basis": "U.S. Code through Public Law 119-120 Oct 7 2026",
+      "scope_boundary": "Establishment; not proof of any office's program-level implementation."
+    },
+    {
+      "id": "CENSUS-SRC-ED-3422",
+      "type": "census_primary_source",
+      "title": "20 U.S.C. § 3422 — Education Inspector General",
+      "publisher": "Office of Law Revision Counsel",
+      "url": "https://uscode.house.gov/us/usc/119-118/t20/s3422/",
+      "published_on": null,
+      "accessed_on": "2026-10-16",
+      "evidence_kind": "codified_statute",
+      "revision_basis": "Specific codified section; source referenced for IG identity only",
+      "scope_boundary": "Oversight status and independent duties require separate IG Act review."
+    }
+  ]
+}

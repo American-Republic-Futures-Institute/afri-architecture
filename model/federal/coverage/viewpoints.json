@@ -1,0 +1,86 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-CENSUS-BASELINE",
+      "type": "census_institution_reference_view",
+      "title": "Federal Institutional Census — Officially Sourced Baseline",
+      "root_ids": [
+        "BR-FED-LEG",
+        "BR-FED-EXE",
+        "BR-FED-JUD"
+      ],
+      "source_model_paths": [
+        "model/federal/legislative.json",
+        "model/federal/executive-leadership.json",
+        "model/federal/executive-departments.json",
+        "model/federal/executive-independent.json",
+        "model/federal/judiciary.json"
+      ],
+      "allowed_relation_types": [
+        "statutory_composition_only",
+        "agency_directory_or_chart_membership",
+        "independent_oversight_placement_not_command"
+      ],
+      "render_status": "data_contract_only_not_website_rendered",
+      "review_status": "scope_bounded_reference_not_complete_census"
+    },
+    {
+      "id": "VIEW-CENSUS-DEFENSE-COMPONENTS",
+      "type": "census_institution_reference_view",
+      "title": "DEFENSE — first-level component research candidates",
+      "root_ids": [
+        "ORG-FED-EXE-DEP-DEFENSE"
+      ],
+      "source_model_paths": [
+        "model/federal/executive-departments.json",
+        "model/federal/coverage/components.json"
+      ],
+      "allowed_relation_types": [
+        "statutory_composition_only",
+        "agency_directory_or_chart_membership",
+        "independent_oversight_placement_not_command"
+      ],
+      "render_status": "data_contract_only_not_website_rendered",
+      "review_status": "partial_first_level_roster_pending_current_and_legal_review"
+    },
+    {
+      "id": "VIEW-CENSUS-DHS-COMPONENTS",
+      "type": "census_institution_reference_view",
+      "title": "DHS — first-level component research candidates",
+      "root_ids": [
+        "ORG-FED-EXE-DEP-DHS"
+      ],
+      "source_model_paths": [
+        "model/federal/executive-departments.json",
+        "model/federal/coverage/components.json"
+      ],
+      "allowed_relation_types": [
+        "statutory_composition_only",
+        "agency_directory_or_chart_membership",
+        "independent_oversight_placement_not_command"
+      ],
+      "render_status": "data_contract_only_not_website_rendered",
+      "review_status": "partial_first_level_roster_pending_current_and_legal_review"
+    },
+    {
+      "id": "VIEW-CENSUS-EDUCATION-COMPONENTS",
+      "type": "census_institution_reference_view",
+      "title": "EDUCATION — first-level component research candidates",
+      "root_ids": [
+        "ORG-FED-EXE-DEP-EDUCATION"
+      ],
+      "source_model_paths": [
+        "model/federal/executive-departments.json",
+        "model/federal/coverage/components.json"
+      ],
+      "allowed_relation_types": [
+        "statutory_composition_only",
+        "agency_directory_or_chart_membership",
+        "independent_oversight_placement_not_command"
+      ],
+      "render_status": "data_contract_only_not_website_rendered",
+      "review_status": "partial_first_level_roster_pending_current_and_legal_review"
+    }
+  ]
+}

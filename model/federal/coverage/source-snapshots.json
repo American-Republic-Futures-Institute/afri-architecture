@@ -1,0 +1,57 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CENSUS-SNAPSHOT-GOVMAN-2025-12-31",
+      "type": "federal_source_snapshot",
+      "source_id": "CENSUS-SRC-GOVMAN-2025",
+      "edition_date": "2025-12-31",
+      "retrieved_on": "2026-10-16",
+      "revision_id": "GOVMAN-2025-12-31",
+      "scope": "Official federal institution handbook; used as denominator candidate only, not yet exhaustively parsed.",
+      "denominator_status": "unestablished_full_census_not_claimed",
+      "immutable_url": "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31",
+      "snapshot_kind": "dated_official_publication",
+      "review_status": "source_verified_census_extraction_pending"
+    },
+    {
+      "id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "type": "federal_source_snapshot",
+      "source_id": "CENSUS-SRC-DOD-111",
+      "edition_date": "2026-10-07",
+      "retrieved_on": "2026-10-16",
+      "revision_id": "119-120",
+      "scope": "10 U.S.C. § 111 legal composition of Department of Defense",
+      "denominator_status": "not_a_full_operational_component_inventory",
+      "immutable_url": "https://uscode.house.gov/us/usc/119-118/t10/s111/",
+      "snapshot_kind": "dated_codification_citation",
+      "review_status": "research_pending_citator_review"
+    },
+    {
+      "id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "type": "federal_source_snapshot",
+      "source_id": "CENSUS-SRC-DHS-CHART-2025",
+      "edition_date": "2025-01-17",
+      "retrieved_on": "2026-10-16",
+      "revision_id": "FY2024-2025-0117",
+      "scope": "Selected DHS operational components and IG based on published chart",
+      "denominator_status": "not_current_full_census",
+      "immutable_url": "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf",
+      "snapshot_kind": "dated_org_chart",
+      "review_status": "research_pending_current_org_reconciliation"
+    },
+    {
+      "id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "type": "federal_source_snapshot",
+      "source_id": "CENSUS-SRC-ED-OFFICES",
+      "edition_date": "2026-10-16",
+      "retrieved_on": "2026-10-16",
+      "revision_id": "retrieval-date-only-not-immutable",
+      "scope": "Selected official education-office directory labels",
+      "denominator_status": "not_complete_certified_census",
+      "immutable_url": null,
+      "snapshot_kind": "mutable_web_directory",
+      "review_status": "research_pending_archive_capture"
+    }
+  ]
+}

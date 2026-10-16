@@ -1,0 +1,122 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CENSUS-TYPE-LEGISLATIVE-BODY",
+      "type": "federal_institution_class",
+      "type_key": "legislative_body",
+      "label": "Legislative institution",
+      "branch_id": "BR-FED-LEG",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Legislative organ, not an executive management superior"
+    },
+    {
+      "id": "CENSUS-TYPE-LEGISLATIVE-CHAMBER",
+      "type": "federal_institution_class",
+      "type_key": "legislative_chamber",
+      "label": "Chamber of Congress",
+      "branch_id": "BR-FED-LEG",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Separate constitutional rules and authority"
+    },
+    {
+      "id": "CENSUS-TYPE-LEGISLATIVE-SUPPORT",
+      "type": "federal_institution_class",
+      "type_key": "legislative_support",
+      "label": "Legislative support institution",
+      "branch_id": "BR-FED-LEG",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Legislative support does not create chamber power"
+    },
+    {
+      "id": "CENSUS-TYPE-CONSTITUTIONAL-OFFICE",
+      "type": "federal_institution_class",
+      "type_key": "constitutional_office",
+      "label": "Constitutional federal office",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Branch category does not erase cross-branch constitutional functions"
+    },
+    {
+      "id": "CENSUS-TYPE-EXECUTIVE-OFFICE",
+      "type": "federal_institution_class",
+      "type_key": "executive_office",
+      "label": "Executive Office of President grouping",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "EOP membership is not independently delegated legal authority"
+    },
+    {
+      "id": "CENSUS-TYPE-EXECUTIVE-OFFICE-COMPONENT",
+      "type": "federal_institution_class",
+      "type_key": "executive_office_component",
+      "label": "EOP component",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Particular delegations and statutory offices need separate research"
+    },
+    {
+      "id": "CENSUS-TYPE-EXECUTIVE-DEPARTMENT",
+      "type": "federal_institution_class",
+      "type_key": "executive_department",
+      "label": "Cabinet executive department",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Cabinet department identity and subordinate components are separate"
+    },
+    {
+      "id": "CENSUS-TYPE-EXECUTIVE-NON-DEPARTMENT-CANDIDATE",
+      "type": "federal_institution_class",
+      "type_key": "executive_non_department_candidate",
+      "label": "Selected non-department federal body",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "requires_entity_specific_statutory_review",
+      "boundary": "Exact independent-establishment, corporation, regulatory status remains undecided"
+    },
+    {
+      "id": "CENSUS-TYPE-JUDICIAL-ENTITY",
+      "type": "federal_institution_class",
+      "type_key": "judicial_entity",
+      "label": "Judicial institution or aggregate",
+      "branch_id": "BR-FED-JUD",
+      "legal_classification_status": "requires_entity_specific_statutory_review",
+      "boundary": "Article III versus Article I jurisdiction cannot be assumed from catalog location"
+    },
+    {
+      "id": "CENSUS-TYPE-MILITARY-DEPARTMENT",
+      "type": "federal_institution_class",
+      "type_key": "military_department",
+      "label": "Military department inside Defense",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Not a Cabinet department; command and administrative relationships differ"
+    },
+    {
+      "id": "CENSUS-TYPE-STATUTORY-COMPONENT-CLASS",
+      "type": "federal_institution_class",
+      "type_key": "statutory_component_class",
+      "label": "Statutorily identified first-level organization class",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Class is not a fully enumerated list of organizations"
+    },
+    {
+      "id": "CENSUS-TYPE-DEPARTMENT-COMPONENT",
+      "type": "federal_institution_class",
+      "type_key": "department_component",
+      "label": "Agency or office described as a department component",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Source describes organizational composition, not a general grant of authority"
+    },
+    {
+      "id": "CENSUS-TYPE-INDEPENDENT-OVERSIGHT-COMPONENT",
+      "type": "federal_institution_class",
+      "type_key": "independent_oversight_component",
+      "label": "Inspector General or oversight component",
+      "branch_id": "BR-FED-EXE",
+      "legal_classification_status": "organizational_family_only",
+      "boundary": "Administrative placement never implies control over IG findings"
+    }
+  ]
+}

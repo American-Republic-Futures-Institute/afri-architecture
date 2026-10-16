@@ -1,0 +1,441 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CENSUS-REL-0001",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-OSD",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0002",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-JCS",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0003",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-JOINT-STAFF",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0004",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0005",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0006",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-ARMY",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0007",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-NAVY",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0008",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0009",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_composition_only",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DOD-USC-2026-10-07",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0010",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-CBP",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0011",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-ICE",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0012",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-USCIS",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0013",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-CISA",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0014",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-FEMA",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0015",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-TSA",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0016",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-USSS",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0017",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-USCG",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0018",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-FLETC",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0019",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-DHS-OIG",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "independent_oversight_placement_not_command",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-DHS-CHART-2025"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-DHS-CHART-2025",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0020",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-OESE",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0021",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-OPE",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0022",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-OSERS",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0023",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-OCTAE",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0024",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-OCR",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0025",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-OELA",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0026",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-IES",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0027",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-FSA",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0028",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-OFO",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "agency_directory_or_chart_membership",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    },
+    {
+      "id": "CENSUS-REL-0029",
+      "type": "federal_evidenced_organization_relation",
+      "from_id": "CENSUS-COMP-ED-OIG",
+      "to_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "relationship_type": "independent_oversight_placement_not_command",
+      "classification": "source_descriptive_not_command_or_delegation",
+      "source_ids": [
+        "CENSUS-SRC-ED-OFFICES",
+        "CENSUS-SRC-ED-3422"
+      ],
+      "snapshot_id": "CENSUS-SNAPSHOT-ED-DIRECTORY-2026-10-16",
+      "operational_command_proven": false,
+      "delegated_statutory_power_proven": false,
+      "classification_review_complete": false
+    }
+  ]
+}
