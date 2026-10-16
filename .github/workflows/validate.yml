@@ -31,6 +31,8 @@ jobs:
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
         run: node scripts/validate-federal-census.mjs --view VIEW-CENSUS-DEFENSE-COMPONENTS > /dev/null
+      - name: Validate all eight federal census JSON Schema contracts
+        run: node scripts/validate-federal-census-schema.mjs
       - name: Test federal identity crosswalk, first-level pilot and legal-authority fail-closed regressions
         run: node --test tests/federal-census.test.mjs
       - name: Validate constitutional authority catalog
