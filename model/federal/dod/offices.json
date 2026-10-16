@@ -1,0 +1,261 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-ROLE-SECDEF",
+      "type": "dod_office_or_official_role",
+      "name": "Secretary of Defense",
+      "category": "statutory_civilian_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "source_locator": "10 U.S.C. § 113(a), (b)",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": true,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-DEPSEC",
+      "type": "dod_office_or_official_role",
+      "name": "Deputy Secretary of Defense",
+      "category": "statutory_civilian_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-CHAIRMAN",
+      "type": "dod_office_or_official_role",
+      "name": "Chairman of the Joint Chiefs of Staff",
+      "category": "statutory_military_advisor",
+      "parent_id": "CENSUS-COMP-DEF-JCS",
+      "source_ids": [
+        "DOD-SRC-10-151"
+      ],
+      "source_locator": "Statutory office section",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-USD-A-S",
+      "type": "dod_office_or_official_role",
+      "name": "Under Secretary of Defense for Acquisition and Sustainment",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-USD-R-E",
+      "type": "dod_office_or_official_role",
+      "name": "Under Secretary of Defense for Research and Engineering",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-USD-C",
+      "type": "dod_office_or_official_role",
+      "name": "Under Secretary of Defense (Comptroller)",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-USD-P-R",
+      "type": "dod_office_or_official_role",
+      "name": "Under Secretary of Defense for Personnel and Readiness",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-USD-I-S",
+      "type": "dod_office_or_official_role",
+      "name": "Under Secretary of Defense for Intelligence and Security",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-GENERAL-COUNSEL",
+      "type": "dod_office_or_official_role",
+      "name": "General Counsel, Department of Defense",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-ASD-PUBLIC-AFFAIRS",
+      "type": "dod_office_or_official_role",
+      "name": "Assistant to the Secretary of Defense for Public Affairs",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-DA-M",
+      "type": "dod_office_or_official_role",
+      "name": "Director of Administration and Management",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-DOD-CIO",
+      "type": "dod_office_or_official_role",
+      "name": "Department of Defense Chief Information Officer",
+      "category": "osd_supervisory_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781 Figure 1, May 2026 reporting",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-SEC-ARMY",
+      "type": "dod_office_or_official_role",
+      "name": "Secretary of the Army",
+      "category": "military_department_civilian_office",
+      "parent_id": "CENSUS-COMP-DEF-ARMY",
+      "source_ids": [
+        "DOD-SRC-10-7013"
+      ],
+      "source_locator": "Statutory office section",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-SEC-NAVY",
+      "type": "dod_office_or_official_role",
+      "name": "Secretary of the Navy",
+      "category": "military_department_civilian_office",
+      "parent_id": "CENSUS-COMP-DEF-NAVY",
+      "source_ids": [
+        "DOD-SRC-10-8013"
+      ],
+      "source_locator": "Statutory office section",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-SEC-AIR",
+      "type": "dod_office_or_official_role",
+      "name": "Secretary of the Air Force",
+      "category": "military_department_civilian_office",
+      "parent_id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "source_ids": [
+        "DOD-SRC-10-9013"
+      ],
+      "source_locator": "Statutory office section",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "not_applicable",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    },
+    {
+      "id": "DOD-ROLE-DOD-IG",
+      "type": "dod_office_or_official_role",
+      "name": "Inspector General of the Department of Defense",
+      "category": "statutorily_independent_oversight_office",
+      "parent_id": "CENSUS-COMP-DEF-OSD",
+      "source_ids": [
+        "DOD-SRC-10-141"
+      ],
+      "source_locator": "Statutory office section",
+      "personnel_individual_identified": false,
+      "chart_supervision_not_statutory_delegation": true,
+      "military_command_role_verified": false,
+      "oversight_independence": "independent_ig_act_powers",
+      "review_status": "office_identity_sourced_authority_subject_to_specific_statute"
+    }
+  ]
+}

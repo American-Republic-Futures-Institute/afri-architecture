@@ -1,0 +1,68 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "type": "legal_citation_snapshot",
+      "as_of": "2026-10-07",
+      "published_on": "2026-10-07",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "CENSUS-SRC-DOD-113",
+        "DOD-SRC-10-101",
+        "DOD-SRC-10-162"
+      ],
+      "scope": "Public Law 119-120 codification for selected legal sections, not a current legal citator",
+      "completeness": "selected_sections_only",
+      "immutable_publication_ref": "119-120"
+    },
+    {
+      "id": "DOD-SNAPSHOT-DAFA-MAY-2026",
+      "type": "dated_public_roster_snapshot",
+      "as_of": "2026-05-31",
+      "published_on": "2026-09-03",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "scope": "Exact 19 defense agencies and eight field activities and nine OSD/related supervisory columns shown in GAO Figure 1",
+      "completeness": "full_figure_roster_19_plus_8_not_post_may_current",
+      "immutable_publication_ref": "GAO-26-107781_Figure_1"
+    },
+    {
+      "id": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "type": "mutable_roster_capture",
+      "as_of": "2026-10-16",
+      "published_on": null,
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026"
+      ],
+      "scope": "11 public combatant command identities reported on defense.gov; not published UCP or evidence of current assigned forces",
+      "completeness": "public_name_roster_only",
+      "immutable_publication_ref": null
+    },
+    {
+      "id": "DOD-SNAPSHOT-GOVMAN-2025-DOD",
+      "type": "dated_census_source",
+      "as_of": "2025-12-31",
+      "published_on": "2025-12-31",
+      "source_ids": [
+        "DOD-SRC-GOVMAN-2025-DOD"
+      ],
+      "scope": "Historical department narrative and core organizational reference",
+      "completeness": "not_full_2026_operational_census",
+      "immutable_publication_ref": "GOVMAN-2025-12-31-114"
+    },
+    {
+      "id": "DOD-SNAPSHOT-FY26-PB",
+      "type": "fiscal_proposal_snapshot",
+      "as_of": "2025-06-01",
+      "published_on": null,
+      "source_ids": [
+        "DOD-SRC-FY26-DEFENSE-WIDE"
+      ],
+      "scope": "FY2026 budget request proposals and fiscal program categories, not enacted appropriations",
+      "completeness": "selected_request_categories_only",
+      "immutable_publication_ref": null
+    }
+  ]
+}

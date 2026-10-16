@@ -108,7 +108,15 @@
     "model/federal/coverage/components.json",
     "model/federal/coverage/relationships.json",
     "model/federal/coverage/gaps.json",
-    "model/federal/coverage/viewpoints.json"
+    "model/federal/coverage/viewpoints.json",
+    "model/federal/dod/source-registry.json",
+    "model/federal/dod/source-snapshots.json",
+    "model/federal/dod/statutory-composition.json",
+    "model/federal/dod/dafas.json",
+    "model/federal/dod/offices.json",
+    "model/federal/dod/armed-services.json",
+    "model/federal/dod/combatant-commands.json",
+    "model/federal/dod/name-events.json"
   ],
   "standards": [
     {
@@ -394,5 +402,29 @@
     "legal_review_status": "pending",
     "website_integration_status": "deferred",
     "next_stage": "Complete source-edition census, verified first-level organizational links, then statutory authority mapping."
+  },
+  "dod_institutional_authority_extension": {
+    "id": "ARFI-COA-DOD-002",
+    "version": "0.1.0",
+    "status": "source_bounded_research_unratified",
+    "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+    "reference_as_of": "2026-10-16",
+    "latest_legal_codification": "through_Pub_L_119-120_2026-10-07",
+    "dafa_roster_as_of": "2026-05-31",
+    "dafa_report_published": "2026-09-03",
+    "statutory_composition_classes": 11,
+    "dafa_defense_agencies": 19,
+    "dafa_field_activities": 8,
+    "combat_support_agencies": 8,
+    "public_combatant_command_candidates": 11,
+    "armed_service_boundaries": 6,
+    "completeness_scope": "10_USC_111_11_composition_groups_and_GAO_May_2026_27_DAFA_roster_only",
+    "whole_department_adl1_certified": false,
+    "all_charters_reviewed": false,
+    "all_appropriations_verified": false,
+    "public_current_roster_reconciled": false,
+    "legal_citator_review_complete": false,
+    "website_rendering_status": "not_implemented",
+    "policy_mapping_status": "not_implemented"
   }
 }

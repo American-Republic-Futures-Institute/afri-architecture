@@ -1,0 +1,211 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CENSUS-COMP-DEF-OSD",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "OSD",
+      "name": "Office of the Secretary of Defense",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "component_or_staff_organization",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-111"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(1)",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-OSD",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": true,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "CENSUS-COMP-DEF-JCS",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "JCS",
+      "name": "Joint Chiefs of Staff",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "component_or_staff_organization",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-151"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(2), §151",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-JCS",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": true,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "CENSUS-COMP-DEF-JOINT-STAFF",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "JOINT-STAFF",
+      "name": "Joint Staff",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "component_or_staff_organization",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(3)",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-JOINT-STAFF",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": true,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "DEFENSE-AGENCIES",
+      "name": "Defense Agencies statutory class",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "defense_agency_class",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-191"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(4), §191",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": false,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "FIELD-ACTIVITIES",
+      "name": "DoD Field Activities statutory class",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "field_activity_class",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-191"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(5), §191",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": false,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "CENSUS-COMP-DEF-ARMY",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "ARMY",
+      "name": "Department of the Army",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "military_department",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-7013"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(6), §7013",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-ARMY",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": true,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "CENSUS-COMP-DEF-NAVY",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "NAVY",
+      "name": "Department of the Navy",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "military_department",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-8013"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(7), §8013",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-NAVY",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": true,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "AIR-FORCE",
+      "name": "Department of the Air Force",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "military_department",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-9013"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(8), §9013",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-AIR-FORCE",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": true,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "COMBATANT-COMMANDS",
+      "name": "Unified and specified combatant commands statutory class",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "combatant_command_class",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-161"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(9), §161",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": false,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "DOD-STAT-CLASS-OTHER-DESIGNATED",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "OTHER-DESIGNATED",
+      "name": "Other lawfully established or Presidentially designated elements",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "residual_statutory_class",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(10)",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": null,
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": false,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    },
+    {
+      "id": "DOD-STAT-CLASS-SUBORDINATE-ELEMENTS",
+      "type": "dod_top_level_statutory_composition",
+      "short_code": "SUBORDINATE-ELEMENTS",
+      "name": "Offices and units controlled or supervised by composition elements",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "kind": "residual_statutory_class",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "legal_locator": "10 U.S.C. §111(b)(11)",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "legacy_census_ref": null,
+      "identity_validated_to_statutory_category": true,
+      "is_complete_list_of_individual_members": false,
+      "composition_not_command": true,
+      "review_status": "source_bound_statutory_composition_not_delegated_authority"
+    }
+  ]
+}
