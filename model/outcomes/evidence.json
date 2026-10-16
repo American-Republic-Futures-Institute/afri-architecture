@@ -58,14 +58,12 @@
     {
       "id": "EVID-07-05",
       "evidence_class": "primary_constitutional_text",
-      "title": "Tenth and Fourteenth Amendment texts",
+      "title": "Tenth Amendment original text",
       "publisher": "National Archives and Records Administration",
-      "url": "https://www.archives.gov/founding-docs/amendments-11-27",
-      "scope": "Relevant to reserved powers and State due process/equal protection; questions of application must be separately reviewed.",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "scope": "Reserved-powers constitutional text, not a complete independent description of current State authority or anti-commandeering doctrine.",
       "constitutional_record_ids": [
-        "AMD-UNIT-10-U-01",
-        "AMD-UNIT-14-S01-04",
-        "AMD-UNIT-14-S01-05"
+        "AMD-UNIT-10-U-01"
       ],
       "review_status": "source_access_and_substantive_applicability_review_pending",
       "validated_causal_effect": false
@@ -100,6 +98,20 @@
       "url": "https://github.com/American-Republic-Futures-Institute/afri-plan-therepublicwebuild/blob/d856e926f4180225fc74cb57ba770b6189016be3/research/INC05_CROSS_DOMAIN_VALIDATION.md",
       "scope": "Five preliminary stress tests reveal risk hypotheses; they are not simulations, forecasts, measured findings or evidence of public consensus.",
       "constitutional_record_ids": [],
+      "review_status": "source_access_and_substantive_applicability_review_pending",
+      "validated_causal_effect": false
+    },
+    {
+      "id": "EVID-07-09",
+      "evidence_class": "primary_constitutional_text",
+      "title": "Fourteenth Amendment original text",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+      "scope": "Due process and equal protection textual source; incorporation and context-specific rights require independent present-law review.",
+      "constitutional_record_ids": [
+        "AMD-UNIT-14-S01-04",
+        "AMD-UNIT-14-S01-05"
+      ],
       "review_status": "source_access_and_substantive_applicability_review_pending",
       "validated_causal_effect": false
     }
