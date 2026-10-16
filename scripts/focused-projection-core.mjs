@@ -4,7 +4,7 @@ const arr=x=>Array.isArray(x)?x:[];
 const classes=new Set(["structural","research_analysis","textual_candidate","qualification","historical_context","functional_alignment","federal_observed"]);
 const statuses=new Set(["model_only_focused_view_not_website_rendered"]);
 export const INDEX_PATHS=Object.freeze([
- ...["provisions","norms","actors","bindings","changes","article-i-clauses","article-i-qualifications","article-i-capability-links","article-ii-units","article-ii-qualifications","article-ii-capability-links","article-iii-units","article-iii-qualifications","article-iii-capability-links","article-iii-jurisdiction","article-iv-vii-units","article-iv-vii-qualifications","article-iv-vii-actor-links","article-iv-vii-capability-links","federalism-units","federalism-qualifications","federalism-relationships","federalism-capability-links","amendment-units","amendment-effects","amendment-qualifications","amendment-capability-links","amendment-timeline"].map(n=>"model/constitutional/"+n+".json"),
+ ...["provisions","norms","actors","bindings","changes","article-i-clauses","article-i-qualifications","article-i-capability-links","article-ii-units","article-ii-qualifications","article-ii-capability-links","article-iii-units","article-iii-qualifications","article-iii-capability-links","article-iii-jurisdiction","article-iv-vii-units","article-iv-vii-qualifications","article-iv-vii-actor-links","article-iv-vii-capability-links","federalism-units","federalism-qualifications","federalism-relationships","federalism-capability-links","amendment-units","amendment-effects","amendment-qualifications","amendment-capability-links","amendment-timeline","viewpoints","article-iv-vii-viewpoints"].map(n=>"model/constitutional/"+n+".json"),
  ...["branches","legislative","executive-leadership","executive-departments","executive-independent","judiciary","capabilities","authorities","relationships","sources"].map(n=>"model/federal/"+n+".json")
 ]);
 const rpath={
@@ -34,7 +34,7 @@ export function compileFocusedGraph(manifest,files){
  ensure(ext?.id==="ARFI-COA-FOCUSED-PROJECTION-001"&&ext.release_status==="data_contract_only_no_website_renderer"&&ext.user_interface_status==="future_increment"&&ext.policy_mapping_status==="future_increment","projection release state cannot imply deployed UI or policy mappings");
  const scopes=assertCollection(manifest,files,rpath.scopes),rules=assertCollection(manifest,files,rpath.rules);
  const articles=assertCollection(manifest,files,rpath.articles),amendments=assertCollection(manifest,files,rpath.amendments);
- ensure(scopes.length===34&&articles.length===7&&amendments.length===27&&rules.length===ext.rule_count,"scope/index coverage incomplete");
+ ensure(scopes.length===34&&articles.length===7&&amendments.length===27&&rules.length===ext.rule_count&&ext.article_scope_count===7&&ext.amendment_scope_count===27&&ext.article_index_count===7&&ext.amendment_index_count===27,"scope/index coverage incomplete");
  const idToRecord=new Map(),pathItems=new Map();
  for(const path of INDEX_PATHS){
   const items=assertCollection(manifest,files,path);pathItems.set(path,items);
@@ -48,17 +48,17 @@ export function compileFocusedGraph(manifest,files){
  ensure(rootProvision?.unit==="constitution","canonical original Constitution unavailable");
  const scoped=new Map();
  const sources=new Map(pathItems.get("model/federal/sources.json").map(x=>[x.id,x]));
- const articleRom=["I","II","III","IV","V","VI","VII"];
+ const articleRom=["I","II","III","IV","V","VI","VII"],minimumArticleUnits=[53,17,8,10,9,3,3];
  const byId=(id,reason)=>{const x=idToRecord.get(id);ensure(!!x,reason+" "+id);return x};
  for(const [index,row]of articles.entries()){
   const art=index+1,roman=articleRom[index],root="CONST-US-ART-"+String(art).padStart(2,"0");
   ensure(row.id==="ARTICLE-INDEX-"+String(art).padStart(2,"0")&&row.root_id===root&&row.article===roman,"incorrect Article index "+art);
   const prov=byId(root,"missing Article root");ensure(prov.unit==="article","Article index not rooted at Article "+root);
-  ensure(row.source_unit_count===row.source_unit_ids.length&&row.source_unit_count>0&&new Set(row.source_unit_ids).size===row.source_unit_ids.length,"Article source unit coverage missing "+roman);
+  ensure(row.source_unit_count===row.source_unit_ids.length&&row.source_unit_count>=minimumArticleUnits[index]&&new Set(row.source_unit_ids).size===row.source_unit_ids.length,"Article source unit coverage missing "+roman);
   ensure(row.source_unit_ids.every(id=>idToRecord.get(id)?.model_path===row.source_model_path),"Article index crosses source catalogue "+roman);
   ensure(row.source_unit_ids.every(id=>art<=3||idToRecord.get(id).article===art),"Article IV–VII crosswalk exceeds original article "+roman);
   const definition=scopes.find(x=>x.id==="SCOPE-CONST-ART-"+String(art).padStart(2,"0"));
-  ensure(definition?.root_ids?.length===1&&definition.root_ids[0]===root&&definition.source_unit_catalog===row.source_model_path,"Article focus definition missing "+roman);
+  ensure(definition?.root_ids?.length===1&&definition.root_ids[0]===root&&definition.source_unit_catalog===row.source_model_path&&idToRecord.has(definition.reference_view_id),"Article focus definition missing "+roman);
  }
  for(let index=1;index<=27;index++){
   const row=amendments[index-1],root="CONST-US-AMD-"+String(index).padStart(2,"0");
@@ -67,7 +67,7 @@ export function compileFocusedGraph(manifest,files){
   ensure(row.current_text_effect===prov.effect_status&&row.ratified_on===prov.ratified_on,"amendment chronology/status mismatch "+root);
   ensure(row.source_unit_count===row.source_unit_ids.length&&row.source_unit_count>0&&new Set(row.source_unit_ids).size===row.source_unit_count,"amendment unit count mismatch "+root);
   ensure(row.source_unit_ids.every(id=>idToRecord.get(id)?.amendment_number===index&&idToRecord.get(id)?.model_path===row.source_model_path),"amendment index crosses source records "+root);
-  ensure(scopes.some(s=>s.id==="SCOPE-CONST-AMD-"+String(index).padStart(2,"0")&&s.root_ids?.[0]===root),"individual amendment view missing "+root);
+  ensure(scopes.some(s=>s.id==="SCOPE-CONST-AMD-"+String(index).padStart(2,"0")&&s.root_ids?.[0]===root&&idToRecord.has(s.reference_view_id)),"individual amendment view missing "+root);
  }
  for(const s of scopes){
   ensure(s.type==="focused_constitutional_scope"&&s.domain==="constitutional"&&s.scope_kind==="source_descendants"&&statuses.has(s.publication_status),"unsupported focus scope "+s.id);
@@ -78,6 +78,8 @@ export function compileFocusedGraph(manifest,files){
   ensure(arr(s.source_ids).length>0&&s.source_ids.every(id=>sources.has(id)),"scope missing official source provenance "+s.id);
   ensure(!scoped.has(s.id),"repeated focus scope "+s.id);scoped.set(s.id,s);
  }
+ const requiredRuleSet=new Set(["model/constitutional/provisions.json|parent_id|$self","model/constitutional/norms.json|provision_ids|$self","model/constitutional/amendment-units.json|analytic_provision_id|$self","model/constitutional/article-iv-vii-units.json|provision_id|$self","model/constitutional/bindings.json|$self|target_id"]);
+  for(const k of requiredRuleSet)ensure(rules.some(rule=>[rule.source_model_path,rule.from_field,rule.to_field].join("|")===k),"critical source reference rule omitted "+k);
  const edges=[],edgeIds=new Set();let total=0;
  for(const rule of rules){
   ensure(rule.type==="declarative_source_edge_rule"&&classes.has(rule.relationship_class)&&rule.legal_status==="descriptive_projection_only_not_delegated_power","invalid relationship rule "+rule.id);
