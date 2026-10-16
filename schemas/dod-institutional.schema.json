@@ -1,0 +1,1296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/dod-institutional.schema.json",
+  "title": "ARFI DoD source-bounded institutional/authority/fiscal model v0.1.0",
+  "description": "19 strictly typed record families, each validated using its named $defs record type plus dod-validation-core.mjs source and authority gates.",
+  "$defs": {
+    "source-registry": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "title",
+        "publisher",
+        "url",
+        "source_version",
+        "accessed_on",
+        "evidence_scope",
+        "legal_review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "official_audit_source",
+            "official_census_source",
+            "official_agency_directory",
+            "official_budget_proposal",
+            "official_codified_statute"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "source_version": {
+          "type": "string"
+        },
+        "accessed_on": {
+          "type": "string"
+        },
+        "evidence_scope": {
+          "type": "string"
+        },
+        "legal_review_status": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        }
+      }
+    },
+    "source-snapshots": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "as_of",
+        "published_on",
+        "source_ids",
+        "scope",
+        "completeness",
+        "immutable_publication_ref"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "legal_citation_snapshot",
+            "dated_public_roster_snapshot",
+            "mutable_roster_capture",
+            "dated_census_source",
+            "fiscal_proposal_snapshot"
+          ]
+        },
+        "as_of": {
+          "type": "string"
+        },
+        "published_on": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "scope": {
+          "type": "string"
+        },
+        "completeness": {
+          "type": "string"
+        },
+        "immutable_publication_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "statutory-composition": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "short_code",
+        "name",
+        "department_id",
+        "kind",
+        "source_ids",
+        "legal_locator",
+        "snapshot_id",
+        "legacy_census_ref",
+        "identity_validated_to_statutory_category",
+        "is_complete_list_of_individual_members",
+        "composition_not_command",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_top_level_statutory_composition"
+          ]
+        },
+        "short_code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "department_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "legal_locator": {
+          "type": "string"
+        },
+        "snapshot_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "legacy_census_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_validated_to_statutory_category": {
+          "type": "boolean"
+        },
+        "is_complete_list_of_individual_members": {
+          "type": "boolean"
+        },
+        "composition_not_command": {
+          "type": "boolean"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "dafas": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "department_id",
+        "category",
+        "category_parent_id",
+        "supervisor_role_id",
+        "combat_support_agency",
+        "observed_as_of",
+        "snapshot_id",
+        "source_ids",
+        "source_locator",
+        "name_status",
+        "current_october_2026_name_verified",
+        "official_agency_identifier",
+        "dafa_census_edition_complete",
+        "individual_charter_or_delegation_verified",
+        "appropriation_verified",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_agency_or_field_activity"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "department_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "category": {
+          "type": "string"
+        },
+        "category_parent_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "supervisor_role_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "combat_support_agency": {
+          "type": "boolean"
+        },
+        "observed_as_of": {
+          "type": "string"
+        },
+        "snapshot_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_locator": {
+          "type": "string"
+        },
+        "name_status": {
+          "type": "string"
+        },
+        "current_october_2026_name_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "official_agency_identifier": {
+          "type": "null"
+        },
+        "dafa_census_edition_complete": {
+          "type": "boolean"
+        },
+        "individual_charter_or_delegation_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "appropriation_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "offices": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "category",
+        "parent_id",
+        "source_ids",
+        "source_locator",
+        "personnel_individual_identified",
+        "chart_supervision_not_statutory_delegation",
+        "military_command_role_verified",
+        "oversight_independence",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_office_or_official_role"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "parent_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_locator": {
+          "type": "string"
+        },
+        "personnel_individual_identified": {
+          "type": "boolean"
+        },
+        "chart_supervision_not_statutory_delegation": {
+          "type": "boolean"
+        },
+        "military_command_role_verified": {
+          "type": "boolean"
+        },
+        "oversight_independence": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "armed-services": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "institutional_parent_id",
+        "boundary_type",
+        "currently_part_of_dod_by_general_law",
+        "interdepartmental_transfer_condition",
+        "source_ids",
+        "as_of_statutory_edition",
+        "is_independent_military_department",
+        "operational_command_assignment_inferred",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_armed_service_boundary"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "institutional_parent_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "boundary_type": {
+          "type": "string"
+        },
+        "currently_part_of_dod_by_general_law": {
+          "type": "boolean"
+        },
+        "interdepartmental_transfer_condition": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "as_of_statutory_edition": {
+          "type": "string"
+        },
+        "is_independent_military_department": {
+          "type": "boolean"
+        },
+        "operational_command_assignment_inferred": {
+          "type": "boolean"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "combatant-commands": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "category",
+        "department_id",
+        "statutory_family_id",
+        "source_ids",
+        "roster_as_of",
+        "source_snapshot",
+        "individual_mission_boundary_or_force_allocation_verified",
+        "individual_chain_exception_verification",
+        "legal_review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "public_combatant_command_identity"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "department_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "statutory_family_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "roster_as_of": {
+          "type": "string"
+        },
+        "source_snapshot": {
+          "type": "string"
+        },
+        "individual_mission_boundary_or_force_allocation_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "individual_chain_exception_verification": {
+          "type": "string"
+        },
+        "legal_review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "name-events": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "institution_id",
+        "old_name",
+        "new_name",
+        "effective_on",
+        "source_ids",
+        "source_locator",
+        "identity_continuity_status",
+        "canonical_node_id_unchanged"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "name_or_organizational_event"
+          ]
+        },
+        "institution_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "old_name": {
+          "type": "string"
+        },
+        "new_name": {
+          "type": "string"
+        },
+        "effective_on": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_locator": {
+          "type": "string"
+        },
+        "identity_continuity_status": {
+          "type": "string"
+        },
+        "canonical_node_id_unchanged": {
+          "type": "boolean"
+        }
+      }
+    },
+    "statutory-provisions": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "title",
+        "code_title",
+        "section_locator",
+        "section",
+        "legal_function_class",
+        "summary",
+        "source_ids",
+        "legal_edition",
+        "external_citator_review_complete",
+        "is_current_authoritative_interpretation",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_official_statutory_provision"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "code_title": {
+          "type": "integer"
+        },
+        "section_locator": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "legal_function_class": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "legal_edition": {
+          "type": "string"
+        },
+        "external_citator_review_complete": {
+          "type": "boolean"
+        },
+        "is_current_authoritative_interpretation": {
+          "type": "boolean"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "conditions": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "provision_id",
+        "summary",
+        "source_ids",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_authority_condition"
+          ]
+        },
+        "provision_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "powers": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "authorized_actor_id",
+        "provision_id",
+        "condition_ids",
+        "power_type",
+        "capability_alignment_id",
+        "source_ids",
+        "legal_authority_proven_for_scope",
+        "individual_agency_delegation_proven",
+        "appropriation_verified",
+        "citator_review_complete",
+        "description",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_bounded_statutory_function"
+          ]
+        },
+        "authorized_actor_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "provision_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "condition_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "power_type": {
+          "type": "string"
+        },
+        "capability_alignment_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "legal_authority_proven_for_scope": {
+          "type": "boolean"
+        },
+        "individual_agency_delegation_proven": {
+          "type": "boolean"
+        },
+        "appropriation_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "citator_review_complete": {
+          "type": "boolean"
+        },
+        "description": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "from_id",
+        "to_id",
+        "relationship_type",
+        "source_ids",
+        "legal_provision_id",
+        "effect_status",
+        "operational_command_established",
+        "direct_subordinate_delegation_established",
+        "as_of",
+        "qualifications",
+        "recorded_basis"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_typed_architecture_relation"
+          ]
+        },
+        "from_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "to_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "relationship_type": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "legal_provision_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "effect_status": {
+          "type": "string"
+        },
+        "operational_command_established": {
+          "type": "boolean"
+        },
+        "direct_subordinate_delegation_established": {
+          "type": "boolean",
+          "const": false
+        },
+        "as_of": {
+          "type": "string"
+        },
+        "qualifications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recorded_basis": {
+          "type": "string"
+        },
+        "statutory_192_a_supervision_applies": {
+          "type": "boolean"
+        }
+      }
+    },
+    "congressional-committees": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "parent_chamber_id",
+        "scope_class",
+        "congressional_defense_committee_definition",
+        "source_ids",
+        "current_committee_rules_verified",
+        "exact_subcommittee_jurisdiction_not_inferred",
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "statutorily_named_congressional_committee"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "parent_chamber_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "scope_class": {
+          "type": "string"
+        },
+        "congressional_defense_committee_definition": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "current_committee_rules_verified": {
+          "type": "boolean"
+        },
+        "exact_subcommittee_jurisdiction_not_inferred": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "congressional-crosswalks": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "provision_id",
+        "actor_id",
+        "report_type",
+        "recipient_committee_ids",
+        "recipient_status",
+        "source_ids",
+        "operational_reporting_compliance_verified",
+        "appropriations_legally_enacted",
+        "notes",
+        "review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "congressional_authority_or_reporting_crosswalk"
+          ]
+        },
+        "provision_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "actor_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "report_type": {
+          "type": "string"
+        },
+        "recipient_committee_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recipient_status": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "operational_reporting_compliance_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "appropriations_legally_enacted": {
+          "type": "boolean",
+          "const": false
+        },
+        "notes": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "fiscal-crosswalks": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "category",
+        "fiscal_year",
+        "source_ids",
+        "source_snapshot",
+        "status",
+        "enacted_appropriation_act_id",
+        "treasury_account_symbol",
+        "obligated_amount_verified",
+        "purpose_limitation_id",
+        "availability_limitation_id",
+        "appropriation_verified",
+        "spent_or_obligated_derived",
+        "notes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "defense_fiscal_proposal_category"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "fiscal_year": {
+          "type": "integer"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_snapshot": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "enacted_appropriation_act_id": {
+          "type": "null",
+          "const": null
+        },
+        "treasury_account_symbol": {
+          "type": "null",
+          "const": null
+        },
+        "obligated_amount_verified": {
+          "type": "boolean"
+        },
+        "purpose_limitation_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "availability_limitation_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "appropriation_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "spent_or_obligated_derived": {
+          "type": "boolean",
+          "const": false
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "capability-links": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "power_id",
+        "capability_id",
+        "source_ids",
+        "qualification",
+        "status",
+        "appropriation_verified",
+        "operational_effectiveness_verified"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_functional_capability_alignment"
+          ]
+        },
+        "power_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "capability_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "qualification": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "appropriation_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "operational_effectiveness_verified": {
+          "type": "boolean"
+        }
+      }
+    },
+    "authority-traces": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "department_id",
+        "actor_id",
+        "power_ids",
+        "condition_ids",
+        "capability_ids",
+        "legal_provision_ids",
+        "source_ids",
+        "status",
+        "full_department_authority_mapped",
+        "fy2026_spending_power_verified",
+        "role_to_individual_delegation_verified",
+        "judicial_interpretation_completed"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_source_authority_chain"
+          ]
+        },
+        "department_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "actor_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "power_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "condition_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "capability_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "legal_provision_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        },
+        "full_department_authority_mapped": {
+          "type": "boolean",
+          "const": false
+        },
+        "fy2026_spending_power_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "role_to_individual_delegation_verified": {
+          "type": "boolean",
+          "const": false
+        },
+        "judicial_interpretation_completed": {
+          "type": "boolean",
+          "const": false
+        }
+      }
+    },
+    "viewpoints": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "title",
+        "root_ids",
+        "family",
+        "include_relationship_types",
+        "max_hops",
+        "source_evidence_required",
+        "rendering_status",
+        "applicability_label",
+        "legal_review_status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_declarative_view"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "root_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "family": {
+          "type": "string"
+        },
+        "include_relationship_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "max_hops": {
+          "type": "integer"
+        },
+        "source_evidence_required": {
+          "type": "boolean"
+        },
+        "rendering_status": {
+          "type": "string"
+        },
+        "applicability_label": {
+          "type": "string"
+        },
+        "legal_review_status": {
+          "type": "string"
+        }
+      }
+    },
+    "gaps": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "scope_id",
+        "dimension",
+        "description",
+        "priority",
+        "status",
+        "source_ids",
+        "closure_condition"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "dod_declared_research_gap"
+          ]
+        },
+        "scope_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9-]{2,160}$"
+        },
+        "dimension": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "closure_condition": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
