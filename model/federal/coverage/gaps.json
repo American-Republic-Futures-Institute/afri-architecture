@@ -1,0 +1,113 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CENSUS-GAP-DEFENSE-FULL-STRUCTURE",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "first_level_structure",
+      "gap_kind": "partial_reference_sample_not_complete",
+      "priority": "P0",
+      "next_research": "Reconcile the department's complete first-level org inventory, effective dates, component classes and oversight status against an independently source-pinned edition.",
+      "closure_condition": "Complete source-bounded denominator plus traced identity and organizational links; legal class reviewed.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    },
+    {
+      "id": "CENSUS-GAP-DHS-FULL-STRUCTURE",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "ORG-FED-EXE-DEP-DHS",
+      "dimension": "first_level_structure",
+      "gap_kind": "partial_reference_sample_not_complete",
+      "priority": "P0",
+      "next_research": "Reconcile the department's complete first-level org inventory, effective dates, component classes and oversight status against an independently source-pinned edition.",
+      "closure_condition": "Complete source-bounded denominator plus traced identity and organizational links; legal class reviewed.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    },
+    {
+      "id": "CENSUS-GAP-EDUCATION-FULL-STRUCTURE",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "dimension": "first_level_structure",
+      "gap_kind": "partial_reference_sample_not_complete",
+      "priority": "P0",
+      "next_research": "Reconcile the department's complete first-level org inventory, effective dates, component classes and oversight status against an independently source-pinned edition.",
+      "closure_condition": "Complete source-bounded denominator plus traced identity and organizational links; legal class reviewed.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    },
+    {
+      "id": "CENSUS-GAP-OTHER-12-DEPTS",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "BR-FED-EXE",
+      "dimension": "cabinet_component_coverage",
+      "gap_kind": "twelve_departments_have_no_component_registry",
+      "priority": "P1",
+      "next_research": "Inventory first-level components for remaining 12 departments using Government Manual, department directory, and enabling law.",
+      "closure_condition": "Identity and verified structural sources for every discovered first-level component within a stated dated census.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    },
+    {
+      "id": "CENSUS-GAP-CONGRESS-PROCEDURE",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "BR-FED-LEG",
+      "dimension": "legislative_substructure_and_authority",
+      "gap_kind": "committees_rules_and_oversight_not_fully_modeled",
+      "priority": "P1",
+      "next_research": "House and Senate committees and support organs; chamber rules distinct from constitutional powers.",
+      "closure_condition": "Official session-linked rules and committee rosters with typed jurisdiction, not parent-only command.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    },
+    {
+      "id": "CENSUS-GAP-EOP",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "BR-FED-EXE",
+      "dimension": "executive_leadership_and_eop",
+      "gap_kind": "selected_eop_components_only",
+      "priority": "P1",
+      "next_research": "Reconcile remaining EOP offices and classified statutory status, historical changes.",
+      "closure_condition": "Published full EOP first-level roster and independent official source refs.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    },
+    {
+      "id": "CENSUS-GAP-INDEPENDENT",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "BR-FED-EXE",
+      "dimension": "independent_federal_bodies",
+      "gap_kind": "selected_18_not_official_denominator",
+      "priority": "P1",
+      "next_research": "Enumerate independent agencies, commissions, establishments, and corporations; verify individual statutory classification.",
+      "closure_condition": "Every model entity classified using its actual controlling statute; Government Manual comparison complete.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    },
+    {
+      "id": "CENSUS-GAP-JUDICIARY",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "BR-FED-JUD",
+      "dimension": "court_identity_and_jurisdiction",
+      "gap_kind": "court_groups_are_aggregate_only",
+      "priority": "P1",
+      "next_research": "Federal circuit/district specialty court and Article I tribunal identities with their jurisdiction sources.",
+      "closure_condition": "Enumerated legal court roster and accurate Article I/III jurisdiction classifications.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    },
+    {
+      "id": "CENSUS-GAP-FUNDING",
+      "type": "federal_coverage_gap",
+      "parent_institution_id": "BR-FED-EXE",
+      "dimension": "appropriation_and_program_authority",
+      "gap_kind": "not_part_of_structure_census",
+      "priority": "P2",
+      "next_research": "Separate legal/fiscal model; avoid inferring federal appropriations from org existence.",
+      "closure_condition": "Verified fiscal account and appropriation for selected researched program.",
+      "denominator": "unknown",
+      "review_status": "open_research_gap"
+    }
+  ]
+}
