@@ -1,0 +1,6 @@
+{
+  "scope_id": "SCOPE-CONST-AMD-01",
+  "max_hops": 4,
+  "max_nodes": 2500,
+  "max_edges": 10000
+}
