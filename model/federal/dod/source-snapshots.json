@@ -55,12 +55,12 @@
     {
       "id": "DOD-SNAPSHOT-FY26-PB",
       "type": "fiscal_proposal_snapshot",
-      "as_of": "2025-06-01",
+      "as_of": "2026-10-16",
       "published_on": null,
       "source_ids": [
         "DOD-SRC-FY26-DEFENSE-WIDE"
       ],
-      "scope": "FY2026 budget request proposals and fiscal program categories, not enacted appropriations",
+      "scope": "FY2026 defense-wide budget justification page observed 2026-10-16; publication date not independently pinned",
       "completeness": "selected_request_categories_only",
       "immutable_publication_ref": null
     }
