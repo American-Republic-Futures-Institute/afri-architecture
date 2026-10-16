@@ -9,8 +9,7 @@
       "department_id": "ORG-FED-EXE-DEP-DEFENSE",
       "kind": "component_or_staff_organization",
       "source_ids": [
-        "CENSUS-SRC-DOD-111",
-        "DOD-SRC-10-111"
+        "CENSUS-SRC-DOD-111"
       ],
       "legal_locator": "10 U.S.C. §111(b)(1)",
       "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
