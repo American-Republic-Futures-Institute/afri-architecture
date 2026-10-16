@@ -311,10 +311,12 @@ export function validateDod(manifest,files){
  check(gaps.some(x=>x.id===required),"incomplete DoD coverage must disclose "+required);
  const congressEntity=files["model/federal/legislative.json"].items.find(x=>x.id==="ORG-FED-LEG-CONGRESS");
  check(congressEntity?.branch_id==="BR-FED-LEG","congress reporting recipient must be the real canonical legislative institution");
+ const presidentEntity=files["model/federal/executive-leadership.json"].items.find(x=>x.id==="ORG-FED-EXE-PRESIDENT");
+ check(presidentEntity?.branch_id==="BR-FED-EXE","Commander-in-Chief actor must preserve original canonical President identity");
  const department=files["model/federal/executive-departments.json"].items.find(x=>x.id===ext.department_id);
  check(department?.kind==="executive_department"&&department.branch_id==="BR-FED-EXE",
   "missing unchanged canonical DoD department");
- return {manifest,extension:ext,data,sources,department,congressEntity,constitutionalIndex,components:compMap,dafas:daMap,roles,commands:cmds,
+ return {manifest,extension:ext,data,sources,department,congressEntity,presidentEntity,constitutionalIndex,components:compMap,dafas:daMap,roles,commands:cmds,
   services,conditions,provisions:prov,powers,relationships:relations,congressional:congress,fiscal,
   views,gaps,checks:{
    statute_composition:composition.length,defense_agencies:agen.length,field_activities:fields.length,
@@ -348,7 +350,9 @@ export function projectDodView(data,viewId){
   check(!relIds.has(id),"duplicate projected authority, oversight or financial edge "+id);
   relIds.add(id);
   edges.push({id,from_id,to_id,relationship_type,source_ids,legal_authority_proven:false,
-   derived_from_canonical_record:true,qualification:qualification||"Research-only relation; this edge creates no new legal power."});
+   derived_from_canonical_record:true,
+   operational_command_established:relationship_type==="conditional_statutory_combatant_command_chain",
+   qualification:qualification||"Research-only relation; this edge creates no new legal power."});
  };
  const original=data.relationships;
  if(v.id==="VIEW-DOD-COMPOSITION"||v.id==="VIEW-DOD-SERVICES"){
@@ -372,19 +376,9 @@ export function projectDodView(data,viewId){
   for(const x of data.data.conditions)push(x);
   for(const x of data.data["statutory-provisions"])push(x);
   for(const x of data.data["authority-traces"])push(x);
-  push(data.congressEntity); // source referenced; no inferred legislative delegation
-  push(data.department);
-  push(data.data.offices.find(x=>x.id==="DOD-ROLE-SECDEF"));
-  push(data.data.offices.find(x=>x.id==="DOD-CCMD-ROLE"));
+  push(data.presidentEntity);
   for(const x of data.data.powers){
-   if(!nodes.has(x.authorized_actor_id)){
-    if(x.authorized_actor_id==="ORG-FED-EXE-PRESIDENT"){
-     const president={id:"ORG-FED-EXE-PRESIDENT",name:"President of the United States",
-      source_ids:data.data["constitutional-context"].filter(z=>z.competent_actor_id==="ORG-FED-EXE-PRESIDENT")
-       .flatMap(z=>z.source_ids),type:"constitutional_office"};
-     push(president);
-    }else check(false,"power assigned to a missing statutory role "+x.id);
-   }
+   check(nodes.has(x.authorized_actor_id),"power assigned to a missing canonical statutory role "+x.id);
    emit(x.authorized_actor_id,x.id,"bounded_statutory_role_authority",x.source_ids,
      "Limited to a text-indexed actor/function; legal advice and individual delegated authority remain unverified.");
    const p=data.provisions.get(x.provision_id);
