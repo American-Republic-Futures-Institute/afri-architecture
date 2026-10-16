@@ -4,7 +4,7 @@
     {
       "id": "DOD-CONG-LINK-01",
       "type": "congressional_authority_or_reporting_crosswalk",
-      "provision_id": "DOD-PROV-10-113-B",
+      "provision_id": "DOD-PROV-10-113-C",
       "actor_id": "DOD-ROLE-SECDEF",
       "report_type": "report_to_congress_annual_expenditures",
       "recipient_committee_ids": [

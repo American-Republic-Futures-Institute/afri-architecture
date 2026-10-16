@@ -459,6 +459,23 @@
       "external_citator_review_complete": false,
       "is_current_authoritative_interpretation": false,
       "review_status": "official_citation_proposition_not_exhaustive_case_law_review"
+    },
+    {
+      "id": "DOD-PROV-10-113-C",
+      "type": "dod_official_statutory_provision",
+      "title": "Secretary annual report to President and Congress",
+      "code_title": 10,
+      "section_locator": "10 U.S.C. § 113(c)",
+      "section": "113",
+      "legal_function_class": "annual_congressional_reporting",
+      "summary": "Secretary reports expenditures, work and accomplishments annually, with military department reports and other matters as set out in subsection (c).",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "legal_edition": "through_Pub_L_119-120_2026-10-07",
+      "external_citator_review_complete": false,
+      "is_current_authoritative_interpretation": false,
+      "review_status": "official_citation_proposition_not_exhaustive_case_law_review"
     }
   ]
 }

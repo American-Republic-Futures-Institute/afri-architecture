@@ -437,14 +437,14 @@
     "legal_citator_review_complete": false,
     "website_rendering_status": "not_implemented",
     "policy_mapping_status": "not_implemented",
-    "legal_provision_records": 27,
+    "legal_provision_records": 28,
     "authority_record_count": 12,
     "statutory_conditions": 14,
     "typed_relationships": 106,
     "congressional_committee_citations": 4,
     "congressional_reporting_crosswalks": 4,
     "fy2026_budget_proposal_categories": 4,
-    "scoped_authority_traces": 6,
+    "scoped_authority_traces": 9,
     "declarative_views": 7,
     "review_gaps": 11
   }

@@ -107,27 +107,89 @@
       "judicial_interpretation_completed": false
     },
     {
-      "id": "DOD-TRACE-MILITARY-DEPARTMENTS",
+      "id": "DOD-TRACE-OVERSIGHT",
+      "type": "dod_source_authority_chain",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "actor_id": "DOD-ROLE-DOD-IG",
+      "power_ids": [
+        "DOD-POWER-DOD-IG-OVERSIGHT"
+      ],
+      "condition_ids": [],
+      "capability_ids": [
+        "DOD-CAP-INSPECTOR"
+      ],
+      "legal_provision_ids": [
+        "DOD-PROV-10-141"
+      ],
+      "source_ids": [
+        "DOD-SRC-10-141"
+      ],
+      "status": "selected_statutory_scope_not_complete_operational_authorization",
+      "full_department_authority_mapped": false,
+      "fy2026_spending_power_verified": false,
+      "role_to_individual_delegation_verified": false,
+      "judicial_interpretation_completed": false
+    },
+    {
+      "id": "DOD-TRACE-MILDEPT-ARMY",
       "type": "dod_source_authority_chain",
       "department_id": "ORG-FED-EXE-DEP-DEFENSE",
       "actor_id": "DOD-ROLE-SEC-ARMY",
       "power_ids": [
-        "DOD-POWER-SEC-ARMY-MANAGE",
-        "DOD-POWER-SEC-NAVY-MANAGE",
-        "DOD-POWER-SEC-AIR-MANAGE"
+        "DOD-POWER-SEC-ARMY-MANAGE"
       ],
       "condition_ids": [],
       "capability_ids": [
         "DOD-CAP-MILITARY-SECRETARIES"
       ],
       "legal_provision_ids": [
-        "DOD-PROV-10-7013",
-        "DOD-PROV-10-8013",
+        "DOD-PROV-10-7013"
+      ],
+      "source_ids": [
+        "DOD-SRC-10-7013"
+      ],
+      "status": "selected_statutory_scope_not_complete_operational_authorization",
+      "full_department_authority_mapped": false,
+      "fy2026_spending_power_verified": false,
+      "role_to_individual_delegation_verified": false,
+      "judicial_interpretation_completed": false
+    },
+    {
+      "id": "DOD-TRACE-MILDEPT-NAVY",
+      "type": "dod_source_authority_chain",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "actor_id": "DOD-ROLE-SEC-NAVY",
+      "power_ids": [
+        "DOD-POWER-SEC-NAVY-MANAGE"
+      ],
+      "condition_ids": [],
+      "capability_ids": [],
+      "legal_provision_ids": [
+        "DOD-PROV-10-8013"
+      ],
+      "source_ids": [
+        "DOD-SRC-10-8013"
+      ],
+      "status": "selected_statutory_scope_not_complete_operational_authorization",
+      "full_department_authority_mapped": false,
+      "fy2026_spending_power_verified": false,
+      "role_to_individual_delegation_verified": false,
+      "judicial_interpretation_completed": false
+    },
+    {
+      "id": "DOD-TRACE-MILDEPT-AIR",
+      "type": "dod_source_authority_chain",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "actor_id": "DOD-ROLE-SEC-AIR",
+      "power_ids": [
+        "DOD-POWER-SEC-AIR-MANAGE"
+      ],
+      "condition_ids": [],
+      "capability_ids": [],
+      "legal_provision_ids": [
         "DOD-PROV-10-9013"
       ],
       "source_ids": [
-        "DOD-SRC-10-7013",
-        "DOD-SRC-10-8013",
         "DOD-SRC-10-9013"
       ],
       "status": "selected_statutory_scope_not_complete_operational_authorization",
@@ -137,24 +199,22 @@
       "judicial_interpretation_completed": false
     },
     {
-      "id": "DOD-TRACE-OVERSIGHT",
+      "id": "DOD-TRACE-CSA-REPORTING",
       "type": "dod_source_authority_chain",
       "department_id": "ORG-FED-EXE-DEP-DEFENSE",
-      "actor_id": "DOD-ROLE-DOD-IG",
+      "actor_id": "DOD-ROLE-CHAIRMAN",
       "power_ids": [
-        "DOD-POWER-DOD-IG-OVERSIGHT"
+        "DOD-POWER-CHAIRMAN-CSA-REPORT"
       ],
       "condition_ids": [
         "DOD-COND-CSA-READINESS-REPORT"
       ],
-      "capability_ids": [
-        "DOD-CAP-INSPECTOR"
-      ],
+      "capability_ids": [],
       "legal_provision_ids": [
-        "DOD-PROV-10-141"
+        "DOD-PROV-10-193-A"
       ],
       "source_ids": [
-        "DOD-SRC-10-141"
+        "DOD-SRC-10-193"
       ],
       "status": "selected_statutory_scope_not_complete_operational_authorization",
       "full_department_authority_mapped": false,
