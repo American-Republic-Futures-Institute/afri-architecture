@@ -125,3 +125,7 @@ The tests include negative mutation cases for inventing constitutional clauses, 
 3. Model **State institutions**, distinct from the federal institution registry, without treating State agencies as federal subordinates.
 4. Model **specific federal and State statutory authorities** and delegation chains. Congressional grants, State duties and federal executive implementation must be legally sourced.
 5. Link legally admissible authority chains and uncertainty to proposed ARFI reforms, measured outcomes, public evidence and moderated public review.
+
+## From abstract State actors to independently sourced State institutions
+
+The follow-up State institutional architecture now gives Virginia and Nebraska their own constitutional legal texts, three State branches each, real legislative configurations and conditional rights/authority boundaries. It keeps the existing `ACT-US-STATES`, `ACT-US-STATE-LEG`, `ACT-US-STATE-EXE` and `ACT-US-STATE-JUDGES` as **U.S. constitutional actor classes**, rather than pretending they identify a specific State's government. The cross-jurisdiction entries in `model/state/federalism-links.json` refer to the original U.S. Constitution, Amendments X/XIV, and Article VI without conferring federal administrative command or State statutory delegation. D.C. remains a non-State comparator. [Detailed State boundaries and source model](STATE-INSTITUTIONAL-ARCHITECTURE.md).

@@ -1,0 +1,51 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "CONST-STATE-VA",
+      "type": "state_constitution",
+      "jurisdiction_id": "JUR-US-VA",
+      "name": "Constitution of Virginia",
+      "current_source_status": "official_published_consolidated_text",
+      "article_scope_covered": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI",
+        "VII"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I",
+        "SRC-STATE-VA-CONST-II",
+        "SRC-STATE-VA-CONST-III",
+        "SRC-STATE-VA-CONST-IV",
+        "SRC-STATE-VA-CONST-V",
+        "SRC-STATE-VA-CONST-VI",
+        "SRC-STATE-VA-CONST-VII"
+      ],
+      "review_status": "selected_sections_source_located_not_comprehensive_legal_codification"
+    },
+    {
+      "id": "CONST-STATE-NE",
+      "type": "state_constitution",
+      "jurisdiction_id": "JUR-US-NE",
+      "name": "Constitution of Nebraska",
+      "current_source_status": "official_published_consolidated_text",
+      "article_scope_covered": [
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-II",
+        "SRC-STATE-NE-CONST-III",
+        "SRC-STATE-NE-CONST-IV",
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "review_status": "selected_sections_source_located_not_comprehensive_legal_codification"
+    }
+  ]
+}

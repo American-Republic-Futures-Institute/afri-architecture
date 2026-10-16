@@ -1,0 +1,370 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "ORG-STATE-VA-LEG-GENERAL-ASSEMBLY",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-LEG",
+      "parent_id": "BR-STATE-VA-LEG",
+      "name": "Virginia General Assembly",
+      "kind": "legislature",
+      "mission": "State bicameral lawmaking legislature of the Commonwealth.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-IV-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-LEG-SENATE",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-LEG",
+      "parent_id": "ORG-STATE-VA-LEG-GENERAL-ASSEMBLY",
+      "name": "Senate of Virginia",
+      "kind": "legislative_chamber",
+      "mission": "One of two constitutionally specified chambers of the General Assembly.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-IV-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-LEG-HOUSE",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-LEG",
+      "parent_id": "ORG-STATE-VA-LEG-GENERAL-ASSEMBLY",
+      "name": "Virginia House of Delegates",
+      "kind": "legislative_chamber",
+      "mission": "The other separately constituted chamber of the General Assembly.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-IV-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-EXE-GOVERNOR",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-EXE",
+      "parent_id": "BR-STATE-VA-EXE",
+      "name": "Governor of Virginia",
+      "kind": "elected_constitutional_office",
+      "mission": "Holder of the Commonwealth's constitutional chief executive powers subject to State and federal constraints.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-V-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-EXE-LIEUTENANT-GOVERNOR",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-EXE",
+      "parent_id": "BR-STATE-VA-EXE",
+      "name": "Lieutenant Governor of Virginia",
+      "kind": "elected_constitutional_office",
+      "mission": "Separately elected officer who presides over the Virginia Senate and has specified succession functions.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-V-SEC-14"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-EXE-ATTORNEY-GENERAL",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-EXE",
+      "parent_id": "BR-STATE-VA-EXE",
+      "name": "Attorney General of Virginia",
+      "kind": "elected_constitutional_office",
+      "mission": "Constitutionally elected State legal officer; individual law-enforcement duties require separately identified State law.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-V-SEC-15"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-JUD-SUPREME-COURT",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-JUD",
+      "parent_id": "BR-STATE-VA-JUD",
+      "name": "Supreme Court of Virginia",
+      "kind": "state_supreme_court",
+      "mission": "Constitutional Supreme Court with State-specific original and appellate jurisdiction.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-VI-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VI"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-JUD-COURT-APPEALS",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-JUD",
+      "parent_id": "BR-STATE-VA-JUD",
+      "name": "Court of Appeals of Virginia",
+      "kind": "statutorily_implemented_court",
+      "mission": "State appellate court identified by Virginia judiciary; individual appellate grants and procedural statutes not inventoried.",
+      "institutional_basis": "judiciary_description_requires_statutory_enabling_chain",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-VI-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VI",
+        "SRC-STATE-VA-COURTS"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-JUD-CIRCUIT-COURTS",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-JUD",
+      "parent_id": "BR-STATE-VA-JUD",
+      "name": "Virginia circuit courts",
+      "kind": "state_court_aggregate",
+      "mission": "Judiciary-described circuit court grouping; not a single all-purpose tribunal.",
+      "institutional_basis": "judiciary_description_requires_statutory_enabling_chain",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-VI-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VI",
+        "SRC-STATE-VA-COURTS"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-JUD-GENERAL-DISTRICT",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-JUD",
+      "parent_id": "BR-STATE-VA-JUD",
+      "name": "Virginia general district courts",
+      "kind": "state_court_aggregate",
+      "mission": "Judiciary-described district court class; constitutional authorization of subordinate courts not a substitute for statutes.",
+      "institutional_basis": "judiciary_description_requires_statutory_enabling_chain",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-VI-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VI",
+        "SRC-STATE-VA-COURTS"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-JUD-JUVENILE-DOMESTIC",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": "BR-STATE-VA-JUD",
+      "parent_id": "BR-STATE-VA-JUD",
+      "name": "Virginia juvenile and domestic relations district courts",
+      "kind": "state_court_aggregate",
+      "mission": "Judiciary-described juvenile and family court class; not structurally a federal court.",
+      "institutional_basis": "judiciary_description_requires_statutory_enabling_chain",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-VI-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VI",
+        "SRC-STATE-VA-COURTS"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-SPECIAL-REDISTRICTING-COMMISSION",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": null,
+      "parent_id": "JUR-US-VA",
+      "name": "Virginia Redistricting Commission",
+      "kind": "independent_state_constitutional_commission",
+      "mission": "Separate State constitutional commission with legislative/citizen membership and constrained district-plan submission.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-II-SEC-6-A"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-VA-SPECIAL-LOCAL-GOVERNMENT-CLASSES",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-VA",
+      "branch_id": null,
+      "parent_id": "JUR-US-VA",
+      "name": "Virginia county, independent-city, town and regional governments",
+      "kind": "local_government_type_aggregate",
+      "mission": "Analytical group of Virginia local government classes, not one organization and not a federal agency.",
+      "institutional_basis": "state_local_government_framework_not_single_agency",
+      "source_provision_ids": [
+        "STATE-PROV-VA-ART-VII-SEC-2"
+      ],
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VII"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-NE-LEG-LEGISLATURE",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-NE",
+      "branch_id": "BR-STATE-NE-LEG",
+      "parent_id": "BR-STATE-NE-LEG",
+      "name": "Nebraska Legislature",
+      "kind": "unicameral_legislature",
+      "mission": "Single constitutional legislative chamber, with initiative/referendum rights separately reserved to the people.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-III-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-NE-EXE-GOVERNOR",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-NE",
+      "branch_id": "BR-STATE-NE-EXE",
+      "parent_id": "BR-STATE-NE-EXE",
+      "name": "Governor of Nebraska",
+      "kind": "elected_constitutional_office",
+      "mission": "Constitutionally named State executive; terms and department appointments are State-law specific.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-IV-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-IV"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-NE-JUD-SUPREME-COURT",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-NE",
+      "branch_id": "BR-STATE-NE-JUD",
+      "parent_id": "BR-STATE-NE-JUD",
+      "name": "Nebraska Supreme Court",
+      "kind": "state_supreme_court",
+      "mission": "State Supreme Court vested with judicial and lawful statewide court administration.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-V-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-NE-JUD-APPELLATE",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-NE",
+      "branch_id": "BR-STATE-NE-JUD",
+      "parent_id": "BR-STATE-NE-JUD",
+      "name": "Nebraska appellate court",
+      "kind": "state_constitutional_court",
+      "mission": "State appellate court expressly listed by Nebraska constitutional judicial vesting.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-V-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-NE-JUD-DISTRICT-COURTS",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-NE",
+      "branch_id": "BR-STATE-NE-JUD",
+      "parent_id": "BR-STATE-NE-JUD",
+      "name": "Nebraska district courts",
+      "kind": "state_court_aggregate",
+      "mission": "State district court class identified in Nebraska constitutional text.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-V-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    },
+    {
+      "id": "ORG-STATE-NE-JUD-COUNTY-COURTS",
+      "type": "state_institution_or_local_class",
+      "jurisdiction_id": "JUR-US-NE",
+      "branch_id": "BR-STATE-NE-JUD",
+      "parent_id": "BR-STATE-NE-JUD",
+      "name": "Nebraska county courts",
+      "kind": "state_court_aggregate",
+      "mission": "State county court class identified in Nebraska constitutional text.",
+      "institutional_basis": "express_state_constitutional_text",
+      "source_provision_ids": [
+        "STATE-PROV-NE-ART-V-SEC-1"
+      ],
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "status": "source_linked_state_model_pending_review",
+      "statutory_delegation_claim": "none_until_enabling_statute_linked"
+    }
+  ]
+}

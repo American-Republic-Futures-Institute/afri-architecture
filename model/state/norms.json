@@ -1,0 +1,341 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "NORM-STATE-VA-ART-I-SEC-11-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-I-SEC-11",
+      "norm_kind": "state_right",
+      "name": "State due process and anti-discrimination boundaries",
+      "summary": "State actors are constrained by State due process and State constitutional anti-discrimination rights.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-I-SEC-15-A-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-I-SEC-15-A",
+      "norm_kind": "historic_conflict",
+      "name": "Published State marriage exclusion is not a current operational power",
+      "summary": "State original text must be read with independent Fourteenth Amendment and published Supreme Court interpretation; do not assign enforcement.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I"
+      ],
+      "legal_effect_status": "federal_precedent_conflict_no_enforcement_authority",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-II-SEC-4-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-II-SEC-4",
+      "norm_kind": "state_power",
+      "name": "State election administration under constitutional limits",
+      "summary": "General Assembly may prescribe State election administration through law and within applicable superior law.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-II-SEC-6-A-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-II-SEC-6-A",
+      "norm_kind": "state_procedure",
+      "name": "Redistricting Commission proposal and General Assembly action",
+      "summary": "Defined Commission proposal and legislative voting stages, not Governor-controlled redistricting administration.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-II-SEC-6-A-02",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-II-SEC-6-A",
+      "norm_kind": "state_procedure",
+      "name": "Conditional Supreme Court district fallback",
+      "summary": "Only upon specified missed submission or legislative adoption procedures may the State Supreme Court establish districts.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-III-SEC-1-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-III-SEC-1",
+      "norm_kind": "state_limit",
+      "name": "Separation of Virginia governmental departments",
+      "summary": "Legislative executive and judicial departments are constitutionally distinct; administrative exceptions are conditional.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-III"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-IV-SEC-1-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-IV-SEC-1",
+      "norm_kind": "state_power",
+      "name": "Bicameral legislative vesting",
+      "summary": "State legislative power in General Assembly's Senate and House of Delegates.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-IV-SEC-11-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-IV-SEC-11",
+      "norm_kind": "state_procedure",
+      "name": "State legislation requires constitutional enactment procedure",
+      "summary": "Follow State enactment and Governor presentation/veto procedures subject to the published text.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-IV"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-V-SEC-1-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-V-SEC-1",
+      "norm_kind": "state_power",
+      "name": "Governor vested with chief executive power",
+      "summary": "Virginia chief executive office has State constitutional vesting distinct from federal Article II.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-V-SEC-1-02",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-V-SEC-1",
+      "norm_kind": "state_limit",
+      "name": "Governor prohibited from consecutive elected term",
+      "summary": "Immediate successive Governor term is constitutionally restricted; not a perpetual lifetime ineligibility.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-V-SEC-9-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-V-SEC-9",
+      "norm_kind": "statutory_boundary",
+      "name": "Agency administrative authority requires law",
+      "summary": "Administrative duties are prescribed by State law; the architecture does not infer specific statutory agency delegations.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-V-SEC-14-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-V-SEC-14",
+      "norm_kind": "state_procedure",
+      "name": "Lieutenant Governor presides and tie votes in Senate",
+      "summary": "The separately elected executive officer presides over Senate and votes only in a tie under State law.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-V-SEC-15-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-V-SEC-15",
+      "norm_kind": "statutory_boundary",
+      "name": "Attorney General elected but powers separately prescribed by law",
+      "summary": "Constitutional election and eligibility do not themselves enumerate every modern Attorney General power.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-V-SEC-16-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-V-SEC-16",
+      "norm_kind": "state_procedure",
+      "name": "Governor inability and succession are State-specific",
+      "summary": "Succession and acting status follow State constitutional procedures, not federal Twenty-Fifth Amendment procedures.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-V"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-VI-SEC-1-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-VI-SEC-1",
+      "norm_kind": "state_power",
+      "name": "Judicial power vested in State courts",
+      "summary": "State Supreme Court and subordinate courts exercise distinct State judicial power under constitutional and legal limits.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VI"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-VII-SEC-2-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-VII-SEC-2",
+      "norm_kind": "statutory_boundary",
+      "name": "Local government organization and powers require State law",
+      "summary": "County, city, town, regional government authority depends on Virginia constitutional and enabling-law framework.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VII"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-VA-ART-VII-SEC-5-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-VA",
+      "provision_id": "STATE-PROV-VA-ART-VII-SEC-5",
+      "norm_kind": "state_procedure",
+      "name": "Local governing body electoral representation",
+      "summary": "State local governing bodies must be elected under State and federal legal limits.",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-VII"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-NE-ART-II-SEC-1-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-NE",
+      "provision_id": "STATE-PROV-NE-ART-II-SEC-1",
+      "norm_kind": "state_limit",
+      "name": "Three State government departments are distinct",
+      "summary": "Nebraska separation of powers is defined by its own Constitution.",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-II"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-NE-ART-II-SEC-1-02",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-NE",
+      "provision_id": "STATE-PROV-NE-ART-II-SEC-1",
+      "norm_kind": "state_procedure",
+      "name": "Narrow supervision administration exception",
+      "summary": "Probation, parole, and specified court programs may involve judicial or executive administration as provided by Legislature.",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-II"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-NE-ART-III-SEC-1-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-NE",
+      "provision_id": "STATE-PROV-NE-ART-III-SEC-1",
+      "norm_kind": "state_power",
+      "name": "Single-chamber legislative vesting",
+      "summary": "Nebraska Legislature consists of one chamber, not an assumed House and Senate.",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-NE-ART-III-SEC-1-02",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-NE",
+      "provision_id": "STATE-PROV-NE-ART-III-SEC-1",
+      "norm_kind": "reserved_democratic_power",
+      "name": "People independently reserve initiative and referendum",
+      "summary": "Nebraska people reserve constitutionally defined direct legislative initiative and referendum powers.",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-NE-ART-IV-SEC-1-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-NE",
+      "provision_id": "STATE-PROV-NE-ART-IV-SEC-1",
+      "norm_kind": "state_power",
+      "name": "State elected executive offices and appointments",
+      "summary": "Nebraska executive structure includes named constitutional offices and legislatively prescribed departmental appointment rules.",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-IV"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-NE-ART-V-SEC-1-01",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-NE",
+      "provision_id": "STATE-PROV-NE-ART-V-SEC-1",
+      "norm_kind": "state_power",
+      "name": "Judicial vesting in enumerated State courts",
+      "summary": "Nebraska judicial power is in its listed State courts and such courts as lawful creation permits.",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    },
+    {
+      "id": "NORM-STATE-NE-ART-V-SEC-1-02",
+      "type": "state_constitutional_norm",
+      "jurisdiction_id": "JUR-US-NE",
+      "provision_id": "STATE-PROV-NE-ART-V-SEC-1",
+      "norm_kind": "state_procedure",
+      "name": "State Supreme Court judicial administration",
+      "summary": "Chief Justice exercises administrative authority under Supreme Court rules and State constitutional/statutory limits.",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-V"
+      ],
+      "legal_effect_status": "textual_research_scope_not_certified",
+      "review_status": "state_textual_summary_pending_human_legal_review"
+    }
+  ]
+}

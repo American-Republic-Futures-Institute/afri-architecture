@@ -1,0 +1,1089 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/state-institutional.schema.json",
+  "title": "ARFI-COA State Institutional and Federalism Extension v0.1.0",
+  "description": "Portable data collection schemas for 50 State IDs, source-linked VA and Nebraska pilot institutional architecture, cross-federal legal boundaries and a segregated D.C. federal-district comparator. Semantic validation lives in scripts/validate-state.mjs.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/jurisdictionsCollection"
+    },
+    {
+      "$ref": "#/$defs/nonstate-comparatorsCollection"
+    },
+    {
+      "$ref": "#/$defs/sourcesCollection"
+    },
+    {
+      "$ref": "#/$defs/constitutionsCollection"
+    },
+    {
+      "$ref": "#/$defs/provisionsCollection"
+    },
+    {
+      "$ref": "#/$defs/normsCollection"
+    },
+    {
+      "$ref": "#/$defs/actorsCollection"
+    },
+    {
+      "$ref": "#/$defs/branchesCollection"
+    },
+    {
+      "$ref": "#/$defs/institutionsCollection"
+    },
+    {
+      "$ref": "#/$defs/relationshipsCollection"
+    },
+    {
+      "$ref": "#/$defs/federalism-linksCollection"
+    },
+    {
+      "$ref": "#/$defs/judicial-linksCollection"
+    },
+    {
+      "$ref": "#/$defs/viewpointsCollection"
+    }
+  ],
+  "$defs": {
+    "jurisdictions": {
+      "type": "object",
+      "title": "ARFI State jurisdictions item",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "usps_code",
+        "fips_state_code",
+        "sovereign_classification",
+        "state_constitution_id",
+        "institutional_coverage",
+        "external_nonstate_comparator_ids",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JUR-US-[A-Z]{2}$"
+        },
+        "type": {
+          "type": "string",
+          "const": "us_member_state_jurisdiction"
+        },
+        "name": {
+          "type": "string"
+        },
+        "usps_code": {
+          "type": "string"
+        },
+        "fips_state_code": {
+          "type": "string",
+          "pattern": "^[0-9]{2}$"
+        },
+        "sovereign_classification": {
+          "type": "string"
+        },
+        "state_constitution_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "institutional_coverage": {
+          "type": "string"
+        },
+        "external_nonstate_comparator_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "nonstate-comparators": {
+      "type": "object",
+      "title": "ARFI State nonstate-comparators item",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "usps_code",
+        "fips_state_code",
+        "is_member_state",
+        "constitutional_status",
+        "institutional_coverage",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JUR-US-DC-NONSTATE$"
+        },
+        "type": {
+          "type": "string",
+          "const": "nonstate_federal_district_reference"
+        },
+        "name": {
+          "type": "string"
+        },
+        "usps_code": {
+          "type": "string"
+        },
+        "fips_state_code": {
+          "type": "string",
+          "pattern": "^[0-9]{2}$"
+        },
+        "is_member_state": {
+          "type": "boolean"
+        },
+        "constitutional_status": {
+          "type": "string"
+        },
+        "institutional_coverage": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "object",
+      "title": "ARFI State sources item",
+      "required": [
+        "id",
+        "type",
+        "title",
+        "publisher",
+        "url",
+        "kind",
+        "scope",
+        "accessed_on",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^SRC-STATE-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_architecture_source"
+        },
+        "title": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "accessed_on": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "constitutions": {
+      "type": "object",
+      "title": "ARFI State constitutions item",
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "name",
+        "current_source_status",
+        "article_scope_covered",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^CONST-STATE-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_constitution"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "current_source_status": {
+          "type": "string"
+        },
+        "article_scope_covered": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "provisions": {
+      "type": "object",
+      "title": "ARFI State provisions item",
+      "required": [
+        "id",
+        "type",
+        "constitution_id",
+        "jurisdiction_id",
+        "article_number",
+        "section_number",
+        "name",
+        "citation",
+        "summary",
+        "source_scope_kind",
+        "source_ids",
+        "source_status",
+        "legal_effect_review_status",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^STATE-PROV-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_constitutional_provision"
+        },
+        "constitution_id": {
+          "type": "string"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "article_number": {
+          "type": "string"
+        },
+        "section_number": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "citation": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "source_scope_kind": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "source_status": {
+          "type": "string"
+        },
+        "legal_effect_review_status": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "norms": {
+      "type": "object",
+      "title": "ARFI State norms item",
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "provision_id",
+        "norm_kind",
+        "name",
+        "summary",
+        "source_ids",
+        "legal_effect_status",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^NORM-STATE-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_constitutional_norm"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "provision_id": {
+          "type": "string"
+        },
+        "norm_kind": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "legal_effect_status": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "actors": {
+      "type": "object",
+      "title": "ARFI State actors item",
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "name",
+        "role",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ACT-STATE-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_constitutional_actor_class"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "branches": {
+      "type": "object",
+      "title": "ARFI State branches item",
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "name",
+        "branch_kind",
+        "parent_id",
+        "source_provision_ids",
+        "source_ids",
+        "separation_status",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^BR-STATE-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_branch"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "branch_kind": {
+          "type": "string"
+        },
+        "parent_id": {
+          "type": "string"
+        },
+        "source_provision_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "separation_status": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "institutions": {
+      "type": "object",
+      "title": "ARFI State institutions item",
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "branch_id",
+        "parent_id",
+        "name",
+        "kind",
+        "mission",
+        "institutional_basis",
+        "source_provision_ids",
+        "source_ids",
+        "status",
+        "statutory_delegation_claim"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ORG-STATE-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_institution_or_local_class"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "branch_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "parent_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "mission": {
+          "type": "string"
+        },
+        "institutional_basis": {
+          "type": "string"
+        },
+        "source_provision_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "status": {
+          "type": "string"
+        },
+        "statutory_delegation_claim": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationships": {
+      "type": "object",
+      "title": "ARFI State relationships item",
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "from_id",
+        "to_norm_id",
+        "relationship_kind",
+        "source_provision_id",
+        "source_ids",
+        "relationship_classification",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^STATE-REL-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_institution_norm_relationship"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "from_id": {
+          "type": "string"
+        },
+        "to_norm_id": {
+          "type": "string"
+        },
+        "relationship_kind": {
+          "type": "string"
+        },
+        "source_provision_id": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "relationship_classification": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "federalism-links": {
+      "type": "object",
+      "title": "ARFI State federalism-links item",
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "subject_id",
+        "federal_provision_id",
+        "relationship_kind",
+        "legal_role_classification",
+        "statutory_delegation_claim",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^STATE-FED-LINK-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_federal_constitutional_crosswalk"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "federal_provision_id": {
+          "type": "string"
+        },
+        "relationship_kind": {
+          "type": "string"
+        },
+        "legal_role_classification": {
+          "type": "string"
+        },
+        "statutory_delegation_claim": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "judicial-links": {
+      "type": "object",
+      "title": "ARFI State judicial-links item",
+      "required": [
+        "id",
+        "type",
+        "jurisdiction_id",
+        "state_provision_id",
+        "federal_case_id",
+        "federal_holding_id",
+        "relationship_kind",
+        "status",
+        "never_operational_permission",
+        "source_ids",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^STATE-JUD-LINK-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_provision_judicial_interpretation_reference"
+        },
+        "jurisdiction_id": {
+          "type": "string"
+        },
+        "state_provision_id": {
+          "type": "string"
+        },
+        "federal_case_id": {
+          "type": "string"
+        },
+        "federal_holding_id": {
+          "type": "string"
+        },
+        "relationship_kind": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "never_operational_permission": {
+          "type": "boolean"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        },
+        "review_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "viewpoints": {
+      "type": "object",
+      "title": "ARFI State viewpoints item",
+      "required": [
+        "id",
+        "type",
+        "name",
+        "view_kind",
+        "root_ids",
+        "federal_constitutional_root_ids",
+        "publication_owner",
+        "review_status",
+        "legal_semantics",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^VIEW-STATE-"
+        },
+        "type": {
+          "type": "string",
+          "const": "state_institutional_viewpoint"
+        },
+        "name": {
+          "type": "string"
+        },
+        "view_kind": {
+          "type": "string"
+        },
+        "root_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "federal_constitutional_root_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        },
+        "publication_owner": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        },
+        "legal_semantics": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-STATE-"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "jurisdictionsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/jurisdictions"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "nonstate-comparatorsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/nonstate-comparators"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "sourcesCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sources"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "constitutionsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/constitutions"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "provisionsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/provisions"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "normsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/norms"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "actorsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/actors"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "branchesCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/branches"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "institutionsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/institutions"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "relationshipsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/relationships"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "federalism-linksCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/federalism-links"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "judicial-linksCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/judicial-links"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "viewpointsCollection": {
+      "type": "object",
+      "required": [
+        "model_version",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/viewpoints"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

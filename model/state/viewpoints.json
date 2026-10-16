@@ -1,0 +1,108 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-STATE-JURISDICTIONS",
+      "type": "state_institutional_viewpoint",
+      "name": "Fifty State jurisdictions and model coverage",
+      "view_kind": "fifty_state_register",
+      "root_ids": [],
+      "federal_constitutional_root_ids": [],
+      "publication_owner": "afri-website",
+      "review_status": "architecture_viewpoint_only_no_website_implementation",
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-CENSUS-CODES"
+      ]
+    },
+    {
+      "id": "VIEW-STATE-VA-INSTITUTIONS",
+      "type": "state_institutional_viewpoint",
+      "name": "Virginia independent State institutional architecture",
+      "view_kind": "state_institutional_hierarchy",
+      "root_ids": [
+        "JUR-US-VA"
+      ],
+      "federal_constitutional_root_ids": [],
+      "publication_owner": "afri-website",
+      "review_status": "architecture_viewpoint_only_no_website_implementation",
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-III"
+      ]
+    },
+    {
+      "id": "VIEW-STATE-NE-UNICAMERAL",
+      "type": "state_institutional_viewpoint",
+      "name": "Nebraska institutional and unicameral constitutional distinction",
+      "view_kind": "state_institutional_hierarchy",
+      "root_ids": [
+        "JUR-US-NE"
+      ],
+      "federal_constitutional_root_ids": [],
+      "publication_owner": "afri-website",
+      "review_status": "architecture_viewpoint_only_no_website_implementation",
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-NE-CONST-III"
+      ]
+    },
+    {
+      "id": "VIEW-STATE-FEDERALISM-BOUNDARY",
+      "type": "state_institutional_viewpoint",
+      "name": "State–Federal legal authority boundaries",
+      "view_kind": "constitutional_intergovernmental_crosswalk",
+      "root_ids": [
+        "JUR-US-VA",
+        "JUR-US-NE"
+      ],
+      "federal_constitutional_root_ids": [
+        "CONST-US-AMD-10",
+        "CONST-US-ART-06-CL-02",
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "publication_owner": "afri-website",
+      "review_status": "architecture_viewpoint_only_no_website_implementation",
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-NARA-FEDERALISM"
+      ]
+    },
+    {
+      "id": "VIEW-STATE-VA-REDISTRICTING",
+      "type": "state_institutional_viewpoint",
+      "name": "Virginia cross-branch redistricting authority chain",
+      "view_kind": "state_power_procedure",
+      "root_ids": [
+        "ORG-STATE-VA-SPECIAL-REDISTRICTING-COMMISSION",
+        "ORG-STATE-VA-LEG-GENERAL-ASSEMBLY",
+        "ORG-STATE-VA-JUD-SUPREME-COURT"
+      ],
+      "federal_constitutional_root_ids": [],
+      "publication_owner": "afri-website",
+      "review_status": "architecture_viewpoint_only_no_website_implementation",
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-II"
+      ]
+    },
+    {
+      "id": "VIEW-STATE-VA-FEDERAL-CASE-CONFLICT",
+      "type": "state_institutional_viewpoint",
+      "name": "State original text versus later federal case interpretation",
+      "view_kind": "state_judicial_precedent_overlay",
+      "root_ids": [
+        "JUR-US-VA"
+      ],
+      "federal_constitutional_root_ids": [
+        "CONST-US-AMD-14-SEC-01"
+      ],
+      "publication_owner": "afri-website",
+      "review_status": "architecture_viewpoint_only_no_website_implementation",
+      "legal_semantics": "informational_source_linked_not_enforceable_legal_advice",
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "STATE-JUD-LINK-VA-MARRIAGE-01",
+      "type": "state_provision_judicial_interpretation_reference",
+      "jurisdiction_id": "JUR-US-VA",
+      "state_provision_id": "STATE-PROV-VA-ART-I-SEC-15-A",
+      "federal_case_id": "CASE-US-SCOTUS-OBERGEFELL-2015",
+      "federal_holding_id": "HOLD-US-SCOTUS-OBERGEFELL-2015-01",
+      "relationship_kind": "federal_precedent_limits_state_constitutional_text_application",
+      "status": "published_conflict_research_not_citator_certified",
+      "never_operational_permission": true,
+      "source_ids": [
+        "SRC-STATE-VA-CONST-I",
+        "SRC-STATE-NARA-AMENDMENTS"
+      ],
+      "review_status": "holding_scope_and_current_treatment_pending_human_legal_review"
+    }
+  ]
+}

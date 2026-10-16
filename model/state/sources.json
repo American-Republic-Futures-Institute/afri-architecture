@@ -1,0 +1,192 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "SRC-STATE-CENSUS-CODES",
+      "type": "state_architecture_source",
+      "title": "Official ANSI and FIPS state and state-equivalent codes",
+      "publisher": "U.S. Census Bureau",
+      "url": "https://www.census.gov/library/reference/code-lists/ansi/ansi-codes-for-states.html",
+      "kind": "official_federal_geographic_identity",
+      "scope": "Postal/FIPS identities, 50 States separate from the District of Columbia",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-NARA-FEDERALISM",
+      "type": "state_architecture_source",
+      "title": "The Constitution: original federalism structure",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "kind": "primary_us_constitutional_text",
+      "scope": "Federal State relationships; not a source of individual State internal agencies",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-NARA-AMENDMENTS",
+      "type": "state_architecture_source",
+      "title": "The Constitution: Amendments XI–XXVII",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+      "kind": "primary_us_constitutional_text",
+      "scope": "Fourteenth Amendment State limits and other later federal constraints",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-NARA-TENTH",
+      "type": "state_architecture_source",
+      "title": "The Bill of Rights: a Transcription",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "kind": "primary_us_constitutional_text",
+      "scope": "Tenth Amendment reserved-power context, not enumerated State executive delegation",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-VA-CONST-I",
+      "type": "state_architecture_source",
+      "title": "Virginia Constitution — Article I, Bill of Rights",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/constitutionexpand/article1/",
+      "kind": "primary_state_constitutional_text",
+      "scope": "State rights, due process, published marriage-restriction text; legal effect subject to federal judicial constraints",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-VA-CONST-II",
+      "type": "state_architecture_source",
+      "title": "Virginia Constitution — Article II, Franchise and Officers",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/constitutionexpand/article2/",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Election administration and redistricting commission",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-VA-CONST-III",
+      "type": "state_architecture_source",
+      "title": "Virginia Constitution — Article III, Division of Powers",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/constitution/article3/section1/",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Express separation and limited administrative delegation",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-VA-CONST-IV",
+      "type": "state_architecture_source",
+      "title": "Virginia Constitution — Article IV, Legislature",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/constitutionexpand/article4/",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Bicameral General Assembly, legislative procedure",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-VA-CONST-V",
+      "type": "state_architecture_source",
+      "title": "Virginia Constitution — Article V, Executive",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/constitutionexpand/article5/",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Governor, lieutenant governor, attorney general and appointments framework",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-VA-CONST-VI",
+      "type": "state_architecture_source",
+      "title": "Virginia Constitution — Article VI, Judiciary",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/constitutionexpand/article6/",
+      "kind": "primary_state_constitutional_text",
+      "scope": "State Supreme Court and courts as established by law",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-VA-CONST-VII",
+      "type": "state_architecture_source",
+      "title": "Virginia Constitution — Article VII, Local Government",
+      "publisher": "Virginia Legislative Information System",
+      "url": "https://law.lis.virginia.gov/constitutionexpand/article7/",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Local institutional types and delegated powers under Virginia law",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-VA-COURTS",
+      "type": "state_architecture_source",
+      "title": "Virginia Court System — courts and administrative structure",
+      "publisher": "Judicial Branch of Virginia",
+      "url": "https://www.courts.state.va.us/",
+      "kind": "official_state_judiciary_operational_description",
+      "scope": "Supreme Court, Appeals Court, circuit courts, general district and juvenile/domestic relations districts; not itself enabling legislation",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-NE-CONST-II",
+      "type": "state_architecture_source",
+      "title": "Nebraska Constitution, Article II, Section 1",
+      "publisher": "Nebraska Legislature",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=II-1",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Three departments and limited joint supervision exception",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-NE-CONST-III",
+      "type": "state_architecture_source",
+      "title": "Nebraska Constitution, Article III, Section 1",
+      "publisher": "Nebraska Legislature",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=III-1",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Single legislative chamber and separately reserved initiative and referendum",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-NE-CONST-IV",
+      "type": "state_architecture_source",
+      "title": "Nebraska Constitution, Article IV, Section 1",
+      "publisher": "Nebraska Legislature",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=IV-1",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Governor and independently elected executive officers; appointment condition",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-NE-CONST-V",
+      "type": "state_architecture_source",
+      "title": "Nebraska Constitution, Article V, Section 1",
+      "publisher": "Nebraska Legislature",
+      "url": "https://nebraskalegislature.gov/laws/articles.php?article=V-1",
+      "kind": "primary_state_constitutional_text",
+      "scope": "Judicial vesting, Supreme Court and court administration",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    },
+    {
+      "id": "SRC-STATE-NCSL-CHAMBERS",
+      "type": "state_architecture_source",
+      "title": "State legislative chamber census",
+      "publisher": "National Conference of State Legislatures",
+      "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+      "kind": "nonpartisan_research_reference",
+      "scope": "99 legislative chambers across 50 States; Nebraska unicameral, not State-specific constitutional delegation",
+      "accessed_on": "2026-10-16",
+      "review_status": "official_source_locator_or_research_reference"
+    }
+  ]
+}

@@ -55,3 +55,7 @@ jobs:
         run: node scripts/validate-judicial.mjs
       - name: Test judicial review, precedent scope and overruling regressions
         run: node --test tests/judicial.test.mjs
+      - name: Validate State jurisdictions, source authorities and institutional boundaries
+        run: node scripts/validate-state.mjs
+      - name: Test State source, D.C., federalism and judicial conflict regressions
+        run: node --test tests/state.test.mjs
