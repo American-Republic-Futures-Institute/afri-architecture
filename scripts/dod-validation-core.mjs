@@ -7,7 +7,8 @@ export const DOD_FAMILIES=Object.freeze(["source-registry","source-snapshots","s
 export const DOD_MODEL_PATHS=Object.freeze(DOD_FAMILIES.map(x=>"model/federal/dod/"+x+".json"));
 export const OTHER_MODEL_PATHS=Object.freeze(["model/federal/coverage/components.json",
  "model/federal/coverage/source-registry.json","model/federal/executive-leadership.json",
- "model/federal/legislative.json","model/federal/capabilities.json","model/constitutional/provisions.json"]);
+ "model/federal/legislative.json","model/federal/executive-departments.json",
+ "model/federal/capabilities.json","model/constitutional/provisions.json"]);
 const FAIL=x=>{throw Error("DoD model invalid: "+x);};
 const check=(ok,msg)=>{if(!ok)FAIL(msg);};
 const id=x=>typeof x==="string"&&/^[A-Z][A-Z0-9-]{2,160}$/.test(x);
@@ -110,8 +111,7 @@ export function validateDod(manifest,files){
    "missing date-specific GAO supervisory column "+x.id);
  }
  for(const name of ["DIA","NSA","DCMA","DLA","DTRA","DHA","NGA","DISA"])
-  check(daMap.has("DOD-DAFA-"+name)&&findOne(daMap,"DOD-DAFA-"+name).combat_support_agency===
-   ![""].includes(name)&&true,
+  check(daMap.has("DOD-DAFA-"+name)&&findOne(daMap,"DOD-DAFA-"+name).combat_support_agency===true,
    "key combat support agency or classified-source boundary missing");
  const services=data["armed-services"];
  check(services.length===6&&services.filter(x=>x.currently_part_of_dod_by_general_law).length===5,
@@ -278,7 +278,10 @@ export function validateDod(manifest,files){
   "coverage ledger hides unfinished organizational/fiscal review");
  for(const required of ["DOD-GAP-DAFA-NAME-CURRENCY","DOD-GAP-FISCAL-ACCOUNT","DOD-GAP-COMBATANT-UCP","DOD-GAP-INDIVIDUAL-DELEGATION"])
  check(gaps.some(x=>x.id===required),"incomplete DoD coverage must disclose "+required);
- return {manifest,extension:ext,data,sources,components:compMap,dafas:daMap,roles,commands:cmds,
+ const department=files["model/federal/executive-departments.json"].items.find(x=>x.id===ext.department_id);
+ check(department?.kind==="executive_department"&&department.branch_id==="BR-FED-EXE",
+  "missing unchanged canonical DoD department");
+ return {manifest,extension:ext,data,sources,department,components:compMap,dafas:daMap,roles,commands:cmds,
   services,conditions,provisions:prov,powers,relationships:relations,congressional:congress,fiscal,
   views,gaps,checks:{
    statute_composition:composition.length,defense_agencies:agen.length,field_activities:fields.length,
@@ -301,6 +304,7 @@ export function projectDodView(data,viewId){
   for(const x of data.data.offices.filter(y=>y.category==="osd_supervisory_office"))push(x);
   for(const x of data.data["statutory-composition"].filter(y=>/AGENCIES|FIELD-ACTIVITIES/.test(y.short_code)))push(x);
  }
+ if(v.id==="VIEW-DOD-COMPOSITION")push(data.department);
  if(v.id==="VIEW-DOD-COMMAND"){
   for(const x of data.commands)push(x);
   for(const x of data.data.offices.filter(y=>["DOD-ROLE-SECDEF","DOD-ROLE-CHAIRMAN","DOD-CCMD-ROLE"].includes(y.id)))push(x);
