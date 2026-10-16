@@ -1,0 +1,129 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-DOD-COMPOSITION",
+      "type": "dod_declarative_view",
+      "title": "DoD statutory composition",
+      "root_ids": [
+        "CENSUS-COMP-DEF-OSD"
+      ],
+      "family": "institutional",
+      "include_relationship_types": [
+        "statutory_department_composition"
+      ],
+      "max_hops": 4,
+      "source_evidence_required": true,
+      "rendering_status": "data_contract_only_not_web_rendered",
+      "applicability_label": "codified_scope_2026-10-07",
+      "legal_review_status": "research_pending_citator_and_responsible_official_review"
+    },
+    {
+      "id": "VIEW-DOD-DAFA",
+      "type": "dod_declarative_view",
+      "title": "DoD Defense Agencies and Field Activities, May 2026",
+      "root_ids": [
+        "CENSUS-COMP-DEF-DEFENSE-AGENCIES"
+      ],
+      "family": "institutional",
+      "include_relationship_types": [
+        "categorized_under_statutory_composition_class",
+        "dated_chart_supervision_not_individual_delegation",
+        "designated_combat_support_agency_subject_to_readiness_review"
+      ],
+      "max_hops": 4,
+      "source_evidence_required": true,
+      "rendering_status": "data_contract_only_not_web_rendered",
+      "applicability_label": "GAO_May_2026_as_of",
+      "legal_review_status": "research_pending_citator_and_responsible_official_review"
+    },
+    {
+      "id": "VIEW-DOD-COMMAND",
+      "type": "dod_declarative_view",
+      "title": "DoD Military Command and Advisory Boundaries",
+      "root_ids": [
+        "DOD-ROLE-SECDEF"
+      ],
+      "family": "authority",
+      "include_relationship_types": [
+        "conditional_statutory_combatant_command_chain",
+        "chairman_principal_military_adviser_not_commander"
+      ],
+      "max_hops": 4,
+      "source_evidence_required": true,
+      "rendering_status": "data_contract_only_not_web_rendered",
+      "applicability_label": "codified_scope_2026-10-07",
+      "legal_review_status": "research_pending_citator_and_responsible_official_review"
+    },
+    {
+      "id": "VIEW-DOD-SERVICES",
+      "type": "dod_declarative_view",
+      "title": "Military Departments and Armed Services",
+      "root_ids": [
+        "CENSUS-COMP-DEF-ARMY"
+      ],
+      "family": "institutional",
+      "include_relationship_types": [
+        "armed_service_statutory_department_placement",
+        "outside_dod_conditional_navy_service",
+        "military_department_secretary_statutory_responsibility"
+      ],
+      "max_hops": 4,
+      "source_evidence_required": true,
+      "rendering_status": "data_contract_only_not_web_rendered",
+      "applicability_label": "codified_scope_2026-10-07",
+      "legal_review_status": "research_pending_citator_and_responsible_official_review"
+    },
+    {
+      "id": "VIEW-DOD-AUTHORITY",
+      "type": "dod_declarative_view",
+      "title": "DoD legal duties and limitations",
+      "root_ids": [
+        "DOD-TRACE-CIVILIAN-CONTROL"
+      ],
+      "family": "authority",
+      "include_relationship_types": [
+        "bounded_statutory_role_authority"
+      ],
+      "max_hops": 4,
+      "source_evidence_required": true,
+      "rendering_status": "data_contract_only_not_web_rendered",
+      "applicability_label": "codified_scope_2026-10-07",
+      "legal_review_status": "research_pending_citator_and_responsible_official_review"
+    },
+    {
+      "id": "VIEW-DOD-CONGRESS",
+      "type": "dod_declarative_view",
+      "title": "Congressional Defense Oversight",
+      "root_ids": [
+        "DOD-CONG-HOUSE-ASC"
+      ],
+      "family": "oversight",
+      "include_relationship_types": [
+        "congressional_reporting"
+      ],
+      "max_hops": 4,
+      "source_evidence_required": true,
+      "rendering_status": "data_contract_only_not_web_rendered",
+      "applicability_label": "codified_scope_2026-10-07",
+      "legal_review_status": "research_pending_citator_and_responsible_official_review"
+    },
+    {
+      "id": "VIEW-DOD-FISCAL",
+      "type": "dod_declarative_view",
+      "title": "FY2026 Proposed Defense-Wide Funding",
+      "root_ids": [
+        "DOD-FISCAL-FY26-OM"
+      ],
+      "family": "fiscal",
+      "include_relationship_types": [
+        "proposed_budget_only"
+      ],
+      "max_hops": 4,
+      "source_evidence_required": true,
+      "rendering_status": "data_contract_only_not_web_rendered",
+      "applicability_label": "FY2026_proposal_not_appropriation",
+      "legal_review_status": "research_pending_citator_and_responsible_official_review"
+    }
+  ]
+}

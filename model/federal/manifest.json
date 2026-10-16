@@ -116,7 +116,18 @@
     "model/federal/dod/offices.json",
     "model/federal/dod/armed-services.json",
     "model/federal/dod/combatant-commands.json",
-    "model/federal/dod/name-events.json"
+    "model/federal/dod/name-events.json",
+    "model/federal/dod/statutory-provisions.json",
+    "model/federal/dod/conditions.json",
+    "model/federal/dod/powers.json",
+    "model/federal/dod/relationships.json",
+    "model/federal/dod/congressional-committees.json",
+    "model/federal/dod/congressional-crosswalks.json",
+    "model/federal/dod/fiscal-crosswalks.json",
+    "model/federal/dod/capability-links.json",
+    "model/federal/dod/authority-traces.json",
+    "model/federal/dod/viewpoints.json",
+    "model/federal/dod/gaps.json"
   ],
   "standards": [
     {
@@ -425,6 +436,16 @@
     "public_current_roster_reconciled": false,
     "legal_citator_review_complete": false,
     "website_rendering_status": "not_implemented",
-    "policy_mapping_status": "not_implemented"
+    "policy_mapping_status": "not_implemented",
+    "legal_provision_records": 27,
+    "authority_record_count": 12,
+    "statutory_conditions": 14,
+    "typed_relationships": 106,
+    "congressional_committee_citations": 4,
+    "congressional_reporting_crosswalks": 4,
+    "fy2026_budget_proposal_categories": 4,
+    "scoped_authority_traces": 6,
+    "declarative_views": 7,
+    "review_gaps": 11
   }
 }

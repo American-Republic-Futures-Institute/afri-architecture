@@ -1,0 +1,237 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-POWER-SECDEF-DIRECTION",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-SECDEF",
+      "provision_id": "DOD-PROV-10-113-B",
+      "condition_ids": [
+        "DOD-COND-SECRETARY-LIMIT"
+      ],
+      "power_type": "civilian_statutory_direction",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-SECDEF-DELEGATE",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-SECDEF",
+      "provision_id": "DOD-PROV-10-113-D",
+      "condition_ids": [
+        "DOD-COND-DELEGATION-LIMIT"
+      ],
+      "power_type": "bounded_functional_delegation_permission",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-PRESIDENT-CCMD-ESTABLISH",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ACTOR-PRESIDENT",
+      "provision_id": "DOD-PROV-10-161-A",
+      "condition_ids": [
+        "DOD-COND-COMMAND-NOTICE"
+      ],
+      "power_type": "presidential_command_establishment",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-161"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-SECDEF-FORCES",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-SECDEF",
+      "provision_id": "DOD-PROV-10-162-A",
+      "condition_ids": [
+        "DOD-COND-ASSIGNMENT-SCOPE"
+      ],
+      "power_type": "force_assignment_direction",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-CCDR-COMMAND",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-CCMD-ROLE",
+      "provision_id": "DOD-PROV-10-164-B",
+      "condition_ids": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "power_type": "conditional_combatant_command",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-164"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-SECDEF-DAFA-CREATE",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-SECDEF",
+      "provision_id": "DOD-PROV-10-191-A",
+      "condition_ids": [
+        "DOD-COND-DAFA-EFFICIENCY"
+      ],
+      "power_type": "common_supply_service_establishment",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-191"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-CHAIRMAN-MIL-ADVICE",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-CHAIRMAN",
+      "provision_id": "DOD-PROV-10-151",
+      "condition_ids": [
+        "DOD-COND-CHAIRMAN-NOCOMMAND"
+      ],
+      "power_type": "advisory_only",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-151"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-DOD-IG-OVERSIGHT",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-DOD-IG",
+      "provision_id": "DOD-PROV-10-141",
+      "condition_ids": [],
+      "power_type": "independent_inspector_general_oversight",
+      "capability_alignment_id": "CAP-FED-03",
+      "source_ids": [
+        "DOD-SRC-10-141"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-SEC-ARMY-MANAGE",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-SEC-ARMY",
+      "provision_id": "DOD-PROV-10-7013",
+      "condition_ids": [],
+      "power_type": "department_secretary_administration",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-7013"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-SEC-NAVY-MANAGE",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-SEC-NAVY",
+      "provision_id": "DOD-PROV-10-8013",
+      "condition_ids": [],
+      "power_type": "department_secretary_administration",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-8013"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-SEC-AIR-MANAGE",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-SEC-AIR",
+      "provision_id": "DOD-PROV-10-9013",
+      "condition_ids": [],
+      "power_type": "department_secretary_administration",
+      "capability_alignment_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-9013"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    },
+    {
+      "id": "DOD-POWER-CHAIRMAN-CSA-REPORT",
+      "type": "dod_bounded_statutory_function",
+      "authorized_actor_id": "DOD-ROLE-CHAIRMAN",
+      "provision_id": "DOD-PROV-10-193-A",
+      "condition_ids": [
+        "DOD-COND-CSA-READINESS-REPORT"
+      ],
+      "power_type": "statutory_oversight_report",
+      "capability_alignment_id": "CAP-FED-03",
+      "source_ids": [
+        "DOD-SRC-10-193"
+      ],
+      "legal_authority_proven_for_scope": true,
+      "individual_agency_delegation_proven": false,
+      "appropriation_verified": false,
+      "citator_review_complete": false,
+      "description": "Statute-indexed bounded role/function, not a full departmental authority inventory.",
+      "review_status": "codified_text_supported_pending_legal_review"
+    }
+  ]
+}
