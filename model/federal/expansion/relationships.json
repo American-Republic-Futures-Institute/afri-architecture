@@ -1569,6 +1569,312 @@
       "current_direct_supervision_verified": false,
       "legal_subtype_resolved": false,
       "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0083",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-HOUSE-ARMED",
+      "to_id": "ORG-FED-LEG-HOUSE",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "house_standing_committee_reference",
+      "source_ids": [
+        "EXP-SRC-HOUSE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-HOUSE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0084",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-HOUSE-APP",
+      "to_id": "ORG-FED-LEG-HOUSE",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "house_standing_committee_reference",
+      "source_ids": [
+        "EXP-SRC-HOUSE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-HOUSE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0085",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SENATE-ARMED",
+      "to_id": "ORG-FED-LEG-SENATE",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "senate_standing_committee_reference",
+      "source_ids": [
+        "EXP-SRC-SENATE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-SENATE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0086",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SENATE-APP",
+      "to_id": "ORG-FED-LEG-SENATE",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "senate_standing_committee_reference",
+      "source_ids": [
+        "EXP-SRC-SENATE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-SENATE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0087",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-FIRST",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0088",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SECOND",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0089",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-THIRD",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0090",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-FOURTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0091",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-FIFTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0092",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SIXTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0093",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SEVENTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0094",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-EIGHTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0095",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-NINTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0096",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-TENTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0097",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-ELEVENTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0098",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-DC",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0099",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-FEDERAL",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
     }
   ]
 }

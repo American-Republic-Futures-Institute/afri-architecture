@@ -116,7 +116,8 @@
     "model/federal/expansion/relationships.json",
     "model/federal/expansion/coverage-ledger.json",
     "model/federal/expansion/gaps.json",
-    "model/federal/expansion/viewpoints.json"
+    "model/federal/expansion/viewpoints.json",
+    "model/federal/expansion/crossbranch-seeds.json"
   ],
   "standards": [
     {
@@ -420,6 +421,7 @@
     "all_independents_legally_subtyped": false,
     "website_integration": "not_implemented",
     "external_identifiers_inferred": false,
-    "legal_review_status": "pending"
+    "legal_review_status": "pending",
+    "crossbranch_composition_candidates": 17
   }
 }

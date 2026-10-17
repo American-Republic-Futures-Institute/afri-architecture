@@ -1,0 +1,345 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "EXP-SEED-HOUSE-ARMED",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "House Committee on Armed Services",
+      "parent_id": "ORG-FED-LEG-HOUSE",
+      "branch_id": "BR-FED-LEG",
+      "source_ids": [
+        "EXP-SRC-HOUSE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-HOUSE-119",
+      "evidence_locator": "House Rules and Manual 119th Congress > Standing committees > Armed Services",
+      "relationship_type": "house_standing_committee_reference",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-HOUSE-APP",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "House Committee on Appropriations",
+      "parent_id": "ORG-FED-LEG-HOUSE",
+      "branch_id": "BR-FED-LEG",
+      "source_ids": [
+        "EXP-SRC-HOUSE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-HOUSE-119",
+      "evidence_locator": "House Rules and Manual 119th Congress > Standing committees > Appropriations",
+      "relationship_type": "house_standing_committee_reference",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-SENATE-ARMED",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "Senate Committee on Armed Services",
+      "parent_id": "ORG-FED-LEG-SENATE",
+      "branch_id": "BR-FED-LEG",
+      "source_ids": [
+        "EXP-SRC-SENATE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-SENATE-119",
+      "evidence_locator": "senate.gov/committees/index.htm > 119th Congress > Armed Services",
+      "relationship_type": "senate_standing_committee_reference",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-SENATE-APP",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "Senate Committee on Appropriations",
+      "parent_id": "ORG-FED-LEG-SENATE",
+      "branch_id": "BR-FED-LEG",
+      "source_ids": [
+        "EXP-SRC-SENATE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-SENATE-119",
+      "evidence_locator": "senate.gov/committees/index.htm > 119th Congress > Appropriations",
+      "relationship_type": "senate_standing_committee_reference",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-FIRST",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the First Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > First Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-SECOND",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Second Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Second Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-THIRD",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Third Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Third Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-FOURTH",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Fourth Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Fourth Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-FIFTH",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Fifth Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Fifth Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-SIXTH",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Sixth Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Sixth Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-SEVENTH",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Seventh Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Seventh Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-EIGHTH",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Eighth Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Eighth Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-NINTH",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Ninth Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Ninth Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-TENTH",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Tenth Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Tenth Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-ELEVENTH",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Eleventh Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Eleventh Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-DC",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the District of Columbia Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > District of Columbia Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    },
+    {
+      "id": "EXP-SEED-FEDERAL",
+      "type": "selected_legal_institution_subtype_candidate",
+      "name": "United States Court of Appeals for the Federal Circuit",
+      "parent_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "evidence_locator": "uscourts.gov Court Role and Structure > 13 appellate courts > Federal Circuit",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_item_locator_independently_reviewed": false,
+      "individual_legal_creation_and_jurisdiction_verified": false,
+      "committee_rule_and_subcommittee_jurisdiction_verified": false,
+      "operational_reporting_or_command_proven": false,
+      "adl_evidenced": 0,
+      "adl1_completed": false,
+      "review_status": "official_source_candidate_unratified_pending_line_review"
+    }
+  ]
+}

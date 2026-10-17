@@ -115,7 +115,7 @@
       "id": "EXP-SEED-JUSTICE-BOP",
       "type": "selected_first_level_research_candidate",
       "parent_department_id": "ORG-FED-EXE-DEP-JUSTICE",
-      "name": "Federal Bureau of Prisons",
+      "name": "Bureau of Prisons",
       "branch_id": "BR-FED-EXE",
       "source_ids": [
         "CENSUS-SRC-GOVMAN-2025"
