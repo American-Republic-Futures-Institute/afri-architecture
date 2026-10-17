@@ -1,0 +1,148 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-GAP-COMPONENT-COMPLETE",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "complete_first_level_roster",
+      "description": "10 U.S.C. §111(b)(10)-(11) enables other designated components beyond nine identified classes; OSD subordinate roster not fully verified.",
+      "priority": "P0",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-DAFA-NAME-CURRENCY",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "agency_name_currentness",
+      "description": "May 2026 GAO figure predates June field activity redesignation and new 2026 components; official current chart and memoranda need reconciliation.",
+      "priority": "P0",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-DAFA-CHARTER",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "individual_agency_charter",
+      "description": "29? No: all 27 DAFA charter/directive instrument, delegated responsibilities and exceptions must be researched before ADL-2 promotion.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-OSD-SUPERVISION",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "statutory_192_exception",
+      "description": "GAO chart supervision does not override 10 U.S.C. §192(a)(3) exclusion of DIA and NSA.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-COMBATANT-UCP",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "command_currentness",
+      "description": "Public 11-command roster does not establish current classified or unpublished Unified Command Plan, assignments or command exceptions.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-FISCAL-ACCOUNT",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "fiscal_appropriation",
+      "description": "FY2026 Defense-Wide budget request is not enacted appropriation; require fiscal acts, TAS, amount, conditions and funding availability.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-FY26-DEFENSE-WIDE"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-CONGRESSIONAL-ACTUAL",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "congressional_oversight",
+      "description": "Committee identities sourced; delivered reports, subcommittee jurisdictions and actual appropriations unverified.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-INDIVIDUAL-DELEGATION",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "agency_power_delegation",
+      "description": "Statutory Secretary authority and organizational chart do not validate signed individual agency delegations.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-JUDICIAL-REVIEW",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "constitutional_judicial_overlay",
+      "description": "Controlling legal interpretations and rights conditions not comprehensively citator-reviewed.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-COAST-GUARD-TRANSFER",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "interagency_military_service",
+      "description": "Conditional Coast Guard Navy placement must not be shown as constant DoD membership.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-14-103"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    },
+    {
+      "id": "DOD-GAP-CURRENT-NAMES",
+      "type": "dod_declared_research_gap",
+      "scope_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "dimension": "agency_rename_history",
+      "description": "Personnel Readiness Management Agency, War Media Activity and DoW TRMC post-May names require direct signed-memorandum verification.",
+      "priority": "P1",
+      "status": "open",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "closure_condition": "Publish independently source-supported identity and legal evidence, immutable source edition, and explicit review of this bounded scope before declaring complete."
+    }
+  ]
+}
