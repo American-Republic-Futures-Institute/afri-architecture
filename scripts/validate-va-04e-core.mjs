@@ -85,6 +85,10 @@ export function validate04E(manifest,files,schema){
    "d4c9bc1f84cfb08dd92df5e95e624b479f04a9f7e94abecb6e092e2748a5d523"&&
   original.find(x=>x.id==="D04D-OBS-FOM2")?.body_sha256===
    "a9900503672b48541a1639167bc0a2b2f5e7b3607c85881faa9caf0b28a90f1b"&&
+  original.find(x=>x.id==="D04D-OBS-USC38")?.body_sha256===
+   "d56b1ef48b0b6c85a5d68ecf2f9469b83f066c4f497a833bca5ee284e7886aba"&&
+  original.find(x=>x.id==="D04D-OBS-USC41")?.body_sha256===
+   "8e5d35b1cdc7c7fc8832bd0aacf8ecb487b7df772cd50ae3dbf4988f77cd94d7"&&
   original.find(x=>x.id==="D04D-OBS-CBCA")?.body_sha256===null,
   "four original SHA-256 capture receipts or unavailable CBCA changed");
  const g=models["governance-decisions"];

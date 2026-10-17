@@ -54,6 +54,13 @@ test("six special legal relationships retain official citation without claiming 
  assert(x.find(y=>y.id==="E04E-LEGAL-OEDCA").primary_reference.includes("319(a)(3)"));
  assert(x.find(y=>y.id==="E04E-LEGAL-CBCA").relationship_kind_candidate.startsWith("GSA_"));
 });
+test("both captured fixed Code editions remain pinned by full 64-character SHA-256 receipts",()=>{
+ const sources=start.files["model/federal/inc04d/observed-source-receipts.json"].items;
+ for(const id of ["D04D-OBS-USC38","D04D-OBS-USC41"]){
+  const receipt=sources.find(x=>x.id===id);
+  assert.equal(receipt.body_sha256.length,64);
+ }
+});
 test("source edition dates are distinct from 2026 legal effectiveness and archive promotion",()=>{
  const x=ready.models["source-temporal-index"];
  assert.equal(x.length,6);
