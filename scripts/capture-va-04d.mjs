@@ -16,7 +16,7 @@ const error=m=>{throw Error("ARFI 04D source: "+m);};
 const check=(condition,message)=>{if(!condition)error(message);};
 const names=records.map(x=>x.id);
 check(names.length===5&&new Set(names).size===5&&names.every(n=>fixed[n]),"five official source identities required");
-for(const r of records)check(r.url===fixed[r.id]&&r.sha256===null&&r.archive_state==="source_not_yet_byte_verified","source pin or research state mismatch");
+for(const r of records)check(r.url===fixed[r.id]&&r.observed_sha256===null&&r.byte_capture_verified===false,"source pin or research state mismatch");
 async function request(record){
  let url=record.url,response;
  for(let i=0;i<=3;i++){
