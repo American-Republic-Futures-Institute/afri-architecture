@@ -136,6 +136,18 @@ reject("untrusted official-host alternate GovInfo edition is source substitution
 reject("untrusted source-domain injection is prohibited",f=>{
  find(f,"sources","EXP-SRC-SENATE-119").url="https://senate.gov.attacker.example/committees/index.htm";
 },"strict schema invalid");
+reject("unit names cannot silently change without editing the versioned 2025 candidate contract",f=>{
+ find(f,"department-seeds","EXP-SEED-COMMERCE-NIST").name="Secret Federal Committee";
+},"immutable candidate identity");
+reject("appellate court names cannot be spoofed inside the court category",f=>{
+ find(f,"crossbranch-seeds","EXP-SEED-DC").name="Court of Appeals for Arctic Territories";
+},"immutable candidate identity");
+reject("historical EOP edition cannot be redated as an October 2026 structure",f=>{
+ find(f,"snapshots","EXP-SNAP-GOVMAN-2024-EOP").as_of="2026-10-16";
+},"source-edition identity");
+reject("mutable Senate committee webpage cannot claim immutable archived publication",f=>{
+ find(f,"snapshots","EXP-SNAP-SENATE-119").is_fixed_publication=true;
+},"source-edition identity");
 reject("creating an invented external agency ID without source semantics fails closed",f=>{
  find(f,"roster","EXP-REF-ORG-FED-EXE-IND-FED").external_official_identifier="0001";
 },"strict schema invalid");
@@ -153,10 +165,10 @@ reject("direct supervisory power cannot be inferred from a department directory"
 },"strict schema invalid");
 reject("a preliminary FERC office must not be legally reclassified as a general department office",f=>{
  find(f,"department-seeds","EXP-SEED-ENERGY-FERC").legal_subtype_status="fully_verified_under_secdef";
-},"invented official department structure");
+},"immutable candidate identity");
 reject("a committee must not be assigned to the judicial branch",f=>{
  find(f,"crossbranch-seeds","EXP-SEED-HOUSE-ARMED").branch_id="BR-FED-JUD";
-},"invalid congressional committee");
+},"candidate branch mismatch");
 reject("courts may not be assigned a specific unverified statutory jurisdiction",f=>{
  find(f,"crossbranch-seeds","EXP-SEED-FIRST").individual_legal_creation_and_jurisdiction_verified=true;
 },"strict schema invalid");

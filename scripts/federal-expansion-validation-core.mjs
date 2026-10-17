@@ -30,6 +30,87 @@ const SNAP_SOURCES=Object.freeze({
  "EXP-SNAP-HOUSE-119":"EXP-SRC-HOUSE-119",
  "EXP-SNAP-SENATE-119":"EXP-SRC-SENATE-119"
 });
+const LOCKED_SEED_LABELS=Object.freeze({
+  "EXP-SEED-STATE-CONSULAR": "Bureau of Consular Affairs",
+  "EXP-SEED-STATE-DIPLOMATIC-SECURITY": "Bureau of Diplomatic Security",
+  "EXP-SEED-TREASURY-IRS": "Internal Revenue Service",
+  "EXP-SEED-TREASURY-FISCAL": "Bureau of the Fiscal Service",
+  "EXP-SEED-JUSTICE-FBI": "Federal Bureau of Investigation",
+  "EXP-SEED-JUSTICE-BOP": "Bureau of Prisons",
+  "EXP-SEED-INTERIOR-NPS": "National Park Service",
+  "EXP-SEED-INTERIOR-BIA": "Bureau of Indian Affairs",
+  "EXP-SEED-AGRICULTURE-FS": "Forest Service",
+  "EXP-SEED-AGRICULTURE-FNS": "Food and Nutrition Service",
+  "EXP-SEED-COMMERCE-NOAA": "National Oceanic and Atmospheric Administration",
+  "EXP-SEED-COMMERCE-NIST": "National Institute of Standards and Technology",
+  "EXP-SEED-LABOR-BLS": "Bureau of Labor Statistics",
+  "EXP-SEED-LABOR-OSHA": "Occupational Safety and Health Administration",
+  "EXP-SEED-HHS-CDC": "Centers for Disease Control and Prevention",
+  "EXP-SEED-HHS-CMS": "Centers for Medicare and Medicaid Services",
+  "EXP-SEED-HUD-FHA": "Federal Housing Administration",
+  "EXP-SEED-HUD-PIH": "Office of Public and Indian Housing",
+  "EXP-SEED-TRANSPORTATION-FAA": "Federal Aviation Administration",
+  "EXP-SEED-TRANSPORTATION-FTA": "Federal Transit Administration",
+  "EXP-SEED-ENERGY-NNSA": "National Nuclear Security Administration",
+  "EXP-SEED-ENERGY-FERC": "Federal Energy Regulatory Commission",
+  "EXP-SEED-VA-VHA": "Veterans Health Administration",
+  "EXP-SEED-VA-VBA": "Veterans Benefits Administration",
+  "EXP-SEED-HOUSE-ARMED": "House Committee on Armed Services",
+  "EXP-SEED-HOUSE-APP": "House Committee on Appropriations",
+  "EXP-SEED-SENATE-ARMED": "Senate Committee on Armed Services",
+  "EXP-SEED-SENATE-APP": "Senate Committee on Appropriations",
+  "EXP-SEED-FIRST": "United States Court of Appeals for the First Circuit",
+  "EXP-SEED-SECOND": "United States Court of Appeals for the Second Circuit",
+  "EXP-SEED-THIRD": "United States Court of Appeals for the Third Circuit",
+  "EXP-SEED-FOURTH": "United States Court of Appeals for the Fourth Circuit",
+  "EXP-SEED-FIFTH": "United States Court of Appeals for the Fifth Circuit",
+  "EXP-SEED-SIXTH": "United States Court of Appeals for the Sixth Circuit",
+  "EXP-SEED-SEVENTH": "United States Court of Appeals for the Seventh Circuit",
+  "EXP-SEED-EIGHTH": "United States Court of Appeals for the Eighth Circuit",
+  "EXP-SEED-NINTH": "United States Court of Appeals for the Ninth Circuit",
+  "EXP-SEED-TENTH": "United States Court of Appeals for the Tenth Circuit",
+  "EXP-SEED-ELEVENTH": "United States Court of Appeals for the Eleventh Circuit",
+  "EXP-SEED-DC": "United States Court of Appeals for the District of Columbia Circuit",
+  "EXP-SEED-FEDERAL": "United States Court of Appeals for the Federal Circuit"
+});
+const LOCKED_SOURCE_SNAPSHOTS=Object.freeze({
+  "EXP-SNAP-GOVMAN-2025": {
+    "as_of": "2025-12-31",
+    "revision_id": "GOVMAN-2025-12-31",
+    "kind": "fixed_official_handbook_edition",
+    "fixed": true
+  },
+  "EXP-SNAP-5-USC-101": {
+    "as_of": "2026-10-07",
+    "revision_id": "OLRC_through_PL_119-120",
+    "kind": "online_codification_version_label",
+    "fixed": false
+  },
+  "EXP-SNAP-GOVMAN-2024-EOP": {
+    "as_of": "2024-12-31",
+    "revision_id": "GOVMAN-2024-12-31-098",
+    "kind": "fixed_official_handbook_chapter",
+    "fixed": true
+  },
+  "EXP-SNAP-USCOURTS-STRUCTURE": {
+    "as_of": "2026-10-16",
+    "revision_id": "mutable_page_observed_2026-10-16",
+    "kind": "mutable_judicial_structure_webpage",
+    "fixed": false
+  },
+  "EXP-SNAP-HOUSE-119": {
+    "as_of": "2025-01-20",
+    "revision_id": "HMAN-119",
+    "kind": "fixed_chamber_procedural_publication",
+    "fixed": true
+  },
+  "EXP-SNAP-SENATE-119": {
+    "as_of": "2026-10-16",
+    "revision_id": "mutable_119th_committees_page",
+    "kind": "mutable_chamber_committee_webpage",
+    "fixed": false
+  }
+});
 const REL_TYPES=Object.freeze({
  departments:"statutory_department_in_executive_branch_not_subordinate_power",
  eop:"presidential_office_catalog_parentage_not_delegation",
@@ -162,6 +243,10 @@ export function validateFederalExpansion(manifest,files,schema){
  check(snapshots.size===6&&same([...snapshots.keys()],Object.keys(SNAP_SOURCES)),
   "six explicit historical, legal and mutable source slices required");
  for(const s of data.snapshots){
+  const pinned=LOCKED_SOURCE_SNAPSHOTS[s.id];
+  check(pinned&&s.as_of===pinned.as_of&&s.revision_id===pinned.revision_id&&
+   s.kind===pinned.kind&&s.is_fixed_publication===pinned.fixed,
+   "source-edition identity / temporal mismatch "+s.id);
   check(s.source_id===SNAP_SOURCES[s.id]&&sourceIDs.has(s.source_id)&&
    s.accessed_on==="2026-10-16"&&s.complete_federal_denominator===false&&
    s.complete_first_level_roster===false&&s.independent_legal_review_complete===false,
@@ -212,6 +297,11 @@ export function validateFederalExpansion(manifest,files,schema){
  check(dseeds.length===24&&cbseeds.length===17,"bounded components must be exactly 24 + 17");
  const deptSeedCounts={};
  for(const x of dseeds){
+  check(x.name===LOCKED_SEED_LABELS[x.id]&&
+   (x.id==="EXP-SEED-ENERGY-FERC"?
+     x.legal_subtype_status==="special_independent_regulation_needs_statutory_review":
+     x.legal_subtype_status==="not_independently_classified"),
+   "immutable candidate identity or unresolved legal subtype mismatch "+x.id);
   check(byId.has("EXP-REF-"+x.parent_department_id)&&x.branch_id==="BR-FED-EXE"&&
    x.source_snapshot_id==="EXP-SNAP-GOVMAN-2025"&&
    same(x.source_ids,["CENSUS-SRC-GOVMAN-2025"])&&
@@ -229,6 +319,12 @@ export function validateFederalExpansion(manifest,files,schema){
  const cbCounts={legislative:0,judiciary:0},knownParents=new Set(expectedIds);
  const courtLabels=new Set();
  for(const x of cbseeds){
+  check(x.name===LOCKED_SEED_LABELS[x.id],
+   "immutable candidate identity mismatch "+x.id);
+  const candidateIsCommittee=x.id.startsWith("EXP-SEED-HOUSE-")||
+    x.id.startsWith("EXP-SEED-SENATE-");
+  check(x.branch_id===(candidateIsCommittee?"BR-FED-LEG":"BR-FED-JUD"),
+   "candidate branch mismatch "+x.id);
   check(knownParents.has(x.parent_id)&&
    x.source_ids.every(s=>sourceIDs.has(s))&&
    x.source_snapshot_id&&snapshots.get(x.source_snapshot_id)?.source_id===x.source_ids[0]&&
@@ -261,6 +357,7 @@ export function validateFederalExpansion(manifest,files,schema){
  check(edges.length===nodes.size&&unique(edges.map(x=>x.id)),
   "each of 99 scoped nodes must have one descriptive relationship");
  for(const e of edges){
+  check(!found.has(e.from_id),"multiple inconsistent hierarchy assertions "+e.from_id);
   const x=nodes.get(e.from_id),baseTarget=canon.get(e.to_id);
   check(!!x&&(!!baseTarget||branchIDs.has(e.to_id))&&
    e.branch_id===(x.branch_id)&&
@@ -278,7 +375,6 @@ export function validateFederalExpansion(manifest,files,schema){
    e.legal_subtype_resolved===false&&
    e.review_status==="catalogue_only_no_current_legal_certification",
    "unsupported legal effect or unsupported organizational relation "+e.id);
-  check(!found.has(e.from_id),"multiple inconsistent hierarchy assertions "+e.from_id);
   found.add(e.from_id);
  }
  check(found.size===nodes.size,"unlinked scoped reference candidates");
