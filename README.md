@@ -156,3 +156,7 @@ The new [source-bounded institutional expansion](docs/FEDERAL-INSTITUTIONAL-EXPA
 
 See [the dated 12-department Government Manual granule reconciliation and four bounded official organizational views](docs/FEDERAL-DEPARTMENT-STRUCTURE-INC04.md). A 2025 granule is an official source locator; a named 2026 directory group is not a complete departmental hierarchy or lawful command/delegation. All 12 ADL-1 research gaps remain open. No website integration or executive legal-power assertion is made.
 
+
+## Source integrity and HHS bounded roster — Increment 04B
+
+The [eight-source archival and four-department reconciliation model](docs/FEDERAL-SOURCE-ARCHIVE-INC04B.md) adds HHS's official 28 linked organizational names and segregates source-group denominators (Justice 36, Treasury 9, HHS 28, VA 22). Original source bytes are captured and hash-checked in a read-only, temporary GitHub Actions artifact; durable preservation and all ADL-1 review remain open. No legal authority or complete hierarchy is asserted.
