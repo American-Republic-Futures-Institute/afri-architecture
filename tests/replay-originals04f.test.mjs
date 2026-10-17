@@ -96,7 +96,7 @@ test("modified unsigned index is rejected instead of becoming an institutional s
   const candidate=JSON.parse(await fs.readFile(index));
   candidate.immutable_storage_claim=true;
   await fs.writeFile(index,JSON.stringify(candidate)+"\n");
-  await assert.rejects(()=>verify04FBundle({directory:x.out,queue:x.queue}),/canonical UTF-8 JSON|eleven independently pinned/);
+  await assert.rejects(()=>verify04FBundle({directory:x.out,queue:x.queue}),/canonical UTF-8 JSON|independently pinned source receipts/);
  });
 });
 test("captured source metadata manifests cannot be silently modified after bundling",async()=>{
