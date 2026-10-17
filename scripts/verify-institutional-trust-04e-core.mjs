@@ -115,7 +115,7 @@ export function verifySeparatedReleaseApprovals({trustedDecision,releaseIndexByt
  }
  check(seen.size===2,"two distinct institutional signing keys required");
  return {release_manifest_sha256:digest(raw),approved_roles:roles,
-  cryptographic_approvals_verified:2,qualified_human_credentials_reviewed_externally:true,
+  cryptographic_approvals_verified:2,qualified_human_credentials_reviewed_externally:false,
   approved_source_refs:index.sources,
   protected_storage_verified:false,VA_ADL1_approved:false};
 }
@@ -155,6 +155,7 @@ export function assembleProtectedEvidenceProof({trustedDecision,releaseApproval,
  return {protected_primary_objects_verified:verifiedObjects.length,
   governance_root_and_two_approvals_verified:true,
   independent_provider_version_reads_verified:true,
-  release_status:"technically_verified_awaiting_independent_publication_decision",
+  release_status:"cryptographic_and_provider_preconditions_only_not_institutional_certification",
+  release_qualified:false,independent_human_qualification_review_pending:true,
   VA_ADL1_approved:false,legal_classifications_certified:false};
 }
