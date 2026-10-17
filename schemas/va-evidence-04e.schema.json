@@ -18,10 +18,10 @@
         "governance-decisions",
         "signer-enrollments",
         "storage-targets",
-        "VA-legal-issues",
+        "va-legal-issues",
         "source-temporal-index",
         "qualification-gates",
-        "VA-dossier"
+        "va-dossier"
       ],
       "type": "string"
     },
@@ -72,12 +72,12 @@
     {
       "properties": {
         "model_family": {
-          "const": "VA-legal-issues"
+          "const": "va-legal-issues"
         },
         "items": {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/VA-legal-issues"
+            "$ref": "#/$defs/va-legal-issues"
           }
         }
       }
@@ -111,12 +111,12 @@
     {
       "properties": {
         "model_family": {
-          "const": "VA-dossier"
+          "const": "va-dossier"
         },
         "items": {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/VA-dossier"
+            "$ref": "#/$defs/va-dossier"
           }
         }
       }
@@ -341,7 +341,7 @@
         }
       }
     },
-    "VA-legal-issues": {
+    "va-legal-issues": {
       "type": "object",
       "additionalProperties": false,
       "required": [
@@ -538,7 +538,7 @@
         }
       }
     },
-    "VA-dossier": {
+    "va-dossier": {
       "type": "object",
       "additionalProperties": false,
       "required": [

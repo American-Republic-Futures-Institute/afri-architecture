@@ -1,6 +1,6 @@
 // ARFI Inc04E: strict research model; no CI may ratify governance, register a custodian, or certify ADL-1.
 export const FAMILIES=Object.freeze(["governance-decisions","signer-enrollments","storage-targets",
- "VA-legal-issues","source-temporal-index","qualification-gates","VA-dossier"]);
+ "va-legal-issues","source-temporal-index","qualification-gates","va-dossier"]);
 export const PATHS=FAMILIES.map(x=>"model/federal/inc04e/"+x+".json");
 export const UPSTREAM=["model/federal/inc04d/observed-source-receipts.json",
  "model/federal/inc04d/coverage.json","model/federal/inc04d/legal-identities.json",
@@ -111,7 +111,7 @@ export function validate04E(manifest,files,schema){
    x.CloudTrail_data_events_verified===false&&x.backend_configured===false&&
    x.provider_proof_verified===false&&x.release_state==="blocked"),
   "unprovisioned WORM storage cannot self-attest");
- const legal=models["VA-legal-issues"];
+ const legal=models["va-legal-issues"];
  check(legal.length===6&&same(legal.map(x=>x.id),Object.keys(official).map(x=>"E04E-LEGAL-"+x)),
   "six independent VA legal issue records required");
  for(const [k,url]of Object.entries(official)){
@@ -144,8 +144,8 @@ export function validate04E(manifest,files,schema){
   gates.every(x=>x.evidence_sha256===null&&x.independent_reviewer_id===null&&
    x.verified===false&&x.waived===false&&x.status==="not_met"),
    "ADL1 gate cannot be bypassed or marked verified without a review packet");
- const d=models["VA-dossier"][0];
- check(models["VA-dossier"].length===1&&d.id==="E04E-VA-DOSSIER"&&
+ const d=models["va-dossier"][0];
+ check(models["va-dossier"].length===1&&d.id==="E04E-VA-DOSSIER"&&
   d.directory_source_heading_total===22&&d.dated_FOM_administration_count===3&&
   d.FOM_reported_assistant_secretary_roles===7&&d.FOM_reported_key_official_roles===5&&
   d.FOM_counts_are_not_disjoint_first_level_institution_denominators===true&&
@@ -165,7 +165,7 @@ export function validate04E(manifest,files,schema){
 }
 export function projectVA04E(valid,view){
  check(["legal","sources","qualification","governance"].includes(view),"unknown VA view");
- const key={legal:"VA-legal-issues",sources:"source-temporal-index",
+ const key={legal:"va-legal-issues",sources:"source-temporal-index",
   qualification:"qualification-gates",governance:"governance-decisions"}[view];
  return {view,items:valid.models[key],institutional_release_allowed:false,
   ADL1_certified:false,first_level_denominator:null};

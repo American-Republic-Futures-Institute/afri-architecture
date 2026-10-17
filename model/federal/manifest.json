@@ -157,10 +157,10 @@
     "model/federal/inc04e/governance-decisions.json",
     "model/federal/inc04e/signer-enrollments.json",
     "model/federal/inc04e/storage-targets.json",
-    "model/federal/inc04e/VA-legal-issues.json",
+    "model/federal/inc04e/va-legal-issues.json",
     "model/federal/inc04e/source-temporal-index.json",
     "model/federal/inc04e/qualification-gates.json",
-    "model/federal/inc04e/VA-dossier.json"
+    "model/federal/inc04e/va-dossier.json"
   ],
   "standards": [
     {
