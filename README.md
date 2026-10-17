@@ -151,3 +151,8 @@ See [Federal Institutional Census](docs/FEDERAL-INSTITUTIONAL-CENSUS.md). Valida
 
 The new [source-bounded institutional expansion](docs/FEDERAL-INSTITUTIONAL-EXPANSION.md) catalogs 58 *already-known* non-pilot canonical references, 24 unverified department candidates, four congressional committee candidates, and thirteen circuit court candidates. The extension makes the finite ARFI reference denominator explicit, while retaining unknown whole-government and complete first-level denominators. No ADL-1 completion, agency legal power, appropriations or website publication is asserted.
 
+
+## Cabinet source-bounded structure research — Increment 04
+
+See [the dated 12-department Government Manual granule reconciliation and four bounded official organizational views](docs/FEDERAL-DEPARTMENT-STRUCTURE-INC04.md). A 2025 granule is an official source locator; a named 2026 directory group is not a complete departmental hierarchy or lawful command/delegation. All 12 ADL-1 research gaps remain open. No website integration or executive legal-power assertion is made.
+

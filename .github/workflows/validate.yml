@@ -46,6 +46,19 @@ jobs:
           node scripts/validate-federal-expansion.mjs --view VIEW-EXP-JUDICIARY > /dev/null
       - name: Test cross-branch source provenance, ADL non-promotion and denominator security
         run: node --test tests/federal-expansion.test.mjs
+      - name: Validate Increment 04 dated federal departmental source granules and organizational boundaries
+        run: node scripts/validate-federal-department-structure.mjs --validate
+      - name: Validate nine Increment 04 strict JSON Schema model families
+        run: node scripts/validate-federal-department-structure-schema.mjs
+      - name: Project four dated department structures and the twelve official granule roots
+        run: |
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-GOVMAN-12 > /dev/null
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-JUSTICE > /dev/null
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-VA > /dev/null
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-TREASURY > /dev/null
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-COMMERCE > /dev/null
+      - name: Test official source identity, organizational boundaries, IG independence and ADL-1 safeguards
+        run: node --test tests/federal-department-structure.test.mjs
       - name: Validate constitutional authority catalog
         run: node scripts/validate-constitution.mjs
       - name: Run constitutional model regression tests
