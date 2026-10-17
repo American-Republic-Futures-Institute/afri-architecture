@@ -126,7 +126,14 @@
     "model/federal/department-structure/viewpoints.json",
     "model/federal/department-structure/gaps.json",
     "model/federal/department-structure/units.json",
-    "model/federal/department-structure/relationships.json"
+    "model/federal/department-structure/relationships.json",
+    "model/federal/archive04b/sources.json",
+    "model/federal/archive04b/hhs-source-entries.json",
+    "model/federal/archive04b/denominators.json",
+    "model/federal/archive04b/classification-review.json",
+    "model/federal/archive04b/change-journal.json",
+    "model/federal/archive04b/gaps.json",
+    "model/federal/archive04b/viewpoints.json"
   ],
   "standards": [
     {
@@ -451,5 +458,24 @@
     "extracted_source_group_unit_records": 80,
     "extracted_descriptive_relations": 80,
     "verified_source_group_denominators": 4
+  },
+  "federal_source_archive_extension": {
+    "id": "ARFI-COA-FED-SOURCE-ARCHIVE-004B",
+    "version": "0.1.0",
+    "predecessor": "ARFI-COA-FED-STRUCTURE-004",
+    "bounded_departments": 4,
+    "planned_source_captures": 8,
+    "hhs_linked_roster_entries": 28,
+    "source_group_total_named_entries": 95,
+    "source_group_contained_records_reconciled": 80,
+    "active_legal_classification_gates": 9,
+    "original_source_sha256_values_in_repo": 0,
+    "independent_source_archive_complete": false,
+    "all_department_adl1_certified": 0,
+    "verified_whole_dept_first_level_denominator": 0,
+    "external_live_capture_status": "planned_until_github_action_artifact_verified",
+    "website_published": false,
+    "independent_legal_review_complete": false,
+    "research_status": "unratified_source_boundaries_not_authority"
   }
 }

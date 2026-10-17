@@ -1,0 +1,62 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "gaps",
+  "items": [
+    {
+      "id": "ARCH04B-GAP-GOVMAN-BYTES",
+      "type": "required_research_closure",
+      "closure_condition": "Persist original GovInfo XML bytes and verify content SHA-256 against a replayable artifact, not text extracted by a parser.",
+      "closure_status": "open",
+      "complete_adl1_claim": false,
+      "legal_review_complete": false
+    },
+    {
+      "id": "ARCH04B-GAP-LIVE-DIRECTORY-BYTES",
+      "type": "required_research_closure",
+      "closure_condition": "Capture source response entities for all four agency webpages; mutable versions require timestamp and append-only source-change journal.",
+      "closure_status": "open",
+      "complete_adl1_claim": false,
+      "legal_review_complete": false
+    },
+    {
+      "id": "ARCH04B-GAP-HHS-STRUCTURE",
+      "type": "required_research_closure",
+      "closure_condition": "Establish whether the 2025 HHS chart group reflects authoritative current first-level reporting and whether any units were reclassified.",
+      "closure_status": "open",
+      "complete_adl1_claim": false,
+      "legal_review_complete": false
+    },
+    {
+      "id": "ARCH04B-GAP-JUSTICE-LEGAL",
+      "type": "required_research_closure",
+      "closure_condition": "Reconcile DOJ dated chart roles against statutory charters, IG special independence and signed direction/delegation instrument.",
+      "closure_status": "open",
+      "complete_adl1_claim": false,
+      "legal_review_complete": false
+    },
+    {
+      "id": "ARCH04B-GAP-TREASURY-COMPLETE",
+      "type": "required_research_closure",
+      "closure_condition": "Reconcile Treasury body-list 9 group with independently published complete official enterprise component roster and exceptions.",
+      "closure_status": "open",
+      "complete_adl1_claim": false,
+      "legal_review_complete": false
+    },
+    {
+      "id": "ARCH04B-GAP-VA-COMPLETE",
+      "type": "required_research_closure",
+      "closure_condition": "Verify VA Staff Offices/Administrations source group against the correct effective date, separate OIG/BVA adjudicative competence.",
+      "closure_status": "open",
+      "complete_adl1_claim": false,
+      "legal_review_complete": false
+    },
+    {
+      "id": "ARCH04B-GAP-ADL1",
+      "type": "required_research_closure",
+      "closure_condition": "No complete current first-level denominator established for any department: independent review and reconciliation required.",
+      "closure_status": "open",
+      "complete_adl1_claim": false,
+      "legal_review_complete": false
+    }
+  ]
+}

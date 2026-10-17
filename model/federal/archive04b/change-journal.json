@@ -1,0 +1,62 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "change-journal",
+  "items": [
+    {
+      "id": "ARCH04B-CHANGE-JUSTICE",
+      "type": "cross_source_temporal_reconciliation_placeholder",
+      "department_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "selected_source_id": "ARCH04B-DOJ-HTML",
+      "previous_source_artifact_hash": null,
+      "current_source_artifact_hash": null,
+      "change_detection_status": "awaiting_two_byte_verified_captures",
+      "source_edition_as_of": "2026-02-17",
+      "missing_entity_effect": "not_observed_not_disestablished",
+      "law_change_inferred": false,
+      "current_date_verification_complete": false,
+      "expected_followup": "Capture at least two exact source body versions, compute SHA-256 deltas and adjudicate source-change/canonical aliases."
+    },
+    {
+      "id": "ARCH04B-CHANGE-TREASURY",
+      "type": "cross_source_temporal_reconciliation_placeholder",
+      "department_id": "ORG-FED-EXE-DEP-TREASURY",
+      "selected_source_id": "ARCH04B-TREASURY-HTML",
+      "previous_source_artifact_hash": null,
+      "current_source_artifact_hash": null,
+      "change_detection_status": "awaiting_two_byte_verified_captures",
+      "source_edition_as_of": null,
+      "missing_entity_effect": "not_observed_not_disestablished",
+      "law_change_inferred": false,
+      "current_date_verification_complete": false,
+      "expected_followup": "Capture at least two exact source body versions, compute SHA-256 deltas and adjudicate source-change/canonical aliases."
+    },
+    {
+      "id": "ARCH04B-CHANGE-HHS",
+      "type": "cross_source_temporal_reconciliation_placeholder",
+      "department_id": "ORG-FED-EXE-DEP-HHS",
+      "selected_source_id": "ARCH04B-HHS-HTML",
+      "previous_source_artifact_hash": null,
+      "current_source_artifact_hash": null,
+      "change_detection_status": "awaiting_two_byte_verified_captures",
+      "source_edition_as_of": "2025-08-21",
+      "missing_entity_effect": "not_observed_not_disestablished",
+      "law_change_inferred": false,
+      "current_date_verification_complete": false,
+      "expected_followup": "Capture at least two exact source body versions, compute SHA-256 deltas and adjudicate source-change/canonical aliases."
+    },
+    {
+      "id": "ARCH04B-CHANGE-VA",
+      "type": "cross_source_temporal_reconciliation_placeholder",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "selected_source_id": "ARCH04B-VA-HTML",
+      "previous_source_artifact_hash": null,
+      "current_source_artifact_hash": null,
+      "change_detection_status": "awaiting_two_byte_verified_captures",
+      "source_edition_as_of": "2026-02-25",
+      "missing_entity_effect": "not_observed_not_disestablished",
+      "law_change_inferred": false,
+      "current_date_verification_complete": false,
+      "expected_followup": "Capture at least two exact source body versions, compute SHA-256 deltas and adjudicate source-change/canonical aliases."
+    }
+  ]
+}
