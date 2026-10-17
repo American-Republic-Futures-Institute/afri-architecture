@@ -1,0 +1,46 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "storage-targets",
+  "items": [
+    {
+      "id": "E04E-ARCHIVE-PRIMARY",
+      "type": "protected_archival_storage_target",
+      "description": "immutable_primary_repository",
+      "mechanism": "AWS_S3_Object_Lock_COMPLIANCE",
+      "AWS_account_id": null,
+      "bucket_name": null,
+      "bucket_region": null,
+      "customer_managed_KMS_key_ARN": null,
+      "object_lock_enabled_verified": false,
+      "versioning_enabled_verified": false,
+      "retention_policy_id": null,
+      "retention_until": null,
+      "read_only_attestation_manifest_sha256": null,
+      "CloudTrail_data_events_verified": false,
+      "distinct_operator_approved": false,
+      "backend_configured": false,
+      "provider_proof_verified": false,
+      "release_state": "blocked"
+    },
+    {
+      "id": "E04E-ARCHIVE-REPLICA",
+      "type": "protected_archival_storage_target",
+      "description": "independent_failure_domain_replica",
+      "mechanism": "Independent_provider_or_cross_account_write_once_replica",
+      "AWS_account_id": null,
+      "bucket_name": null,
+      "bucket_region": null,
+      "customer_managed_KMS_key_ARN": null,
+      "object_lock_enabled_verified": false,
+      "versioning_enabled_verified": false,
+      "retention_policy_id": null,
+      "retention_until": null,
+      "read_only_attestation_manifest_sha256": null,
+      "CloudTrail_data_events_verified": false,
+      "distinct_operator_approved": false,
+      "backend_configured": false,
+      "provider_proof_verified": false,
+      "release_state": "blocked"
+    }
+  ]
+}

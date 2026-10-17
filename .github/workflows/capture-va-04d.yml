@@ -1,0 +1,43 @@
+name: Capture VA functional manuals and statutes 04D
+on:
+  pull_request:
+    paths:
+      - "model/federal/inc04d/**"
+      - "scripts/capture-va-04d.mjs"
+      - ".github/workflows/capture-va-04d.yml"
+permissions:
+  contents: read
+jobs:
+  capture-originals:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/va-evidence-legal-reconciliation-inc04d'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Capture and check original public source bytes and manifest
+        run: |
+          node scripts/capture-va-04d.mjs --capture "$RUNNER_TEMP/arfi-04d"
+          node scripts/capture-va-04d.mjs --verify "$RUNNER_TEMP/arfi-04d"
+      - name: Install official packaged PDF inspection utilities
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+      - name: Verify FOM edition PDF page boundaries independently
+        run: |
+          test -f "$RUNNER_TEMP/arfi-04d/bytes/D04D-SRC-FOM1.pdf"
+          test -f "$RUNNER_TEMP/arfi-04d/bytes/D04D-SRC-FOM2.pdf"
+          pdfinfo "$RUNNER_TEMP/arfi-04d/bytes/D04D-SRC-FOM1.pdf" | grep -Eq '^Pages: +315$'
+          pdfinfo "$RUNNER_TEMP/arfi-04d/bytes/D04D-SRC-FOM2.pdf" | grep -Eq '^Pages: +506$'
+      - name: Preserve original bytes as temporary, unsigned evidence; not permanent archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arfi-04d-va-fom-and-law-original-bytes-UNRATIFIED
+          path: ${{ runner.temp }}/arfi-04d/
+          if-no-files-found: error
+          retention-days: 90
+      - name: Require both FOM originals and two dated statutes; separately disclose inaccessible CBCA history
+        run: node scripts/capture-va-04d.mjs --require-core "$RUNNER_TEMP/arfi-04d"

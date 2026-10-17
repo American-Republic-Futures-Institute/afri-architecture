@@ -1,0 +1,36 @@
+name: Replay VA original bytes for institutional trust 04E
+on:
+  pull_request:
+    paths:
+      - "model/federal/inc04e/**"
+      - "scripts/validate-va-04e-core.mjs"
+      - "scripts/arfi-evidence-ops-04e.mjs"
+      - ".github/workflows/replay-va-originals-04e.yml"
+permissions:
+  contents: read
+  actions: read
+jobs:
+  source-lineage:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/arfi-evidence-trust-activation-inc04e'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Retrieve previously hashed publisher response originals (no source impersonation)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 39042644962 --repo "$GITHUB_REPOSITORY" --name arfi-04d-va-fom-and-law-original-bytes-UNRATIFIED --dir "$RUNNER_TEMP/arfi-va04d-originals"
+      - name: Independently rehash VA FOMs and Code editions against pinned source receipts
+        run: node scripts/validate-va-04d.mjs --verify-originals "$RUNNER_TEMP/arfi-va04d-originals"
+      - name: Validate 04E governance and source model without privileged cloud access
+        run: |
+          node scripts/arfi-evidence-ops-04e.mjs --validate
+          node scripts/arfi-evidence-ops-04e.mjs --schema
+      - name: Confirm qualification remains source-research-only
+        run: |
+          node scripts/arfi-evidence-ops-04e.mjs --view qualification > "$RUNNER_TEMP/arfi-qualification-pending.json"
+          echo "No signing keys, cloud object writes, legal certification, or public publication performed."

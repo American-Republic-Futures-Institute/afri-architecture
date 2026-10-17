@@ -1,0 +1,23 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "trust-gates",
+  "items": [
+    {
+      "id": "D04D-TRUST",
+      "type": "institutional_signing_retention_gate",
+      "signing_alg": "Ed25519",
+      "canonicalization": "deterministic_sorted_JSON_UTF8_LF",
+      "hash_alg": "SHA-256",
+      "approved_signer": null,
+      "signer_fingerprint_sha256": null,
+      "retention_policy_id": null,
+      "ratified_retention_years": null,
+      "protected_archive_location": null,
+      "immutable_storage_proof": null,
+      "distinct_custodian_approval": null,
+      "independent_legal_approval": null,
+      "fully_attested": false,
+      "release_state": "blocked_missing_signer_retention_and_protection"
+    }
+  ]
+}
