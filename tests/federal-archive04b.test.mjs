@@ -115,6 +115,16 @@ reject("GovInfo package-local EntityId cannot be swapped for another federal age
 reject("GovInfo XML parent element cannot become an apparently complete nested agency list",f=>{
  lookup(f,"govman-xml-root-metadata","ARCH04B-XML-ROOT-VA").complete_first_level_department_denominator_verified=true;
 });
+test("each of nine still-unapproved legal classification gates has a source-specific research row",()=>{
+ const memo=fs.readFileSync(path.join(root,"docs/FEDERAL-LEGAL-CLASSIFICATION-INC04B.md"),"utf8");
+ const gateIds=verified.data["classification-review"].map(x=>x.id);
+ assert.equal(gateIds.length,9);
+ for(const id of gateIds)assert(memo.includes("`"+id+"`"),"No legal source research row for "+id);
+ assert.match(memo,/5 U\\.S\\.C\\. §412/);
+ assert.match(memo,/42 C\\.F\\.R\\. §405\\.1000/);
+ assert(verified.data["classification-review"].every(x=>x.legal_classification_final===false&&
+   x.independent_reviewer_id===null&&x.statute_subsection_verified===false));
+});
 reject("unrelated official source URL is not substitution for an existing government edition",f=>{
  lookup(f,"sources","ARCH04B-GOVMAN-HHS-XML").url="https://www.govinfo.gov/content/pkg/GOVMAN-2025-12-31/xml/GOVMAN-2025-12-31-125.xml";
 });
