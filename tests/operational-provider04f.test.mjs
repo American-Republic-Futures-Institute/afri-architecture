@@ -110,6 +110,24 @@ test("advanced CloudTrail data event selectors require eventCategory, object typ
  assert.throws(()=>inspectCloudTrailObjectDataSelectors({selectors,bucket:"different-bucket"}),
   /do not demonstrably cover/);
 });
+test("CloudTrail selector restricted to GetObject cannot prove primary writes",()=>{
+ const fields=[{Field:"eventCategory",Equals:["Data"]},
+  {Field:"resources.type",Equals:["AWS::S3::Object"]},
+  {Field:"resources.ARN",StartsWith:["arn:aws:s3:::arfi-primary-proof/"]},
+  {Field:"eventName",Equals:["GetObject"]}];
+ assert.throws(()=>inspectCloudTrailObjectDataSelectors({
+  selectors:{AdvancedEventSelectors:[{FieldSelectors:fields}]},bucket:"arfi-primary-proof"}),
+  /do not demonstrably cover/);
+});
+test("CloudTrail readOnly=true selector cannot prove retention write events",()=>{
+ const fields=[{Field:"eventCategory",Equals:["Data"]},
+  {Field:"resources.type",Equals:["AWS::S3::Object"]},
+  {Field:"resources.ARN",StartsWith:["arn:aws:s3:::arfi-primary-proof/"]},
+  {Field:"readOnly",Equals:["true"]}];
+ assert.throws(()=>inspectCloudTrailObjectDataSelectors({
+  selectors:{AdvancedEventSelectors:[{FieldSelectors:fields}]},bucket:"arfi-primary-proof"}),
+  /do not demonstrably cover/);
+});
 test("management-only CloudTrail without data-event selector cannot authorize archive",()=>{
  assert.throws(()=>inspectCloudTrailObjectDataSelectors({selectors:{
   EventSelectors:[{ReadWriteType:"All",IncludeManagementEvents:true,DataResources:[]}]
