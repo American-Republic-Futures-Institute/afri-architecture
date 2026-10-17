@@ -51,6 +51,12 @@ Eight model-only views exist: VIEW-DOD-COMPOSITION, VIEW-DOD-DAFA, VIEW-DOD-COMM
 
 Each is a read-only, source-traced bounded graph. They are **not yet rendered by the public ARFI website**. The version contract and stable IDs must be honored by a subsequent independent website PR; constitutional focused views and comments remain unchanged.
 
+### Source citation integrity and legal-edition limitation
+
+The model now requires a **source-identity-to-locator match** in addition to an official HTTPS hostname. A statutory record for 10 U.S.C. §162 cannot be silently retargeted to an unrelated section of the official U.S. Code, and the GAO DAFA figure cannot be replaced with a different official GAO report without updating the versioned evidence contract and undergoing review.
+
+The OLRC URL segment `/119-118/` is a citation locator, **not independently verified evidence of an immutable law edition**. When reviewed, that government page's displayed header stated *laws in effect through Public Law 119-120 (October 7, 2026)*. The model records that displayed source-version claim and review context, not a cryptographically frozen copy or a completed subsequent-law/citator check. Up-to-date legal conclusions must recheck the source text, effective amendments and controlling law. A future increment should retain exact archived statute artifacts and hashes.
+
 ## Validation
 
 Commands:

@@ -19,6 +19,18 @@ const reject=(name,change,error)=>test(name,()=>{
  const f=structuredClone(initial);change(f);
  assert.throws(()=>validateDod(f.manifest,f.files),new RegExp(error));
 });
+reject("DoD statutory source identifiers cannot silently point to another official section",f=>{
+ find(f,"source-registry","DOD-SRC-10-162").url="https://uscode.house.gov/us/usc/119-118/t10/s163/";
+},"source ID / official locator mismatch");
+reject("DoD statute title in an official locator must match its declared title",f=>{
+ find(f,"source-registry","DOD-SRC-31-1301").url="https://uscode.house.gov/us/usc/119-118/t10/s1301/";
+},"source ID / official locator mismatch");
+reject("GAO DAFA roster source cannot be substituted with a different official government report",f=>{
+ find(f,"source-registry","DOD-SRC-GAO-DAFA-2026").url="https://files.gao.gov/reports/GAO-26-999999/index.html";
+},"source ID / official locator mismatch");
+reject("legal authority cannot cite a federal code page dressed up as an unrelated source type",f=>{
+ find(f,"source-registry","DOD-SRC-10-162").type="official_agency_directory";
+},"source ID / statute type mismatch");
 test("all nineteen public DoD collection types conform to exact versioned field contracts",()=>{
  const schema=read("schemas/dod-institutional.schema.json");
  const result=checkDodSchema(schema,initial.files);

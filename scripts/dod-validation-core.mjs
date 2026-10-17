@@ -55,6 +55,22 @@ export function validateDod(manifest,files){
   check(official(s.url)&&s.accessed_on==="2026-10-16"&&typeof s.source_version==="string"&&
    typeof s.evidence_scope==="string"&&s.evidence_scope.length>=18&&s.legal_review_status,
    "nonofficial or unfixed source "+s.id);
+  // A trusted .gov hostname alone cannot prove a cited section or figure.
+  // Freeze the exact cited official locator for this source-bounded v0.1.0 model.
+  const sourceMatch=/^DOD-SRC-(10|14|31)-([0-9]+)$/.exec(s.id);
+  const nonstatuteLocators={
+   "DOD-SRC-GAO-DAFA-2026":"https://files.gao.gov/reports/GAO-26-107781/index.html",
+   "DOD-SRC-GOVMAN-2025-DOD":"https://www.govinfo.gov/app/details/GOVMAN-2025-12-31/GOVMAN-2025-12-31-114",
+   "DOD-SRC-DEFENSE-ABOUT-2026":"https://www.defense.gov/About/our/",
+   "DOD-SRC-FY26-DEFENSE-WIDE":"https://comptroller.defense.gov/BudgetMaterials/FY2026budgetjustification.aspx"
+  };
+  const expectedLocator=sourceMatch
+   ? `https://uscode.house.gov/us/usc/119-118/t${sourceMatch[1]}/s${sourceMatch[2]}/`
+   : nonstatuteLocators[s.id];
+  check(typeof expectedLocator==="string"&&s.url===expectedLocator,
+   "source ID / official locator mismatch "+s.id);
+  check((s.type==="official_codified_statute")===Boolean(sourceMatch),
+   "source ID / statute type mismatch "+s.id);
   if(s.type==="official_codified_statute")
    check(s.source_version==="through_public_law_119-120_2026-10-07"&&
     /^DOD-SRC-(10|14|31)-[0-9]+$/.test(s.id),"unsupported statute revision "+s.id);
