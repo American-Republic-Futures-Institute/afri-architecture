@@ -43,6 +43,12 @@ Nine strict machine-readable research families include archive index, VA directo
 
 The original HHS chart URL returned HTTP 403 to the authorized GitHub runner. A separately accessible 2026 HHS organization overview or GovInfo 2025 XML is a **different evidence source**, not the byte-verified original chart. The only proposed next retrieval paths are a publisher-supplied file or an independently identified official public alternative with written permission where needed; retain its distinct edition/source identity. No proxy evasion, bypass of 403 or fictitious FOIA/request completion.
 
+## Contract appeals succession research: an unresolved legal crosswalk, not a deleted institution
+
+The [official Civilian Board of Contract Appeals history](https://cbca.gov/board/) states that the CBCA began on January 6, 2007, under §847 of Pub. L. 109-163 and consolidated the functions of eight boards, **including the former Department of Veterans Affairs Board of Contract Appeals**. [41 U.S.C. §7105(b), (e)](https://www.govinfo.gov/content/pkg/USCODE-2024-title41/html/USCODE-2024-title41-subtitleIII-chap71.htm) places the current Civilian Board in the General Services Administration and defines its covered civilian executive agency contract-disputes jurisdiction.
+
+That evidence supports a **candidate historical function-transfer event**, not the inference that 38 U.S.C. §301(c)(7) has been repealed, that every historical board power transferred identically, or that the VA statutory composition can be rewritten without legal review. In the data model, the `AR04C-VA-STAT-301-C-7` reference and `AR04C-GAP-VA-CONTRACT-APPEALS` gap therefore remain unchanged and unresolved. A later source-reconciled crosswalk must explicitly distinguish statute text, former institutional identity, transferred adjudicative jurisdiction, effective-date instrument, successor GSA institution and any residual VA competence.
+
 ## Required closing gates
 
 Unresolved VA issues include Office of Secretary, Veterans' Canteen Service, Board of Contract Appeals, open statutory composition classes, OIG, BVA, OEDCA, both March 2025 VA functional manuals, whole-department first-level denominator and unsigned/not-yet-retained original byte storage. No absence means an institution was abolished; no organizational diagram creates a statutory power.
