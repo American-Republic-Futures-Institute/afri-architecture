@@ -73,6 +73,16 @@ jobs:
         run: node --test tests/federal-archive04b.test.mjs
       - name: Test exact captured byte SHA-256, tampering, redirect and change-detection controls
         run: node --test tests/federal-source-capture.test.mjs
+      - name: Validate Increment 04C source custody, VA directory and statutory composition research
+        run: node scripts/validate-federal-evidence04c.mjs --validate
+      - name: Validate all nine Increment 04C strict JSON Schema models
+        run: node scripts/validate-federal-evidence04c-schema.mjs
+      - name: Test VA legal composition, independent signoff and source provenance safeguards
+        run: node --test tests/federal-evidence04c.test.mjs
+      - name: Test Ed25519 signer allowlist, content-addressed objects and tampering controls
+        run: node --test tests/durable-evidence04c.test.mjs
+      - name: Test VA 3 plus 19 source-heading parser
+        run: python3 -m unittest discover -s tests -p 'test_va_source_04c.py'
       - name: Validate constitutional authority catalog
         run: node scripts/validate-constitution.mjs
       - name: Run constitutional model regression tests
