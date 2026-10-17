@@ -72,6 +72,15 @@ if(command==="--verify-provider"&&args.length===7){
  const get=async a=>(await cli("aws",a,options)).stdout;
  const identity=JSON.parse(await get(["sts","get-caller-identity",...argsAWS]));
  if(identity.Account!==match[2])throw Error("CloudTrail validation credential must match explicit trail account");
+ const details=JSON.parse(await get(["cloudtrail","describe-trails",
+  "--trail-name-list",trailArn,...argsAWS]));
+ const t=details.trailList?.find(x=>x.TrailARN===trailArn);
+ if(!t||t.LogFileValidationEnabled!==true||!t.S3BucketName)
+  throw Error("CloudTrail trail must have signed digest validation and a concrete delivery bucket");
+ const trailStatus=JSON.parse(await get(["cloudtrail","get-trail-status",
+  "--name",trailArn,...argsAWS]));
+ if(trailStatus.IsLogging!==true||!trailStatus.LatestDigestDeliveryTime)
+  throw Error("CloudTrail trail must be actively delivering signed digest files");
  const selectors=JSON.parse(await get(["cloudtrail","get-event-selectors",
   "--trail-name",trailArn,...argsAWS]));
  const scope=inspectCloudTrailObjectDataSelectors({selectors,bucket});
