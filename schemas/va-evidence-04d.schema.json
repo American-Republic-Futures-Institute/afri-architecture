@@ -1,0 +1,568 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/va-evidence-04d-v0.1.0.schema.json",
+  "title": "ARFI VA Inc04D Source and Unratified Legal Institutions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "type": "string",
+      "enum": [
+        "source-targets",
+        "statutory-crosswalk",
+        "legal-identities",
+        "temporal-events",
+        "trust-gates",
+        "review-approvals",
+        "coverage"
+      ]
+    },
+    "items": {
+      "type": "array"
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "model_family": {
+          "const": "source-targets"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source-targets"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "statutory-crosswalk"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statutory-crosswalk"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "legal-identities"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/legal-identities"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "temporal-events"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/temporal-events"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "trust-gates"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/trust-gates"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "review-approvals"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/review-approvals"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "coverage"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/coverage"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "source-targets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "byte_capture_verified",
+        "captured_at",
+        "description",
+        "edition",
+        "id",
+        "immutable_promotion_verified",
+        "independently_reviewed",
+        "mime",
+        "observed_bytes",
+        "observed_sha256",
+        "type",
+        "url"
+      ],
+      "properties": {
+        "byte_capture_verified": {
+          "const": false
+        },
+        "captured_at": {
+          "const": null
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "immutable_promotion_verified": {
+          "const": false
+        },
+        "independently_reviewed": {
+          "const": false
+        },
+        "mime": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_bytes": {
+          "const": null
+        },
+        "observed_sha256": {
+          "const": null
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        }
+      }
+    },
+    "statutory-crosswalk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "absence_means_abolished",
+        "citation",
+        "current_legal_status_verified",
+        "human_approved",
+        "id",
+        "label",
+        "matched_directory_candidate",
+        "predecessor_id",
+        "regulatory_delegation_verified",
+        "source_edition_bytes_verified",
+        "source_id",
+        "type"
+      ],
+      "properties": {
+        "absence_means_abolished": {
+          "const": false
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_legal_status_verified": {
+          "const": false
+        },
+        "human_approved": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "matched_directory_candidate": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "predecessor_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "regulatory_delegation_verified": {
+          "const": false
+        },
+        "source_edition_bytes_verified": {
+          "const": false
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "legal-identities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adjudicative_jurisdiction_verified",
+        "basis",
+        "department",
+        "id",
+        "legal_review_approved",
+        "name",
+        "organizational_reporting_verified",
+        "source_sha256",
+        "statutory_status_current",
+        "type"
+      ],
+      "properties": {
+        "adjudicative_jurisdiction_verified": {
+          "const": false
+        },
+        "basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "department": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_review_approved": {
+          "const": false
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "organizational_reporting_verified": {
+          "const": false
+        },
+        "source_sha256": {
+          "const": null
+        },
+        "statutory_status_current": {
+          "const": false
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "temporal-events": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "complete_legal_transfer_verified",
+        "from_id",
+        "id",
+        "publisher_effective_date",
+        "reviewer",
+        "source_ids",
+        "status",
+        "statute_38_301_c7_repealed_inferred",
+        "to_id",
+        "type"
+      ],
+      "properties": {
+        "complete_legal_transfer_verified": {
+          "const": false
+        },
+        "from_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "publisher_effective_date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer": {
+          "const": null
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statute_38_301_c7_repealed_inferred": {
+          "const": false
+        },
+        "to_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "trust-gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "approved_signer",
+        "canonicalization",
+        "distinct_custodian_approval",
+        "fully_attested",
+        "hash_alg",
+        "id",
+        "immutable_storage_proof",
+        "independent_legal_approval",
+        "protected_archive_location",
+        "ratified_retention_years",
+        "release_state",
+        "retention_policy_id",
+        "signer_fingerprint_sha256",
+        "signing_alg",
+        "type"
+      ],
+      "properties": {
+        "approved_signer": {
+          "const": null
+        },
+        "canonicalization": {
+          "type": "string",
+          "minLength": 1
+        },
+        "distinct_custodian_approval": {
+          "const": null
+        },
+        "fully_attested": {
+          "const": false
+        },
+        "hash_alg": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "immutable_storage_proof": {
+          "const": null
+        },
+        "independent_legal_approval": {
+          "const": null
+        },
+        "protected_archive_location": {
+          "const": null
+        },
+        "ratified_retention_years": {
+          "const": null
+        },
+        "release_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retention_policy_id": {
+          "const": null
+        },
+        "signer_fingerprint_sha256": {
+          "const": null
+        },
+        "signing_alg": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "review-approvals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "approval_signature_sha256",
+        "approved_at",
+        "decision",
+        "id",
+        "reviewer",
+        "role",
+        "type"
+      ],
+      "properties": {
+        "approval_signature_sha256": {
+          "const": null
+        },
+        "approved_at": {
+          "const": null
+        },
+        "decision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "reviewer": {
+          "const": null
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ADL1_certified",
+        "administrations",
+        "current_FOM_sources_verified",
+        "directory_listed",
+        "full_department_first_level_denominator",
+        "human_approvals",
+        "id",
+        "legal_certified",
+        "matched_statute_to_directory",
+        "residual_statutory_categories",
+        "staff_offices",
+        "statutory_clauses",
+        "type",
+        "verified_first_level_members"
+      ],
+      "properties": {
+        "ADL1_certified": {
+          "const": false
+        },
+        "administrations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "current_FOM_sources_verified": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "directory_listed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "full_department_first_level_denominator": {
+          "const": null
+        },
+        "human_approvals": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_certified": {
+          "const": false
+        },
+        "matched_statute_to_directory": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "residual_statutory_categories": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "staff_offices": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "statutory_clauses": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verified_first_level_members": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}
