@@ -146,3 +146,8 @@ DHS and Education now have source-indexed, bounded codified statutory authority 
 The new independent `model/federal/coverage/` model family indexes **61 existing canonical federal institution identities**, with 13 conservative classification families, **29 explicitly partial first-level records** for Defense, DHS and Education, eight sourced official references, four source-version contexts, nine open research gaps and four declarative model-only views. No whole-government denominator, completed organizational inventory, verified department-wide legal power or operational delegation is asserted. An independent Architectural Decomposition Level (ADL) research scale distinguishes source identification from structural, legal, fiscal, operational and performance completeness.
 
 See [Federal Institutional Census](docs/FEDERAL-INSTITUTIONAL-CENSUS.md). Validate using `node scripts/validate-federal-census.mjs --validate`, `node scripts/validate-federal-census-schema.mjs`, and `node --test tests/federal-census.test.mjs`. Website rendering and additional department research remain separate PRs.
+
+## Federal census expansion — Increment 03
+
+The new [source-bounded institutional expansion](docs/FEDERAL-INSTITUTIONAL-EXPANSION.md) catalogs 58 *already-known* non-pilot canonical references, 24 unverified department candidates, four congressional committee candidates, and thirteen circuit court candidates. The extension makes the finite ARFI reference denominator explicit, while retaining unknown whole-government and complete first-level denominators. No ADL-1 completion, agency legal power, appropriations or website publication is asserted.
+
