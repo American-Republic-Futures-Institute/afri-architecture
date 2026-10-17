@@ -42,6 +42,30 @@ test("synthetic sources capture exact decoded response bytes and verify 8 crypto
   const raw=await fs.readFile(path.join(dir,x.relative_path));
   assert.equal(hash(raw),x.sha256);
   assert.equal(result.archival_status,"github_actions_artifact_temporary_requires_durable_retention_promotion");
+  assert.equal(result.capture_complete,true);
+  assert.equal(result.uncaptured_sources.length,0);
+ });
+});
+test("public HHS 403 is preserved as an unavailable-source record without losing seven valid SHA-256 captures",async()=>{
+ await withDir(async dir=>{
+  const id="ARCH04B-HHS-HTML";
+  const archive=await captureOfficialSources({sources,outputDir:dir,
+    fetchImpl:mock({[id]:{status:403}}),allowPartial:true});
+  const report=await verifyCaptureArchive(dir,archive);
+  assert.equal(archive.capture_complete,false);
+  assert.equal(report.verified_sha256,7);
+  assert.equal(report.uncaptured,1);
+  assert.equal(archive.uncaptured_sources[0].source_id,id);
+  assert.match(archive.uncaptured_sources[0].reason,/HTTP 403/);
+  assert.equal(archive.archival_status,"github_actions_partial_artifact_missing_sources_requires_followup");
+ });
+});
+test("a missing-source receipt cannot simultaneously report that source as successfully captured",async()=>{
+ await withDir(async dir=>{
+  const archive=await captureOfficialSources({sources,outputDir:dir,
+    fetchImpl:mock({[sources[0].id]:{status:403}}),allowPartial:true});
+  archive.uncaptured_sources[0].source_id=archive.captures[0].source_id;
+  await assert.rejects(()=>verifyCaptureArchive(dir,archive),/same source cannot be both archived and missing|missing required source accounting/);
  });
 });
 test("one-byte alteration fails independent receipt verification",async()=>{

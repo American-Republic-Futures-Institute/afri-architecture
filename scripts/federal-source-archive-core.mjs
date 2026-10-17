@@ -79,12 +79,19 @@ async function fetchBounded(s,fetchImpl){
  return {data,final_url:current,content_type:mime,
   etag:response.headers.get("etag"),last_modified:response.headers.get("last-modified")};
 }
-export async function captureOfficialSources({sources,outputDir,fetchImpl=fetch,capturedAt=()=>new Date().toISOString()}){
+export async function captureOfficialSources({sources,outputDir,fetchImpl=fetch,capturedAt=()=>new Date().toISOString(),allowPartial=false}){
  assertTargets(sources);
- const records=[];
+ const records=[],errors=[];
  await fs.mkdir(path.join(outputDir,"bytes"),{recursive:true});
  for(const s of sources){
-  const result=await fetchBounded(s,fetchImpl);
+  let result;
+  try{result=await fetchBounded(s,fetchImpl);}
+  catch(err){
+   if(!allowPartial)throw err;
+   errors.push({source_id:s.id,status:"not_archived",
+    reason:String(err?.message||err).slice(0,500),source_url:s.url});
+   continue;
+  }
   const extension=s.media_type==="application/xml"?"xml":"html";
   const filename=s.id+"."+extension,relativePath="bytes/"+filename;
   await fs.writeFile(path.join(outputDir,relativePath),result.data,{flag:"wx"});
@@ -103,19 +110,34 @@ export async function captureOfficialSources({sources,outputDir,fetchImpl=fetch,
  }
  const archive={version:"ARFI-EVIDENCE-CAPTURE-0.1.0",
   scope:"eight_explicit_official_website_2025_govman_and_dated_department_org_group_sources",
-  archival_status:"github_actions_artifact_temporary_requires_durable_retention_promotion",
+  archival_status:errors.length?
+   "github_actions_partial_artifact_missing_sources_requires_followup":
+   "github_actions_artifact_temporary_requires_durable_retention_promotion",
   primary_bytes_archived_in_repository:false,
-  captures:records};
+  captures:records,uncaptured_sources:errors,
+  capture_complete:errors.length===0&&records.length===8};
  await fs.writeFile(path.join(outputDir,"archive-manifest.json"),JSON.stringify(archive,null,2)+"\n",{flag:"wx"});
  await verifyCaptureArchive(outputDir,archive);
  return archive;
 }
 export async function verifyCaptureArchive(root,manifest){
  if(manifest?.version!=="ARFI-EVIDENCE-CAPTURE-0.1.0"||
-  manifest?.archival_status!=="github_actions_artifact_temporary_requires_durable_retention_promotion"||
   manifest.primary_bytes_archived_in_repository!==false||
-  !Array.isArray(manifest.captures)||manifest.captures.length!==8)
-   throw Error("archival manifest schema / record count rejected");
+  !Array.isArray(manifest.captures)||!Array.isArray(manifest.uncaptured_sources)||
+  manifest.captures.length+manifest.uncaptured_sources.length!==8||
+  manifest.capture_complete!==(manifest.uncaptured_sources.length===0&&manifest.captures.length===8)||
+  manifest.archival_status!==(manifest.capture_complete?
+   "github_actions_artifact_temporary_requires_durable_retention_promotion":
+   "github_actions_partial_artifact_missing_sources_requires_followup"))
+   throw Error("archival manifest schema / completeness rejected");
+ const missing=new Set();
+ for(const e of manifest.uncaptured_sources){
+  if(!CAPTURE_IDS.includes(e.source_id)||missing.has(e.source_id)||
+   e.status!=="not_archived"||e.source_url!==EXPECTED_URLS[e.source_id]||
+   typeof e.reason!=="string"||!e.reason)
+   throw Error("invalid, duplicate or unbounded missing-source record");
+  missing.add(e.source_id);
+ }
  const seen=new Set();
  for(const c of manifest.captures){
   if(seen.has(c.source_id)||!CAPTURE_IDS.includes(c.source_id)||
@@ -126,6 +148,7 @@ export async function verifyCaptureArchive(root,manifest){
    c.identity_marker_verified!==true||c.independent_legal_review_completed!==false||
    c.current_department_first_level_complete!==false)
     throw Error("unverified or tampered source receipt "+c.source_id);
+  if(missing.has(c.source_id))throw Error("same source cannot be both archived and missing");
   seen.add(c.source_id);
   const realpath=path.resolve(root,c.relative_path),dir=path.resolve(root,"bytes");
   if(path.dirname(realpath)!==dir)throw Error("archive path traversal attempt");
@@ -133,8 +156,12 @@ export async function verifyCaptureArchive(root,manifest){
   if(raw.length!==c.byte_count||hash(raw)!==c.sha256)
    throw Error("archive bytes SHA-256 mismatch "+c.source_id);
  }
+ if([...CAPTURE_IDS].some(id=>!seen.has(id)&&!missing.has(id)))throw Error("missing required source accounting");
  return {files:manifest.captures.length,verified_sha256:manifest.captures.length,
-  verification_status:"exact_captured_response_bytes_verified_not_permanent_repository_archive"};
+  uncaptured:manifest.uncaptured_sources.length,complete:manifest.capture_complete,
+  verification_status:manifest.capture_complete?
+  "exact_eight_captured_response_bytes_verified_not_permanent_repository_archive":
+  "partial_captured_bytes_verified_some_official_sources_unavailable"};
 }
 export function compareCapturedVersions(previous,current){
  if(!previous||!current||previous.source_id!==current.source_id||

@@ -20,13 +20,15 @@ jobs:
           node-version: "22"
       - name: Capture original HTTP response entity bytes and compute SHA-256 receipts
         run: |
-          node scripts/capture-federal-official-sources.mjs --live "$RUNNER_TEMP/arfi-source-capture04b"
+          node scripts/capture-federal-official-sources.mjs --live "$RUNNER_TEMP/arfi-source-capture04b" --allow-partial
           node scripts/capture-federal-official-sources.mjs --verify "$RUNNER_TEMP/arfi-source-capture04b"
       - name: Retain exact captured bytes and SHA-256 manifest as review artifact
-        if: success()
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: arfi-federal-primary-source-capture-04b
           path: ${{ runner.temp }}/arfi-source-capture04b/
           if-no-files-found: error
           retention-days: 90
+      - name: Require eight completed official source captures before archive gate passes
+        run: node scripts/capture-federal-official-sources.mjs --require-all "$RUNNER_TEMP/arfi-source-capture04b"
