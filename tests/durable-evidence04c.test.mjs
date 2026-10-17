@@ -95,6 +95,19 @@ test("a path-traversal attempt in an object locator fails closed",async()=>{
   await assert.rejects(()=>verifyRegistry({directory:root}),/tampered content-addressed/);
  });
 });
+test("symbolic-link ancestor escaping protected staging root cannot substitute source bytes",async()=>{
+ await withArchive(async({root,index})=>{
+  const record=index.entries[0],original=path.join(root,record.object_key);
+  const parent=path.dirname(original),external=await fs.mkdtemp(path.join(os.tmpdir(),"arfi04c-escape-"));
+  try{
+   await fs.rename(original,path.join(external,path.basename(original)));
+   await fs.rmdir(parent);
+   await fs.symlink(external,parent,"dir");
+   await assert.rejects(()=>verifyRegistry({directory:root}),
+    /resolves outside evidence root through symbolic link/);
+  }finally{await fs.rm(external,{recursive:true,force:true});}
+ });
+});
 test("an index cannot claim legal approval or full archive by flipping metadata",async()=>{
  await withArchive(async({root,index})=>{
   index.VA_ADL1_certified=true;

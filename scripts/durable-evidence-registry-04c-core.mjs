@@ -17,6 +17,9 @@ async function readObject(root,relative){
  check(p.startsWith(path.resolve(root)+path.sep),"archive object path traversal");
  const stat=await fs.lstat(p);
  check(stat.isFile()&&!stat.isSymbolicLink(),"source object must be a regular file");
+ const actualRoot=await fs.realpath(root),actualFile=await fs.realpath(p);
+ check(actualFile.startsWith(actualRoot+path.sep),
+  "archive object resolves outside evidence root through symbolic link");
  return fs.readFile(p);
 }
 export function validatePinnedReceipts(rows){
