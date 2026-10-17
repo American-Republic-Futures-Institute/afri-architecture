@@ -1,0 +1,46 @@
+name: Replay original VA and federal source bytes for 04F temporary contingency
+on:
+  pull_request:
+    paths:
+      - "model/federal/inc04f/**"
+      - "model/federal/archive04b/observed-capture-receipts.json"
+      - "model/federal/inc04d/observed-source-receipts.json"
+      - "scripts/replay-originals-04f-core.mjs"
+      - "scripts/operational-custody-04f.mjs"
+      - ".github/workflows/replay-evidence-originals-04f.yml"
+permissions:
+  contents: read
+  actions: read
+jobs:
+  replay-and-stage:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/operational-evidence-custody-inc04f'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Retrieve exact original 04B 7-source artifact from historical GitHub Actions run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 38990195886 --repo "$GITHUB_REPOSITORY" --name arfi-federal-primary-source-capture-04b --dir "$RUNNER_TEMP/arfi-04f-source04b"
+      - name: Retrieve exact original VA manual and statutory 04D 4-source artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 39042644962 --repo "$GITHUB_REPOSITORY" --name arfi-04d-va-fom-and-law-original-bytes-UNRATIFIED --dir "$RUNNER_TEMP/arfi-04f-source04d"
+      - name: Rehash eleven publisher response bodies against approved historical receipt identities and canonical metadata
+        run: |
+          node scripts/operational-custody-04f.mjs --stage "$RUNNER_TEMP/arfi-04f-source04b" "$RUNNER_TEMP/arfi-04f-source04d" "$RUNNER_TEMP/arfi-04f-staged"
+          node scripts/operational-custody-04f.mjs --verify "$RUNNER_TEMP/arfi-04f-staged"
+      - name: Keep an UNSIGNED, TEMPORARY candidate backup pending approved institute source archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: arfi-04f-eleven-original-source-bytes-UNSIGNED-NOT-WORM
+          path: ${{ runner.temp }}/arfi-04f-staged/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Assert institutional root, immutable replica, audit and legal review are not claimed complete
+        run: node scripts/operational-custody-04f.mjs --release-readiness
