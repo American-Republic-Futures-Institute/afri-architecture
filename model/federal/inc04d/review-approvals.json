@@ -1,0 +1,60 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "review-approvals",
+  "items": [
+    {
+      "id": "D04D-REVIEW-SOURCE-CUSTODIAN",
+      "type": "human_review_gate",
+      "role": "source_custodian",
+      "reviewer": null,
+      "approval_signature_sha256": null,
+      "decision": "pending",
+      "approved_at": null
+    },
+    {
+      "id": "D04D-REVIEW-RECORDS-OFFICER",
+      "type": "human_review_gate",
+      "role": "records_officer",
+      "reviewer": null,
+      "approval_signature_sha256": null,
+      "decision": "pending",
+      "approved_at": null
+    },
+    {
+      "id": "D04D-REVIEW-INSTITUTIONAL-ARCHITECT",
+      "type": "human_review_gate",
+      "role": "institutional_architect",
+      "reviewer": null,
+      "approval_signature_sha256": null,
+      "decision": "pending",
+      "approved_at": null
+    },
+    {
+      "id": "D04D-REVIEW-STATUTORY-COUNSEL",
+      "type": "human_review_gate",
+      "role": "statutory_counsel",
+      "reviewer": null,
+      "approval_signature_sha256": null,
+      "decision": "pending",
+      "approved_at": null
+    },
+    {
+      "id": "D04D-REVIEW-IG-ADJUDICATION-REVIEWER",
+      "type": "human_review_gate",
+      "role": "IG_adjudication_reviewer",
+      "reviewer": null,
+      "approval_signature_sha256": null,
+      "decision": "pending",
+      "approved_at": null
+    },
+    {
+      "id": "D04D-REVIEW-CITATOR-REVIEWER",
+      "type": "human_review_gate",
+      "role": "citator_reviewer",
+      "reviewer": null,
+      "approval_signature_sha256": null,
+      "decision": "pending",
+      "approved_at": null
+    }
+  ]
+}

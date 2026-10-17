@@ -1,0 +1,862 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/federal-evidence-registry-04c-0.1.0.schema.json",
+  "title": "ARFI Increment 04C source custody, VA statutory composition and provisional institution census",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "type": "string",
+      "enum": [
+        "archive-index",
+        "va-directory",
+        "va-statutory-composition",
+        "va-coverage",
+        "va-gaps",
+        "approvals",
+        "trust-policy",
+        "hhs-acquisition",
+        "va-source-versions"
+      ]
+    },
+    "items": {
+      "type": "array"
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "model_family": {
+          "const": "archive-index"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/archive-index"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "va-directory"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/va-directory"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "va-statutory-composition"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/va-statutory-composition"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "va-coverage"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/va-coverage"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "va-gaps"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/va-gaps"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "approvals"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/approvals"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "trust-policy"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/trust-policy"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "hhs-acquisition"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/hhs-acquisition"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "va-source-versions"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/va-source-versions"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "archive-index": {
+      "type": "object",
+      "required": [
+        "durable_object_verified",
+        "durable_repository_commit",
+        "first_level_completeness_verified",
+        "id",
+        "immutable_object_key",
+        "legal_classification_verified",
+        "observed_at",
+        "observed_bytes",
+        "observed_sha256",
+        "original_capture_run_id",
+        "prior_receipt_id",
+        "promoted_retention_status",
+        "source_id",
+        "source_url",
+        "temporary_artifact_id",
+        "trusted_signature_verified",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "durable_object_verified": {
+          "const": false
+        },
+        "durable_repository_commit": {
+          "const": null
+        },
+        "first_level_completeness_verified": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "immutable_object_key": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "legal_classification_verified": {
+          "const": false
+        },
+        "observed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "observed_bytes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "observed_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "original_capture_run_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "prior_receipt_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "promoted_retention_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "temporary_artifact_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "trusted_signature_verified": {
+          "const": false
+        },
+        "type": {
+          "const": "content_addressed_evidence_slot"
+        }
+      }
+    },
+    "va-directory": {
+      "type": "object",
+      "required": [
+        "approval_status",
+        "canonical_department_id",
+        "date_basis",
+        "first_level_organizational_membership_verified",
+        "id",
+        "inc04a_candidate_id",
+        "legal_authority_verified",
+        "name",
+        "original_class",
+        "reporting_parent_verified",
+        "source_group",
+        "source_heading",
+        "source_id",
+        "source_occurrence_verified_against_received_html",
+        "source_relative_heading_ordinal",
+        "source_sha256",
+        "source_url",
+        "statutory_subtype_verified",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "approval_status": {
+          "const": "research_pending_institutional_and_legal_review"
+        },
+        "canonical_department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "date_basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "first_level_organizational_membership_verified": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "inc04a_candidate_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_authority_verified": {
+          "const": false
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_class": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reporting_parent_verified": {
+          "const": false
+        },
+        "source_group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_heading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_occurrence_verified_against_received_html": {
+          "const": true
+        },
+        "source_relative_heading_ordinal": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_sha256": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "statutory_subtype_verified": {
+          "const": false
+        },
+        "type": {
+          "const": "captured_directory_heading_evidence"
+        }
+      }
+    },
+    "va-statutory-composition": {
+      "type": "object",
+      "required": [
+        "code_display_version",
+        "described_element",
+        "directory_candidate_id",
+        "existence_2026_independently_verified",
+        "first_level_legal_inclusion_reviewed",
+        "id",
+        "legal_reference",
+        "operational_reporting_verified",
+        "published_primary_legal_text_sha256",
+        "reconciliation",
+        "source_url",
+        "statute_review_status",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "code_display_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "described_element": {
+          "type": "string",
+          "minLength": 1
+        },
+        "directory_candidate_id": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "existence_2026_independently_verified": {
+          "const": false
+        },
+        "first_level_legal_inclusion_reviewed": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "operational_reporting_verified": {
+          "const": false
+        },
+        "published_primary_legal_text_sha256": {
+          "const": null
+        },
+        "reconciliation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "statute_review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "const": "preliminary_statutory_composition_clause"
+        }
+      }
+    },
+    "va-coverage": {
+      "type": "object",
+      "required": [
+        "canonical_department_id",
+        "certified_adl1",
+        "coverage_metric_type",
+        "first_level_membership_verified",
+        "id",
+        "independent_institutional_review_completion",
+        "office_of_secretary_header_outside_section",
+        "open_statutory_categories",
+        "section_denominator_verified_from_captured_html",
+        "source_section_administration_entries",
+        "source_section_staff_entries",
+        "source_section_total",
+        "statute_review_completion",
+        "statutory_matched_directory_candidates",
+        "statutory_named_clauses",
+        "statutory_named_not_in_22_directory",
+        "type",
+        "whole_department_first_level_denominator",
+        "zero_authority_from_directory"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "canonical_department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "certified_adl1": {
+          "const": false
+        },
+        "coverage_metric_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "first_level_membership_verified": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "independent_institutional_review_completion": {
+          "const": false
+        },
+        "office_of_secretary_header_outside_section": {
+          "const": true
+        },
+        "open_statutory_categories": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "section_denominator_verified_from_captured_html": {
+          "const": true
+        },
+        "source_section_administration_entries": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_section_staff_entries": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_section_total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "statute_review_completion": {
+          "const": false
+        },
+        "statutory_matched_directory_candidates": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "statutory_named_clauses": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "statutory_named_not_in_22_directory": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "type": {
+          "const": "bounded_va_census_gate"
+        },
+        "whole_department_first_level_denominator": {
+          "const": null
+        },
+        "zero_authority_from_directory": {
+          "const": true
+        }
+      }
+    },
+    "va-gaps": {
+      "type": "object",
+      "required": [
+        "assigned_reviewer",
+        "certified",
+        "closure_condition",
+        "id",
+        "reviewed_at",
+        "status",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "assigned_reviewer": {
+          "const": null
+        },
+        "certified": {
+          "const": false
+        },
+        "closure_condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "reviewed_at": {
+          "const": null
+        },
+        "status": {
+          "const": "open"
+        },
+        "type": {
+          "const": "unresolved_va_structural_research_gap"
+        }
+      }
+    },
+    "approvals": {
+      "type": "object",
+      "required": [
+        "decision",
+        "decision_at",
+        "id",
+        "identity",
+        "not_satisfied_by_CI",
+        "review_input_manifest_sha256",
+        "reviewer_role",
+        "scope",
+        "signed_approval_proof",
+        "type",
+        "verified_credentials"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "const": "pending"
+        },
+        "decision_at": {
+          "const": null
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "identity": {
+          "const": null
+        },
+        "not_satisfied_by_CI": {
+          "const": true
+        },
+        "review_input_manifest_sha256": {
+          "const": null
+        },
+        "reviewer_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signed_approval_proof": {
+          "const": null
+        },
+        "type": {
+          "const": "qualified_independent_approval_gate"
+        },
+        "verified_credentials": {
+          "const": false
+        }
+      }
+    },
+    "trust-policy": {
+      "type": "object",
+      "required": [
+        "approved_signer_identifiers",
+        "archived_bytes_signature_verified",
+        "evidence_storage_policy",
+        "id",
+        "identity_attestation_policy",
+        "independent_legal_signoff_complete",
+        "minimum_retention",
+        "object_lock_or_equivalent_verified",
+        "public_key_fingerprint_sha256",
+        "registry_version",
+        "retention_policy_ratified",
+        "signature_envelope",
+        "signer_enrollment_complete",
+        "signing_algorithm",
+        "source_bytes_durably_promoted",
+        "source_complete",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "approved_signer_identifiers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "archived_bytes_signature_verified": {
+          "const": false
+        },
+        "evidence_storage_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "identity_attestation_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independent_legal_signoff_complete": {
+          "const": false
+        },
+        "minimum_retention": {
+          "type": "string",
+          "minLength": 1
+        },
+        "object_lock_or_equivalent_verified": {
+          "const": false
+        },
+        "public_key_fingerprint_sha256": {
+          "const": null
+        },
+        "registry_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retention_policy_ratified": {
+          "const": false
+        },
+        "signature_envelope": {
+          "const": "detached_signature_over_canonical_manifest_bytes"
+        },
+        "signer_enrollment_complete": {
+          "const": false
+        },
+        "signing_algorithm": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_bytes_durably_promoted": {
+          "const": false
+        },
+        "source_complete": {
+          "const": false
+        },
+        "type": {
+          "const": "evidence_trust_and_retention_contract"
+        }
+      }
+    },
+    "hhs-acquisition": {
+      "type": "object",
+      "required": [
+        "access_control_bypass_prohibited",
+        "allowed_next_action",
+        "authorized_provenance",
+        "blocked_source_id",
+        "capture_in_evidence_artifact",
+        "capture_method",
+        "equivalent_to_2025_HHS_chart",
+        "id",
+        "original_url",
+        "previous_http_result",
+        "publisher_authentication_confirmed",
+        "source_bytes_sha256",
+        "status",
+        "substitute_GOVMAN_accepted_as_chart",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "access_control_bypass_prohibited": {
+          "const": true
+        },
+        "allowed_next_action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "authorized_provenance": {
+          "const": null
+        },
+        "blocked_source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "capture_in_evidence_artifact": {
+          "const": false
+        },
+        "capture_method": {
+          "const": null
+        },
+        "equivalent_to_2025_HHS_chart": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "original_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "previous_http_result": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "publisher_authentication_confirmed": {
+          "const": false
+        },
+        "source_bytes_sha256": {
+          "const": null
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "substitute_GOVMAN_accepted_as_chart": {
+          "const": false
+        },
+        "type": {
+          "const": "official_source_access_recovery_record"
+        }
+      }
+    },
+    "va-source-versions": {
+      "type": "object",
+      "required": [
+        "absence_means_abolished",
+        "change_event_id",
+        "id",
+        "legal_effect_from_difference",
+        "previous_version_id",
+        "review_status",
+        "source_as_of",
+        "source_capture_status",
+        "source_note",
+        "source_payload_sha256",
+        "source_url",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "absence_means_abolished": {
+          "const": false
+        },
+        "change_event_id": {
+          "const": null
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_effect_from_difference": {
+          "const": false
+        },
+        "previous_version_id": {
+          "const": null
+        },
+        "review_status": {
+          "const": "requires_primary_source_and_effective_date_reconciliation"
+        },
+        "source_as_of": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_capture_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_payload_sha256": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1,
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "type": {
+          "const": "temporal_source_comparison_candidate"
+        }
+      }
+    }
+  }
+}

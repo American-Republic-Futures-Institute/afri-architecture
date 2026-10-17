@@ -1,0 +1,62 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "va-source-versions",
+  "items": [
+    {
+      "id": "AR04C-VERSION-FOM-2025-V1",
+      "type": "temporal_source_comparison_candidate",
+      "source_url": "https://department.va.gov/wp-content/uploads/2025/04/va-functional-organizational-manual-volume-1.pdf",
+      "source_as_of": "2025-03",
+      "source_note": "Administration functional manual; proposed source target, bytes not archived",
+      "source_payload_sha256": null,
+      "source_capture_status": "not_captured_or_version_unreconciled",
+      "previous_version_id": null,
+      "change_event_id": null,
+      "legal_effect_from_difference": false,
+      "absence_means_abolished": false,
+      "review_status": "requires_primary_source_and_effective_date_reconciliation"
+    },
+    {
+      "id": "AR04C-VERSION-FOM-2025-V2",
+      "type": "temporal_source_comparison_candidate",
+      "source_url": "https://department.va.gov/wp-content/uploads/2024/06/va-functional-organizational-manual-volume-2.pdf",
+      "source_as_of": "2025-03",
+      "source_note": "Staff-office functional manual; publication URL and PDF version not reconciled",
+      "source_payload_sha256": null,
+      "source_capture_status": "not_captured_or_version_unreconciled",
+      "previous_version_id": null,
+      "change_event_id": null,
+      "legal_effect_from_difference": false,
+      "absence_means_abolished": false,
+      "review_status": "requires_primary_source_and_effective_date_reconciliation"
+    },
+    {
+      "id": "AR04C-VERSION-VA-AFR-2024",
+      "type": "temporal_source_comparison_candidate",
+      "source_url": "https://department.va.gov/wp-content/uploads/2024/11/2024-va-afr-section-i-managements-discussion-and-analysis.pdf",
+      "source_as_of": "2024-11",
+      "source_note": "Earlier signed agency annual-report chart; compare only with dated and verified source",
+      "source_payload_sha256": null,
+      "source_capture_status": "not_captured_or_version_unreconciled",
+      "previous_version_id": null,
+      "change_event_id": null,
+      "legal_effect_from_difference": false,
+      "absence_means_abolished": false,
+      "review_status": "requires_primary_source_and_effective_date_reconciliation"
+    },
+    {
+      "id": "AR04C-VERSION-VA-DIRECTORY-2026",
+      "type": "temporal_source_comparison_candidate",
+      "source_url": "https://department.va.gov/administrations-and-offices/",
+      "source_as_of": "2026-02-25",
+      "source_note": "Captured observed 2026-10-17 and matched to 22 bounded entries",
+      "source_payload_sha256": "40d3130d0484607014295318fd3d9aefacc5462ac34332f89a902c99c4e96c24",
+      "source_capture_status": "received_bytes_verified_not_durably_promoted",
+      "previous_version_id": null,
+      "change_event_id": null,
+      "legal_effect_from_difference": false,
+      "absence_means_abolished": false,
+      "review_status": "requires_primary_source_and_effective_date_reconciliation"
+    }
+  ]
+}

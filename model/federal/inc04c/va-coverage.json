@@ -1,0 +1,27 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "va-coverage",
+  "items": [
+    {
+      "id": "AR04C-VA-BASELINE",
+      "type": "bounded_va_census_gate",
+      "canonical_department_id": "ORG-FED-EXE-DEP-VA",
+      "source_section_administration_entries": 3,
+      "source_section_staff_entries": 19,
+      "source_section_total": 22,
+      "office_of_secretary_header_outside_section": true,
+      "statutory_named_clauses": 7,
+      "open_statutory_categories": 2,
+      "statutory_matched_directory_candidates": 4,
+      "statutory_named_not_in_22_directory": 3,
+      "section_denominator_verified_from_captured_html": true,
+      "whole_department_first_level_denominator": null,
+      "first_level_membership_verified": 0,
+      "statute_review_completion": false,
+      "independent_institutional_review_completion": false,
+      "certified_adl1": false,
+      "zero_authority_from_directory": true,
+      "coverage_metric_type": "bounded_directory_not_whole_institution"
+    }
+  ]
+}

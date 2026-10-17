@@ -7,6 +7,7 @@ on:
       - "scripts/**"
       - "tests/**"
       - ".github/workflows/validate.yml"
+      - "infra/evidence-archive-04e/**"
   push:
     branches: [main]
     paths:
@@ -46,6 +47,68 @@ jobs:
           node scripts/validate-federal-expansion.mjs --view VIEW-EXP-JUDICIARY > /dev/null
       - name: Test cross-branch source provenance, ADL non-promotion and denominator security
         run: node --test tests/federal-expansion.test.mjs
+      - name: Validate Increment 04 dated federal departmental source granules and organizational boundaries
+        run: node scripts/validate-federal-department-structure.mjs --validate
+      - name: Validate nine Increment 04 strict JSON Schema model families
+        run: node scripts/validate-federal-department-structure-schema.mjs
+      - name: Project four dated department structures and the twelve official granule roots
+        run: |
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-GOVMAN-12 > /dev/null
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-JUSTICE > /dev/null
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-VA > /dev/null
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-TREASURY > /dev/null
+          node scripts/validate-federal-department-structure.mjs --view VIEW-DEPT04-COMMERCE > /dev/null
+      - name: Test official source identity, organizational boundaries, IG independence and ADL-1 safeguards
+        run: node --test tests/federal-department-structure.test.mjs
+      - name: Validate bounded Increment 04B HHS, evidence archive and legal classification contracts
+        run: node scripts/validate-federal-archive04b.mjs --validate
+      - name: Validate nine strict JSON Schema source, original receipt and review model families
+        run: node scripts/validate-federal-archive04b-schema.mjs
+      - name: Project dated, source-bounded four department comparison views
+        run: |
+          node scripts/validate-federal-archive04b.mjs --view VIEW-ARCH04B-JUSTICE > /dev/null
+          node scripts/validate-federal-archive04b.mjs --view VIEW-ARCH04B-TREASURY > /dev/null
+          node scripts/validate-federal-archive04b.mjs --view VIEW-ARCH04B-HHS > /dev/null
+          node scripts/validate-federal-archive04b.mjs --view VIEW-ARCH04B-VA > /dev/null
+      - name: Test source identity, section denominators, independent legal review and anti-ADL certification
+        run: node --test tests/federal-archive04b.test.mjs
+      - name: Test exact captured byte SHA-256, tampering, redirect and change-detection controls
+        run: node --test tests/federal-source-capture.test.mjs
+      - name: Validate Increment 04C source custody, VA directory and statutory composition research
+        run: node scripts/validate-federal-evidence04c.mjs --validate
+      - name: Validate all nine Increment 04C strict JSON Schema models
+        run: node scripts/validate-federal-evidence04c-schema.mjs
+      - name: Test VA legal composition, independent signoff and source provenance safeguards
+        run: node --test tests/federal-evidence04c.test.mjs
+      - name: Test Ed25519 signer allowlist, content-addressed objects and tampering controls
+        run: node --test tests/durable-evidence04c.test.mjs
+      - name: Test VA 3 plus 19 source-heading parser
+        run: python3 -m unittest discover -s tests -p 'test_va_source_04c.py'
+      - name: Validate Inc04D nine-model VA historical/statutory and source-custody scope
+        run: node scripts/validate-va-04d.mjs --validate
+      - name: Validate nine strict JSON Schema original-evidence and legal-review families
+        run: node scripts/validate-va-04d.mjs --schema
+      - name: Verify institutional signer and protected release remain unratified
+        run: node scripts/validate-va-04d.mjs --release-readiness
+      - name: Test VA 04D source digests, legal status, institutional exceptions and ADL security
+        run: node --test tests/va-evidence04d.test.mjs
+      - name: Test dual Ed25519 trust, tamper rejection and WORM proof nonpromotion
+        run: node --test tests/va-controlled-release04d.test.mjs
+      - name: Validate 04E unratified governance and VA institutional source/ADL1 scope
+        run: node scripts/arfi-evidence-ops-04e.mjs --validate
+      - name: Validate seven closed 04E research schema collections
+        run: node scripts/arfi-evidence-ops-04e.mjs --schema
+      - name: Project legal exception, sources and qualification views without certifying institutions
+        run: |
+          node scripts/arfi-evidence-ops-04e.mjs --view legal > /dev/null
+          node scripts/arfi-evidence-ops-04e.mjs --view sources > /dev/null
+          node scripts/arfi-evidence-ops-04e.mjs --view qualification > /dev/null
+      - name: Test 04E governance, authority, temporality and anti-certification controls
+        run: node --test tests/va-institutional-trust04e.test.mjs
+      - name: Test live AWS WORM storage preconditions without AWS credentials or cloud changes
+        run: node --test tests/va-live-worm04e.test.mjs
+      - name: Test offline root signers, revocation, role independence and release-manifest binding
+        run: node --test tests/va-trust-crypto04e.test.mjs
       - name: Validate source-bounded Title 10 defense institution and authority decomposition
         run: node scripts/validate-dod.mjs --validate
       - name: Validate statutory command, GAO Defense Agency and fiscal request viewpoints

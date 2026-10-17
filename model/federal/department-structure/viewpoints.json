@@ -1,0 +1,66 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "viewpoints",
+  "items": [
+    {
+      "id": "VIEW-DEPT04-GOVMAN-12",
+      "type": "department_dated_structural_view",
+      "root_id": null,
+      "enable_temporal_source_display": true,
+      "model_only": true,
+      "website_rendered": false,
+      "infer_command": false,
+      "infer_statutory_delegation": false,
+      "claims_complete_department": false,
+      "review_status": "unratified_read_only_source_limited"
+    },
+    {
+      "id": "VIEW-DEPT04-JUSTICE",
+      "type": "department_dated_structural_view",
+      "root_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "enable_temporal_source_display": true,
+      "model_only": true,
+      "website_rendered": false,
+      "infer_command": false,
+      "infer_statutory_delegation": false,
+      "claims_complete_department": false,
+      "review_status": "unratified_read_only_source_limited"
+    },
+    {
+      "id": "VIEW-DEPT04-VA",
+      "type": "department_dated_structural_view",
+      "root_id": "ORG-FED-EXE-DEP-VA",
+      "enable_temporal_source_display": true,
+      "model_only": true,
+      "website_rendered": false,
+      "infer_command": false,
+      "infer_statutory_delegation": false,
+      "claims_complete_department": false,
+      "review_status": "unratified_read_only_source_limited"
+    },
+    {
+      "id": "VIEW-DEPT04-TREASURY",
+      "type": "department_dated_structural_view",
+      "root_id": "ORG-FED-EXE-DEP-TREASURY",
+      "enable_temporal_source_display": true,
+      "model_only": true,
+      "website_rendered": false,
+      "infer_command": false,
+      "infer_statutory_delegation": false,
+      "claims_complete_department": false,
+      "review_status": "unratified_read_only_source_limited"
+    },
+    {
+      "id": "VIEW-DEPT04-COMMERCE",
+      "type": "department_dated_structural_view",
+      "root_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "enable_temporal_source_display": true,
+      "model_only": true,
+      "website_rendered": false,
+      "infer_command": false,
+      "infer_statutory_delegation": false,
+      "claims_complete_department": false,
+      "review_status": "unratified_read_only_source_limited"
+    }
+  ]
+}
