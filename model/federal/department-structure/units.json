@@ -20,7 +20,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-DAG",
@@ -40,7 +41,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-SG",
@@ -60,7 +62,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-ASG",
@@ -80,7 +83,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OLA",
@@ -100,7 +104,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OLC",
@@ -120,7 +125,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OLP",
@@ -140,7 +146,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OPA",
@@ -160,7 +167,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OTJ",
@@ -180,7 +188,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-JMD",
@@ -200,7 +209,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-FBI",
@@ -220,7 +230,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": "EXP-SEED-JUSTICE-FBI"
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-CRIMINAL",
@@ -240,7 +251,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-DEA",
@@ -260,7 +272,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-BOP",
@@ -280,7 +293,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": "EXP-SEED-JUSTICE-BOP"
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-EOUSA",
@@ -300,7 +314,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-USMS",
@@ -320,7 +335,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-USAO",
@@ -340,7 +356,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-ATF",
@@ -360,7 +377,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-NSD",
@@ -380,7 +398,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OPR",
@@ -400,7 +419,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OIG",
@@ -420,7 +440,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-PARDON",
@@ -440,7 +461,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-USPC",
@@ -460,7 +482,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-EOIR",
@@ -480,7 +503,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-PRAO",
@@ -500,7 +524,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-NFED",
@@ -520,7 +545,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OJP",
@@ -540,7 +566,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-COPS",
@@ -560,7 +587,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-EOUST",
@@ -580,7 +608,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OIP",
@@ -600,7 +629,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-OVW",
@@ -620,7 +650,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-FCSC",
@@ -640,7 +671,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-CRT",
@@ -660,7 +692,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-CIV",
@@ -680,7 +713,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-ATR",
@@ -700,7 +734,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-JUSTICE-ENRD",
@@ -720,7 +755,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-NCA",
@@ -740,7 +776,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-VBA",
@@ -760,7 +797,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": "EXP-SEED-VA-VBA"
     },
     {
       "id": "DEPT04-UNIT-VA-VHA",
@@ -780,7 +818,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": "EXP-SEED-VA-VHA"
     },
     {
       "id": "DEPT04-UNIT-VA-ACMO",
@@ -800,7 +839,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-BVA",
@@ -820,7 +860,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-EHRM-IO",
@@ -840,7 +881,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OAWP",
@@ -860,7 +902,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OALC",
@@ -880,7 +923,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OCLA",
@@ -900,7 +944,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OEDCA",
@@ -920,7 +965,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OGC",
@@ -940,7 +986,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-HRA",
@@ -960,7 +1007,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OIT",
@@ -980,7 +1028,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OM",
@@ -1000,7 +1049,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OSP",
@@ -1020,7 +1070,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OPIA",
@@ -1040,7 +1091,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-ORPM",
@@ -1060,7 +1112,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OSDBU",
@@ -1080,7 +1133,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OSA",
@@ -1100,7 +1154,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-OIG",
@@ -1120,7 +1175,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-VHO",
@@ -1140,7 +1196,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-VA-VEO",
@@ -1160,7 +1217,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-TREASURY-TTB",
@@ -1180,7 +1238,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-TREASURY-BEP",
@@ -1200,7 +1259,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-TREASURY-FISCAL",
@@ -1220,7 +1280,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": "EXP-SEED-TREASURY-FISCAL"
     },
     {
       "id": "DEPT04-UNIT-TREASURY-FINCEN",
@@ -1240,7 +1301,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-TREASURY-OIG",
@@ -1260,7 +1322,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-TREASURY-TIGTA",
@@ -1280,7 +1343,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-TREASURY-IRS",
@@ -1300,7 +1364,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": "EXP-SEED-TREASURY-IRS"
     },
     {
       "id": "DEPT04-UNIT-TREASURY-OCC",
@@ -1320,7 +1385,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-TREASURY-MINT",
@@ -1340,7 +1406,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-BEA",
@@ -1360,7 +1427,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-BIS",
@@ -1380,7 +1448,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-EDA",
@@ -1400,7 +1469,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-ITA",
@@ -1420,7 +1490,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-MBDA",
@@ -1440,7 +1511,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-NIST",
@@ -1460,7 +1532,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": "EXP-SEED-COMMERCE-NIST"
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-NOAA",
@@ -1480,7 +1553,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": "EXP-SEED-COMMERCE-NOAA"
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-NTIS",
@@ -1500,7 +1574,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-NTIA",
@@ -1520,7 +1595,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-CENSUS",
@@ -1540,7 +1616,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-USPTO",
@@ -1560,7 +1637,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-OUSEA",
@@ -1580,7 +1658,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     },
     {
       "id": "DEPT04-UNIT-COMMERCE-OS",
@@ -1600,7 +1679,8 @@
       "legal_subtype_finalized": false,
       "adl_evidenced": 0,
       "individual_officeholder_modeled": false,
-      "legal_review_status": "pending_qualified_human_review"
+      "legal_review_status": "pending_qualified_human_review",
+      "legacy_candidate_id": null
     }
   ]
 }
