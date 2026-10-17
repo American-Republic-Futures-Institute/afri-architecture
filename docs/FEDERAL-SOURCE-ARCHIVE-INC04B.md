@@ -61,3 +61,11 @@ On the designated PR branch, [`capture-official-sources.yml`](../.github/workflo
 ## Recommended Increment 04C
 
 Establish a **durably retained, content-addressed primary-source evidence store** (Git-tracked small textual sources with SHA-256 or separately versioned release artifacts for larger binaries), independently sign the capture manifest, reconcile source diffs with change-event IDs, and then close the full first-level enumeration gap for a single controlled department—preferably VA or Justice—before scaling the approach to the other ten. This avoids converting a partial directory into an apparently complete federal architecture.
+
+### Verified temporary captures, October 17, 2026
+
+GitHub Actions run [38990195886](https://github.com/American-Republic-Futures-Institute/afri-architecture/actions/runs/38990195886) captured and SHA-256-verified **seven of eight** original response entities. Artifact [12084901808](https://github.com/American-Republic-Futures-Institute/afri-architecture/actions/runs/38990195886/artifacts/12084901808) has zip SHA-256 `3aff191998ee6c3f28e5778f855ef0dae1758a81616dc24110d788f9b5e812ce` and expires `2027-01-15T01:17:08Z`. All seven individual original response bodies were independently downloaded and rehashed; these receipts are preserved in `model/federal/archive04b/observed-capture-receipts.json`. The original raw bytes are **not yet committed to the architecture repository**.
+
+The HHS chart source returned **HTTP 403**. No HHS HTML capture or hash is claimed; its separate 2025 Government Manual department XML is available and verified. The official parent GovInfo XML has one package-local `Entity` root per downloaded granule, not an exhaustive subordinate agency roster. Four source-local parent IDs, XML access IDs, and received-document SHA-256s are recorded in `govman-xml-root-metadata.json`. These local IDs must not be treated as a universal government agency identifier.
+
+The capture workflow **fails its eight-source completeness gate intentionally** while retaining the partial verified artifact. It must not be marked a passing full archive workflow or granted ADL-1.

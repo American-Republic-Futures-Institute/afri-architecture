@@ -57,6 +57,14 @@
       "closure_status": "open",
       "complete_adl1_claim": false,
       "legal_review_complete": false
+    },
+    {
+      "id": "ARCH04B-GAP-HHS-AUTOMATED-403",
+      "type": "required_research_closure",
+      "closure_condition": "HHS source chart HTTP 403 to automated runner; acquire authorized primary source bytes and verify SHA-256 without treating 2025 Government Manual XML as an equivalent replacement chart.",
+      "closure_status": "open",
+      "complete_adl1_claim": false,
+      "legal_review_complete": false
     }
   ]
 }
