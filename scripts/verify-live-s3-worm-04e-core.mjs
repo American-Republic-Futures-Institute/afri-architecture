@@ -68,7 +68,8 @@ export async function verifyS3WormOriginal({api,locator,now=new Date().toISOStri
   provider:"AWS_S3_Object_Lock",method:"authenticated_read_of_exact_version",
   account_id:locator.accountId,region:locator.region,bucket:locator.bucket,
   key:locator.key,version_id:locator.versionId,content_sha256:locator.expectedSha256,
-  bytes_verified:bytes.length,retention_mode:"COMPLIANCE",retention_until:until,
+  bytes_verified:bytes.length,kms_key_arn:locator.kmsKeyArn,
+  retention_mode:"COMPLIANCE",retention_until:until,
   verified_at:now,versioning_verified:true,object_lock_verified:true,customer_KMS_verified:true,
   institutional_legal_review_verified:false,source_as_of_2026_legal_status:false,
   VA_ADL1_certified:false,CloudTrail_data_events_verified:false,replica_verified:false

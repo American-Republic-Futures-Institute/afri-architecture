@@ -46,6 +46,15 @@ export function verifyGovernanceTrustDecision({decisionBytes,rootSignatureBase64
   "governance resolution not currently effective");
  check(parseUTC(doc.minimum_retain_until)>now,
   "governance decision lacks valid future minimum retention");
+ check(doc.approved_storage&&
+   /^[0-9]{12}$/.test(doc.approved_storage.account_id||"")&&
+   typeof doc.approved_storage.bucket==="string"&&doc.approved_storage.bucket.length>3&&
+   typeof doc.approved_storage.region==="string"&&
+   typeof doc.approved_storage.kms_key_arn==="string"&&
+   doc.approved_storage.kms_key_arn.startsWith("arn:aws:kms:"+doc.approved_storage.region+":"+
+     doc.approved_storage.account_id+":key/")&&
+   doc.require_storage_data_event_audit===true&&doc.require_independent_replica===true,
+   "root-signed custody decision must bind storage account, KMS, audit and independent replica");
  check(Array.isArray(doc.signers)&&doc.signers.length>=2&&
   Array.isArray(doc.revocations),"root-signed enrollment and revocation ledger required");
  const ids=new Set(),fp=new Set(),validated=[];
@@ -84,6 +93,12 @@ export function verifySeparatedReleaseApprovals({trustedDecision,releaseIndexByt
   index?.policy_id===trustedDecision.decision.retention_policy_id&&
   Array.isArray(index.sources)&&index.sources.length>=1,
   "release source index/policy mismatch");
+ check(index.sources.every(s=>/^[a-f0-9]{64}$/.test(s.sha256||"")&&
+   s.object_key==="sha256/"+s.sha256.slice(0,2)+"/"+s.sha256&&
+   Number.isSafeInteger(s.bytes)&&s.bytes>0&&
+   typeof s.version_id==="string"&&s.version_id.length>=3)&&
+   new Set(index.sources.map(s=>s.sha256)).size===index.sources.length,
+   "signed release index must bind exact unique object bytes, keys and version IDs");
  check(Array.isArray(approvals)&&approvals.length===2,"two independent approvals required");
  const roles=["source_custodian","qualified_statutory_counsel"];
  const signable=Buffer.from("ARFI-04E-RELEASE-APPROVAL\n"+
@@ -101,6 +116,7 @@ export function verifySeparatedReleaseApprovals({trustedDecision,releaseIndexByt
  check(seen.size===2,"two distinct institutional signing keys required");
  return {release_manifest_sha256:digest(raw),approved_roles:roles,
   cryptographic_approvals_verified:2,qualified_human_credentials_reviewed_externally:true,
+  approved_source_refs:index.sources,
   protected_storage_verified:false,VA_ADL1_approved:false};
 }
 // Neither checked source bytes nor signatures constitute a protected archive without independent live provider checks.
@@ -111,13 +127,29 @@ export function assembleProtectedEvidenceProof({trustedDecision,releaseApproval,
   "approved root and two human role signatures required");
  check(Array.isArray(verifiedObjects)&&verifiedObjects.length===expectedSourceCount&&
   expectedSourceCount>0,"all release originals must have verified protected object versions");
+ const signedSources=releaseApproval.approved_source_refs;
+ check(Array.isArray(signedSources)&&signedSources.length===expectedSourceCount,
+  "live object set must match precisely the signed source index");
  const hashes=new Set();
  for(const x of verifiedObjects){
   check(x?.method==="authenticated_read_of_exact_version"&&
    x.object_lock_verified===true&&x.versioning_verified===true&&x.customer_KMS_verified===true&&
    x.retention_mode==="COMPLIANCE"&&hash(x.content_sha256),
    "untrusted or noncompliant protected object proof");
+  const approved=signedSources.find(s=>s.sha256===x.content_sha256);
+  check(approved&&approved.version_id===x.version_id&&
+   approved.object_key===x.key&&approved.bytes===x.bytes_verified,
+   "live source object not bound to exact signed release manifest version");
+  const storage=trustedDecision.decision.approved_storage;
+  check(x.account_id===storage.account_id&&x.bucket===storage.bucket&&
+   x.region===storage.region&&x.kms_key_arn===storage.kms_key_arn,
+   "independently verified AWS account/bucket/KMS differ from signed governance policy");
+  check(Date.parse(x.retention_until)>=Date.parse(trustedDecision.decision.minimum_retain_until),
+   "object retention below signed institutional policy");
   check(!hashes.has(x.content_sha256),"duplicate source digest in release");hashes.add(x.content_sha256);
+  check(x.CloudTrail_data_events_verified===true,
+   "independent storage data-event audit evidence required");
+  check(x.replica_verified===true,"independent immutable replica proof required");
   if(requiredReplica)check(x.replica_verified===true,"independently verified replica required");
  }
  return {protected_primary_objects_verified:verifiedObjects.length,
