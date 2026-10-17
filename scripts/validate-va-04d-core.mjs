@@ -140,9 +140,9 @@ export function validateVA04D(manifest,files,schema){
  check(legal.size===6&&same([...legal.keys()],
   ["CANTEEN","FORMER-VABCA","CBCA","OIG","BVA","OEDCA"].map(x=>"D04D-INST-"+x)),
   "six distinct legal identities required");
- for(const x of legal.values())check(x.date_effect_verified===false&&
-  x.command_power_verified===false&&x.fiscal_authority_verified===false&&
-  x.statutory_subtype_finalized===false&&x.reviewer_id===null,
+ for(const x of legal.values())check(x.source_sha256===null&&
+  x.statutory_status_current===false&&x.organizational_reporting_verified===false&&
+  x.adjudicative_jurisdiction_verified===false&&x.legal_review_approved===false,
   "special institution cannot receive authority solely by descriptive source");
  check(legal.get("D04D-INST-CANTEEN").basis.includes("7801")&&
   legal.get("D04D-INST-OEDCA").basis.includes("319")&&
@@ -174,7 +174,7 @@ export function validateVA04D(manifest,files,schema){
  check(data.coverage.length===1&&coverage.directory_listed===22&&
    coverage.administrations===3&&coverage.staff_offices===19&&
    coverage.statutory_clauses===9&&coverage.residual_statutory_categories===2&&
-   coverage.matched_named_301c_to_directory===4&&
+   coverage.matched_statute_to_directory===4&&
    coverage.full_department_first_level_denominator===null&&
    coverage.verified_first_level_members===0&&coverage.legal_certified===false&&
    coverage.ADL1_certified===false,

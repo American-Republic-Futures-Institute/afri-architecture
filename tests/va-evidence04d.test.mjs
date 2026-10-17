@@ -104,13 +104,13 @@ reject("candidate 2007 event cannot prematurely certify complete transfer of eve
  find(x,"temporal-events","D04D-EVENT-2007").complete_legal_transfer_verified=true;
 });
 reject("adjudicative body cannot become a regular lawful executive command from its manual",x=>{
- find(x,"legal-identities","D04D-INST-BVA").command_power_verified=true;
+ find(x,"legal-identities","D04D-INST-BVA").adjudicative_jurisdiction_verified=true;
 });
 reject("OEDCA Title 38 reference cannot be lost",x=>{
  find(x,"legal-identities","D04D-INST-OEDCA").basis="old_website_only";
 });
 reject("Independent IG cannot infer spending authority from FOM listing",x=>{
- find(x,"legal-identities","D04D-INST-OIG").fiscal_authority_verified=true;
+ find(x,"legal-identities","D04D-INST-OIG").organizational_reporting_verified=true;
 });
 reject("absent institutional signer cannot claim trust from a fabricated key fingerprint",x=>{
  find(x,"trust-gates","D04D-TRUST").signer_fingerprint_sha256="a".repeat(64);
