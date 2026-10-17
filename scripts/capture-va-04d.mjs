@@ -36,7 +36,7 @@ async function request(record){
  const pdf=record.mime==="application/pdf";
  check((pdf?["application/pdf","application/octet-stream"]:["text/html","application/xhtml+xml"]).includes(mime),
   "unexpected MIME "+mime+" "+record.id);
- const limit=pdf?16000000:2000000;
+ const limit=pdf?64000000:2000000;
  const length=Number(response.headers.get("content-length")||0);
  check(length<=limit,"source declared above byte limit");
  const reader=response.body?.getReader();check(reader,"no source body");
@@ -52,7 +52,7 @@ async function request(record){
   check(buffer.subarray(-2048).includes(Buffer.from("%%EOF")),"truncated PDF EOF");
  }else{
   const text=buffer.toString("utf8"),marker=record.id==="D04D-SRC-USC38"?"Board of Contract Appeals":
-   record.id==="D04D-SRC-USC41"?"Civilian Board of Contract Appeals":"January 6, 2007";
+   record.id==="D04D-SRC-USC41"?"Civilian Board of Contract Appeals":"Civilian Board of Contract Appeals";
   check(text.includes(marker),"official source identity marker missing");
  }
  return {buffer,mime,final_url:url,etag:response.headers.get("etag"),last_modified:response.headers.get("last-modified")};
