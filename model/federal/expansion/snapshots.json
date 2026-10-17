@@ -1,0 +1,90 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "EXP-SNAP-GOVMAN-2025",
+      "type": "federal_expansion_source_slice",
+      "source_id": "CENSUS-SRC-GOVMAN-2025",
+      "as_of": "2025-12-31",
+      "accessed_on": "2026-10-16",
+      "revision_id": "GOVMAN-2025-12-31",
+      "kind": "fixed_official_handbook_edition",
+      "scope": "historic_department_and_nondepartment_index_only",
+      "is_fixed_publication": true,
+      "complete_federal_denominator": false,
+      "complete_first_level_roster": false,
+      "independent_legal_review_complete": false
+    },
+    {
+      "id": "EXP-SNAP-5-USC-101",
+      "type": "federal_expansion_source_slice",
+      "source_id": "EXP-SRC-5-USC-101",
+      "as_of": "2026-10-07",
+      "accessed_on": "2026-10-16",
+      "revision_id": "OLRC_through_PL_119-120",
+      "kind": "online_codification_version_label",
+      "scope": "fifteen_cabinet_names_only_not_component_denominator",
+      "is_fixed_publication": false,
+      "complete_federal_denominator": false,
+      "complete_first_level_roster": false,
+      "independent_legal_review_complete": false
+    },
+    {
+      "id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "type": "federal_expansion_source_slice",
+      "source_id": "EXP-SRC-GOVMAN-2024-EOP",
+      "as_of": "2024-12-31",
+      "accessed_on": "2026-10-16",
+      "revision_id": "GOVMAN-2024-12-31-098",
+      "kind": "fixed_official_handbook_chapter",
+      "scope": "historic_eop_not_current_parentage_certification",
+      "is_fixed_publication": true,
+      "complete_federal_denominator": false,
+      "complete_first_level_roster": false,
+      "independent_legal_review_complete": false
+    },
+    {
+      "id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "type": "federal_expansion_source_slice",
+      "source_id": "EXP-SRC-USCOURTS-STRUCTURE",
+      "as_of": "2026-10-16",
+      "accessed_on": "2026-10-16",
+      "revision_id": "mutable_page_observed_2026-10-16",
+      "kind": "mutable_judicial_structure_webpage",
+      "scope": "aggregate_court_types_not_individual_court_coverage",
+      "is_fixed_publication": false,
+      "complete_federal_denominator": false,
+      "complete_first_level_roster": false,
+      "independent_legal_review_complete": false
+    },
+    {
+      "id": "EXP-SNAP-HOUSE-119",
+      "type": "federal_expansion_source_slice",
+      "source_id": "EXP-SRC-HOUSE-119",
+      "as_of": "2025-01-20",
+      "accessed_on": "2026-10-16",
+      "revision_id": "HMAN-119",
+      "kind": "fixed_chamber_procedural_publication",
+      "scope": "house_procedures_only_not_all_congressional_support",
+      "is_fixed_publication": true,
+      "complete_federal_denominator": false,
+      "complete_first_level_roster": false,
+      "independent_legal_review_complete": false
+    },
+    {
+      "id": "EXP-SNAP-SENATE-119",
+      "type": "federal_expansion_source_slice",
+      "source_id": "EXP-SRC-SENATE-119",
+      "as_of": "2026-10-16",
+      "accessed_on": "2026-10-16",
+      "revision_id": "mutable_119th_committees_page",
+      "kind": "mutable_chamber_committee_webpage",
+      "scope": "committee_roster_snapshot_not_a_legislative_branch_census",
+      "is_fixed_publication": false,
+      "complete_federal_denominator": false,
+      "complete_first_level_roster": false,
+      "independent_legal_review_complete": false
+    }
+  ],
+  "model_family": "snapshots"
+}

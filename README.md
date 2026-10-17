@@ -147,6 +147,11 @@ The new independent `model/federal/coverage/` model family indexes **61 existing
 
 See [Federal Institutional Census](docs/FEDERAL-INSTITUTIONAL-CENSUS.md). Validate using `node scripts/validate-federal-census.mjs --validate`, `node scripts/validate-federal-census-schema.mjs`, and `node --test tests/federal-census.test.mjs`. Website rendering and additional department research remain separate PRs.
 
+## Federal census expansion — Increment 03
+
+The new [source-bounded institutional expansion](docs/FEDERAL-INSTITUTIONAL-EXPANSION.md) catalogs 58 *already-known* non-pilot canonical references, 24 unverified department candidates, four congressional committee candidates, and thirteen circuit court candidates. The extension makes the finite ARFI reference denominator explicit, while retaining unknown whole-government and complete first-level denominators. No ADL-1 completion, agency legal power, appropriations or website publication is asserted.
+
+
 ## Department of Defense institutional and authority decomposition — October 2026
 
 ARFI-COA adds twenty independently registered DoD model families including **11 statutory composition categories**, GAO's dated **19 Defense Agency + eight Field Activity** May 2026 roster, eight Combat Support Agency marks, selected Title 10 statutory actor/condition chains, legislative-defense-committee crosswalks and four **proposed** FY2026 financial categories. The public combatant command candidate list, Chairman advisory/command prohibition, Inspector General independence, and DIA/NSA section 192 supervisory exceptions remain explicit. **Neither DoD ADL-1 completeness, individual agency delegations, enacted appropriations, current UCP, legal citator review nor website rendering is claimed.** See [DoD Institutional and Statutory Architecture](docs/DOD-INSTITUTIONAL-AUTHORITY-ARCHITECTURE.md). Validate using the standalone source audit and adversarial regressions:

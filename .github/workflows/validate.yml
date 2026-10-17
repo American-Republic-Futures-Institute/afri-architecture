@@ -35,6 +35,17 @@ jobs:
         run: node scripts/validate-federal-census-schema.mjs
       - name: Test federal identity crosswalk, first-level pilot and legal-authority fail-closed regressions
         run: node --test tests/federal-census.test.mjs
+      - name: Validate Increment 03 federal coverage expansion and cross-branch source bounds
+        run: node scripts/validate-federal-expansion.mjs --validate
+      - name: Validate all nine Increment 03 expansion JSON Schema collections
+        run: node scripts/validate-federal-expansion-schema.mjs
+      - name: Validate scoped federal atlas, Cabinet root and judicial viewpoints
+        run: |
+          node scripts/validate-federal-expansion.mjs --view VIEW-EXP-ALL > /dev/null
+          node scripts/validate-federal-expansion.mjs --view VIEW-EXP-DEPARTMENTS --root ORG-FED-EXE-DEP-TREASURY > /dev/null
+          node scripts/validate-federal-expansion.mjs --view VIEW-EXP-JUDICIARY > /dev/null
+      - name: Test cross-branch source provenance, ADL non-promotion and denominator security
+        run: node --test tests/federal-expansion.test.mjs
       - name: Validate source-bounded Title 10 defense institution and authority decomposition
         run: node scripts/validate-dod.mjs --validate
       - name: Validate statutory command, GAO Defense Agency and fiscal request viewpoints

@@ -1,0 +1,78 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-EXP-ALL",
+      "type": "source_bounded_institution_viewpoint",
+      "family": "all",
+      "title": "Selected federal reference atlas across all three branches",
+      "root_filter_supported": false,
+      "model_only": true,
+      "website_rendered": false,
+      "legal_authority_proven": false,
+      "complete_current_census": false,
+      "view_status": "data_contract_unratified_read_only"
+    },
+    {
+      "id": "VIEW-EXP-DEPARTMENTS",
+      "type": "source_bounded_institution_viewpoint",
+      "family": "departments",
+      "title": "Twelve remaining Cabinet departments with unverified component seeds",
+      "root_filter_supported": true,
+      "model_only": true,
+      "website_rendered": false,
+      "legal_authority_proven": false,
+      "complete_current_census": false,
+      "view_status": "data_contract_unratified_read_only"
+    },
+    {
+      "id": "VIEW-EXP-EOP",
+      "type": "source_bounded_institution_viewpoint",
+      "family": "eop",
+      "title": "Executive Office and constitutional executive offices",
+      "root_filter_supported": false,
+      "model_only": true,
+      "website_rendered": false,
+      "legal_authority_proven": false,
+      "complete_current_census": false,
+      "view_status": "data_contract_unratified_read_only"
+    },
+    {
+      "id": "VIEW-EXP-INDEPENDENT",
+      "type": "source_bounded_institution_viewpoint",
+      "family": "independent",
+      "title": "Selected nondepartment executive bodies",
+      "root_filter_supported": false,
+      "model_only": true,
+      "website_rendered": false,
+      "legal_authority_proven": false,
+      "complete_current_census": false,
+      "view_status": "data_contract_unratified_read_only"
+    },
+    {
+      "id": "VIEW-EXP-CONGRESS",
+      "type": "source_bounded_institution_viewpoint",
+      "family": "legislative",
+      "title": "Congress, chambers and supporting institutions",
+      "root_filter_supported": false,
+      "model_only": true,
+      "website_rendered": false,
+      "legal_authority_proven": false,
+      "complete_current_census": false,
+      "view_status": "data_contract_unratified_read_only"
+    },
+    {
+      "id": "VIEW-EXP-JUDICIARY",
+      "type": "source_bounded_institution_viewpoint",
+      "family": "judiciary",
+      "title": "Federal judiciary and its administrative bodies",
+      "root_filter_supported": false,
+      "model_only": true,
+      "website_rendered": false,
+      "legal_authority_proven": false,
+      "complete_current_census": false,
+      "view_status": "data_contract_unratified_read_only"
+    }
+  ],
+  "model_family": "viewpoints"
+}
