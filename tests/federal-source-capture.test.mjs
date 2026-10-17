@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import {captureOfficialSources,verifyCaptureArchive,compareCapturedVersions,
- assertTargets,hash,EXPECTED_URLS} from "../scripts/federal-source-archive-core.mjs";
+ assertTargets,hash,EXPECTED_URLS,validateResearchCaptureAcceptance} from "../scripts/federal-source-archive-core.mjs";
 import {fileURLToPath} from "node:url";
 const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
 const sources=JSON.parse(await fs.readFile(path.join(project,
@@ -58,6 +58,34 @@ test("public HHS 403 is preserved as an unavailable-source record without losing
   assert.equal(archive.uncaptured_sources[0].source_id,id);
   assert.match(archive.uncaptured_sources[0].reason,/HTTP 403/);
   assert.equal(archive.archival_status,"github_actions_partial_artifact_missing_sources_requires_followup");
+ });
+});
+test("the research-only gate accepts verified 7-source bytes with the exact HHS 403 exception",async()=>{
+ await withDir(async dir=>{
+  const manifest=await captureOfficialSources({sources,outputDir:dir,
+   fetchImpl:mock({"ARCH04B-HHS-HTML":{status:403}}),allowPartial:true});
+  const r=validateResearchCaptureAcceptance(await verifyCaptureArchive(dir,manifest),manifest);
+  assert.equal(r.research_integrity_passed,true);
+  assert.equal(r.archival_completeness,false);
+  assert.deepEqual(r.missing_official_originals,["ARCH04B-HHS-HTML"]);
+  assert.equal(r.legal_review_complete,false);
+ });
+});
+test("research-only gate rejects missing Justice, Treasury, VA or original Government Manual sources",async()=>{
+ await withDir(async dir=>{
+  const manifest=await captureOfficialSources({sources,outputDir:dir,
+   fetchImpl:mock({"ARCH04B-DOJ-HTML":{status:403}}),allowPartial:true});
+  const check=await verifyCaptureArchive(dir,manifest);
+  assert.throws(()=>validateResearchCaptureAcceptance(check,manifest),/unexpected missing source/);
+ });
+});
+test("research gate rejects fabricated HHS access error as an approved source exception",async()=>{
+ await withDir(async dir=>{
+  const manifest=await captureOfficialSources({sources,outputDir:dir,
+   fetchImpl:mock({"ARCH04B-HHS-HTML":{status:403}}),allowPartial:true});
+  manifest.uncaptured_sources[0].reason="source safely substituted by other publication";
+  const check=await verifyCaptureArchive(dir,manifest);
+  assert.throws(()=>validateResearchCaptureAcceptance(check,manifest),/missing HHS 403 exception/);
  });
 });
 test("a missing-source receipt cannot simultaneously report that source as successfully captured",async()=>{

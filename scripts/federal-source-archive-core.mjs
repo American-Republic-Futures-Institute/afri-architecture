@@ -163,6 +163,29 @@ export async function verifyCaptureArchive(root,manifest){
   "exact_eight_captured_response_bytes_verified_not_permanent_repository_archive":
   "partial_captured_bytes_verified_some_official_sources_unavailable"};
 }
+export function validateResearchCaptureAcceptance(report,manifest){
+ if(!report||!manifest)throw Error("research capture acceptance requires independently verified archive receipts");
+ const allowed=new Set(CAPTURE_IDS);
+ const received=new Set((manifest.captures||[]).map(x=>x.source_id));
+ const exceptions=manifest.uncaptured_sources||[];
+ if(report.complete===true){
+  if(report.verified_sha256!==8||report.uncaptured!==0||received.size!==8||
+   CAPTURE_IDS.some(id=>!received.has(id)))throw Error("complete research receipts inconsistent");
+  return {research_integrity_passed:true,archival_completeness:true,
+   missing_official_originals:[],legal_review_complete:false,durable_archive_complete:false};
+ }
+ const hhs=exceptions.length===1?exceptions[0]:null;
+ if(report.verified_sha256!==7||report.uncaptured!==1||
+   hhs?.source_id!=="ARCH04B-HHS-HTML"||
+   hhs.source_url!==EXPECTED_URLS["ARCH04B-HHS-HTML"]||
+   !/official source returned HTTP 403 ARCH04B-HHS-HTML/.test(hhs.reason||"")||
+   [...allowed].some(id=>id!=="ARCH04B-HHS-HTML"&&!received.has(id))||
+   received.has("ARCH04B-HHS-HTML")||received.size!==7)
+  throw Error("research source acceptance rejected: unexpected missing source, missing HHS 403 exception, or inconsistent verified bytes");
+ return {research_integrity_passed:true,archival_completeness:false,
+  missing_official_originals:["ARCH04B-HHS-HTML"],legal_review_complete:false,
+  durable_archive_complete:false};
+}
 export function compareCapturedVersions(previous,current){
  if(!previous||!current||previous.source_id!==current.source_id||
   !validHash(previous.sha256)||!validHash(current.sha256))

@@ -30,5 +30,8 @@ jobs:
           path: ${{ runner.temp }}/arfi-source-capture04b/
           if-no-files-found: error
           retention-days: 90
-      - name: Require eight completed official source captures before archive gate passes
-        run: node scripts/capture-federal-official-sources.mjs --require-all "$RUNNER_TEMP/arfi-source-capture04b"
+      - name: Verify research integrity of all available originals; HHS 403 remains an explicit unapproved source gap
+        run: node scripts/capture-federal-official-sources.mjs --require-research "$RUNNER_TEMP/arfi-source-capture04b"
+      # Certification and permanent archive promotion must separately run:
+      # node scripts/capture-federal-official-sources.mjs --require-all "$RUNNER_TEMP/arfi-source-capture04b"
+      # The eight-source archival completeness requirement is NOT waived.
