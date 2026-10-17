@@ -1,0 +1,71 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "governance-decisions",
+  "items": [
+    {
+      "id": "E04E-GOV-RETENTION",
+      "type": "formal_institution_governance_decision",
+      "action": "adopt_evidence_retention_and_legal_hold_schedule",
+      "owner_role": "governing_board",
+      "evidence_required": "Resolution must specify retention start, immutable duration, records exceptions and successor custodian",
+      "decision": "pending",
+      "adoption_record_id": null,
+      "signed_resolution_sha256": null,
+      "board_quorum_verified": false,
+      "adopted_at": null,
+      "ratified": false
+    },
+    {
+      "id": "E04E-GOV-CUSTODY",
+      "type": "formal_institution_governance_decision",
+      "action": "appoint_two_independent_source_custodians",
+      "owner_role": "governing_board",
+      "evidence_required": "Role identities, separation of duties, identity checks, recovery and successor procedures",
+      "decision": "pending",
+      "adoption_record_id": null,
+      "signed_resolution_sha256": null,
+      "board_quorum_verified": false,
+      "adopted_at": null,
+      "ratified": false
+    },
+    {
+      "id": "E04E-GOV-LEGAL",
+      "type": "formal_institution_governance_decision",
+      "action": "appoint_qualified_independent_statutory_reviewers",
+      "owner_role": "governing_board",
+      "evidence_required": "Scope and independence declarations, conflict register and review validity interval",
+      "decision": "pending",
+      "adoption_record_id": null,
+      "signed_resolution_sha256": null,
+      "board_quorum_verified": false,
+      "adopted_at": null,
+      "ratified": false
+    },
+    {
+      "id": "E04E-GOV-KEYS",
+      "type": "formal_institution_governance_decision",
+      "action": "ratify_key_ceremony_enrollment_and_revocation",
+      "owner_role": "governing_board",
+      "evidence_required": "Offline trust anchor, role-bound Ed25519 proof of possession and compromised-key response",
+      "decision": "pending",
+      "adoption_record_id": null,
+      "signed_resolution_sha256": null,
+      "board_quorum_verified": false,
+      "adopted_at": null,
+      "ratified": false
+    },
+    {
+      "id": "E04E-GOV-STORAGE",
+      "type": "formal_institution_governance_decision",
+      "action": "approve_compliance_mode_object_lock_and_replica",
+      "owner_role": "governing_board",
+      "evidence_required": "Authorized storage account, external auditor, versioning, encrypted immutability and audit data events",
+      "decision": "pending",
+      "adoption_record_id": null,
+      "signed_resolution_sha256": null,
+      "board_quorum_verified": false,
+      "adopted_at": null,
+      "ratified": false
+    }
+  ]
+}
