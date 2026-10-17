@@ -124,7 +124,9 @@
     "model/federal/department-structure/source-snapshots.json",
     "model/federal/department-structure/coverage-ledger.json",
     "model/federal/department-structure/viewpoints.json",
-    "model/federal/department-structure/gaps.json"
+    "model/federal/department-structure/gaps.json",
+    "model/federal/department-structure/units.json",
+    "model/federal/department-structure/relationships.json"
   ],
   "standards": [
     {
@@ -445,6 +447,9 @@
     "legal_independent_review_complete": false,
     "source_roster_complete_for_government": false,
     "website_publication": "not_implemented",
-    "status": "research_unratified_source_bounded_no_authority_asserted"
+    "status": "research_unratified_source_bounded_no_authority_asserted",
+    "extracted_source_group_unit_records": 80,
+    "extracted_descriptive_relations": 80,
+    "verified_source_group_denominators": 4
   }
 }
