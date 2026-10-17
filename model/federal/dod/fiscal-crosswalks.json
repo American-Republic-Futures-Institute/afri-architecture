@@ -1,0 +1,85 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-FISCAL-FY26-OM",
+      "type": "defense_fiscal_proposal_category",
+      "name": "Defense-Wide Operation and Maintenance",
+      "category": "operation_and_maintenance",
+      "fiscal_year": 2026,
+      "source_ids": [
+        "DOD-SRC-FY26-DEFENSE-WIDE"
+      ],
+      "source_snapshot": "DOD-SNAPSHOT-FY26-PB",
+      "status": "presidents_budget_request_reference_not_enacted_appropriation",
+      "enacted_appropriation_act_id": null,
+      "treasury_account_symbol": null,
+      "obligated_amount_verified": false,
+      "purpose_limitation_id": "DOD-COND-PURPOSE-RULE",
+      "availability_limitation_id": "DOD-COND-ANTIDEFICIENCY",
+      "appropriation_verified": false,
+      "spent_or_obligated_derived": false,
+      "notes": "References published FY2026 Defense-Wide budget requests. No appropriations, Treasury accounts, outlays or spending authority inferred."
+    },
+    {
+      "id": "DOD-FISCAL-FY26-PROC",
+      "type": "defense_fiscal_proposal_category",
+      "name": "Defense-Wide Procurement",
+      "category": "procurement",
+      "fiscal_year": 2026,
+      "source_ids": [
+        "DOD-SRC-FY26-DEFENSE-WIDE"
+      ],
+      "source_snapshot": "DOD-SNAPSHOT-FY26-PB",
+      "status": "presidents_budget_request_reference_not_enacted_appropriation",
+      "enacted_appropriation_act_id": null,
+      "treasury_account_symbol": null,
+      "obligated_amount_verified": false,
+      "purpose_limitation_id": "DOD-COND-PURPOSE-RULE",
+      "availability_limitation_id": "DOD-COND-ANTIDEFICIENCY",
+      "appropriation_verified": false,
+      "spent_or_obligated_derived": false,
+      "notes": "References published FY2026 Defense-Wide budget requests. No appropriations, Treasury accounts, outlays or spending authority inferred."
+    },
+    {
+      "id": "DOD-FISCAL-FY26-RDTE",
+      "type": "defense_fiscal_proposal_category",
+      "name": "Defense-Wide Research Development Test and Evaluation",
+      "category": "research_development_test_evaluation",
+      "fiscal_year": 2026,
+      "source_ids": [
+        "DOD-SRC-FY26-DEFENSE-WIDE"
+      ],
+      "source_snapshot": "DOD-SNAPSHOT-FY26-PB",
+      "status": "presidents_budget_request_reference_not_enacted_appropriation",
+      "enacted_appropriation_act_id": null,
+      "treasury_account_symbol": null,
+      "obligated_amount_verified": false,
+      "purpose_limitation_id": "DOD-COND-PURPOSE-RULE",
+      "availability_limitation_id": "DOD-COND-ANTIDEFICIENCY",
+      "appropriation_verified": false,
+      "spent_or_obligated_derived": false,
+      "notes": "References published FY2026 Defense-Wide budget requests. No appropriations, Treasury accounts, outlays or spending authority inferred."
+    },
+    {
+      "id": "DOD-FISCAL-FY26-DHP",
+      "type": "defense_fiscal_proposal_category",
+      "name": "Defense Health Program",
+      "category": "health_program_request",
+      "fiscal_year": 2026,
+      "source_ids": [
+        "DOD-SRC-FY26-DEFENSE-WIDE"
+      ],
+      "source_snapshot": "DOD-SNAPSHOT-FY26-PB",
+      "status": "presidents_budget_request_reference_not_enacted_appropriation",
+      "enacted_appropriation_act_id": null,
+      "treasury_account_symbol": null,
+      "obligated_amount_verified": false,
+      "purpose_limitation_id": "DOD-COND-PURPOSE-RULE",
+      "availability_limitation_id": "DOD-COND-ANTIDEFICIENCY",
+      "appropriation_verified": false,
+      "spent_or_obligated_derived": false,
+      "notes": "References published FY2026 Defense-Wide budget requests. No appropriations, Treasury accounts, outlays or spending authority inferred."
+    }
+  ]
+}
