@@ -83,6 +83,16 @@ jobs:
         run: node --test tests/durable-evidence04c.test.mjs
       - name: Test VA 3 plus 19 source-heading parser
         run: python3 -m unittest discover -s tests -p 'test_va_source_04c.py'
+      - name: Validate Inc04D nine-model VA historical/statutory and source-custody scope
+        run: node scripts/validate-va-04d.mjs --validate
+      - name: Validate nine strict JSON Schema original-evidence and legal-review families
+        run: node scripts/validate-va-04d.mjs --schema
+      - name: Verify institutional signer and protected release remain unratified
+        run: node scripts/validate-va-04d.mjs --release-readiness
+      - name: Test VA 04D source digests, legal status, institutional exceptions and ADL security
+        run: node --test tests/va-evidence04d.test.mjs
+      - name: Test dual Ed25519 trust, tamper rejection and WORM proof nonpromotion
+        run: node --test tests/va-controlled-release04d.test.mjs
       - name: Validate constitutional authority catalog
         run: node scripts/validate-constitution.mjs
       - name: Run constitutional model regression tests
