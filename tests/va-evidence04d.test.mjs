@@ -34,6 +34,11 @@ test("both exact PDF volumes have separately SHA256-verified original response b
  assert(x.filter(z=>z.PDF_cover_year!==null).every(z=>z.PDF_cover_year==="2023"&&
   z.PDF_last_modified_utc.startsWith("2025-03-14")));
 });
+test("the captured 38 USC 301 original has a complete verified 64-character SHA-256 digest",()=>{
+ const r=v.data["observed-source-receipts"].find(x=>x.id==="D04D-OBS-USC38");
+ assert.equal(r.body_sha256.length,64);
+ assert.equal(r.body_sha256,"d56b1ef48b0b6c85a5d68ecf2f9469b83f066c4f497a833bca5ee284e7886aba");
+});
 test("two frozen U.S. Code 2024 originals are SHA256 witnessed, not current 2026 legal opinions",()=>{
  const x=v.data["observed-source-receipts"];
  assert.equal(x.filter(z=>z.source_publication_as_of==="GOVINFO_2024_fixed_edition").length,2);

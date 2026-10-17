@@ -15,7 +15,7 @@ const byId=x=>new Map(x.map(y=>[y.id,y]));
 const HASHES=Object.freeze({
  "D04D-SRC-FOM1":["d4c9bc1f84cfb08dd92df5e95e624b479f04a9f7e94abecb6e092e2748a5d523",8993757,315],
  "D04D-SRC-FOM2":["a9900503672b48541a1639167bc0a2b2f5e7b3607c85881faa9caf0b28a90f1b",33434554,506],
- "D04D-SRC-USC38":["d56b1ef48b0b6c85a5d68ecf2f9469b83f066c4",28011,null],
+ "D04D-SRC-USC38":["d56b1ef48b0b6c85a5d68ecf2f9469b83f066c4f497a833bca5ee284e7886aba",28011,null],
  "D04D-SRC-USC41":["8e5d35b1cdc7c7fc8832bd0aacf8ecb487b7df772cd50ae3dbf4988f77cd94d7",18691,null]
 });
 const ALLOWLIST=Object.freeze({

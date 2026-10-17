@@ -46,7 +46,7 @@
       "id": "D04D-OBS-USC38",
       "type": "observed_original_response_evidence",
       "source_target_id": "D04D-SRC-USC38",
-      "body_sha256": "d56b1ef48b0b6c85a5d68ecf2f9469b83f066c4",
+      "body_sha256": "d56b1ef48b0b6c85a5d68ecf2f9469b83f066c4f497a833bca5ee284e7886aba",
       "bytes": 28011,
       "pages": null,
       "PDF_cover_version": null,
