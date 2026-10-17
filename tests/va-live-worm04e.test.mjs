@@ -86,6 +86,21 @@ fails("a data-only JSON claim is not an authenticated provider API",f=>{
 fails("AWS account ID must be explicit and twelve digits",f=>{
  f.locator.accountId="000";
 });
+test("AWS retention timestamps with explicit +00:00 offsets are accepted without local timezone ambiguity",async()=>{
+ const f=fixture();
+ f.api.getObjectRetention=async()=>({Retention:{Mode:"COMPLIANCE",RetainUntilDate:"2035-01-01T00:00:00+00:00"}});
+ const r=await verifyS3WormOriginal({api:f.api,locator:f.locator,now:"2026-10-17T15:00:00Z"});
+ assert.equal(r.retention_mode,"COMPLIANCE");
+});
+test("AWS read requests include explicit expected-bucket-owner to reject cross-account bucket confusion",async()=>{
+ const f=fixture(),seen=[];
+ for(const name of ["getBucketVersioning","getObjectLockConfiguration","headObject","getObjectRetention","getObjectBytes"]){
+  const old=f.api[name];
+  f.api[name]=async query=>{seen.push(query?.ExpectedBucketOwner);return old(query);};
+ }
+ await verifyS3WormOriginal({api:f.api,locator:f.locator,now:"2026-10-17T15:00:00Z"});
+ assert.deepEqual(seen,Array(5).fill("123456789012"));
+});
 fails("a KMS key ARN in a different account fails pinning",f=>{
  f.locator.kmsKeyArn="arn:aws:kms:us-east-1:999999999999:key/abcdef";
 });

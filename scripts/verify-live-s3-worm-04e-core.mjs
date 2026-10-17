@@ -13,7 +13,7 @@ const check=(v,msg)=>{if(!v)fail(msg);};
 const sha256=b=>createHash("sha256").update(b).digest("hex");
 function utcDate(value){
  const time=Date.parse(value);
- check(typeof value==="string"&&Number.isFinite(time)&&value.endsWith("Z"),"UTC timestamp required");
+ check(typeof value==="string"&&Number.isFinite(time)&&/(Z|[+-][0-9]{2}:[0-9]{2})$/.test(value),"UTC timestamp required");
  return time;
 }
 export function validateLocator(x){
@@ -42,10 +42,10 @@ export async function verifyS3WormOriginal({api,locator,now=new Date().toISOStri
  const asof=utcDate(now);
  const who=await api.getCallerIdentity();
  check(who?.Account===locator.accountId,"AWS credential account mismatch");
- const q={Bucket:locator.bucket,Key:locator.key,VersionId:locator.versionId};
+ const q={Bucket:locator.bucket,Key:locator.key,VersionId:locator.versionId,ExpectedBucketOwner:locator.accountId};
  const [v,lock,head,retention]=await Promise.all([
-  api.getBucketVersioning({Bucket:locator.bucket}),
-  api.getObjectLockConfiguration({Bucket:locator.bucket}),
+  api.getBucketVersioning({Bucket:locator.bucket,ExpectedBucketOwner:locator.accountId}),
+  api.getObjectLockConfiguration({Bucket:locator.bucket,ExpectedBucketOwner:locator.accountId}),
   api.headObject(q),api.getObjectRetention(q)
  ]);
  check(v?.Status==="Enabled","versioning not enabled");
@@ -80,8 +80,9 @@ const safeArg=s=>{
   !s.startsWith("-")&&!s.includes("\n"),"unsafe AWS CLI argument");
  return s;
 };
-export function createReadOnlyAwsCliAdapter({region,profile=null,outputDir,timeoutMs=90000}){
+export function createReadOnlyAwsCliAdapter({region,accountId,profile=null,outputDir,timeoutMs=90000}){
  check(/^[a-z]{2}-[a-z]+-[0-9]{1,2}$/.test(region||""),"AWS region required");
+ check(ACCOUNT.test(accountId||""),"expected bucket owner account must be explicitly provided");
  check(typeof outputDir==="string"&&outputDir.startsWith("/")&&!outputDir.includes(".."),
   "operator-owned absolute output directory required");
  if(profile!==null)check(/^[A-Za-z0-9_.-]{1,100}$/.test(profile),"invalid AWS profile");
@@ -96,11 +97,11 @@ export function createReadOnlyAwsCliAdapter({region,profile=null,outputDir,timeo
   }catch(e){fail("authenticated read failed "+service+"/"+operation+": "+String(e?.message||e).slice(0,210));}
  }
  const q=x=>["--bucket",safeArg(x.Bucket),"--key",safeArg(x.Key),
-  "--version-id",safeArg(x.VersionId)];
+  "--version-id",safeArg(x.VersionId),"--expected-bucket-owner",safeArg(x.ExpectedBucketOwner)];
  let counter=0;
  return {
   getCallerIdentity:()=>cli("sts","get-caller-identity"),
-  getBucketVersioning:x=>cli("s3api","get-bucket-versioning",["--bucket",safeArg(x.Bucket)]),
+  getBucketVersioning:x=>cli("s3api","get-bucket-versioning",["--bucket",safeArg(x.Bucket),"--expected-bucket-owner",safeArg(x.ExpectedBucketOwner)]),
   getObjectLockConfiguration:x=>cli("s3api","get-object-lock-configuration",["--bucket",safeArg(x.Bucket)]),
   headObject:x=>cli("s3api","head-object",q(x)),
   getObjectRetention:x=>cli("s3api","get-object-retention",q(x)),

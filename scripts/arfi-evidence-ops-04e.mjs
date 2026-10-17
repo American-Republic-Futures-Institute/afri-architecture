@@ -40,7 +40,7 @@ if(!command||command==="--validate"){
  const locator=JSON.parse(await fsp.readFile(args[0],"utf8"));
  const temp=await fsp.mkdtemp(path.join(os.tmpdir(),"arfi04e-s3-"));
  try{
-  const api=createReadOnlyAwsCliAdapter({region:locator.region,profile:args[1]||null,outputDir:temp});
+  const api=createReadOnlyAwsCliAdapter({region:locator.region,accountId:locator.accountId,profile:args[1]||null,outputDir:temp});
   const proof=await verifyS3WormOriginal({api,locator});
   console.log(JSON.stringify({...proof,release_qualification:"not_complete_requires_board_and_signatures"},null,2));
  }finally{await fsp.rm(temp,{recursive:true,force:true});}
