@@ -21,6 +21,10 @@ jobs:
         run: |
           node scripts/capture-va-04d.mjs --capture "$RUNNER_TEMP/arfi-04d"
           node scripts/capture-va-04d.mjs --verify "$RUNNER_TEMP/arfi-04d"
+      - name: Install official packaged PDF inspection utilities
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
       - name: Verify FOM edition PDF page boundaries independently
         run: |
           test -f "$RUNNER_TEMP/arfi-04d/bytes/D04D-SRC-FOM1.pdf"
@@ -35,5 +39,5 @@ jobs:
           path: ${{ runner.temp }}/arfi-04d/
           if-no-files-found: error
           retention-days: 90
-      - name: Require five source captures, fail on any denied source
-        run: node scripts/capture-va-04d.mjs --require-all "$RUNNER_TEMP/arfi-04d"
+      - name: Require both FOM originals and two dated statutes; separately disclose inaccessible CBCA history
+        run: node scripts/capture-va-04d.mjs --require-core "$RUNNER_TEMP/arfi-04d"

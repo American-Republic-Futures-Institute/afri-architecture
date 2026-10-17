@@ -97,10 +97,14 @@ async function verify(output){
   seen.add(r.id);
  }
  check(seen.size===5,"some source IDs not accounted for");
- return {verified:m.captures.length,blocked:m.unavailable.map(x=>x.id),complete:m.complete,permanent_archive:false};
+ const essential=["D04D-SRC-FOM1","D04D-SRC-FOM2","D04D-SRC-USC38","D04D-SRC-USC41"];
+ return {verified:m.captures.length,blocked:m.unavailable.map(x=>x.id),
+  complete:m.complete,essential_sources_complete:essential.every(id=>m.captures.some(x=>x.id===id)),
+  permanent_archive:false};
 }
 const [mode,folder]=process.argv.slice(2);
-check(["--capture","--verify","--require-all"].includes(mode)&&folder,"usage --capture|--verify|--require-all DIR");
+check(["--capture","--verify","--require-all","--require-core"].includes(mode)&&folder,"usage --capture|--verify|--require-all DIR");
 const result=mode==="--capture"?await capture(path.resolve(folder)):await verify(path.resolve(folder));
 console.log(JSON.stringify(result,null,2));
 if(mode==="--require-all"&&!result.complete)process.exitCode=1;
+if(mode==="--require-core"&&!result.essential_sources_complete)process.exitCode=1;
