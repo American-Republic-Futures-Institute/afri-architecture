@@ -1,0 +1,22 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "coverage",
+  "items": [
+    {
+      "id": "D04D-VA-COVERAGE",
+      "type": "bounded_vs_complete_denominator",
+      "directory_listed": 22,
+      "administrations": 3,
+      "staff_offices": 19,
+      "statutory_clauses": 9,
+      "residual_statutory_categories": 2,
+      "matched_statute_to_directory": 4,
+      "full_department_first_level_denominator": null,
+      "verified_first_level_members": 0,
+      "current_FOM_sources_verified": 0,
+      "human_approvals": 0,
+      "legal_certified": false,
+      "ADL1_certified": false
+    }
+  ]
+}

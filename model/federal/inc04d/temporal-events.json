@@ -1,0 +1,22 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "temporal-events",
+  "items": [
+    {
+      "id": "D04D-EVENT-2007",
+      "type": "candidate_historical_function_transfer",
+      "from_id": "D04D-INST-FORMER-VABCA",
+      "to_id": "D04D-INST-CBCA",
+      "publisher_effective_date": "2007-01-06",
+      "source_ids": [
+        "D04D-SRC-CBCA",
+        "D04D-SRC-USC41",
+        "D04D-SRC-USC38"
+      ],
+      "status": "review_required_no_silent_statutory_repeal",
+      "statute_38_301_c7_repealed_inferred": false,
+      "complete_legal_transfer_verified": false,
+      "reviewer": null
+    }
+  ]
+}

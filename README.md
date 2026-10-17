@@ -164,3 +164,7 @@ The [eight-source archival and four-department reconciliation model](docs/FEDERA
 ## VA legal composition and source registry — Increment 04C
 
 The [04C source custody and VA pilot](docs/FEDERAL-EVIDENCE-REGISTRY-INC04C.md) separates 22 dated directory entries from nine composition clauses in 38 USC 301(c), with unknown entire-department ADL-1 denominator. Seven 04B original response bodies can be staged by SHA-256 key and signed by an externally approved Ed25519 custodian; institutional key enrollment, permanent source promotion and independent legal review remain **pending**. See [authorized HHS recovery](docs/HHS-AUTHORIZED-SOURCE-RECOVERY-INC04C.md).
+
+## VA source custody and legal reconciliation — Increment 04D
+
+[Increment 04D research and evidence release design](docs/VA-FEDERAL-EVIDENCE-INC04D.md) links original VA v8.1 volumes 1/2, fixed 2024 Code sections 301 and 7105, and the candidate 2007 CBCA consolidation without certifying an exhaustive VA first-level denominator. The [proposed archive policy](docs/ARFI-EVIDENCE-RETENTION-POLICY-PROPOSAL-04D.md) remains **unratified**; dual-Ed25519, protected storage and human review are required before any permanent evidence promotion.
