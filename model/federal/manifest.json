@@ -117,7 +117,14 @@
     "model/federal/expansion/coverage-ledger.json",
     "model/federal/expansion/gaps.json",
     "model/federal/expansion/viewpoints.json",
-    "model/federal/expansion/crossbranch-seeds.json"
+    "model/federal/expansion/crossbranch-seeds.json",
+    "model/federal/department-structure/source-registry.json",
+    "model/federal/department-structure/govman-roots.json",
+    "model/federal/department-structure/candidate-granules.json",
+    "model/federal/department-structure/source-snapshots.json",
+    "model/federal/department-structure/coverage-ledger.json",
+    "model/federal/department-structure/viewpoints.json",
+    "model/federal/department-structure/gaps.json"
   ],
   "standards": [
     {
@@ -423,5 +430,21 @@
     "external_identifiers_inferred": false,
     "legal_review_status": "pending",
     "crossbranch_composition_candidates": 17
+  },
+  "federal_institutional_structure_extension": {
+    "id": "ARFI-COA-FED-STRUCTURE-004",
+    "model_version": "0.1.0",
+    "revision_date": "2026-10-16",
+    "predecessor": "ARFI-COA-FED-EXPANSION-003",
+    "root_departments": 12,
+    "legacy_candidate_reconciliations": 24,
+    "official_govman_candidate_granules_verified": 13,
+    "source_group_snapshots": 4,
+    "complete_department_adl1": 0,
+    "source_bytes_archived": false,
+    "legal_independent_review_complete": false,
+    "source_roster_complete_for_government": false,
+    "website_publication": "not_implemented",
+    "status": "research_unratified_source_bounded_no_authority_asserted"
   }
 }

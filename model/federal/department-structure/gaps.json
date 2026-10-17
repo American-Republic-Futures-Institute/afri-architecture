@@ -1,0 +1,126 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "gaps",
+  "items": [
+    {
+      "id": "DEPT04-GAP-ADL1-AGRICULTURE",
+      "department_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-COMMERCE",
+      "department_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-ENERGY",
+      "department_id": "ORG-FED-EXE-DEP-ENERGY",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-HHS",
+      "department_id": "ORG-FED-EXE-DEP-HHS",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-HUD",
+      "department_id": "ORG-FED-EXE-DEP-HUD",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-JUSTICE",
+      "department_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-LABOR",
+      "department_id": "ORG-FED-EXE-DEP-LABOR",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-STATE",
+      "department_id": "ORG-FED-EXE-DEP-STATE",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-TRANSPORTATION",
+      "department_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-VA",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-INTERIOR",
+      "department_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ADL1-TREASURY",
+      "department_id": "ORG-FED-EXE-DEP-TREASURY",
+      "kind": "full_first_level_structure_not_certified",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Complete explicitly scoped authoritative first-level organization denominator, verified units, contested legal statuses, and qualified human institutional review."
+    },
+    {
+      "id": "DEPT04-GAP-ORIGINAL-BYTES",
+      "department_id": null,
+      "kind": "source_byte_capture_and_checksums_pending",
+      "source_id": "DEPT04-SRC-GOVMAN-2025",
+      "resolved": false,
+      "required_evidence": "Retrievable original XML/PDF byte preservation with verified SHA-256, immutable release archive and exact source locator crosscheck."
+    },
+    {
+      "id": "DEPT04-GAP-DOJ-LEGAL",
+      "department_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "kind": "doj_chart_not_legal_command",
+      "source_id": "DEPT04-SRC-DOJ-CHART-2026",
+      "resolved": false,
+      "required_evidence": "Verify each observed component organization and legal authority separately; ensure OIG independent oversight not subordinate executive-command power."
+    },
+    {
+      "id": "DEPT04-GAP-MUTABLE-SOURCE-EDITION",
+      "department_id": null,
+      "kind": "current_live_webpage_temporal_history",
+      "source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "resolved": false,
+      "required_evidence": "Independent publication edition, source change history and archived source bytes for mutable directories."
+    }
+  ]
+}
