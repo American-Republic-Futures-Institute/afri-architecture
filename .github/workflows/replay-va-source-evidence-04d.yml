@@ -1,0 +1,31 @@
+name: Replay original VA FOM and statute evidence 04D
+on:
+  pull_request:
+    paths:
+      - "model/federal/inc04d/**"
+      - "scripts/validate-va-04d-core.mjs"
+      - "scripts/validate-va-04d.mjs"
+      - "tests/va-evidence04d.test.mjs"
+      - ".github/workflows/replay-va-source-evidence-04d.yml"
+permissions:
+  contents: read
+  actions: read
+jobs:
+  verify-pinned-original-bodies:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/va-evidence-legal-reconciliation-inc04d'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Retrieve 04D original four verified sources from retained source-artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 39042644962 --repo "$GITHUB_REPOSITORY" --name arfi-04d-va-fom-and-law-original-bytes-UNRATIFIED --dir "$RUNNER_TEMP/va-source-originals-04d"
+      - name: Independently rehash each actual original byte stream against pinned 04D research records
+        run: node scripts/validate-va-04d.mjs --verify-originals "$RUNNER_TEMP/va-source-originals-04d"
+      - name: Confirm no institutional release authority is fabricated
+        run: node scripts/validate-va-04d.mjs --release-readiness
