@@ -61,7 +61,7 @@ jobs:
         run: node --test tests/federal-department-structure.test.mjs
       - name: Validate bounded Increment 04B HHS, evidence archive and legal classification contracts
         run: node scripts/validate-federal-archive04b.mjs --validate
-      - name: Validate seven strict JSON Schema source and review model families
+      - name: Validate nine strict JSON Schema source, original receipt and review model families
         run: node scripts/validate-federal-archive04b-schema.mjs
       - name: Project dated, source-bounded four department comparison views
         run: |
