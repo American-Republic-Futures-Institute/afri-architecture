@@ -1,0 +1,96 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "qualification-gates",
+  "items": [
+    {
+      "id": "E04E-QUAL-SCOPE",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "scope_is_federal_VA_only_not_complete_federal_government",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    },
+    {
+      "id": "E04E-QUAL-SOURCE",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "all_source_editions_hash_validated_and_immutable_retained",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    },
+    {
+      "id": "E04E-QUAL-COHORT",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "entire_first_level_universe_as_of_specific_effective_date_enumerated",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    },
+    {
+      "id": "E04E-QUAL-STATUTE",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "nine_38_USC_301c_clauses_and_residuals_reconciled",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    },
+    {
+      "id": "E04E-QUAL-FUNCTIONS",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "no_line_management_inference_from_adjudication_or_independent_oversight",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    },
+    {
+      "id": "E04E-QUAL-HISTORICAL",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "2007_board_transfer_and_legacy_statute_reviewed",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    },
+    {
+      "id": "E04E-QUAL-HUMAN",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "six_qualified_independent_human_approvals",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    },
+    {
+      "id": "E04E-QUAL-CUSTODY",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "institutional_signer_ratified_and_two_party_signed_archive",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    },
+    {
+      "id": "E04E-QUAL-AUDIT",
+      "type": "ADL1_qualification_prerequisite",
+      "criterion": "live_object_lock_audit_and_disaster_recovery_verified",
+      "evidence_sha256": null,
+      "independent_reviewer_id": null,
+      "verified": false,
+      "waived": false,
+      "status": "not_met"
+    }
+  ]
+}

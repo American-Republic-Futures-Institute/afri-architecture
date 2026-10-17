@@ -1,0 +1,90 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "source-temporal-index",
+  "items": [
+    {
+      "id": "E04E-TEMP-FOM1",
+      "type": "heterogeneous_source_temporal_reconciliation",
+      "source_record_id": "D04D-OBS-FOM1",
+      "published_edition_or_observation": "8.1/2023_cover/2025-03_modified",
+      "structural_claim_scope": "VA_manually_describes_three_administrations_seven_assistant_secretaries_five_key_officials",
+      "source_hash_in_predecessor_verified": true,
+      "source_temporal_effect_is_2026_current": false,
+      "source_delta_to_next_edition_sha256": null,
+      "all_legal_amendments_citator_checked": false,
+      "office_predecessor_successor_reconciled": false,
+      "reviewer_id": null,
+      "decision": "requires_independent_source_and_legal_reconciliation"
+    },
+    {
+      "id": "E04E-TEMP-FOM2",
+      "type": "heterogeneous_source_temporal_reconciliation",
+      "source_record_id": "D04D-OBS-FOM2",
+      "published_edition_or_observation": "8.1/2023_cover/2025-03_modified",
+      "structural_claim_scope": "OSVA_OEDCA_BVA_and_OIG_functions_linked_to_individual_PDF_pages",
+      "source_hash_in_predecessor_verified": true,
+      "source_temporal_effect_is_2026_current": false,
+      "source_delta_to_next_edition_sha256": null,
+      "all_legal_amendments_citator_checked": false,
+      "office_predecessor_successor_reconciled": false,
+      "reviewer_id": null,
+      "decision": "requires_independent_source_and_legal_reconciliation"
+    },
+    {
+      "id": "E04E-TEMP-VA-DIRECTORY",
+      "type": "heterogeneous_source_temporal_reconciliation",
+      "source_record_id": "ARCH04B-VA-HTML",
+      "published_edition_or_observation": "2026-02-25_web_updated/2026-10-17_received",
+      "structural_claim_scope": "three_admins_nineteen_staff_section_headings_only",
+      "source_hash_in_predecessor_verified": true,
+      "source_temporal_effect_is_2026_current": false,
+      "source_delta_to_next_edition_sha256": null,
+      "all_legal_amendments_citator_checked": false,
+      "office_predecessor_successor_reconciled": false,
+      "reviewer_id": null,
+      "decision": "requires_independent_source_and_legal_reconciliation"
+    },
+    {
+      "id": "E04E-TEMP-USC38",
+      "type": "heterogeneous_source_temporal_reconciliation",
+      "source_record_id": "D04D-OBS-USC38",
+      "published_edition_or_observation": "USCODE-2024",
+      "structural_claim_scope": "nine_statutory_301c_clauses_two_open_classes",
+      "source_hash_in_predecessor_verified": true,
+      "source_temporal_effect_is_2026_current": false,
+      "source_delta_to_next_edition_sha256": null,
+      "all_legal_amendments_citator_checked": false,
+      "office_predecessor_successor_reconciled": false,
+      "reviewer_id": null,
+      "decision": "requires_independent_source_and_legal_reconciliation"
+    },
+    {
+      "id": "E04E-TEMP-USC41",
+      "type": "heterogeneous_source_temporal_reconciliation",
+      "source_record_id": "D04D-OBS-USC41",
+      "published_edition_or_observation": "USCODE-2024",
+      "structural_claim_scope": "CBCA_establishment_and_jurisdiction",
+      "source_hash_in_predecessor_verified": true,
+      "source_temporal_effect_is_2026_current": false,
+      "source_delta_to_next_edition_sha256": null,
+      "all_legal_amendments_citator_checked": false,
+      "office_predecessor_successor_reconciled": false,
+      "reviewer_id": null,
+      "decision": "requires_independent_source_and_legal_reconciliation"
+    },
+    {
+      "id": "E04E-TEMP-CBCA-HISTORY",
+      "type": "heterogeneous_source_temporal_reconciliation",
+      "source_record_id": "D04D-OBS-CBCA",
+      "published_edition_or_observation": "publisher_mutable_page_unarchived",
+      "structural_claim_scope": "historical_2007_transfer_provisional",
+      "source_hash_in_predecessor_verified": false,
+      "source_temporal_effect_is_2026_current": false,
+      "source_delta_to_next_edition_sha256": null,
+      "all_legal_amendments_citator_checked": false,
+      "office_predecessor_successor_reconciled": false,
+      "reviewer_id": null,
+      "decision": "requires_independent_source_and_legal_reconciliation"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+name: Validate proposed ARFI immutable evidence storage IaC
+on:
+  pull_request:
+    paths:
+      - "infra/evidence-archive-04e/**"
+      - ".github/workflows/validate-evidence-terraform-04e.yml"
+permissions:
+  contents: read
+jobs:
+  terraform-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.10.5"
+      - name: Check proposed object-lock module formatting
+        run: terraform fmt -check -diff -recursive
+        working-directory: infra/evidence-archive-04e
+      - name: Initialize provider schema WITHOUT remote state or cloud writes
+        run: terraform init -backend=false -input=false
+        working-directory: infra/evidence-archive-04e
+      - name: Validate proposed retention and encryption resource shape; never apply
+        run: terraform validate -no-color
+        working-directory: infra/evidence-archive-04e

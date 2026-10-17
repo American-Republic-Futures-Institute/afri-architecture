@@ -1,0 +1,28 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "va-dossier",
+  "items": [
+    {
+      "id": "E04E-VA-DOSSIER",
+      "type": "VA_ADL1_read_only_review_packet",
+      "department": "ORG-FED-EXE-DEP-VA",
+      "directory_source_heading_total": 22,
+      "dated_FOM_administration_count": 3,
+      "FOM_reported_assistant_secretary_roles": 7,
+      "FOM_reported_key_official_roles": 5,
+      "FOM_counts_are_not_disjoint_first_level_institution_denominators": true,
+      "statutory_composition_clauses": 9,
+      "open_residual_statutory_categories": 2,
+      "special_legal_research_cases": 6,
+      "original_FOM_PDF_receipts": 2,
+      "original_fixed_2024_law_receipts": 2,
+      "archive_provider_object_verifications": 0,
+      "human_approval_count": 0,
+      "full_same_as_of_first_level_denominator": null,
+      "complete_legal_composition_certified": false,
+      "ADL1_status": "research_only_not_qualified",
+      "authorized_institutional_signer": null,
+      "public_website_published": false
+    }
+  ]
+}

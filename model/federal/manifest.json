@@ -153,7 +153,14 @@
     "model/federal/inc04d/review-approvals.json",
     "model/federal/inc04d/coverage.json",
     "model/federal/inc04d/observed-source-receipts.json",
-    "model/federal/inc04d/fom-page-anchors.json"
+    "model/federal/inc04d/fom-page-anchors.json",
+    "model/federal/inc04e/governance-decisions.json",
+    "model/federal/inc04e/signer-enrollments.json",
+    "model/federal/inc04e/storage-targets.json",
+    "model/federal/inc04e/va-legal-issues.json",
+    "model/federal/inc04e/source-temporal-index.json",
+    "model/federal/inc04e/qualification-gates.json",
+    "model/federal/inc04e/va-dossier.json"
   ],
   "standards": [
     {
@@ -544,5 +551,21 @@
     "CBCA_source_original_blocked": true,
     "GOVINFO_2024_code_html_byte_verified": 2,
     "originals_durably_retained_count": 0
+  },
+  "federal_institutional_trust_04e_extension": {
+    "id": "ARFI-COA-VA-TRUST-04E",
+    "version": "0.1.0",
+    "depends_on": "ARFI-COA-VA-EVIDENCE-04D",
+    "ratified_governance_decisions": 0,
+    "approved_institutional_signer_keys": 0,
+    "verified_immutable_primary_archives": 0,
+    "approved_external_legal_decisions": 0,
+    "pending_qualification_gates": 9,
+    "VA_ADL1_first_level_denominator": null,
+    "VA_ADL1_qualified": false,
+    "public_release": false,
+    "manuals_original_hashes_preserved": 2,
+    "statute_2024_hashes_preserved": 2,
+    "governance_state": "requires_real_human_authorization"
   }
 }
