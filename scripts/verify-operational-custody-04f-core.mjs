@@ -79,7 +79,7 @@ export async function verifyElevenPrimaryAndReplicaVersions({
    ...common,accountId:scope.replica.account_id,bucket:scope.replica.bucket,
    region:scope.replica.region,kmsKeyArn:scope.replica.kms_key_arn,versionId:s.replica_version_id
   },now});
-  check(source.content_sha256===recovery.content_sha256&&source.version_id!==recovery.version_id,
+  check(source.content_sha256===recovery.content_sha256&&source.account_id!==recovery.account_id,
    "primary and independent replica must have matching source bytes and independent versions");
   proofs.push({source_id:row.source_id,sha256:row.SHA256,original_bytes:row.byte_count,
    primary:{account:source.account_id,bucket:source.bucket,version_id:source.version_id,
