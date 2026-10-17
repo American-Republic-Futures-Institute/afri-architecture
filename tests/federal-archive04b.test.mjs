@@ -120,8 +120,8 @@ test("each of nine still-unapproved legal classification gates has a source-spec
  const gateIds=verified.data["classification-review"].map(x=>x.id);
  assert.equal(gateIds.length,9);
  for(const id of gateIds)assert(memo.includes("`"+id+"`"),"No legal source research row for "+id);
- assert.match(memo,/5 U\.S\.C\. §412/);
- assert.match(memo,/42 C\.F\.R\. §405\.1000/);
+ assert(memo.includes("https://uscode.house.gov/us/usc/119-120/t5/s412/"));
+ assert(memo.includes("42 C.F.R. §405.1000"));
  assert(verified.data["classification-review"].every(x=>x.legal_classification_final===false&&
    x.independent_reviewer_id===null&&x.statute_subsection_verified===false));
 });
