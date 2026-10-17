@@ -37,8 +37,8 @@ test("both exact PDF volumes have separately SHA256-verified original response b
 test("two frozen U.S. Code 2024 originals are SHA256 witnessed, not current 2026 legal opinions",()=>{
  const x=v.data["observed-source-receipts"];
  assert.equal(x.filter(z=>z.source_publication_as_of==="GOVINFO_2024_fixed_edition").length,2);
- assert(v.data["statutory-crosswalk"].every(z=>z.code_2024_edition_only&&
-  !z.year_2026_legal_effect_verified&&!z.qualified_reviewer_approved));
+ assert(v.data["statutory-crosswalk"].every(z=>!z.current_legal_status_verified&&
+  !z.source_edition_bytes_verified&&!z.human_approved));
 });
 test("official CBCA narrative is a separately blocked original, not disguised as signed statutory text",()=>{
  const x=v.data["observed-source-receipts"].find(z=>z.id==="D04D-OBS-CBCA");
@@ -55,7 +55,7 @@ test("six exact FOM physical PDF page anchors are not source inferred institutio
 test("all nine clause IDs preserve the initial source classification and predecessor link",()=>{
  assert.equal(v.data["statutory-crosswalk"].length,9);
  assert.equal(v.data["statutory-crosswalk"].filter(x=>x.matched_directory_candidate===null).length,5);
- assert(v.data["statutory-crosswalk"].every(x=>!x.inferred_abolition&&!x.complete_first_level_proven));
+ assert(v.data["statutory-crosswalk"].every(x=>!x.absence_means_abolished&&!x.current_legal_status_verified));
 });
 test("six special legal identities retain VA vs GSA distinction and independent oversight",()=>{
  const x=v.data["legal-identities"];
@@ -95,7 +95,7 @@ reject("a statutory subsection cannot silently inherit invented agency reporting
  find(x,"statutory-crosswalk","D04D-CLAUSE-5").regulatory_delegation_verified=true;
 });
 reject("missing VA Canteen listing is not evidence the statutory service was abolished",x=>{
- find(x,"statutory-crosswalk","D04D-CLAUSE-6").inferred_abolition=true;
+ find(x,"statutory-crosswalk","D04D-CLAUSE-6").absence_means_abolished=true;
 });
 reject("historical VA contract board cannot be erased by a 2007 successor candidate",x=>{
  find(x,"temporal-events","D04D-EVENT-2007").statute_38_301_c7_repealed_inferred=true;

@@ -130,9 +130,10 @@ export function validateVA04D(manifest,files,schema){
   check(x.id==="D04D-CLAUSE-"+(i+1)&&x.predecessor_id===prior.id&&
    x.citation===prior.legal_reference&&x.label===prior.described_element&&
    x.matched_directory_candidate===prior.directory_candidate_id&&
-   x.source_id==="D04D-SRC-USC38"&&x.code_2024_edition_only===true&&
-   x.year_2026_legal_effect_verified===false&&x.complete_first_level_proven===false&&
-   x.inferred_abolition===false&&x.source_sha256===null&&x.qualified_reviewer_approved===false,
+   x.source_id==="D04D-SRC-USC38"&&
+   x.current_legal_status_verified===false&&x.regulatory_delegation_verified===false&&
+   x.source_edition_bytes_verified===false&&
+   x.absence_means_abolished===false&&x.human_approved===false,
    "statutory unit was wrongly promoted, reassigned or claimed repealed");
  }
  const legal=byId(data["legal-identities"]);
