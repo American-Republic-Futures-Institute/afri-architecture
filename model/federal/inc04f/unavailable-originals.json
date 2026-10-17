@@ -1,0 +1,30 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "unavailable-originals",
+  "items": [
+    {
+      "id": "F04F-EXCEPTION-HHS",
+      "source_id": "ARCH04B-HHS-HTML",
+      "source_url": "https://www.hhs.gov/about/organization/org-chart/index.html",
+      "previous_receipt_id": "ARCH04B-OBS-ARCH04B-HHS-HTML",
+      "capture_blocker": "official_HTTP_403",
+      "original_bytes_sha256": null,
+      "recovered_source_bytes": false,
+      "allowed_substitution": false,
+      "recorded_exception": "capture_blocked_requires_authorized_publisher_access",
+      "legal_review_signoff_id": null
+    },
+    {
+      "id": "F04F-EXCEPTION-CBCA",
+      "source_id": "D04D-SRC-CBCA",
+      "source_url": "https://www.cbca.gov/board/index.html",
+      "previous_receipt_id": "D04D-OBS-CBCA",
+      "capture_blocker": "original_public_webpage_not_captured",
+      "original_bytes_sha256": null,
+      "recovered_source_bytes": false,
+      "allowed_substitution": false,
+      "recorded_exception": "separate_original_is_unavailable_must_not_substitute_other_CBCA_page",
+      "legal_review_signoff_id": null
+    }
+  ]
+}
