@@ -64,7 +64,7 @@ async function sourceBytes(root,relative){
 }
 function captureMatches(row,record){
  check(record&&row.sha256===record.sha256&&row.bytes===record.byte_count&&
-  row.source_url===record.source_url&&row.original_capture_path===record.relative_path,
+  row.source_url===(record.source_url||record.url)&&row.original_capture_path===record.relative_path,
   "captured manifest does not match immutable original receipt "+row.source_id);
 }
 function inspectCaptureIndex(original04B,original04D,index){
