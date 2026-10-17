@@ -124,8 +124,7 @@
         },
         "revision_id": {
           "type": "string",
-          "minLength": 1,
-          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+          "minLength": 1
         },
         "scope": {
           "type": "string",
