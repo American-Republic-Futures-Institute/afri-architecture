@@ -397,6 +397,17 @@ export function validateDepartmentStructure(manifest,files,schema){
   check(u.parent_ref===u.department_id||units.has(u.parent_ref)&&
    units.get(u.parent_ref).department_id===u.department_id,
    "cross-agency or missing immediate parent "+u.id);
+  // A published directory heading is not a legal classification. In particular,
+  // the Commerce webpage mixes senior offices with bureaus; never relabel them.
+  if(["DEPT04-UNIT-COMMERCE-OS","DEPT04-UNIT-COMMERCE-OUSEA"].includes(u.id))
+   check(u.structural_class==="executive_office_listed_in_bureaus_category_not_legal_bureau",
+    "Commerce leadership office cannot become a statutory bureau "+u.id);
+  if(["DEPT04-UNIT-VA-BVA","DEPT04-UNIT-VA-OEDCA"].includes(u.id))
+   check(u.structural_class==="adjudicatory_office_review_needed",
+    "VA adjudicative functions must retain distinct legal review "+u.id);
+  if(["DEPT04-UNIT-JUSTICE-EOIR","DEPT04-UNIT-JUSTICE-USPC"].includes(u.id))
+   check(u.structural_class==="adjudicatory_or_commission_review_needed",
+    "DOJ adjudicative function cannot become a generic command office "+u.id);
   if(u.structural_class==="independent_oversight_position_only")
    check(["DEPT04-UNIT-JUSTICE-OIG","DEPT04-UNIT-VA-OIG","DEPT04-UNIT-TREASURY-OIG",
     "DEPT04-UNIT-TREASURY-TIGTA"].includes(u.id),

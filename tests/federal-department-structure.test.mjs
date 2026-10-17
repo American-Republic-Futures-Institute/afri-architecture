@@ -155,7 +155,9 @@ negative("independent DoJ inspector general position cannot be assigned generic 
  find(f,"units","DEPT04-UNIT-JUSTICE-OIG").structural_class="chart_component_no_statutory_power_inferred";
 });
 negative("VA OIG descriptive relation may not be converted into a civilian command order",f=>{
- find(f,"relationships","DEPT04-REL-0062").direct_military_or_civilian_command_proven=true;
+ const relation=f.files[file("relationships")].items.find(x=>x.from_id==="DEPT04-UNIT-VA-OIG");
+ assert(relation,"VA OIG source edge missing");
+ relation.direct_military_or_civilian_command_proven=true;
 });
 negative("statutory agency delegations cannot follow from departmental chart edges",f=>{
  f.files[file("relationships")].items[0].delegated_power_proven=true;
@@ -168,6 +170,12 @@ negative("VA administrations group cannot be recategorized into adjudicatory sta
 });
 negative("Commerce's two leadership offices cannot be falsely certified as ordinary statutory bureaus",f=>{
  find(f,"units","DEPT04-UNIT-COMMERCE-OS").structural_class="publisher_bureau_listing_not_verified_statutory_class";
+});
+negative("VA Board of Veterans Appeals cannot silently become a regular command bureau",f=>{
+ find(f,"units","DEPT04-UNIT-VA-BVA").structural_class="department_staff_office_category_only";
+});
+negative("DOJ executive immigration adjudication cannot become ordinary statutory command",f=>{
+ find(f,"units","DEPT04-UNIT-JUSTICE-EOIR").structural_class="chart_component_no_statutory_power_inferred";
 });
 negative("organization graph may not silently drop a DoJ signed-chart unit",f=>{
  f.files[file("units")].items=f.files[file("units")].items.filter(x=>x.id!=="DEPT04-UNIT-JUSTICE-OIG");
