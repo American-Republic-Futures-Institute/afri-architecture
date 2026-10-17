@@ -1,0 +1,41 @@
+name: Verify VA historical source evidence 04C
+on:
+  pull_request:
+    paths:
+      - "model/federal/inc04c/**"
+      - "scripts/durable-evidence-registry-04c-core.mjs"
+      - "scripts/stage-source-registry-04c.mjs"
+      - "scripts/verify-va-directory-source-04c.py"
+      - ".github/workflows/verify-va-evidence-04c.yml"
+permissions:
+  contents: read
+  actions: read
+jobs:
+  verify-historical-byte-evidence:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/va-durable-evidence-registry-inc04c'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Read original archived 04B capture artifact, no new website access
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 38990195886 --repo "$GITHUB_REPOSITORY" --name arfi-federal-primary-source-capture-04b --dir "$RUNNER_TEMP/arfi-04b-original"
+      - name: Verify seven original SHA-256 receipts and rebuild content-addressed evidence store
+        run: |
+          node scripts/stage-source-registry-04c.mjs --stage "$RUNNER_TEMP/arfi-04b-original" "$RUNNER_TEMP/arfi-04c-staged"
+          node scripts/stage-source-registry-04c.mjs --verify "$RUNNER_TEMP/arfi-04c-staged"
+      - name: Validate dated VA 3+19 headings against original source HTML
+        run: |
+          python3 scripts/verify-va-directory-source-04c.py "$RUNNER_TEMP/arfi-04b-original/bytes/ARCH04B-VA-HTML.html" model/federal/inc04c/va-directory.json --sha256 40d3130d0484607014295318fd3d9aefacc5462ac34332f89a902c99c4e96c24
+      - name: Upload only temporary UNSIGNED original-source staging; not durable preservation
+        uses: actions/upload-artifact@v4
+        with:
+          name: arfi-source-04c-content-addressed-staging-UNSIGNED
+          path: ${{ runner.temp }}/arfi-04c-staged/
+          if-no-files-found: error
+          retention-days: 90

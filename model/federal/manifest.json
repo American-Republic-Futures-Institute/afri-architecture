@@ -135,7 +135,16 @@
     "model/federal/archive04b/gaps.json",
     "model/federal/archive04b/viewpoints.json",
     "model/federal/archive04b/observed-capture-receipts.json",
-    "model/federal/archive04b/govman-xml-root-metadata.json"
+    "model/federal/archive04b/govman-xml-root-metadata.json",
+    "model/federal/inc04c/archive-index.json",
+    "model/federal/inc04c/va-directory.json",
+    "model/federal/inc04c/va-statutory-composition.json",
+    "model/federal/inc04c/va-coverage.json",
+    "model/federal/inc04c/va-gaps.json",
+    "model/federal/inc04c/approvals.json",
+    "model/federal/inc04c/trust-policy.json",
+    "model/federal/inc04c/hhs-acquisition.json",
+    "model/federal/inc04c/va-source-versions.json"
   ],
   "standards": [
     {
@@ -485,5 +494,28 @@
     "source_capture_artifact_id": 12084901808,
     "source_capture_run_id": 38990195886,
     "explicit_open_gaps": 8
+  },
+  "federal_evidence_registry_extension": {
+    "id": "ARFI-COA-FED-EVIDENCE-004C",
+    "version": "0.1.0",
+    "predecessor": "ARFI-COA-FED-SOURCE-ARCHIVE-004B",
+    "VA_directory_named_candidates": 22,
+    "VA_statutory_clauses": 9,
+    "VA_open_residual_statutory_categories": 2,
+    "VA_known_statutory_named_not_in_22_directory": 3,
+    "VA_organizational_complete": false,
+    "VA_ADL1_certified": false,
+    "VA_first_level_denominator": null,
+    "VA_independently_reviewed_institutions": 0,
+    "source_record_total": 8,
+    "source_sha256_receipts": 7,
+    "HHS_blocked_official_capture": 1,
+    "promoted_durable_bytes": 0,
+    "approved_signing_keys": 0,
+    "signatures_trusted": 0,
+    "independent_legal_review_complete": false,
+    "source_temporal_reconciliation_complete": false,
+    "website_publication": "not_implemented",
+    "status": "source_verified_receipts_only_unratified"
   }
 }

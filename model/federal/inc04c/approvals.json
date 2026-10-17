@@ -1,0 +1,71 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "approvals",
+  "items": [
+    {
+      "id": "AR04C-REVIEW-INSTITUTIONAL-STRUCTURE",
+      "type": "qualified_independent_approval_gate",
+      "reviewer_role": "institutional_structure",
+      "scope": "VA organization identity/first-level enumeration, FOM and section denominator",
+      "identity": null,
+      "verified_credentials": false,
+      "review_input_manifest_sha256": null,
+      "decision": "pending",
+      "decision_at": null,
+      "signed_approval_proof": null,
+      "not_satisfied_by_CI": true
+    },
+    {
+      "id": "AR04C-REVIEW-STATUTORY-AUTHORITY",
+      "type": "qualified_independent_approval_gate",
+      "reviewer_role": "statutory_authority",
+      "scope": "38 USC 301(c)(1)-(9), 38 USC Chapter 71 and statutory successor questions",
+      "identity": null,
+      "verified_credentials": false,
+      "review_input_manifest_sha256": null,
+      "decision": "pending",
+      "decision_at": null,
+      "signed_approval_proof": null,
+      "not_satisfied_by_CI": true
+    },
+    {
+      "id": "AR04C-REVIEW-INSPECTOR-GENERAL-INDEPENDENCE",
+      "type": "qualified_independent_approval_gate",
+      "reviewer_role": "inspector_general_independence",
+      "scope": "5 USC Chapter 4 Inspector General supervision limits, VA specifics",
+      "identity": null,
+      "verified_credentials": false,
+      "review_input_manifest_sha256": null,
+      "decision": "pending",
+      "decision_at": null,
+      "signed_approval_proof": null,
+      "not_satisfied_by_CI": true
+    },
+    {
+      "id": "AR04C-REVIEW-EVIDENCE-CUSTODIAN",
+      "type": "qualified_independent_approval_gate",
+      "reviewer_role": "evidence_custodian",
+      "scope": "original bytes, cryptographic manifest and protected immutable retention policy",
+      "identity": null,
+      "verified_credentials": false,
+      "review_input_manifest_sha256": null,
+      "decision": "pending",
+      "decision_at": null,
+      "signed_approval_proof": null,
+      "not_satisfied_by_CI": true
+    },
+    {
+      "id": "AR04C-REVIEW-SOURCE-TEMPORAL-RECONCILIATION",
+      "type": "qualified_independent_approval_gate",
+      "reviewer_role": "source_temporal_reconciliation",
+      "scope": "March 2025 FOM, Feb 2026 page, Oct 2026 observed snapshot and approved changes",
+      "identity": null,
+      "verified_credentials": false,
+      "review_input_manifest_sha256": null,
+      "decision": "pending",
+      "decision_at": null,
+      "signed_approval_proof": null,
+      "not_satisfied_by_CI": true
+    }
+  ]
+}

@@ -160,3 +160,7 @@ See [the dated 12-department Government Manual granule reconciliation and four b
 ## Source integrity and HHS bounded roster — Increment 04B
 
 The [eight-source archival and four-department reconciliation model](docs/FEDERAL-SOURCE-ARCHIVE-INC04B.md) adds HHS's official 28 linked organizational names and segregates source-group denominators (Justice 36, Treasury 9, HHS 28, VA 22). Seven of eight original source response bodies were independently downloaded and SHA-256 verified in GitHub Actions run #38990195886; the HHS live page returned HTTP 403. The temporary seven-source artifact has separate observed receipt records, but durable archival and all ADL-1/legal review remain open. No legal authority or complete hierarchy is asserted.
+
+## VA legal composition and source registry — Increment 04C
+
+The [04C source custody and VA pilot](docs/FEDERAL-EVIDENCE-REGISTRY-INC04C.md) separates 22 dated directory entries from nine composition clauses in 38 USC 301(c), with unknown entire-department ADL-1 denominator. Seven 04B original response bodies can be staged by SHA-256 key and signed by an externally approved Ed25519 custodian; institutional key enrollment, permanent source promotion and independent legal review remain **pending**. See [authorized HHS recovery](docs/HHS-AUTHORIZED-SOURCE-RECOVERY-INC04C.md).
