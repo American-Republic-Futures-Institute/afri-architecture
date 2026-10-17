@@ -1,0 +1,40 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "hhs-acquisition",
+  "items": [
+    {
+      "id": "AR04C-HHS-AUTHORIZED-ACQUISITION",
+      "type": "official_source_access_recovery_record",
+      "blocked_source_id": "ARCH04B-HHS-HTML",
+      "original_url": "https://www.hhs.gov/about/organization/org-chart/index.html",
+      "previous_http_result": 403,
+      "capture_in_evidence_artifact": false,
+      "allowed_next_action": "agency_authorized_copy_or_alternative_publisher_download_with_declared_different_source_identity",
+      "capture_method": null,
+      "source_bytes_sha256": null,
+      "authorized_provenance": null,
+      "publisher_authentication_confirmed": false,
+      "equivalent_to_2025_HHS_chart": false,
+      "substitute_GOVMAN_accepted_as_chart": false,
+      "access_control_bypass_prohibited": true,
+      "status": "open_authorized_source_request"
+    },
+    {
+      "id": "AR04C-HHS-CORROBORATING-2026-INDEX",
+      "type": "official_source_access_recovery_record",
+      "blocked_source_id": "ARCH04B-HHS-HTML",
+      "original_url": "https://www.hhs.gov/about/organization/index.html",
+      "previous_http_result": null,
+      "capture_in_evidence_artifact": false,
+      "allowed_next_action": "independently_retrieve_2026_department_organization_overview_as_separate_provenance",
+      "capture_method": null,
+      "source_bytes_sha256": null,
+      "authorized_provenance": null,
+      "publisher_authentication_confirmed": false,
+      "equivalent_to_2025_HHS_chart": false,
+      "substitute_GOVMAN_accepted_as_chart": false,
+      "access_control_bypass_prohibited": true,
+      "status": "separate_non_equivalent_official_source_candidate"
+    }
+  ]
+}
