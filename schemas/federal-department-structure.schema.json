@@ -1,0 +1,830 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/federal-department-structure-0.1.0.schema.json",
+  "title": "ARFI Federal Department Source-Bounded Structural Evidence 004",
+  "description": "Versioned source-fact records; epistemic and legal invariants additionally validated in code.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "type": "string",
+      "enum": [
+        "source-registry",
+        "govman-roots",
+        "candidate-granules",
+        "source-snapshots",
+        "units",
+        "relationships",
+        "coverage-ledger",
+        "viewpoints",
+        "gaps"
+      ]
+    },
+    "items": {
+      "type": "array"
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "model_family": {
+          "const": "source-registry"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source-registry"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "govman-roots"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/govman-roots"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "candidate-granules"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/candidate-granules"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "source-snapshots"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source-snapshots"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "units"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/units"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "relationships"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relationships"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "coverage-ledger"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/coverage-ledger"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "viewpoints"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/viewpoints"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "gaps"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/gaps"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "source-registry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "limitations",
+        "published_or_last_updated",
+        "publisher",
+        "qualified_legal_review",
+        "raw_source_bytes_archived",
+        "raw_source_sha256",
+        "retrieved_on",
+        "scope",
+        "type",
+        "url"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 1
+        },
+        "published_or_last_updated": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualified_legal_review": {
+          "const": false
+        },
+        "raw_source_bytes_archived": {
+          "const": false
+        },
+        "raw_source_sha256": {
+          "const": null
+        },
+        "retrieved_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        }
+      }
+    },
+    "govman-roots": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_department_id",
+        "current_2026_organizational_status_verified",
+        "edition_date",
+        "full_subordinate_inventory_verified",
+        "govinfo_package_id",
+        "granule_id",
+        "id",
+        "legal_review_status",
+        "name",
+        "retrieved_on",
+        "source_bytes_sha256",
+        "source_id",
+        "source_url",
+        "statutory_delegation_verified",
+        "type",
+        "verified_claim"
+      ],
+      "properties": {
+        "canonical_department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "current_2026_organizational_status_verified": {
+          "const": false
+        },
+        "edition_date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "full_subordinate_inventory_verified": {
+          "const": false
+        },
+        "govinfo_package_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "granule_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_review_status": {
+          "const": "not_reviewed"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retrieved_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_bytes_sha256": {
+          "const": null
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "statutory_delegation_verified": {
+          "const": false
+        },
+        "type": {
+          "const": "dated_source_department_granule_reference"
+        },
+        "verified_claim": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "candidate-granules": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidate_label",
+        "edition_date",
+        "full_adl1_completed",
+        "granule_resolution",
+        "id",
+        "individual_direct_supervisor_verified",
+        "legal_power_verified",
+        "parent_department_id",
+        "prior_candidate_id",
+        "referenced_source_id",
+        "review_status",
+        "source_bytes_sha256",
+        "type",
+        "verified_granule_detail_url",
+        "verified_individual_granule_id"
+      ],
+      "properties": {
+        "candidate_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition_date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "full_adl1_completed": {
+          "const": false
+        },
+        "granule_resolution": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "exact_official_details_page_verified",
+            "present_in_edition_navigation_but_granule_id_not_reconciled",
+            "individual_granule_not_verified"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "individual_direct_supervisor_verified": {
+          "const": false
+        },
+        "legal_power_verified": {
+          "const": false
+        },
+        "parent_department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "prior_candidate_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "referenced_source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "review_status": {
+          "const": "source_locator_research_only"
+        },
+        "source_bytes_sha256": {
+          "const": null
+        },
+        "type": {
+          "const": "inc03_candidate_granule_reconciliation"
+        },
+        "verified_granule_detail_url": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "verified_individual_granule_id": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        }
+      }
+    },
+    "source-snapshots": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "complete_department_first_level_known",
+        "complete_source_group_extracted",
+        "department_id",
+        "edition",
+        "full_operational_hierarchy_verified",
+        "id",
+        "individual_statutory_delegations_verified",
+        "observed_on",
+        "qualified_institutional_review_complete",
+        "signed_source_instrument_independently_validated",
+        "source_group",
+        "source_group_record_count",
+        "source_id",
+        "status",
+        "type"
+      ],
+      "properties": {
+        "complete_department_first_level_known": {
+          "const": false
+        },
+        "complete_source_group_extracted": {
+          "const": true
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "full_operational_hierarchy_verified": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "individual_statutory_delegations_verified": {
+          "const": false
+        },
+        "observed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualified_institutional_review_complete": {
+          "const": false
+        },
+        "signed_source_instrument_independently_validated": {
+          "const": false
+        },
+        "source_group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_group_record_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "status": {
+          "const": "bounded_source_group_research_not_adl1"
+        },
+        "type": {
+          "const": "department_source_slice_capture"
+        }
+      }
+    },
+    "units": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adl_evidenced",
+        "department_id",
+        "direct_operational_command_verified",
+        "group",
+        "id",
+        "individual_officeholder_modeled",
+        "legacy_candidate_id",
+        "legal_review_status",
+        "legal_subtype_finalized",
+        "name",
+        "original_published_relation_verified_in_named_slice",
+        "parent_ref",
+        "snapshot_id",
+        "source_id",
+        "source_locator",
+        "statutory_delegation_verified",
+        "structural_class",
+        "type",
+        "whole_organization_current_status_2026_verified"
+      ],
+      "properties": {
+        "adl_evidenced": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "direct_operational_command_verified": {
+          "const": false
+        },
+        "group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "individual_officeholder_modeled": {
+          "const": false
+        },
+        "legacy_candidate_id": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "legal_review_status": {
+          "const": "pending_qualified_human_review"
+        },
+        "legal_subtype_finalized": {
+          "const": false
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_published_relation_verified_in_named_slice": {
+          "const": true
+        },
+        "parent_ref": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "snapshot_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statutory_delegation_verified": {
+          "const": false
+        },
+        "structural_class": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "const": "source_extracted_structural_unit_candidate"
+        },
+        "whole_organization_current_status_2026_verified": {
+          "const": false
+        }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "appropriation_verified",
+        "authorized_actor_id",
+        "delegated_power_proven",
+        "direct_military_or_civilian_command_proven",
+        "from_id",
+        "group",
+        "id",
+        "legally_valid_adl1_claim",
+        "relationship_type",
+        "snapshot_id",
+        "source_id",
+        "source_review_status",
+        "to_id",
+        "type"
+      ],
+      "properties": {
+        "appropriation_verified": {
+          "const": false
+        },
+        "authorized_actor_id": {
+          "const": null
+        },
+        "delegated_power_proven": {
+          "const": false
+        },
+        "direct_military_or_civilian_command_proven": {
+          "const": false
+        },
+        "from_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legally_valid_adl1_claim": {
+          "const": false
+        },
+        "relationship_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "snapshot_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "type": {
+          "const": "sourced_descriptive_institution_relation"
+        }
+      }
+    },
+    "coverage-ledger": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "complete_first_level_denominator",
+        "current_adl1_certified",
+        "department_id",
+        "id",
+        "individually_granule_verified_selected_candidates",
+        "legal_and_institutional_review_complete",
+        "official_govman_2025_granule_id",
+        "outside_source_slice_not_assumed_absent",
+        "research_gap",
+        "selected_legacy_candidate_count",
+        "source_archival_bytes_verified",
+        "source_roster_snapshot_ids",
+        "type"
+      ],
+      "properties": {
+        "complete_first_level_denominator": {
+          "const": null
+        },
+        "current_adl1_certified": {
+          "const": false
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "individually_granule_verified_selected_candidates": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "legal_and_institutional_review_complete": {
+          "const": false
+        },
+        "official_govman_2025_granule_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "outside_source_slice_not_assumed_absent": {
+          "const": true
+        },
+        "research_gap": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selected_legacy_candidate_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "source_archival_bytes_verified": {
+          "const": false
+        },
+        "source_roster_snapshot_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "type": {
+          "const": "department_structural_evidence_ledger"
+        }
+      }
+    },
+    "viewpoints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claims_complete_department",
+        "enable_temporal_source_display",
+        "id",
+        "infer_command",
+        "infer_statutory_delegation",
+        "model_only",
+        "review_status",
+        "root_id",
+        "type",
+        "website_rendered"
+      ],
+      "properties": {
+        "claims_complete_department": {
+          "const": false
+        },
+        "enable_temporal_source_display": {
+          "const": true
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "infer_command": {
+          "const": false
+        },
+        "infer_statutory_delegation": {
+          "const": false
+        },
+        "model_only": {
+          "const": true
+        },
+        "review_status": {
+          "const": "unratified_read_only_source_limited"
+        },
+        "root_id": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "type": {
+          "const": "department_dated_structural_view"
+        },
+        "website_rendered": {
+          "const": false
+        }
+      }
+    },
+    "gaps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "department_id",
+        "id",
+        "kind",
+        "required_evidence",
+        "resolved",
+        "source_id"
+      ],
+      "properties": {
+        "department_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "required_evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resolved": {
+          "const": false
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        }
+      }
+    }
+  }
+}
