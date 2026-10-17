@@ -1,0 +1,1881 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "EXP-REL-0001",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-CONGRESS",
+      "to_id": "BR-FED-LEG",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0002",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-HOUSE",
+      "to_id": "ORG-FED-LEG-CONGRESS",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE",
+        "EXP-SRC-HOUSE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-HOUSE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0003",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-SENATE",
+      "to_id": "ORG-FED-LEG-CONGRESS",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-HOUSE-STRUCTURE",
+        "SRC-SENATE-TREATY"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0004",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-CBO",
+      "to_id": "BR-FED-LEG",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-CBO-2026",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0005",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-GAO",
+      "to_id": "BR-FED-LEG",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-GAO-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0006",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-LOC",
+      "to_id": "BR-FED-LEG",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-LOC-ABOUT",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0007",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-CRS",
+      "to_id": "ORG-FED-LEG-LOC",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-CRS-MISSION",
+        "SRC-LOC-ABOUT"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0008",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-GPO",
+      "to_id": "BR-FED-LEG",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-GPO-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0009",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-LEG-AOC",
+      "to_id": "BR-FED-LEG",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "legislative_catalog_or_support_affiliation_not_chamber_control",
+      "source_ids": [
+        "SRC-AOC-MISSION",
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0010",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-PRESIDENT",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0011",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-VP",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-WH-EXECUTIVE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0012",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-EOP",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-WH-EOP",
+        "EXP-SRC-GOVMAN-2024-EOP"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0013",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-EOP-OMB",
+      "to_id": "ORG-FED-EXE-EOP",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-WH-EOP",
+        "EXP-SRC-GOVMAN-2024-EOP"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0014",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-EOP-NSC",
+      "to_id": "ORG-FED-EXE-EOP",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "EXP-SRC-GOVMAN-2024-EOP"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0015",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-EOP-OSTP",
+      "to_id": "ORG-FED-EXE-EOP",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-WH-EOP",
+        "EXP-SRC-GOVMAN-2024-EOP"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0016",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-EOP-USTR",
+      "to_id": "ORG-FED-EXE-EOP",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "EXP-SRC-GOVMAN-2024-EOP"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0017",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-EOP-CEA",
+      "to_id": "ORG-FED-EXE-EOP",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-WH-EOP",
+        "EXP-SRC-GOVMAN-2024-EOP"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0018",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-EOP-ONCD",
+      "to_id": "ORG-FED-EXE-EOP",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-WH-EOP",
+        "EXP-SRC-GOVMAN-2024-EOP"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0019",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-EOP-CEQ",
+      "to_id": "ORG-FED-EXE-EOP",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "presidential_office_catalog_parentage_not_delegation",
+      "source_ids": [
+        "SRC-WH-EOP",
+        "EXP-SRC-GOVMAN-2024-EOP"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2024-EOP",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0020",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-STATE",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0021",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-TREASURY",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0022",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0023",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0024",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0025",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0026",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-LABOR",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0027",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-HHS",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0028",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-HUD",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0029",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0030",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-ENERGY",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0031",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-DEP-VA",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "statutory_department_in_executive_branch_not_subordinate_power",
+      "source_ids": [
+        "SRC-WH-EXECUTIVE",
+        "SRC-GOVMAN-2025",
+        "EXP-SRC-5-USC-101"
+      ],
+      "source_snapshot_id": "EXP-SNAP-5-USC-101",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0032",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-EPA",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0033",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-NASA",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0034",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-NSF",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0035",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-SSA",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0036",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-GSA",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0037",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-OPM",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0038",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-SEC",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "SRC-SEC-MISSION",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0039",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-FTC",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "SRC-FTC-MISSION",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0040",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-FCC",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0041",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-NRC",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0042",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-FED",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "SRC-FED-BOARD",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0043",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-USPS",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0044",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-SBA",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0045",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-NARA",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0046",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-CIA",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0047",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-ODNI",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0048",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-FDIC",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0049",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-EXE-IND-CFTC",
+      "to_id": "BR-FED-EXE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "nondepartment_executive_catalog_not_legal_independence",
+      "source_ids": [
+        "SRC-USAGOV-DIRECTORY",
+        "SRC-GOVMAN-2025",
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0050",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-SCOTUS",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-CONSTITUTION",
+        "SRC-SCOTUS-ABOUT",
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0051",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-APPEALS",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE",
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0052",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-DISTRICT",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE",
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0053",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-BANKRUPTCY",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE",
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0054",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-CIT",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0055",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-COFC",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0056",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-AO",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-USCOURTS-ADMIN",
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0057",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-FJC",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-FJC-ABOUT",
+        "SRC-USCOURTS-ADMIN"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0058",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "ORG-FED-JUD-CONFERENCE",
+      "to_id": "BR-FED-JUD",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "judicial_catalog_and_grouping_not_jurisdiction",
+      "source_ids": [
+        "SRC-USCOURTS-ADMIN"
+      ],
+      "source_snapshot_id": null,
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0059",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-STATE-CONSULAR",
+      "to_id": "ORG-FED-EXE-DEP-STATE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0060",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-STATE-DIPLOMATIC-SECURITY",
+      "to_id": "ORG-FED-EXE-DEP-STATE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0061",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-TREASURY-IRS",
+      "to_id": "ORG-FED-EXE-DEP-TREASURY",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0062",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-TREASURY-FISCAL",
+      "to_id": "ORG-FED-EXE-DEP-TREASURY",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0063",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-JUSTICE-FBI",
+      "to_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0064",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-JUSTICE-BOP",
+      "to_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0065",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-INTERIOR-NPS",
+      "to_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0066",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-INTERIOR-BIA",
+      "to_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0067",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-AGRICULTURE-FS",
+      "to_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0068",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-AGRICULTURE-FNS",
+      "to_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0069",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-COMMERCE-NOAA",
+      "to_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0070",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-COMMERCE-NIST",
+      "to_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0071",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-LABOR-BLS",
+      "to_id": "ORG-FED-EXE-DEP-LABOR",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0072",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-LABOR-OSHA",
+      "to_id": "ORG-FED-EXE-DEP-LABOR",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0073",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-HHS-CDC",
+      "to_id": "ORG-FED-EXE-DEP-HHS",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0074",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-HHS-CMS",
+      "to_id": "ORG-FED-EXE-DEP-HHS",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0075",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-HUD-FHA",
+      "to_id": "ORG-FED-EXE-DEP-HUD",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0076",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-HUD-PIH",
+      "to_id": "ORG-FED-EXE-DEP-HUD",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0077",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-TRANSPORTATION-FAA",
+      "to_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0078",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-TRANSPORTATION-FTA",
+      "to_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0079",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-ENERGY-NNSA",
+      "to_id": "ORG-FED-EXE-DEP-ENERGY",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0080",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-ENERGY-FERC",
+      "to_id": "ORG-FED-EXE-DEP-ENERGY",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0081",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-VA-VHA",
+      "to_id": "ORG-FED-EXE-DEP-VA",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0082",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-VA-VBA",
+      "to_id": "ORG-FED-EXE-DEP-VA",
+      "branch_id": "BR-FED-EXE",
+      "relationship_type": "published_department_affiliation_candidate_not_direct_command",
+      "source_ids": [
+        "CENSUS-SRC-GOVMAN-2025"
+      ],
+      "source_snapshot_id": "EXP-SNAP-GOVMAN-2025",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0083",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-HOUSE-ARMED",
+      "to_id": "ORG-FED-LEG-HOUSE",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "house_standing_committee_reference",
+      "source_ids": [
+        "EXP-SRC-HOUSE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-HOUSE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0084",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-HOUSE-APP",
+      "to_id": "ORG-FED-LEG-HOUSE",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "house_standing_committee_reference",
+      "source_ids": [
+        "EXP-SRC-HOUSE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-HOUSE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0085",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SENATE-ARMED",
+      "to_id": "ORG-FED-LEG-SENATE",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "senate_standing_committee_reference",
+      "source_ids": [
+        "EXP-SRC-SENATE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-SENATE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0086",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SENATE-APP",
+      "to_id": "ORG-FED-LEG-SENATE",
+      "branch_id": "BR-FED-LEG",
+      "relationship_type": "senate_standing_committee_reference",
+      "source_ids": [
+        "EXP-SRC-SENATE-119"
+      ],
+      "source_snapshot_id": "EXP-SNAP-SENATE-119",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0087",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-FIRST",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0088",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SECOND",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0089",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-THIRD",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0090",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-FOURTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0091",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-FIFTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0092",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SIXTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0093",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-SEVENTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0094",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-EIGHTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0095",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-NINTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0096",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-TENTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0097",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-ELEVENTH",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0098",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-DC",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    },
+    {
+      "id": "EXP-REL-0099",
+      "type": "descriptive_evidence_scoped_institution_relation",
+      "from_id": "EXP-SEED-FEDERAL",
+      "to_id": "ORG-FED-JUD-APPEALS",
+      "branch_id": "BR-FED-JUD",
+      "relationship_type": "appellate_court_named_candidate_not_case_assignment",
+      "source_ids": [
+        "EXP-SRC-USCOURTS-STRUCTURE"
+      ],
+      "source_snapshot_id": "EXP-SNAP-USCOURTS-STRUCTURE",
+      "operational_command_proven": false,
+      "delegated_power_proven": false,
+      "appropriation_verified": false,
+      "current_direct_supervision_verified": false,
+      "legal_subtype_resolved": false,
+      "review_status": "catalogue_only_no_current_legal_certification"
+    }
+  ],
+  "model_family": "relationships"
+}

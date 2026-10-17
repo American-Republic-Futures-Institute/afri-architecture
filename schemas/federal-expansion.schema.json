@@ -1,0 +1,898 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/federal-expansion-0.1.0.schema.json",
+  "title": "ARFI federal institutional reference expansion research contract",
+  "description": "Strict collection-shape validation; substantive provenance and non-inference checks are implemented in federal-expansion-validation-core.mjs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "items": {
+      "type": "array"
+    },
+    "model_family": {
+      "type": "string",
+      "enum": [
+        "sources",
+        "snapshots",
+        "roster",
+        "department-seeds",
+        "crossbranch-seeds",
+        "relationships",
+        "coverage-ledger",
+        "gaps",
+        "viewpoints"
+      ]
+    }
+  },
+  "$defs": {
+    "sources": {
+      "type": "object",
+      "required": [
+        "accessed_on",
+        "claim_boundary",
+        "edition_status",
+        "id",
+        "published_on",
+        "publisher",
+        "title",
+        "type",
+        "url"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "accessed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_boundary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "published_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "const": "expansion_official_primary_source"
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://(www\\.)?(govinfo\\.gov|uscode\\.house\\.gov|uscourts\\.gov|senate\\.gov)/"
+        }
+      }
+    },
+    "snapshots": {
+      "type": "object",
+      "required": [
+        "accessed_on",
+        "as_of",
+        "complete_federal_denominator",
+        "complete_first_level_roster",
+        "id",
+        "independent_legal_review_complete",
+        "is_fixed_publication",
+        "kind",
+        "revision_id",
+        "scope",
+        "source_id",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "accessed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "as_of": {
+          "type": "string",
+          "minLength": 1
+        },
+        "complete_federal_denominator": {
+          "const": false
+        },
+        "complete_first_level_roster": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "independent_legal_review_complete": {
+          "const": false
+        },
+        "is_fixed_publication": {
+          "type": "boolean"
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "type": {
+          "const": "federal_expansion_source_slice"
+        }
+      }
+    },
+    "roster": {
+      "type": "object",
+      "required": [
+        "adl1_completed",
+        "adl_evidenced",
+        "branch_id",
+        "canonical_institution_id",
+        "canonical_model_path",
+        "canonical_parent_id",
+        "current_parentage_verified",
+        "external_official_identifier",
+        "family",
+        "id",
+        "individual_component_denominator_known",
+        "legal_subtype_verified",
+        "review_status",
+        "source_ids",
+        "source_match_status",
+        "source_snapshot_id",
+        "specific_statutory_authority_verified",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "adl1_completed": {
+          "const": false
+        },
+        "adl_evidenced": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "branch_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "canonical_institution_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "canonical_model_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_parent_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "current_parentage_verified": {
+          "const": false
+        },
+        "external_official_identifier": {
+          "type": "null",
+          "const": null
+        },
+        "family": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "departments",
+            "eop",
+            "independent",
+            "legislative",
+            "judiciary",
+            "all"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "individual_component_denominator_known": {
+          "const": false
+        },
+        "legal_subtype_verified": {
+          "const": false
+        },
+        "review_status": {
+          "const": "research_pending_qualified_human_review"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "source_match_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_snapshot_id": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "specific_statutory_authority_verified": {
+          "const": false
+        },
+        "type": {
+          "const": "source_bounded_canonical_institution_pointer"
+        }
+      }
+    },
+    "department-seeds": {
+      "type": "object",
+      "required": [
+        "adl1_completed",
+        "adl_evidenced",
+        "appropriation_verified",
+        "branch_id",
+        "current_2026_presence_verified",
+        "delegation_verified",
+        "direct_supervision_verified",
+        "evidence_locator",
+        "id",
+        "legal_subtype_status",
+        "name",
+        "original_edition_item_locator_reconciled",
+        "parent_department_id",
+        "relationship_type",
+        "review_status",
+        "source_ids",
+        "source_snapshot_id",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "adl1_completed": {
+          "const": false
+        },
+        "adl_evidenced": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "appropriation_verified": {
+          "const": false
+        },
+        "branch_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "current_2026_presence_verified": {
+          "const": false
+        },
+        "delegation_verified": {
+          "const": false
+        },
+        "direct_supervision_verified": {
+          "const": false
+        },
+        "evidence_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_subtype_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_edition_item_locator_reconciled": {
+          "const": false
+        },
+        "parent_department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "relationship_type": {
+          "const": "published_department_affiliation_candidate_not_direct_command"
+        },
+        "review_status": {
+          "const": "source_index_seed_pending_line_level_and_human_review"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "source_snapshot_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "type": {
+          "const": "selected_first_level_research_candidate"
+        }
+      }
+    },
+    "crossbranch-seeds": {
+      "type": "object",
+      "required": [
+        "adl1_completed",
+        "adl_evidenced",
+        "branch_id",
+        "committee_rule_and_subcommittee_jurisdiction_verified",
+        "evidence_locator",
+        "id",
+        "individual_legal_creation_and_jurisdiction_verified",
+        "name",
+        "operational_reporting_or_command_proven",
+        "parent_id",
+        "relationship_type",
+        "review_status",
+        "source_ids",
+        "source_item_locator_independently_reviewed",
+        "source_snapshot_id",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "adl1_completed": {
+          "const": false
+        },
+        "adl_evidenced": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "branch_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "committee_rule_and_subcommittee_jurisdiction_verified": {
+          "const": false
+        },
+        "evidence_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "individual_legal_creation_and_jurisdiction_verified": {
+          "const": false
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "operational_reporting_or_command_proven": {
+          "const": false
+        },
+        "parent_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "relationship_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "const": "official_source_candidate_unratified_pending_line_review"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "source_item_locator_independently_reviewed": {
+          "const": false
+        },
+        "source_snapshot_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "type": {
+          "const": "selected_legal_institution_subtype_candidate"
+        }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "required": [
+        "appropriation_verified",
+        "branch_id",
+        "current_direct_supervision_verified",
+        "delegated_power_proven",
+        "from_id",
+        "id",
+        "legal_subtype_resolved",
+        "operational_command_proven",
+        "relationship_type",
+        "review_status",
+        "source_ids",
+        "source_snapshot_id",
+        "to_id",
+        "type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "appropriation_verified": {
+          "const": false
+        },
+        "branch_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "current_direct_supervision_verified": {
+          "const": false
+        },
+        "delegated_power_proven": {
+          "const": false
+        },
+        "from_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_subtype_resolved": {
+          "const": false
+        },
+        "operational_command_proven": {
+          "const": false
+        },
+        "relationship_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "const": "catalogue_only_no_current_legal_certification"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "source_snapshot_id": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "to_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "type": {
+          "const": "descriptive_evidence_scoped_institution_relation"
+        }
+      }
+    },
+    "coverage-ledger": {
+      "type": "object",
+      "required": [
+        "canonical_pointer_count",
+        "complete_current_roster_claim",
+        "denominator_basis",
+        "explicit_first_level_seed_count",
+        "family",
+        "human_legal_review_complete",
+        "id",
+        "independently_verified_current_first_level_entities",
+        "individual_first_level_official_denominator",
+        "known_canonical_reference_denominator",
+        "limitation",
+        "percentage_of_total_federal_government",
+        "scope_statement",
+        "type",
+        "whole_institution_adl1_certified_count"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "canonical_pointer_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "complete_current_roster_claim": {
+          "const": false
+        },
+        "denominator_basis": {
+          "const": "ARFI_61_reference_register_excluding_three_pilot_cabinet_depts"
+        },
+        "explicit_first_level_seed_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "family": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "departments",
+            "eop",
+            "independent",
+            "legislative",
+            "judiciary",
+            "all"
+          ]
+        },
+        "human_legal_review_complete": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "independently_verified_current_first_level_entities": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "individual_first_level_official_denominator": {
+          "type": "null",
+          "const": null
+        },
+        "known_canonical_reference_denominator": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "limitation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "percentage_of_total_federal_government": {
+          "type": "null",
+          "const": null
+        },
+        "scope_statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "const": "bounded_reference_coverage_measure"
+        },
+        "whole_institution_adl1_certified_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "gaps": {
+      "type": "object",
+      "required": [
+        "adl1_complete",
+        "closure_evidence",
+        "family",
+        "id",
+        "legal_subtype_complete",
+        "root_id",
+        "status",
+        "type",
+        "unknown_denominator"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "adl1_complete": {
+          "const": false
+        },
+        "closure_evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "departments",
+            "eop",
+            "independent",
+            "legislative",
+            "judiciary",
+            "all"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_subtype_complete": {
+          "const": false
+        },
+        "root_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "status": {
+          "const": "open_unverified"
+        },
+        "type": {
+          "const": "source_bounded_coverage_gap"
+        },
+        "unknown_denominator": {
+          "type": "boolean"
+        }
+      }
+    },
+    "viewpoints": {
+      "type": "object",
+      "required": [
+        "complete_current_census",
+        "family",
+        "id",
+        "legal_authority_proven",
+        "model_only",
+        "root_filter_supported",
+        "title",
+        "type",
+        "view_status",
+        "website_rendered"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "complete_current_census": {
+          "const": false
+        },
+        "family": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "departments",
+            "eop",
+            "independent",
+            "legislative",
+            "judiciary",
+            "all"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "legal_authority_proven": {
+          "const": false
+        },
+        "model_only": {
+          "type": "boolean"
+        },
+        "root_filter_supported": {
+          "type": "boolean"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "const": "source_bounded_institution_viewpoint"
+        },
+        "view_status": {
+          "const": "data_contract_unratified_read_only"
+        },
+        "website_rendered": {
+          "const": false
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "sources"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sources"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "snapshots"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/snapshots"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "roster"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/roster"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "department-seeds"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/department-seeds"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "crossbranch-seeds"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/crossbranch-seeds"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "relationships"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relationships"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "coverage-ledger"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/coverage-ledger"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "gaps"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/gaps"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "viewpoints"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/viewpoints"
+          }
+        }
+      }
+    }
+  ]
+}
