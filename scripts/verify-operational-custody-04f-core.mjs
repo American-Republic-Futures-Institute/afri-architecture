@@ -131,7 +131,11 @@ export function inspectCloudTrailObjectDataSelectors({selectors,bucket}){
  const advance=adv.some(x=>fieldIncludes(x.FieldSelectors,"eventCategory",{Equals:"Data"})&&
   fieldIncludes(x.FieldSelectors,"resources.type",{Equals:"AWS::S3::Object"})&&
   x.FieldSelectors.some(y=>y.Field==="resources.ARN"&&
-   (y.StartsWith?.includes(broadArn)||y.Equals?.includes(broadArn))));
+   (y.StartsWith?.includes(broadArn)||y.Equals?.includes(broadArn)))&&
+  // A read-only or event-name filtered trail cannot prove all original writes/reads.
+  !x.FieldSelectors.some(y=>y.Field==="eventName"||
+   y.Field==="readOnly"&&
+   !(y.Equals?.includes("true")&&y.Equals?.includes("false"))));
  const older=selectors?.EventSelectors||[];
  const legacy=older.some(x=>x.ReadWriteType==="All"&&x.IncludeManagementEvents!==undefined&&
   x.DataResources?.some(r=>r.Type==="AWS::S3::Object"&&r.Values?.includes(broadArn)));
