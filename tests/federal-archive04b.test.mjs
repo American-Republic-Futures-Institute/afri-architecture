@@ -21,10 +21,10 @@ const reject=(name,mutate,regexp=/Federal source archive rejected|unapproved sou
  const f=structuredClone(initial);mutate(f);
  assert.throws(()=>validateArchive04b(f.manifest,f.files,f.schema),regexp);
 });
-test("seven strictly dispatched JSON Schema families permit no unsupported authority fields",()=>{
+test("nine strictly dispatched JSON Schema families permit no unsupported authority fields",()=>{
  const result=inspectArchive04bSchema(initial.schema,initial.files);
  assert.deepEqual(result.errors,[]);
- assert.equal(result.families,7);
+ assert.equal(result.families,9);
  const bad=structuredClone(initial.files);
  bad[filename("hhs-source-entries")].items[0].signed_delegation=true;
  assert(inspectArchive04bSchema(initial.schema,bad).errors.some(s=>s.includes("additional field")));
@@ -35,6 +35,22 @@ test("eight pinned official network sources are known but NOT falsely recorded a
  assert(verified.data.sources.every(x=>x.archived_sha256===null&&
   x.archival_status==="capture_pending_ci_artifact"&&!x.bytes_embedded_in_repository));
  assert.equal(verified.counts.captured_repository_source_bytes,0);
+ assert.equal(verified.counts.blocked_live_HHS_capture,1);
+});
+test("seven real downloaded source receipts and the HHS HTTP403 gap are explicitly auditable",()=>{
+ const rows=verified.data["observed-capture-receipts"];
+ assert.equal(rows.length,8);
+ assert.equal(rows.filter(x=>x.receipt_status==="verified_in_temporary_ci_artifact").length,7);
+ assert.equal(rows.filter(x=>x.receipt_status==="blocked_official_HTTP_403").length,1);
+ assert.equal(rows.find(x=>x.source_id==="ARCH04B-DOJ-HTML").decoded_entity_byte_count,60922);
+ assert(rows.every(x=>x.is_permanent_archive===false&&x.source_payload_in_repository===false));
+ assert.equal(verified.counts.verified_temporary_source_receipt_sha256,7);
+});
+test("GovInfo XML embeds source-local parent entity IDs, not universal department or component identifiers",()=>{
+ const x=verified.data["govman-xml-root-metadata"];
+ assert.deepEqual(Object.fromEntries(x.map(r=>[r.department_id.split("-").at(-1),r.local_entity_id])),
+  {JUSTICE:"121",TREASURY:"125",HHS:"117",VA:"126"});
+ assert(x.every(r=>r.XML_entity_elements_in_granule===1&&r.complete_first_level_department_denominator_verified===false));
 });
 test("twenty-eight source-listed HHS links distinguish clinical agencies, Secretary offices, IG and hearings",()=>{
  const v=verified.data["hhs-source-entries"];
@@ -86,6 +102,18 @@ test("independent departmental snapshots are selectable but never present statut
 });
 test("unsupported views fail closed rather than reusing unrelated DOJ evidence",()=>{
  assert.throws(()=>projectArchive04b(verified,"VIEW-ARCH04B-ALL-CURRENT"),/unknown/);
+});
+reject("tampering with an independently verified source response digest is rejected",f=>{
+ lookup(f,"observed-capture-receipts","ARCH04B-OBS-ARCH04B-GOVMAN-JUSTICE-XML").decoded_entity_sha256="e".repeat(64);
+});
+reject("blocked HHS HTML cannot be marked captured without original response bytes",f=>{
+ lookup(f,"observed-capture-receipts","ARCH04B-OBS-ARCH04B-HHS-HTML").receipt_status="verified_in_temporary_ci_artifact";
+});
+reject("GovInfo package-local EntityId cannot be swapped for another federal agency identifier",f=>{
+ lookup(f,"govman-xml-root-metadata","ARCH04B-XML-ROOT-HHS").local_entity_id="125";
+});
+reject("GovInfo XML parent element cannot become an apparently complete nested agency list",f=>{
+ lookup(f,"govman-xml-root-metadata","ARCH04B-XML-ROOT-VA").complete_first_level_department_denominator_verified=true;
 });
 reject("unrelated official source URL is not substitution for an existing government edition",f=>{
  lookup(f,"sources","ARCH04B-GOVMAN-HHS-XML").url="https://www.govinfo.gov/content/pkg/GOVMAN-2025-12-31/xml/GOVMAN-2025-12-31-125.xml";

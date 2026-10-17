@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://arfinstitute.org/schemas/federal-source-archive-04b-0.1.0.schema.json",
-  "title": "ARFI 04B source archive, organizational groups and unresolved classification review",
+  "title": "ARFI 04B source archive and witnessed temporary evidence receipts",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -22,7 +22,9 @@
         "classification-review",
         "change-journal",
         "gaps",
-        "viewpoints"
+        "viewpoints",
+        "observed-capture-receipts",
+        "govman-xml-root-metadata"
       ]
     },
     "items": {
@@ -117,6 +119,32 @@
           "type": "array",
           "items": {
             "$ref": "#/$defs/viewpoints"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "observed-capture-receipts"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/observed-capture-receipts"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "govman-xml-root-metadata"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/govman-xml-root-metadata"
           }
         }
       }
@@ -630,6 +658,212 @@
         },
         "whole_department_known": {
           "const": false
+        }
+      }
+    },
+    "observed-capture-receipts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "captured_at",
+        "complete_first_level_verified",
+        "decoded_entity_byte_count",
+        "decoded_entity_sha256",
+        "github_artifact_expires_at",
+        "github_artifact_id",
+        "github_artifact_run_id",
+        "github_artifact_zip_sha256",
+        "id",
+        "is_permanent_archive",
+        "legal_classification_verified",
+        "receipt_status",
+        "response_verification",
+        "source_id",
+        "source_payload_in_repository",
+        "source_url",
+        "type"
+      ],
+      "properties": {
+        "captured_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "complete_first_level_verified": {
+          "const": false
+        },
+        "decoded_entity_byte_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "decoded_entity_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "github_artifact_expires_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "github_artifact_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "github_artifact_run_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "github_artifact_zip_sha256": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "is_permanent_archive": {
+          "const": false
+        },
+        "legal_classification_verified": {
+          "const": false
+        },
+        "receipt_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "response_verification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_payload_in_repository": {
+          "const": false
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "const": "verified_source_capture_receipt"
+        }
+      }
+    },
+    "govman-xml-root-metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "XML_entity_elements_in_granule",
+        "XML_entity_identifier_scope",
+        "access_id",
+        "agency_constituent_institutions_evidenced_by_this_XML_granule",
+        "agency_name",
+        "category",
+        "children_collection_element_present",
+        "complete_first_level_department_denominator_verified",
+        "department_id",
+        "entity_type",
+        "human_legal_review_complete",
+        "id",
+        "local_entity_id",
+        "parent_entity_id",
+        "response_receipt_id",
+        "sort_order",
+        "source_id",
+        "source_xml_sha256",
+        "type"
+      ],
+      "properties": {
+        "XML_entity_elements_in_granule": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "XML_entity_identifier_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "access_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "agency_constituent_institutions_evidenced_by_this_XML_granule": {
+          "const": false
+        },
+        "agency_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "children_collection_element_present": {
+          "type": "boolean"
+        },
+        "complete_first_level_department_denominator_verified": {
+          "const": false
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "entity_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "human_legal_review_complete": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "local_entity_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "parent_entity_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "response_receipt_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "sort_order": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_xml_sha256": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "type": {
+          "const": "official_govman_2025_XML_root_metadata"
         }
       }
     }
