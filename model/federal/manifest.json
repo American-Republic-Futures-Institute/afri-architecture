@@ -108,7 +108,15 @@
     "model/federal/coverage/components.json",
     "model/federal/coverage/relationships.json",
     "model/federal/coverage/gaps.json",
-    "model/federal/coverage/viewpoints.json"
+    "model/federal/coverage/viewpoints.json",
+    "model/federal/expansion/sources.json",
+    "model/federal/expansion/snapshots.json",
+    "model/federal/expansion/roster.json",
+    "model/federal/expansion/department-seeds.json",
+    "model/federal/expansion/relationships.json",
+    "model/federal/expansion/coverage-ledger.json",
+    "model/federal/expansion/gaps.json",
+    "model/federal/expansion/viewpoints.json"
   ],
   "standards": [
     {
@@ -394,5 +402,24 @@
     "legal_review_status": "pending",
     "website_integration_status": "deferred",
     "next_stage": "Complete source-edition census, verified first-level organizational links, then statutory authority mapping."
+  },
+  "federal_coverage_expansion_extension": {
+    "id": "ARFI-COA-FED-EXPANSION-003",
+    "model_version": "0.1.0",
+    "source_as_of": "2026-10-16",
+    "research_status": "source_bounded_unratified",
+    "baseline_census_extension": "ARFI-COA-FED-CENSUS-001",
+    "isolated_from_dod_pr19": true,
+    "primary_legal_department_source": "EXP-SRC-5-USC-101",
+    "known_unchanged_canonical_references": 61,
+    "selected_expansion_reference_count": 58,
+    "remaining_cabinet_departments": 12,
+    "selected_component_seeds": 24,
+    "complete_institutional_adl1_count": 0,
+    "full_federal_census_denominator_known": false,
+    "all_independents_legally_subtyped": false,
+    "website_integration": "not_implemented",
+    "external_identifiers_inferred": false,
+    "legal_review_status": "pending"
   }
 }

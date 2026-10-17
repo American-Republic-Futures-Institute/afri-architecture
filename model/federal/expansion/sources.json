@@ -1,0 +1,60 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "EXP-SRC-5-USC-101",
+      "type": "expansion_official_primary_source",
+      "publisher": "Office of Law Revision Counsel",
+      "title": "5 U.S.C. 101 Executive departments",
+      "url": "https://uscode.house.gov/us/usc/119-118/t5/s101/",
+      "published_on": "2026-10-07",
+      "accessed_on": "2026-10-16",
+      "claim_boundary": "statutory_department_names_only",
+      "edition_status": "mutable_OLRC_web_display_of_law_through_public_law_119_120"
+    },
+    {
+      "id": "EXP-SRC-GOVMAN-2024-EOP",
+      "type": "expansion_official_primary_source",
+      "publisher": "Office of the Federal Register",
+      "title": "2024 U.S. Government Manual EOP organizational chapter",
+      "url": "https://www.govinfo.gov/app/details/GOVMAN-2024-12-31/GOVMAN-2024-12-31-098",
+      "published_on": "2024-12-31",
+      "accessed_on": "2026-10-16",
+      "claim_boundary": "historic_eop_units_only",
+      "edition_status": "dated_GovInfo_publication_not_2026_current"
+    },
+    {
+      "id": "EXP-SRC-USCOURTS-STRUCTURE",
+      "type": "expansion_official_primary_source",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "title": "Court Role and Structure",
+      "url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+      "published_on": null,
+      "accessed_on": "2026-10-16",
+      "claim_boundary": "public_judicial_categories_not_individual_court_roster",
+      "edition_status": "mutable_current_site_not_immutable_census"
+    },
+    {
+      "id": "EXP-SRC-HOUSE-119",
+      "type": "expansion_official_primary_source",
+      "publisher": "U.S. House of Representatives / GPO",
+      "title": "119th Congress House Rules and Manual",
+      "url": "https://www.govinfo.gov/app/details/HMAN-119",
+      "published_on": "2025-01-20",
+      "accessed_on": "2026-10-16",
+      "claim_boundary": "house_internal_procedures_not_branch_support_agency_powers",
+      "edition_status": "published_119th_House_procedural_rules"
+    },
+    {
+      "id": "EXP-SRC-SENATE-119",
+      "type": "expansion_official_primary_source",
+      "publisher": "U.S. Senate",
+      "title": "119th Congress Senate committees",
+      "url": "https://www.senate.gov/committees/index.htm",
+      "published_on": null,
+      "accessed_on": "2026-10-16",
+      "claim_boundary": "senate_committees_not_legislative_support_agency_roster",
+      "edition_status": "mutable_119th_committee_webpage"
+    }
+  ]
+}

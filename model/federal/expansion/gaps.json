@@ -1,0 +1,192 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "EXP-GAP-STATE-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-STATE",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-TREASURY-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-TREASURY",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-JUSTICE-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-INTERIOR-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-AGRICULTURE-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-COMMERCE-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-LABOR-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-LABOR",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-HHS-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-HHS",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-HUD-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-HUD",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-TRANSPORTATION-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-ENERGY-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-ENERGY",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-VA-FULL-LEVEL-ONE",
+      "type": "source_bounded_coverage_gap",
+      "family": "departments",
+      "root_id": "ORG-FED-EXE-DEP-VA",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Independently enumerate all first-level units from a declared edition, reconcile mutable 2026 status and legal component types.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-EOP",
+      "type": "source_bounded_coverage_gap",
+      "family": "eop",
+      "root_id": "ORG-FED-EXE-EOP",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Reconcile 2024 EOP handbook to 2026 structure and statutory categories without importing personnel or functions.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-INDEPENDENT",
+      "type": "source_bounded_coverage_gap",
+      "family": "independent",
+      "root_id": "BR-FED-EXE",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Source-verify each selected body's legal organizational form, constituent units and constitutional control limits.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-LEGISLATIVE",
+      "type": "source_bounded_coverage_gap",
+      "family": "legislative",
+      "root_id": "BR-FED-LEG",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Reconcile House/Senate committees and legislative support against chamber-specific official dated sources.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-JUDICIARY",
+      "type": "source_bounded_coverage_gap",
+      "family": "judiciary",
+      "root_id": "BR-FED-JUD",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Enumerate individually identifiable federal courts from official judiciary catalogs and distinguish Article I tribunals.",
+      "status": "open_unverified"
+    },
+    {
+      "id": "EXP-GAP-FEDERAL-UNIVERSE",
+      "type": "source_bounded_coverage_gap",
+      "family": "all",
+      "root_id": "BR-FED-EXE",
+      "unknown_denominator": true,
+      "adl1_complete": false,
+      "legal_subtype_complete": false,
+      "closure_evidence": "Establish and audit whole-of-government source-edition denominator across branches, agencies and component categories.",
+      "status": "open_unverified"
+    }
+  ]
+}
