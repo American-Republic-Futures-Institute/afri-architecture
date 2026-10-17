@@ -188,5 +188,6 @@
       "closure_evidence": "Establish and audit whole-of-government source-edition denominator across branches, agencies and component categories.",
       "status": "open_unverified"
     }
-  ]
+  ],
+  "model_family": "gaps"
 }

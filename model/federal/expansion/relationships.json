@@ -1876,5 +1876,6 @@
       "legal_subtype_resolved": false,
       "review_status": "catalogue_only_no_current_legal_certification"
     }
-  ]
+  ],
+  "model_family": "relationships"
 }

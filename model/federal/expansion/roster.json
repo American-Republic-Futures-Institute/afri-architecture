@@ -1370,5 +1370,6 @@
       "individual_component_denominator_known": false,
       "review_status": "research_pending_qualified_human_review"
     }
-  ]
+  ],
+  "model_family": "roster"
 }

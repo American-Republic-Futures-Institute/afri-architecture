@@ -73,5 +73,6 @@
       "complete_current_census": false,
       "view_status": "data_contract_unratified_read_only"
     }
-  ]
+  ],
+  "model_family": "viewpoints"
 }

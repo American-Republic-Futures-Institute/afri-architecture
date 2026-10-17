@@ -7,6 +7,7 @@
   "additionalProperties": false,
   "required": [
     "model_version",
+    "model_family",
     "items"
   ],
   "properties": {
@@ -15,6 +16,20 @@
     },
     "items": {
       "type": "array"
+    },
+    "model_family": {
+      "type": "string",
+      "enum": [
+        "sources",
+        "snapshots",
+        "roster",
+        "department-seeds",
+        "crossbranch-seeds",
+        "relationships",
+        "coverage-ledger",
+        "gaps",
+        "viewpoints"
+      ]
     }
   },
   "$defs": {
@@ -724,5 +739,160 @@
         }
       }
     }
-  }
+  },
+  "oneOf": [
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "sources"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sources"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "snapshots"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/snapshots"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "roster"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/roster"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "department-seeds"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/department-seeds"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "crossbranch-seeds"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/crossbranch-seeds"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "relationships"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relationships"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "coverage-ledger"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/coverage-ledger"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "gaps"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/gaps"
+          }
+        }
+      }
+    },
+    {
+      "required": [
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_family": {
+          "const": "viewpoints"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/viewpoints"
+          }
+        }
+      }
+    }
+  ]
 }

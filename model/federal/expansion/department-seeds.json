@@ -529,5 +529,6 @@
       "current_2026_presence_verified": false,
       "review_status": "source_index_seed_pending_line_level_and_human_review"
     }
-  ]
+  ],
+  "model_family": "department-seeds"
 }

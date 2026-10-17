@@ -341,5 +341,6 @@
       "adl1_completed": false,
       "review_status": "official_source_candidate_unratified_pending_line_review"
     }
-  ]
+  ],
+  "model_family": "crossbranch-seeds"
 }

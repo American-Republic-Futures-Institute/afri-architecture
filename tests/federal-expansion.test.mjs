@@ -28,6 +28,12 @@ test("nine strict JSON Schema 2020-12 record families validate without permissiv
  const tampered=structuredClone(initial.files);
  tampered[file("roster")].items[0].government_power_certified=true;
  assert(inspectExpansionSchema(initial.schema,tampered).errors.some(x=>x.includes("additional property forbidden")));
+ const wrongFamily=structuredClone(initial.files);
+ wrongFamily[file("roster")].model_family="sources";
+ assert(inspectExpansionSchema(initial.schema,wrongFamily).errors.some(x=>x.includes("missing collection")));
+ const brokenDispatch=structuredClone(initial.schema);
+ delete brokenDispatch.oneOf;
+ assert(inspectExpansionSchema(brokenDispatch,initial.files).errors.some(x=>x.includes("family dispatch")));
  const bool=structuredClone(initial.files);
  bool[file("department-seeds")].items[0].direct_supervision_verified=true;
  assert(inspectExpansionSchema(initial.schema,bool).errors.some(x=>x.includes("schema property mismatch")));
@@ -127,6 +133,9 @@ test("all seventeen unresolved gaps remain open and indexed to a modeled branch 
  assert.equal(model.records.gaps.length,17);
  assert(model.records.gaps.every(x=>x.unknown_denominator&&x.adl1_complete===false));
 });
+reject("collection discriminator must never mislabel a roster as a source list",f=>{
+ f.files[file("roster")].model_family="sources";
+},"schema invalid");
 reject("untrusted but official-host alternate U.S. Code section is source-ID spoofing",f=>{
  find(f,"sources","EXP-SRC-5-USC-101").url="https://uscode.house.gov/us/usc/119-118/t5/s102/";
 },"source identity");

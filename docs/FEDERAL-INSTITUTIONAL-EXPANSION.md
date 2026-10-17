@@ -32,7 +32,7 @@ All 58 existing canonical references now have a bounded expansion pointer and a 
 
 ## Model and source contract
 
-Nine new manifest-registered families live in `model/federal/expansion/`: `sources`, `snapshots`, `roster`, `department-seeds`, `crossbranch-seeds`, `relationships`, `coverage-ledger`, `gaps`, and `viewpoints`. Their fields are closed to undocumented additions by `schemas/federal-expansion.schema.json`; the validation engine independently enforces canonical ID reuse, source-URL integrity, edition limitations, branch/parent consistency, ADL non-promotion, legal limits, denominator arithmetic and explicit gaps.
+Nine new manifest-registered families live in `model/federal/expansion/`: `sources`, `snapshots`, `roster`, `department-seeds`, `crossbranch-seeds`, `relationships`, `coverage-ledger`, `gaps`, and `viewpoints`. Their fields are closed to undocumented additions by `schemas/federal-expansion.schema.json`, with an explicit per-collection `model_family` discriminator and draft-2020-12 `oneOf` item-schema dispatch; the validation engine independently enforces canonical ID reuse, source-URL integrity, edition limitations, branch/parent consistency, ADL non-promotion, legal limits, denominator arithmetic and explicit gaps.
 
 Six declarative read-only views are available:
 

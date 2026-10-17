@@ -138,6 +138,9 @@ function read(manifest,files,path){
  const o=files[path];
  check(o&&o.model_version==="0.1.0"&&Array.isArray(o.items),
   "missing or unversioned records: "+path);
+ if(path.startsWith("model/federal/expansion/"))
+  check(o.model_family===path.split("/").at(-1).replace(".json",""),
+   "expansion family discriminator does not match manifest path "+path);
  check(o.items.every(x=>x&&id(x.id))&&unique(o.items.map(x=>x.id)),
   "malformed or duplicate identifiers: "+path);
  return o.items;
@@ -164,7 +167,15 @@ function propertyValid(v,p){
 export function inspectExpansionSchema(schema,files){
  const errors=[];
  if(schema?.$schema!=="https://json-schema.org/draft/2020-12/schema"||
-    schema?.additionalProperties!==false)errors.push("schema version or strict document boundary missing");
+    schema?.additionalProperties!==false||
+    !Array.isArray(schema?.oneOf)||schema.oneOf.length!==EXPANSION_FAMILIES.length||
+    !same(schema?.properties?.model_family?.enum||[],EXPANSION_FAMILIES))
+   errors.push("schema version, family dispatch or strict document boundary missing");
+ else for(const f of EXPANSION_FAMILIES){
+  const dispatched=schema.oneOf.find(x=>x.properties?.model_family?.const===f);
+  if(dispatched?.properties?.items?.items?.$ref!=="#/$defs/"+f)
+   errors.push("missing JSON Schema item dispatcher "+f);
+ }
  for(const f of EXPANSION_FAMILIES){
   const p="model/federal/expansion/"+f+".json",c=files[p];
   const def=schema?.$defs?.[f];
@@ -172,7 +183,7 @@ export function inspectExpansionSchema(schema,files){
       !Array.isArray(def.required)||!def.properties?.id?.pattern){
    errors.push("missing strict item schema: "+f);continue;
   }
-  if(c?.model_version!=="0.1.0"||!Array.isArray(c.items)){
+  if(c?.model_version!=="0.1.0"||c?.model_family!==f||!Array.isArray(c.items)){
    errors.push("missing collection or invalid version: "+f);continue;
   }
   for(const [i,x] of c.items.entries()){

@@ -85,5 +85,6 @@
       "complete_first_level_roster": false,
       "independent_legal_review_complete": false
     }
-  ]
+  ],
+  "model_family": "snapshots"
 }

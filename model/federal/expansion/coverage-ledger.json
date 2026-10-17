@@ -86,5 +86,6 @@
       "limitation": "This covers a selected, pre-existing canonical ARFI reference slice, not all federal institutions or components.",
       "human_legal_review_complete": false
     }
-  ]
+  ],
+  "model_family": "coverage-ledger"
 }

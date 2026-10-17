@@ -56,5 +56,6 @@
       "claim_boundary": "senate_committees_not_legislative_support_agency_roster",
       "edition_status": "mutable_119th_committee_webpage"
     }
-  ]
+  ],
+  "model_family": "sources"
 }
