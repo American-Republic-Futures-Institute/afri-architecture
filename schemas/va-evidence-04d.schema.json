@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://arfinstitute.org/schemas/va-evidence-04d-v0.1.0.schema.json",
-  "title": "ARFI VA Inc04D Source and Unratified Legal Institutions",
+  "title": "ARFI VA Inc04D original source receipts and source-bounded institutional research",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -22,7 +22,9 @@
         "temporal-events",
         "trust-gates",
         "review-approvals",
-        "coverage"
+        "coverage",
+        "observed-source-receipts",
+        "fom-page-anchors"
       ]
     },
     "items": {
@@ -117,6 +119,32 @@
           "type": "array",
           "items": {
             "$ref": "#/$defs/coverage"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "observed-source-receipts"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/observed-source-receipts"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "fom-page-anchors"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fom-page-anchors"
           }
         }
       }
@@ -561,6 +589,186 @@
         "verified_first_level_members": {
           "type": "integer",
           "minimum": 0
+        }
+      }
+    },
+    "observed-source-receipts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "PDF_cover_version",
+        "PDF_cover_year",
+        "PDF_last_modified_utc",
+        "artifact_id",
+        "body_sha256",
+        "bytes",
+        "capture_run_id",
+        "durable_write_once_approved",
+        "id",
+        "independent_sha256_comparison",
+        "institutionally_signed",
+        "legal_review_completed",
+        "original_bytes_embedded_in_architecture_repo",
+        "pages",
+        "response_state",
+        "source_publication_as_of",
+        "source_target_id",
+        "type"
+      ],
+      "properties": {
+        "PDF_cover_version": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "PDF_cover_year": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "PDF_last_modified_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "artifact_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "body_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "bytes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "capture_run_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "durable_write_once_approved": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "independent_sha256_comparison": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institutionally_signed": {
+          "const": false
+        },
+        "legal_review_completed": {
+          "const": false
+        },
+        "original_bytes_embedded_in_architecture_repo": {
+          "const": false
+        },
+        "pages": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "response_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_publication_as_of": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_target_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "fom-page-anchors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "PDF_physical_page_1_based",
+        "authorization_or_delegation_certified",
+        "complete_first_level_census_certified",
+        "id",
+        "observed_receipt_id",
+        "pdf_source_sha256",
+        "printed_heading",
+        "research_note",
+        "reviewer_id",
+        "source_as_of_2026_verified",
+        "source_section_verified_in_original_bytes",
+        "type"
+      ],
+      "properties": {
+        "PDF_physical_page_1_based": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "authorization_or_delegation_certified": {
+          "const": false
+        },
+        "complete_first_level_census_certified": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "observed_receipt_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "pdf_source_sha256": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "printed_heading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "research_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer_id": {
+          "const": null
+        },
+        "source_as_of_2026_verified": {
+          "const": false
+        },
+        "source_section_verified_in_original_bytes": {
+          "const": true
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
         }
       }
     }
