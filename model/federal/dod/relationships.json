@@ -1,0 +1,1895 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-REL-0001",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-OSD",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0002",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-JCS",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-151"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0003",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-JOINT-STAFF",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0004",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-191"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0005",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-191"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0006",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-ARMY",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-7013"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0007",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-NAVY",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-8013"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0008",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-9013"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0009",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0010",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-STAT-CLASS-OTHER-DESIGNATED",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0011",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-STAT-CLASS-SUBORDINATE-ELEMENTS",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "statutory_department_composition",
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "legal_provision_id": "DOD-PROV-10-111-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0012",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DCMA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0013",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-A-S",
+      "to_id": "DOD-DAFA-DCMA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0014",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DCMA",
+      "to_id": "DOD-ROLE-CHAIRMAN",
+      "relationship_type": "designated_combat_support_agency_subject_to_readiness_review",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026",
+        "DOD-SRC-10-193"
+      ],
+      "legal_provision_id": "DOD-PROV-10-193-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_asterisk"
+    },
+    {
+      "id": "DOD-REL-0015",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DLA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0016",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-A-S",
+      "to_id": "DOD-DAFA-DLA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0017",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DLA",
+      "to_id": "DOD-ROLE-CHAIRMAN",
+      "relationship_type": "designated_combat_support_agency_subject_to_readiness_review",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026",
+        "DOD-SRC-10-193"
+      ],
+      "legal_provision_id": "DOD-PROV-10-193-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_asterisk"
+    },
+    {
+      "id": "DOD-REL-0018",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DSCA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0019",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-A-S",
+      "to_id": "DOD-DAFA-DSCA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0020",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DTSA",
+      "to_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0021",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-A-S",
+      "to_id": "DOD-DAFA-DTSA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0022",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DTRA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0023",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-A-S",
+      "to_id": "DOD-DAFA-DTRA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0024",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DTRA",
+      "to_id": "DOD-ROLE-CHAIRMAN",
+      "relationship_type": "designated_combat_support_agency_subject_to_readiness_review",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026",
+        "DOD-SRC-10-193"
+      ],
+      "legal_provision_id": "DOD-PROV-10-193-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_asterisk"
+    },
+    {
+      "id": "DOD-REL-0025",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-OLDCC",
+      "to_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0026",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-A-S",
+      "to_id": "DOD-DAFA-OLDCC",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0027",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DARPA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0028",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-R-E",
+      "to_id": "DOD-DAFA-DARPA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0029",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-MDA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0030",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-R-E",
+      "to_id": "DOD-DAFA-MDA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0031",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DTIC",
+      "to_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0032",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-R-E",
+      "to_id": "DOD-DAFA-DTIC",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0033",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-TRMC",
+      "to_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0034",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-R-E",
+      "to_id": "DOD-DAFA-TRMC",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0035",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DCAA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0036",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-C",
+      "to_id": "DOD-DAFA-DCAA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0037",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DFAS",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0038",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-C",
+      "to_id": "DOD-DAFA-DFAS",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0039",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DECA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0040",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-P-R",
+      "to_id": "DOD-DAFA-DECA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0041",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DHA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0042",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-P-R",
+      "to_id": "DOD-DAFA-DHA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0043",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DHA",
+      "to_id": "DOD-ROLE-CHAIRMAN",
+      "relationship_type": "designated_combat_support_agency_subject_to_readiness_review",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026",
+        "DOD-SRC-10-193"
+      ],
+      "legal_provision_id": "DOD-PROV-10-193-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_asterisk"
+    },
+    {
+      "id": "DOD-REL-0044",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DPAA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0045",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-P-R",
+      "to_id": "DOD-DAFA-DPAA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0046",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DODEA",
+      "to_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0047",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-P-R",
+      "to_id": "DOD-DAFA-DODEA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0048",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DHRA",
+      "to_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0049",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-P-R",
+      "to_id": "DOD-DAFA-DHRA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0050",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DCSA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0051",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-I-S",
+      "to_id": "DOD-DAFA-DCSA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0052",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DIA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0053",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-I-S",
+      "to_id": "DOD-DAFA-DIA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [
+        "DOD-COND-DAFA-SUPERVISION-EXCEPTION"
+      ],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": false
+    },
+    {
+      "id": "DOD-REL-0054",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DIA",
+      "to_id": "DOD-ROLE-CHAIRMAN",
+      "relationship_type": "designated_combat_support_agency_subject_to_readiness_review",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026",
+        "DOD-SRC-10-193"
+      ],
+      "legal_provision_id": "DOD-PROV-10-193-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_asterisk"
+    },
+    {
+      "id": "DOD-REL-0055",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-NGA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0056",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-I-S",
+      "to_id": "DOD-DAFA-NGA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0057",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-NGA",
+      "to_id": "DOD-ROLE-CHAIRMAN",
+      "relationship_type": "designated_combat_support_agency_subject_to_readiness_review",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026",
+        "DOD-SRC-10-193"
+      ],
+      "legal_provision_id": "DOD-PROV-10-193-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_asterisk"
+    },
+    {
+      "id": "DOD-REL-0058",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-NRO",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0059",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-I-S",
+      "to_id": "DOD-DAFA-NRO",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0060",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-NSA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0061",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-USD-I-S",
+      "to_id": "DOD-DAFA-NSA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [
+        "DOD-COND-DAFA-SUPERVISION-EXCEPTION"
+      ],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": false
+    },
+    {
+      "id": "DOD-REL-0062",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-NSA",
+      "to_id": "DOD-ROLE-CHAIRMAN",
+      "relationship_type": "designated_combat_support_agency_subject_to_readiness_review",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026",
+        "DOD-SRC-10-193"
+      ],
+      "legal_provision_id": "DOD-PROV-10-193-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_asterisk"
+    },
+    {
+      "id": "DOD-REL-0063",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DLSA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0064",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-GENERAL-COUNSEL",
+      "to_id": "DOD-DAFA-DLSA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0065",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-MEDIA",
+      "to_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0066",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-ASD-PUBLIC-AFFAIRS",
+      "to_id": "DOD-DAFA-MEDIA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0067",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-PFPA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0068",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-DA-M",
+      "to_id": "DOD-DAFA-PFPA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0069",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-WHS",
+      "to_id": "CENSUS-COMP-DEF-FIELD-ACTIVITIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0070",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-DA-M",
+      "to_id": "DOD-DAFA-WHS",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0071",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DISA",
+      "to_id": "CENSUS-COMP-DEF-DEFENSE-AGENCIES",
+      "relationship_type": "categorized_under_statutory_composition_class",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_figure"
+    },
+    {
+      "id": "DOD-REL-0072",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-DOD-CIO",
+      "to_id": "DOD-DAFA-DISA",
+      "relationship_type": "dated_chart_supervision_not_individual_delegation",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "legal_provision_id": "DOD-PROV-10-192-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_figure_supervisor_office_description",
+      "statutory_192_a_supervision_applies": true
+    },
+    {
+      "id": "DOD-REL-0073",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-DAFA-DISA",
+      "to_id": "DOD-ROLE-CHAIRMAN",
+      "relationship_type": "designated_combat_support_agency_subject_to_readiness_review",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026",
+        "DOD-SRC-10-193"
+      ],
+      "legal_provision_id": "DOD-PROV-10-193-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-05-31",
+      "qualifications": [],
+      "recorded_basis": "gao_may_2026_asterisk"
+    },
+    {
+      "id": "DOD-REL-0074",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-SERVICE-ARMY",
+      "to_id": "CENSUS-COMP-DEF-ARMY",
+      "relationship_type": "armed_service_statutory_department_placement",
+      "source_ids": [
+        "DOD-SRC-10-7013",
+        "DOD-SRC-10-101"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "statutory_armed_service_jurisdiction"
+    },
+    {
+      "id": "DOD-REL-0075",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-SERVICE-NAVY",
+      "to_id": "CENSUS-COMP-DEF-NAVY",
+      "relationship_type": "armed_service_statutory_department_placement",
+      "source_ids": [
+        "DOD-SRC-10-8013",
+        "DOD-SRC-10-101"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "statutory_armed_service_jurisdiction"
+    },
+    {
+      "id": "DOD-REL-0076",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-SERVICE-MARINE",
+      "to_id": "CENSUS-COMP-DEF-NAVY",
+      "relationship_type": "armed_service_statutory_department_placement",
+      "source_ids": [
+        "DOD-SRC-10-8013",
+        "DOD-SRC-10-101"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "statutory_armed_service_jurisdiction"
+    },
+    {
+      "id": "DOD-REL-0077",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-SERVICE-AIR",
+      "to_id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "relationship_type": "armed_service_statutory_department_placement",
+      "source_ids": [
+        "DOD-SRC-10-9013",
+        "DOD-SRC-10-101"
+      ],
+      "legal_provision_id": null,
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "statutory_armed_service_jurisdiction"
+    },
+    {
+      "id": "DOD-REL-0078",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-SERVICE-SPACE",
+      "to_id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "relationship_type": "armed_service_statutory_department_placement",
+      "source_ids": [
+        "DOD-SRC-10-9081",
+        "DOD-SRC-10-101"
+      ],
+      "legal_provision_id": "DOD-PROV-10-9081-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "statutory_armed_service_jurisdiction"
+    },
+    {
+      "id": "DOD-REL-0079",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-SERVICE-COAST",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "outside_dod_conditional_navy_service",
+      "source_ids": [
+        "DOD-SRC-14-103",
+        "DOD-SRC-10-101"
+      ],
+      "legal_provision_id": "DOD-PROV-14-103",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "statutory_armed_service_jurisdiction"
+    },
+    {
+      "id": "DOD-REL-0080",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-AFRICOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0081",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-AFRICOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0082",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-CENTCOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0083",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-CENTCOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0084",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-CYBERCOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0085",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-CYBERCOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0086",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-EUCOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0087",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-EUCOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0088",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-INDOPACOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0089",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-INDOPACOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0090",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-NORTHCOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0091",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-NORTHCOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0092",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-SOUTHCOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0093",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-SOUTHCOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0094",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-SPACECOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0095",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-SPACECOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0096",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-SOCOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0097",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-SOCOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0098",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-STRATCOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0099",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-STRATCOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0100",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-CCMD-TRANSCOM",
+      "to_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "relationship_type": "member_of_combatant_command_class",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "legal_provision_id": "DOD-PROV-10-161-A",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-16",
+      "qualifications": [],
+      "recorded_basis": "official_public_roster_unified_command_plan_unverified"
+    },
+    {
+      "id": "DOD-REL-0101",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-CCMD-TRANSCOM",
+      "relationship_type": "conditional_statutory_combatant_command_chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "legal_provision_id": "DOD-PROV-10-162-B",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": true,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-PRESIDENT-OVERRIDE"
+      ],
+      "recorded_basis": "statutory_default_chain_not_personnel_or_force_assignment"
+    },
+    {
+      "id": "DOD-REL-0102",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SEC-ARMY",
+      "to_id": "CENSUS-COMP-DEF-ARMY",
+      "relationship_type": "military_department_secretary_statutory_responsibility",
+      "source_ids": [
+        "DOD-SRC-10-7013"
+      ],
+      "legal_provision_id": "DOD-PROV-10-7013",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "military_department_administration_not_combatant_assignment"
+    },
+    {
+      "id": "DOD-REL-0103",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SEC-NAVY",
+      "to_id": "CENSUS-COMP-DEF-NAVY",
+      "relationship_type": "military_department_secretary_statutory_responsibility",
+      "source_ids": [
+        "DOD-SRC-10-8013"
+      ],
+      "legal_provision_id": "DOD-PROV-10-8013",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "military_department_administration_not_combatant_assignment"
+    },
+    {
+      "id": "DOD-REL-0104",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-SEC-AIR",
+      "to_id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "relationship_type": "military_department_secretary_statutory_responsibility",
+      "source_ids": [
+        "DOD-SRC-10-9013"
+      ],
+      "legal_provision_id": "DOD-PROV-10-9013",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "military_department_administration_not_combatant_assignment"
+    },
+    {
+      "id": "DOD-REL-0105",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-CHAIRMAN",
+      "to_id": "DOD-ROLE-SECDEF",
+      "relationship_type": "chairman_principal_military_adviser_not_commander",
+      "source_ids": [
+        "DOD-SRC-10-151",
+        "DOD-SRC-10-152"
+      ],
+      "legal_provision_id": "DOD-PROV-10-151",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [
+        "DOD-COND-CHAIRMAN-NOCOMMAND"
+      ],
+      "recorded_basis": "official_source_bounded"
+    },
+    {
+      "id": "DOD-REL-0106",
+      "type": "dod_typed_architecture_relation",
+      "from_id": "DOD-ROLE-DOD-IG",
+      "to_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "relationship_type": "independent_statutory_ig_oversight_not_command",
+      "source_ids": [
+        "DOD-SRC-10-141"
+      ],
+      "legal_provision_id": "DOD-PROV-10-141",
+      "effect_status": "descriptive_or_bounded_statutory_relationship",
+      "operational_command_established": false,
+      "direct_subordinate_delegation_established": false,
+      "as_of": "2026-10-07",
+      "qualifications": [],
+      "recorded_basis": "official_source_bounded"
+    }
+  ]
+}

@@ -172,3 +172,12 @@ The [04C source custody and VA pilot](docs/FEDERAL-EVIDENCE-REGISTRY-INC04C.md) 
 ## Institutional trust activation and VA qualification — Increment 04E
 
 The [draft institutional adoption and custody package](docs/ARFI-INSTITUTIONAL-TRUST-GOVERNANCE-RESOLUTION-04E.md) and [VA ADL-1 qualification dossier](docs/VA-ADL1-QUALIFICATION-DOSSIER-04E.md) establish unratified governance/signing requirements, original-source legal review cases and fail-closed completeness criteria. Node verification tools and proposed [AWS S3 Object Lock module](infra/evidence-archive-04e/) support **read-only cryptographic/provider inspection**, not automatic cloud provisioning, legal approval, or certified ADL-1. No institute-controlled key, ratified retention, or actual permanent source archive is presently claimed.
+
+## Department of Defense institutional and authority decomposition — October 2026
+
+ARFI-COA adds twenty independently registered DoD model families including **11 statutory composition categories**, GAO's dated **19 Defense Agency + eight Field Activity** May 2026 roster, eight Combat Support Agency marks, selected Title 10 statutory actor/condition chains, legislative-defense-committee crosswalks and four **proposed** FY2026 financial categories. The public combatant command candidate list, Chairman advisory/command prohibition, Inspector General independence, and DIA/NSA section 192 supervisory exceptions remain explicit. **Neither DoD ADL-1 completeness, individual agency delegations, enacted appropriations, current UCP, legal citator review nor website rendering is claimed.** See [DoD Institutional and Statutory Architecture](docs/DOD-INSTITUTIONAL-AUTHORITY-ARCHITECTURE.md). Validate using the standalone source audit and adversarial regressions:
+
+    node scripts/validate-dod.mjs --validate
+    node --test tests/dod.test.mjs
+
+Seven nondelegating constitutional competency crosswalks link the existing U.S. Constitution Articles I and II records to Congress, the President, bounded Title 10 statutory contexts and the additional declarative source view `VIEW-DOD-CONSTITUTION`. Constitutional authority is not automatically an individual agency power or expenditure authorization.

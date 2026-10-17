@@ -1,0 +1,145 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-COND-SECRETARY-LIMIT",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-113-B",
+      "summary": "Civilian direction subject to President and statutory constraints",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-DELEGATION-LIMIT",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-113-D",
+      "summary": "Except where specifically prohibited by law; secretary retains responsibility",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-CHAIRMAN-NOCOMMAND",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-152-C",
+      "summary": "Chairman does not acquire military command through advisory roles",
+      "source_ids": [
+        "DOD-SRC-10-152"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-PRESIDENT-OVERRIDE",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-162-B",
+      "summary": "President may direct a different chain",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-ASSIGNMENT-SCOPE",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-162-A",
+      "summary": "Forces require specified assignments under authorized procedures",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-COMMAND-NOTICE",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-161-B",
+      "summary": "Congress notice subject to hostilities/imminent-threat exception",
+      "source_ids": [
+        "DOD-SRC-10-161"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-DAFA-EFFICIENCY",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-191-A",
+      "summary": "More effective, economical, or efficient common activities prerequisite",
+      "source_ids": [
+        "DOD-SRC-10-191"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-DAFA-SUPERVISION-EXCEPTION",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-192-A",
+      "summary": "DIA and NSA excluded from subsection (a) supervision requirement",
+      "source_ids": [
+        "DOD-SRC-10-192"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-DAFA-REVIEW-REQUIREMENT",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-192-C",
+      "summary": "DAFA review at least once each four years; GAO found compliance problems",
+      "source_ids": [
+        "DOD-SRC-10-192"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-CSA-READINESS-REPORT",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-10-193-A",
+      "summary": "CSA readiness reporting at least every two years",
+      "source_ids": [
+        "DOD-SRC-10-193"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-NAVAL-COAST-TRANSFER",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-14-103",
+      "summary": "Coast Guard under DHS except specified war or presidential transfer to Navy",
+      "source_ids": [
+        "DOD-SRC-14-103"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-PURPOSE-RULE",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-31-1301-A",
+      "summary": "Funding only for appropriated purpose unless another law authorizes",
+      "source_ids": [
+        "DOD-SRC-31-1301"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-ANTIDEFICIENCY",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-31-1341-A",
+      "summary": "No obligations beyond available amount or before appropriations except legal exceptions",
+      "source_ids": [
+        "DOD-SRC-31-1341"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    },
+    {
+      "id": "DOD-COND-NO-APPROPRIATIONS-VERIFIED",
+      "type": "dod_authority_condition",
+      "provision_id": "DOD-PROV-31-1341-A",
+      "summary": "FY26 request is planning proposal, not evidence of enacted budget authority",
+      "source_ids": [
+        "DOD-SRC-31-1341"
+      ],
+      "review_status": "source_bounded_statutory_limit_not_exhaustive_legal_review"
+    }
+  ]
+}
