@@ -7,6 +7,7 @@ on:
       - "scripts/**"
       - "tests/**"
       - ".github/workflows/validate.yml"
+      - "infra/evidence-archive-04e/**"
   push:
     branches: [main]
     paths:
@@ -93,6 +94,21 @@ jobs:
         run: node --test tests/va-evidence04d.test.mjs
       - name: Test dual Ed25519 trust, tamper rejection and WORM proof nonpromotion
         run: node --test tests/va-controlled-release04d.test.mjs
+      - name: Validate 04E unratified governance and VA institutional source/ADL1 scope
+        run: node scripts/arfi-evidence-ops-04e.mjs --validate
+      - name: Validate seven closed 04E research schema collections
+        run: node scripts/arfi-evidence-ops-04e.mjs --schema
+      - name: Project legal exception, sources and qualification views without certifying institutions
+        run: |
+          node scripts/arfi-evidence-ops-04e.mjs --view legal > /dev/null
+          node scripts/arfi-evidence-ops-04e.mjs --view sources > /dev/null
+          node scripts/arfi-evidence-ops-04e.mjs --view qualification > /dev/null
+      - name: Test 04E governance, authority, temporality and anti-certification controls
+        run: node --test tests/va-institutional-trust04e.test.mjs
+      - name: Test live AWS WORM storage preconditions without AWS credentials or cloud changes
+        run: node --test tests/va-live-worm04e.test.mjs
+      - name: Test offline root signers, revocation, role independence and release-manifest binding
+        run: node --test tests/va-trust-crypto04e.test.mjs
       - name: Validate constitutional authority catalog
         run: node scripts/validate-constitution.mjs
       - name: Run constitutional model regression tests

@@ -168,3 +168,7 @@ The [04C source custody and VA pilot](docs/FEDERAL-EVIDENCE-REGISTRY-INC04C.md) 
 ## VA source custody and legal reconciliation — Increment 04D
 
 [Increment 04D research and evidence release design](docs/VA-FEDERAL-EVIDENCE-INC04D.md) links original VA v8.1 volumes 1/2, fixed 2024 Code sections 301 and 7105, and the candidate 2007 CBCA consolidation without certifying an exhaustive VA first-level denominator. The [proposed archive policy](docs/ARFI-EVIDENCE-RETENTION-POLICY-PROPOSAL-04D.md) remains **unratified**; dual-Ed25519, protected storage and human review are required before any permanent evidence promotion.
+
+## Institutional trust activation and VA qualification — Increment 04E
+
+The [draft institutional adoption and custody package](docs/ARFI-INSTITUTIONAL-TRUST-GOVERNANCE-RESOLUTION-04E.md) and [VA ADL-1 qualification dossier](docs/VA-ADL1-QUALIFICATION-DOSSIER-04E.md) establish unratified governance/signing requirements, original-source legal review cases and fail-closed completeness criteria. Node verification tools and proposed [AWS S3 Object Lock module](infra/evidence-archive-04e/) support **read-only cryptographic/provider inspection**, not automatic cloud provisioning, legal approval, or certified ADL-1. No institute-controlled key, ratified retention, or actual permanent source archive is presently claimed.
