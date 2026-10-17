@@ -1,0 +1,76 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "source-targets",
+  "items": [
+    {
+      "id": "D04D-SRC-FOM1",
+      "type": "source_original_research_target",
+      "url": "https://department.va.gov/wp-content/uploads/2025/04/va-functional-organizational-manual-volume-1.pdf",
+      "mime": "application/pdf",
+      "edition": "2025-03",
+      "description": "VA Functional Organization Manual v8.1 Volume 1, 315 pages",
+      "observed_sha256": null,
+      "observed_bytes": null,
+      "captured_at": null,
+      "byte_capture_verified": false,
+      "immutable_promotion_verified": false,
+      "independently_reviewed": false
+    },
+    {
+      "id": "D04D-SRC-FOM2",
+      "type": "source_original_research_target",
+      "url": "https://department.va.gov/wp-content/uploads/2024/06/va-functional-organizational-manual-volume-2.pdf",
+      "mime": "application/pdf",
+      "edition": "2025-03",
+      "description": "VA Functional Organization Manual v8.1 Volume 2, 506 pages",
+      "observed_sha256": null,
+      "observed_bytes": null,
+      "captured_at": null,
+      "byte_capture_verified": false,
+      "immutable_promotion_verified": false,
+      "independently_reviewed": false
+    },
+    {
+      "id": "D04D-SRC-USC38",
+      "type": "source_original_research_target",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title38/html/USCODE-2024-title38-partI-chap3-sec301.htm",
+      "mime": "text/html",
+      "edition": "USCODE-2024",
+      "description": "38 USC 301 composition",
+      "observed_sha256": null,
+      "observed_bytes": null,
+      "captured_at": null,
+      "byte_capture_verified": false,
+      "immutable_promotion_verified": false,
+      "independently_reviewed": false
+    },
+    {
+      "id": "D04D-SRC-USC41",
+      "type": "source_original_research_target",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title41/html/USCODE-2024-title41-subtitleIII-chap71-sec7105.htm",
+      "mime": "text/html",
+      "edition": "USCODE-2024",
+      "description": "41 USC 7105 CBCA establishment",
+      "observed_sha256": null,
+      "observed_bytes": null,
+      "captured_at": null,
+      "byte_capture_verified": false,
+      "immutable_promotion_verified": false,
+      "independently_reviewed": false
+    },
+    {
+      "id": "D04D-SRC-CBCA",
+      "type": "source_original_research_target",
+      "url": "https://www.cbca.gov/board/index.html",
+      "mime": "text/html",
+      "edition": "2026-10-live",
+      "description": "CBCA historical organization",
+      "observed_sha256": null,
+      "observed_bytes": null,
+      "captured_at": null,
+      "byte_capture_verified": false,
+      "immutable_promotion_verified": false,
+      "independently_reviewed": false
+    }
+  ]
+}

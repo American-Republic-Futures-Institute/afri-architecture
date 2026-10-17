@@ -144,7 +144,23 @@
     "model/federal/inc04c/approvals.json",
     "model/federal/inc04c/trust-policy.json",
     "model/federal/inc04c/hhs-acquisition.json",
-    "model/federal/inc04c/va-source-versions.json"
+    "model/federal/inc04c/va-source-versions.json",
+    "model/federal/inc04d/source-targets.json",
+    "model/federal/inc04d/statutory-crosswalk.json",
+    "model/federal/inc04d/legal-identities.json",
+    "model/federal/inc04d/temporal-events.json",
+    "model/federal/inc04d/trust-gates.json",
+    "model/federal/inc04d/review-approvals.json",
+    "model/federal/inc04d/coverage.json",
+    "model/federal/inc04d/observed-source-receipts.json",
+    "model/federal/inc04d/fom-page-anchors.json",
+    "model/federal/inc04e/governance-decisions.json",
+    "model/federal/inc04e/signer-enrollments.json",
+    "model/federal/inc04e/storage-targets.json",
+    "model/federal/inc04e/va-legal-issues.json",
+    "model/federal/inc04e/source-temporal-index.json",
+    "model/federal/inc04e/qualification-gates.json",
+    "model/federal/inc04e/va-dossier.json"
   ],
   "standards": [
     {
@@ -517,5 +533,39 @@
     "source_temporal_reconciliation_complete": false,
     "website_publication": "not_implemented",
     "status": "source_verified_receipts_only_unratified"
+  },
+  "federal_evidence_04d_extension": {
+    "id": "ARFI-COA-VA-EVIDENCE-04D",
+    "version": "0.1.0",
+    "previous": "ARFI-COA-FED-EVIDENCE-004C",
+    "capture_targets": 5,
+    "verified_new_capture_count": 4,
+    "VA_ADL1_certified": false,
+    "full_department_denominator": null,
+    "retention_ratified": false,
+    "institutional_signer_enrolled": false,
+    "legal_review_complete": false,
+    "website_published": false,
+    "unratified": true,
+    "VA_FOMs_verified": 2,
+    "CBCA_source_original_blocked": true,
+    "GOVINFO_2024_code_html_byte_verified": 2,
+    "originals_durably_retained_count": 0
+  },
+  "federal_institutional_trust_04e_extension": {
+    "id": "ARFI-COA-VA-TRUST-04E",
+    "version": "0.1.0",
+    "depends_on": "ARFI-COA-VA-EVIDENCE-04D",
+    "ratified_governance_decisions": 0,
+    "approved_institutional_signer_keys": 0,
+    "verified_immutable_primary_archives": 0,
+    "approved_external_legal_decisions": 0,
+    "pending_qualification_gates": 9,
+    "VA_ADL1_first_level_denominator": null,
+    "VA_ADL1_qualified": false,
+    "public_release": false,
+    "manuals_original_hashes_preserved": 2,
+    "statute_2024_hashes_preserved": 2,
+    "governance_state": "requires_real_human_authorization"
   }
 }

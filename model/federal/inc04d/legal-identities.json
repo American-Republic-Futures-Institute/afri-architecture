@@ -1,0 +1,78 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "legal-identities",
+  "items": [
+    {
+      "id": "D04D-INST-CANTEEN",
+      "type": "uncertified_legal_identity",
+      "name": "Veterans' Canteen Service",
+      "department": "VA",
+      "basis": "38 USC 301(c)(6), 7801, 7808",
+      "source_sha256": null,
+      "statutory_status_current": false,
+      "organizational_reporting_verified": false,
+      "adjudicative_jurisdiction_verified": false,
+      "legal_review_approved": false
+    },
+    {
+      "id": "D04D-INST-FORMER-VABCA",
+      "type": "uncertified_legal_identity",
+      "name": "Former VA Board of Contract Appeals",
+      "department": "VA",
+      "basis": "38 USC 301(c)(7), CBCA publisher history",
+      "source_sha256": null,
+      "statutory_status_current": false,
+      "organizational_reporting_verified": false,
+      "adjudicative_jurisdiction_verified": false,
+      "legal_review_approved": false
+    },
+    {
+      "id": "D04D-INST-CBCA",
+      "type": "uncertified_legal_identity",
+      "name": "Civilian Board of Contract Appeals",
+      "department": "GSA",
+      "basis": "41 USC 7105(b),(e) and 2007 official history",
+      "source_sha256": null,
+      "statutory_status_current": false,
+      "organizational_reporting_verified": false,
+      "adjudicative_jurisdiction_verified": false,
+      "legal_review_approved": false
+    },
+    {
+      "id": "D04D-INST-OIG",
+      "type": "uncertified_legal_identity",
+      "name": "VA Office of Inspector General",
+      "department": "VA",
+      "basis": "5 USC 403(a) constraints",
+      "source_sha256": null,
+      "statutory_status_current": false,
+      "organizational_reporting_verified": false,
+      "adjudicative_jurisdiction_verified": false,
+      "legal_review_approved": false
+    },
+    {
+      "id": "D04D-INST-BVA",
+      "type": "uncertified_legal_identity",
+      "name": "Board of Veterans' Appeals",
+      "department": "VA",
+      "basis": "38 USC 7101 administrative / 7104 appellate",
+      "source_sha256": null,
+      "statutory_status_current": false,
+      "organizational_reporting_verified": false,
+      "adjudicative_jurisdiction_verified": false,
+      "legal_review_approved": false
+    },
+    {
+      "id": "D04D-INST-OEDCA",
+      "type": "uncertified_legal_identity",
+      "name": "VA Office of Employment Discrimination Complaint Adjudication",
+      "department": "VA",
+      "basis": "38 USC 319 and exact FOM Vol2 PDF p33 (2023 cover, March 2025 revision)",
+      "source_sha256": null,
+      "statutory_status_current": false,
+      "organizational_reporting_verified": false,
+      "adjudicative_jurisdiction_verified": false,
+      "legal_review_approved": false
+    }
+  ]
+}
