@@ -65,7 +65,7 @@ test("a missing-source receipt cannot simultaneously report that source as succe
   const archive=await captureOfficialSources({sources,outputDir:dir,
     fetchImpl:mock({[sources[0].id]:{status:403}}),allowPartial:true});
   archive.uncaptured_sources[0].source_id=archive.captures[0].source_id;
-  await assert.rejects(()=>verifyCaptureArchive(dir,archive),/same source cannot be both archived and missing|missing required source accounting/);
+  await assert.rejects(()=>verifyCaptureArchive(dir,archive),/invalid, duplicate or unbounded missing-source record|same source cannot be both archived and missing|missing required source accounting/);
  });
 });
 test("one-byte alteration fails independent receipt verification",async()=>{
