@@ -181,3 +181,8 @@ ARFI-COA adds twenty independently registered DoD model families including **11 
     node --test tests/dod.test.mjs
 
 Seven nondelegating constitutional competency crosswalks link the existing U.S. Constitution Articles I and II records to Congress, the President, bounded Title 10 statutory contexts and the additional declarative source view `VIEW-DOD-CONSTITUTION`. Constitutional authority is not automatically an individual agency power or expenditure authorization.
+
+
+## Operational source custody and VA legal research — Increment 04F
+
+[11-source original-byte preservation and governed archival handoff](docs/ARFI-OPERATIONAL-EVIDENCE-CUSTODY-04F.md) and [VA first-level candidate reconciliation and legal dockets](docs/VA-FIRST-LEVEL-CANDIDATE-RECONCILIATION-04F.md) add five strictly source-pinned research collections, an 11-original SHA-256 replay/staging workflow with an **unsigned temporary** artifact, and read-only S3 primary/replica and CloudTrail audit prequalification. **No institutional root key, lawful retention vote, WORM archive, independent legal opinion, VA ADL-1 qualification or public website publication is claimed.** The original two missing publisher sources (HHS chart and CBCA webpage) remain explicitly unavailable.

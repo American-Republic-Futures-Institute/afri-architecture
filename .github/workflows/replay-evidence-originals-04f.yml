@@ -8,6 +8,7 @@ on:
       - "scripts/replay-originals-04f-core.mjs"
       - "scripts/operational-custody-04f.mjs"
       - ".github/workflows/replay-evidence-originals-04f.yml"
+      - "docs/ARFI-OPERATIONAL-EVIDENCE-CUSTODY-04F.md"
 permissions:
   contents: read
   actions: read

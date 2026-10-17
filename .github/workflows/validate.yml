@@ -131,6 +131,10 @@ jobs:
         run: node --test tests/operational-custody04f.test.mjs
       - name: Test synthetic exact-original replay, content-addressed staging and tampering safeguards
         run: node --test tests/replay-originals04f.test.mjs
+      - name: Test externally root-bound dual-account archive reads and AWS audit digest prequalification
+        run: node --test tests/operational-provider04f.test.mjs
+      - name: Syntax-check read-only governed audit/provider operator tool
+        run: node --check scripts/operational-readonly-qualification-04f.mjs
       - name: Validate constitutional authority catalog
         run: node scripts/validate-constitution.mjs
       - name: Run constitutional model regression tests
