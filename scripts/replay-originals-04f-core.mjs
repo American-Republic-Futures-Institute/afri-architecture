@@ -16,7 +16,7 @@ const expectedPath=row=>"bytes/"+row.source_id+(row.collection==="04B"?
 const keys=new Set(["source_id","sha256","bytes","source_url","source_edition","captured_at","capture_run_id",
  "capture_artifact_id","capture_artifact_name","capture_artifact_expires_at",
  "original_capture_path","object_key","bundle_object_path"]);
-export function createUnsigned04FIndex(queue){
+export function createUnsigned04FIndex(queue,originalCaptureManifests=null){
  check(Array.isArray(queue)&&queue.length===11&&new Set(queue.map(x=>x.source_id)).size===11,
   "eleven nonduplicate source receipts required");
  const sources=queue.map(r=>{
@@ -37,6 +37,8 @@ export function createUnsigned04FIndex(queue){
   format:"ARFI-04F-UNSIGNED-CUSTODY-CANDIDATE-v1",
   classification:"primary_source_original_response_byte_copy_only",
   original_count:11,source_04b_count:7,source_04d_count:4,
+  exact_original_capture_manifest_04b_sha256:originalCaptureManifests?.B?sha(originalCaptureManifests.B):null,
+  exact_original_capture_manifest_04d_sha256:originalCaptureManifests?.D?sha(originalCaptureManifests.D):null,
   original_HHS_HTML_not_captured:true,original_CBCA_HTML_not_captured:true,
   source_bytes_may_be_staged_without_GOV_approval:true,
   immutable_storage_claim:false,independently_signed:false,
@@ -83,6 +85,7 @@ function inspectCaptureIndex(original04B,original04D,index){
   const b=row.source_id.startsWith("ARCH04B-");
   const entry=b?capturedB.get(row.source_id):capturedD.get(row.source_id);
   captureMatches(row,entry);
+  if(b)check(row.source_edition===entry.source_edition,"04B publisher source edition mismatch");
   if(!b)check(row.source_edition===entry.edition&&
    typeof entry.captured_at==="string"&&Number.isFinite(Date.parse(entry.captured_at)),
    "fixed edition/missing original capture timestamp");
@@ -90,19 +93,23 @@ function inspectCaptureIndex(original04B,original04D,index){
    "04B observed timestamp does not match original publisher receipt");
  }
 }
-function compareIndex(received,queue){
- const expected=createUnsigned04FIndex(queue);
+function compareIndex(received,queue,originalCaptureManifests){
+ const expected=createUnsigned04FIndex(queue,originalCaptureManifests);
  check(canonical(received).equals(canonical(expected)),
   "candidate manifest must exactly match the 11 independently pinned source receipts");
  check(received.source_objects.every(exactKeys),"extra source field in unsigned custody candidate");
  return expected;
 }
-async function inspectBundle(directory,queue,{sourceCheck=true}={}){
+async function inspectBundle(directory,queue){
+ const rawB=await fs.readFile(path.join(directory,"capture-manifests","04b.json"));
+ const rawD=await fs.readFile(path.join(directory,"capture-manifests","04d.json"));
+ const manifests={B:rawB,D:rawD};
  const candidateRaw=await fs.readFile(path.join(directory,"release-candidate.json"));
  let candidate;
  try{candidate=JSON.parse(candidateRaw);}catch{err("unsigned index is invalid JSON");}
  check(canonical(candidate).equals(candidateRaw),"candidate index is not canonical UTF-8 JSON");
- compareIndex(candidate,queue);
+ compareIndex(candidate,queue,manifests);
+ inspectCaptureIndex(JSON.parse(rawB),JSON.parse(rawD),candidate);
  const digest=sha(candidateRaw);
  for(const row of candidate.source_objects){
   check(row.bundle_object_path===copyKey(row.sha256),"wrong bundle object path");
@@ -123,7 +130,8 @@ async function inspectBundle(directory,queue,{sourceCheck=true}={}){
   }
  }
  await walk(directory);
- const wanted=["release-candidate.json",...candidate.source_objects.map(x=>x.bundle_object_path)];
+ const wanted=["release-candidate.json","capture-manifests/04b.json","capture-manifests/04d.json",
+  ...candidate.source_objects.map(x=>x.bundle_object_path)];
  check(files.size===wanted.length&&wanted.every(x=>files.has(x)),
   "bundled release contains unknown source bytes or missing files");
  return {
@@ -141,12 +149,14 @@ export async function verify04FBundle({directory,queue}){
 }
 export async function replay04FOriginals({input04B,input04D,output,queue}){
  const a=path.resolve(input04B),d=path.resolve(input04D),destination=path.resolve(output);
- const original04B=JSON.parse(await fs.readFile(path.join(a,"archive-manifest.json")));
- const original04D=JSON.parse(await fs.readFile(path.join(d,"manifest.json")));
+ const rawB=await fs.readFile(path.join(a,"archive-manifest.json"));
+ const rawD=await fs.readFile(path.join(d,"manifest.json"));
+ const original04B=JSON.parse(rawB);
+ const original04D=JSON.parse(rawD);
  const resultB=await verifyCaptureArchive(a,original04B);
  check(resultB.files===7&&resultB.uncaptured===1&&resultB.complete===false,
   "04B source verification no longer indicates exact seven known originals");
- const candidate=createUnsigned04FIndex(queue);
+ const candidate=createUnsigned04FIndex(queue,{B:rawB,D:rawD});
  inspectCaptureIndex(original04B,original04D,candidate);
  await fs.mkdir(destination,{recursive:false,mode:0o700});
  try{
@@ -159,6 +169,9 @@ export async function replay04FOriginals({input04B,input04D,output,queue}){
    await fs.mkdir(path.dirname(out),{recursive:true});
    await fs.writeFile(out,bytes,{flag:"wx",mode:0o600});
   }
+  await fs.mkdir(path.join(destination,"capture-manifests"));
+  await fs.writeFile(path.join(destination,"capture-manifests","04b.json"),rawB,{flag:"wx",mode:0o600});
+  await fs.writeFile(path.join(destination,"capture-manifests","04d.json"),rawD,{flag:"wx",mode:0o600});
   await fs.writeFile(path.join(destination,"release-candidate.json"),canonical(candidate),{flag:"wx",mode:0o600});
   return await inspectBundle(destination,queue);
  }catch(e){
