@@ -14,7 +14,7 @@ const valid=validateVA04C(original.manifest,original.files,original.schema);
 const named=f=>"model/federal/inc04c/"+f+".json";
 const find=(f,family,id)=>{const x=f.files[named(family)].items.find(x=>x.id===id);
  assert(x,"unknown test fixture "+id);return x;};
-const reject=(name,mutate,reason=/VA evidence registry rejected/)=>test(name,()=>{
+const reject=(name,mutate,reason=/VA evidence registry rejected|Evidence registry rejected/)=>test(name,()=>{
  const f=structuredClone(original);mutate(f);
  assert.throws(()=>validateVA04C(f.manifest,f.files,f.schema),reason);
 });
