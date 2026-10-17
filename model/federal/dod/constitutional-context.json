@@ -1,0 +1,131 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-CONTEXT-WAR",
+      "type": "dod_constitutional_statutory_research_crosswalk",
+      "constitution_id": "CONST-US-ART-01-SEC-08-CL-11",
+      "competent_actor_id": "ORG-FED-LEG-CONGRESS",
+      "statutory_context_id": "DOD-PROV-10-111-B",
+      "relationship_class": "congress_war_legislation_context",
+      "qualification": "Congress power to declare war; not a direct command/delegation to a DoD officer.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "status": "contextual_connection_not_direct_statutory_delegation",
+      "source_version": "original_1787_text_not_consolidated_current_judicial_interpretation",
+      "individual_dod_agency_power_derived": false,
+      "appropriations_derived": false,
+      "full_judicial_review_complete": false,
+      "review_status": "textual_historical_context_pending_judicial_and_statutory_review"
+    },
+    {
+      "id": "DOD-CONTEXT-ARMIES",
+      "type": "dod_constitutional_statutory_research_crosswalk",
+      "constitution_id": "CONST-US-ART-01-SEC-08-CL-12",
+      "competent_actor_id": "ORG-FED-LEG-CONGRESS",
+      "statutory_context_id": "DOD-PROV-10-7013",
+      "relationship_class": "congress_raise_support_armies",
+      "qualification": "Temporal restriction on funding an army and other law boundaries require separate fiscal modelling.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "status": "contextual_connection_not_direct_statutory_delegation",
+      "source_version": "original_1787_text_not_consolidated_current_judicial_interpretation",
+      "individual_dod_agency_power_derived": false,
+      "appropriations_derived": false,
+      "full_judicial_review_complete": false,
+      "review_status": "textual_historical_context_pending_judicial_and_statutory_review"
+    },
+    {
+      "id": "DOD-CONTEXT-NAVY",
+      "type": "dod_constitutional_statutory_research_crosswalk",
+      "constitution_id": "CONST-US-ART-01-SEC-08-CL-13",
+      "competent_actor_id": "ORG-FED-LEG-CONGRESS",
+      "statutory_context_id": "DOD-PROV-10-8013",
+      "relationship_class": "congress_provide_maintain_navy",
+      "qualification": "Congress provides and maintains Navy; military-department administrative law is separate.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "status": "contextual_connection_not_direct_statutory_delegation",
+      "source_version": "original_1787_text_not_consolidated_current_judicial_interpretation",
+      "individual_dod_agency_power_derived": false,
+      "appropriations_derived": false,
+      "full_judicial_review_complete": false,
+      "review_status": "textual_historical_context_pending_judicial_and_statutory_review"
+    },
+    {
+      "id": "DOD-CONTEXT-REGULATION",
+      "type": "dod_constitutional_statutory_research_crosswalk",
+      "constitution_id": "CONST-US-ART-01-SEC-08-CL-14",
+      "competent_actor_id": "ORG-FED-LEG-CONGRESS",
+      "statutory_context_id": "DOD-PROV-10-162-A",
+      "relationship_class": "congress_make_rules_armed_forces",
+      "qualification": "Congress rulemaking competence not inferred SecDef force assignment authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "status": "contextual_connection_not_direct_statutory_delegation",
+      "source_version": "original_1787_text_not_consolidated_current_judicial_interpretation",
+      "individual_dod_agency_power_derived": false,
+      "appropriations_derived": false,
+      "full_judicial_review_complete": false,
+      "review_status": "textual_historical_context_pending_judicial_and_statutory_review"
+    },
+    {
+      "id": "DOD-CONTEXT-APPROPRIATIONS",
+      "type": "dod_constitutional_statutory_research_crosswalk",
+      "constitution_id": "CONST-US-ART-01-SEC-09-CL-07",
+      "competent_actor_id": "ORG-FED-LEG-CONGRESS",
+      "statutory_context_id": "DOD-PROV-31-1301-A",
+      "relationship_class": "appropriations_required_for_treasury_draw",
+      "qualification": "No money drawn from Treasury absent legal appropriation; FY26 request not spending authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "status": "contextual_connection_not_direct_statutory_delegation",
+      "source_version": "original_1787_text_not_consolidated_current_judicial_interpretation",
+      "individual_dod_agency_power_derived": false,
+      "appropriations_derived": false,
+      "full_judicial_review_complete": false,
+      "review_status": "textual_historical_context_pending_judicial_and_statutory_review"
+    },
+    {
+      "id": "DOD-CONTEXT-NECESSARY-PROPER",
+      "type": "dod_constitutional_statutory_research_crosswalk",
+      "constitution_id": "CONST-US-ART-01-SEC-08-CL-18",
+      "competent_actor_id": "ORG-FED-LEG-CONGRESS",
+      "statutory_context_id": "DOD-PROV-10-191-A",
+      "relationship_class": "congress_enact_implementing_law",
+      "qualification": "Necessary and Proper Clause context for statutory authorities, not independent Secretary authority.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "status": "contextual_connection_not_direct_statutory_delegation",
+      "source_version": "original_1787_text_not_consolidated_current_judicial_interpretation",
+      "individual_dod_agency_power_derived": false,
+      "appropriations_derived": false,
+      "full_judicial_review_complete": false,
+      "review_status": "textual_historical_context_pending_judicial_and_statutory_review"
+    },
+    {
+      "id": "DOD-CONTEXT-COMMANDER",
+      "type": "dod_constitutional_statutory_research_crosswalk",
+      "constitution_id": "CONST-US-ART-02-SEC-02-CL-01",
+      "competent_actor_id": "ORG-FED-EXE-PRESIDENT",
+      "statutory_context_id": "DOD-PROV-10-162-B",
+      "relationship_class": "president_constitutional_commander_in_chief",
+      "qualification": "Constitutional Commander-in-Chief role is not transferable to the Chairman by descriptive graph edges.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "status": "contextual_connection_not_direct_statutory_delegation",
+      "source_version": "original_1787_text_not_consolidated_current_judicial_interpretation",
+      "individual_dod_agency_power_derived": false,
+      "appropriations_derived": false,
+      "full_judicial_review_complete": false,
+      "review_status": "textual_historical_context_pending_judicial_and_statutory_review"
+    }
+  ]
+}

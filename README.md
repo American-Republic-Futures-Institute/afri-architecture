@@ -156,3 +156,12 @@ The new [source-bounded institutional expansion](docs/FEDERAL-INSTITUTIONAL-EXPA
 
 See [the dated 12-department Government Manual granule reconciliation and four bounded official organizational views](docs/FEDERAL-DEPARTMENT-STRUCTURE-INC04.md). A 2025 granule is an official source locator; a named 2026 directory group is not a complete departmental hierarchy or lawful command/delegation. All 12 ADL-1 research gaps remain open. No website integration or executive legal-power assertion is made.
 
+
+## Department of Defense institutional and authority decomposition — October 2026
+
+ARFI-COA adds twenty independently registered DoD model families including **11 statutory composition categories**, GAO's dated **19 Defense Agency + eight Field Activity** May 2026 roster, eight Combat Support Agency marks, selected Title 10 statutory actor/condition chains, legislative-defense-committee crosswalks and four **proposed** FY2026 financial categories. The public combatant command candidate list, Chairman advisory/command prohibition, Inspector General independence, and DIA/NSA section 192 supervisory exceptions remain explicit. **Neither DoD ADL-1 completeness, individual agency delegations, enacted appropriations, current UCP, legal citator review nor website rendering is claimed.** See [DoD Institutional and Statutory Architecture](docs/DOD-INSTITUTIONAL-AUTHORITY-ARCHITECTURE.md). Validate using the standalone source audit and adversarial regressions:
+
+    node scripts/validate-dod.mjs --validate
+    node --test tests/dod.test.mjs
+
+Seven nondelegating constitutional competency crosswalks link the existing U.S. Constitution Articles I and II records to Congress, the President, bounded Title 10 statutory contexts and the additional declarative source view `VIEW-DOD-CONSTITUTION`. Constitutional authority is not automatically an individual agency power or expenditure authorization.

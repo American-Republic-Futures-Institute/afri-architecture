@@ -1,0 +1,57 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-CAP-DEFENSE-GENERAL",
+      "type": "dod_functional_capability_alignment",
+      "power_id": "DOD-POWER-SECDEF-DIRECTION",
+      "capability_id": "CAP-FED-07",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "qualification": "strategic_defense_functional_alignment_not_appropriation",
+      "status": "descriptive_capability_alignment_not_program_implementation",
+      "appropriation_verified": false,
+      "operational_effectiveness_verified": false
+    },
+    {
+      "id": "DOD-CAP-MILITARY-SECRETARIES",
+      "type": "dod_functional_capability_alignment",
+      "power_id": "DOD-POWER-SEC-ARMY-MANAGE",
+      "capability_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-7013"
+      ],
+      "qualification": "military_department_admin_function_not_combatant_command",
+      "status": "descriptive_capability_alignment_not_program_implementation",
+      "appropriation_verified": false,
+      "operational_effectiveness_verified": false
+    },
+    {
+      "id": "DOD-CAP-ADVICE",
+      "type": "dod_functional_capability_alignment",
+      "power_id": "DOD-POWER-CHAIRMAN-MIL-ADVICE",
+      "capability_id": "CAP-FED-07",
+      "source_ids": [
+        "DOD-SRC-10-151"
+      ],
+      "qualification": "joint_advice_not_operational_command",
+      "status": "descriptive_capability_alignment_not_program_implementation",
+      "appropriation_verified": false,
+      "operational_effectiveness_verified": false
+    },
+    {
+      "id": "DOD-CAP-INSPECTOR",
+      "type": "dod_functional_capability_alignment",
+      "power_id": "DOD-POWER-DOD-IG-OVERSIGHT",
+      "capability_id": "CAP-FED-03",
+      "source_ids": [
+        "DOD-SRC-10-141"
+      ],
+      "qualification": "oversight_function_not_certified_IG_report",
+      "status": "descriptive_capability_alignment_not_program_implementation",
+      "appropriation_verified": false,
+      "operational_effectiveness_verified": false
+    }
+  ]
+}

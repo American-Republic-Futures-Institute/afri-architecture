@@ -1,0 +1,192 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-CCMD-AFRICOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Africa Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-CENTCOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Central Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-CYBERCOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Cyber Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-EUCOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States European Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-INDOPACOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Indo-Pacific Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-NORTHCOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Northern Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-SOUTHCOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Southern Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-SPACECOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Space Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-SOCOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Special Operations Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-STRATCOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Strategic Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    },
+    {
+      "id": "DOD-CCMD-TRANSCOM",
+      "type": "public_combatant_command_identity",
+      "name": "United States Transportation Command",
+      "category": "unified_combatant_command",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "statutory_family_id": "CENSUS-COMP-DEF-COMBATANT-COMMANDS",
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "roster_as_of": "2026-10-16",
+      "source_snapshot": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "individual_mission_boundary_or_force_allocation_verified": false,
+      "individual_chain_exception_verification": "not_checked",
+      "legal_review_status": "public_roster_identity_not_current_unified_command_plan_verified"
+    }
+  ]
+}
