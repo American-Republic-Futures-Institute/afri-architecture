@@ -836,12 +836,12 @@
         "local_entity_id": {
           "type": "string",
           "minLength": 1,
-          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+          "pattern": "^[0-9]+$"
         },
         "parent_entity_id": {
           "type": "string",
           "minLength": 1,
-          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+          "pattern": "^[0-9]+$"
         },
         "response_receipt_id": {
           "type": "string",
