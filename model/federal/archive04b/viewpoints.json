@@ -1,0 +1,50 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "viewpoints",
+  "items": [
+    {
+      "id": "VIEW-ARCH04B-JUSTICE",
+      "type": "bounded_department_snapshot_comparison_view",
+      "department_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "source_group_ledger_id": "ARCH04B-LEDGER-JUSTICE",
+      "legal_review_required": true,
+      "static_model_only": true,
+      "website_implemented": false,
+      "whole_department_known": false,
+      "permission_to_infer_supervision": false
+    },
+    {
+      "id": "VIEW-ARCH04B-TREASURY",
+      "type": "bounded_department_snapshot_comparison_view",
+      "department_id": "ORG-FED-EXE-DEP-TREASURY",
+      "source_group_ledger_id": "ARCH04B-LEDGER-TREASURY",
+      "legal_review_required": true,
+      "static_model_only": true,
+      "website_implemented": false,
+      "whole_department_known": false,
+      "permission_to_infer_supervision": false
+    },
+    {
+      "id": "VIEW-ARCH04B-HHS",
+      "type": "bounded_department_snapshot_comparison_view",
+      "department_id": "ORG-FED-EXE-DEP-HHS",
+      "source_group_ledger_id": "ARCH04B-LEDGER-HHS",
+      "legal_review_required": true,
+      "static_model_only": true,
+      "website_implemented": false,
+      "whole_department_known": false,
+      "permission_to_infer_supervision": false
+    },
+    {
+      "id": "VIEW-ARCH04B-VA",
+      "type": "bounded_department_snapshot_comparison_view",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "source_group_ledger_id": "ARCH04B-LEDGER-VA",
+      "legal_review_required": true,
+      "static_model_only": true,
+      "website_implemented": false,
+      "whole_department_known": false,
+      "permission_to_infer_supervision": false
+    }
+  ]
+}

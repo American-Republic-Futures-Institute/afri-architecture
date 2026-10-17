@@ -1,0 +1,90 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "fom-page-anchors",
+  "items": [
+    {
+      "id": "D04D-ANCHOR-FOM1-HEAD",
+      "type": "original_PDF_page_bounded_structural_description",
+      "observed_receipt_id": "D04D-OBS-FOM1",
+      "PDF_physical_page_1_based": 7,
+      "printed_heading": "ORGANIZATION OF THE DEPARTMENT",
+      "research_note": "VA SECVA / DEPSECVA and organizational leadership descriptions",
+      "pdf_source_sha256": "d4c9bc1f84cfb08dd92df5e95e624b479f04a9f7e94abecb6e092e2748a5d523",
+      "source_section_verified_in_original_bytes": true,
+      "authorization_or_delegation_certified": false,
+      "complete_first_level_census_certified": false,
+      "source_as_of_2026_verified": false,
+      "reviewer_id": null
+    },
+    {
+      "id": "D04D-ANCHOR-FOM1-ADMIN",
+      "type": "original_PDF_page_bounded_structural_description",
+      "observed_receipt_id": "D04D-OBS-FOM1",
+      "PDF_physical_page_1_based": 8,
+      "printed_heading": "three Administrations",
+      "research_note": "Published March-2025-modified manual describes three administrations and reporting statements, but no 2026 as-of certification",
+      "pdf_source_sha256": "d4c9bc1f84cfb08dd92df5e95e624b479f04a9f7e94abecb6e092e2748a5d523",
+      "source_section_verified_in_original_bytes": true,
+      "authorization_or_delegation_certified": false,
+      "complete_first_level_census_certified": false,
+      "source_as_of_2026_verified": false,
+      "reviewer_id": null
+    },
+    {
+      "id": "D04D-ANCHOR-FOM2-SECRETARY",
+      "type": "original_PDF_page_bounded_structural_description",
+      "observed_receipt_id": "D04D-OBS-FOM2",
+      "PDF_physical_page_1_based": 19,
+      "printed_heading": "OSVA-00 Office of the Secretary",
+      "research_note": "Separate VA Secretary's office source section outside the 22 webpage headings",
+      "pdf_source_sha256": "a9900503672b48541a1639167bc0a2b2f5e7b3607c85881faa9caf0b28a90f1b",
+      "source_section_verified_in_original_bytes": true,
+      "authorization_or_delegation_certified": false,
+      "complete_first_level_census_certified": false,
+      "source_as_of_2026_verified": false,
+      "reviewer_id": null
+    },
+    {
+      "id": "D04D-ANCHOR-FOM2-OEDCA",
+      "type": "original_PDF_page_bounded_structural_description",
+      "observed_receipt_id": "D04D-OBS-FOM2",
+      "PDF_physical_page_1_based": 33,
+      "printed_heading": "OSVA-000 Office of Employment Discrimination Complaint Adjudication",
+      "research_note": "Published manual describes independent employment discrimination adjudicatory functions; see 38 USC 319 legal review",
+      "pdf_source_sha256": "a9900503672b48541a1639167bc0a2b2f5e7b3607c85881faa9caf0b28a90f1b",
+      "source_section_verified_in_original_bytes": true,
+      "authorization_or_delegation_certified": false,
+      "complete_first_level_census_certified": false,
+      "source_as_of_2026_verified": false,
+      "reviewer_id": null
+    },
+    {
+      "id": "D04D-ANCHOR-FOM2-BVA",
+      "type": "original_PDF_page_bounded_structural_description",
+      "observed_receipt_id": "D04D-OBS-FOM2",
+      "PDF_physical_page_1_based": 39,
+      "printed_heading": "BVA-01 Board of Veterans' Appeals",
+      "research_note": "Separate mission/functions; 38 USC 7101 administrative control and 7104 decisional jurisdiction require distinction",
+      "pdf_source_sha256": "a9900503672b48541a1639167bc0a2b2f5e7b3607c85881faa9caf0b28a90f1b",
+      "source_section_verified_in_original_bytes": true,
+      "authorization_or_delegation_certified": false,
+      "complete_first_level_census_certified": false,
+      "source_as_of_2026_verified": false,
+      "reviewer_id": null
+    },
+    {
+      "id": "D04D-ANCHOR-FOM2-OIG",
+      "type": "original_PDF_page_bounded_structural_description",
+      "observed_receipt_id": "D04D-OBS-FOM2",
+      "PDF_physical_page_1_based": 321,
+      "printed_heading": "OIG-50 Office of the Inspector General",
+      "research_note": "Published manual describes independent oversight; 5 USC 403 qualified general supervision differs from command",
+      "pdf_source_sha256": "a9900503672b48541a1639167bc0a2b2f5e7b3607c85881faa9caf0b28a90f1b",
+      "source_section_verified_in_original_bytes": true,
+      "authorization_or_delegation_certified": false,
+      "complete_first_level_census_certified": false,
+      "source_as_of_2026_verified": false,
+      "reviewer_id": null
+    }
+  ]
+}

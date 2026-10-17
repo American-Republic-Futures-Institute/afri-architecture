@@ -1,0 +1,105 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "va-gaps",
+  "items": [
+    {
+      "id": "AR04C-GAP-VA-OFFICE-SECRETARY",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "Office of the Secretary appears as a separate heading, omitted from the 22 administrations/staff-offices denominator; §301(c)(1) explicitly names it.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-CANTEEN",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "Veterans' Canteen Service appears in §301(c)(6) but not as a named item in the 22-directory subsection; clarify contemporary presence, placement, and legal identity.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-CONTRACT-APPEALS",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "Board of Contract Appeals is named in §301(c)(7) but absent from the bounded webpage subsection; analyze contract appeals statutory transfer/successor and as-of legal status.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-RESIDUAL",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "Sections 301(c)(8) and (9) are open statutory classes; neither supplies a finite agency denominator.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-OIG",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "VA OIG staff-office listing does not override the Inspector General Act's statutory independence and agency-specific restrictions.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-BVA",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "Board of Veterans' Appeals item is separately subject to 38 U.S.C. Chapter 71 adjudicative/appeal jurisdiction, not directory-proven management command.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-OEDCA",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "Office of Employment Discrimination Complaint Adjudication listed as staff office but its adjudicative status and governing charter require primary-source verification.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-FOM-VOLUME-1",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "VA Functional Organization Manual Vol 1 (March 2025) describes Administrations, distinct from February 2026 directory; versioned XML/PDF evidence and chapter-level reconciliation pending.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-FOM-VOLUME-2",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "VA Functional Organization Manual Vol 2 (March 2025) describes Staff Offices; absence/difference from later live directory is not abolition.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-FULL-DENOMINATOR",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "No complete, same-as-of, authoritative organizational first-level denominator has been reconciled against statutes, charts, FOMs and special-purpose components.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "AR04C-GAP-VA-SOURCE-ARCHIVE",
+      "type": "unresolved_va_structural_research_gap",
+      "closure_condition": "Seven observed byte digests still refer to ephemeral GitHub Actions artifacts; no promoted, durable, institution-signed archive exists.",
+      "status": "open",
+      "certified": false,
+      "assigned_reviewer": null,
+      "reviewed_at": null
+    }
+  ]
+}

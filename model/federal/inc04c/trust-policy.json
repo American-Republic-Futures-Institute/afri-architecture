@@ -1,0 +1,25 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "trust-policy",
+  "items": [
+    {
+      "id": "AR04C-TRUST-POLICY",
+      "type": "evidence_trust_and_retention_contract",
+      "registry_version": "0.1.0",
+      "signing_algorithm": "Ed25519",
+      "signature_envelope": "detached_signature_over_canonical_manifest_bytes",
+      "public_key_fingerprint_sha256": null,
+      "approved_signer_identifiers": [],
+      "signer_enrollment_complete": false,
+      "identity_attestation_policy": "approved_institutional_signer_key_via_protected_repo_review",
+      "evidence_storage_policy": "content_addressed_Git_or_object_store_immutable_version",
+      "object_lock_or_equivalent_verified": false,
+      "minimum_retention": "proposed_institute_lifetime_plus_ten_years_subject_to_legal_ratification",
+      "retention_policy_ratified": false,
+      "source_bytes_durably_promoted": false,
+      "archived_bytes_signature_verified": false,
+      "independent_legal_signoff_complete": false,
+      "source_complete": false
+    }
+  ]
+}
