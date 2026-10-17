@@ -1,0 +1,646 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/va-evidence-04e-v0.1.0.schema.json",
+  "title": "ARFI 04E Trust Root and VA ADL-1 Qualification Research (No Certification)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "enum": [
+        "governance-decisions",
+        "signer-enrollments",
+        "storage-targets",
+        "VA-legal-issues",
+        "source-temporal-index",
+        "qualification-gates",
+        "VA-dossier"
+      ],
+      "type": "string"
+    },
+    "items": {
+      "type": "array"
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "model_family": {
+          "const": "governance-decisions"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/governance-decisions"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "signer-enrollments"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/signer-enrollments"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "storage-targets"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/storage-targets"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "VA-legal-issues"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/VA-legal-issues"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "source-temporal-index"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source-temporal-index"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "qualification-gates"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/qualification-gates"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "VA-dossier"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/VA-dossier"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "governance-decisions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "action",
+        "adopted_at",
+        "adoption_record_id",
+        "board_quorum_verified",
+        "decision",
+        "evidence_required",
+        "id",
+        "owner_role",
+        "ratified",
+        "signed_resolution_sha256",
+        "type"
+      ],
+      "properties": {
+        "action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "adopted_at": {
+          "const": null
+        },
+        "adoption_record_id": {
+          "const": null
+        },
+        "board_quorum_verified": {
+          "const": false
+        },
+        "decision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_required": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "owner_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ratified": {
+          "const": false
+        },
+        "signed_resolution_sha256": {
+          "const": null
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "signer-enrollments": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "governance_resolution_id",
+        "governing_root_signature",
+        "id",
+        "independent_reviewer_id",
+        "institutionally_approved",
+        "proof_of_possession_signature",
+        "public_key_spki_pem",
+        "public_key_spki_sha256",
+        "revocation_record_id",
+        "role",
+        "signer_identity",
+        "trust_state",
+        "type",
+        "valid_from",
+        "valid_until"
+      ],
+      "properties": {
+        "governance_resolution_id": {
+          "const": null
+        },
+        "governing_root_signature": {
+          "const": null
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "independent_reviewer_id": {
+          "const": null
+        },
+        "institutionally_approved": {
+          "const": false
+        },
+        "proof_of_possession_signature": {
+          "const": null
+        },
+        "public_key_spki_pem": {
+          "const": null
+        },
+        "public_key_spki_sha256": {
+          "const": null
+        },
+        "revocation_record_id": {
+          "const": null
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signer_identity": {
+          "const": null
+        },
+        "trust_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "valid_from": {
+          "const": null
+        },
+        "valid_until": {
+          "const": null
+        }
+      }
+    },
+    "storage-targets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "AWS_account_id",
+        "CloudTrail_data_events_verified",
+        "backend_configured",
+        "bucket_name",
+        "bucket_region",
+        "customer_managed_KMS_key_ARN",
+        "description",
+        "distinct_operator_approved",
+        "id",
+        "mechanism",
+        "object_lock_enabled_verified",
+        "provider_proof_verified",
+        "read_only_attestation_manifest_sha256",
+        "release_state",
+        "retention_policy_id",
+        "retention_until",
+        "type",
+        "versioning_enabled_verified"
+      ],
+      "properties": {
+        "AWS_account_id": {
+          "const": null
+        },
+        "CloudTrail_data_events_verified": {
+          "const": false
+        },
+        "backend_configured": {
+          "const": false
+        },
+        "bucket_name": {
+          "const": null
+        },
+        "bucket_region": {
+          "const": null
+        },
+        "customer_managed_KMS_key_ARN": {
+          "const": null
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "distinct_operator_approved": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "mechanism": {
+          "type": "string",
+          "minLength": 1
+        },
+        "object_lock_enabled_verified": {
+          "const": false
+        },
+        "provider_proof_verified": {
+          "const": false
+        },
+        "read_only_attestation_manifest_sha256": {
+          "const": null
+        },
+        "release_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retention_policy_id": {
+          "const": null
+        },
+        "retention_until": {
+          "const": null
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "versioning_enabled_verified": {
+          "const": false
+        }
+      }
+    },
+    "VA-legal-issues": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adjudication_outcome_inferred",
+        "congressional_fiscal_authority_inferred",
+        "effective_law_2026_verified",
+        "exact_controlling_2026_legal_edition_sha256",
+        "executed_delegation_instrument_id",
+        "id",
+        "jurisdiction_boundary_verified",
+        "legal_counsel_review_id",
+        "legal_decision",
+        "official_legal_source_url",
+        "predecessor_identity_id",
+        "primary_reference",
+        "qualifying_reference",
+        "relationship_kind_candidate",
+        "source_bounded_finding",
+        "source_citator_as_of",
+        "type"
+      ],
+      "properties": {
+        "adjudication_outcome_inferred": {
+          "const": false
+        },
+        "congressional_fiscal_authority_inferred": {
+          "const": false
+        },
+        "effective_law_2026_verified": {
+          "const": false
+        },
+        "exact_controlling_2026_legal_edition_sha256": {
+          "const": null
+        },
+        "executed_delegation_instrument_id": {
+          "const": null
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "jurisdiction_boundary_verified": {
+          "const": false
+        },
+        "legal_counsel_review_id": {
+          "const": null
+        },
+        "legal_decision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_legal_source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "predecessor_identity_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "primary_reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualifying_reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relationship_kind_candidate": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_bounded_finding": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_citator_as_of": {
+          "const": null
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "source-temporal-index": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "all_legal_amendments_citator_checked",
+        "decision",
+        "id",
+        "office_predecessor_successor_reconciled",
+        "published_edition_or_observation",
+        "reviewer_id",
+        "source_delta_to_next_edition_sha256",
+        "source_hash_in_predecessor_verified",
+        "source_record_id",
+        "source_temporal_effect_is_2026_current",
+        "structural_claim_scope",
+        "type"
+      ],
+      "properties": {
+        "all_legal_amendments_citator_checked": {
+          "const": false
+        },
+        "decision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "office_predecessor_successor_reconciled": {
+          "const": false
+        },
+        "published_edition_or_observation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer_id": {
+          "const": null
+        },
+        "source_delta_to_next_edition_sha256": {
+          "const": null
+        },
+        "source_hash_in_predecessor_verified": {
+          "type": "boolean"
+        },
+        "source_record_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "source_temporal_effect_is_2026_current": {
+          "const": false
+        },
+        "structural_claim_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "qualification-gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "criterion",
+        "evidence_sha256",
+        "id",
+        "independent_reviewer_id",
+        "status",
+        "type",
+        "verified",
+        "waived"
+      ],
+      "properties": {
+        "criterion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_sha256": {
+          "const": null
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "independent_reviewer_id": {
+          "const": null
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verified": {
+          "const": false
+        },
+        "waived": {
+          "const": false
+        }
+      }
+    },
+    "VA-dossier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ADL1_status",
+        "FOM_counts_are_not_disjoint_first_level_institution_denominators",
+        "FOM_reported_assistant_secretary_roles",
+        "FOM_reported_key_official_roles",
+        "archive_provider_object_verifications",
+        "authorized_institutional_signer",
+        "complete_legal_composition_certified",
+        "dated_FOM_administration_count",
+        "department",
+        "directory_source_heading_total",
+        "full_same_as_of_first_level_denominator",
+        "human_approval_count",
+        "id",
+        "open_residual_statutory_categories",
+        "original_FOM_PDF_receipts",
+        "original_fixed_2024_law_receipts",
+        "public_website_published",
+        "special_legal_research_cases",
+        "statutory_composition_clauses",
+        "type"
+      ],
+      "properties": {
+        "ADL1_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "FOM_counts_are_not_disjoint_first_level_institution_denominators": {
+          "const": true
+        },
+        "FOM_reported_assistant_secretary_roles": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "FOM_reported_key_official_roles": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "archive_provider_object_verifications": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "authorized_institutional_signer": {
+          "const": null
+        },
+        "complete_legal_composition_certified": {
+          "const": false
+        },
+        "dated_FOM_administration_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "department": {
+          "type": "string",
+          "minLength": 1
+        },
+        "directory_source_heading_total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "full_same_as_of_first_level_denominator": {
+          "const": null
+        },
+        "human_approval_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Z][A-Z0-9-]{2,170}$"
+        },
+        "open_residual_statutory_categories": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "original_FOM_PDF_receipts": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "original_fixed_2024_law_receipts": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "public_website_published": {
+          "const": false
+        },
+        "special_legal_research_cases": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "statutory_composition_clauses": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
