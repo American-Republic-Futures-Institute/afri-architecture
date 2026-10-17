@@ -1,0 +1,47 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-NAME-EVENT-DHRA-2026",
+      "type": "name_or_organizational_event",
+      "institution_id": "DOD-DAFA-DHRA",
+      "old_name": "Defense Human Resources Activity",
+      "new_name": "Personnel Readiness Management Agency",
+      "effective_on": "2026-06-29",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781, footnote 3 and footnote 67, cites DA&M memorandum 2026-06-29",
+      "identity_continuity_status": "source_reports_redesignation_not_fully_reconciled_charter",
+      "canonical_node_id_unchanged": true
+    },
+    {
+      "id": "DOD-NAME-EVENT-MEDIA-2026",
+      "type": "name_or_organizational_event",
+      "institution_id": "DOD-DAFA-MEDIA",
+      "old_name": "Defense Media Activity",
+      "new_name": "Department of War Information Activity",
+      "effective_on": "2026-02-09",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781, footnote cited Feb. 9 2026 DA&M field activity redesignation; GAO figure uses 'War Media Activity'",
+      "identity_continuity_status": "published_figure_label_discrepancy_needs_official_memorandum_reconciliation",
+      "canonical_node_id_unchanged": true
+    },
+    {
+      "id": "DOD-NAME-EVENT-TRMC-2026",
+      "type": "name_or_organizational_event",
+      "institution_id": "DOD-DAFA-TRMC",
+      "old_name": "DoD Test Resource Management Center",
+      "new_name": "Department of War Test Resource Management Center",
+      "effective_on": "2026-02-09",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "source_locator": "GAO-26-107781, appendix footnote on redesignation effective Feb 9 2026",
+      "identity_continuity_status": "historical_alias_requires_original_signed_memorandum_review",
+      "canonical_node_id_unchanged": true
+    }
+  ]
+}

@@ -146,3 +146,12 @@ DHS and Education now have source-indexed, bounded codified statutory authority 
 The new independent `model/federal/coverage/` model family indexes **61 existing canonical federal institution identities**, with 13 conservative classification families, **29 explicitly partial first-level records** for Defense, DHS and Education, eight sourced official references, four source-version contexts, nine open research gaps and four declarative model-only views. No whole-government denominator, completed organizational inventory, verified department-wide legal power or operational delegation is asserted. An independent Architectural Decomposition Level (ADL) research scale distinguishes source identification from structural, legal, fiscal, operational and performance completeness.
 
 See [Federal Institutional Census](docs/FEDERAL-INSTITUTIONAL-CENSUS.md). Validate using `node scripts/validate-federal-census.mjs --validate`, `node scripts/validate-federal-census-schema.mjs`, and `node --test tests/federal-census.test.mjs`. Website rendering and additional department research remain separate PRs.
+
+## Department of Defense institutional and authority decomposition — October 2026
+
+ARFI-COA adds twenty independently registered DoD model families including **11 statutory composition categories**, GAO's dated **19 Defense Agency + eight Field Activity** May 2026 roster, eight Combat Support Agency marks, selected Title 10 statutory actor/condition chains, legislative-defense-committee crosswalks and four **proposed** FY2026 financial categories. The public combatant command candidate list, Chairman advisory/command prohibition, Inspector General independence, and DIA/NSA section 192 supervisory exceptions remain explicit. **Neither DoD ADL-1 completeness, individual agency delegations, enacted appropriations, current UCP, legal citator review nor website rendering is claimed.** See [DoD Institutional and Statutory Architecture](docs/DOD-INSTITUTIONAL-AUTHORITY-ARCHITECTURE.md). Validate using the standalone source audit and adversarial regressions:
+
+    node scripts/validate-dod.mjs --validate
+    node --test tests/dod.test.mjs
+
+Seven nondelegating constitutional competency crosswalks link the existing U.S. Constitution Articles I and II records to Congress, the President, bounded Title 10 statutory contexts and the additional declarative source view `VIEW-DOD-CONSTITUTION`. Constitutional authority is not automatically an individual agency power or expenditure authorization.

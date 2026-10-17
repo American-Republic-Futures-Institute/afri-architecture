@@ -1,0 +1,61 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-CONG-HOUSE-ASC",
+      "type": "statutorily_named_congressional_committee",
+      "name": "Committee on Armed Services, House of Representatives",
+      "parent_chamber_id": "ORG-FED-LEG-HOUSE",
+      "scope_class": "authorization_and_oversight",
+      "congressional_defense_committee_definition": "DOD-PROV-10-101-16",
+      "source_ids": [
+        "DOD-SRC-10-101"
+      ],
+      "current_committee_rules_verified": false,
+      "exact_subcommittee_jurisdiction_not_inferred": true,
+      "status": "statutory_definition_only_pending_house_senate_rules_crosswalk"
+    },
+    {
+      "id": "DOD-CONG-HOUSE-APP",
+      "type": "statutorily_named_congressional_committee",
+      "name": "Committee on Appropriations, House of Representatives",
+      "parent_chamber_id": "ORG-FED-LEG-HOUSE",
+      "scope_class": "appropriations",
+      "congressional_defense_committee_definition": "DOD-PROV-10-101-16",
+      "source_ids": [
+        "DOD-SRC-10-101"
+      ],
+      "current_committee_rules_verified": false,
+      "exact_subcommittee_jurisdiction_not_inferred": true,
+      "status": "statutory_definition_only_pending_house_senate_rules_crosswalk"
+    },
+    {
+      "id": "DOD-CONG-SENATE-ASC",
+      "type": "statutorily_named_congressional_committee",
+      "name": "Committee on Armed Services, Senate",
+      "parent_chamber_id": "ORG-FED-LEG-SENATE",
+      "scope_class": "authorization_and_oversight",
+      "congressional_defense_committee_definition": "DOD-PROV-10-101-16",
+      "source_ids": [
+        "DOD-SRC-10-101"
+      ],
+      "current_committee_rules_verified": false,
+      "exact_subcommittee_jurisdiction_not_inferred": true,
+      "status": "statutory_definition_only_pending_house_senate_rules_crosswalk"
+    },
+    {
+      "id": "DOD-CONG-SENATE-APP",
+      "type": "statutorily_named_congressional_committee",
+      "name": "Committee on Appropriations, Senate",
+      "parent_chamber_id": "ORG-FED-LEG-SENATE",
+      "scope_class": "appropriations",
+      "congressional_defense_committee_definition": "DOD-PROV-10-101-16",
+      "source_ids": [
+        "DOD-SRC-10-101"
+      ],
+      "current_committee_rules_verified": false,
+      "exact_subcommittee_jurisdiction_not_inferred": true,
+      "status": "statutory_definition_only_pending_house_senate_rules_crosswalk"
+    }
+  ]
+}

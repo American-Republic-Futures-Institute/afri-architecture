@@ -1,0 +1,107 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "DOD-SERVICE-ARMY",
+      "type": "dod_armed_service_boundary",
+      "name": "United States Army",
+      "institutional_parent_id": "CENSUS-COMP-DEF-ARMY",
+      "boundary_type": "military_service_in_army",
+      "currently_part_of_dod_by_general_law": true,
+      "interdepartmental_transfer_condition": null,
+      "source_ids": [
+        "DOD-SRC-10-7013",
+        "DOD-SRC-10-101"
+      ],
+      "as_of_statutory_edition": "2026-10-07",
+      "is_independent_military_department": false,
+      "operational_command_assignment_inferred": false,
+      "review_status": "statutory_service_placement_only"
+    },
+    {
+      "id": "DOD-SERVICE-NAVY",
+      "type": "dod_armed_service_boundary",
+      "name": "United States Navy",
+      "institutional_parent_id": "CENSUS-COMP-DEF-NAVY",
+      "boundary_type": "military_service_in_navy",
+      "currently_part_of_dod_by_general_law": true,
+      "interdepartmental_transfer_condition": null,
+      "source_ids": [
+        "DOD-SRC-10-8013",
+        "DOD-SRC-10-101"
+      ],
+      "as_of_statutory_edition": "2026-10-07",
+      "is_independent_military_department": false,
+      "operational_command_assignment_inferred": false,
+      "review_status": "statutory_service_placement_only"
+    },
+    {
+      "id": "DOD-SERVICE-MARINE",
+      "type": "dod_armed_service_boundary",
+      "name": "United States Marine Corps",
+      "institutional_parent_id": "CENSUS-COMP-DEF-NAVY",
+      "boundary_type": "military_service_in_navy",
+      "currently_part_of_dod_by_general_law": true,
+      "interdepartmental_transfer_condition": null,
+      "source_ids": [
+        "DOD-SRC-10-8013",
+        "DOD-SRC-10-101"
+      ],
+      "as_of_statutory_edition": "2026-10-07",
+      "is_independent_military_department": false,
+      "operational_command_assignment_inferred": false,
+      "review_status": "statutory_service_placement_only"
+    },
+    {
+      "id": "DOD-SERVICE-AIR",
+      "type": "dod_armed_service_boundary",
+      "name": "United States Air Force",
+      "institutional_parent_id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "boundary_type": "military_service_in_air_force",
+      "currently_part_of_dod_by_general_law": true,
+      "interdepartmental_transfer_condition": null,
+      "source_ids": [
+        "DOD-SRC-10-9013",
+        "DOD-SRC-10-101"
+      ],
+      "as_of_statutory_edition": "2026-10-07",
+      "is_independent_military_department": false,
+      "operational_command_assignment_inferred": false,
+      "review_status": "statutory_service_placement_only"
+    },
+    {
+      "id": "DOD-SERVICE-SPACE",
+      "type": "dod_armed_service_boundary",
+      "name": "United States Space Force",
+      "institutional_parent_id": "CENSUS-COMP-DEF-AIR-FORCE",
+      "boundary_type": "military_service_in_air_force",
+      "currently_part_of_dod_by_general_law": true,
+      "interdepartmental_transfer_condition": null,
+      "source_ids": [
+        "DOD-SRC-10-9081",
+        "DOD-SRC-10-101"
+      ],
+      "as_of_statutory_edition": "2026-10-07",
+      "is_independent_military_department": false,
+      "operational_command_assignment_inferred": false,
+      "review_status": "statutory_service_placement_only"
+    },
+    {
+      "id": "DOD-SERVICE-COAST",
+      "type": "dod_armed_service_boundary",
+      "name": "United States Coast Guard",
+      "institutional_parent_id": "ORG-FED-EXE-DEP-DHS",
+      "boundary_type": "external_dhs_service_with_conditional_navy_transfer",
+      "currently_part_of_dod_by_general_law": false,
+      "interdepartmental_transfer_condition": "Congress_war_declaration_direction_or_President_direction_under_14_USC_103_b",
+      "source_ids": [
+        "DOD-SRC-14-103",
+        "DOD-SRC-10-101"
+      ],
+      "as_of_statutory_edition": "2026-10-07",
+      "is_independent_military_department": false,
+      "operational_command_assignment_inferred": false,
+      "review_status": "statutory_service_placement_only"
+    }
+  ]
+}
