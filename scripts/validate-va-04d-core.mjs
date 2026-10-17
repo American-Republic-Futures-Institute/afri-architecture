@@ -33,7 +33,7 @@ const ANCHORS=Object.freeze({
  "D04D-ANCHOR-FOM2-BVA":["D04D-OBS-FOM2",39,"BVA-01 Board of Veterans' Appeals"],
  "D04D-ANCHOR-FOM2-OIG":["D04D-OBS-FOM2",321,"OIG-50 Office of the Inspector General"]
 });
-const EXPECTED_ROLES=["custodian","records_officer","institutional_architect",
+const EXPECTED_ROLES=["source_custodian","records_officer","institutional_architect",
  "statutory_counsel","IG_adjudication_reviewer","citator_reviewer"];
 function fits(value,rule){
  if("const" in rule&&value!==rule.const)return false;
