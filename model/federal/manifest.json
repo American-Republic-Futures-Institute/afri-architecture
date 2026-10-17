@@ -151,7 +151,9 @@
     "model/federal/inc04d/temporal-events.json",
     "model/federal/inc04d/trust-gates.json",
     "model/federal/inc04d/review-approvals.json",
-    "model/federal/inc04d/coverage.json"
+    "model/federal/inc04d/coverage.json",
+    "model/federal/inc04d/observed-source-receipts.json",
+    "model/federal/inc04d/fom-page-anchors.json"
   ],
   "standards": [
     {
@@ -530,13 +532,17 @@
     "version": "0.1.0",
     "previous": "ARFI-COA-FED-EVIDENCE-004C",
     "capture_targets": 5,
-    "verified_new_capture_count": 0,
+    "verified_new_capture_count": 4,
     "VA_ADL1_certified": false,
     "full_department_denominator": null,
     "retention_ratified": false,
     "institutional_signer_enrolled": false,
     "legal_review_complete": false,
     "website_published": false,
-    "unratified": true
+    "unratified": true,
+    "VA_FOMs_verified": 2,
+    "CBCA_source_original_blocked": true,
+    "GOVINFO_2024_code_html_byte_verified": 2,
+    "originals_durably_retained_count": 0
   }
 }
