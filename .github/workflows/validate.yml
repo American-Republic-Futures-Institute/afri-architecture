@@ -117,6 +117,24 @@ jobs:
         run: node scripts/validate-dod-schema.mjs
       - name: Test DoD institutional and statutory source, command, IG and funding safeguards
         run: node --test tests/dod.test.mjs
+      - name: Validate 04F eleven pinned originals and provisional VA first-level union
+        run: node scripts/operational-custody-04f.mjs --validate
+      - name: Validate strict 04F source-custody and legal-review schema
+        run: node scripts/operational-custody-04f.mjs --schema
+      - name: Project unsigned 04F preservation index, outstanding exceptions and legal packets
+        run: |
+          node scripts/operational-custody-04f.mjs --propose-index > /dev/null
+          node scripts/operational-custody-04f.mjs --view exceptions > /dev/null
+          node scripts/operational-custody-04f.mjs --view legal > /dev/null
+          node scripts/operational-custody-04f.mjs --release-readiness
+      - name: Test 04F source pins, VA candidate identity and independent governance gates
+        run: node --test tests/operational-custody04f.test.mjs
+      - name: Test synthetic exact-original replay, content-addressed staging and tampering safeguards
+        run: node --test tests/replay-originals04f.test.mjs
+      - name: Test externally root-bound dual-account archive reads and AWS audit digest prequalification
+        run: node --test tests/operational-provider04f.test.mjs
+      - name: Syntax-check read-only governed audit/provider operator tool
+        run: node --check scripts/operational-readonly-qualification-04f.mjs
       - name: Validate constitutional authority catalog
         run: node scripts/validate-constitution.mjs
       - name: Run constitutional model regression tests

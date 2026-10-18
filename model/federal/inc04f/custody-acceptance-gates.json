@@ -1,0 +1,116 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "custody-acceptance-gates",
+  "items": [
+    {
+      "id": "F04F-GATE-GOVERNANCE",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Ratify retention and legal-hold schedule under actual governing body",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-KEYS",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Enroll externally pinned Ed25519 governance root and two distinct role signers",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-ROLES",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Verify custodian/legal officer identities and independence outside automated tests",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-SOURCE",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Reverify all eleven original publisher response bodies from retained Action artifacts",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-PRIMARY",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Store and read back all eleven exact immutable versioned primary objects",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-REPLICA",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Independently recover all eleven originals from separately controlled immutable replica",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-AUDIT",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Authenticate immutable S3 data-event audit delivery and independent auditor signatures",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-RECOVERY",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Perform interruption, restore, key-rotation and provider outage recovery exercise",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-LEGAL",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Qualified legal reviewers reconcile VA statutory classification and authoritative as-of dates",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    },
+    {
+      "id": "F04F-GATE-ADL1",
+      "type": "operational_and_review_acceptance_gate",
+      "description": "Complete same-date first-level VA universe and nine ADL1 certification prerequisites",
+      "evidence_sha256": null,
+      "reviewer_id": null,
+      "completed_at": null,
+      "verified": false,
+      "waived": false,
+      "status": "blocked_pending_external_evidence"
+    }
+  ]
+}
