@@ -1,0 +1,186 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc10-offset-lines",
+  "items": [
+    {
+      "id": "X10-OFFSET-LINE-1930",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 1930 — Total FY2025 budgetary resources available",
+      "OMB_line_code": "1930",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 10,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": 217841,
+      "kind": "budget_resources_actual_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-3010",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 3010 — New FY2025 obligations, unexpired accounts",
+      "OMB_line_code": "3010",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 10,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": 203144,
+      "kind": "obligations_actual_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-4110",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 4110 — Gross FY2025 outlays (total)",
+      "OMB_line_code": "4110",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 11,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": 201510,
+      "kind": "gross_outlay_actual_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-4120",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 4120 — Offsetting collections from federal sources",
+      "OMB_line_code": "4120",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 11,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": -24,
+      "kind": "federal_offsetting_collections_actual_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-4123",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 4123 — Offsetting collections from non-federal sources",
+      "OMB_line_code": "4123",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 11,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": -815,
+      "kind": "nonfederal_offsetting_collections_actual_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-4130",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 4130 — Total offsets against gross outlays",
+      "OMB_line_code": "4130",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 11,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": -839,
+      "kind": "gross_to_net_offsets_actual_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-4142",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 4142 — Offsetting collections credited to expired accounts",
+      "OMB_line_code": "4142",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 11,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": 24,
+      "kind": "expired_account_offsets_budget_authority_only_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-4143",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 4143 — Recoveries of prior-year paid obligations, unexpired accounts",
+      "OMB_line_code": "4143",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 11,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": 815,
+      "kind": "paid_obligation_recoveries_budget_authority_only_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-4150",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 4150 — Additional offsets against gross budget authority only (total)",
+      "OMB_line_code": "4150",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 11,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": 839,
+      "kind": "budget_authority_only_offsets_actual_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    },
+    {
+      "id": "X10-OFFSET-LINE-4170",
+      "type": "OMB_source_line_item_of_2025_historical_actual_rounded_millions",
+      "title": "OMB line 4170 — FY2025 net outlays (mandatory)",
+      "OMB_line_code": "4170",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "reporting_year": 2025,
+      "publisher_budget_year": 2027,
+      "pdf_page": 11,
+      "unit": "millions_of_US_dollars",
+      "amount_reported_millions_usd": 200671,
+      "kind": "net_outlay_actual_rounded",
+      "source_line_individually_digitally_signed": false,
+      "exact_sub_million_amount_obtained": false,
+      "instrument_attesting_individual_ledger_present": false
+    }
+  ]
+}

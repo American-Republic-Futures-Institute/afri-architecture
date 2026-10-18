@@ -1,0 +1,150 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc10-relationships",
+  "items": [
+    {
+      "id": "X10-REL-01",
+      "type": "bounded_account_financial_source_relation",
+      "title": "within OMB published offset total",
+      "from_id": "X10-REC-OMB-OFFSETS-CATEGORY",
+      "to_id": "X10-OFFSET-LINE-4130",
+      "relationship_type": "within_OMB_published_offset_total",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    },
+    {
+      "id": "X10-REL-02",
+      "type": "bounded_account_financial_source_relation",
+      "title": "within OMB published net cash",
+      "from_id": "X10-REC-OMB-OFFSETS-CATEGORY",
+      "to_id": "X10-OFFSET-LINE-4170",
+      "relationship_type": "within_OMB_published_net_cash",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    },
+    {
+      "id": "X10-REL-03",
+      "type": "bounded_account_financial_source_relation",
+      "title": "original Treasury net cash confirms historical model",
+      "from_id": "X10-REC-CASH-ORIGINAL",
+      "to_id": "X07-EXEC-2025-SUBTOTAL",
+      "relationship_type": "original_Treasury_net_cash_confirms_historical_model",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    },
+    {
+      "id": "X10-REL-04",
+      "type": "bounded_account_financial_source_relation",
+      "title": "source FileA gross OMB rounded context",
+      "from_id": "X10-REC-FILEA-GROSS-OMB",
+      "to_id": "X09-FILEA-VA-2025-NOYEAR",
+      "relationship_type": "source_FileA_gross_OMB_rounded_context",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    },
+    {
+      "id": "X10-REL-05",
+      "type": "bounded_account_financial_source_relation",
+      "title": "source Treasury net OMB rounded context",
+      "from_id": "X10-REC-TREASURY-NET-OMB",
+      "to_id": "X07-EXEC-2025-SUBTOTAL",
+      "relationship_type": "source_Treasury_net_OMB_rounded_context",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    },
+    {
+      "id": "X10-REL-06",
+      "type": "bounded_account_financial_source_relation",
+      "title": "exact netting remains unqualified",
+      "from_id": "X10-REC-GROSS-NET-DELTA",
+      "to_id": "X10-GAP-EXACT-NETTING",
+      "relationship_type": "exact_netting_remains_unqualified",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    },
+    {
+      "id": "X10-REL-07",
+      "type": "bounded_account_financial_source_relation",
+      "title": "source vintage exceeds roundoff",
+      "from_id": "X10-REC-RESOURCE-REVISION",
+      "to_id": "X10-GAP-OMB-RESOURCE-VINTAGE",
+      "relationship_type": "source_vintage_exceeds_roundoff",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    },
+    {
+      "id": "X10-REL-08",
+      "type": "bounded_account_financial_source_relation",
+      "title": "budget authority offsets separate from outlays",
+      "from_id": "X10-REC-BUDGET-OFFSETS-NOT-DOUBLE",
+      "to_id": "X10-OFFSET-LINE-4150",
+      "relationship_type": "budget_authority_offsets_separate_from_outlays",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    },
+    {
+      "id": "X10-REL-09",
+      "type": "bounded_account_financial_source_relation",
+      "title": "historical magnitude not a proven cash transfer",
+      "from_id": "X10-REC-HISTORIC-COMPONENT",
+      "to_id": "X09-FILEA-VA-2025-LEGACY2020",
+      "relationship_type": "historical_magnitude_not_a_proven_cash_transfer",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "exact_cash_ledger_equivalence_claimed": false,
+      "authorized_individual_payment_claimed": false,
+      "signed_appropriation_allotment_established": false,
+      "qualified_financial_audit_completed": false
+    }
+  ]
+}
