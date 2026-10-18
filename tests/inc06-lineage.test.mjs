@@ -36,3 +36,8 @@ negative("source record cannot falsely imply immutable original archive custody"
 negative("change in original Article VII effect is not permitted",d=>d.records.get("CONST-US-ART-07").effect_status="operative","constitutional source identity/effect integrity");
 negative("FY2025 must not be transformed into future requested year",d=>rec(d,"traces","X06-TRACE-VA-2025-0102").fiscal_year=2027,"lineage identity, as-of year");
 negative("controlling enacted authority cannot be treated as expired after FY2025",d=>rec(d,"enactments","X06-APP-PL1194-FY25").availability_end="2025-09-30","no-year enacted funding");
+
+negative("published fiscal relationships require an explicit qualification_gap_ids array",d=>{delete rec(d,"relationships","X06-REL-08").qualification_gap_ids},"explicit qualification gap array");
+negative("previously required fiscal gates cannot disappear even when array remains valid",d=>{rec(d,"relationships","X06-REL-08").qualification_gap_ids=[]},"dropped or changed its required legal qualification gaps");
+negative("five headline monetary states require exact identities and order",d=>{rec(d,"traces","X06-TRACE-VA-2025-0102").summary_metric_ids[2]="X06-METRIC-OFFSETS"},"headline financial state IDs or intended order changed");
+negative("no swap of the gross and net reported fiscal outlays",d=>{const t=rec(d,"traces","X06-TRACE-VA-2025-0102");[t.summary_metric_ids[3],t.summary_metric_ids[4]]=[t.summary_metric_ids[4],t.summary_metric_ids[3]]},"headline financial state IDs or intended order changed");
