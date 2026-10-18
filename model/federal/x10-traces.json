@@ -74,6 +74,8 @@
           "id": "reporting_crosswalks",
           "title": "05 / Resource vintage, File A gross and OMB budget rounding",
           "record_ids": [
+            "X09-FILEA-VA-2025-NOYEAR",
+            "X09-FILEA-VA-2025-LEGACY2020",
             "X10-REC-OMB-OFFSETS-CATEGORY",
             "X10-REC-FILEA-GROSS-OMB",
             "X10-REC-TREASURY-NET-OMB",
