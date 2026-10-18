@@ -1,0 +1,289 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X05-TRACE-I",
+      "type": "constitutional_to_institutional_authority_chain",
+      "title": "Article I — Appropriations, fiscal limitations and oversight",
+      "article": "I",
+      "primary_provision_id": "CONST-US-ART-01-SEC-09-CL-07",
+      "subject_institution_id": "ORG-FED-LEG-CONGRESS",
+      "stages": [
+        {
+          "id": "constitution",
+          "title": "01 / Constitutional provision",
+          "note": "Congressional fiscal powers and the constitutional restriction on drawing Treasury money.",
+          "record_ids": [
+            "CONST-US-ART-01-SEC-08-CL-01",
+            "CONST-US-ART-01-SEC-09-CL-07"
+          ]
+        },
+        {
+          "id": "actor",
+          "title": "02 / Constitutional actor",
+          "note": "Congress is the legislative actor; House and Senate roles are separate and not Treasury operational chains.",
+          "record_ids": [
+            "ORG-FED-LEG-CONGRESS",
+            "ORG-FED-LEG-HOUSE",
+            "ORG-FED-LEG-SENATE"
+          ]
+        },
+        {
+          "id": "law",
+          "title": "03 / Statutory legal and fiscal limits",
+          "note": "General Title 31 fiscal laws do not themselves supply specific appropriations.",
+          "record_ids": [
+            "X05-LAW-31-1301",
+            "X05-LAW-31-1341",
+            "X05-LAW-31-1501"
+          ]
+        },
+        {
+          "id": "office",
+          "title": "04 / Institutional execution context",
+          "note": "GAO is a legislative oversight actor; no specific agency obligating official is modeled.",
+          "record_ids": [
+            "ORG-FED-LEG-GAO"
+          ]
+        },
+        {
+          "id": "function",
+          "title": "05 / Bounded functional responsibility",
+          "note": "Purpose, availability and documentary safeguards; no real expenditure or spending actor certified.",
+          "record_ids": [
+            "X05-FUNC-APPROPRIATION-CONTROL"
+          ]
+        },
+        {
+          "id": "oversight",
+          "title": "06 / Oversight, qualifications and remedies",
+          "note": "No enacted account-level appropriation, obligation record or fiscal review determination certified.",
+          "record_ids": [
+            "X05-GATE-APPROPRIATION",
+            "X05-GATE-OBLIGATION",
+            "X05-GATE-FISCAL-REVIEW"
+          ]
+        }
+      ],
+      "relation_ids": [
+        "X05-EDGE-I-01",
+        "X05-EDGE-I-02",
+        "X05-EDGE-I-03",
+        "X05-EDGE-I-04",
+        "X05-EDGE-I-05",
+        "X05-EDGE-I-06",
+        "X05-EDGE-I-07",
+        "X05-EDGE-I-08"
+      ],
+      "gate_ids": [
+        "X05-GATE-APPROPRIATION",
+        "X05-GATE-OBLIGATION",
+        "X05-GATE-FISCAL-REVIEW"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-X05-31-1301",
+        "SRC-X05-31-1341"
+      ],
+      "review_status": "source_bounded_research_pending_qualified_legal_review",
+      "claim_status": "not_case_specific_or_operational_authority",
+      "qualified_legal_citator_complete": false,
+      "individual_delegation_verified": false,
+      "enacted_program_appropriation_verified": false,
+      "case_specific_remedy_verified": false,
+      "institutional_publication_certified": false
+    },
+    {
+      "id": "X05-TRACE-II",
+      "type": "constitutional_to_institutional_authority_chain",
+      "title": "Article II — President, civilian Defense leadership and conditional command",
+      "article": "II",
+      "primary_provision_id": "CONST-US-ART-02-SEC-02-CL-01",
+      "subject_institution_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "stages": [
+        {
+          "id": "constitution",
+          "title": "01 / Constitutional provision",
+          "note": "Commander in Chief and Take Care powers remain constitutionally bounded.",
+          "record_ids": [
+            "CONST-US-ART-02-SEC-02-CL-01",
+            "CONST-US-ART-02-SEC-03-SEG-04"
+          ]
+        },
+        {
+          "id": "actor",
+          "title": "02 / Constitutional actor",
+          "note": "President has the Commander in Chief role; no specific military command order is evidenced.",
+          "record_ids": [
+            "ORG-FED-EXE-PRESIDENT"
+          ]
+        },
+        {
+          "id": "law",
+          "title": "03 / Enabling statute and judicial context",
+          "note": "Selected Title 10 text only; Youngstown provides comparative separation-of-powers doctrine, not a military-specific case ruling.",
+          "record_ids": [
+            "DOD-PROV-10-113-B",
+            "DOD-PROV-10-162-B",
+            "HOLD-US-SCOTUS-YOUNGSTOWN-1952-01"
+          ]
+        },
+        {
+          "id": "office",
+          "title": "04 / Department and competent role",
+          "note": "Defense Department and SecDef are distinct; official appointment and individual delegation remain unverified.",
+          "record_ids": [
+            "ORG-FED-EXE-DEP-DEFENSE",
+            "DOD-ROLE-SECDEF"
+          ]
+        },
+        {
+          "id": "function",
+          "title": "05 / Statutory and candidate function",
+          "note": "Scoped civilian direction and conditionally arranged combatant command; no particular use of force authorized.",
+          "record_ids": [
+            "DOD-POWER-SECDEF-DIRECTION",
+            "X05-FUNC-DOD-DIRECTION"
+          ]
+        },
+        {
+          "id": "oversight",
+          "title": "06 / Constitutional and operational restrictions",
+          "note": "Congressional oversight context and unresolved specific delegation, command-plan and judicial-scope reviews.",
+          "record_ids": [
+            "ORG-FED-LEG-CONGRESS",
+            "X05-GATE-DOD-DELEGATION",
+            "X05-GATE-DOD-COMMAND",
+            "X05-GATE-DOD-LEGAL"
+          ]
+        }
+      ],
+      "relation_ids": [
+        "X05-EDGE-II-01",
+        "X05-EDGE-II-02",
+        "X05-EDGE-II-03",
+        "X05-EDGE-II-04",
+        "X05-EDGE-II-05",
+        "X05-EDGE-II-06",
+        "X05-EDGE-II-07",
+        "X05-EDGE-II-08",
+        "X05-EDGE-II-09"
+      ],
+      "gate_ids": [
+        "X05-GATE-DOD-DELEGATION",
+        "X05-GATE-DOD-COMMAND",
+        "X05-GATE-DOD-LEGAL"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "CENSUS-SRC-DOD-113",
+        "DOD-SRC-10-162"
+      ],
+      "review_status": "source_bounded_research_pending_qualified_legal_review",
+      "claim_status": "not_case_specific_or_operational_authority",
+      "qualified_legal_citator_complete": false,
+      "individual_delegation_verified": false,
+      "enacted_program_appropriation_verified": false,
+      "case_specific_remedy_verified": false,
+      "institutional_publication_certified": false
+    },
+    {
+      "id": "X05-TRACE-III",
+      "type": "constitutional_to_institutional_authority_chain",
+      "title": "Article III — Jurisdiction, judicial review and case-specific remedies",
+      "article": "III",
+      "primary_provision_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "subject_institution_id": "ORG-FED-JUD-DISTRICT",
+      "stages": [
+        {
+          "id": "constitution",
+          "title": "01 / Constitutional provision",
+          "note": "Article III vesting, judicial subject matter, and Supreme Court jurisdiction are distinct provisions.",
+          "record_ids": [
+            "CONST-US-ART-03-SEC-01-SEG-01",
+            "CONST-US-ART-03-SEC-02-CL-01",
+            "CONST-US-ART-03-SEC-02-CL-02"
+          ]
+        },
+        {
+          "id": "actor",
+          "title": "02 / Constitutional judicial actors",
+          "note": "District courts and the Supreme Court exercise differentiated judicial roles.",
+          "record_ids": [
+            "ORG-FED-JUD-DISTRICT",
+            "ORG-FED-JUD-SCOTUS"
+          ]
+        },
+        {
+          "id": "law",
+          "title": "03 / Statutory jurisdiction and judicial doctrine",
+          "note": "Section 1331 original jurisdiction and §1254 review routes; Marbury and Lujan are judicial case law, not original clauses.",
+          "record_ids": [
+            "X05-LAW-28-1331",
+            "X05-LAW-28-1254",
+            "HOLD-US-SCOTUS-MARBURY-1803-01",
+            "HOLD-US-SCOTUS-LUJAN-1992-01"
+          ]
+        },
+        {
+          "id": "office",
+          "title": "04 / Court institutions and review pathway",
+          "note": "Court of appeals category included; this does not supply appellate jurisdiction for a particular judgment.",
+          "record_ids": [
+            "ORG-FED-JUD-DISTRICT",
+            "ORG-FED-JUD-APPEALS",
+            "ORG-FED-JUD-SCOTUS"
+          ]
+        },
+        {
+          "id": "function",
+          "title": "05 / Bounded adjudicative functions",
+          "note": "Federal-question and certiorari/certification routes without a specific litigant or judgment.",
+          "record_ids": [
+            "X05-FUNC-JUDICIAL-FEDERAL-QUESTION",
+            "X05-FUNC-JUDICIAL-SCOTUS-REVIEW"
+          ]
+        },
+        {
+          "id": "oversight",
+          "title": "06 / Adjudicative limits and remedies",
+          "note": "Standing, appellate review prerequisites, cause of action, sovereign immunity and available relief unresolved.",
+          "record_ids": [
+            "X05-GATE-JUSTICIABILITY",
+            "X05-GATE-SCOTUS-ROUTE",
+            "X05-GATE-JUDICIAL-REMEDY"
+          ]
+        }
+      ],
+      "relation_ids": [
+        "X05-EDGE-III-01",
+        "X05-EDGE-III-02",
+        "X05-EDGE-III-03",
+        "X05-EDGE-III-04",
+        "X05-EDGE-III-05",
+        "X05-EDGE-III-06",
+        "X05-EDGE-III-07",
+        "X05-EDGE-III-08",
+        "X05-EDGE-III-09",
+        "X05-EDGE-III-10"
+      ],
+      "gate_ids": [
+        "X05-GATE-JUSTICIABILITY",
+        "X05-GATE-SCOTUS-ROUTE",
+        "X05-GATE-JUDICIAL-REMEDY"
+      ],
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-X05-28-1331",
+        "SRC-X05-28-1254"
+      ],
+      "review_status": "source_bounded_research_pending_qualified_legal_review",
+      "claim_status": "not_case_specific_or_operational_authority",
+      "qualified_legal_citator_complete": false,
+      "individual_delegation_verified": false,
+      "enacted_program_appropriation_verified": false,
+      "case_specific_remedy_verified": false,
+      "institutional_publication_certified": false
+    }
+  ]
+}

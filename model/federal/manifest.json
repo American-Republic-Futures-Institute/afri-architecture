@@ -180,7 +180,13 @@
     "model/federal/dod/authority-traces.json",
     "model/federal/dod/viewpoints.json",
     "model/federal/dod/gaps.json",
-    "model/federal/dod/constitutional-context.json"
+    "model/federal/dod/constitutional-context.json",
+    "model/federal/x05-sources.json",
+    "model/federal/x05-statutes.json",
+    "model/federal/x05-functions.json",
+    "model/federal/x05-gates.json",
+    "model/federal/x05-relationships.json",
+    "model/federal/x05-traces.json"
   ],
   "standards": [
     {
@@ -623,5 +629,22 @@
     "review_gaps": 11,
     "office_and_role_records": 17,
     "constitutional_context_records": 7
+  },
+  "constitutional_authority_crosswalk_05_extension": {
+    "id": "ARFI-COA-INC05-001",
+    "model_version": "0.1.0",
+    "status": "source_bounded_research_unratified",
+    "trace_count": 3,
+    "step_count_per_trace": 6,
+    "source_pointer_count": 5,
+    "statutory_reference_count": 5,
+    "function_count": 4,
+    "qualification_gate_count": 9,
+    "relationship_count": 27,
+    "independent_legal_review_complete": false,
+    "case_specific_operational_authority_verified": false,
+    "enacted_account_specific_appropriation_verified": false,
+    "qualified_website_publication": false,
+    "scope": "Article I fiscal / Article II civilian Defense / Article III federal question jurisdiction"
   }
 }

@@ -1,0 +1,80 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X05-LAW-31-1301",
+      "type": "source_bounded_statutory_instrument",
+      "title": "Application of appropriations",
+      "citation": "31 U.S.C. § 1301",
+      "summary": "Purpose restriction on use of appropriated funds, subject to exceptions provided by law.",
+      "source_ids": [
+        "SRC-X05-31-1301"
+      ],
+      "legal_edition": "2026-10-07_OLRC_public_display",
+      "review_status": "official_source_text_indexed_pending_independent_citator_and_legal_review",
+      "enacted_statute_exists_as_cited": true,
+      "transaction_or_individual_case_authority_verified": false,
+      "current_asof_comprehensive_citator": false
+    },
+    {
+      "id": "X05-LAW-31-1341",
+      "type": "source_bounded_statutory_instrument",
+      "title": "Expenditure and obligation limitations",
+      "citation": "31 U.S.C. § 1341",
+      "summary": "Restricts expenditures and obligations beyond available funds and obligations before appropriations, subject to express statutory exceptions.",
+      "source_ids": [
+        "SRC-X05-31-1341"
+      ],
+      "legal_edition": "2026-10-07_OLRC_public_display",
+      "review_status": "official_source_text_indexed_pending_independent_citator_and_legal_review",
+      "enacted_statute_exists_as_cited": true,
+      "transaction_or_individual_case_authority_verified": false,
+      "current_asof_comprehensive_citator": false
+    },
+    {
+      "id": "X05-LAW-31-1501",
+      "type": "source_bounded_statutory_instrument",
+      "title": "Documentary support for government obligations",
+      "citation": "31 U.S.C. § 1501",
+      "summary": "Sets specific documentary-evidence prerequisites for recording obligations; does not itself establish an available appropriation.",
+      "source_ids": [
+        "SRC-X05-31-1501"
+      ],
+      "legal_edition": "2026-10-07_OLRC_public_display",
+      "review_status": "official_source_text_indexed_pending_independent_citator_and_legal_review",
+      "enacted_statute_exists_as_cited": true,
+      "transaction_or_individual_case_authority_verified": false,
+      "current_asof_comprehensive_citator": false
+    },
+    {
+      "id": "X05-LAW-28-1331",
+      "type": "source_bounded_statutory_instrument",
+      "title": "Federal question original jurisdiction",
+      "citation": "28 U.S.C. § 1331",
+      "summary": "Grants district courts original jurisdiction over civil actions arising under the Constitution, laws, or treaties of the United States, subject to applicable justiciability and other laws.",
+      "source_ids": [
+        "SRC-X05-28-1331"
+      ],
+      "legal_edition": "2026-10-07_OLRC_public_display",
+      "review_status": "official_source_text_indexed_pending_independent_citator_and_legal_review",
+      "enacted_statute_exists_as_cited": true,
+      "transaction_or_individual_case_authority_verified": false,
+      "current_asof_comprehensive_citator": false
+    },
+    {
+      "id": "X05-LAW-28-1254",
+      "type": "source_bounded_statutory_instrument",
+      "title": "Supreme Court review of courts of appeals",
+      "citation": "28 U.S.C. § 1254",
+      "summary": "Prescribes certiorari and certified-question routes for review of cases in courts of appeals; no automatic right to discretionary certiorari.",
+      "source_ids": [
+        "SRC-X05-28-1254"
+      ],
+      "legal_edition": "2026-10-07_OLRC_public_display",
+      "review_status": "official_source_text_indexed_pending_independent_citator_and_legal_review",
+      "enacted_statute_exists_as_cited": true,
+      "transaction_or_individual_case_authority_verified": false,
+      "current_asof_comprehensive_citator": false
+    }
+  ]
+}
