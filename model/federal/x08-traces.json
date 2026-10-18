@@ -35,6 +35,10 @@
           "id": "OMB_original_document",
           "title": "02 / Four actual published OMB original JSON revisions",
           "record_ids": [
+            "X07-APP-01",
+            "X07-APP-02",
+            "X07-APP-03",
+            "X07-APP-04",
             "X08-OMB-REV-01",
             "X08-OMB-REV-02",
             "X08-OMB-REV-03",
