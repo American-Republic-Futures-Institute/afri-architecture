@@ -39,32 +39,26 @@ function assertOriginalIssuerRows({treasury,omb}){
   t.includes("200,670,783,364.35"),
  "Treasury original FY2025 page 4 036-0102 account cash row or original period is absent");
  const early=readIssuerTable(omb,{page:10}),later=readIssuerTable(omb,{page:11});
- const patterns=[
- ["1930",/1930s+Total budgetary resources available[^
-]{0,125}217,841/],
- ["3010",/3010s+New obligations[^
-]{0,135}203,144/]
- ];
- for(const [k,p]of patterns)check(p.test(early),"original OMB p10 FY2025 account 036-0102 line "+k+" differs");
- const match=[
- ["4110",/4110s+Outlays, gross[^
-]{0,125}201,510/],
- ["4120",/4120s+Federal sources[^
-]{0,135}-24/],
- ["4123",/4123s+Non-Federal sources[^
-]{0,135}-815/],
- ["4130",/4130s+Offsets against gross[^
-]{0,145}-839/],
- ["4142",/4142s+Offsetting collections credited to expired accounts[^
-]{0,135}24/],
- ["4150",/4150s+Additional offsets against budget authority only[^
-]{0,155}839/],
- ["4170",/4170s+Outlays, net[^
-]{0,135}200,671/]
- ];
- for(const [k,p] of match)check(p.test(later),"original OMB p11 FY2025 account 036-0102 line "+k+" differs");
+ const sourceRows=text=>text.split(String.fromCharCode(10));
+ const hasCodeRow=(text,code,description,amount)=>sourceRows(text).some(row=>
+  row.includes(code+" ")&&row.includes(description)&&row.includes(amount));
+ for(const [code,description,amount] of [
+  ["1930","Total budgetary resources available","217,841"],
+  ["3010","New obligations","203,144"]
+ ])check(hasCodeRow(early,code,description,amount),
+  "original OMB p10 FY2025 account 036-0102 line "+code+" differs");
+ for(const [code,description,amount] of [
+  ["4110","Outlays, gross","201,510"],
+  ["4120","Federal sources","-24"],
+  ["4123","Non-Federal sources","-815"],
+  ["4130","Offsets against gross","-839"],
+  ["4142","Offsetting collections credited to expired accounts","24"],
+  ["4150","Additional offsets against budget authority only","839"],
+  ["4170","Outlays, net","200,671"]
+ ])check(hasCodeRow(later,code,description,amount),
+  "original OMB p11 FY2025 account 036-0102 line "+code+" differs");
  check(later.includes("4143")&&later.includes("Recoveries of prior year paid obligations")&&
-  later.includes("815"),"OMB p11 separate line 4143 prior-year paid-obligation recoveries source missing");
+  later.includes("815"),"original OMB p11 FY2025 account 036-0102 line 4143 differs");
  return {Treasury_pdf_text_page:4,OMB_pdf_text_pages:[10,11],publisher_source_rows_replayed:true};
 }
 export function validateINC10({manifest,collections,originalBytes,ancestorRecords=new Map(),ancestorSources=new Map()}){
