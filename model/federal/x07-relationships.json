@@ -20,7 +20,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Reported no year TAS component"
     },
     {
       "id": "X07-REL-02",
@@ -39,7 +40,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Reported prior fiscal period component"
     },
     {
       "id": "X07-REL-03",
@@ -58,7 +60,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Reported account aggregation not component"
     },
     {
       "id": "X07-REL-04",
@@ -77,7 +80,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Treasury no year component report"
     },
     {
       "id": "X07-REL-05",
@@ -96,7 +100,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Treasury legacy component report"
     },
     {
       "id": "X07-REL-06",
@@ -115,7 +120,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Treasury account rollup report"
     },
     {
       "id": "X07-REL-07",
@@ -138,7 +144,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Enacted authority equals reported account authority not spend allocation"
     },
     {
       "id": "X07-REL-08",
@@ -160,7 +167,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "OMB rounded net outlays match Treasury exact account cash"
     },
     {
       "id": "X07-REL-09",
@@ -181,7 +189,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Third party index points to FY2025 OMB document"
     },
     {
       "id": "X07-REL-10",
@@ -202,7 +211,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Third party index points to FY2025 OMB document"
     },
     {
       "id": "X07-REL-11",
@@ -224,7 +234,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Third party transcription of OMB reapportionment"
     },
     {
       "id": "X07-REL-12",
@@ -245,7 +256,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Third party index points to FY2025 OMB document"
     },
     {
       "id": "X07-REL-13",
@@ -266,7 +278,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "VA policy level one to two process"
     },
     {
       "id": "X07-REL-14",
@@ -287,7 +300,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "VA policy OMB control to TDA"
     },
     {
       "id": "X07-REL-15",
@@ -308,7 +322,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "VA policy TDA to subdivision"
     },
     {
       "id": "X07-REL-16",
@@ -327,7 +342,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "VA policy AAWS record custody requirement"
     },
     {
       "id": "X07-REL-17",
@@ -346,7 +362,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Account rollup not SF133 or obligation ledger"
     },
     {
       "id": "X07-REL-18",
@@ -365,7 +382,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Dated 2024 revision not FY2025 final approval"
     },
     {
       "id": "X07-REL-19",
@@ -384,7 +402,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "No year aggregate does not identify claimant disbursement"
     },
     {
       "id": "X07-REL-20",
@@ -404,7 +423,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "Index only cannot establish primary signed custody"
     },
     {
       "id": "X07-REL-21",
@@ -425,7 +445,8 @@
       "original_OMB_SF132_signoff_qualified": false,
       "VA_allotment_amount_verified": false,
       "account_to_beneficiary_funding_causal_proven": false,
-      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+      "review_status": "source_qualified_account_observation_with_open_operational_gates",
+      "title": "VA policy role not individual signed delegation"
     }
   ]
 }
