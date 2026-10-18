@@ -1,0 +1,356 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc09-relationships",
+  "items": [
+    {
+      "id": "X09-REL-01",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "successor reporting source extends OMB plan",
+      "from_id": "X08-TRACE-VA-2025-0102",
+      "to_id": "X09-FILEA-VA-2025-NOYEAR",
+      "relationship_type": "successor_reporting_source_extends_OMB_plan",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-FILEA-SIGNER"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-02",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "April approved plan to later reported resources",
+      "from_id": "X08-OMB-REV-04",
+      "to_id": "X09-REC-OMB-APRIL-PLAN-BRIDGE",
+      "relationship_type": "April_approved_plan_to_later_reported_resources",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-SF133-GTAS"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-03",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "FileA no year resource total arithmetic",
+      "from_id": "X09-FILEA-VA-2025-NOYEAR",
+      "to_id": "X09-REC-FILEA-RESOURCE-IDENTITY",
+      "relationship_type": "FileA_no_year_resource_total_arithmetic",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-04",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "FileA no year obligation residual arithmetic",
+      "from_id": "X09-FILEA-VA-2025-NOYEAR",
+      "to_id": "X09-REC-FILEA-OBLIGATION-IDENTITY",
+      "relationship_type": "FileA_no_year_obligation_residual_arithmetic",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-05",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "same publisher federal account snapshot crosscheck",
+      "from_id": "X09-FILEA-VA-2025-NOYEAR",
+      "to_id": "X09-REC-ACCOUNT-SNAPSHOT-MATCH",
+      "relationship_type": "same_publisher_federal_account_snapshot_crosscheck",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-06",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "obligations compared OMB historical rounded",
+      "from_id": "X09-FILEA-VA-2025-NOYEAR",
+      "to_id": "X09-REC-OBLIGATIONS-OMB-ROUNDED",
+      "relationship_type": "obligations_compared_OMB_historical_rounded",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-07",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "gross outlays compared OMB historical rounded",
+      "from_id": "X09-FILEA-VA-2025-NOYEAR",
+      "to_id": "X09-REC-GROSS-OUTLAY-OMB-ROUNDED",
+      "relationship_type": "gross_outlays_compared_OMB_historical_rounded",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-08",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "gross not equal net source contrast",
+      "from_id": "X09-FILEA-VA-2025-NOYEAR",
+      "to_id": "X09-REC-GROSS-VS-NET-UNRECONCILED",
+      "relationship_type": "gross_not_equal_net_source_contrast",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-NETTING-LEDGER"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-09",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "Treasury exact net versus FileA gross cash",
+      "from_id": "X07-EXEC-2025-SUBTOTAL",
+      "to_id": "X09-REC-GROSS-VS-NET-UNRECONCILED",
+      "relationship_type": "Treasury_exact_net_versus_FileA_gross_cash",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-NETTING-LEDGER"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-10",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "legacy FY2020 recovery vs Treasury negative outlay",
+      "from_id": "X09-FILEA-VA-2025-LEGACY2020",
+      "to_id": "X09-REC-LEGACY2020-SAME-MAGNITUDE",
+      "relationship_type": "legacy_FY2020_recovery_vs_Treasury_negative_outlay",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-SF133-GTAS"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-11",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "historic Treasury component link no payment attribution",
+      "from_id": "X07-EXEC-2025-LEGACY2020",
+      "to_id": "X09-REC-LEGACY2020-SAME-MAGNITUDE",
+      "relationship_type": "historic_Treasury_component_link_no_payment_attribution",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-SF133-GTAS"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-12",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "FileA available resources vs OMB rounded vintage",
+      "from_id": "X09-FILEA-VA-2025-NOYEAR",
+      "to_id": "X09-REC-OMB-RESOURCES-ROUNDED-DIVERGENCE",
+      "relationship_type": "FileA_available_resources_vs_OMB_rounded_vintage",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-INDEPENDENT-REVIEW"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-13",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "missing signed VA FMA TDA",
+      "from_id": "X09-CTRL-VA-ALLOTMENT",
+      "to_id": "X09-GAP-VA-FMA-TDA",
+      "relationship_type": "missing_signed_VA_FMA_TDA",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-VA-FMA-TDA"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-14",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "missing actual VA AAWS iFAMS posting",
+      "from_id": "X09-CTRL-VA-AAWS",
+      "to_id": "X09-GAP-AAWS-IFAMS",
+      "relationship_type": "missing_actual_VA_AAWS_iFAMS_posting",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-AAWS-IFAMS"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-15",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "missing original SF133 fiscal execution",
+      "from_id": "X09-CTRL-SF133",
+      "to_id": "X09-GAP-SF133-GTAS",
+      "relationship_type": "missing_original_SF133_fiscal_execution",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-SF133-GTAS"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-16",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "missing agency submitted GTAS original",
+      "from_id": "X09-CTRL-GTAS",
+      "to_id": "X09-GAP-SF133-GTAS",
+      "relationship_type": "missing_agency_submitted_GTAS_original",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-SF133-GTAS"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-17",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "missing source level gross net crosswalk",
+      "from_id": "X09-CTRL-NETTING",
+      "to_id": "X09-GAP-NETTING-LEDGER",
+      "relationship_type": "missing_source_level_gross_net_crosswalk",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-NETTING-LEDGER"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    },
+    {
+      "id": "X09-REL-18",
+      "type": "source_pinned_fiscal_execution_evidence_link",
+      "title": "missing specific Treasury payment evidence",
+      "from_id": "X09-CTRL-PAYMENT",
+      "to_id": "X09-GAP-INDIVIDUAL-PAYMENT",
+      "relationship_type": "missing_specific_Treasury_payment_evidence",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "qualification_gap_ids": [
+        "X09-GAP-INDIVIDUAL-PAYMENT"
+      ],
+      "review_status": "source_and_arithmetic_research_only",
+      "individual_payment_authorized": false,
+      "account_allotment_document_signed": false,
+      "SF133_original_independently_qualified": false,
+      "raw_GTAS_original_independently_qualified": false,
+      "source_to_payment_causal_proof": false
+    }
+  ]
+}

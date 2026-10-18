@@ -1,0 +1,68 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc09-file-a-rows",
+  "items": [
+    {
+      "id": "X09-FILEA-VA-2025-NOYEAR",
+      "type": "government_submitted_FileA_TAS_account_balance_row",
+      "title": "VA 036-X-0102-000 no-year Compensation and Pensions — FY2025 period 12",
+      "tas": "036-X-0102-000",
+      "federal_account": "036-0102",
+      "agency_identifier": "036",
+      "main_account": "0102",
+      "sub_account": "000",
+      "availability": "No Year",
+      "fiscal_year": 2025,
+      "submission_period": "FY2025P12",
+      "published_row_last_modified": "2026-05-15",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-ZIP",
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "opening_unobligated_balance_cents": 440868818073,
+      "adjustment_to_unobligated_balance_cents": 87876024853,
+      "appropriated_authority_cents": 21255257900000,
+      "total_other_budgetary_resources_cents": 0,
+      "total_budgetary_resources_cents": 21784002742926,
+      "obligations_incurred_cents": 20314422669736,
+      "prior_year_deobligations_recoveries_refunds_cents": 87876024853,
+      "unobligated_balance_cents": 1469580073190,
+      "gross_outlay_cents": 20151035530281,
+      "resource_total_check_cents": 21784002742926,
+      "net_outlay_not_reported_in_FileA": true,
+      "source_signer_authenticated": false,
+      "claim_status": "public_actual_agency_account_report_aggregate_not_individual_execution_proof"
+    },
+    {
+      "id": "X09-FILEA-VA-2025-LEGACY2020",
+      "type": "government_submitted_FileA_TAS_account_balance_row",
+      "title": "VA 036-2020/2020-0102-000 legacy FY2020 component reported in FY2025 period 12",
+      "tas": "036-2020/2020-0102-000",
+      "federal_account": "036-0102",
+      "agency_identifier": "036",
+      "main_account": "0102",
+      "sub_account": "000",
+      "availability": "2020",
+      "fiscal_year": 2025,
+      "submission_period": "FY2025P12",
+      "published_row_last_modified": "2026-05-15",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-ZIP",
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "opening_unobligated_balance_cents": 124504720245,
+      "adjustment_to_unobligated_balance_cents": -124504720245,
+      "appropriated_authority_cents": 0,
+      "total_other_budgetary_resources_cents": 0,
+      "total_budgetary_resources_cents": 0,
+      "obligations_incurred_cents": 0,
+      "prior_year_deobligations_recoveries_refunds_cents": 2440000000,
+      "unobligated_balance_cents": 0,
+      "gross_outlay_cents": 0,
+      "resource_total_check_cents": 0,
+      "net_outlay_not_reported_in_FileA": true,
+      "source_signer_authenticated": false,
+      "claim_status": "public_actual_agency_account_report_aggregate_not_individual_execution_proof"
+    }
+  ]
+}
