@@ -27,6 +27,15 @@ test("baseline constitutional catalog passes reference integrity",()=>{
  assert.equal(result.counts.bindings,438);
  assert.equal(result.counts.changes,18);
 });
+test("Article VII is a completed historical ratification, not current constitutional amendment authority",()=>{
+ const f=fixture();const p=f.models.provisions.items;
+ assert.equal(p.find(x=>x.id==="CONST-US-ART-07").effect_status,"expired");
+ for(let n=1;n<=3;n++)assert.equal(p.find(x=>x.id==="CONST-US-ART-07-SEG-0"+n).effect_status,"expired");
+ for(const id of ["CONST-US-ART-07","CONST-US-ART-07-SEG-01","CONST-US-ART-07-SEG-02","CONST-US-ART-07-SEG-03"]){
+  const altered=fixture();altered.models.provisions.items.find(x=>x.id===id).effect_status="operative";
+  assert(validateConstitutionCatalog(altered).errors.some(e=>e.includes("Article VII historical")||e.includes("Article VII original")));
+ }
+});
 test("rejects dangling provision references",()=>{
  const f=fixture();f.models.norms.items[0].provision_ids=["CONST-US-DOES-NOT-EXIST"];
  const result=validateConstitutionCatalog(f);

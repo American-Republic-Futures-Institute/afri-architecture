@@ -66,6 +66,16 @@ export function validateConstitutionCatalog(catalog){
    traversed.add(next);next=provisions.get(next).parent_id;
   }
  }
+ // Article VII's original ratification mechanism was fulfilled in 1788; it is not
+ // a reusable current constitutional amendment or State-admission authority.
+ // This historical flag does not affect the continuing force of the Constitution.
+ const ratificationRoot=provisions.get("CONST-US-ART-07");
+ if(ratificationRoot?.effect_status!=="expired")push("Article VII original ratification root must be historical");
+ for(let n=1;n<=3;n++){
+  const id="CONST-US-ART-07-SEG-0"+n;
+  if(provisions.get(id)?.parent_id!=="CONST-US-ART-07" || provisions.get(id)?.effect_status!=="expired")
+   push("Article VII historical ratification segment must remain expired: "+id);
+ }
  if(provisions.get("CONST-US-AMD-18")?.effect_status!=="repealed")push("Eighteenth Amendment must be marked repealed");
  if(provisions.get("CONST-US-AMD-21")?.effect_status!=="operative")push("Twenty-First Amendment must be operative");
  for(const a of all.actors){

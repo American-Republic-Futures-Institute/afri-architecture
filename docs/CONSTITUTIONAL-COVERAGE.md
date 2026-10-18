@@ -55,3 +55,14 @@ Cross-indexing existing Articles IV/VI federalism semantic units and adding sepa
 ## Original Article scope indexes and focused projections — October 16, 2026
 
 All seven original Articles are indexed with source-family references (53 / 17 / 8 / 10 / 9 / 3 / 3 analytical units, respectively), alongside 27 per-amendment scopes. This adds no new independent grant of authority and makes no claim that detailed doctrine or every statutory condition is researched. A typed, source-only projection contract permits narrow subtree or multiple-root query outputs without introducing website UI, policy mappings or inferred links. See [Focused Constitutional Views](FOCUSED-CONSTITUTIONAL-VIEWS.md).
+
+
+## Seven-Article model-to-website publication reconciliation — October 17, 2026
+
+The *original* October 15–16 data-increment statements above that a renderer was not implemented were accurate at the time of those increments. Subsequently, [website PR #19](https://github.com/American-Republic-Futures-Institute/afri-website/pull/19) merged the source-pinned focused Architecture Atlas, with independently addressable selections for **all seven Articles** and **all 27 Amendments**. Its renderer is a read-only research projection, not legally certified publication. Website CI and live production health must be checked separately from this repository's modeling tests.
+
+**Article VII effect boundary:** The original ratification route, threshold, and between-ratifying-States condition were fulfilled historically. The Article VII root and its three unnumbered ARFI analysis spans use `expired` to prevent an Atlas root from displaying a reusable constitutional amendment or State-accession procedure. This describes the historical *procedure*, not the continuing force of the ratified Constitution. Article V remains the operative constitutional amendment procedure, with its pre-1808 restriction explicitly expired and the equal-Senate-suffrage consent protection retained.
+
+**Evidence hierarchy:** National Archives original text controls source transcription; reconstructed analytical spans are marked nonofficial; amendments qualify historical effect; Supreme Court holdings and modern enabling statutes require separate source-versioned qualification. Visual containment, functional alignment, or source links are not automatic delegations or verified current doctrine.
+
+**Required publication check:** For a single immutable architecture commit, test the seven canonical roots `CONST-US-ART-01` through `CONST-US-ART-07`, the 103 nonduplicated units (53/17/8/10/9/3/3), their source IDs, qualified historical statuses, and consistent renderer output. Verify production independently; GitHub merge does not prove successful deployment.

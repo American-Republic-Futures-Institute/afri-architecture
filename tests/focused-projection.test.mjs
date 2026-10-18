@@ -40,6 +40,7 @@ test("individual Articles IV, V, VI, VII expose source-only focused views, prese
  assert(four.nodes.some(x=>x.id==="A47-UNIT-IV-02-03"&&x.effect_status==="superseded"));
  const seven=scope("SCOPE-CONST-ART-07");
  assert(seven.nodes.some(x=>x.id==="A47-UNIT-VII-02"&&x.effect_status==="expired"));
+ assert(seven.nodes.some(x=>x.id==="CONST-US-ART-07"&&x.effect_status==="expired"),"Article VII root must not appear to confer current ratification authority");
  const five=scope("SCOPE-CONST-ART-05");
  assert(five.nodes.some(x=>x.id==="A47-UNIT-V-08"&&x.effect_status==="expired"));
 });
