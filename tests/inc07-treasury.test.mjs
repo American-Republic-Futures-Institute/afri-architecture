@@ -34,7 +34,7 @@ deny("April 2025 index alone cannot create new apportionment amount",d=>{get(d,"
 deny("Dec 2024 resource lines must not be FY2025 actual outlays",d=>{get(d,"apportionments","X07-APP-03").line_6190_is_obligations_or_actual_FY2025_SF133=true},"indexed apportionment line amounts");
 deny("VA funds control policy never means a signed actual FMA/TDA",d=>{get(d,"controls","X07-CTRL-ALLOTMENT").actual_FY2025_account_instrument_verified=true},"VA funds-control policy claimed");
 deny("AAWS evidence cannot be silently assumed",d=>{get(d,"gaps","X07-GAP-AAWS-TRANSACTION").evidence_received=true},"missing document falsely");
-deny("apportionment documentary gap must remain visible",d=>{get(d,"traces","X07-TRACE-VA-2025-0102").stages[2].record_ids=get(d,"traces","X07-TRACE-VA-2025-0102").stages[2].record_ids.filter(x=>x!=="X07-GAP-APPROVED-ASOF")},"missing documentary gap");
+deny("apportionment documentary gap must remain visible",d=>{get(d,"traces","X07-TRACE-VA-2025-0102").stages.forEach(stage=>{stage.record_ids=stage.record_ids.filter(id=>id!=="X07-GAP-APPROVED-ASOF")})},"missing documentary gap");
 deny("qualification array must be explicitly present",d=>{delete get(d,"relationships","X07-REL-14").qualification_gap_ids},"qualification array absent");
 deny("mandatory gate cannot be stripped from VA TDA link",d=>{get(d,"relationships","X07-REL-14").qualification_gap_ids=[]},"qualification array absent or altered");
 deny("five legal review claims remain false",d=>{get(d,"relationships","X07-REL-19").individual_disbursement_certified=true},"falsely certifies payment");
