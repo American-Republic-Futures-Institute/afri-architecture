@@ -171,6 +171,10 @@ jobs:
         run: node scripts/validate-focused-projections.mjs --validate
       - name: Test focused constitutional views, composed queries and legal-provenance controls
         run: node --test tests/focused-projection.test.mjs
+      - name: Verify INC08 original OMB government bytes, dates and fiscal reconciliations against canonical model
+        run: node scripts/validate-inc08-primary.mjs
+      - name: Adversarial tests for OMB original SHA, official account identity, approval dates, VA obligations and WORM gaps
+        run: node --test tests/inc08-primary.test.mjs tests/inc08-original-capture.test.mjs
       - name: Validate X07 historical Treasury cash, apportionment index and VA funds-control evidence schema and semantics
         run: node scripts/validate-inc07-treasury.mjs
       - name: Test X07 source evidence, account-subperiod cents, dated apportionment and no-certification invariants

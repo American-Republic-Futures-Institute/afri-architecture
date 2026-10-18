@@ -4,6 +4,7 @@ on:
     paths:
       - 'scripts/inc08-original-capture*.mjs'
       - 'scripts/inc08-original-capture-core.mjs'
+      - 'scripts/inc08-export-omb.mjs'
       - 'tests/inc08-original-capture.test.mjs'
       - '.github/workflows/inc08-public-originals.yml'
   workflow_dispatch:
