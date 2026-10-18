@@ -81,18 +81,19 @@
       "type": "source_temporal_qualified_federal_funds_control_reconciliation",
       "title": "Treasury FY2025 exact net outlays and OMB rounded historical outlays",
       "reconciliation_kind": "exact_cash_to_nearest_million_OMB_rounding",
-      "observed_usd": 200670783364,
+      "observed_usd": null,
       "comparison_usd": 200671000000,
       "source_ids": [
         "SRC-X08-TREASURY-CS2025-CH42",
         "SRC-X06-OMB27-VA"
       ],
       "review_status": "published_account_aggregate_reconcilable_original_Treasury_PDF_custody_missing",
-      "explanation": "Original INC-07 Treasury exact account subtotal $200,670,783,364.35 rounds to $200,671 million. Integer USD value in this record truncates cents; see previous canonical cents.",
+      "explanation": "Treasury FY2025 account subtotal net outlays of $200,670,783,364.35 are expressed only in exact cents; the separately reported OMB FY2025 actual net outlay was rounded to $200,671 million. Original Treasury Chapter 42 PDF raw byte custody remains pending.",
       "individual_payment_proven": false,
       "FMA_TDA_allotment_approved": false,
       "SF133_GTAS_agreement_authenticated": false,
-      "is_published_authority_not_payment": true
+      "is_published_authority_not_payment": true,
+      "treasury_reported_exact_net_outlays_cents": 20067078336435
     },
     {
       "id": "X08-REC-VA-SF133-GTAS",
