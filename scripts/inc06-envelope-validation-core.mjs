@@ -1,6 +1,6 @@
 // Enforces the JSON Schema 2020-12 subset used by INC-06; unsupported keywords are
 // errors, not silently ignored. No external runtime dependency required.
-const K=new Set(["$schema","title","description","type","required","properties","items","minItems","maxItems","uniqueItems","const","pattern","additionalProperties","allOf","if","then","else"]);
+const K=new Set(["$schema","title","description","type","required","properties","items","minItems","maxItems","uniqueItems","const","pattern","minLength","additionalProperties","allOf","if","then","else"]);
 export const families=["sources","enactments","accounts","actors","programs","controls","metrics","outcomes","gaps","relationships","traces"];
 const isObject=v=>typeof v==="object"&&v!==null&&!Array.isArray(v);
 function inspect(schema,value,path,errors,structure=false){
@@ -15,6 +15,7 @@ function inspect(schema,value,path,errors,structure=false){
  }
  if(Object.hasOwn(schema,"const")&&JSON.stringify(schema.const)!==JSON.stringify(value))errors.push(path+": const mismatch");
  if(schema.pattern&&!(new RegExp(schema.pattern,"u")).test(value))errors.push(path+": required pattern mismatch");
+ if(schema.minLength!==undefined&&typeof value==="string"&&value.length<schema.minLength)errors.push(path+": string shorter than schema");
  if(isObject(value)){
   for(const key of schema.required||[])if(!Object.hasOwn(value,key))errors.push(path+"."+key+": missing required property");
   if(schema.additionalProperties===false)for(const key of Object.keys(value))if(!Object.hasOwn(schema.properties||{},key))errors.push(path+"."+key+": disallowed additional property");
