@@ -103,7 +103,7 @@ export function validateX08({manifest,collections,originalBytes=new Map(),ancest
     !obj.ScheduleData.every(v=>v.CgacAgency==="036"&&v.CgacAcct==="0102"&&
       v.AvailabilityTypeCode==="X"&&v.Iteration===String(iteration)))
    f("wrong official original file identity, account or timestamp "+id);
-  const line=n=>obj.ScheduleData.filter(x=>x.LineNumber===String(n)&&x.LineSplit==="");
+  const line=n=>obj.ScheduleData.filter(x=>x.LineNumber===String(n)&&x.LineSplit===(n===1000?"A":""));
   const get=n=>{const v=line(n);if(v.length!==1||!Number.isSafeInteger(v[0].ApprovedAmount)){f("missing original OMB schedule line "+id+"/"+n);return null}return v[0].ApprovedAmount;};
   if(get(6190)!==total||get(6011)!==annual||get(1270)!==182310515000||get(1920)!==total)
    f("original OMB source line 6190, 6011, 1270 or 1920 was falsified "+id);
