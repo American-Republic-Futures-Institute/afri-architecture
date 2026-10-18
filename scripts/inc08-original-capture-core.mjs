@@ -25,11 +25,11 @@ const valid=({url,host,pattern})=>{
 export function officialOmbLink(indexHtml,expected){
  if(typeof indexHtml!=="string"||indexHtml.length>2500000||!indexHtml.includes("036-0102")||
     !indexHtml.includes("2025"))reject("secondary locator missing expected account and fiscal year");
- const links=[...indexHtml.matchAll(/href\\s*=\\s*["']([^"']+)["']/g)].map(v=>v[1].replace(/&amp;/g,"&"));
+ const links=[...indexHtml.matchAll(/href\s*=\s*["']([^"']+)["']/g)].map(v=>v[1].replace(/&amp;/g,"&"));
  const approved=links.flatMap(link=>{
   try{
-   const u=valid({url:link,host:"apportionment-public.max.gov",pattern:/^\\/Fiscal Year 2025\\/Department of Veterans Affairs\\/JSON\\/FY2025_Agency=VA_Bureau=BP_TAFS=036-X-0102_Iteration=[1-4]_\\d{4}-\\d{2}-\\d{2}-[\\d.]+\\.json$/});
-   const m=decodeURIComponent(u.pathname).match(/_Iteration=(\\d)_([0-9]{4}-[0-9]{2}-[0-9]{2})-/);
+   const u=valid({url:link,host:"apportionment-public.max.gov",pattern:/^\/Fiscal Year 2025\/Department of Veterans Affairs\/JSON\/FY2025_Agency=VA_Bureau=BP_TAFS=036-X-0102_Iteration=[1-4]_\d{4}-\d{2}-\d{2}-[\d.]+\.json$/});
+   const m=decodeURIComponent(u.pathname).match(/_Iteration=(\d)_([0-9]{4}-[0-9]{2}-[0-9]{2})-/);
    return Number(m?.[1])===expected.iteration&&m?.[2]===expected.date?[u.href]:[];
   }catch{return [];}
  });
@@ -69,9 +69,9 @@ export async function captureX08(output,{fetcher=fetch,now=()=>new Date().toISOS
   const expectedHost=kind==="json"?"apportionment-public.max.gov":
    id==="SRC-X08-TREASURY-CS2025-CH42"?"fiscal.treasury.gov":"department.va.gov";
   try{
-   valid({url,host:expectedHost,pattern:kind==="json"?/^\\/Fiscal Year 2025\\/Department of Veterans Affairs\\/JSON\\/FY2025_Agency=VA_Bureau=BP_TAFS=036-X-0102_Iteration=[1-4]_\\d{4}-\\d{2}-\\d{2}-[\\d.]+\\.json$/:
-     kind==="pdf"?/^\\/files\\/reports-statements\\/combined-statement\\/cs2025\\/c42\\.pdf$/:
-     /^\\/financial-policy-documents\\/financial-document\\/chapter-(?:03-va-funds-control|02-vas-budget-cycle-and-fund-symbols)\\/$/});
+   valid({url,host:expectedHost,pattern:kind==="json"?/^\/Fiscal Year 2025\/Department of Veterans Affairs\/JSON\/FY2025_Agency=VA_Bureau=BP_TAFS=036-X-0102_Iteration=[1-4]_\d{4}-\d{2}-\d{2}-[\d.]+\.json$/:
+     kind==="pdf"?/^\/files\/reports-statements\/combined-statement\/cs2025\/c42\.pdf$/:
+     /^\/financial-policy-documents\/financial-document\/chapter-(?:03-va-funds-control|02-vas-budget-cycle-and-fund-symbols)\/$/});
    const {bytes,status,contentType,lastModified}=await byteFetch(url,{fetcher,kind,maxBytes});
    const digest=sha256(bytes),relative=artifactPath(digest),destination=path.join(output,relative);
    await fs.mkdir(path.dirname(destination),{recursive:true});
@@ -93,7 +93,7 @@ export async function captureX08(output,{fetcher=fetch,now=()=>new Date().toISOS
  for(const target of APPROVALS){
   const indexUrl="https://openomb.org/file/"+target.id;
   try{
-   valid({url:indexUrl,host:"openomb.org",pattern:/^\\/file\\/\\d{8}$/});
+   valid({url:indexUrl,host:"openomb.org",pattern:/^\/file\/\d{8}$/});
    const {bytes}=await byteFetch(indexUrl,{fetcher,kind:"html",maxBytes:2200000});
    const original=officialOmbLink(bytes.toString("utf8"),target);
    await take({id:"SRC-X08-OMB-"+target.id,url:original,kind:"json",maxBytes:8388608,
