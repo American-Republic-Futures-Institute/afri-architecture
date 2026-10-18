@@ -185,3 +185,7 @@ Seven nondelegating constitutional competency crosswalks link the existing U.S. 
 ## Operational source custody and VA legal research — Increment 04F
 
 [11-source original-byte preservation and governed archival handoff](docs/ARFI-OPERATIONAL-EVIDENCE-CUSTODY-04F.md) and [VA first-level candidate reconciliation and legal dockets](docs/VA-FIRST-LEVEL-CANDIDATE-RECONCILIATION-04F.md) add five strictly source-pinned research collections, an 11-original SHA-256 replay/staging workflow with an **unsigned temporary** artifact, and read-only S3 primary/replica and CloudTrail audit prequalification. **No institutional root key, lawful retention vote, WORM archive, independent legal opinion, VA ADL-1 qualification or public website publication is claimed.** The original two missing publisher sources (HHS chart and CBCA webpage) remain explicitly unavailable.
+
+## INC-09 — FY2025 VA File A public account execution evidence
+
+[Official File A original-byte custody, account reporting and unresolved signed agency controls](docs/VA-FY2025-FILEA-EXECUTION-EVIDENCE-INC09.md) preserves the Treasury-generated FY2025 period-12 `036-0102` account ZIP and original two-row CSV, independent public account/agency certification metadata, original-source SHA-256 checks and fiscal source-temporal reconciliations. **A government-published File A is not a signed SF-133, original agency GTAS trial balance, VA FMA/TDA, verified individual payment or ratified WORM archival custody.**

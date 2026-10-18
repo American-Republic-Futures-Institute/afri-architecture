@@ -1,0 +1,26 @@
+name: INC09 bounded federal account evidence reconnaissance
+on:
+  pull_request:
+    paths:
+      - 'scripts/inc09-probe-public-account.mjs'
+      - '.github/workflows/inc09-source-recon.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe-fy2025:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch only three official VA FY2025 federal account metadata endpoints
+        run: node scripts/inc09-probe-public-account.mjs "$RUNNER_TEMP/inc09-accounts"
+      - name: Retain unsigned raw responses for independent inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: arfi-inc09-public-account-discovery-UNSIGNED
+          path: ${{ runner.temp }}/inc09-accounts
+          retention-days: 90

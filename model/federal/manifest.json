@@ -217,7 +217,14 @@
     "model/federal/x08-reconciliations.json",
     "model/federal/x08-gaps.json",
     "model/federal/x08-relationships.json",
-    "model/federal/x08-traces.json"
+    "model/federal/x08-traces.json",
+    "model/federal/x09-sources.json",
+    "model/federal/x09-file-a-rows.json",
+    "model/federal/x09-reconciliations.json",
+    "model/federal/x09-controls.json",
+    "model/federal/x09-gaps.json",
+    "model/federal/x09-relationships.json",
+    "model/federal/x09-traces.json"
   ],
   "standards": [
     {
@@ -764,5 +771,32 @@
     "mandatory_unresolved_gaps": 7,
     "temporary_OMB_capture_artifact_id": 12142155167,
     "temporary_archive_expires_on": "2027-01-16T15:40:05Z"
+  },
+  "federal_va_account_reporting_09_extension": {
+    "id": "ARFI-FED-X09-VA-COMP-PENSIONS-FY2025-FILEA",
+    "model_version": "0.1.0",
+    "parent_trace_id": "X08-TRACE-VA-2025-0102",
+    "evidence_class": "Treasury_USAspending_agency_File_A_account_balances_public_original",
+    "fiscal_year": 2025,
+    "fiscal_period": 12,
+    "federal_account": "036-0102",
+    "original_TAS_FileA_issuer_ZIP_byte_verified": true,
+    "original_TAS_FileA_CSV_member_byte_verified": true,
+    "account_API_report_original_verified": true,
+    "agency_period_certification_history_preserved": true,
+    "FileA_independent_original_signer_signature_verified": false,
+    "original_VA_signed_SF133_captured": false,
+    "original_raw_agency_GTAS_captured": false,
+    "actual_signed_VA_FMA_TDA_captured": false,
+    "agency_AAWS_iFAMS_evidence_captured": false,
+    "individual_payment_transaction_verified": false,
+    "account_gross_to_net_reconciliation_qualified": false,
+    "source_account_vintage_comparison_independently_reviewed": false,
+    "institutionally_approved_immutable_source_custody": false,
+    "legal_and_finance_review_complete": false,
+    "mandatory_evidence_gaps": 8,
+    "official_FileA_zip_sha256": "3ce45767c959f1d3575fc073c47c6a712888fb689b4d39ddbf8fa81f5a7febe0",
+    "official_FileA_csv_sha256": "e7f8508491ea56275aceda89e5d91f9c6466ac13d251ec0b86c21294cc1b8a2a",
+    "official_FileA_issuer_artifact_workflow_run": 39146963169
   }
 }

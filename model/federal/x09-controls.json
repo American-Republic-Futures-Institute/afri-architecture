@@ -1,0 +1,90 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc09-controls",
+  "items": [
+    {
+      "id": "X09-CTRL-VA-ALLOTMENT",
+      "type": "operational_authority_and_source_attestation_control",
+      "title": "VA account-specific signed FY2025 FMA/TDA and allotments",
+      "required_instrument_type": "signed_account_specific_VA_FMA_TDA",
+      "fiscal_year": 2025,
+      "agency": "036",
+      "main_account": "0102",
+      "specific_original_acquired": false,
+      "individual_signed_delegation_verified": false,
+      "independent_human_finance_review_complete": false,
+      "source_report_may_substitute_for_signed_instrument": false,
+      "validation_status": "missing_actual_signed_original"
+    },
+    {
+      "id": "X09-CTRL-VA-AAWS",
+      "type": "operational_authority_and_source_attestation_control",
+      "title": "VA period-12 actual AAWS/iFAMS distributions and ledger postings",
+      "required_instrument_type": "agency_AAWS_iFAMS_account_level_posting_original",
+      "fiscal_year": 2025,
+      "agency": "036",
+      "main_account": "0102",
+      "specific_original_acquired": false,
+      "individual_signed_delegation_verified": false,
+      "independent_human_finance_review_complete": false,
+      "source_report_may_substitute_for_signed_instrument": false,
+      "validation_status": "missing_actual_signed_original"
+    },
+    {
+      "id": "X09-CTRL-SF133",
+      "type": "operational_authority_and_source_attestation_control",
+      "title": "FY2025 VA account-specific report on budget execution SF-133 original",
+      "required_instrument_type": "agency_fiscal_year_2025_SF133_signed_report",
+      "fiscal_year": 2025,
+      "agency": "036",
+      "main_account": "0102",
+      "specific_original_acquired": false,
+      "individual_signed_delegation_verified": false,
+      "independent_human_finance_review_complete": false,
+      "source_report_may_substitute_for_signed_instrument": false,
+      "validation_status": "missing_actual_signed_original"
+    },
+    {
+      "id": "X09-CTRL-GTAS",
+      "type": "operational_authority_and_source_attestation_control",
+      "title": "FY2025 agency-origin GTAS original adjusted trial balance",
+      "required_instrument_type": "agency_GTAS_original_submission_and_certified_reconciliation",
+      "fiscal_year": 2025,
+      "agency": "036",
+      "main_account": "0102",
+      "specific_original_acquired": false,
+      "individual_signed_delegation_verified": false,
+      "independent_human_finance_review_complete": false,
+      "source_report_may_substitute_for_signed_instrument": false,
+      "validation_status": "missing_actual_signed_original"
+    },
+    {
+      "id": "X09-CTRL-NETTING",
+      "type": "operational_authority_and_source_attestation_control",
+      "title": "Treasury net/gross complete source-level budgetary cash bridge",
+      "required_instrument_type": "source_qualified_offsetting_collections_netting_ledger",
+      "fiscal_year": 2025,
+      "agency": "036",
+      "main_account": "0102",
+      "specific_original_acquired": false,
+      "individual_signed_delegation_verified": false,
+      "independent_human_finance_review_complete": false,
+      "source_report_may_substitute_for_signed_instrument": false,
+      "validation_status": "missing_actual_signed_original"
+    },
+    {
+      "id": "X09-CTRL-PAYMENT",
+      "type": "operational_authority_and_source_attestation_control",
+      "title": "Beneficiary-level obligation and authorized Treasury disbursement",
+      "required_instrument_type": "individual_legally_authorized_obligation_and_payment",
+      "fiscal_year": 2025,
+      "agency": "036",
+      "main_account": "0102",
+      "specific_original_acquired": false,
+      "individual_signed_delegation_verified": false,
+      "independent_human_finance_review_complete": false,
+      "source_report_may_substitute_for_signed_instrument": false,
+      "validation_status": "missing_actual_signed_original"
+    }
+  ]
+}

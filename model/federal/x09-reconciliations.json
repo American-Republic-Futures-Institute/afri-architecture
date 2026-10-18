@@ -1,0 +1,237 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc09-reconciliations",
+  "items": [
+    {
+      "id": "X09-REC-FILEA-RESOURCE-IDENTITY",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "Original no-year File A source resources = beginning + adjustments + appropriation",
+      "reconciliation_kind": "within_original_File_A_account_row_arithmetic",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "amounts_cents": {
+        "opening": 440868818073,
+        "adjustments": 87876024853,
+        "appropriations": 21255257900000,
+        "source_total": 21784002742926
+      },
+      "explanation": "Beginning unobligated funds + adjustments to brought-forward balance + budget authority appropriated equals total available resources for FY2025 P12.",
+      "review_status": "exact_arithmetic_verified_from_original_cents",
+      "unresolved_qualification_gate_ids": [],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    },
+    {
+      "id": "X09-REC-FILEA-OBLIGATION-IDENTITY",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "Original File A total resources = obligations incurred + unobligated remainder",
+      "reconciliation_kind": "within_original_File_A_account_row_arithmetic",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "amounts_cents": {
+        "resources": 21784002742926,
+        "obligations": 20314422669736,
+        "unobligated": 1469580073190
+      },
+      "explanation": "These File A sums are direct whole-account reporting measures; not evidence of an authorized allotment or individual legal obligation.",
+      "review_status": "exact_arithmetic_verified_from_original_cents",
+      "unresolved_qualification_gate_ids": [],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    },
+    {
+      "id": "X09-REC-ACCOUNT-SNAPSHOT-MATCH",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "Independent government File A versus official federal account FY2025 snapshot",
+      "reconciliation_kind": "same_publisher_account_snapshot_crosscheck",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X09-TREASURY-SNAPSHOT"
+      ],
+      "amounts_cents": {
+        "resources": 21784002742926,
+        "obligations": 20314422669736,
+        "unobligated": 1469580073190,
+        "gross_outlay": 20151035530281
+      },
+      "explanation": "Treasury's public FY2025 federal-account API returns the same four numeric measures as the File A no-year record. Both may be generated from the same agency submission; independence of underlying source is not claimed.",
+      "review_status": "same_publisher_reproduction_verified_not_independent_primary_GTAS",
+      "unresolved_qualification_gate_ids": [],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    },
+    {
+      "id": "X09-REC-OMB-APRIL-PLAN-BRIDGE",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "OMB April 2025 apportionment resource plan versus subsequently revised FY2025 File A",
+      "reconciliation_kind": "dated_planned_vs_reported_resource_component_arithmetic",
+      "source_ids": [
+        "SRC-X08-OMB-11424792",
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "amounts_cents": {
+        "OMB_approved_plan_resources": 21864126718100,
+        "FileA_reported_resources": 21784002742926,
+        "total_difference": 80123975174,
+        "OMB_anticipated_prior_recoveries": 168000000000,
+        "FileA_reported_prior_recoveries": 87876024853,
+        "estimated_vs_reported_recoveries_difference": 80123975147,
+        "OMB_rounded_opening_balance": 440868818100,
+        "FileA_reported_opening_balance": 440868818073,
+        "opening_precision_difference": 27,
+        "appropriations_both": 21255257900000
+      },
+      "explanation": "Numeric bridge: $801,239,751.47 difference between April anticipated recovery categories and later File A reported adjustments, plus $0.27 opening precision difference, equals $801,239,751.74 total resource difference. These classes and dates cannot be independently declared legally equivalent.",
+      "review_status": "arithmetic_bridge_confirmed_comparability_and_instrument_signoff_unqualified",
+      "unresolved_qualification_gate_ids": [
+        "X09-GAP-SF133-GTAS",
+        "X09-GAP-INDEPENDENT-REVIEW"
+      ],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    },
+    {
+      "id": "X09-REC-OBLIGATIONS-OMB-ROUNDED",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "File A FY2025 obligations versus OMB later published rounded obligations",
+      "reconciliation_kind": "original_fileA_obligations_to_OMB_nearest_million_report",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X06-OMB27-VA"
+      ],
+      "amounts_cents": {
+        "FileA_obligations": 20314422669736,
+        "OMB_published_rounded_obligations": 20314400000000,
+        "absolute_difference": 22669736,
+        "tolerance_nearest_million": 50000000
+      },
+      "explanation": "File A obligations incurred $203,144,226,697.36 round to OMB $203,144 million; this is agreement between published aggregates, not signed individual obligation vouchers.",
+      "review_status": "rounded_OMB_account_aggregate_numerically_consistent",
+      "unresolved_qualification_gate_ids": [],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    },
+    {
+      "id": "X09-REC-GROSS-OUTLAY-OMB-ROUNDED",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "File A FY2025 gross outlays versus OMB later published rounded gross outlays",
+      "reconciliation_kind": "original_fileA_gross_outlay_to_OMB_nearest_million_report",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X06-OMB27-VA"
+      ],
+      "amounts_cents": {
+        "FileA_gross_outlays": 20151035530281,
+        "OMB_published_rounded_gross_outlays": 20151000000000,
+        "absolute_difference": 35530281,
+        "tolerance_nearest_million": 50000000
+      },
+      "explanation": "File A gross outlays $201,510,355,302.81 round to OMB $201,510 million; this is not Treasury Combined Statement net cash or a specific beneficiary payment.",
+      "review_status": "rounded_OMB_account_aggregate_numerically_consistent",
+      "unresolved_qualification_gate_ids": [],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    },
+    {
+      "id": "X09-REC-GROSS-VS-NET-UNRECONCILED",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "File A gross outlays and Treasury Combined Statement net cash are distinct reporting bases",
+      "reconciliation_kind": "cross_source_gross_outlay_vs_Treasury_net_aggregates_not_source_level_netting_proof",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X08-TREASURY-CS2025-CH42",
+        "SRC-X06-OMB27-VA"
+      ],
+      "amounts_cents": {
+        "FileA_gross_outlays": 20151035530281,
+        "Treasury_combined_subtotal_net_outlays": 20067078336435,
+        "gross_minus_net_difference": 83957193846,
+        "OMB_rounded_net_outlays": 20067100000000,
+        "OMB_rounded_offsetting_collections": 83900000000
+      },
+      "explanation": "File A publishes gross, Treasury Combined Statement publishes net. Their difference is $839,571,938.46; the earlier OMB $839 million offset amount is a separately rounded/date-bound source. Original account-specific offsetting collections/netting bridge and signed ledger remain unresolved.",
+      "review_status": "numerical_difference_observed_but_comparability_accounting_adjustments_unqualified",
+      "unresolved_qualification_gate_ids": [
+        "X09-GAP-NETTING-LEDGER",
+        "X09-GAP-SF133-GTAS"
+      ],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    },
+    {
+      "id": "X09-REC-LEGACY2020-SAME-MAGNITUDE",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "Legacy FY2020 File A prior-year recovery compared with Treasury negative net outlay",
+      "reconciliation_kind": "historical_component_comparable_amount_distinct_accounting_basis",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X08-TREASURY-CS2025-CH42"
+      ],
+      "amounts_cents": {
+        "FileA_legacy_prior_year_recoveries": 2440000000,
+        "Treasury_legacy_net_outlays": -2440000000,
+        "FileA_legacy_gross_outlays": 0
+      },
+      "explanation": "Same $24.4 million magnitude in separately published components is not evidence of a single funds-transfer transaction or exact accounting equivalence.",
+      "review_status": "same_magnitude_source_observation_not_causal_transaction_link",
+      "unresolved_qualification_gate_ids": [
+        "X09-GAP-SF133-GTAS"
+      ],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    },
+    {
+      "id": "X09-REC-OMB-RESOURCES-ROUNDED-DIVERGENCE",
+      "type": "evidence_class_qualified_fiscal_report_reconciliation",
+      "title": "File A available resources versus prior OMB rounded actual-resource figure",
+      "reconciliation_kind": "later_revised_fileA_available_resources_vs_earlier_OMB_historical_account_estimate",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X06-OMB27-VA"
+      ],
+      "amounts_cents": {
+        "FileA_reported_resources": 21784002742926,
+        "OMB_rounded_resources": 21784100000000,
+        "difference": 97257074,
+        "tolerance_nearest_million": 50000000
+      },
+      "explanation": "The $972,570.74 difference exceeds simple nearest-million rounding tolerance. Later File A row modification (2026-05-15), accounting scope and OMB publication vintage need independent reconciliation; not an allegation of funding loss.",
+      "review_status": "unresolved_vintage_or_reporting_scope_difference_not_fraud_inference",
+      "unresolved_qualification_gate_ids": [
+        "X09-GAP-SF133-GTAS",
+        "X09-GAP-INDEPENDENT-REVIEW"
+      ],
+      "allegation_of_missing_or_illegal_spending": false,
+      "SF133_GTAS_original_matched": false,
+      "signed_VA_allotment_authenticated": false,
+      "individual_payment_proven": false,
+      "independent_source_financial_citator_qualified": false
+    }
+  ]
+}

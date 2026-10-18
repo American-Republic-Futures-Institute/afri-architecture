@@ -1,0 +1,166 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc09-traces",
+  "items": [
+    {
+      "id": "X09-TRACE-VA-FY2025-0102",
+      "type": "federal_execution_account_reporting_and_qualified_authority_lineage",
+      "title": "VA Compensation and Pensions — real FY2025 File A execution account report to unresolved signed VA controls",
+      "parent_trace_id": "X08-TRACE-VA-2025-0102",
+      "fiscal_year": 2025,
+      "fiscal_period": 12,
+      "account": "036-0102",
+      "source_report_date": "2025-09-30",
+      "original_FileA_last_modified": "2026-05-15",
+      "original_Treasury_FileA_ZIP_and_CSV_sha_verified": true,
+      "agency_period_certification_history_recorded": true,
+      "file_specific_certifying_official_signature_verified": false,
+      "government_original_SF133_received": false,
+      "agency_original_GTAS_received": false,
+      "actual_VA_signed_FMA_TDA_received": false,
+      "actual_AAWS_iFAMS_received": false,
+      "specific_beneficiary_payment_authenticated": false,
+      "source_level_net_gross_ledger_reconciled": false,
+      "institutional_immutable_custody_approved": false,
+      "independent_qualified_financial_review_completed": false,
+      "source_id_chain": [
+        "SRC-X09-TREASURY-FILEA-ZIP",
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X09-TREASURY-SNAPSHOT",
+        "SRC-X09-TREASURY-SUBMISSION-HISTORY"
+      ],
+      "row_ids": [
+        "X09-FILEA-VA-2025-NOYEAR",
+        "X09-FILEA-VA-2025-LEGACY2020"
+      ],
+      "reconciliation_ids": [
+        "X09-REC-FILEA-RESOURCE-IDENTITY",
+        "X09-REC-FILEA-OBLIGATION-IDENTITY",
+        "X09-REC-ACCOUNT-SNAPSHOT-MATCH",
+        "X09-REC-OMB-APRIL-PLAN-BRIDGE",
+        "X09-REC-OBLIGATIONS-OMB-ROUNDED",
+        "X09-REC-GROSS-OUTLAY-OMB-ROUNDED",
+        "X09-REC-GROSS-VS-NET-UNRECONCILED",
+        "X09-REC-LEGACY2020-SAME-MAGNITUDE",
+        "X09-REC-OMB-RESOURCES-ROUNDED-DIVERGENCE"
+      ],
+      "relationship_ids": [
+        "X09-REL-01",
+        "X09-REL-02",
+        "X09-REL-03",
+        "X09-REL-04",
+        "X09-REL-05",
+        "X09-REL-06",
+        "X09-REL-07",
+        "X09-REL-08",
+        "X09-REL-09",
+        "X09-REL-10",
+        "X09-REL-11",
+        "X09-REL-12",
+        "X09-REL-13",
+        "X09-REL-14",
+        "X09-REL-15",
+        "X09-REL-16",
+        "X09-REL-17",
+        "X09-REL-18"
+      ],
+      "mandatory_open_gap_ids": [
+        "X09-GAP-VA-FMA-TDA",
+        "X09-GAP-AAWS-IFAMS",
+        "X09-GAP-SF133-GTAS",
+        "X09-GAP-NETTING-LEDGER",
+        "X09-GAP-INDIVIDUAL-PAYMENT",
+        "X09-GAP-FILEA-SIGNER",
+        "X09-GAP-INDEPENDENT-REVIEW",
+        "X09-GAP-INSTITUTIONAL-WORM"
+      ],
+      "stages": [
+        {
+          "id": "legal_and_fiscal_baseline",
+          "title": "01 / Enacted authority, account and OMB original plan",
+          "record_ids": [
+            "CONST-US-ART-01-SEC-09-CL-07",
+            "X06-ACCOUNT-VA-0102",
+            "X08-OMB-REV-04",
+            "X08-TRACE-VA-2025-0102",
+            "X07-EXEC-2025-SUBTOTAL",
+            "X07-EXEC-2025-LEGACY2020"
+          ],
+          "note": "Constitutional oversight, enacted appropriation and OMB approved-plan sources are not an individual VA account allotment."
+        },
+        {
+          "id": "account_original_custody",
+          "title": "02 / Government-published USAspending File A and independent byte receipts",
+          "record_ids": [
+            "SRC-X09-TREASURY-FILEA-ZIP",
+            "SRC-X09-TREASURY-FILEA-CSV",
+            "SRC-X09-TREASURY-SNAPSHOT",
+            "SRC-X09-TREASURY-SUBMISSION-HISTORY"
+          ],
+          "note": "Government ZIP, embedded exact File A CSV, fiscal-account API response and agency-level publication history are SHA-256 preserved in Git; not institutionally protected WORM."
+        },
+        {
+          "id": "treasury_account_balances",
+          "title": "03 / No-year and FY2020 components of FY2025 P12 File A",
+          "record_ids": [
+            "X09-FILEA-VA-2025-NOYEAR",
+            "X09-FILEA-VA-2025-LEGACY2020"
+          ],
+          "note": "Two real public agency File A TAS records reported with last-modified date May 15, 2026; no conflation of no-year and expired components."
+        },
+        {
+          "id": "resources_and_obligations",
+          "title": "04 / Source-exact resource, incurred obligations and remaining balance",
+          "record_ids": [
+            "X09-REC-FILEA-RESOURCE-IDENTITY",
+            "X09-REC-FILEA-OBLIGATION-IDENTITY",
+            "X09-REC-ACCOUNT-SNAPSHOT-MATCH"
+          ],
+          "note": "File A resource and obligation arithmetic are recomputed directly from source original cents, not inferred from budgets."
+        },
+        {
+          "id": "apportionment_cash_comparisons",
+          "title": "05 / Approved-plan-to-reported and gross-to-net source-class comparisons",
+          "record_ids": [
+            "X09-REC-OMB-APRIL-PLAN-BRIDGE",
+            "X09-REC-OBLIGATIONS-OMB-ROUNDED",
+            "X09-REC-GROSS-OUTLAY-OMB-ROUNDED",
+            "X09-REC-GROSS-VS-NET-UNRECONCILED",
+            "X09-REC-LEGACY2020-SAME-MAGNITUDE",
+            "X09-REC-OMB-RESOURCES-ROUNDED-DIVERGENCE"
+          ],
+          "note": "Revised actual reporting may differ from OMB April plan and earlier historical Treasury cash; nonidentical concepts explicitly unresolved."
+        },
+        {
+          "id": "execution_control_requirements",
+          "title": "06 / Specific VA allotment, SF-133, GTAS, AAWS and payment evidence",
+          "record_ids": [
+            "X09-CTRL-VA-ALLOTMENT",
+            "X09-CTRL-VA-AAWS",
+            "X09-CTRL-SF133",
+            "X09-CTRL-GTAS",
+            "X09-CTRL-NETTING",
+            "X09-CTRL-PAYMENT"
+          ],
+          "note": "No signed FMA/TDA, original SF-133/GTAS, approved AAWS or beneficiary-level payment has been obtained."
+        },
+        {
+          "id": "qualification_gates",
+          "title": "07 / Outstanding signed-document, reconciliation and permanent custody evidence",
+          "record_ids": [
+            "X09-GAP-VA-FMA-TDA",
+            "X09-GAP-AAWS-IFAMS",
+            "X09-GAP-SF133-GTAS",
+            "X09-GAP-NETTING-LEDGER",
+            "X09-GAP-INDIVIDUAL-PAYMENT",
+            "X09-GAP-FILEA-SIGNER",
+            "X09-GAP-INDEPENDENT-REVIEW",
+            "X09-GAP-INSTITUTIONAL-WORM"
+          ],
+          "note": "Account report capture does not waive legal, agency control, raw GTAS, signed payment or institutional archiving requirements."
+        }
+      ],
+      "review_status": "source_verified_Treasury_FileA_execution_aggregate_not_signed_legal_or_transaction_proof"
+    }
+  ]
+}

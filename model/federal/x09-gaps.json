@@ -1,0 +1,110 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc09-gaps",
+  "items": [
+    {
+      "id": "X09-GAP-VA-FMA-TDA",
+      "type": "mandatory_unresolved_federal_execution_or_document_custody_gate",
+      "title": "Signed VA original FMA/TDA allotment not captured",
+      "source_original_sha256": null,
+      "verified": false,
+      "official_authenticating_signature": null,
+      "specific_reviewing_officer": null,
+      "specific_reporting_period_of_instrument": null,
+      "external_immutable_primary_replica_version_ids": null,
+      "independent_approval_date": null,
+      "review_status": "not_qualified_missing_independent_original_or_governance"
+    },
+    {
+      "id": "X09-GAP-AAWS-IFAMS",
+      "type": "mandatory_unresolved_federal_execution_or_document_custody_gate",
+      "title": "VA actual AAWS/iFAMS FY2025 account posting not captured",
+      "source_original_sha256": null,
+      "verified": false,
+      "official_authenticating_signature": null,
+      "specific_reviewing_officer": null,
+      "specific_reporting_period_of_instrument": null,
+      "external_immutable_primary_replica_version_ids": null,
+      "independent_approval_date": null,
+      "review_status": "not_qualified_missing_independent_original_or_governance"
+    },
+    {
+      "id": "X09-GAP-SF133-GTAS",
+      "type": "mandatory_unresolved_federal_execution_or_document_custody_gate",
+      "title": "VA account-specific original SF-133 and raw GTAS source not captured",
+      "source_original_sha256": null,
+      "verified": false,
+      "official_authenticating_signature": null,
+      "specific_reviewing_officer": null,
+      "specific_reporting_period_of_instrument": null,
+      "external_immutable_primary_replica_version_ids": null,
+      "independent_approval_date": null,
+      "review_status": "not_qualified_missing_independent_original_or_governance"
+    },
+    {
+      "id": "X09-GAP-NETTING-LEDGER",
+      "type": "mandatory_unresolved_federal_execution_or_document_custody_gate",
+      "title": "Gross-to-net original offsetting collections/accounting crosswalk not fully qualified",
+      "source_original_sha256": null,
+      "verified": false,
+      "official_authenticating_signature": null,
+      "specific_reviewing_officer": null,
+      "specific_reporting_period_of_instrument": null,
+      "external_immutable_primary_replica_version_ids": null,
+      "independent_approval_date": null,
+      "review_status": "not_qualified_missing_independent_original_or_governance"
+    },
+    {
+      "id": "X09-GAP-INDIVIDUAL-PAYMENT",
+      "type": "mandatory_unresolved_federal_execution_or_document_custody_gate",
+      "title": "Specific VA beneficiary payable, obligating official and disbursement unverified",
+      "source_original_sha256": null,
+      "verified": false,
+      "official_authenticating_signature": null,
+      "specific_reviewing_officer": null,
+      "specific_reporting_period_of_instrument": null,
+      "external_immutable_primary_replica_version_ids": null,
+      "independent_approval_date": null,
+      "review_status": "not_qualified_missing_independent_original_or_governance"
+    },
+    {
+      "id": "X09-GAP-FILEA-SIGNER",
+      "type": "mandatory_unresolved_federal_execution_or_document_custody_gate",
+      "title": "File A account-specific original signer/digital attestation not independently authenticated",
+      "source_original_sha256": null,
+      "verified": false,
+      "official_authenticating_signature": null,
+      "specific_reviewing_officer": null,
+      "specific_reporting_period_of_instrument": null,
+      "external_immutable_primary_replica_version_ids": null,
+      "independent_approval_date": null,
+      "review_status": "not_qualified_missing_independent_original_or_governance"
+    },
+    {
+      "id": "X09-GAP-INDEPENDENT-REVIEW",
+      "type": "mandatory_unresolved_federal_execution_or_document_custody_gate",
+      "title": "Qualified independent financial/legal assessment of cross-source comparability unavailable",
+      "source_original_sha256": null,
+      "verified": false,
+      "official_authenticating_signature": null,
+      "specific_reviewing_officer": null,
+      "specific_reporting_period_of_instrument": null,
+      "external_immutable_primary_replica_version_ids": null,
+      "independent_approval_date": null,
+      "review_status": "not_qualified_missing_independent_original_or_governance"
+    },
+    {
+      "id": "X09-GAP-INSTITUTIONAL-WORM",
+      "type": "mandatory_unresolved_federal_execution_or_document_custody_gate",
+      "title": "Ratified ARFI long-term WORM, replication and independent custody approvals absent",
+      "source_original_sha256": null,
+      "verified": false,
+      "official_authenticating_signature": null,
+      "specific_reviewing_officer": null,
+      "specific_reporting_period_of_instrument": null,
+      "external_immutable_primary_replica_version_ids": null,
+      "independent_approval_date": null,
+      "review_status": "not_qualified_missing_independent_original_or_governance"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+name: INC09 public VA File A account-reporting acquisition
+on:
+  pull_request:
+    paths:
+      - 'scripts/inc09-request-file-a.mjs'
+      - '.github/workflows/inc09-file-a-acquisition.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fiscal-account-original:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Read-only retrieval of FY2025 VA TAS File A through Treasury public download API
+        run: node scripts/inc09-request-file-a.mjs "$RUNNER_TEMP/inc09-filea"
+      - name: Validate exact government original ZIP, CSV, VA account rows and export verified source bytes
+        run: |
+          node scripts/inc09-export-original-file-a.mjs "$RUNNER_TEMP/inc09-filea"
+      - name: Record bounded original bytes, hash receipts and explicit unavailable status
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arfi-inc09-va-fy2025-filea-UNSIGNED
+          path: ${{ runner.temp }}/inc09-filea
+          retention-days: 90
