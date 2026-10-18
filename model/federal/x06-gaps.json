@@ -1,0 +1,147 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-gaps",
+  "items": [
+    {
+      "id": "X06-GAP-APPORTIONMENT",
+      "type": "unresolved_required_operational_evidence",
+      "title": "OMB FY2025 apportionment / SF-132 not captured",
+      "summary": "Account resources reported available are not proof of actual apportionment or quarterly release; no certified FY2025 SF-132 has been obtained.",
+      "source_ids": [
+        "SRC-X06-31-1512",
+        "SRC-X06-OMB27-VA"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    },
+    {
+      "id": "X06-GAP-ALLOTMENT",
+      "type": "unresolved_required_operational_evidence",
+      "title": "VA agency allotment and funds-control evidence not captured",
+      "summary": "No specific VA apportionment distribution, allocation/allotment, funds-control official or available-to-obligate amount was obtained.",
+      "source_ids": [
+        "SRC-X06-31-1512"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    },
+    {
+      "id": "X06-GAP-TAS",
+      "type": "unresolved_required_operational_evidence",
+      "title": "Component Treasury Account Symbol and tranche mapping not verified",
+      "summary": "036-0102 is a federal account grouping; no fiscal-year-specific component TAS or tranche-to-TAS provenance demonstrated.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    },
+    {
+      "id": "X06-GAP-OFFICIAL-DELEGATION",
+      "type": "unresolved_required_operational_evidence",
+      "title": "Individual obligating official's signed delegation not verified",
+      "summary": "38 U.S.C. §306 establishes a headship office, not a specific signed authorization for a person or payment event.",
+      "source_ids": [
+        "SRC-X06-38-306"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    },
+    {
+      "id": "X06-GAP-OBLIGATION-RECORD",
+      "type": "unresolved_required_operational_evidence",
+      "title": "Individual FY2025 claim/commitment/obligation documentation not verified",
+      "summary": "OMB 203,144 million is FY2025 account-wide new obligations, not a sampled obligation tied to exact appropriation source.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA",
+        "SRC-X06-38-1110"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    },
+    {
+      "id": "X06-GAP-PAYMENT-EVENT",
+      "type": "unresolved_required_operational_evidence",
+      "title": "Payment authorization, voucher and Treasury disbursement not verified",
+      "summary": "OMB gross/net outlays are aggregate FY2025 measures; no individual signed payment or actual disbursement trace has been obtained.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    },
+    {
+      "id": "X06-GAP-TRANCHE-ATTRIBUTION",
+      "type": "unresolved_required_operational_evidence",
+      "title": "Appropriation-tranche spending allocation not verified",
+      "summary": "FY2025 aggregate obligations/outlays cannot be assigned between P.L. 118-42 and P.L. 119-4 or carried-forward balances based on OMB totals alone.",
+      "source_ids": [
+        "SRC-X06-PL118-42",
+        "SRC-X06-PL119-4",
+        "SRC-X06-OMB27-VA"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    },
+    {
+      "id": "X06-GAP-AUDIT-REMEDY",
+      "type": "unresolved_required_operational_evidence",
+      "title": "Program-specific audit finding and corrective-action linkage incomplete",
+      "summary": "GAO and VA OIG have oversight responsibilities; provided evidence does not trace a particular violation, case, audit recovery or remedy to this FY2025 account.",
+      "source_ids": [
+        "SRC-X06-31-712",
+        "SRC-X06-GAO-2025",
+        "SRC-X06-VA-FINANCE"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    },
+    {
+      "id": "X06-GAP-CASE-ELIGIBILITY",
+      "type": "unresolved_required_operational_evidence",
+      "title": "Case-specific statutory benefit adjudication not verified",
+      "summary": "38 U.S.C. §1110 and other entitlement laws constrain awards; no sampled claims decision, proof of service connection, appeal or recipient record is included.",
+      "source_ids": [
+        "SRC-X06-38-1110"
+      ],
+      "verified": false,
+      "signed_approval_id": null,
+      "resolution_date": null,
+      "original_document_sha256": null,
+      "legal_qualification_status": "not_reviewed",
+      "cannot_infer_authority_from_adjacent_records": true
+    }
+  ]
+}

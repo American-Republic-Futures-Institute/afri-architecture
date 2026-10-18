@@ -186,7 +186,18 @@
     "model/federal/x05-functions.json",
     "model/federal/x05-gates.json",
     "model/federal/x05-relationships.json",
-    "model/federal/x05-traces.json"
+    "model/federal/x05-traces.json",
+    "model/federal/x06-sources.json",
+    "model/federal/x06-enactments.json",
+    "model/federal/x06-accounts.json",
+    "model/federal/x06-actors.json",
+    "model/federal/x06-programs.json",
+    "model/federal/x06-controls.json",
+    "model/federal/x06-metrics.json",
+    "model/federal/x06-outcomes.json",
+    "model/federal/x06-gaps.json",
+    "model/federal/x06-relationships.json",
+    "model/federal/x06-traces.json"
   ],
   "standards": [
     {
@@ -646,5 +657,30 @@
     "enacted_account_specific_appropriation_verified": false,
     "qualified_website_publication": false,
     "scope": "Article I fiscal / Article II civilian Defense / Article III federal question jurisdiction"
+  },
+  "federal_operational_lineage_06_extension": {
+    "id": "ARFI-COA-INC06-FY25-VA-COMP-001",
+    "status": "source_bounded_fy2025_historical_operational_research_unratified",
+    "exemplar_count": 1,
+    "account_count": 1,
+    "public_law_tranche_count": 2,
+    "exact_enacted_budget_authority_usd": 212552579000,
+    "OMB_2025_actual_gross_budget_authority_millions": 212553,
+    "OMB_2025_actual_total_budgetary_resources_millions": 217841,
+    "OMB_2025_actual_new_obligations_millions": 203144,
+    "OMB_2025_actual_gross_outlays_millions": 201510,
+    "OMB_2025_actual_net_outlays_millions": 200671,
+    "new_source_references": 11,
+    "operational_relationships": 32,
+    "unresolved_mandatory_gates": 9,
+    "published_aggregate_money_measures": 9,
+    "release_assessment": "engineering_research_non_operational",
+    "SF132_verified": false,
+    "component_TAS_verified": false,
+    "individual_payment_authorized": false,
+    "law_to_outlay_attribution_verified": false,
+    "human_legal_review_complete": false,
+    "institutional_approval_complete": false,
+    "semantic_boundary": "No agency obligating authority may be inferred from an enactment, OMB account aggregate, organizational name or workload observation."
   }
 }

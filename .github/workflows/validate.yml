@@ -153,6 +153,14 @@ jobs:
         run: node scripts/validate-focused-projections.mjs --validate
       - name: Test focused constitutional views, composed queries and legal-provenance controls
         run: node --test tests/focused-projection.test.mjs
+      - name: Validate INC-06 eleven JSON Schema 2020-12 envelopes
+        run: node scripts/validate-inc06-envelope.mjs
+      - name: Test INC-06 schema structural and conditional provenance enforcement
+        run: node --test tests/inc06-envelope.test.mjs
+      - name: Validate INC-06 FY2025 VA enacted appropriation, fiscal accounts and nine operational evidence gates
+        run: node scripts/validate-inc06-lineage.mjs
+      - name: Test INC-06 appropriation, available/obligated/outlay reconciliation and no-forged-delegation safeguards
+        run: node --test tests/inc06-lineage.test.mjs
       - name: Validate INC-05 constitutional institutional authority trace and mandatory gates
         run: node scripts/validate-inc05-crosswalk.mjs
       - name: Test INC-05 fiscal, Defense, judicial traceability and anti-certification safeguards

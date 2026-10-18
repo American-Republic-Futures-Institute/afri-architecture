@@ -1,0 +1,203 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-metrics",
+  "items": [
+    {
+      "id": "X06-METRIC-ENACTED-FY25",
+      "type": "derived_enacted_law_aggregate",
+      "title": "Enacted FY2025 Compensation and Pensions budget authority — two identified laws",
+      "measure_kind": "enacted_budget_authority_identified_laws",
+      "value_usd": 212552579000,
+      "unit": "USD",
+      "precision": "exact_to_dollar_from_enacted_appropriation_texts",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "enactment_ids": [
+        "X06-APP-PL11842-FY25",
+        "X06-APP-PL1194-FY25"
+      ],
+      "source_ids": [
+        "SRC-X06-PL118-42",
+        "SRC-X06-PL119-4"
+      ],
+      "derivation": "182310515000 + 30242064000",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "arithmetic_derived_appropriation_not_ledger_or_apportionment"
+    },
+    {
+      "id": "X06-METRIC-BA-GROSS",
+      "type": "fiscal_account_reported_measure",
+      "title": "FY2025 gross budget authority — OMB appendix",
+      "measure_kind": "reported_budget_authority_gross",
+      "value_usd": 212553000000,
+      "unit": "USD",
+      "source_value": "212,553 million",
+      "precision": "rounded_to_nearest_million",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "as_of_date": "2025-09-30",
+      "source_published_on": "2026-04-03",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "observation_class": "historical_reported_2025_actual",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "OMB_published_account_aggregate_not_legal_spending_clearing"
+    },
+    {
+      "id": "X06-METRIC-AVAILABLE-RESOURCES",
+      "type": "fiscal_account_reported_measure",
+      "title": "FY2025 total budgetary resources available — OMB appendix",
+      "measure_kind": "reported_total_budgetary_resources_available",
+      "value_usd": 217841000000,
+      "unit": "USD",
+      "source_value": "217,841 million",
+      "precision": "rounded_to_nearest_million",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "as_of_date": "2025-09-30",
+      "source_published_on": "2026-04-03",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "observation_class": "historical_reported_2025_actual",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "OMB_published_account_aggregate_not_legal_spending_clearing",
+      "apportioned_amount_usd": null,
+      "spendable_by_particular_official_asserted": false
+    },
+    {
+      "id": "X06-METRIC-UNOBLIGATED-OPEN",
+      "type": "fiscal_account_reported_measure",
+      "title": "FY2025 total beginning unobligated resources — OMB appendix",
+      "measure_kind": "reported_unobligated_balance_start",
+      "value_usd": 5288000000,
+      "unit": "USD",
+      "source_value": "5,288 million",
+      "precision": "rounded_to_nearest_million",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "as_of_date": "2025-09-30",
+      "source_published_on": "2026-04-03",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "observation_class": "historical_reported_2025_actual",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "OMB_published_account_aggregate_not_legal_spending_clearing"
+    },
+    {
+      "id": "X06-METRIC-OBLIGATIONS",
+      "type": "fiscal_account_reported_measure",
+      "title": "FY2025 new obligations in unexpired accounts — OMB appendix",
+      "measure_kind": "reported_new_obligations",
+      "value_usd": 203144000000,
+      "unit": "USD",
+      "source_value": "203,144 million",
+      "precision": "rounded_to_nearest_million",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "as_of_date": "2025-09-30",
+      "source_published_on": "2026-04-03",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "observation_class": "historical_reported_2025_actual",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "OMB_published_account_aggregate_not_legal_spending_clearing",
+      "specific_commitment_or_agreement_verified": false,
+      "individual_obligating_officer_verified": false
+    },
+    {
+      "id": "X06-METRIC-OUTLAYS-GROSS",
+      "type": "fiscal_account_reported_measure",
+      "title": "FY2025 gross outlays — OMB appendix",
+      "measure_kind": "reported_outlays_gross",
+      "value_usd": 201510000000,
+      "unit": "USD",
+      "source_value": "201,510 million",
+      "precision": "rounded_to_nearest_million",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "as_of_date": "2025-09-30",
+      "source_published_on": "2026-04-03",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "observation_class": "historical_reported_2025_actual",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "OMB_published_account_aggregate_not_legal_spending_clearing",
+      "source_sign_note": "Appendix change in balance displays -201,510; magnitude presented here as positive"
+    },
+    {
+      "id": "X06-METRIC-OFFSETS",
+      "type": "fiscal_account_reported_measure",
+      "title": "FY2025 offsetting collections against gross outlays — OMB appendix",
+      "measure_kind": "reported_offsetting_collections",
+      "value_usd": 839000000,
+      "unit": "USD",
+      "source_value": "839 million",
+      "precision": "rounded_to_nearest_million",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "as_of_date": "2025-09-30",
+      "source_published_on": "2026-04-03",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "observation_class": "historical_reported_2025_actual",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "OMB_published_account_aggregate_not_legal_spending_clearing",
+      "offset_components": "24 million federal + 815 million nonfederal source collections"
+    },
+    {
+      "id": "X06-METRIC-OUTLAYS-NET",
+      "type": "fiscal_account_reported_measure",
+      "title": "FY2025 net outlays — OMB appendix",
+      "measure_kind": "reported_outlays_net",
+      "value_usd": 200671000000,
+      "unit": "USD",
+      "source_value": "200,671 million",
+      "precision": "rounded_to_nearest_million",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "as_of_date": "2025-09-30",
+      "source_published_on": "2026-04-03",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "observation_class": "historical_reported_2025_actual",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "OMB_published_account_aggregate_not_legal_spending_clearing"
+    },
+    {
+      "id": "X06-METRIC-UNOBLIGATED-CLOSE",
+      "type": "fiscal_account_reported_measure",
+      "title": "FY2025 unobligated balance end of year — OMB appendix",
+      "measure_kind": "reported_unobligated_balance_end",
+      "value_usd": 14697000000,
+      "unit": "USD",
+      "source_value": "14,697 million",
+      "precision": "rounded_to_nearest_million",
+      "reported_fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "as_of_date": "2025-09-30",
+      "source_published_on": "2026-04-03",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "observation_class": "historical_reported_2025_actual",
+      "individual_transaction_evidenced": false,
+      "source_account_level_only": true,
+      "review_status": "OMB_published_account_aggregate_not_legal_spending_clearing"
+    }
+  ]
+}

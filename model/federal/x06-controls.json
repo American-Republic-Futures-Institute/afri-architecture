@@ -1,0 +1,89 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-controls",
+  "items": [
+    {
+      "id": "X06-CTRL-PURPOSE",
+      "type": "binding_statutory_fiscal_restriction_context",
+      "title": "Purpose restriction — 31 U.S.C. § 1301",
+      "citation": "31 U.S.C. § 1301",
+      "existing_canonical_statute_id": "X05-LAW-31-1301",
+      "source_ids": [
+        "SRC-X05-31-1301"
+      ],
+      "applies_to_account": "X06-ACCOUNT-VA-0102",
+      "limitation": "Appropriation may be used only for lawful objects; a program description is not independent authority to pay unrelated costs.",
+      "exception_certified": false,
+      "review_status": "general_statutory_limit_only"
+    },
+    {
+      "id": "X06-CTRL-ANTIDEF",
+      "type": "binding_statutory_fiscal_restriction_context",
+      "title": "Antideficiency restriction — 31 U.S.C. § 1341",
+      "citation": "31 U.S.C. § 1341",
+      "existing_canonical_statute_id": "X05-LAW-31-1341",
+      "source_ids": [
+        "SRC-X05-31-1341"
+      ],
+      "applies_to_account": "X06-ACCOUNT-VA-0102",
+      "limitation": "No obligations beyond available funds or prior to an appropriation absent a specific exception; actual agency compliance is unverified.",
+      "exception_certified": false,
+      "review_status": "general_statutory_limit_only"
+    },
+    {
+      "id": "X06-CTRL-DOCUMENTATION",
+      "type": "binding_statutory_fiscal_restriction_context",
+      "title": "Recording obligations — 31 U.S.C. § 1501",
+      "citation": "31 U.S.C. § 1501",
+      "existing_canonical_statute_id": "X05-LAW-31-1501",
+      "source_ids": [
+        "SRC-X05-31-1501"
+      ],
+      "applies_to_account": "X06-ACCOUNT-VA-0102",
+      "limitation": "An actual recorded obligation requires lawful documentary support; no sampled source voucher/claim file obtained.",
+      "exception_certified": false,
+      "review_status": "general_statutory_limit_only"
+    },
+    {
+      "id": "X06-CTRL-APPORTIONMENT",
+      "type": "binding_statutory_fiscal_restriction_context",
+      "title": "Apportionment and reserves — 31 U.S.C. § 1512",
+      "citation": "31 U.S.C. § 1512",
+      "source_ids": [
+        "SRC-X06-31-1512"
+      ],
+      "applies_to_account": "X06-ACCOUNT-VA-0102",
+      "limitation": "Subject to applicable statutory exceptions and apportionment arrangements. No actual FY2025 SF-132, allotment, reserve or quarterly reapportionment verified.",
+      "actual_apportionment_amount_usd": null,
+      "official_form_sf132_verified": false,
+      "review_status": "legal_condition_evidenced_actual_control_document_unresolved"
+    },
+    {
+      "id": "X06-CTRL-FY25-REIMBURSEMENT",
+      "type": "enacted_tranche_specific_funding_proviso",
+      "title": "FY2025 capped reimbursement — P.L. 118-42",
+      "citation": "P.L. 118-42 div. A title II (Compensation and Pensions proviso)",
+      "source_ids": [
+        "SRC-X06-PL118-42"
+      ],
+      "applies_to_tranche_id": "X06-APP-PL11842-FY25",
+      "reimbursement_cap_usd": 22109000,
+      "limitation": "For specified implementation expenses under title 38 chapters 51, 53 and 55 reimbursed to VBA General Operating Expenses or Information Technology Systems; not a blanket cross-account authority.",
+      "actual_reimbursement_amount_usd": null,
+      "review_status": "statutory_proviso_source_qualified_execution_unverified"
+    },
+    {
+      "id": "X06-CTRL-VETERAN-ELIGIBILITY",
+      "type": "benefit_eligibility_statute_context",
+      "title": "Service-connected entitlement conditions — 38 U.S.C. § 1110",
+      "citation": "38 U.S.C. § 1110",
+      "source_ids": [
+        "SRC-X06-38-1110"
+      ],
+      "applies_to_program": "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+      "limitation": "Eligibility and lawful adjudication are individual-specific; §1110 is an exemplar disability-compensation basis, not all Compensation and Pensions activities.",
+      "case_specific_eligibility_verified": false,
+      "review_status": "statutory_eligibility_conditions_research_only"
+    }
+  ]
+}

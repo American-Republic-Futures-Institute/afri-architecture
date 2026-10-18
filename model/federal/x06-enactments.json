@@ -1,0 +1,48 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-enactments",
+  "items": [
+    {
+      "id": "X06-APP-PL11842-FY25",
+      "type": "enacted_account_appropriation_tranche",
+      "title": "Public Law 118-42 — FY2025 Compensation and Pensions advance appropriation",
+      "public_law": "118-42",
+      "enactment_date": "2024-03-09",
+      "fiscal_year_of_availability": 2025,
+      "availability_start": "2024-10-01",
+      "availability_end": null,
+      "availability_kind": "no_year_until_expended",
+      "amount_usd": 182310515000,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "kind_of_appropriation": "advance_appropriation_for_fy2025",
+      "statutory_scope": "Division A Title II Department of Veterans Affairs, VBA Compensation and Pensions",
+      "reimbursement_cap_usd": 22109000,
+      "other_transfers_certified": false,
+      "source_ids": [
+        "SRC-X06-PL118-42"
+      ],
+      "review_status": "enacted_statute_text_reference_no_tas_or_apportionment_verified"
+    },
+    {
+      "id": "X06-APP-PL1194-FY25",
+      "type": "enacted_account_appropriation_tranche",
+      "title": "Public Law 119-4 — FY2025 additional Compensation and Pensions appropriation",
+      "public_law": "119-4",
+      "enactment_date": "2025-03-15",
+      "fiscal_year_of_availability": 2025,
+      "availability_start": "2025-03-15",
+      "availability_end": null,
+      "availability_kind": "no_year_until_expended",
+      "amount_usd": 30242064000,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "kind_of_appropriation": "additional_fy2025_appropriation",
+      "statutory_scope": "Sec. 11110(1), in addition to amounts provided in this or other Acts",
+      "reimbursement_cap_usd": null,
+      "other_transfers_certified": false,
+      "source_ids": [
+        "SRC-X06-PL119-4"
+      ],
+      "review_status": "enacted_statute_text_reference_no_tas_or_apportionment_verified"
+    }
+  ]
+}
