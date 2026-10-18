@@ -1,0 +1,48 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-actors",
+  "items": [
+    {
+      "id": "X06-ACTOR-VBA",
+      "type": "statutory_administration_role_reference",
+      "title": "Veterans Benefits Administration (VBA)",
+      "canonical_department_id": "ORG-FED-EXE-DEP-VA",
+      "historical_candidate_id": "AR04C-VA-ROW-VBA",
+      "source_ids": [
+        "SRC-X06-38-301",
+        "SRC-X06-38-306",
+        "SRC-X06-VA-ORGS"
+      ],
+      "headship_statutory_role_id": "X06-ACTOR-UNDERSEC-BENEFITS",
+      "first_level_adl1_qualified": false,
+      "review_status": "role_sourced_current_chart_and_human_legal_review_pending"
+    },
+    {
+      "id": "X06-ACTOR-UNDERSEC-BENEFITS",
+      "type": "statutory_office_not_named_officeholder",
+      "title": "Under Secretary for Benefits",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "administration_id": "X06-ACTOR-VBA",
+      "source_ids": [
+        "SRC-X06-38-306"
+      ],
+      "headship_role_derived_from": "38 U.S.C. § 306(b)",
+      "nominated_or_confirmed_individual_verified": false,
+      "individual_obligating_delegation_verified": false,
+      "review_status": "statutory_office_verified_individual_authority_not_verified"
+    },
+    {
+      "id": "X06-ACTOR-VA-OIG",
+      "type": "independent_oversight_office_reference",
+      "title": "Department of Veterans Affairs Office of Inspector General",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "prior_uncertified_identity_id": "D04D-INST-OIG",
+      "source_ids": [
+        "SRC-X06-VA-FINANCE"
+      ],
+      "specific_fy2025_account_audit_verified": false,
+      "oversight_role_type": "independent_inspector_general_observed_not_certified_account_audit",
+      "review_status": "institutional_oversight_context_only"
+    }
+  ]
+}

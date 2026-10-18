@@ -1,0 +1,176 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-traces",
+  "items": [
+    {
+      "id": "X06-TRACE-VA-2025-0102",
+      "type": "federal_enacted_fiscal_account_to_public_service_operational_lineage",
+      "title": "FY2025 VA Compensation and Pensions — appropriation to public service",
+      "fiscal_year": 2025,
+      "reporting_start": "2024-10-01",
+      "reporting_end": "2025-09-30",
+      "last_source_date": "2026-04-03",
+      "jurisdiction": "United States - Federal",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "primary_inc05_context_id": "X05-TRACE-I",
+      "trace_status": "published_aggregate_source_observation_unratified_not_transaction_certified",
+      "stages": [
+        {
+          "id": "appropriation",
+          "title": "01 / Enacted appropriations and Article I",
+          "note": "Two identifiable statutory no-year appropriations: $182,310,515,000 enacted for FY2025 advance plus $30,242,064,000 FY2025 additional funding; precise source amounts do not certify individual spending.",
+          "record_ids": [
+            "CONST-US-ART-01-SEC-09-CL-07",
+            "X06-APP-PL11842-FY25",
+            "X06-APP-PL1194-FY25",
+            "X06-METRIC-ENACTED-FY25"
+          ]
+        },
+        {
+          "id": "budget_account",
+          "title": "02 / Federal account and resources",
+          "note": "036-0102 federal account, not unique TAS; published gross budget authority, opening balance and total budgetary resources are rounded account-level FY2025 actuals.",
+          "record_ids": [
+            "X06-ACCOUNT-VA-0102",
+            "X06-METRIC-BA-GROSS",
+            "X06-METRIC-UNOBLIGATED-OPEN",
+            "X06-METRIC-AVAILABLE-RESOURCES",
+            "X06-GAP-TAS"
+          ]
+        },
+        {
+          "id": "program",
+          "title": "03 / Agency, office and public program",
+          "note": "Title 38 VA and VBA/Under Secretary role; Compensation and Pensions funds several benefit kinds. Individual agency signatory and ADL1 institutional approval are unverified.",
+          "record_ids": [
+            "ORG-FED-EXE-DEP-VA",
+            "X06-ACTOR-VBA",
+            "X06-ACTOR-UNDERSEC-BENEFITS",
+            "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+            "X06-CTRL-VETERAN-ELIGIBILITY",
+            "X06-GAP-OFFICIAL-DELEGATION",
+            "X06-GAP-CASE-ELIGIBILITY"
+          ]
+        },
+        {
+          "id": "apportionment",
+          "title": "04 / Apportionment and available-to-obligate controls",
+          "note": "31 USC apportionment and fiscal purpose/amount restrictions remain binding; published account resources are not the FY2025 apportioned amount or allotment authority.",
+          "record_ids": [
+            "X06-CTRL-APPORTIONMENT",
+            "X06-CTRL-PURPOSE",
+            "X06-CTRL-ANTIDEF",
+            "X06-CTRL-FY25-REIMBURSEMENT",
+            "X06-GAP-APPORTIONMENT",
+            "X06-GAP-ALLOTMENT"
+          ]
+        },
+        {
+          "id": "obligation",
+          "title": "05 / New obligations and documentary controls",
+          "note": "FY2025 new account obligations of $203,144 million and remaining unobligated resources are OMB rounded actuals; no individual agreement or payment eligibility established.",
+          "record_ids": [
+            "X06-METRIC-OBLIGATIONS",
+            "X06-METRIC-UNOBLIGATED-CLOSE",
+            "X06-CTRL-DOCUMENTATION",
+            "X06-GAP-OBLIGATION-RECORD",
+            "X06-GAP-TRANCHE-ATTRIBUTION"
+          ]
+        },
+        {
+          "id": "outlay",
+          "title": "06 / Gross versus net outlays",
+          "note": "FY2025 account gross outlays $201,510 million less offsetting collections $839 million produce net outlays $200,671 million; not a one-to-one match with that year's new obligations.",
+          "record_ids": [
+            "X06-METRIC-OUTLAYS-GROSS",
+            "X06-METRIC-OFFSETS",
+            "X06-METRIC-OUTLAYS-NET",
+            "X06-GAP-PAYMENT-EVENT"
+          ]
+        },
+        {
+          "id": "oversight",
+          "title": "07 / GAO, Inspector General and public-service workload",
+          "note": "Published FY2025 completed rating claims are a workload output; GAO's October 2025 testimony is subsequent oversight context, not proof of budget causal effect or any individual remedy.",
+          "record_ids": [
+            "ORG-FED-LEG-GAO",
+            "X06-ACTOR-VA-OIG",
+            "X06-OVERSIGHT-GAO-2025",
+            "X06-OUTPUT-FY25-RATING",
+            "X06-GAP-AUDIT-REMEDY"
+          ]
+        }
+      ],
+      "relation_ids": [
+        "X06-REL-01",
+        "X06-REL-02",
+        "X06-REL-03",
+        "X06-REL-04",
+        "X06-REL-05",
+        "X06-REL-06",
+        "X06-REL-07",
+        "X06-REL-08",
+        "X06-REL-09",
+        "X06-REL-10",
+        "X06-REL-11",
+        "X06-REL-12",
+        "X06-REL-13",
+        "X06-REL-14",
+        "X06-REL-15",
+        "X06-REL-16",
+        "X06-REL-17",
+        "X06-REL-18",
+        "X06-REL-19",
+        "X06-REL-20",
+        "X06-REL-21",
+        "X06-REL-22",
+        "X06-REL-23",
+        "X06-REL-24",
+        "X06-REL-25",
+        "X06-REL-26",
+        "X06-REL-27",
+        "X06-REL-28",
+        "X06-REL-29",
+        "X06-REL-30",
+        "X06-REL-31",
+        "X06-REL-32"
+      ],
+      "mandatory_gap_ids": [
+        "X06-GAP-APPORTIONMENT",
+        "X06-GAP-ALLOTMENT",
+        "X06-GAP-TAS",
+        "X06-GAP-OFFICIAL-DELEGATION",
+        "X06-GAP-OBLIGATION-RECORD",
+        "X06-GAP-PAYMENT-EVENT",
+        "X06-GAP-TRANCHE-ATTRIBUTION",
+        "X06-GAP-AUDIT-REMEDY",
+        "X06-GAP-CASE-ELIGIBILITY"
+      ],
+      "summary_metric_ids": [
+        "X06-METRIC-ENACTED-FY25",
+        "X06-METRIC-AVAILABLE-RESOURCES",
+        "X06-METRIC-OBLIGATIONS",
+        "X06-METRIC-OUTLAYS-GROSS",
+        "X06-METRIC-OUTLAYS-NET"
+      ],
+      "source_ids": [
+        "SRC-X06-PL118-42",
+        "SRC-X06-PL119-4",
+        "SRC-X06-OMB27-VA",
+        "SRC-X06-38-306",
+        "SRC-X06-31-1512"
+      ],
+      "individual_expenditure_certified": false,
+      "actual_sf132_verified": false,
+      "individual_official_delegation_verified": false,
+      "transaction_source_to_outlay_proven": false,
+      "budgetary_resource_entirely_free_to_obligate": false,
+      "full_federal_tas_lineage_complete": false,
+      "GAO_reconciliation_audited": false,
+      "outcome_causation_established": false,
+      "human_qualified_legal_review_complete": false,
+      "institutional_approval_signed": false
+    }
+  ]
+}

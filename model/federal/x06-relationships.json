@@ -1,0 +1,663 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-relationships",
+  "items": [
+    {
+      "id": "X06-REL-01",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "CONST-US-ART-01-SEC-09-CL-07",
+      "to_id": "X06-APP-PL11842-FY25",
+      "relationship_type": "constitutional_appropriation_requirement",
+      "summary": "Article I's appropriations constraint applies to congressional funding; the legal amount comes from P.L.118-42.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-X06-PL118-42"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-02",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "CONST-US-ART-01-SEC-09-CL-07",
+      "to_id": "X06-APP-PL1194-FY25",
+      "relationship_type": "constitutional_appropriation_requirement",
+      "summary": "Additional FY2025 account money is separately enacted under P.L.119-4, not added by an executive request.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-X06-PL119-4"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-03",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-APP-PL11842-FY25",
+      "to_id": "X06-ACCOUNT-VA-0102",
+      "relationship_type": "enacted_advance_appropriation_to_named_account",
+      "summary": "FY2025 advanced no-year tranche is assigned by enacted text to Compensation and Pensions.",
+      "source_ids": [
+        "SRC-X06-PL118-42"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-04",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-APP-PL1194-FY25",
+      "to_id": "X06-ACCOUNT-VA-0102",
+      "relationship_type": "enacted_additional_appropriation_to_named_account",
+      "summary": "FY2025 additional no-year appropriation names same account.",
+      "source_ids": [
+        "SRC-X06-PL119-4"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-05",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-APP-PL11842-FY25",
+      "to_id": "X06-METRIC-ENACTED-FY25",
+      "relationship_type": "contributes_to_exact_enacted_total_not_obligation",
+      "summary": "Exact statutory amount is one input to sum of identified enacted budget authority.",
+      "source_ids": [
+        "SRC-X06-PL118-42"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-06",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-APP-PL1194-FY25",
+      "to_id": "X06-METRIC-ENACTED-FY25",
+      "relationship_type": "contributes_to_exact_enacted_total_not_obligation",
+      "summary": "Second exact statutory amount is input to sum; distinct from OMB account actuals.",
+      "source_ids": [
+        "SRC-X06-PL119-4"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-07",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-ACCOUNT-VA-0102",
+      "to_id": "X06-METRIC-BA-GROSS",
+      "relationship_type": "OMB_fiscal_account_reporting_observation",
+      "summary": "OMB Budget Appendix reports rounded FY2025 gross budget authority on account 036–0102.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-08",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-BA-GROSS",
+      "to_id": "X06-METRIC-AVAILABLE-RESOURCES",
+      "relationship_type": "reported_budgetary_resources_context",
+      "summary": "2025 gross budget authority is a component of total budgetary resources; carryforward/recoveries are separate; not apportionment.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [
+        "X06-GAP-APPORTIONMENT"
+      ],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-09",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-UNOBLIGATED-OPEN",
+      "to_id": "X06-METRIC-AVAILABLE-RESOURCES",
+      "relationship_type": "reported_opening_unobligated_resources_component",
+      "summary": "OMB 2025 account-wide available total includes carried and recovered unexpired unobligated balances.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-10",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-AVAILABLE-RESOURCES",
+      "to_id": "X06-METRIC-OBLIGATIONS",
+      "relationship_type": "aggregate_fiscal_account_state_comparison",
+      "summary": "Account-wide available-resource total and new obligations are different published observations, not proof of execution compliance.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [
+        "X06-GAP-APPORTIONMENT",
+        "X06-GAP-ALLOTMENT"
+      ],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-11",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-OBLIGATIONS",
+      "to_id": "X06-METRIC-UNOBLIGATED-CLOSE",
+      "relationship_type": "reported_unobligated_balance_reconciliation",
+      "summary": "217,841 minus 203,144 equals 14,697 in reported millions; consistency check only.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-12",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-OBLIGATIONS",
+      "to_id": "X06-METRIC-OUTLAYS-GROSS",
+      "relationship_type": "aggregate_account_obligation_outlay_distinction",
+      "summary": "OMB reports FY2025 new obligations and gross outlays separately; different obligations can be paid across years.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [
+        "X06-GAP-TRANCHE-ATTRIBUTION"
+      ],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-13",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-OUTLAYS-GROSS",
+      "to_id": "X06-METRIC-OUTLAYS-NET",
+      "relationship_type": "gross_less_offsetting_collections_reconciliation",
+      "summary": "201,510 gross minus 839 offsetting collections equals 200,671 net outlays, in rounded millions.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-14",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-OFFSETS",
+      "to_id": "X06-METRIC-OUTLAYS-NET",
+      "relationship_type": "offsetting_collections_component",
+      "summary": "Account-level published offsetting collections reduce net outlays; not a refund to any specific recipient.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-15",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-ACCOUNT-VA-0102",
+      "to_id": "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+      "relationship_type": "federal_account_program_scope",
+      "summary": "Account covers multiple benefits authorized by law; no grant inferred to a named claimant.",
+      "source_ids": [
+        "SRC-X06-PL118-42",
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-16",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "ORG-FED-EXE-DEP-VA",
+      "to_id": "X06-ACTOR-VBA",
+      "relationship_type": "department_to_statutory_administration_context",
+      "summary": "Title 38 §301 lists VBA; independent department ADL1 legal certification remains incomplete.",
+      "source_ids": [
+        "SRC-X06-38-301",
+        "SRC-X06-VA-ORGS"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-17",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-ACTOR-UNDERSEC-BENEFITS",
+      "to_id": "X06-ACTOR-VBA",
+      "relationship_type": "statutory_headship_not_individual_delegation",
+      "summary": "38 USC §306(b) defines Under Secretary as head of VBA; no named individual's signed obligating authority proven.",
+      "source_ids": [
+        "SRC-X06-38-306"
+      ],
+      "qualification_gap_ids": [
+        "X06-GAP-OFFICIAL-DELEGATION"
+      ],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-18",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-ACTOR-VBA",
+      "to_id": "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+      "relationship_type": "responsible_administration_functional_context",
+      "summary": "VBA administers benefits; individual funding and payment authority are separately governed.",
+      "source_ids": [
+        "SRC-X06-38-306",
+        "SRC-X06-PL118-42"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-19",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-CTRL-APPORTIONMENT",
+      "to_id": "X06-GAP-APPORTIONMENT",
+      "relationship_type": "statutory_apportionment_prerequisite_missing_evidence",
+      "summary": "31 USC §1512 applies but actual FY2025 SF-132 has not been obtained.",
+      "source_ids": [
+        "SRC-X06-31-1512"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-20",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-CTRL-PURPOSE",
+      "to_id": "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+      "relationship_type": "appropriation_purpose_limit",
+      "summary": "31 USC §1301 limits the objects of spending, not merely annual amount.",
+      "source_ids": [
+        "SRC-X05-31-1301"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-21",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-CTRL-ANTIDEF",
+      "to_id": "X06-METRIC-AVAILABLE-RESOURCES",
+      "relationship_type": "antideficiency_statutory_constraint",
+      "summary": "Availability in OMB account totals cannot waive Antideficiency Act or apportionment/allotment controls.",
+      "source_ids": [
+        "SRC-X05-31-1341"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-22",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-CTRL-DOCUMENTATION",
+      "to_id": "X06-GAP-OBLIGATION-RECORD",
+      "relationship_type": "individual_obligation_evidence_gate",
+      "summary": "31 USC §1501 recording proof required for actual transactions, not provided by aggregate OMB figures.",
+      "source_ids": [
+        "SRC-X05-31-1501"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-23",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-CTRL-FY25-REIMBURSEMENT",
+      "to_id": "X06-APP-PL11842-FY25",
+      "relationship_type": "tranche_specific_reimbursement_limit",
+      "summary": "P.L.118-42 FY2025 cap of $22,109,000 for specified reimbursements must not be generalized to every tranche.",
+      "source_ids": [
+        "SRC-X06-PL118-42"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-24",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-CTRL-VETERAN-ELIGIBILITY",
+      "to_id": "X06-GAP-CASE-ELIGIBILITY",
+      "relationship_type": "claimant_specific_eligibility_gate",
+      "summary": "Title 38 compensation claim eligibility cannot be established from budget figures.",
+      "source_ids": [
+        "SRC-X06-38-1110"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-25",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-ACCOUNT-VA-0102",
+      "to_id": "X06-GAP-TAS",
+      "relationship_type": "unverified_treasury_account_detail",
+      "summary": "Federal account 036–0102 does not identify a unique Fiscal Year 2025 component TAS.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-26",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-OBLIGATIONS",
+      "to_id": "X06-GAP-OBLIGATION-RECORD",
+      "relationship_type": "unverified_individual_obligation_breakdown",
+      "summary": "Account FY2025 $203,144 million new obligations is aggregate not sampled benefit payment or underlying voucher.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-27",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-OUTLAYS-GROSS",
+      "to_id": "X06-GAP-PAYMENT-EVENT",
+      "relationship_type": "unverified_actual_disbursement_voucher",
+      "summary": "Account gross outlays do not link to a beneficiary case or certified Treasury payment.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-28",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "ORG-FED-LEG-GAO",
+      "to_id": "X06-OVERSIGHT-GAO-2025",
+      "relationship_type": "general_external_program_oversight",
+      "summary": "GAO has statutory auditing/investigative role; cited disability modernization report is not an audit of FY2025 total.",
+      "source_ids": [
+        "SRC-X06-31-712",
+        "SRC-X06-GAO-2025"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-29",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+      "to_id": "X06-OUTPUT-FY25-RATING",
+      "relationship_type": "reported_service_workload_not_program_effectiveness",
+      "summary": "FY2025 rating claims completed are an account-related program output, not an appropriation impact causal estimate.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-30",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-ACTOR-VA-OIG",
+      "to_id": "X06-GAP-AUDIT-REMEDY",
+      "relationship_type": "independent_oversight_context_not_certified_action",
+      "summary": "VA OIG exists and reports management challenges; no specific account audit remediation matched to FY2025 actual dollars.",
+      "source_ids": [
+        "SRC-X06-VA-FINANCE"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-31",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+      "to_id": "X06-GAP-TRANCHE-ATTRIBUTION",
+      "relationship_type": "reported_account_totals_not_single_law_expenditure",
+      "summary": "Aggregate FY2025 actuals are not disaggregated between enacted tranches or prior budget resources.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA",
+        "SRC-X06-PL118-42",
+        "SRC-X06-PL119-4"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    },
+    {
+      "id": "X06-REL-32",
+      "type": "source_bounded_operational_lineage_relation",
+      "trace_id": "X06-TRACE-VA-2025-0102",
+      "from_id": "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+      "to_id": "X06-ACTOR-VA-OIG",
+      "relationship_type": "independent_inspector_general_general_remit",
+      "summary": "Oversight context neither places OIG in operational line of command nor shows certified audit of specific payments.",
+      "source_ids": [
+        "SRC-X06-VA-FINANCE"
+      ],
+      "qualification_gap_ids": [],
+      "assertion_status": "verified_reference_or_reported_aggregate_not_transaction_chain",
+      "role_to_person_delegation_verified": false,
+      "individual_obligation_authorized": false,
+      "apportionment_verified": false,
+      "individual_disbursement_verified": false,
+      "causal_outcome_verified": false,
+      "review_status": "research_source_bounded_and_pending_independent_review"
+    }
+  ]
+}

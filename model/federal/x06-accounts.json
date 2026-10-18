@@ -1,0 +1,28 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-accounts",
+  "items": [
+    {
+      "id": "X06-ACCOUNT-VA-0102",
+      "type": "federal_account_not_treasury_account_symbol",
+      "title": "Compensation and Pensions — Veterans Benefits Administration",
+      "federal_account_symbol": "036-0102",
+      "agency_identifier": "036",
+      "main_account_code": "0102",
+      "budget_appendix_identification_code": "036-0102-0-1-701",
+      "exact_components_treasury_account_symbol_verified": false,
+      "subaccount_code_verified": false,
+      "bpoa_verified": false,
+      "epoa_verified": false,
+      "availability_type_verified": false,
+      "attribution_to_tranche_verified": false,
+      "program_account_scope": "Multi-benefit Compensation and Pensions account; includes compensation, pensions, survivors and burial programs; not identical to one disability-compensation grant.",
+      "source_ids": [
+        "SRC-X06-OMB27-VA",
+        "SRC-X06-PL118-42",
+        "SRC-X06-PL119-4"
+      ],
+      "review_status": "account_id_published_no_individual_tas_verified"
+    }
+  ]
+}

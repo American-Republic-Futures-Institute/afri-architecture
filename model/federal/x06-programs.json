@@ -1,0 +1,28 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-programs",
+  "items": [
+    {
+      "id": "X06-PROGRAM-VA-COMP-PENSIONS-FY25",
+      "type": "statutory_benefits_program_account_scope",
+      "title": "FY2025 VA Compensation and Pensions account operating activity",
+      "fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "administration_id": "X06-ACTOR-VBA",
+      "lead_office_id": "X06-ACTOR-UNDERSEC-BENEFITS",
+      "public_service_kind": "federal_veterans_benefits_compensation_pension_survivor_burial_and_exam_related",
+      "benefit_classification": "multi_program_appropriation_not_only_disability_compensation",
+      "selected_statutory_mission": "38 U.S.C. §§301, 306, 1110, and cited benefits statutes within P.L. 118-42",
+      "representative_function": "Administer congressionally authorized benefits to eligible veterans and beneficiaries; individual eligibility decisions are not modeled.",
+      "source_ids": [
+        "SRC-X06-PL118-42",
+        "SRC-X06-38-301",
+        "SRC-X06-38-306",
+        "SRC-X06-38-1110"
+      ],
+      "individual_claim_or_payment_authorized": false,
+      "review_status": "bounded_federal_benefits_operating_context"
+    }
+  ]
+}

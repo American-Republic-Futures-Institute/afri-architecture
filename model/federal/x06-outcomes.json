@@ -1,0 +1,35 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc06-outcomes",
+  "items": [
+    {
+      "id": "X06-OUTPUT-FY25-RATING",
+      "type": "reported_public_service_workload_not_outcome_causation",
+      "title": "FY2025 completed compensation rating claims — OMB Appendix",
+      "count": 2849218,
+      "unit": "completed_rating_claims",
+      "fiscal_year": 2025,
+      "denominator_scope": "VA Compensation Completed Claims, Rating; not all C&P payments nor accuracy-adjusted outcomes",
+      "source_ids": [
+        "SRC-X06-OMB27-VA"
+      ],
+      "reported_2025_actual": true,
+      "caused_by_enacted_tranche_verified": false,
+      "review_status": "reported_output_measure_no_program_causal_attribution"
+    },
+    {
+      "id": "X06-OVERSIGHT-GAO-2025",
+      "type": "program_external_oversight_finding_context",
+      "title": "GAO disability benefit management and modernization testimony (October 2025)",
+      "report_id": "GAO-26-108789",
+      "source_ids": [
+        "SRC-X06-GAO-2025"
+      ],
+      "reported_on": "2025-10-29",
+      "time_relative_to_fy2025": "after_fiscal_close",
+      "specific_2025_account_amounts_audited": false,
+      "report_scope": "VA disability compensation modernization and management challenges; not an account reconciliation or legal opinion",
+      "review_status": "official_report_context_not_transaction_audit"
+    }
+  ]
+}
