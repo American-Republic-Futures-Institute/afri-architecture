@@ -1,0 +1,18 @@
+import test from "node:test";import assert from "node:assert/strict";import fs from "node:fs";
+import {validateX07Schema,X07_SCHEMA_FAMILIES} from "../scripts/inc07-treasury-envelope-core.mjs";
+const read=p=>JSON.parse(fs.readFileSync(p,"utf8"));
+const schema=read("schemas/inc07-treasury-envelope.schema.json");
+const seed=Object.fromEntries(X07_SCHEMA_FAMILIES.map(n=>[n,read("model/federal/x07-"+n+".json")]));
+test("X07 structural and conditional provenance schema validates all eight historical evidence families",()=>{assert.deepEqual(validateX07Schema(schema,seed).errors,[])});
+const negative=(label,mutate,pattern)=>test(label,()=>{const copy=structuredClone(seed);const s=structuredClone(schema);mutate(copy,s);assert.match(validateX07Schema(s,copy).errors.join("\n"),new RegExp(pattern));});
+negative("Treasury component requires a type",d=>{delete d.tas.items[0].type},"missing required field");
+negative("external source locator requires a safe HTTPS original link",d=>{delete d.sources.items[0].url},"missing required field");
+negative("sourced fiscal relationship requires explicit source_ids",d=>{delete d.relationships.items[0].source_ids},"missing required field");
+negative("tampered family cannot be renamed without failure",d=>{d.apportionments.model_family="inc07-federal-treasury-fake"},"string pattern mismatch|collection family mismatch");
+negative("source document SHA must not be fabricated",d=>{d.sources.items[0].original_bytes_sha256="f".repeat(64)},"const mismatch");
+negative("unverified Treasury account row cannot become a sampled payment",d=>{d.execution.items[0].individual_treasury_payment_verified=true},"const mismatch");
+negative("missing FY2025 original signed SF132 cannot be claimed received",d=>{d.apportionments.items[0].actual_original_JSON_bytes_received=true},"const mismatch");
+negative("X07 review gate must not become verified before evidence",d=>{d.gaps.items[0].evidence_received=true},"const mismatch");
+negative("nonexistent relative file URLs do not satisfy HTTPS source condition",d=>{d.sources.items[0].url="file:///etc/passwd"},"string pattern mismatch");
+negative("published schema may not silently drop provenance condition",(_d,s)=>{delete s.properties.items.items.allOf},"mandatory envelope/conditional provenance");
+negative("unsupported JSON schema keyword cannot be silently ignored",(_d,s)=>{s.experimentalAcceptPayments=true},"unsupported schema keyword");

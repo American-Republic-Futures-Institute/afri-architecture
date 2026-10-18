@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI X07 government Treasury cash and OMB apportionment evidence envelope",
+  "type": "object",
+  "required": [
+    "model_version",
+    "model_family",
+    "items"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "type": "string",
+      "pattern": "^inc07-federal-treasury-(sources|tas|apportionments|controls|execution|gaps|relationships|traces)$"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "title"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(?:X07|SRC-X07)-[A-Z0-9-]+$"
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z0-9-]+$"
+            }
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "source_published_or_approved_on": {
+            "type": "string"
+          },
+          "original_bytes_archived": {
+            "const": false
+          },
+          "original_bytes_sha256": {
+            "const": null
+          },
+          "signed_approval_id": {
+            "const": null
+          },
+          "original_document_sha256": {
+            "const": null
+          },
+          "individual_treasury_payment_verified": {
+            "const": false
+          },
+          "specific_individual_obligation_verified": {
+            "const": false
+          },
+          "evidence_received": {
+            "const": false
+          },
+          "actual_original_JSON_bytes_received": {
+            "const": false
+          },
+          "individual_obligation_authorized": {
+            "const": false
+          },
+          "individual_disbursement_certified": {
+            "const": false
+          },
+          "qualification_gap_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^X07-GAP-[A-Z0-9-]+$"
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "dated_treasury_apportionment_evidence_locator"
+                }
+              },
+              "required": [
+                "type"
+              ]
+            },
+            "then": {
+              "required": [
+                "url"
+              ]
+            },
+            "else": {
+              "required": [
+                "source_ids"
+              ]
+            }
+          }
+        ],
+        "additionalProperties": true
+      }
+    }
+  }
+}

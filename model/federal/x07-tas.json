@@ -1,0 +1,62 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc07-federal-treasury-tas",
+  "items": [
+    {
+      "id": "X07-TAS-VA-0102-X-000",
+      "type": "reported_no_year_treasury_account_component",
+      "title": "FY2025 Compensation and Pensions, AID 036, MAIN 0102, SUB 000, No Year",
+      "agency_identifier": "036",
+      "main_account_code": "0102",
+      "subaccount_code": "000",
+      "reported_period_of_availability": "No Year",
+      "treasury_symbol_notation": "036-X-0102-000",
+      "federal_account_id": "X06-ACCOUNT-VA-0102",
+      "reporting_fiscal_year": 2025,
+      "exact_no_year_component_recognized_in_treasury_publication": true,
+      "individual_appropriation_tranche_mapping_verified": false,
+      "role_of_symbol": "reported_component_identifier_not_spending_instruction",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25",
+        "SRC-X07-VA-SYMBOLS2024"
+      ],
+      "review_status": "official_treasury_published_component_structure_archival_and_signed_transaction_not_verified"
+    },
+    {
+      "id": "X07-TAS-VA-0102-2020-000",
+      "type": "reported_legacy_fy2020_account_component",
+      "title": "Remaining FY2020 period component, 036-0102-000",
+      "agency_identifier": "036",
+      "main_account_code": "0102",
+      "subaccount_code": "000",
+      "reported_period_of_availability": "2020",
+      "treasury_symbol_notation": "036-2020-0102-000",
+      "federal_account_id": "X06-ACCOUNT-VA-0102",
+      "reporting_fiscal_year": 2025,
+      "legacy_fiscal_period_not_current_no_year_appropriation": true,
+      "individual_appropriation_tranche_mapping_verified": false,
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "review_status": "Treasury_published_historical_component_not_active_2025_spending_authority"
+    },
+    {
+      "id": "X07-TAS-VA-0102-SUBTOTAL",
+      "type": "federal_account_aggregated_reporting_row_not_component_TAS",
+      "title": "FY2025 all-availability-period Compensation and Pensions subtotal, 036-0102-000",
+      "agency_identifier": "036",
+      "main_account_code": "0102",
+      "subaccount_code": "000",
+      "reported_period_of_availability": "Subtotal",
+      "treasury_symbol_notation": null,
+      "federal_account_id": "X06-ACCOUNT-VA-0102",
+      "reporting_fiscal_year": 2025,
+      "component_tas": false,
+      "individual_appropriation_tranche_mapping_verified": false,
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "review_status": "Treasury_public_aggregate_not_one_transaction_or_component"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc07-federal-treasury-controls",
+  "items": [
+    {
+      "id": "X07-CTRL-APPROPRIATION",
+      "type": "dated_VA_departmentwide_funds_control_policy_requirement",
+      "title": "VA funds control level 1: appropriation",
+      "funds_control_level": 1,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "responsible_official_class": "Secretary of Veterans Affairs or delegate",
+      "statement": "Statutory funding authority and purpose limits establish outer bounds",
+      "required_instrument_type": "enacted_public_law",
+      "actual_FY2025_account_instrument_verified": false,
+      "individual_signed_delegation_verified": false,
+      "agency_policy_is_not_specific_execution_evidence": true,
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "review_status": "VA_approved_policy_process_verified_fy2025_account_execution_unverified"
+    },
+    {
+      "id": "X07-CTRL-APPORTIONMENT",
+      "type": "dated_VA_departmentwide_funds_control_policy_requirement",
+      "title": "VA funds control level 2: OMB apportionment",
+      "funds_control_level": 2,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "responsible_official_class": "VA CFO, OMB approving official",
+      "statement": "SF-132 / reapportionment constrains funds within account and statutory authorities",
+      "required_instrument_type": "OMB_approved_SF132",
+      "actual_FY2025_account_instrument_verified": false,
+      "individual_signed_delegation_verified": false,
+      "agency_policy_is_not_specific_execution_evidence": true,
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "review_status": "VA_approved_policy_process_verified_fy2025_account_execution_unverified"
+    },
+    {
+      "id": "X07-CTRL-ALLOTMENT",
+      "type": "dated_VA_departmentwide_funds_control_policy_requirement",
+      "title": "VA funds control level 3: allotment",
+      "funds_control_level": 3,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "responsible_official_class": "Under Secretary / Assistant Secretary / Key Official",
+      "statement": "Deputy Assistant Secretary for Budget issues documented funding distribution to accountable allottees; recipient must satisfy conditions",
+      "required_instrument_type": "VA_FMA_memo_and_TDA_form_4_4564_6",
+      "actual_FY2025_account_instrument_verified": false,
+      "individual_signed_delegation_verified": false,
+      "agency_policy_is_not_specific_execution_evidence": true,
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "review_status": "VA_approved_policy_process_verified_fy2025_account_execution_unverified"
+    },
+    {
+      "id": "X07-CTRL-SUBALLOTMENT",
+      "type": "dated_VA_departmentwide_funds_control_policy_requirement",
+      "title": "VA funds control level 4: suballotment",
+      "funds_control_level": 4,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "responsible_official_class": "Allotment manager or delegated official",
+      "statement": "Subdivisions may not exceed the allotment; written assignments and operating limits remain required",
+      "required_instrument_type": "VA_accounting_funds_control_entry_and_record",
+      "actual_FY2025_account_instrument_verified": false,
+      "individual_signed_delegation_verified": false,
+      "agency_policy_is_not_specific_execution_evidence": true,
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "review_status": "VA_approved_policy_process_verified_fy2025_account_execution_unverified"
+    },
+    {
+      "id": "X07-CTRL-AAWS",
+      "type": "dated_VA_departmentwide_funds_control_policy_requirement",
+      "title": "VA FY2025 funds document and posting workflow",
+      "funds_control_level": null,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "responsible_official_class": "VA Office of Budget / Financial Service Center",
+      "statement": "SF132, FMA and TDA are to be approved in AAWS; FSC records authorized entries in FMS/iFAMS with separation of duties",
+      "required_instrument_type": "AAWS_document_and_FMS_or_iFAMS_audit_record",
+      "actual_FY2025_account_instrument_verified": false,
+      "individual_signed_delegation_verified": false,
+      "agency_policy_is_not_specific_execution_evidence": true,
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "review_status": "VA_approved_policy_process_verified_fy2025_account_execution_unverified"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc07-federal-treasury-execution",
+  "items": [
+    {
+      "id": "X07-EXEC-2025-NOYEAR",
+      "type": "treasury_combined_statement_fy2025_exact_account_row",
+      "title": "FY2025 no-year VA Compensation and Pensions component",
+      "account_component_id": "X07-TAS-VA-0102-X-000",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "reporting_period_end": "2025-09-30",
+      "period_of_availability": "No Year",
+      "report_class": "reported_component",
+      "currency": "USD",
+      "amount_precision": "reported_exact_cents",
+      "opening_balance_cents": 2023917207806,
+      "appropriations_and_other_obligational_authority_cents": 21255257900000,
+      "net_outlays_cents": 20069518336435,
+      "balances_withdrawn_and_other_transactions_cents": 0,
+      "closing_balance_cents": 3209656771371,
+      "other_transfers_borrowings_and_investments_net_cents": 0,
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "source_page": "Chapter 42, FY2025 printed page 4, VA Benefits Programs",
+      "specific_individual_obligation_verified": false,
+      "individual_treasury_payment_verified": false,
+      "apportioned_amount_verified": false,
+      "source_specific_tranche_outlay_verified": false,
+      "record_certification": "published_treasury_account_aggregate_not_authenticated_transaction_evidence"
+    },
+    {
+      "id": "X07-EXEC-2025-LEGACY2020",
+      "type": "treasury_combined_statement_fy2025_exact_account_row",
+      "title": "FY2025 reporting of legacy FY2020 component",
+      "account_component_id": "X07-TAS-VA-0102-2020-000",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "reporting_period_end": "2025-09-30",
+      "period_of_availability": "2020",
+      "report_class": "reported_legacy_component",
+      "currency": "USD",
+      "amount_precision": "reported_exact_cents",
+      "opening_balance_cents": 124504720245,
+      "appropriations_and_other_obligational_authority_cents": 0,
+      "net_outlays_cents": -2440000000,
+      "balances_withdrawn_and_other_transactions_cents": 126944720245,
+      "closing_balance_cents": 0,
+      "other_transfers_borrowings_and_investments_net_cents": 0,
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "source_page": "Chapter 42, FY2025 printed page 4, VA Benefits Programs",
+      "specific_individual_obligation_verified": false,
+      "individual_treasury_payment_verified": false,
+      "apportioned_amount_verified": false,
+      "source_specific_tranche_outlay_verified": false,
+      "record_certification": "published_treasury_account_aggregate_not_authenticated_transaction_evidence"
+    },
+    {
+      "id": "X07-EXEC-2025-SUBTOTAL",
+      "type": "treasury_combined_statement_fy2025_exact_account_row",
+      "title": "FY2025 Compensation and Pensions 036-0102 subtotal",
+      "account_component_id": "X07-TAS-VA-0102-SUBTOTAL",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "reporting_period_end": "2025-09-30",
+      "period_of_availability": "Subtotal",
+      "report_class": "reported_all_component_rollup",
+      "currency": "USD",
+      "amount_precision": "reported_exact_cents",
+      "opening_balance_cents": 2148421928051,
+      "appropriations_and_other_obligational_authority_cents": 21255257900000,
+      "net_outlays_cents": 20067078336435,
+      "balances_withdrawn_and_other_transactions_cents": 126944720245,
+      "closing_balance_cents": 3209656771371,
+      "other_transfers_borrowings_and_investments_net_cents": 0,
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "source_page": "Chapter 42, FY2025 printed page 4, VA Benefits Programs",
+      "specific_individual_obligation_verified": false,
+      "individual_treasury_payment_verified": false,
+      "apportioned_amount_verified": false,
+      "source_specific_tranche_outlay_verified": false,
+      "record_certification": "published_treasury_account_aggregate_not_authenticated_transaction_evidence"
+    }
+  ]
+}

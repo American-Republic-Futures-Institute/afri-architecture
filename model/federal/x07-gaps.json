@@ -1,0 +1,117 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc07-federal-treasury-gaps",
+  "items": [
+    {
+      "id": "X07-GAP-APPORTIONMENT-ORIGINALS",
+      "type": "mandatory_unresolved_account_execution_evidence",
+      "title": "Original signed OMB SF-132 approval and all revisions",
+      "summary": "OpenOMB indexes four FY2025 revisions, and one official JSON source URL was identified, but OMB original document bytes and signature review have not been captured/qualified.",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "evidence_received": false,
+      "original_document_sha256": null,
+      "independent_authentication_complete": false,
+      "human_legal_approval_complete": false,
+      "remediation_status": "open_source_evidence_gap",
+      "source_ids": [
+        "SRC-X07-OMB-PUBLIC",
+        "SRC-X07-OMB-2024-DEC-JSON",
+        "SRC-X07-OPENOMB-APR25"
+      ]
+    },
+    {
+      "id": "X07-GAP-APPROVED-ASOF",
+      "type": "mandatory_unresolved_account_execution_evidence",
+      "title": "Effective-on-date OMB apportionment and official account amount",
+      "summary": "Neither the approved as-of revision nor actual OMB SF132 line 6011/6190 bytes are confirmed; 2024-12-20 third-party transcription is not the 2025-09-30 final control amount.",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "evidence_received": false,
+      "original_document_sha256": null,
+      "independent_authentication_complete": false,
+      "human_legal_approval_complete": false,
+      "remediation_status": "open_source_evidence_gap",
+      "source_ids": [
+        "SRC-X07-OPENOMB-DEC24",
+        "SRC-X07-OPENOMB-APR25"
+      ]
+    },
+    {
+      "id": "X07-GAP-FMA-TDA",
+      "type": "mandatory_unresolved_account_execution_evidence",
+      "title": "FY2025 VA allotment FMA/TDA signed records",
+      "summary": "No VA FY2025 program-specific Financial Management Allowance memorandum or Form 4-4564-6 signed approval has been obtained; policy describes required process only.",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "evidence_received": false,
+      "original_document_sha256": null,
+      "independent_authentication_complete": false,
+      "human_legal_approval_complete": false,
+      "remediation_status": "open_source_evidence_gap",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ]
+    },
+    {
+      "id": "X07-GAP-AAWS-TRANSACTION",
+      "type": "mandatory_unresolved_account_execution_evidence",
+      "title": "VA AAWS and iFAMS funds control ledger entries",
+      "summary": "No account-specific AAWS workflow approval, FMS/iFAMS posted allotment or suballotment and personnel access logs obtained.",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "evidence_received": false,
+      "original_document_sha256": null,
+      "independent_authentication_complete": false,
+      "human_legal_approval_complete": false,
+      "remediation_status": "open_source_evidence_gap",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ]
+    },
+    {
+      "id": "X07-GAP-SF133-GTAS",
+      "type": "mandatory_unresolved_account_execution_evidence",
+      "title": "FY2025 SF-133, GTAS reconciliation and exact obligation detail",
+      "summary": "Treasury Combined Statement exact cash/rollup and rounded OMB obligation aggregate are distinct products; no matching original VA SF133/GTAS obligation detail independently reconciled.",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "evidence_received": false,
+      "original_document_sha256": null,
+      "independent_authentication_complete": false,
+      "human_legal_approval_complete": false,
+      "remediation_status": "open_source_evidence_gap",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ]
+    },
+    {
+      "id": "X07-GAP-VOUCHER-PAYMENT",
+      "type": "mandatory_unresolved_account_execution_evidence",
+      "title": "Claimant-level obligation/voucher/disbursement provenance",
+      "summary": "No sampled lawful benefit decision, individual signed obligation record, Treasury payment identifier or disbursement trace is available.",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "evidence_received": false,
+      "original_document_sha256": null,
+      "independent_authentication_complete": false,
+      "human_legal_approval_complete": false,
+      "remediation_status": "open_source_evidence_gap",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25",
+        "SRC-X07-VA-FUNDS2024"
+      ]
+    },
+    {
+      "id": "X07-GAP-IMMUTABLE-ORIGINALS",
+      "type": "mandatory_unresolved_account_execution_evidence",
+      "title": "Immutable cryptographic custody of public source originals",
+      "summary": "Official Treasury PDF, approved VA policy pages and OMB publication originals have not been archived in content-addressed form with verifiable byte digests and independent reviews.",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "evidence_received": false,
+      "original_document_sha256": null,
+      "independent_authentication_complete": false,
+      "human_legal_approval_complete": false,
+      "remediation_status": "open_source_evidence_gap",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25",
+        "SRC-X07-OMB-PUBLIC",
+        "SRC-X07-VA-FUNDS2024"
+      ]
+    }
+  ]
+}
