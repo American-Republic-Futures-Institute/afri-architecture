@@ -153,6 +153,10 @@ jobs:
         run: node scripts/validate-focused-projections.mjs --validate
       - name: Test focused constitutional views, composed queries and legal-provenance controls
         run: node --test tests/focused-projection.test.mjs
+      - name: Validate INC-05 constitutional institutional authority trace and mandatory gates
+        run: node scripts/validate-inc05-crosswalk.mjs
+      - name: Test INC-05 fiscal, Defense, judicial traceability and anti-certification safeguards
+        run: node --test tests/inc05-crosswalk.test.mjs
       - name: Validate enacted federal statutory authority and legal boundaries
         run: node scripts/validate-federal-statutes.mjs
       - name: Test DHS and Education statutes, federalism, rights and publication regressions
