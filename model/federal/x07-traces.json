@@ -1,0 +1,164 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc07-federal-treasury-traces",
+  "items": [
+    {
+      "id": "X07-TRACE-VA-2025-0102",
+      "type": "source_qualified_account_symbol_apportionment_treasury_execution_evidence_trace",
+      "title": "FY2025 VA Compensation and Pensions — Treasury, OMB and VA controls",
+      "fiscal_year": 2025,
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "parent_trace_id": "X06-TRACE-VA-2025-0102",
+      "as_of_fiscal_year_end": "2025-09-30",
+      "retrieval_or_inspection_date": "2026-10-18",
+      "status": "reported_treasury_components_verified_from_official_publication_original_bytes_not_archived",
+      "stages": [
+        {
+          "id": "constitutional",
+          "title": "01 / Congressional authorization and fiscal account",
+          "note": "The parent INC-06 trace identifies enacted appropriations. Treasury reports the same exact new no-year account authority; do not infer source-to-benefit disbursements.",
+          "record_ids": [
+            "CONST-US-ART-01-SEC-09-CL-07",
+            "X06-METRIC-ENACTED-FY25",
+            "X06-APP-PL11842-FY25",
+            "X06-APP-PL1194-FY25",
+            "X06-ACCOUNT-VA-0102"
+          ]
+        },
+        {
+          "id": "treasury_symbols",
+          "title": "02 / Treasury account symbols and legacy periods",
+          "note": "FY2025 Chapter 42 publishes 036-0102-000 in No Year and separate 2020 rows; the subtotal is not another uniquely spendable TAS.",
+          "record_ids": [
+            "X07-TAS-VA-0102-X-000",
+            "X07-TAS-VA-0102-2020-000",
+            "X07-TAS-VA-0102-SUBTOTAL",
+            "X06-GAP-TAS"
+          ]
+        },
+        {
+          "id": "apportionment_index",
+          "title": "03 / OMB FY2025 approved document index",
+          "note": "Four dated FY2025 account document versions indexed; Dec 20 budgetary lines are secondary transcription only. Original signed FY2025 SF-132 and effective-on-date amounts are not independently qualified.",
+          "record_ids": [
+            "X07-APP-01",
+            "X07-APP-02",
+            "X07-APP-03",
+            "X07-APP-04",
+            "X07-GAP-APPORTIONMENT-ORIGINALS",
+            "X07-GAP-APPROVED-ASOF",
+            "X06-GAP-APPORTIONMENT"
+          ]
+        },
+        {
+          "id": "VA_funds_control",
+          "title": "04 / VA allotment hierarchy and instruments",
+          "note": "VA's 2024 approved department-wide policy defines levels, FMA/TDA, AAWS and iFAMS approval. It does not prove a 2025 account-specific signed distribution.",
+          "record_ids": [
+            "X07-CTRL-APPROPRIATION",
+            "X07-CTRL-APPORTIONMENT",
+            "X07-CTRL-ALLOTMENT",
+            "X07-CTRL-SUBALLOTMENT",
+            "X07-CTRL-AAWS",
+            "X07-GAP-FMA-TDA",
+            "X07-GAP-AAWS-TRANSACTION",
+            "X06-GAP-ALLOTMENT",
+            "X06-GAP-OFFICIAL-DELEGATION"
+          ]
+        },
+        {
+          "id": "treasury_execution",
+          "title": "05 / Treasury FY2025 exact dollar-and-cent account rows",
+          "note": "Three reported rows separate no-year fiscal authority, FY2020 legacy adjustments, and account subtotal. None of these values are account-specific obligation vouchers.",
+          "record_ids": [
+            "X07-EXEC-2025-NOYEAR",
+            "X07-EXEC-2025-LEGACY2020",
+            "X07-EXEC-2025-SUBTOTAL",
+            "X07-GAP-SF133-GTAS",
+            "X06-METRIC-OBLIGATIONS"
+          ]
+        },
+        {
+          "id": "reconcile",
+          "title": "06 / Cross-source fiscal reconciliation",
+          "note": "Treasury exact FY2025 net account outlays $200,670,783,364.35 round to OMB's $200,671 million; they are published observations, not reconstructed transactions or net obligations.",
+          "record_ids": [
+            "X07-EXEC-2025-NOYEAR",
+            "X07-EXEC-2025-SUBTOTAL",
+            "X06-METRIC-OUTLAYS-NET",
+            "X06-METRIC-ENACTED-FY25",
+            "X07-GAP-VOUCHER-PAYMENT",
+            "X06-GAP-PAYMENT-EVENT",
+            "X06-GAP-TRANCHE-ATTRIBUTION"
+          ]
+        },
+        {
+          "id": "qualification",
+          "title": "07 / Mandatory unpublished execution/custody evidence",
+          "note": "Original SF132, VA FMA/TDA, AAWS posting, SF133, GTAS, claim/payment proofs and content-addressed original-source custody remain unresolved.",
+          "record_ids": [
+            "X07-GAP-APPORTIONMENT-ORIGINALS",
+            "X07-GAP-APPROVED-ASOF",
+            "X07-GAP-FMA-TDA",
+            "X07-GAP-AAWS-TRANSACTION",
+            "X07-GAP-SF133-GTAS",
+            "X07-GAP-VOUCHER-PAYMENT",
+            "X07-GAP-IMMUTABLE-ORIGINALS"
+          ]
+        }
+      ],
+      "relation_ids": [
+        "X07-REL-01",
+        "X07-REL-02",
+        "X07-REL-03",
+        "X07-REL-04",
+        "X07-REL-05",
+        "X07-REL-06",
+        "X07-REL-07",
+        "X07-REL-08",
+        "X07-REL-09",
+        "X07-REL-10",
+        "X07-REL-11",
+        "X07-REL-12",
+        "X07-REL-13",
+        "X07-REL-14",
+        "X07-REL-15",
+        "X07-REL-16",
+        "X07-REL-17",
+        "X07-REL-18",
+        "X07-REL-19",
+        "X07-REL-20",
+        "X07-REL-21"
+      ],
+      "mandatory_gap_ids": [
+        "X07-GAP-APPORTIONMENT-ORIGINALS",
+        "X07-GAP-APPROVED-ASOF",
+        "X07-GAP-FMA-TDA",
+        "X07-GAP-AAWS-TRANSACTION",
+        "X07-GAP-SF133-GTAS",
+        "X07-GAP-VOUCHER-PAYMENT",
+        "X07-GAP-IMMUTABLE-ORIGINALS"
+      ],
+      "financial_state_ids": [
+        "X07-EXEC-2025-NOYEAR",
+        "X07-EXEC-2025-LEGACY2020",
+        "X07-EXEC-2025-SUBTOTAL"
+      ],
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25",
+        "SRC-X07-VA-FUNDS2024",
+        "SRC-X07-VA-SYMBOLS2024",
+        "SRC-X07-OMB-PUBLIC",
+        "SRC-X07-OPENOMB-DEC24"
+      ],
+      "individual_apportionment_original_verified": false,
+      "allotment_signed_and_distributed_verified": false,
+      "GAO_or_agency_transaction_audit_verified": false,
+      "individual_payment_proven": false,
+      "OMB_line6190_is_account_actual": false,
+      "year_end_final_SF132_authenticated": false,
+      "original_bytes_immutably_archived": false,
+      "independent_legal_review_qualified": false
+    }
+  ]
+}

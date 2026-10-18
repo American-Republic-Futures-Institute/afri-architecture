@@ -1,0 +1,431 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc07-federal-treasury-relationships",
+  "items": [
+    {
+      "id": "X07-REL-01",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X06-ACCOUNT-VA-0102",
+      "to_id": "X07-TAS-VA-0102-X-000",
+      "relationship_type": "reported_no_year_TAS_component",
+      "summary": "Treasury FY2025 account rollup contains a no-year subaccount 000 component.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25",
+        "SRC-X07-VA-SYMBOLS2024"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-02",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X06-ACCOUNT-VA-0102",
+      "to_id": "X07-TAS-VA-0102-2020-000",
+      "relationship_type": "reported_prior_fiscal_period_component",
+      "summary": "Treasury reports an FY2020 legacy component separately; do not treat it as a fresh FY2025 tranche.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-03",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X06-ACCOUNT-VA-0102",
+      "to_id": "X07-TAS-VA-0102-SUBTOTAL",
+      "relationship_type": "reported_account_aggregation_not_component",
+      "summary": "Rollup of all periods is not itself a component TAS.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-04",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-TAS-VA-0102-X-000",
+      "to_id": "X07-EXEC-2025-NOYEAR",
+      "relationship_type": "Treasury_no_year_component_report",
+      "summary": "FY2025 no-year row has exact to-cent appropriations, net outlays and balances.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-05",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-TAS-VA-0102-2020-000",
+      "to_id": "X07-EXEC-2025-LEGACY2020",
+      "relationship_type": "Treasury_legacy_component_report",
+      "summary": "The FY2020 component includes negative net outlay adjustments and balance withdrawal.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-06",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-TAS-VA-0102-SUBTOTAL",
+      "to_id": "X07-EXEC-2025-SUBTOTAL",
+      "relationship_type": "Treasury_account_rollup_report",
+      "summary": "Year-end account subtotal aggregates component rows, distinct from transactional receipts.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-07",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-ENACTED-FY25",
+      "to_id": "X07-EXEC-2025-NOYEAR",
+      "relationship_type": "enacted_authority_equals_reported_account_authority_not_spend_allocation",
+      "summary": "FY2025 exact enacted amounts equal Treasury new no-year obligational authority; not attributable outlays.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25",
+        "SRC-X06-PL118-42",
+        "SRC-X06-PL119-4"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-SF133-GTAS"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-08",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X06-METRIC-OUTLAYS-NET",
+      "to_id": "X07-EXEC-2025-SUBTOTAL",
+      "relationship_type": "OMB_rounded_net_outlays_match_Treasury_exact_account_cash",
+      "summary": "FY2025 OMB net outlay $200,671m rounds the Treasury FY2025 subtotal $200,670,783,364.35.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25",
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-SF133-GTAS"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-09",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-APP-01",
+      "to_id": "X06-ACCOUNT-VA-0102",
+      "relationship_type": "third_party_index_points_to_FY2025_OMB_document",
+      "summary": "Indexed approval 2024-08-19, not original signed SF132.",
+      "source_ids": [
+        "SRC-X07-OPENOMB-AUG24"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-APPORTIONMENT-ORIGINALS"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-10",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-APP-02",
+      "to_id": "X06-ACCOUNT-VA-0102",
+      "relationship_type": "third_party_index_points_to_FY2025_OMB_document",
+      "summary": "Indexed approval 2024-11-22, not an agency allotment.",
+      "source_ids": [
+        "SRC-X07-OPENOMB-NOV24"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-APPORTIONMENT-ORIGINALS"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-11",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-APP-03",
+      "to_id": "X06-ACCOUNT-VA-0102",
+      "relationship_type": "third_party_transcription_of_OMB_reapportionment",
+      "summary": "Indexed 2024-12-20 with official JSON locator; line 6190 is budget resources, not a FY2025 outlay or actual allotment.",
+      "source_ids": [
+        "SRC-X07-OPENOMB-DEC24",
+        "SRC-X07-OMB-2024-DEC-JSON"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-APPROVED-ASOF"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-12",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-APP-04",
+      "to_id": "X06-ACCOUNT-VA-0102",
+      "relationship_type": "third_party_index_points_to_FY2025_OMB_document",
+      "summary": "Indexed approval 2025-04-14; primary full record not independently fetched.",
+      "source_ids": [
+        "SRC-X07-OPENOMB-APR25"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-APPROVED-ASOF"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-13",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-CTRL-APPROPRIATION",
+      "to_id": "X07-CTRL-APPORTIONMENT",
+      "relationship_type": "VA_policy_level_one_to_two_process",
+      "summary": "VA controls the flow from statutory appropriation to OMB apportionment, but no account-specific SF132 is authenticated here.",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-APPORTIONMENT-ORIGINALS"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-14",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-CTRL-APPORTIONMENT",
+      "to_id": "X07-CTRL-ALLOTMENT",
+      "relationship_type": "VA_policy_OMB_control_to_TDA",
+      "summary": "VA policy requires approved apportionment before allotment issuance; actual signed TDA remains missing.",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-FMA-TDA"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-15",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-CTRL-ALLOTMENT",
+      "to_id": "X07-CTRL-SUBALLOTMENT",
+      "relationship_type": "VA_policy_TDA_to_subdivision",
+      "summary": "Allotted budget cannot be exceeded by approved subdivisions; specific 2025 allotment numbers not obtained.",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-AAWS-TRANSACTION"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-16",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-CTRL-AAWS",
+      "to_id": "X07-GAP-AAWS-TRANSACTION",
+      "relationship_type": "VA_policy_AAWS_record_custody_requirement",
+      "summary": "VA policy requires AAWS approvals and FMS/iFAMS posting/review evidence, not yet obtained.",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-17",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-EXEC-2025-SUBTOTAL",
+      "to_id": "X07-GAP-SF133-GTAS",
+      "relationship_type": "account_rollup_not_SF133_or_obligation_ledger",
+      "summary": "Treasury exact net cash is not FY2025 original agency obligation documentation.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-18",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-APP-03",
+      "to_id": "X07-GAP-APPROVED-ASOF",
+      "relationship_type": "dated_2024_revision_not_FY2025_final_approval",
+      "summary": "A December 2024 apportionment line cannot be automatically treated as September 2025 final approval amount.",
+      "source_ids": [
+        "SRC-X07-OPENOMB-DEC24"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-19",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-EXEC-2025-NOYEAR",
+      "to_id": "X07-GAP-VOUCHER-PAYMENT",
+      "relationship_type": "no_year_aggregate_does_not_identify_claimant_disbursement",
+      "summary": "Treasury aggregate no-year net outlays do not identify an individual beneficiary disbursement.",
+      "source_ids": [
+        "SRC-X07-TREASURY-CS25"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-20",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-APP-04",
+      "to_id": "X07-GAP-IMMUTABLE-ORIGINALS",
+      "relationship_type": "index_only_cannot_establish_primary_signed_custody",
+      "summary": "An indexed official archive location without recovered original bytes is insufficient for custody certification.",
+      "source_ids": [
+        "SRC-X07-OMB-PUBLIC",
+        "SRC-X07-OPENOMB-APR25"
+      ],
+      "qualification_gap_ids": [],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    },
+    {
+      "id": "X07-REL-21",
+      "type": "typed_federal_fiscal_evidence_claim_not_payment_authority",
+      "trace_id": "X07-TRACE-VA-2025-0102",
+      "from_id": "X07-CTRL-ALLOTMENT",
+      "to_id": "X06-GAP-OFFICIAL-DELEGATION",
+      "relationship_type": "VA_policy_role_not_individual_signed_delegation",
+      "summary": "VBA headship and allotment role do not establish any individual signatory authority.",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "qualification_gap_ids": [
+        "X07-GAP-FMA-TDA"
+      ],
+      "individual_obligation_authorized": false,
+      "individual_disbursement_certified": false,
+      "original_OMB_SF132_signoff_qualified": false,
+      "VA_allotment_amount_verified": false,
+      "account_to_beneficiary_funding_causal_proven": false,
+      "review_status": "source_qualified_account_observation_with_open_operational_gates"
+    }
+  ]
+}

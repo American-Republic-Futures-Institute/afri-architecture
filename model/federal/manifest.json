@@ -197,7 +197,15 @@
     "model/federal/x06-outcomes.json",
     "model/federal/x06-gaps.json",
     "model/federal/x06-relationships.json",
-    "model/federal/x06-traces.json"
+    "model/federal/x06-traces.json",
+    "model/federal/x07-sources.json",
+    "model/federal/x07-tas.json",
+    "model/federal/x07-apportionments.json",
+    "model/federal/x07-controls.json",
+    "model/federal/x07-execution.json",
+    "model/federal/x07-gaps.json",
+    "model/federal/x07-relationships.json",
+    "model/federal/x07-traces.json"
   ],
   "standards": [
     {
@@ -682,5 +690,25 @@
     "human_legal_review_complete": false,
     "institutional_approval_complete": false,
     "semantic_boundary": "No agency obligating authority may be inferred from an enactment, OMB account aggregate, organizational name or workload observation."
+  },
+  "federal_treasury_execution_07_extension": {
+    "id": "ARFI-FED-X07-VA-ACCOUNT-0102-FY2025",
+    "status": "government_source_published_aggregate_secondary_apportionment_index_unratified",
+    "fiscal_year": 2025,
+    "parent_trace_id": "X06-TRACE-VA-2025-0102",
+    "treasury_component_rows": 3,
+    "apportionment_secondary_index_revisions": 4,
+    "VA_funds_control_policy_records": 5,
+    "source_references": 9,
+    "relationship_count": 21,
+    "mandatory_gap_count": 7,
+    "treasury_exact_no_year_appropriations_cents": 21255257900000,
+    "treasury_exact_subtotal_net_outlays_cents": 20067078336435,
+    "approved_original_SF132_captured": false,
+    "allotment_TDA_signed_evidence": false,
+    "individual_payment_traced": false,
+    "originals_cryptographically_archived": false,
+    "legal_and_institutional_review_complete": false,
+    "publishing_contract": "historical_government_accounting_rows_not_statutory_operating_authority_or_transaction_proof"
   }
 }

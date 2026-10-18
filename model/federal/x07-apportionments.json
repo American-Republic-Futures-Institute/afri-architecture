@@ -1,0 +1,105 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc07-federal-treasury-apportionments",
+  "items": [
+    {
+      "id": "X07-APP-01",
+      "type": "fy2025_OMB_approved_apportionment_index_entry_not_original_verified",
+      "title": "Indexed FY2025 disability compensation OMB apportionment 2024-08-19",
+      "OMB_file_id": "11366310",
+      "OMB_approval_date_reported": "2024-08-19",
+      "source_index_id": "SRC-X07-OPENOMB-AUG24",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "TAFS_index_notation": "036-0102 /X",
+      "index_display_account_name": "Disability Compensation Benefits",
+      "reporting_fiscal_year": 2025,
+      "approval_date_evidence_type": "secondary_document_page",
+      "actual_original_JSON_bytes_received": false,
+      "original_document_sha256": null,
+      "OMB_signed_record_verified": false,
+      "FY2025_funds_actually_allotted_verified": false,
+      "supplemental_act_tranche_attribution_verified": false,
+      "source_ids": [
+        "SRC-X07-OPENOMB-AUG24",
+        "SRC-X07-OMB-PUBLIC"
+      ],
+      "review_status": "indexed_OMB_document_existence_original_source_bytes_pending"
+    },
+    {
+      "id": "X07-APP-02",
+      "type": "fy2025_OMB_approved_apportionment_index_entry_not_original_verified",
+      "title": "Indexed FY2025 disability compensation OMB apportionment 2024-11-22",
+      "OMB_file_id": "11397317",
+      "OMB_approval_date_reported": "2024-11-22",
+      "source_index_id": "SRC-X07-OPENOMB-NOV24",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "TAFS_index_notation": "036-0102 /X",
+      "index_display_account_name": "Disability Compensation Benefits",
+      "reporting_fiscal_year": 2025,
+      "approval_date_evidence_type": "secondary_document_page",
+      "actual_original_JSON_bytes_received": false,
+      "original_document_sha256": null,
+      "OMB_signed_record_verified": false,
+      "FY2025_funds_actually_allotted_verified": false,
+      "supplemental_act_tranche_attribution_verified": false,
+      "source_ids": [
+        "SRC-X07-OPENOMB-NOV24",
+        "SRC-X07-OMB-PUBLIC"
+      ],
+      "review_status": "indexed_OMB_document_existence_original_source_bytes_pending"
+    },
+    {
+      "id": "X07-APP-03",
+      "type": "fy2025_OMB_approved_apportionment_index_entry_not_original_verified",
+      "title": "Indexed FY2025 disability compensation OMB apportionment 2024-12-20",
+      "OMB_file_id": "11403044",
+      "OMB_approval_date_reported": "2024-12-20",
+      "source_index_id": "SRC-X07-OPENOMB-DEC24",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "TAFS_index_notation": "036-0102 /X",
+      "index_display_account_name": "Disability Compensation Benefits",
+      "reporting_fiscal_year": 2025,
+      "approval_date_evidence_type": "secondary_document_page_plus_original_link",
+      "actual_original_JSON_bytes_received": false,
+      "original_document_sha256": null,
+      "OMB_signed_record_verified": false,
+      "FY2025_funds_actually_allotted_verified": false,
+      "supplemental_act_tranche_attribution_verified": false,
+      "source_ids": [
+        "SRC-X07-OPENOMB-DEC24",
+        "SRC-X07-OMB-PUBLIC",
+        "SRC-X07-OMB-2024-DEC-JSON"
+      ],
+      "review_status": "indexed_OMB_document_existence_original_source_bytes_pending",
+      "original_publisher_JSON_url": "https://apportionment-public.max.gov/Fiscal%20Year%202025/Department%20of%20Veterans%20Affairs/JSON/FY2025_Agency%3DVA_Bureau%3DBP_TAFS%3D036-X-0102_Iteration%3D3_2024-12-20-16.01.json",
+      "secondary_transcription_budgetary_resources_line_6190_usd": 188399203181,
+      "secondary_transcription_annual_basis_line_6011_usd": 186719203181,
+      "secondary_transcription_prior_year_recovery_footnote_B1": "Line 6190 footnote states additional recoveries may adjust pursuant to legal limits",
+      "secondary_transcription_rounding_caveat_B1": "Some estimates may be rounded upward; agency allots actuals, not rounded line amounts",
+      "line_6190_is_obligations_or_actual_FY2025_SF133": false
+    },
+    {
+      "id": "X07-APP-04",
+      "type": "fy2025_OMB_approved_apportionment_index_entry_not_original_verified",
+      "title": "Indexed FY2025 disability compensation OMB apportionment 2025-04-14",
+      "OMB_file_id": "11424792",
+      "OMB_approval_date_reported": "2025-04-14",
+      "source_index_id": "SRC-X07-OPENOMB-APR25",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "TAFS_index_notation": "036-0102 /X",
+      "index_display_account_name": "Disability Compensation Benefits",
+      "reporting_fiscal_year": 2025,
+      "approval_date_evidence_type": "secondary_search_page_index_only",
+      "actual_original_JSON_bytes_received": false,
+      "original_document_sha256": null,
+      "OMB_signed_record_verified": false,
+      "FY2025_funds_actually_allotted_verified": false,
+      "supplemental_act_tranche_attribution_verified": false,
+      "source_ids": [
+        "SRC-X07-OPENOMB-APR25",
+        "SRC-X07-OMB-PUBLIC"
+      ],
+      "review_status": "indexed_OMB_document_existence_original_source_bytes_pending"
+    }
+  ]
+}
