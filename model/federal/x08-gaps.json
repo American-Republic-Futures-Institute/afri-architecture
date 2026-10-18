@@ -1,0 +1,117 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc08-gaps",
+  "items": [
+    {
+      "id": "X08-GAP-OMB-SIGNER",
+      "type": "mandatory_independent_evidence_qualification_gap",
+      "title": "Independent issuer approval and signed SF-132 validation",
+      "source_ids": [
+        "SRC-X08-OMB-11366310",
+        "SRC-X08-OMB-11397317",
+        "SRC-X08-OMB-11403044",
+        "SRC-X08-OMB-11424792"
+      ],
+      "verified": false,
+      "original_signed_instrument_sha256": null,
+      "qualifying_reviewer_identity": null,
+      "review_decision_signature": null,
+      "effective_on_date": null,
+      "external_WORM_copy_version_id": null,
+      "review_status": "open_independent_evidence_or_governance_requirement"
+    },
+    {
+      "id": "X08-GAP-FISCAL-YEAREND",
+      "type": "mandatory_independent_evidence_qualification_gap",
+      "title": "Complete FY2025 effective-on-date apportionment sequence certified",
+      "source_ids": [
+        "SRC-X08-OMB-11424792"
+      ],
+      "verified": false,
+      "original_signed_instrument_sha256": null,
+      "qualifying_reviewer_identity": null,
+      "review_decision_signature": null,
+      "effective_on_date": null,
+      "external_WORM_copy_version_id": null,
+      "review_status": "open_independent_evidence_or_governance_requirement"
+    },
+    {
+      "id": "X08-GAP-VA-FMA-TDA",
+      "type": "mandatory_independent_evidence_qualification_gap",
+      "title": "Specific authorized and signed VA account allotment / TDA FMA",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "verified": false,
+      "original_signed_instrument_sha256": null,
+      "qualifying_reviewer_identity": null,
+      "review_decision_signature": null,
+      "effective_on_date": null,
+      "external_WORM_copy_version_id": null,
+      "review_status": "open_independent_evidence_or_governance_requirement"
+    },
+    {
+      "id": "X08-GAP-VA-AAWS-IFAMS",
+      "type": "mandatory_independent_evidence_qualification_gap",
+      "title": "Account-specific AAWS approvals and posted iFAMS records",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "verified": false,
+      "original_signed_instrument_sha256": null,
+      "qualifying_reviewer_identity": null,
+      "review_decision_signature": null,
+      "effective_on_date": null,
+      "external_WORM_copy_version_id": null,
+      "review_status": "open_independent_evidence_or_governance_requirement"
+    },
+    {
+      "id": "X08-GAP-SF133-GTAS",
+      "type": "mandatory_independent_evidence_qualification_gap",
+      "title": "VA SF-133 and GTAS original source and ledger reconciliation",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "verified": false,
+      "original_signed_instrument_sha256": null,
+      "qualifying_reviewer_identity": null,
+      "review_decision_signature": null,
+      "effective_on_date": null,
+      "external_WORM_copy_version_id": null,
+      "review_status": "open_independent_evidence_or_governance_requirement"
+    },
+    {
+      "id": "X08-GAP-BENEFICIARY-PAYMENT",
+      "type": "mandatory_independent_evidence_qualification_gap",
+      "title": "Actual benefit obligation, approved voucher, and Treasury payment",
+      "source_ids": [
+        "SRC-X08-TREASURY-CS2025-CH42"
+      ],
+      "verified": false,
+      "original_signed_instrument_sha256": null,
+      "qualifying_reviewer_identity": null,
+      "review_decision_signature": null,
+      "effective_on_date": null,
+      "external_WORM_copy_version_id": null,
+      "review_status": "open_independent_evidence_or_governance_requirement"
+    },
+    {
+      "id": "X08-GAP-INSTITUTIONAL-IMMUTABILITY",
+      "type": "mandatory_independent_evidence_qualification_gap",
+      "title": "Governed immutable primary+replica storage, credentials and independent human review",
+      "source_ids": [
+        "SRC-X08-OMB-11366310",
+        "SRC-X08-OMB-11397317",
+        "SRC-X08-OMB-11403044",
+        "SRC-X08-OMB-11424792"
+      ],
+      "verified": false,
+      "original_signed_instrument_sha256": null,
+      "qualifying_reviewer_identity": null,
+      "review_decision_signature": null,
+      "effective_on_date": null,
+      "external_WORM_copy_version_id": null,
+      "review_status": "open_independent_evidence_or_governance_requirement"
+    }
+  ]
+}

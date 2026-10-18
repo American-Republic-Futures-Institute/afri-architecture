@@ -1,0 +1,99 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc08-controls",
+  "items": [
+    {
+      "id": "X08-CTRL-OMB-SF132-SIGNATURE",
+      "type": "required_fiscal_execution_instrument_or_reconciliation_control",
+      "title": "OMB approval authentication beyond published JSON metadata",
+      "instrument_kind": "OMB_approved_SF132_signature_validation",
+      "source_ids": [
+        "SRC-X08-OMB-11366310",
+        "SRC-X08-OMB-11397317",
+        "SRC-X08-OMB-11403044",
+        "SRC-X08-OMB-11424792"
+      ],
+      "actual_fy2025_account_signed_document_captured": false,
+      "individual_official_delegation_verified": false,
+      "effective_account_amount_usd": null,
+      "instrument_original_sha256": null,
+      "source_period_qualified": false,
+      "review_status": "required_document_unobtained_no_inferred_authority"
+    },
+    {
+      "id": "X08-CTRL-VA-FMA-TDA",
+      "type": "required_fiscal_execution_instrument_or_reconciliation_control",
+      "title": "FY2025 VA signed Financial Management Allowance and transfer of disbursing authority",
+      "instrument_kind": "VA_FMA_TDA_signed_account_distribution",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "actual_fy2025_account_signed_document_captured": false,
+      "individual_official_delegation_verified": false,
+      "effective_account_amount_usd": null,
+      "instrument_original_sha256": null,
+      "source_period_qualified": false,
+      "review_status": "required_document_unobtained_no_inferred_authority"
+    },
+    {
+      "id": "X08-CTRL-VA-AAWS-IFAMS",
+      "type": "required_fiscal_execution_instrument_or_reconciliation_control",
+      "title": "Account-specific VA AAWS and iFAMS postings",
+      "instrument_kind": "VA_AAWS_IFAMS_approved_account_entries",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "actual_fy2025_account_signed_document_captured": false,
+      "individual_official_delegation_verified": false,
+      "effective_account_amount_usd": null,
+      "instrument_original_sha256": null,
+      "source_period_qualified": false,
+      "review_status": "required_document_unobtained_no_inferred_authority"
+    },
+    {
+      "id": "X08-CTRL-VA-SF133",
+      "type": "required_fiscal_execution_instrument_or_reconciliation_control",
+      "title": "FY2025 VA account-specific SF-133",
+      "instrument_kind": "VA_SF133_fiscal_execution_report",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "actual_fy2025_account_signed_document_captured": false,
+      "individual_official_delegation_verified": false,
+      "effective_account_amount_usd": null,
+      "instrument_original_sha256": null,
+      "source_period_qualified": false,
+      "review_status": "required_document_unobtained_no_inferred_authority"
+    },
+    {
+      "id": "X08-CTRL-TREASURY-GTAS",
+      "type": "required_fiscal_execution_instrument_or_reconciliation_control",
+      "title": "FY2025 original GTAS submission for Compensation and Pensions",
+      "instrument_kind": "treasury_GTAS_agency_submission",
+      "source_ids": [
+        "SRC-X08-TREASURY-CS2025-CH42"
+      ],
+      "actual_fy2025_account_signed_document_captured": false,
+      "individual_official_delegation_verified": false,
+      "effective_account_amount_usd": null,
+      "instrument_original_sha256": null,
+      "source_period_qualified": false,
+      "review_status": "required_document_unobtained_no_inferred_authority"
+    },
+    {
+      "id": "X08-CTRL-BENEFIT-PAYMENT",
+      "type": "required_fiscal_execution_instrument_or_reconciliation_control",
+      "title": "Individual benefits obligation, voucher and Treasury disbursement",
+      "instrument_kind": "VA_claimant_obligation_payment_event",
+      "source_ids": [
+        "SRC-X08-TREASURY-CS2025-CH42"
+      ],
+      "actual_fy2025_account_signed_document_captured": false,
+      "individual_official_delegation_verified": false,
+      "effective_account_amount_usd": null,
+      "instrument_original_sha256": null,
+      "source_period_qualified": false,
+      "review_status": "required_document_unobtained_no_inferred_authority"
+    }
+  ]
+}

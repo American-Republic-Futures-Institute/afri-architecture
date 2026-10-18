@@ -1,0 +1,117 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc08-reconciliations",
+  "items": [
+    {
+      "id": "X08-REC-OMB-REVISION-6190",
+      "type": "source_temporal_qualified_federal_funds_control_reconciliation",
+      "title": "Official original OMB account apportionment resource history",
+      "reconciliation_kind": "dated_OMB_publisher_line_6190_history",
+      "observed_usd": 218641267181,
+      "comparison_usd": 188399203181,
+      "source_ids": [
+        "SRC-X08-OMB-11366310",
+        "SRC-X08-OMB-11397317",
+        "SRC-X08-OMB-11403044",
+        "SRC-X08-OMB-11424792"
+      ],
+      "review_status": "primary_bytes_verified_dated_approval_history_not_yearend_SF133",
+      "explanation": "Dec 2024 and Apr 2025 revisions are not simultaneous. OMB source line 6190 changes after the March 2025 supplemental funding.",
+      "individual_payment_proven": false,
+      "FMA_TDA_allotment_approved": false,
+      "SF133_GTAS_agreement_authenticated": false,
+      "is_published_authority_not_payment": true
+    },
+    {
+      "id": "X08-REC-APRIL-6011",
+      "type": "source_temporal_qualified_federal_funds_control_reconciliation",
+      "title": "OMB Apr 14 annual basis includes source-recorded beginning unobligated amount",
+      "reconciliation_kind": "fiscal_april_line6011_equals_original_enacted_amount_plus_opening_balance",
+      "observed_usd": 216961267181,
+      "comparison_usd": 216961267181,
+      "source_ids": [
+        "SRC-X08-OMB-11424792",
+        "SRC-X06-PL118-42",
+        "SRC-X06-PL119-4"
+      ],
+      "review_status": "same_document_arithmetic_verified_not_final_spending",
+      "explanation": "Original April JSON lines 1200, 1270, 1000 and 6011 reconcile; does not independently establish VA allotment.",
+      "individual_payment_proven": false,
+      "FMA_TDA_allotment_approved": false,
+      "SF133_GTAS_agreement_authenticated": false,
+      "is_published_authority_not_payment": true
+    },
+    {
+      "id": "X08-REC-APRIL-6190",
+      "type": "source_temporal_qualified_federal_funds_control_reconciliation",
+      "title": "OMB April resources include expected prior-year recoveries",
+      "reconciliation_kind": "fiscal_april_line6190_equals_annual_basis_plus_recoveries",
+      "observed_usd": 218641267181,
+      "comparison_usd": 218641267181,
+      "source_ids": [
+        "SRC-X08-OMB-11424792"
+      ],
+      "review_status": "same_document_arithmetic_verified_not_fy2025_actual",
+      "explanation": "Lines 6012–6015 add $80m, $100m, $600m and $900m in recovery categories; SF-133 actuals can differ.",
+      "individual_payment_proven": false,
+      "FMA_TDA_allotment_approved": false,
+      "SF133_GTAS_agreement_authenticated": false,
+      "is_published_authority_not_payment": true
+    },
+    {
+      "id": "X08-REC-OMB-APRIL-VS-ACTUAL",
+      "type": "source_temporal_qualified_federal_funds_control_reconciliation",
+      "title": "April OMB approved-plan resources and later OMB FY2025 actual resources are different bases",
+      "reconciliation_kind": "different_reporting_dates_and_accounting_classes_not_directly_reconcilable",
+      "observed_usd": 218641267181,
+      "comparison_usd": 217841000000,
+      "source_ids": [
+        "SRC-X08-OMB-11424792",
+        "SRC-X06-OMB27-VA"
+      ],
+      "review_status": "explicit_temporal_noncomparability_missing_SF133",
+      "explanation": "Do not treat the approximately $800 million difference as unexplained missing payments; recovery forecasts and later actual data use different bases.",
+      "individual_payment_proven": false,
+      "FMA_TDA_allotment_approved": false,
+      "SF133_GTAS_agreement_authenticated": false,
+      "is_published_authority_not_payment": true
+    },
+    {
+      "id": "X08-REC-TREASURY-NET-OUTLAY",
+      "type": "source_temporal_qualified_federal_funds_control_reconciliation",
+      "title": "Treasury FY2025 exact net outlays and OMB rounded historical outlays",
+      "reconciliation_kind": "exact_cash_to_nearest_million_OMB_rounding",
+      "observed_usd": null,
+      "comparison_usd": 200671000000,
+      "source_ids": [
+        "SRC-X08-TREASURY-CS2025-CH42",
+        "SRC-X06-OMB27-VA"
+      ],
+      "review_status": "published_account_aggregate_reconcilable_original_Treasury_PDF_custody_missing",
+      "explanation": "Treasury FY2025 account subtotal net outlays of $200,670,783,364.35 are expressed only in exact cents; the separately reported OMB FY2025 actual net outlay was rounded to $200,671 million. Original Treasury Chapter 42 PDF raw byte custody remains pending.",
+      "individual_payment_proven": false,
+      "FMA_TDA_allotment_approved": false,
+      "SF133_GTAS_agreement_authenticated": false,
+      "is_published_authority_not_payment": true,
+      "treasury_reported_exact_net_outlays_cents": 20067078336435
+    },
+    {
+      "id": "X08-REC-VA-SF133-GTAS",
+      "type": "source_temporal_qualified_federal_funds_control_reconciliation",
+      "title": "SF-133 obligations and GTAS account status to apportionments and Treasury outlays",
+      "reconciliation_kind": "missing_primary_SF133_GTAS_account_documents",
+      "observed_usd": null,
+      "comparison_usd": null,
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024",
+        "SRC-X08-TREASURY-CS2025-CH42"
+      ],
+      "review_status": "blocked_until_original_agency_reports_and_account_mappings",
+      "explanation": "Original account-specific FY2025 SF-133/GTAS and line-by-line reconciliation not retrieved; no comparative amounts accepted.",
+      "individual_payment_proven": false,
+      "FMA_TDA_allotment_approved": false,
+      "SF133_GTAS_agreement_authenticated": false,
+      "is_published_authority_not_payment": true
+    }
+  ]
+}

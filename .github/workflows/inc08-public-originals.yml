@@ -1,0 +1,37 @@
+name: INC08 source original capture — unsigned public evidence
+on:
+  pull_request:
+    paths:
+      - 'scripts/inc08-original-capture*.mjs'
+      - 'scripts/inc08-original-capture-core.mjs'
+      - 'scripts/inc08-export-omb.mjs'
+      - 'tests/inc08-original-capture.test.mjs'
+      - '.github/workflows/inc08-public-originals.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture-originals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run adversarial source capture and anti-SSRF tests
+        run: node --test tests/inc08-original-capture.test.mjs
+      - name: Best-effort read-only official source capture; record unavailable independently
+        run: |
+          node scripts/inc08-original-capture.mjs --capture "$RUNNER_TEMP/arfi-inc08-originals"
+          node scripts/inc08-original-capture.mjs --verify "$RUNNER_TEMP/arfi-inc08-originals"
+      - name: Export four specifically pinned original public OMB JSON byte streams for controlled Git commit
+        run: node scripts/inc08-export-omb.mjs "$RUNNER_TEMP/arfi-inc08-originals"
+      - name: Keep original response bodies and receipts as TEMPORARY unsigned 90-day evidence, never WORM
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arfi-inc08-official-response-bytes-UNSIGNED-90D
+          path: ${{ runner.temp }}/arfi-inc08-originals
+          if-no-files-found: warn
+          retention-days: 90

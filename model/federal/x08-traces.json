@@ -1,0 +1,144 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc08-traces",
+  "items": [
+    {
+      "id": "X08-TRACE-VA-2025-0102",
+      "type": "federal_apportionment_primary_document_and_execution_evidence_chain",
+      "title": "FY2025 VA Compensation and Pensions — OMB original approvals to unresolved agency execution",
+      "parent_trace_id": "X07-TRACE-VA-2025-0102",
+      "account_id": "X06-ACCOUNT-VA-0102",
+      "source_fiscal_year": 2025,
+      "model_snapshot_date": "2026-10-18",
+      "last_verified_source_approval": "2025-04-14",
+      "four_OMB_json_origins_sha_verified": true,
+      "independent_official_signatures_authenticated": false,
+      "FY2025_yearend_effective_apportionment_proven": false,
+      "VA_FMA_TDA_fund_distribution_verified": false,
+      "VA_SF133_GTAS_original_ledger_verified": false,
+      "individual_federal_payment_event_verified": false,
+      "institutional_immutable_custody_complete": false,
+      "independent_legal_review_complete": false,
+      "stages": [
+        {
+          "id": "authority_and_account",
+          "title": "01 / Enacted appropriations, account and no-year components",
+          "record_ids": [
+            "CONST-US-ART-01-SEC-09-CL-07",
+            "X06-ACCOUNT-VA-0102",
+            "X06-METRIC-ENACTED-FY25",
+            "X07-TAS-VA-0102-X-000"
+          ],
+          "note": "Source evidence is bounded by legal status, approval validity and reporting date; no individual obligating or payment authority is conferred."
+        },
+        {
+          "id": "OMB_original_document",
+          "title": "02 / Four actual published OMB original JSON revisions",
+          "record_ids": [
+            "X07-APP-01",
+            "X07-APP-02",
+            "X07-APP-03",
+            "X07-APP-04",
+            "X08-OMB-REV-01",
+            "X08-OMB-REV-02",
+            "X08-OMB-REV-03",
+            "X08-OMB-REV-04"
+          ],
+          "note": "Source evidence is bounded by legal status, approval validity and reporting date; no individual obligating or payment authority is conferred."
+        },
+        {
+          "id": "artifact_and_issuer_custody",
+          "title": "03 / Original-source bytes, SHA-256 and official issuer identity",
+          "record_ids": [
+            "SRC-X08-OMB-11366310",
+            "SRC-X08-OMB-11397317",
+            "SRC-X08-OMB-11403044",
+            "SRC-X08-OMB-11424792",
+            "SRC-X08-VA-FUNDS-2024",
+            "SRC-X08-VA-SYMBOLS-2024",
+            "SRC-X08-TREASURY-CS2025-CH42"
+          ],
+          "note": "Source evidence is bounded by legal status, approval validity and reporting date; no individual obligating or payment authority is conferred."
+        },
+        {
+          "id": "apportionment_arithmetic",
+          "title": "04 / Annual basis, recoveries, and temporal qualification",
+          "record_ids": [
+            "X08-REC-OMB-REVISION-6190",
+            "X08-REC-APRIL-6011",
+            "X08-REC-APRIL-6190",
+            "X08-REC-OMB-APRIL-VS-ACTUAL"
+          ],
+          "note": "Source evidence is bounded by legal status, approval validity and reporting date; no individual obligating or payment authority is conferred."
+        },
+        {
+          "id": "VA_allotments_and_execution",
+          "title": "05 / Required VA account-level FMA TDA AAWS SF133 and GTAS",
+          "record_ids": [
+            "X08-CTRL-OMB-SF132-SIGNATURE",
+            "X08-CTRL-VA-FMA-TDA",
+            "X08-CTRL-VA-AAWS-IFAMS",
+            "X08-CTRL-VA-SF133",
+            "X08-CTRL-TREASURY-GTAS",
+            "X08-CTRL-BENEFIT-PAYMENT"
+          ],
+          "note": "Source evidence is bounded by legal status, approval validity and reporting date; no individual obligating or payment authority is conferred."
+        },
+        {
+          "id": "reported_cash_and_gap",
+          "title": "06 / Treasury reported cash and unreconciled source ledgers",
+          "record_ids": [
+            "X08-REC-TREASURY-NET-OUTLAY",
+            "X08-REC-VA-SF133-GTAS",
+            "X07-EXEC-2025-SUBTOTAL"
+          ],
+          "note": "Source evidence is bounded by legal status, approval validity and reporting date; no individual obligating or payment authority is conferred."
+        },
+        {
+          "id": "unresolved_and_governance",
+          "title": "07 / Signed controls, immutable custody and independent review",
+          "record_ids": [
+            "X08-GAP-OMB-SIGNER",
+            "X08-GAP-FISCAL-YEAREND",
+            "X08-GAP-VA-FMA-TDA",
+            "X08-GAP-VA-AAWS-IFAMS",
+            "X08-GAP-SF133-GTAS",
+            "X08-GAP-BENEFICIARY-PAYMENT",
+            "X08-GAP-INSTITUTIONAL-IMMUTABILITY"
+          ],
+          "note": "Source evidence is bounded by legal status, approval validity and reporting date; no individual obligating or payment authority is conferred."
+        }
+      ],
+      "relationship_ids": [
+        "X08-REL-01",
+        "X08-REL-02",
+        "X08-REL-03",
+        "X08-REL-04",
+        "X08-REL-05",
+        "X08-REL-06",
+        "X08-REL-07",
+        "X08-REL-08",
+        "X08-REL-09",
+        "X08-REL-10",
+        "X08-REL-11",
+        "X08-REL-12",
+        "X08-REL-13",
+        "X08-REL-14",
+        "X08-REL-15",
+        "X08-REL-16",
+        "X08-REL-17",
+        "X08-REL-18"
+      ],
+      "mandatory_open_gap_ids": [
+        "X08-GAP-OMB-SIGNER",
+        "X08-GAP-FISCAL-YEAREND",
+        "X08-GAP-VA-FMA-TDA",
+        "X08-GAP-VA-AAWS-IFAMS",
+        "X08-GAP-SF133-GTAS",
+        "X08-GAP-BENEFICIARY-PAYMENT",
+        "X08-GAP-INSTITUTIONAL-IMMUTABILITY"
+      ],
+      "review_status": "official_OMB_raw_JSON_captured_source_integrity_validated_no_execution_or_signature_certified"
+    }
+  ]
+}
