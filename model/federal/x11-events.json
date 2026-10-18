@@ -1,0 +1,34 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc11-events",
+  "items": [
+    {
+      "id": "X11-EVENT-VA-FUNDS-2024-APPROVAL",
+      "type": "source_reported_instrument_event",
+      "instrument_id": "X11-INST-VA-FUNDS-2024",
+      "event_kind": "agency_policy_approval_reported",
+      "event_on": "2024-07-17",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "publisher_event_only": true,
+      "individual_delegation_event_verified": false,
+      "independently_verified_current_effect": false,
+      "supersession_verified": false
+    },
+    {
+      "id": "X11-EVENT-VA-PL11842-ENACTMENT",
+      "type": "source_reported_instrument_event",
+      "instrument_id": "X11-INST-VA-PL11842",
+      "event_kind": "public_law_enactment_reported",
+      "event_on": "2024-03-09",
+      "source_ids": [
+        "SRC-X06-PL118-42"
+      ],
+      "publisher_event_only": true,
+      "individual_delegation_event_verified": false,
+      "independently_verified_current_effect": false,
+      "supersession_verified": false
+    }
+  ]
+}

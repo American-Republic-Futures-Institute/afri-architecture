@@ -1,0 +1,101 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc11-instruments",
+  "items": [
+    {
+      "id": "X11-INST-VA-38-306",
+      "type": "legal_and_policy_instrument_overlay",
+      "title": "38 U.S.C. § 306 — Under Secretary for Benefits",
+      "instrument_kind": "codified_statute",
+      "citation": "38 U.S.C. § 306",
+      "canonical_source_or_instrument_ref": "SRC-X06-38-306",
+      "source_ids": [
+        "SRC-X06-38-306"
+      ],
+      "source_observed_on": "2026-10-17",
+      "reported_event_on": null,
+      "fiscal_availability_from": null,
+      "legal_effect_class": "statutory_source_context_without_individual_delegation",
+      "original_byte_qualified": false,
+      "complete_legal_citator_review": false,
+      "individual_action_supported": false,
+      "arfi_ratified": false
+    },
+    {
+      "id": "X11-INST-VA-PL11842",
+      "type": "legal_and_policy_instrument_overlay",
+      "title": "Public Law 118-42, Division A, Title II — FY2025 VA Compensation and Pensions",
+      "instrument_kind": "enacted_public_law",
+      "citation": "P.L. 118-42 div. A title II",
+      "canonical_source_or_instrument_ref": "SRC-X06-PL118-42",
+      "source_ids": [
+        "SRC-X06-PL118-42"
+      ],
+      "source_observed_on": "2026-10-17",
+      "reported_event_on": "2024-03-09",
+      "fiscal_availability_from": "2024-10-01",
+      "legal_effect_class": "enacted_account_authority_not_individual_obligation",
+      "original_byte_qualified": false,
+      "complete_legal_citator_review": false,
+      "individual_action_supported": false,
+      "arfi_ratified": false
+    },
+    {
+      "id": "X11-INST-USC31-1301",
+      "type": "legal_and_policy_instrument_overlay",
+      "title": "31 U.S.C. § 1301 — Purpose of appropriations",
+      "instrument_kind": "codified_statute",
+      "citation": "31 U.S.C. § 1301",
+      "canonical_source_or_instrument_ref": "X05-LAW-31-1301",
+      "source_ids": [
+        "SRC-X05-31-1301"
+      ],
+      "source_observed_on": "2026-10-07",
+      "reported_event_on": null,
+      "fiscal_availability_from": null,
+      "legal_effect_class": "statutory_source_context_without_individual_delegation",
+      "original_byte_qualified": false,
+      "complete_legal_citator_review": false,
+      "individual_action_supported": false,
+      "arfi_ratified": false
+    },
+    {
+      "id": "X11-INST-VA-FUNDS-2024",
+      "type": "legal_and_policy_instrument_overlay",
+      "title": "VA Volume II Chapter 03 — VA Funds Control",
+      "instrument_kind": "internal_agency_policy",
+      "citation": "VA Volume II Chapter 03, sections 0301–0305",
+      "canonical_source_or_instrument_ref": "SRC-X07-VA-FUNDS2024",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "source_observed_on": "2026-10-18",
+      "reported_event_on": "2024-07-17",
+      "fiscal_availability_from": null,
+      "legal_effect_class": "published_internal_controls_not_public_regulation_or_signed_allotment",
+      "original_byte_qualified": false,
+      "complete_legal_citator_review": false,
+      "individual_action_supported": false,
+      "arfi_ratified": false
+    },
+    {
+      "id": "X11-INST-ED-20-3403",
+      "type": "legal_and_policy_instrument_overlay",
+      "title": "20 U.S.C. § 3403 — Department of Education relationship with States",
+      "instrument_kind": "codified_statute",
+      "citation": "20 U.S.C. § 3403",
+      "canonical_source_or_instrument_ref": "FSTAT-PROV-ED-20-3403",
+      "source_ids": [
+        "SRC-FSTAT-ED-3403"
+      ],
+      "source_observed_on": "2026-10-16",
+      "reported_event_on": null,
+      "fiscal_availability_from": null,
+      "legal_effect_class": "statutory_source_context_without_individual_delegation",
+      "original_byte_qualified": false,
+      "complete_legal_citator_review": false,
+      "individual_action_supported": false,
+      "arfi_ratified": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc11-offices",
+  "items": [
+    {
+      "id": "X11-OFFICE-VA-UNDERSEC-BENEFITS",
+      "type": "federal_office_or_position_reference",
+      "name": "Under Secretary for Benefits",
+      "office_kind": "statutory_position_reference",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "existing_canonical_ref": "X06-ACTOR-UNDERSEC-BENEFITS",
+      "associated_unit_ref": "X06-ACTOR-VBA",
+      "source_ids": [
+        "SRC-X06-38-306"
+      ],
+      "reference_as_of": "2026-10-17",
+      "legal_placement_status": "source_bounded_statutory_headship_not_complete_institutional_review",
+      "named_incumbent_id": null,
+      "individual_delegation_verified": false,
+      "whole_department_adl1_qualified": false,
+      "review_status": "unratified_source_bounded"
+    },
+    {
+      "id": "X11-OFFICE-VA-BUDGET",
+      "type": "federal_office_or_position_reference",
+      "name": "VA Office of Budget (policy-named unit)",
+      "office_kind": "policy_named_administrative_unit_candidate",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "existing_canonical_ref": null,
+      "associated_unit_ref": null,
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "reference_as_of": "2026-10-18",
+      "legal_placement_status": "agency_policy_mention_not_independently_established_legal_office",
+      "named_incumbent_id": null,
+      "individual_delegation_verified": false,
+      "whole_department_adl1_qualified": false,
+      "review_status": "unratified_source_bounded"
+    }
+  ]
+}

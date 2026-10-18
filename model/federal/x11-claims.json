@@ -1,0 +1,145 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc11-claims",
+  "items": [
+    {
+      "id": "X11-CLAIM-VA-HEADSHIP",
+      "type": "typed_source_bounded_federal_claim",
+      "from_id": "X11-OFFICE-VA-UNDERSEC-BENEFITS",
+      "to_id": "X06-ACTOR-VBA",
+      "predicate": "statutory_headship_context",
+      "instrument_id": "X11-INST-VA-38-306",
+      "source_ids": [
+        "SRC-X06-38-306"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-VA-DELEGATION",
+        "X11-GAP-LEGAL-REVIEW"
+      ],
+      "statement": "38 U.S.C. §306 describes the headship role, not a named incumbent or signed delegation.",
+      "jurisdiction": "US_federal",
+      "reference_as_of": "2026-10-18",
+      "effective_scope": "source_and_fiscal_period_as_qualified_not_a_current_individual_decision",
+      "actual_delegation_verified": false,
+      "individual_government_action_verified": false,
+      "independently_qualified_legal_effect": false,
+      "assertion_status": "source_bounded_research_unratified"
+    },
+    {
+      "id": "X11-CLAIM-CONGRESS-VA-ENACTMENT",
+      "type": "typed_source_bounded_federal_claim",
+      "from_id": "ORG-FED-LEG-CONGRESS",
+      "to_id": "X06-APP-PL11842-FY25",
+      "predicate": "enacted_appropriation_context",
+      "instrument_id": "X11-INST-VA-PL11842",
+      "source_ids": [
+        "SRC-X06-PL118-42"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-VA-EXECUTION",
+        "X11-GAP-LEGAL-REVIEW"
+      ],
+      "statement": "Congress enacted bounded FY2025 VA fiscal authority, not a downstream individual obligation.",
+      "jurisdiction": "US_federal",
+      "reference_as_of": "2026-10-18",
+      "effective_scope": "source_and_fiscal_period_as_qualified_not_a_current_individual_decision",
+      "actual_delegation_verified": false,
+      "individual_government_action_verified": false,
+      "independently_qualified_legal_effect": false,
+      "assertion_status": "source_bounded_research_unratified"
+    },
+    {
+      "id": "X11-CLAIM-VA-PURPOSE",
+      "type": "typed_source_bounded_federal_claim",
+      "from_id": "X06-ACCOUNT-VA-0102",
+      "to_id": "X06-CTRL-PURPOSE",
+      "predicate": "statutory_limit_context",
+      "instrument_id": "X11-INST-USC31-1301",
+      "source_ids": [
+        "SRC-X05-31-1301"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-VA-EXECUTION"
+      ],
+      "statement": "General statutory purpose restriction, with specific exceptions or account execution separately unverified.",
+      "jurisdiction": "US_federal",
+      "reference_as_of": "2026-10-18",
+      "effective_scope": "source_and_fiscal_period_as_qualified_not_a_current_individual_decision",
+      "actual_delegation_verified": false,
+      "individual_government_action_verified": false,
+      "independently_qualified_legal_effect": false,
+      "assertion_status": "source_bounded_research_unratified"
+    },
+    {
+      "id": "X11-CLAIM-ED-STATE-LIMIT",
+      "type": "typed_source_bounded_federal_claim",
+      "from_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "to_id": "FSTAT-PROV-ED-20-3403",
+      "predicate": "statutory_limit_context",
+      "instrument_id": "X11-INST-ED-20-3403",
+      "source_ids": [
+        "SRC-FSTAT-ED-3403"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-ED-CURRENTNESS",
+        "X11-GAP-LEGAL-REVIEW"
+      ],
+      "statement": "Codified State/local control limitation is not an individual case-specific legal finding.",
+      "jurisdiction": "US_federal",
+      "reference_as_of": "2026-10-18",
+      "effective_scope": "source_and_fiscal_period_as_qualified_not_a_current_individual_decision",
+      "actual_delegation_verified": false,
+      "individual_government_action_verified": false,
+      "independently_qualified_legal_effect": false,
+      "assertion_status": "source_bounded_research_unratified"
+    },
+    {
+      "id": "X11-CLAIM-VA-BUDGET-POLICY",
+      "type": "typed_source_bounded_federal_claim",
+      "from_id": "X11-OFFICE-VA-BUDGET",
+      "to_id": "X07-CTRL-AAWS",
+      "predicate": "policy_described_workflow",
+      "instrument_id": "X11-INST-VA-FUNDS-2024",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-VA-DELEGATION",
+        "X11-GAP-VA-OFFICE",
+        "X11-GAP-VA-EXECUTION"
+      ],
+      "statement": "Internal policy description is not binding CFR, signed delegation or specific VA accounting posting.",
+      "jurisdiction": "US_federal",
+      "reference_as_of": "2026-10-18",
+      "effective_scope": "source_and_fiscal_period_as_qualified_not_a_current_individual_decision",
+      "actual_delegation_verified": false,
+      "individual_government_action_verified": false,
+      "independently_qualified_legal_effect": false,
+      "assertion_status": "source_bounded_research_unratified"
+    },
+    {
+      "id": "X11-CLAIM-VA-ALLOTMENT-POLICY",
+      "type": "typed_source_bounded_federal_claim",
+      "from_id": "X11-OFFICE-VA-BUDGET",
+      "to_id": "X07-CTRL-ALLOTMENT",
+      "predicate": "policy_described_workflow",
+      "instrument_id": "X11-INST-VA-FUNDS-2024",
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-VA-DELEGATION",
+        "X11-GAP-VA-OFFICE",
+        "X11-GAP-VA-EXECUTION"
+      ],
+      "statement": "Allotment process is not signed FY2025 FMA/TDA evidence.",
+      "jurisdiction": "US_federal",
+      "reference_as_of": "2026-10-18",
+      "effective_scope": "source_and_fiscal_period_as_qualified_not_a_current_individual_decision",
+      "actual_delegation_verified": false,
+      "individual_government_action_verified": false,
+      "independently_qualified_legal_effect": false,
+      "assertion_status": "source_bounded_research_unratified"
+    }
+  ]
+}

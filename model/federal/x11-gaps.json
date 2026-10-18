@@ -1,0 +1,97 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc11-gaps",
+  "items": [
+    {
+      "id": "X11-GAP-VA-DELEGATION",
+      "type": "unresolved_authority_or_policy_qualification",
+      "title": "VA-specific individual power delegation not verified",
+      "affected_ids": [
+        "X11-OFFICE-VA-UNDERSEC-BENEFITS",
+        "X11-OFFICE-VA-BUDGET",
+        "X07-CTRL-ALLOTMENT"
+      ],
+      "source_ids": [
+        "SRC-X06-38-306",
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "required_evidence": "Original effective authorized delegation, applicable scope, limitations and independent review; policy naming an office is insufficient.",
+      "verified": false,
+      "qualified_legal_review_complete": false,
+      "signed_official_instrument_sha256": null,
+      "review_status": "open_unverified"
+    },
+    {
+      "id": "X11-GAP-VA-OFFICE",
+      "type": "unresolved_authority_or_policy_qualification",
+      "title": "Office of Budget legal organizational identity and current placement unqualified",
+      "affected_ids": [
+        "X11-OFFICE-VA-BUDGET",
+        "ORG-FED-EXE-DEP-VA"
+      ],
+      "source_ids": [
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "required_evidence": "Bounded official organization source, statutory/administrative identity and time-scope review.",
+      "verified": false,
+      "qualified_legal_review_complete": false,
+      "signed_official_instrument_sha256": null,
+      "review_status": "open_unverified"
+    },
+    {
+      "id": "X11-GAP-VA-EXECUTION",
+      "type": "unresolved_authority_or_policy_qualification",
+      "title": "FY2025 action is not established by policy or appropriation alone",
+      "affected_ids": [
+        "X06-ACCOUNT-VA-0102",
+        "X06-APP-PL11842-FY25"
+      ],
+      "source_ids": [
+        "SRC-X06-PL118-42",
+        "SRC-X07-VA-FUNDS2024"
+      ],
+      "required_evidence": "Account-specific signed funds controls, actual obligation and payment with proper authority; X08–X10 gates unresolved.",
+      "verified": false,
+      "qualified_legal_review_complete": false,
+      "signed_official_instrument_sha256": null,
+      "review_status": "open_unverified"
+    },
+    {
+      "id": "X11-GAP-ED-CURRENTNESS",
+      "type": "unresolved_authority_or_policy_qualification",
+      "title": "Education statutory interpretation and temporal scope unqualified",
+      "affected_ids": [
+        "ORG-FED-EXE-DEP-EDUCATION",
+        "FSTAT-PROV-ED-20-3403"
+      ],
+      "source_ids": [
+        "SRC-FSTAT-ED-3403"
+      ],
+      "required_evidence": "Independent review of current applicability, historical time-limited subsection and controlling interpretations.",
+      "verified": false,
+      "qualified_legal_review_complete": false,
+      "signed_official_instrument_sha256": null,
+      "review_status": "open_unverified"
+    },
+    {
+      "id": "X11-GAP-LEGAL-REVIEW",
+      "type": "unresolved_authority_or_policy_qualification",
+      "title": "No independent qualified legal or institutional signoff",
+      "affected_ids": [
+        "X11-INST-VA-38-306",
+        "X11-INST-ED-20-3403",
+        "X11-INST-VA-PL11842"
+      ],
+      "source_ids": [
+        "SRC-X06-38-306",
+        "SRC-FSTAT-ED-3403",
+        "SRC-X06-PL118-42"
+      ],
+      "required_evidence": "Named independent reviewer, conflict review, controlling-law citation validation and signed institutional decision.",
+      "verified": false,
+      "qualified_legal_review_complete": false,
+      "signed_official_instrument_sha256": null,
+      "review_status": "open_unverified"
+    }
+  ]
+}

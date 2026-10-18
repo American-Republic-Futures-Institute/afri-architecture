@@ -1,0 +1,67 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc11-viewpoints",
+  "items": [
+    {
+      "id": "VIEW-X11-VA-STATUTORY-FISCAL",
+      "type": "qualified_canonical_claim_projection",
+      "title": "VA statutory office and congressional fiscal authority",
+      "root_id": "X11-OFFICE-VA-UNDERSEC-BENEFITS",
+      "additional_node_ids": [
+        "X06-ACTOR-VBA",
+        "ORG-FED-LEG-CONGRESS",
+        "X06-APP-PL11842-FY25",
+        "X06-ACCOUNT-VA-0102",
+        "X06-CTRL-PURPOSE"
+      ],
+      "claim_ids": [
+        "X11-CLAIM-VA-HEADSHIP",
+        "X11-CLAIM-CONGRESS-VA-ENACTMENT",
+        "X11-CLAIM-VA-PURPOSE"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-VA-DELEGATION",
+        "X11-GAP-VA-EXECUTION",
+        "X11-GAP-LEGAL-REVIEW"
+      ],
+      "interpretation": "Historical context; no signer, certified delegation, ADL-1 review or legal opinion."
+    },
+    {
+      "id": "VIEW-X11-VA-POLICY-WORKFLOW",
+      "type": "qualified_canonical_claim_projection",
+      "title": "VA funds-control policy versus executed delegation",
+      "root_id": "X11-OFFICE-VA-BUDGET",
+      "additional_node_ids": [
+        "X07-CTRL-AAWS",
+        "X07-CTRL-ALLOTMENT"
+      ],
+      "claim_ids": [
+        "X11-CLAIM-VA-BUDGET-POLICY",
+        "X11-CLAIM-VA-ALLOTMENT-POLICY"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-VA-DELEGATION",
+        "X11-GAP-VA-OFFICE",
+        "X11-GAP-VA-EXECUTION"
+      ],
+      "interpretation": "Internal policy only, not a published CFR regulation, signed instrument or actual account posting."
+    },
+    {
+      "id": "VIEW-X11-ED-STATE-LIMIT",
+      "type": "qualified_canonical_claim_projection",
+      "title": "Education federal statutory boundary",
+      "root_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "additional_node_ids": [
+        "FSTAT-PROV-ED-20-3403"
+      ],
+      "claim_ids": [
+        "X11-CLAIM-ED-STATE-LIMIT"
+      ],
+      "qualification_gap_ids": [
+        "X11-GAP-ED-CURRENTNESS",
+        "X11-GAP-LEGAL-REVIEW"
+      ],
+      "interpretation": "Current legal effectiveness and case-specific application remain unreviewed."
+    }
+  ]
+}
