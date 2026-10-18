@@ -10,7 +10,7 @@ test("cannot accept wrong indexed iteration or approval date",()=>assert.throws(
 test("cannot treat 2 conflicting issuer URLs as one original",()=>assert.throws(()=>officialOmbLink(html+html,d),/zero or multiple/));
 test("relative path or javascript locator rejected",()=>assert.throws(()=>officialOmbLink(html.replace(u,"javascript:alert(1)"),d),/zero or multiple/));
 const body=(s,headers={})=>new Response(s,{status:200,headers:{"content-type":"application/json",...headers}});
-test("JSON must be parseable and not a login HTML",async()=>assert.rejects(()=>byteFetch(u,{fetcher:async()=>body("<html>log in</html>"),kind:"json",maxBytes:100000}),/not JSON/));
+test("JSON must be parseable and not a login HTML",async()=>assert.rejects(()=>byteFetch(u,{fetcher:async()=>body("<html><body>Identity provider sign-in page, not an OMB JSON source.</body></html>"),kind:"json",maxBytes:100000}),/not JSON/));
 test("HTTP redirect is not original publisher source",async()=>assert.rejects(()=>byteFetch(u,{fetcher:async()=>new Response("",{status:302,headers:{location:"https://login.max.gov/"}}),kind:"json",maxBytes:100000}),/HTTP failure/));
 test("issuer byte-size cap refuses oversized file",async()=>assert.rejects(()=>byteFetch(u,{fetcher:async()=>body("A".repeat(150)),kind:"json",maxBytes:70}),/byte limit/));
 test("capture writes real unsigned byte receipts, unavailable origins remain zero digest",async()=>{
