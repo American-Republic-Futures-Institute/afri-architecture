@@ -20,6 +20,8 @@ jobs:
         run: node scripts/inc10-capture-originals.mjs "$RUNNER_TEMP/inc10-originals"
       - name: Recompute pinned government original PDF SHA256 and export for content-addressed Git inclusion
         run: node scripts/inc10-export-original-pdfs.mjs "$RUNNER_TEMP/inc10-originals"
+      - name: Independently replay and export only both fixed-SHA public government PDF original streams
+        run: node scripts/inc10-export-originals.mjs "$RUNNER_TEMP/inc10-originals"
       - name: Preserve original PDF bodies and unsigned SHA256 receipts for independent inspection
         if: always()
         uses: actions/upload-artifact@v4
