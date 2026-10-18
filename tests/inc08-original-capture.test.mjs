@@ -12,6 +12,18 @@ test("relative path or javascript locator rejected",()=>assert.throws(()=>offici
 const body=(s,headers={})=>new Response(s,{status:200,headers:{"content-type":"application/json",...headers}});
 test("JSON must be parseable and not a login HTML",async()=>assert.rejects(()=>byteFetch(u,{fetcher:async()=>body("<html><body>Identity provider sign-in page, not an OMB JSON source.</body></html>"),kind:"json",maxBytes:100000}),/not JSON/));
 test("HTTP redirect is not original publisher source",async()=>assert.rejects(()=>byteFetch(u,{fetcher:async()=>new Response("",{status:302,headers:{location:"https://login.max.gov/"}}),kind:"json",maxBytes:100000}),/HTTP failure/));
+test("Treasury may redirect only to its exact www government path",async()=>{
+ const original="https://fiscal.treasury.gov/files/reports-statements/combined-statement/cs2025/c42.pdf";
+ const dest=original.replace("://fiscal.","://www.fiscal.");
+ const f=async x=>x===original?new Response(null,{status:302,headers:{location:dest}}):
+  new Response("%PDF-1.6 correct same-path government source",{status:200});
+ const report=await byteFetch(original,{fetcher:f,kind:"pdf",maxBytes:50000});
+ assert.equal(report.bytes.toString()," %PDF".trim().replace(" %PDF","%PDF")+"-1.6 correct same-path government source");
+});
+test("Treasury 302 redirect to login/auth or changed object path is rejected",async()=>{
+ const original="https://fiscal.treasury.gov/files/reports-statements/combined-statement/cs2025/c42.pdf";
+ await assert.rejects(()=>byteFetch(original,{fetcher:async()=>new Response(null,{status:302,headers:{location:"https://login.max.gov/secure"}}),kind:"pdf",maxBytes:50000}),/redirect escaped/);
+});
 test("issuer byte-size cap refuses oversized file",async()=>assert.rejects(()=>byteFetch(u,{fetcher:async()=>body("A".repeat(150)),kind:"json",maxBytes:70}),/byte limit/));
 test("capture writes real unsigned byte receipts, unavailable origins remain zero digest",async()=>{
  const dir=await fs.mkdtemp(path.join(os.tmpdir(),"inc08-test-"));

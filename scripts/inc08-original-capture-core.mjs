@@ -36,9 +36,20 @@ export function officialOmbLink(indexHtml,expected){
  if(approved.length!==1)reject("zero or multiple issuer URL matches for indexed version "+expected.id);
  return approved[0];
 }
-export async function byteFetch(url,{fetcher=fetch,kind,maxBytes}){
+export async function byteFetch(url,{fetcher=fetch,kind,maxBytes,redirectDepth=0}){
  const response=await fetcher(url,{redirect:"manual",signal:AbortSignal.timeout(16000),
   headers:{accept:kind==="json"?"application/json":kind==="pdf"?"application/pdf":"text/html"}});
+ if(response&&[301,302,307,308].includes(response.status)&&kind==="pdf"&&redirectDepth===0){
+  // Treasury's official host may permanently/canonically redirect to www.
+  // Do not follow an arbitrary redirect, path change, query or login portal.
+  const next=new URL(response.headers?.get?.("location")||"",url),from=new URL(url);
+  const allowed=from.hostname==="fiscal.treasury.gov"&&
+   ["fiscal.treasury.gov","www.fiscal.treasury.gov"].includes(next.hostname)&&
+   next.protocol==="https:"&&next.pathname===from.pathname&&
+   !next.search&&!next.hash&&!next.username&&!next.password;
+  if(!allowed)reject("redirect escaped the exact Treasury government issuer path: "+next.hostname+next.pathname);
+  return byteFetch(next.href,{fetcher,kind,maxBytes,redirectDepth:1});
+ }
  if(!response||response.status!==200||new URL(response.url||url).origin!==new URL(url).origin)
   reject("original publisher HTTP failure / redirect "+(response?.status??"unknown"));
  const len=Number(response.headers?.get?.("content-length")||0);
