@@ -205,7 +205,12 @@
     "model/federal/x07-execution.json",
     "model/federal/x07-gaps.json",
     "model/federal/x07-relationships.json",
-    "model/federal/x07-traces.json"
+    "model/federal/x07-traces.json",
+    "model/federal/inc04f/custody-source-queue.json",
+    "model/federal/inc04f/unavailable-originals.json",
+    "model/federal/inc04f/custody-acceptance-gates.json",
+    "model/federal/inc04f/va-first-level-candidates.json",
+    "model/federal/inc04f/va-legal-review-packets.json"
   ],
   "standards": [
     {
@@ -710,5 +715,28 @@
     "originals_cryptographically_archived": false,
     "legal_and_institutional_review_complete": false,
     "publishing_contract": "historical_government_accounting_rows_not_statutory_operating_authority_or_transaction_proof"
+  },
+  "federal_operational_custody_04f_extension": {
+    "id": "ARFI-COA-FED-EVIDENCE-004F",
+    "model_version": "0.1.0",
+    "status": "unratified_source_custody_preparation_only",
+    "source_original_count": 11,
+    "original_04b_count": 7,
+    "original_04d_count": 4,
+    "unavailable_publisher_originals": 2,
+    "ready_for_replay_from_temporary_artifacts": true,
+    "artifact_source_bytes_reverified_in_04f": false,
+    "approved_immutable_primary_objects": 0,
+    "approved_immutable_replica_objects": 0,
+    "institutional_signer_enrolled": false,
+    "retention_policy_ratified": false,
+    "independent_audit_verified": false,
+    "disaster_recovery_qualified": false,
+    "archived_publication_certified": false,
+    "VA_first_level_candidate_count": 25,
+    "VA_verified_full_first_level_denominator": null,
+    "VA_ADL1_certified": false,
+    "legal_review_completed_count": 0,
+    "public_website_published": false
   }
 }

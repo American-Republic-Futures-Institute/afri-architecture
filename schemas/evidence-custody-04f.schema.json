@@ -1,0 +1,492 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/evidence-custody-04f-v0.1.0.schema.json",
+  "title": "ARFI operational original-evidence custody 04F (research unratified)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "type": "string",
+      "enum": [
+        "custody-source-queue",
+        "unavailable-originals",
+        "custody-acceptance-gates",
+        "va-first-level-candidates",
+        "va-legal-review-packets"
+      ]
+    },
+    "items": {
+      "type": "array"
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "model_family": {
+          "const": "custody-source-queue"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/custody-source-queue"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "unavailable-originals"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/unavailable-originals"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "custody-acceptance-gates"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/custody-acceptance-gates"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "va-first-level-candidates"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/va-first-level-candidates"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "model_family": {
+          "const": "va-legal-review-packets"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/va-legal-review-packets"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "custody-source-queue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ADL1_certified",
+        "SHA256",
+        "artifact_relative_path",
+        "byte_count",
+        "candidate_manifest_only",
+        "captured_at",
+        "collection",
+        "id",
+        "legal_status_certified",
+        "object_key",
+        "original_artifact_expires_at",
+        "original_artifact_id",
+        "original_artifact_name",
+        "original_bytes_in_repository",
+        "original_run_id",
+        "predecessor_receipt_id",
+        "primary_object_version_id",
+        "qualified_custody_record",
+        "release_state",
+        "replica_object_version_id",
+        "source_bytes_reverified_04f",
+        "source_edition",
+        "source_id",
+        "source_url"
+      ],
+      "properties": {
+        "ADL1_certified": {
+          "const": false
+        },
+        "SHA256": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "artifact_relative_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "byte_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "candidate_manifest_only": {
+          "const": true
+        },
+        "captured_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "collection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legal_status_certified": {
+          "const": false
+        },
+        "object_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_artifact_expires_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_artifact_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "original_artifact_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_bytes_in_repository": {
+          "const": false
+        },
+        "original_run_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "predecessor_receipt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_object_version_id": {
+          "const": null
+        },
+        "qualified_custody_record": {
+          "const": null
+        },
+        "release_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "replica_object_version_id": {
+          "const": null
+        },
+        "source_bytes_reverified_04f": {
+          "const": false
+        },
+        "source_edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        }
+      }
+    },
+    "unavailable-originals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "allowed_substitution",
+        "capture_blocker",
+        "id",
+        "legal_review_signoff_id",
+        "original_bytes_sha256",
+        "previous_receipt_id",
+        "recorded_exception",
+        "recovered_source_bytes",
+        "source_id",
+        "source_url"
+      ],
+      "properties": {
+        "allowed_substitution": {
+          "const": false
+        },
+        "capture_blocker": {
+          "type": "string",
+          "minLength": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legal_review_signoff_id": {
+          "const": null
+        },
+        "original_bytes_sha256": {
+          "const": null
+        },
+        "previous_receipt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recorded_exception": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recovered_source_bytes": {
+          "const": false
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        }
+      }
+    },
+    "custody-acceptance-gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "completed_at",
+        "description",
+        "evidence_sha256",
+        "id",
+        "reviewer_id",
+        "status",
+        "type",
+        "verified",
+        "waived"
+      ],
+      "properties": {
+        "completed_at": {
+          "const": null
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_sha256": {
+          "const": null
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer_id": {
+          "const": null
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verified": {
+          "const": false
+        },
+        "waived": {
+          "const": false
+        }
+      }
+    },
+    "va-first-level-candidates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidate_basis",
+        "direct_department_reporting_verified",
+        "explicitly_external_to_VA",
+        "id",
+        "inside_2026_current_first_level_legal_universe_verified",
+        "legacy_directory_id",
+        "legal_subtype_verified",
+        "name",
+        "predecessor_id",
+        "qualifying_legal_review_id",
+        "research_source_class",
+        "source_edition",
+        "source_presence_in_bounded_material_verified",
+        "source_receipt_id",
+        "status"
+      ],
+      "properties": {
+        "candidate_basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "direct_department_reporting_verified": {
+          "const": false
+        },
+        "explicitly_external_to_VA": {
+          "const": false
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inside_2026_current_first_level_legal_universe_verified": {
+          "const": false
+        },
+        "legacy_directory_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "legal_subtype_verified": {
+          "const": false
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "predecessor_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualifying_legal_review_id": {
+          "const": null
+        },
+        "research_source_class": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_presence_in_bounded_material_verified": {
+          "const": true
+        },
+        "source_receipt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "va-legal-review-packets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "actual_controlling_2026_instrument_sha256",
+        "adjudication_or_oversight_override_inferred",
+        "counsel_decision_signature",
+        "distinct_qualifier",
+        "fixed_2024_evidence_only",
+        "id",
+        "independent_qualified_counsel_identity",
+        "legal_effect_asof",
+        "legal_identity_finalized",
+        "official_citation",
+        "official_delegation_verified",
+        "predecessor_legal_issue_id",
+        "primary_source_url",
+        "reporting_power_inferred",
+        "review_questions",
+        "source_identity_id",
+        "source_status"
+      ],
+      "properties": {
+        "actual_controlling_2026_instrument_sha256": {
+          "const": null
+        },
+        "adjudication_or_oversight_override_inferred": {
+          "const": false
+        },
+        "counsel_decision_signature": {
+          "const": null
+        },
+        "distinct_qualifier": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fixed_2024_evidence_only": {
+          "type": "boolean"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independent_qualified_counsel_identity": {
+          "const": null
+        },
+        "legal_effect_asof": {
+          "const": null
+        },
+        "legal_identity_finalized": {
+          "const": false
+        },
+        "official_citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_delegation_verified": {
+          "const": false
+        },
+        "predecessor_legal_issue_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_source_url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "reporting_power_inferred": {
+          "const": false
+        },
+        "review_questions": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_identity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
