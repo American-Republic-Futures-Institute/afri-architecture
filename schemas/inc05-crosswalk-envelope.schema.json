@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI-COA INC-05 six-collection cross-domain constitutional authority research contracts",
+  "type": "object",
+  "required": [
+    "model_version",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "source_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(X05|SRC-X05)-[A-Z0-9-]+$"
+          },
+          "type": {
+            "type": "string"
+          },
+          "source_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "review_status": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false,
+  "description": "Shared envelope schema. The independent semantic validator binds six strict named families, reference identities, provenance, ordering, mandatory gates, anti-promotion and exact known official publisher locators."
+}

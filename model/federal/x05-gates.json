@@ -1,0 +1,134 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X05-GATE-APPROPRIATION",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Enacted account-specific appropriation",
+      "summary": "No enacted appropriation law/account, amount, availability dates, apportionment, or permitted purpose for a specific expenditure verified.",
+      "source_ids": [
+        "SRC-X05-31-1301",
+        "SRC-X05-31-1341"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    },
+    {
+      "id": "X05-GATE-OBLIGATION",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Specific documentary obligation evidence",
+      "summary": "No individual contracting officer, contract/order, documentary evidence, or expenditure/obligation has been substantiated.",
+      "source_ids": [
+        "SRC-X05-31-1501"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    },
+    {
+      "id": "X05-GATE-FISCAL-REVIEW",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Qualified fiscal and GAO scope review",
+      "summary": "Comptroller General audit mandate, agency fiscal responsibilities, potential statutory exceptions and remedies require dedicated legal and operational verification.",
+      "source_ids": [
+        "SRC-X05-31-1341"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    },
+    {
+      "id": "X05-GATE-DOD-DELEGATION",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Role-to-individual delegation instrument",
+      "summary": "No order, signed delegation, specific incumbent, or authorized subordinate decision certified.",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    },
+    {
+      "id": "X05-GATE-DOD-COMMAND",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Current Unified Command Plan and force assignments",
+      "summary": "Current UCP, orders, assignments, President's alternate direction and force-specific command have not been verified.",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    },
+    {
+      "id": "X05-GATE-DOD-LEGAL",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Defense action jurisdiction and judicial review",
+      "summary": "Youngstown is an illustrative separation-of-powers case; no holding-specific applicability, litigation route or review of military command certified.",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    },
+    {
+      "id": "X05-GATE-JUSTICIABILITY",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Case-specific Article III standing and jurisdiction",
+      "summary": "Actual injury, causation, redressability, justiciability and matter-specific jurisdiction remain unknown.",
+      "source_ids": [
+        "SRC-X05-28-1331",
+        "SRC-JUD-OPINION-LUJAN-1992"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    },
+    {
+      "id": "X05-GATE-SCOTUS-ROUTE",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Case-specific appellate route and discretionary review",
+      "summary": "No valid case, appeal, petition, certiorari grant, certificate or judgment has been established.",
+      "source_ids": [
+        "SRC-X05-28-1254"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    },
+    {
+      "id": "X05-GATE-JUDICIAL-REMEDY",
+      "type": "unsatisfied_independent_review_gate",
+      "title": "Claim, sovereign immunity and remedy review",
+      "summary": "No verified waiver of sovereign immunity, recognized cause of action, available remedy or fully citator-qualified case-law effect.",
+      "source_ids": [
+        "SRC-JUD-OPINION-MARBURY-1803",
+        "SRC-X05-28-1331"
+      ],
+      "review_status": "not_qualified",
+      "satisfied": false,
+      "waived": false,
+      "approved_at": null,
+      "evidence_sha256": null
+    }
+  ]
+}

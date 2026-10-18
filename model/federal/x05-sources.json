@@ -1,0 +1,75 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "SRC-X05-31-1301",
+      "type": "official_codified_source_reference",
+      "title": "Application of appropriations",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-120/t31/s1301/",
+      "citation": "31 U.S.C. § 1301",
+      "law_display_cutoff": "through_Public_Law_119-120_2026-10-07",
+      "reference_checked_on": "2026-10-17",
+      "original_bytes_archived": false,
+      "qualified_current_effective_law_review": false,
+      "source_status": "official_display_reference_not_immutable_custody",
+      "review_status": "source_link_only_not_formal_citator_review"
+    },
+    {
+      "id": "SRC-X05-31-1341",
+      "type": "official_codified_source_reference",
+      "title": "Anti-Deficiency Act limitations",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-120/t31/s1341/",
+      "citation": "31 U.S.C. § 1341",
+      "law_display_cutoff": "through_Public_Law_119-120_2026-10-07",
+      "reference_checked_on": "2026-10-17",
+      "original_bytes_archived": false,
+      "qualified_current_effective_law_review": false,
+      "source_status": "official_display_reference_not_immutable_custody",
+      "review_status": "source_link_only_not_formal_citator_review"
+    },
+    {
+      "id": "SRC-X05-31-1501",
+      "type": "official_codified_source_reference",
+      "title": "Documentary evidence for obligations",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-120/t31/s1501/",
+      "citation": "31 U.S.C. § 1501",
+      "law_display_cutoff": "through_Public_Law_119-120_2026-10-07",
+      "reference_checked_on": "2026-10-17",
+      "original_bytes_archived": false,
+      "qualified_current_effective_law_review": false,
+      "source_status": "official_display_reference_not_immutable_custody",
+      "review_status": "source_link_only_not_formal_citator_review"
+    },
+    {
+      "id": "SRC-X05-28-1331",
+      "type": "official_codified_source_reference",
+      "title": "District court federal question jurisdiction",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-118/t28/s1331/",
+      "citation": "28 U.S.C. § 1331",
+      "law_display_cutoff": "through_Public_Law_119-120_2026-10-07",
+      "reference_checked_on": "2026-10-17",
+      "original_bytes_archived": false,
+      "qualified_current_effective_law_review": false,
+      "source_status": "official_display_reference_not_immutable_custody",
+      "review_status": "source_link_only_not_formal_citator_review"
+    },
+    {
+      "id": "SRC-X05-28-1254",
+      "type": "official_codified_source_reference",
+      "title": "Supreme Court review of courts of appeals",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/us/usc/119-118/t28/s1254/",
+      "citation": "28 U.S.C. § 1254",
+      "law_display_cutoff": "through_Public_Law_119-120_2026-10-07",
+      "reference_checked_on": "2026-10-17",
+      "original_bytes_archived": false,
+      "qualified_current_effective_law_review": false,
+      "source_status": "official_display_reference_not_immutable_custody",
+      "review_status": "source_link_only_not_formal_citator_review"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X05-EDGE-I-01",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-I",
+      "from_id": "CONST-US-ART-01-SEC-08-CL-01",
+      "to_id": "ORG-FED-LEG-CONGRESS",
+      "relationship_type": "constitutional_fiscal_allocation",
+      "summary": "Article I assigns enumerated taxing and spending functions to Congress, subject to constitutional requirements.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-I-02",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-I",
+      "from_id": "CONST-US-ART-01-SEC-09-CL-07",
+      "to_id": "X05-LAW-31-1301",
+      "relationship_type": "constitutional_spending_condition_context",
+      "summary": "No funds drawn from Treasury without appropriation made by law; §1301 adds statutory purpose controls, not an independent appropriation.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-X05-31-1301"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-I-03",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-I",
+      "from_id": "ORG-FED-LEG-CONGRESS",
+      "to_id": "X05-LAW-31-1341",
+      "relationship_type": "legislative_fiscal_framework_context",
+      "summary": "General restriction on expenditure or obligation before/above appropriations, not proof of enactment of a particular annual budget.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-X05-31-1341"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-I-04",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-I",
+      "from_id": "X05-LAW-31-1301",
+      "to_id": "X05-FUNC-APPROPRIATION-CONTROL",
+      "relationship_type": "limits_expenditure_purpose",
+      "summary": "The purpose rule constrains how an otherwise available appropriation may be used.",
+      "source_ids": [
+        "SRC-X05-31-1301"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-APPROPRIATION"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-I-05",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-I",
+      "from_id": "X05-LAW-31-1341",
+      "to_id": "X05-FUNC-APPROPRIATION-CONTROL",
+      "relationship_type": "limits_expenditure_and_obligation",
+      "summary": "Antideficiency restrictions and statutory exceptions must be checked independently for specific activity.",
+      "source_ids": [
+        "SRC-X05-31-1341"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-APPROPRIATION"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-I-06",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-I",
+      "from_id": "X05-LAW-31-1501",
+      "to_id": "X05-FUNC-APPROPRIATION-CONTROL",
+      "relationship_type": "requires_documentary_evidence",
+      "summary": "Recording an obligation requires statutorily adequate documentary support.",
+      "source_ids": [
+        "SRC-X05-31-1501"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-OBLIGATION"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-I-07",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-I",
+      "from_id": "X05-FUNC-APPROPRIATION-CONTROL",
+      "to_id": "ORG-FED-LEG-GAO",
+      "relationship_type": "audit_and_oversight_research_context",
+      "summary": "GAO is a legislative support institution; a specific audit proceeding and its authority have not been established.",
+      "source_ids": [
+        "SRC-GAO-MISSION",
+        "SRC-X05-31-1341"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-FISCAL-REVIEW"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-I-08",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-I",
+      "from_id": "X05-FUNC-APPROPRIATION-CONTROL",
+      "to_id": "X05-GATE-APPROPRIATION",
+      "relationship_type": "requires_specific_funding_instrument",
+      "summary": "No enacted appropriation and account-specific spending grant can be inferred from an Article I citation.",
+      "source_ids": [
+        "SRC-X05-31-1301",
+        "SRC-X05-31-1341"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-APPROPRIATION"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-01",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "CONST-US-ART-02-SEC-02-CL-01",
+      "to_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "constitutional_commander_in_chief_role",
+      "summary": "The constitutional Commander in Chief office is the President; no operation-specific action is established.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-02",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "CONST-US-ART-02-SEC-03-SEG-04",
+      "to_id": "ORG-FED-EXE-PRESIDENT",
+      "relationship_type": "constitutional_take_care_duty",
+      "summary": "Executive must take care that laws are faithfully executed; no independent general legislative power follows.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-03",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "ORG-FED-EXE-PRESIDENT",
+      "to_id": "DOD-PROV-10-113-B",
+      "relationship_type": "presidential_direction_statutory_context",
+      "summary": "Section 113(b) makes SecDef direction and control expressly subject to the President and governing law.",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-04",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "DOD-PROV-10-113-B",
+      "to_id": "DOD-ROLE-SECDEF",
+      "relationship_type": "civilian_statutory_role_scope",
+      "summary": "The Secretary's Title 10 role is subject to President, Title 10 and National Security Act boundaries.",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-05",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "DOD-ROLE-SECDEF",
+      "to_id": "DOD-POWER-SECDEF-DIRECTION",
+      "relationship_type": "scoped_statutory_direction_function",
+      "summary": "The catalog's SecDef function is role-bound, not a signed power vested in a named incumbent.",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-DOD-DELEGATION"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-06",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "DOD-PROV-10-162-B",
+      "to_id": "DOD-ROLE-SECDEF",
+      "relationship_type": "conditional_combatant_chain_context",
+      "summary": "Combatant chain generally runs from President to SecDef to commander unless President directs otherwise.",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-DOD-COMMAND"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-07",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "DOD-POWER-SECDEF-DIRECTION",
+      "to_id": "X05-FUNC-DOD-DIRECTION",
+      "relationship_type": "descriptive_functional_alignment",
+      "summary": "Title 10 source role is mapped to a descriptive capability, not an individual military action.",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-08",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "X05-FUNC-DOD-DIRECTION",
+      "to_id": "X05-GATE-DOD-COMMAND",
+      "relationship_type": "requires_current_command_evidence",
+      "summary": "Current UCP and force assignments are not proven by a public statutory composition model.",
+      "source_ids": [
+        "DOD-SRC-10-162"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-DOD-COMMAND"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-II-09",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-II",
+      "from_id": "X05-FUNC-DOD-DIRECTION",
+      "to_id": "HOLD-US-SCOTUS-YOUNGSTOWN-1952-01",
+      "relationship_type": "illustrative_judicial_separation_of_powers_context",
+      "summary": "Youngstown concerns a steel seizure; not automatically controlling over a specified military operation.",
+      "source_ids": [
+        "SRC-JUD-OPINION-YOUNGSTOWN-1952"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-DOD-LEGAL"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-01",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "CONST-US-ART-03-SEC-01-SEG-01",
+      "to_id": "ORG-FED-JUD-SCOTUS",
+      "relationship_type": "judicial_vesting_constitutional_context",
+      "summary": "Article III judicial vesting does not alone create subject-matter jurisdiction for a particular court action.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-02",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "CONST-US-ART-03-SEC-02-CL-01",
+      "to_id": "X05-LAW-28-1331",
+      "relationship_type": "constitutional_judicial_subject_matter_context",
+      "summary": "Article III enumerates judicial subjects, while §1331 identifies a statutory class of civil federal question jurisdiction.",
+      "source_ids": [
+        "SRC-CONST-ORIGINAL-TRANSCRIPT",
+        "SRC-X05-28-1331"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-03",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "X05-LAW-28-1331",
+      "to_id": "ORG-FED-JUD-DISTRICT",
+      "relationship_type": "statutory_federal_question_jurisdiction",
+      "summary": "Federal district courts have §1331 original jurisdiction over qualifying civil federal-question cases, subject to other requirements.",
+      "source_ids": [
+        "SRC-X05-28-1331"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-JUSTICIABILITY"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-04",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "ORG-FED-JUD-DISTRICT",
+      "to_id": "X05-FUNC-JUDICIAL-FEDERAL-QUESTION",
+      "relationship_type": "federal_question_function_context",
+      "summary": "Institutional court category is mapped to possible adjudication, not an assertion of a particular pending case.",
+      "source_ids": [
+        "SRC-X05-28-1331"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-05",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "ORG-FED-JUD-APPEALS",
+      "to_id": "X05-LAW-28-1254",
+      "relationship_type": "court_of_appeals_review_source_context",
+      "summary": "Section 1254 sets specified Supreme Court review routes for cases in the courts of appeals; no automatic appeal.",
+      "source_ids": [
+        "SRC-X05-28-1254"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-06",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "X05-LAW-28-1254",
+      "to_id": "ORG-FED-JUD-SCOTUS",
+      "relationship_type": "statutory_supreme_court_review_route",
+      "summary": "Discretionary certiorari and certified-question processes require their own procedural prerequisites.",
+      "source_ids": [
+        "SRC-X05-28-1254"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-SCOTUS-ROUTE"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-07",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "ORG-FED-JUD-SCOTUS",
+      "to_id": "X05-FUNC-JUDICIAL-SCOTUS-REVIEW",
+      "relationship_type": "appellate_functional_context",
+      "summary": "Supreme Court review is governed by applicable jurisdiction and procedural law, not guaranteed in each case.",
+      "source_ids": [
+        "SRC-X05-28-1254"
+      ],
+      "qualification_gate_ids": [],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-08",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "HOLD-US-SCOTUS-MARBURY-1803-01",
+      "to_id": "X05-FUNC-JUDICIAL-FEDERAL-QUESTION",
+      "relationship_type": "judicial_review_doctrine_context",
+      "summary": "Marbury establishes a separate doctrine in justiciable cases; not an original textual clause or stand-alone universal cause of action.",
+      "source_ids": [
+        "SRC-JUD-OPINION-MARBURY-1803"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-JUDICIAL-REMEDY"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-09",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "X05-FUNC-JUDICIAL-FEDERAL-QUESTION",
+      "to_id": "HOLD-US-SCOTUS-LUJAN-1992-01",
+      "relationship_type": "standing_doctrine_research_context",
+      "summary": "Standing requirements qualify access to Article III adjudication, with case-specific application unsettled here.",
+      "source_ids": [
+        "SRC-JUD-OPINION-LUJAN-1992"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-JUSTICIABILITY"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    },
+    {
+      "id": "X05-EDGE-III-10",
+      "type": "cross_domain_authority_reference_relation",
+      "trace_id": "X05-TRACE-III",
+      "from_id": "X05-FUNC-JUDICIAL-SCOTUS-REVIEW",
+      "to_id": "X05-GATE-SCOTUS-ROUTE",
+      "relationship_type": "requires_appellate_procedural_gate",
+      "summary": "No certiorari or qualifying certified question proven.",
+      "source_ids": [
+        "SRC-X05-28-1254"
+      ],
+      "qualification_gate_ids": [
+        "X05-GATE-SCOTUS-ROUTE"
+      ],
+      "assertion_status": "source_bounded_descriptive_relationship_unratified",
+      "current_operational_authority_asserted": false,
+      "individual_delegation_verified": false,
+      "appropriation_verified": false,
+      "review_status": "pending_independent_legal_and_source_review"
+    }
+  ]
+}

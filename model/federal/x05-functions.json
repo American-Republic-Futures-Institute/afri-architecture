@@ -1,0 +1,52 @@
+{
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X05-FUNC-APPROPRIATION-CONTROL",
+      "type": "bounded_functional_context",
+      "name": "Purpose, availability and obligation controls",
+      "summary": "Illustrates the constraints on use and recording of federal appropriations. No specific account, program, Treasury Account Symbol, apportionment, obligating official, or enacted fiscal-year appropriation is verified.",
+      "source_ids": [
+        "SRC-X05-31-1301",
+        "SRC-X05-31-1341",
+        "SRC-X05-31-1501"
+      ],
+      "review_status": "source_bounded_research",
+      "verified_spending_authority": false
+    },
+    {
+      "id": "X05-FUNC-DOD-DIRECTION",
+      "type": "bounded_functional_context",
+      "name": "Civilian direction of Defense and conditional command chain",
+      "summary": "Title 10 role-specific civilian direction and conditional combatant command chain; not an individual signed delegation, deployment order, UCP, or authorization for a particular use of force.",
+      "source_ids": [
+        "CENSUS-SRC-DOD-113",
+        "DOD-SRC-10-162"
+      ],
+      "review_status": "source_bounded_research",
+      "verified_spending_authority": false
+    },
+    {
+      "id": "X05-FUNC-JUDICIAL-FEDERAL-QUESTION",
+      "type": "bounded_functional_context",
+      "name": "Federal question civil case jurisdiction",
+      "summary": "Class-level 28 U.S.C. § 1331 jurisdictional grant; case-specific subject matter, standing, sovereign immunity, remedy, and claim viability remain separate questions.",
+      "source_ids": [
+        "SRC-X05-28-1331"
+      ],
+      "review_status": "source_bounded_research",
+      "verified_spending_authority": false
+    },
+    {
+      "id": "X05-FUNC-JUDICIAL-SCOTUS-REVIEW",
+      "type": "bounded_functional_context",
+      "name": "Supreme Court discretionary appellate review context",
+      "summary": "Section 1254 review routes for courts of appeals; never infers a guaranteed appeal, automatic Supreme Court jurisdiction, or relief in any case.",
+      "source_ids": [
+        "SRC-X05-28-1254"
+      ],
+      "review_status": "source_bounded_research",
+      "verified_spending_authority": false
+    }
+  ]
+}
