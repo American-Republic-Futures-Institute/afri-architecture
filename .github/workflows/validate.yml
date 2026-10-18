@@ -171,6 +171,12 @@ jobs:
         run: node scripts/validate-focused-projections.mjs --validate
       - name: Test focused constitutional views, composed queries and legal-provenance controls
         run: node --test tests/focused-projection.test.mjs
+      - name: Ensure PDF original statement text extractor is available
+        run: command -v pdftotext || (sudo apt-get update -qq && sudo apt-get install -y poppler-utils)
+      - name: Validate INC10 original Treasury and OMB PDFs and read source account statements
+        run: node scripts/validate-inc10.mjs
+      - name: Test INC10 official PDF source tampering, fiscal category identity and unresolved VA controls
+        run: node --test tests/inc10-originals-and-reconciliation.test.mjs
       - name: Verify INC09 original government VA FY2025 TAS File A ZIP, CSV, account snapshot and agency period certification evidence
         run: node scripts/validate-inc09.mjs
       - name: Reject INC09 corrupted source bytes, wrong TAS fiscal period, forged VA FMA or signed SF133 and false gross-to-net reconciliation
