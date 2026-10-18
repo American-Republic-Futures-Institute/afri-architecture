@@ -1,0 +1,28 @@
+name: INC10 VA 2025 fiscal original PDF evidence acquisition
+on:
+  pull_request:
+    paths:
+      - 'scripts/inc10-capture-originals.mjs'
+      - '.github/workflows/inc10-originals.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-issuer-pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Capture only bounded primary Treasury and OMB PDFs; reject HTML redirects
+        run: node scripts/inc10-capture-originals.mjs "$RUNNER_TEMP/inc10-originals"
+      - name: Preserve original PDF bodies and unsigned SHA256 receipts for independent inspection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arfi-inc10-government-PDF-originals-UNSIGNED
+          path: ${{ runner.temp }}/inc10-originals
+          if-no-files-found: warn
+          retention-days: 90
