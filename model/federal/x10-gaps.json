@@ -1,0 +1,123 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc10-gaps",
+  "items": [
+    {
+      "id": "X10-GAP-EXACT-NETTING",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Original signed account-level federal/nonfederal gross-to-net exact-cent offset ledger",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    },
+    {
+      "id": "X10-GAP-OMB-RESOURCE-VINTAGE",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Independently qualified prior OMB-vintage versus 2026-05-15 File A revised resource basis",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    },
+    {
+      "id": "X10-GAP-VA-SF133-GTAS",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Individual VA 2025 account-specific SF-133 and underlying agency GTAS certification",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    },
+    {
+      "id": "X10-GAP-VA-FMA-TDA",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Signed FY2025 VA account FMA/TDA allotment approvals and effective dates",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    },
+    {
+      "id": "X10-GAP-VA-AAWS-IFAMS",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Actual authorized AAWS/iFAMS account-level posted transactions",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    },
+    {
+      "id": "X10-GAP-PERSONAL-PAYMENT",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Individual authorized beneficiary obligation, voucher and Treasury settlement",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    },
+    {
+      "id": "X10-GAP-SOURCE-SIGNATURE",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Authenticating official signer/document-edition control for original Treasury and OMB PDFs",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    },
+    {
+      "id": "X10-GAP-INDEPENDENT-REVIEW",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Independent accountant and counsel cross-source comparability/controls qualification",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    },
+    {
+      "id": "X10-GAP-INSTITUTIONAL-WORM",
+      "type": "unresolved_qualified_financial_execution_evidence_requirement",
+      "title": "Ratified independent immutable source retention, replication and audit recovery",
+      "verified": false,
+      "primary_signed_instrument_original_sha256": null,
+      "source_account_reporting_period_verified": false,
+      "independent_auditor_id": null,
+      "approved_on": null,
+      "governmental_document_signature_verified": false,
+      "private_internal_execution_source_available": false,
+      "independently_qualified_WORM_storage": false
+    }
+  ]
+}

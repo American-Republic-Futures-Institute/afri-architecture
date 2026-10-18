@@ -1,0 +1,178 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc10-reconciliations",
+  "items": [
+    {
+      "id": "X10-REC-OMB-OFFSETS-CATEGORY",
+      "type": "source_and_temporal_qualified_FY2025_federal_account_cash_reconciliation",
+      "title": "Same OMB FY2027 vintage and FY2025 source account reports federal and nonfederal offsets",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "amounts": {
+        "federal_millions": -24,
+        "nonfederal_millions": -815,
+        "total_offsets_millions": -839,
+        "reported_gross_outlays_millions": 201510,
+        "reported_net_outlays_millions": 200671
+      },
+      "classification_status": "source_class_and_reporting_period_verified_rounded_not_exact_cent",
+      "qualification_gap_ids": [],
+      "exact_offset_ledger_verified": false,
+      "single_payment_causal_link_verified": false,
+      "account_cash_and_budgetary_resources_equivalent": false,
+      "professional_fiscal_controls_opinion_signed": false
+    },
+    {
+      "id": "X10-REC-CASH-ORIGINAL",
+      "type": "source_and_temporal_qualified_FY2025_federal_account_cash_reconciliation",
+      "title": "Treasury FY2025 official original page 4 verifies 036-0102 net and legacy components",
+      "source_ids": [
+        "SRC-X10-TREASURY-CS25-ORIGINAL"
+      ],
+      "amounts": {
+        "no_year_net_outlays_cents": 20069518336435,
+        "legacy_2020_net_outlays_cents": -2440000000,
+        "account_subtotal_net_outlays_cents": 20067078336435
+      },
+      "classification_status": "original_publisher_PDF_account_cash_receipts_replayed",
+      "qualification_gap_ids": [],
+      "exact_offset_ledger_verified": false,
+      "single_payment_causal_link_verified": false,
+      "account_cash_and_budgetary_resources_equivalent": false,
+      "professional_fiscal_controls_opinion_signed": false
+    },
+    {
+      "id": "X10-REC-FILEA-GROSS-OMB",
+      "type": "source_and_temporal_qualified_FY2025_federal_account_cash_reconciliation",
+      "title": "File A FY2025 P12 gross outlays numerically agree with OMB reported gross rounded in millions",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "amounts": {
+        "FileA_gross_cents": 20151035530281,
+        "OMB_rounded_gross_millions": 201510,
+        "absolute_difference_from_rounded_cents": 35530281
+      },
+      "classification_status": "source_granularity_and_period_compatible_at_million_precision_but_different_vintage",
+      "qualification_gap_ids": [],
+      "exact_offset_ledger_verified": false,
+      "single_payment_causal_link_verified": false,
+      "account_cash_and_budgetary_resources_equivalent": false,
+      "professional_fiscal_controls_opinion_signed": false
+    },
+    {
+      "id": "X10-REC-TREASURY-NET-OMB",
+      "type": "source_and_temporal_qualified_FY2025_federal_account_cash_reconciliation",
+      "title": "Treasury FY2025 cash net and OMB budget FY2027 retrospective FY2025 net agree rounded",
+      "source_ids": [
+        "SRC-X10-TREASURY-CS25-ORIGINAL",
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "amounts": {
+        "Treasury_exact_net_cents": 20067078336435,
+        "OMB_rounded_net_millions": 200671,
+        "absolute_difference_from_rounded_cents": 21663565
+      },
+      "classification_status": "source_granularity_and_period_compatible_at_million_precision_but_different_vintage",
+      "qualification_gap_ids": [],
+      "exact_offset_ledger_verified": false,
+      "single_payment_causal_link_verified": false,
+      "account_cash_and_budgetary_resources_equivalent": false,
+      "professional_fiscal_controls_opinion_signed": false
+    },
+    {
+      "id": "X10-REC-GROSS-NET-DELTA",
+      "type": "source_and_temporal_qualified_FY2025_federal_account_cash_reconciliation",
+      "title": "File A gross versus Treasury net exact-cent observed gap is NOT a confirmed exact offset ledger",
+      "source_ids": [
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X10-TREASURY-CS25-ORIGINAL",
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "amounts": {
+        "FileA_gross_cents": 20151035530281,
+        "Treasury_net_cents": 20067078336435,
+        "observed_difference_cents": 83957193846,
+        "OMB_published_total_offsets_millions": 839,
+        "observed_difference_above_OMB_rounded_offsets_cents": 57193846,
+        "one_rounded_million_half_width_cents": 50000000
+      },
+      "classification_status": "same_FY_different_measurement_basis_and_source_vintages_observed_only_OMB_total_does_not_round_from_exact_difference",
+      "qualification_gap_ids": [
+        "X10-GAP-EXACT-NETTING",
+        "X10-GAP-INDEPENDENT-REVIEW"
+      ],
+      "exact_offset_ledger_verified": false,
+      "single_payment_causal_link_verified": false,
+      "account_cash_and_budgetary_resources_equivalent": false,
+      "professional_fiscal_controls_opinion_signed": false
+    },
+    {
+      "id": "X10-REC-RESOURCE-REVISION",
+      "type": "source_and_temporal_qualified_FY2025_federal_account_cash_reconciliation",
+      "title": "OMB FY2027 historical resources vs revised 2026-05 File A resources exceed simple nearest-million rounding",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL",
+        "SRC-X09-TREASURY-FILEA-CSV",
+        "SRC-X09-TREASURY-SUBMISSION-HISTORY"
+      ],
+      "amounts": {
+        "OMB_rounded_resources_cents": 21784100000000,
+        "FileA_revised_resources_cents": 21784002742926,
+        "difference_cents": 97257074,
+        "half_million_tolerance_cents": 50000000
+      },
+      "classification_status": "different_publisher_vintage_OMB_2026_04_versus_later_Treasury_FileA_modified_2026_05_15_unreconciled",
+      "qualification_gap_ids": [
+        "X10-GAP-OMB-RESOURCE-VINTAGE",
+        "X10-GAP-INDEPENDENT-REVIEW"
+      ],
+      "exact_offset_ledger_verified": false,
+      "single_payment_causal_link_verified": false,
+      "account_cash_and_budgetary_resources_equivalent": false,
+      "professional_fiscal_controls_opinion_signed": false
+    },
+    {
+      "id": "X10-REC-BUDGET-OFFSETS-NOT-DOUBLE",
+      "type": "source_and_temporal_qualified_FY2025_federal_account_cash_reconciliation",
+      "title": "OMB offset collections against gross outlays and additional offsets against budget authority only must not be added twice",
+      "source_ids": [
+        "SRC-X10-OMB-FY27-VA-ORIGINAL"
+      ],
+      "amounts": {
+        "gross_outlays_offset_millions": -839,
+        "budget_authority_only_offset_millions": 839,
+        "net_budget_authority_impact_millions": 0
+      },
+      "classification_status": "same_OMB_budget_account_rounded_categories_distinct_effect_no_double_count",
+      "qualification_gap_ids": [],
+      "exact_offset_ledger_verified": false,
+      "single_payment_causal_link_verified": false,
+      "account_cash_and_budgetary_resources_equivalent": false,
+      "professional_fiscal_controls_opinion_signed": false
+    },
+    {
+      "id": "X10-REC-HISTORIC-COMPONENT",
+      "type": "source_and_temporal_qualified_FY2025_federal_account_cash_reconciliation",
+      "title": "Treasury legacy 2020 cash negative and File A 2020 prior-year deobligation same magnitude, not same proved transaction",
+      "source_ids": [
+        "SRC-X10-TREASURY-CS25-ORIGINAL",
+        "SRC-X09-TREASURY-FILEA-CSV"
+      ],
+      "amounts": {
+        "Treasury_legacy_net_cents": -2440000000,
+        "FileA_legacy_recovery_cents": 2440000000
+      },
+      "classification_status": "observed_magnitude_only_incompatible_accounting_flow_semantics",
+      "qualification_gap_ids": [
+        "X10-GAP-VA-SF133-GTAS"
+      ],
+      "exact_offset_ledger_verified": false,
+      "single_payment_causal_link_verified": false,
+      "account_cash_and_budgetary_resources_equivalent": false,
+      "professional_fiscal_controls_opinion_signed": false
+    }
+  ]
+}

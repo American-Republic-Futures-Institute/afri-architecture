@@ -189,3 +189,7 @@ Seven nondelegating constitutional competency crosswalks link the existing U.S. 
 ## INC-09 — FY2025 VA File A public account execution evidence
 
 [Official File A original-byte custody, account reporting and unresolved signed agency controls](docs/VA-FY2025-FILEA-EXECUTION-EVIDENCE-INC09.md) preserves the Treasury-generated FY2025 period-12 `036-0102` account ZIP and original two-row CSV, independent public account/agency certification metadata, original-source SHA-256 checks and fiscal source-temporal reconciliations. **A government-published File A is not a signed SF-133, original agency GTAS trial balance, VA FMA/TDA, verified individual payment or ratified WORM archival custody.**
+
+## INC-10 — VA gross-to-net source classification and original government evidence
+
+[INC-10 original Treasury/OMB FY2025 accounting and publication-vintage reconciliation](docs/VA-FY2025-GROSS-NET-INC10.md) adds permanently Git-versioned source-original government PDFs, FY2025 OMB federal/nonfederal offset categories, eight bounded cross-source comparisons, and nine explicit outstanding signed-document/legal/custody gates. Numeric cross-document differences cannot be represented as actual ledger transactions or independently audited authorizations.
