@@ -24,6 +24,8 @@ jobs:
         run: |
           node scripts/inc08-original-capture.mjs --capture "$RUNNER_TEMP/arfi-inc08-originals"
           node scripts/inc08-original-capture.mjs --verify "$RUNNER_TEMP/arfi-inc08-originals"
+      - name: Export four specifically pinned original public OMB JSON byte streams for controlled Git commit
+        run: node scripts/inc08-export-omb.mjs "$RUNNER_TEMP/arfi-inc08-originals"
       - name: Keep original response bodies and receipts as TEMPORARY unsigned 90-day evidence, never WORM
         if: always()
         uses: actions/upload-artifact@v4
