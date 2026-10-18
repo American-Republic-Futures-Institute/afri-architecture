@@ -44,3 +44,8 @@ deny("secondary index cannot become an authenticated original",d=>{get(d,"source
 deny("primary Treasury original cannot masquerade as cryptographically archived",d=>{get(d,"sources","SRC-X07-TREASURY-CS25").original_bytes_sha256="f".repeat(64)},"source spoofing or forged");
 deny("historical 7 Articles 27 Amendments are immutable",d=>{d.records.get("CONST-US-ART-07").effect_status="operative"},"original constitutional");
 deny("five required Treasury headline stages have fixed component identity order",d=>{const t=get(d,"traces","X07-TRACE-VA-2025-0102");t.financial_state_ids[1]="X07-EXEC-2025-SUBTOTAL"},"Treasury cash components or order");
+
+deny("Treasury original may not be mislabeled as another public publisher",d=>{get(d,"sources","SRC-X07-TREASURY-CS25").publisher="U.S. Government Accountability Office"},"publisher identity, evidence classification or source date spoofing");
+deny("official OMB portal may not be recast as a third-party index",d=>{get(d,"sources","SRC-X07-OMB-PUBLIC").publisher="Protect Democracy Project / OpenOMB"},"publisher identity, evidence classification or source date spoofing");
+deny("VA original policy cannot be described as an OMB approval",d=>{get(d,"sources","SRC-X07-VA-FUNDS2024").provenance_class="government_publisher_OMB_signed_apportionment"},"publisher identity, evidence classification or source date spoofing");
+deny("dated secondary indexed apportionment may not mutate its original observed approval date",d=>{get(d,"sources","SRC-X07-OPENOMB-DEC24").source_published_or_approved_on="2025-04-14"},"publisher identity, evidence classification or source date spoofing");
