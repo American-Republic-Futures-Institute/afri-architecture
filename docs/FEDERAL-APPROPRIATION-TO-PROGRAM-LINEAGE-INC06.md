@@ -47,6 +47,8 @@ Source evidence here is official *publication references*, **not** preserved, WO
 ## Verify
 
 ```sh
+node scripts/validate-inc06-envelope.mjs
+node --test tests/inc06-envelope.test.mjs
 node scripts/validate-inc06-lineage.mjs
 node --test tests/inc06-lineage.test.mjs
 ```
