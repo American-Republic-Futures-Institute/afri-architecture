@@ -210,7 +210,14 @@
     "model/federal/inc04f/unavailable-originals.json",
     "model/federal/inc04f/custody-acceptance-gates.json",
     "model/federal/inc04f/va-first-level-candidates.json",
-    "model/federal/inc04f/va-legal-review-packets.json"
+    "model/federal/inc04f/va-legal-review-packets.json",
+    "model/federal/x08-sources.json",
+    "model/federal/x08-omb-revisions.json",
+    "model/federal/x08-controls.json",
+    "model/federal/x08-reconciliations.json",
+    "model/federal/x08-gaps.json",
+    "model/federal/x08-relationships.json",
+    "model/federal/x08-traces.json"
   ],
   "standards": [
     {
@@ -738,5 +745,24 @@
     "VA_ADL1_certified": false,
     "legal_review_completed_count": 0,
     "public_website_published": false
+  },
+  "federal_primary_execution_custody_08_extension": {
+    "id": "ARFI-FED-X08-VA-COMP-PENSIONS-2025",
+    "parent_trace_id": "X07-TRACE-VA-2025-0102",
+    "research_status": "official_OMB_source_body_captured_original_JSON_not_signed_account_execution",
+    "source_omb_original_count": 4,
+    "original_response_bytes_git_sha_verified_count": 4,
+    "OMB_original_JSON_bytes_retained_in_git": true,
+    "OMB_signature_cryptographically_verified": false,
+    "OMB_fy_end_final_revisions_authenticated": false,
+    "VA_specific_FMA_TDA_originals_received": false,
+    "SF133_GTAS_originals_received": false,
+    "individual_treasury_payment_authenticated": false,
+    "legally_certified_OMB_apportionment_amount": false,
+    "independent_archival_primary_replica_verified": false,
+    "independent_legal_review_completed": false,
+    "mandatory_unresolved_gaps": 7,
+    "temporary_OMB_capture_artifact_id": 12142155167,
+    "temporary_archive_expires_on": "2027-01-16T15:40:05Z"
   }
 }

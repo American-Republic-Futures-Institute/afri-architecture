@@ -1,0 +1,366 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc08-relationships",
+  "items": [
+    {
+      "id": "X08-REL-01",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Indexed OMB revision matched official original file",
+      "from_id": "X07-APP-01",
+      "to_id": "X08-OMB-REV-01",
+      "relation_kind": "indexed_omb_revision_matched_official_original_file",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11366310"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-OMB-SIGNER"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-02",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Indexed OMB revision matched official original file",
+      "from_id": "X07-APP-02",
+      "to_id": "X08-OMB-REV-02",
+      "relation_kind": "indexed_omb_revision_matched_official_original_file",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11397317"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-OMB-SIGNER"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-03",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Indexed OMB revision matched official original file",
+      "from_id": "X07-APP-03",
+      "to_id": "X08-OMB-REV-03",
+      "relation_kind": "indexed_omb_revision_matched_official_original_file",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11403044"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-OMB-SIGNER"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-04",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Indexed OMB revision matched official original file",
+      "from_id": "X07-APP-04",
+      "to_id": "X08-OMB-REV-04",
+      "relation_kind": "indexed_omb_revision_matched_official_original_file",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11424792"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-OMB-SIGNER",
+        "X08-GAP-FISCAL-YEAREND"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-05",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Chronological public OMB revision sequence",
+      "from_id": "X08-OMB-REV-01",
+      "to_id": "X08-OMB-REV-02",
+      "relation_kind": "chronological_public_omb_revision_sequence",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11366310",
+        "SRC-X08-OMB-11397317"
+      ],
+      "qualification_gate_ids": [],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-06",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Chronological public OMB revision sequence",
+      "from_id": "X08-OMB-REV-02",
+      "to_id": "X08-OMB-REV-03",
+      "relation_kind": "chronological_public_omb_revision_sequence",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11397317",
+        "SRC-X08-OMB-11403044"
+      ],
+      "qualification_gate_ids": [],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-07",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Chronological public OMB revision sequence",
+      "from_id": "X08-OMB-REV-03",
+      "to_id": "X08-OMB-REV-04",
+      "relation_kind": "chronological_public_omb_revision_sequence",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11403044",
+        "SRC-X08-OMB-11424792"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-FISCAL-YEAREND"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-08",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "April official annual basis reconciled to enacted authorities and prior balance",
+      "from_id": "X08-OMB-REV-04",
+      "to_id": "X08-REC-APRIL-6011",
+      "relation_kind": "april_official_annual_basis_reconciled_to_enacted_authorities_and_prior_balance",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11424792",
+        "SRC-X06-PL119-4"
+      ],
+      "qualification_gate_ids": [],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-09",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "April recovery estimates explain source resources",
+      "from_id": "X08-OMB-REV-04",
+      "to_id": "X08-REC-APRIL-6190",
+      "relation_kind": "april_recovery_estimates_explain_source_resources",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11424792"
+      ],
+      "qualification_gate_ids": [],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-10",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Approved April resources not interchangeable with year-end actuals",
+      "from_id": "X08-OMB-REV-04",
+      "to_id": "X08-REC-OMB-APRIL-VS-ACTUAL",
+      "relation_kind": "approved_april_resources_not_interchangeable_with_year_end_actuals",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11424792",
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-SF133-GTAS"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-11",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Treasury reported cents match rounded OMB net outlays",
+      "from_id": "X07-EXEC-2025-SUBTOTAL",
+      "to_id": "X08-REC-TREASURY-NET-OUTLAY",
+      "relation_kind": "treasury_reported_cents_match_rounded_omb_net_outlays",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-TREASURY-CS2025-CH42",
+        "SRC-X06-OMB27-VA"
+      ],
+      "qualification_gate_ids": [],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-12",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Original JSON approval metadata not cryptographically signed authority",
+      "from_id": "X08-CTRL-OMB-SF132-SIGNATURE",
+      "to_id": "X08-GAP-OMB-SIGNER",
+      "relation_kind": "original_json_approval_metadata_not_cryptographically_signed_authority",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11366310",
+        "SRC-X08-OMB-11397317",
+        "SRC-X08-OMB-11403044",
+        "SRC-X08-OMB-11424792"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-OMB-SIGNER"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-13",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "VA FMA and TDA originals not obtained",
+      "from_id": "X08-CTRL-VA-FMA-TDA",
+      "to_id": "X08-GAP-VA-FMA-TDA",
+      "relation_kind": "va_fma_and_tda_originals_not_obtained",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-VA-FMA-TDA"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-14",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "VA AAWS iFAMS actual postings not obtained",
+      "from_id": "X08-CTRL-VA-AAWS-IFAMS",
+      "to_id": "X08-GAP-VA-AAWS-IFAMS",
+      "relation_kind": "va_aaws_ifams_actual_postings_not_obtained",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-VA-AAWS-IFAMS"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-15",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "VA FY2025 original SF-133 not obtained",
+      "from_id": "X08-CTRL-VA-SF133",
+      "to_id": "X08-REC-VA-SF133-GTAS",
+      "relation_kind": "va_fy2025_original_sf_133_not_obtained",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-VA-FUNDS-2024"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-SF133-GTAS"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-16",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Treasury GTAS original agency submission not obtained",
+      "from_id": "X08-CTRL-TREASURY-GTAS",
+      "to_id": "X08-REC-VA-SF133-GTAS",
+      "relation_kind": "treasury_gtas_original_agency_submission_not_obtained",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-TREASURY-CS2025-CH42"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-SF133-GTAS"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-17",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "No individual benefit payment authenticated",
+      "from_id": "X08-CTRL-BENEFIT-PAYMENT",
+      "to_id": "X08-GAP-BENEFICIARY-PAYMENT",
+      "relation_kind": "no_individual_benefit_payment_authenticated",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-TREASURY-CS2025-CH42"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-BENEFICIARY-PAYMENT"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    },
+    {
+      "id": "X08-REL-18",
+      "type": "source_pinned_qualified_federal_budget_execution_relationship",
+      "title": "Git original bytes not institutionally governed WORM",
+      "from_id": "X08-OMB-REV-04",
+      "to_id": "X08-GAP-INSTITUTIONAL-IMMUTABILITY",
+      "relation_kind": "git_original_bytes_not_institutionally_governed_worm",
+      "trace_id": "X08-TRACE-VA-2025-0102",
+      "source_ids": [
+        "SRC-X08-OMB-11424792"
+      ],
+      "qualification_gate_ids": [
+        "X08-GAP-INSTITUTIONAL-IMMUTABILITY"
+      ],
+      "original_OMB_approval_signature_verified": false,
+      "VA_signed_allotment_verified": false,
+      "individual_payment_authorized": false,
+      "source_to_payment_causal_proven": false,
+      "review_status": "publisher_source_bytes_verified_bounded_research_only"
+    }
+  ]
+}
