@@ -28,7 +28,7 @@ negative("unresolved apportionment evidence cannot be checked away",d=>rec(d,"ga
 negative("trace cannot erase source-to-transaction uncertainty from its oversight",d=>rec(d,"traces","X06-TRACE-VA-2025-0102").stages[6].record_ids.pop(),"missing unqualified operational gates");
 negative("financial lineage may not assert proven individual payments",d=>rec(d,"traces","X06-TRACE-VA-2025-0102").transaction_source_to_outlay_proven=true,"unverifiable operational/legal certification");
 negative("relationship may not assert individual disbursement",d=>rec(d,"relationships","X06-REL-27").individual_disbursement_verified=true,"relationship fabricates certifying");
-negative("relationship cannot cross unrelated fiscal year or hidden account",d=>rec(d,"relationships","X06-REL-08").to_id="X06-GAP-PAYMENT-EVENT","relation escapes canonical trace|relationship fabricates");
+negative("relationship cannot cross unrelated fiscal year or hidden account",d=>rec(d,"relationships","X06-REL-08").to_id="X06-GAP-PAYMENT-EVENT","canonical edge endpoint/type altered|relation escapes canonical trace|relationship fabricates");
 negative("unattributed public law record is refused",d=>rec(d,"enactments","X06-APP-PL1194-FY25").source_ids=[],"absent source provenance");
 negative("spoofed US Code provenance fails",d=>rec(d,"sources","SRC-X06-38-306").url="https://uscode.house.gov.evil.test/","primary evidence spoofing");
 negative("one annual workload count does not prove outcomes caused by single tranche",d=>rec(d,"outcomes","X06-OUTPUT-FY25-RATING").caused_by_enacted_tranche_verified=true,"workload or GAO program oversight falsely");
