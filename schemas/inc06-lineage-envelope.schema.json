@@ -23,8 +23,7 @@
         "type": "object",
         "required": [
           "id",
-          "type",
-          "source_ids"
+          "type"
         ],
         "properties": {
           "id": {
@@ -60,7 +59,31 @@
             "const": false
           }
         },
-        "additionalProperties": true
+        "additionalProperties": true,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "federal_primary_evidence_reference"
+                }
+              },
+              "required": [
+                "type"
+              ]
+            },
+            "then": {
+              "required": [
+                "url"
+              ]
+            },
+            "else": {
+              "required": [
+                "source_ids"
+              ]
+            }
+          }
+        ]
       }
     }
   }
