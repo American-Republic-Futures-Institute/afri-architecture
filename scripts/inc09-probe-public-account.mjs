@@ -5,7 +5,7 @@ import path from "node:path";
 import {createHash} from "node:crypto";
 const urls=[
  ["federal_account","https://api.usaspending.gov/api/v2/federal_accounts/036-0102/"],
- ["account_fy2025","https://api.usaspending.gov/api/v2/federal_accounts/036-0102/fiscal_year_snapshot/2025/"],
+ ["account_fy2025","https://api.usaspending.gov/api/v2/federal_accounts/4649/fiscal_year_snapshot/2025/"],
  ["agency_submission_fy2025p12","https://api.usaspending.gov/api/v2/reporting/agencies/036/2025/12/submission_history/"]
 ];
 const dir=process.argv[2];if(!dir)throw Error("Output directory required");
