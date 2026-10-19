@@ -276,7 +276,8 @@
     "model/federal/x14c-gaps.json",
     "model/federal/x14c-views.json",
     "model/federal/inc13a-gates.json",
-    "model/federal/inc13a-pilots.json"
+    "model/federal/inc13a-pilots.json",
+    "model/federal/inc13b1-source-slices.json"
   ],
   "standards": [
     {
@@ -961,5 +962,18 @@
     "complete_first_level_denominators_qualified": false,
     "website_publication_enabled": false,
     "note": "Source-bounded prerequisite taxonomy and research-only pilots; no complete current first-level roster, statutory delegation, command, counsel signoff or ADL-1 certification."
+  },
+  "federal_first_level_dod_source_reconciliation_13b1_extension": {
+    "id": "ARFI-FED-INC13B1-DOD-SOURCES",
+    "research_as_of": "2026-10-19",
+    "release_status": "source_bounded_unratified",
+    "source_slice_count": 4,
+    "selected_source_record_count": 55,
+    "complete_current_department_first_level_denominator": null,
+    "adl1_certified_count": 0,
+    "original_custody_qualified": false,
+    "legal_review_complete": false,
+    "website_publication_enabled": false,
+    "precondition": "INC13A PR39 integration and independent review pending"
   }
 }

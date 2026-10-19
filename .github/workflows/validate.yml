@@ -279,3 +279,9 @@ jobs:
           node scripts/validate-inc13a.mjs --view ORG-FED-EXE-DEP-VA > /dev/null
       - name: Test INC-13A source, effective-period and independent-review fail-closed gates
         run: node --test tests/inc13a.test.mjs
+      - name: Validate INC-13B1 DoD source-bounded census and root-first projection
+        run: |
+          node scripts/validate-inc13b1.mjs
+          node scripts/validate-inc13b1.mjs --view > /dev/null
+      - name: Test INC-13B1 false-roster, false-authority, source and ADL gates
+        run: node --test tests/inc13b1.test.mjs
