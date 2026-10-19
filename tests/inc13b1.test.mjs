@@ -9,6 +9,18 @@ test("bounded source projection never certifies ADL1",()=>{
  assert.equal(projectINC13B1(data).root_id,"ORG-FED-EXE-DEP-DEFENSE");
 });
 for(const [name,alter] of [
+ ["missing reconciled record",d=>d.model.reconciled_observations.pop()],
+ ["forged original record identity",d=>d.model.reconciled_observations[0].original_record_id="FAKE"],
+ ["source edition substitution",d=>d.model.reconciled_observations[0].source_snapshot_id="DOD-SNAPSHOT-DAFA-MAY-2026"],
+ ["reassigned statutory parent",d=>d.model.reconciled_observations[0].source_observed_parent_id="DOD-ROLE-SECDEF"],
+ ["asserted specific operational command",d=>d.model.reconciled_observations[0].specific_operational_command_established=true],
+ ["false original byte custody",d=>d.model.reconciled_observations[0].original_source_bytes_verified=true],
+ ["legal effect invention",d=>d.model.reconciled_observations[0].legal_effective_on="2026-10-07"],
+ ["false per-unit ADL qualification",d=>d.model.reconciled_observations[0].adl1_certified=true],
+ ["GAO supervisor role substitution",d=>d.model.reconciled_observations[11].publisher_reported_supervisor_role_id="DOD-ROLE-SECDEF"],
+ ["claim Coast Guard belongs to DoD",d=>d.model.reconciled_observations.at(-1).source_observed_parent_id="ORG-FED-EXE-DEP-DEFENSE"],
+ ["drop Inspector General reference",d=>d.model.associated_role_ids=d.model.associated_role_ids.filter(x=>x!=="DOD-ROLE-DOD-IG")],
+ ["source-to-record classification forgery",d=>d.model.reconciled_observations[0].source_classification="command"],
  ["invented current roster",d=>d.model.whole_department_first_level_denominator=55],
  ["false legal signoff",d=>d.model.independent_legal_review_complete=true],
  ["false source custody",d=>d.model.original_bytes_retained_verified=true],
