@@ -16,7 +16,9 @@ export function validateINC13B1(model,inputs){
    model.adl1_certified_count!==0||model.original_bytes_retained_verified!==false||
    model.independent_legal_review_complete!==false) fail("false certification, completeness or family");
  if(!Array.isArray(model.items)||model.items.length!==4||!unique(model.items.map(x=>x.id))) fail("wrong bounded groups");
- const sourceIDs=new Set(inputs.sources.items.map(x=>x.id)),snapshots=new Map(inputs.snapshots.items.map(x=>[x.id,x]));
+ const registeredSources=[...inputs.sources.items,...inputs.coverageSources.items];
+ if(!unique(registeredSources.map(x=>x.id)))fail("cross-registry duplicate source identity");
+ const sourceIDs=new Set(registeredSources.map(x=>x.id)),snapshots=new Map(inputs.snapshots.items.map(x=>[x.id,x]));
  for(const [id,path,snapshot,n,denom] of expected){
   const x=model.items?.find(y=>y.id===id),target=inputs.collections[path]?.items;
   if(!x||x.source_collection!==path||x.snapshot_id!==snapshot||x.declared_count!==n||
@@ -35,7 +37,7 @@ export function validateINC13B1(model,inputs){
 export function loadINC13B1(){
  const model=read("model/federal/inc13b1-source-slices.json");
  const collections=Object.fromEntries(expected.map(x=>[x[1],read(x[1])]));
- return {model,inputs:{collections,sources:read("model/federal/dod/source-registry.json"),snapshots:read("model/federal/dod/source-snapshots.json"),manifest:read("model/federal/manifest.json")}};
+ return {model,inputs:{collections,sources:read("model/federal/dod/source-registry.json"),coverageSources:read("model/federal/coverage/source-registry.json"),snapshots:read("model/federal/dod/source-snapshots.json"),manifest:read("model/federal/manifest.json")}};
 }
 export function projectINC13B1(input){
  const report=validateINC13B1(input.model,input.inputs);
