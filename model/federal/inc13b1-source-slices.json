@@ -1,0 +1,69 @@
+{
+  "model_family": "inc13b1-source-slices",
+  "model_version": "0.1.0",
+  "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+  "research_status": "source_bounded_unratified",
+  "whole_department_first_level_denominator": null,
+  "adl1_certified_count": 0,
+  "original_bytes_retained_verified": false,
+  "independent_legal_review_complete": false,
+  "items": [
+    {
+      "id": "INC13B1-DOD-STATUTORY-COMPOSITION",
+      "group": "statutory_composition",
+      "source_collection": "model/federal/dod/statutory-composition.json",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "declared_count": 11,
+      "denominator_kind": "10_USC_111_b_enumerated_classes_and_residuals",
+      "complete_within_source": true,
+      "current_entire_dod_structure_complete": false,
+      "source_ids": [
+        "CENSUS-SRC-DOD-111"
+      ],
+      "qualifier": "Eleven categories including open residuals; neither a roster of actual components nor operational command."
+    },
+    {
+      "id": "INC13B1-DOD-DAFA-MAY",
+      "group": "source_dated_defense_agencies_and_field_activities",
+      "source_collection": "model/federal/dod/dafas.json",
+      "snapshot_id": "DOD-SNAPSHOT-DAFA-MAY-2026",
+      "declared_count": 27,
+      "denominator_kind": "GAO_2026_figure_1_May_2026_19_agencies_8_field_activities",
+      "complete_within_source": true,
+      "current_entire_dod_structure_complete": false,
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "qualifier": "GAO's dated roster; neither current agency census nor individual supervisory/delegation verification."
+    },
+    {
+      "id": "INC13B1-DOD-COMBATANT-PUBLIC",
+      "group": "public_combatant_command_names",
+      "source_collection": "model/federal/dod/combatant-commands.json",
+      "snapshot_id": "DOD-SNAPSHOT-COMBATANT-PUBLIC-WEB-2026-10-16",
+      "declared_count": 11,
+      "denominator_kind": "defense_gov_public_directory_2026_10_16",
+      "complete_within_source": true,
+      "current_entire_dod_structure_complete": false,
+      "source_ids": [
+        "DOD-SRC-DEFENSE-ABOUT-2026",
+        "DOD-SRC-10-161"
+      ],
+      "qualifier": "Observed public names only; Unified Command Plan, forces and operational command not authenticated."
+    },
+    {
+      "id": "INC13B1-DOD-ARMED-SERVICES",
+      "group": "armed_service_statutory_boundaries",
+      "source_collection": "model/federal/dod/armed-services.json",
+      "snapshot_id": "DOD-SNAPSHOT-USC-2026-10-07",
+      "declared_count": 6,
+      "denominator_kind": "selected_six_armed_service_source_records",
+      "complete_within_source": true,
+      "current_entire_dod_structure_complete": false,
+      "source_ids": [
+        "DOD-SRC-10-101"
+      ],
+      "qualifier": "Military services are not military departments; Coast Guard statutory contingencies require separate treatment."
+    }
+  ]
+}
