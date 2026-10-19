@@ -1,0 +1,28 @@
+{
+  "model_family": "inc14c-fiscal",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-FISCAL-DIV-D",
+      "measure_id": "X14C-MEASURE-HR5371",
+      "source_ids": [
+        "X14C-SRC-GOVINFO-TEXT"
+      ],
+      "appropriations_authority_status": "enacted_published_division_D",
+      "congressional_authority_type": "enacted_appropriations_statute_not_committee_direction",
+      "fiscal_year": 2026,
+      "division_id": "DIVISION D",
+      "va_related_provisions_present": true,
+      "specific_budget_account_TAS": null,
+      "enacted_account_amount_cents": null,
+      "apportionment_identifier": null,
+      "signed_allotment_identifier": null,
+      "obligation_id": null,
+      "payment_id": null,
+      "treasury_reconciliation_verified": false,
+      "authorized_executive_payment_inferred": false,
+      "fy2025_VA_lineage_misrepresented": false,
+      "independent_fiscal_legal_qualification": false
+    }
+  ]
+}

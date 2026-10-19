@@ -1,0 +1,54 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-observations",
+  "items": [
+    {
+      "id": "X14-OBS-PL11931-HOUSE",
+      "measure_id": "HR1815-119",
+      "event_on": "2025-05-19",
+      "event_kind": "house_passage",
+      "stage_id": "X14-STAGE-HOUSE-FLOOR",
+      "source_ids": [
+        "X14-SRC-PLAW11931"
+      ],
+      "publisher_record_id": "PLAW-119publ31",
+      "independent_journal_sequence_verified": false,
+      "original_signed_action_evidence_verified": false,
+      "committee_referral_proven": false,
+      "appropriations_act_proven": false,
+      "status": "official_published_history_point_not_complete_process"
+    },
+    {
+      "id": "X14-OBS-PL11931-SENATE",
+      "measure_id": "HR1815-119",
+      "event_on": "2025-07-15",
+      "event_kind": "senate_passage",
+      "stage_id": "X14-STAGE-SENATE-FLOOR",
+      "source_ids": [
+        "X14-SRC-PLAW11931"
+      ],
+      "publisher_record_id": "PLAW-119publ31",
+      "independent_journal_sequence_verified": false,
+      "original_signed_action_evidence_verified": false,
+      "committee_referral_proven": false,
+      "appropriations_act_proven": false,
+      "status": "official_published_history_point_not_complete_process"
+    },
+    {
+      "id": "X14-OBS-PL11931-APPROVAL",
+      "measure_id": "HR1815-119",
+      "event_on": "2025-07-30",
+      "event_kind": "presidential_approval",
+      "stage_id": "X14-STAGE-DISPOSITION",
+      "source_ids": [
+        "X14-SRC-PLAW11931"
+      ],
+      "publisher_record_id": "PLAW-119publ31",
+      "independent_journal_sequence_verified": false,
+      "original_signed_action_evidence_verified": false,
+      "committee_referral_proven": false,
+      "appropriations_act_proven": false,
+      "status": "official_published_history_point_not_complete_process"
+    }
+  ]
+}

@@ -251,6 +251,28 @@ jobs:
       - name: Test INC-13 source provenance, structural semantics, missing denominators and anti-delegation guards
         run: node --test tests/inc13.test.mjs
 
+      - name: Verify INC-14 House/Senate congress, lawmaking workflow and appropriations separation
+        run: node scripts/validate-inc14.mjs
+      - name: Project INC-14 chamber, legislative process and fiscal evidence viewpoints
+        run: |
+          node scripts/validate-inc14.mjs --view VIEW-X14-HOUSE > /dev/null
+          node scripts/validate-inc14.mjs --view VIEW-X14-SENATE > /dev/null
+          node scripts/validate-inc14.mjs --view VIEW-X14-PROCESS > /dev/null
+          node scripts/validate-inc14.mjs --view VIEW-X14-FISCAL > /dev/null
+      - name: Negative-test INC-14 constitutional powers, chamber affiliation and no fabricated spending
+        run: node --test tests/inc14.test.mjs
+
+      - name: Validate INC-14C bounded 119th committee/office coverage and enacted-law evidence
+        run: node scripts/validate-inc14c.mjs
+      - name: Validate INC-14C five source-pinned congressional research projections
+        run: |
+          node scripts/validate-inc14c.mjs --view VIEW-X14C-HOUSE-ROSTER > /dev/null
+          node scripts/validate-inc14c.mjs --view VIEW-X14C-SENATE-ROSTER > /dev/null
+          node scripts/validate-inc14c.mjs --view VIEW-X14C-RULES-OVERSIGHT > /dev/null
+          node scripts/validate-inc14c.mjs --view VIEW-X14C-HR5371 > /dev/null
+          node scripts/validate-inc14c.mjs --view VIEW-X14C-DIVISION-D > /dev/null
+      - name: Adversarial INC-14C tests for authority inflation, falsified chamber events, rosters and VA outlays
+        run: node --test tests/inc14c.test.mjs
       - name: Validate INC-13A nine-gate federal ADL-1 qualification contract
         run: |
           node scripts/validate-inc13a.mjs

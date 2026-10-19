@@ -1,0 +1,106 @@
+{
+  "model_family": "inc14c-actions",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-ACTION-HOUSE-281",
+      "measure_id": "X14C-MEASURE-HR5371",
+      "action_on": "2025-09-19",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "action_kind": "house_bill_passage",
+      "roll_call_number": 281,
+      "yeas": 217,
+      "nays": 212,
+      "source_ids": [
+        "X14C-SRC-HOUSE-V281"
+      ],
+      "record_level": "official_chamber_roll_call",
+      "action_question_verified_in_publisher": true,
+      "enactment_inferred_from_single_vote": false,
+      "committee_referral_verified": false,
+      "original_binary_retained": false,
+      "signed_presidential_instrument_independently_reconciled": false,
+      "qualification": "House original bill vote; not the Senate-amended enacted text"
+    },
+    {
+      "id": "X14C-ACTION-SENATE-616",
+      "measure_id": "X14C-MEASURE-HR5371",
+      "action_on": "2025-11-10",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "action_kind": "senate_substitute_amendment_agreed",
+      "roll_call_number": 616,
+      "yeas": 60,
+      "nays": 40,
+      "source_ids": [
+        "X14C-SRC-SENATE-V616"
+      ],
+      "record_level": "official_chamber_roll_call",
+      "action_question_verified_in_publisher": true,
+      "enactment_inferred_from_single_vote": false,
+      "committee_referral_verified": false,
+      "original_binary_retained": false,
+      "signed_presidential_instrument_independently_reconciled": false,
+      "qualification": "Amendment 3937, not final passage"
+    },
+    {
+      "id": "X14C-ACTION-SENATE-618",
+      "measure_id": "X14C-MEASURE-HR5371",
+      "action_on": "2025-11-10",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "action_kind": "senate_passage_as_amended",
+      "roll_call_number": 618,
+      "yeas": 60,
+      "nays": 40,
+      "source_ids": [
+        "X14C-SRC-SENATE-V618"
+      ],
+      "record_level": "official_chamber_roll_call",
+      "action_question_verified_in_publisher": true,
+      "enactment_inferred_from_single_vote": false,
+      "committee_referral_verified": false,
+      "original_binary_retained": false,
+      "signed_presidential_instrument_independently_reconciled": false,
+      "qualification": "Bill passage of Senate-amended H.R. 5371"
+    },
+    {
+      "id": "X14C-ACTION-HOUSE-285",
+      "measure_id": "X14C-MEASURE-HR5371",
+      "action_on": "2025-11-12",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "action_kind": "house_concurrence_in_senate_amendment",
+      "roll_call_number": 285,
+      "yeas": 222,
+      "nays": 209,
+      "source_ids": [
+        "X14C-SRC-HOUSE-V285"
+      ],
+      "record_level": "official_chamber_roll_call",
+      "action_question_verified_in_publisher": true,
+      "enactment_inferred_from_single_vote": false,
+      "committee_referral_verified": false,
+      "original_binary_retained": false,
+      "signed_presidential_instrument_independently_reconciled": false,
+      "qualification": "House concurred in Senate amendment; same-text enactment requires authentic enacted version"
+    },
+    {
+      "id": "X14C-ACTION-LAW-37",
+      "measure_id": "X14C-MEASURE-HR5371",
+      "action_on": "2025-11-12",
+      "chamber_id": null,
+      "action_kind": "presidential_approval_record",
+      "roll_call_number": null,
+      "yeas": null,
+      "nays": null,
+      "source_ids": [
+        "X14C-SRC-GOVINFO-37"
+      ],
+      "record_level": "official_published_law_record",
+      "action_question_verified_in_publisher": true,
+      "enactment_inferred_from_single_vote": false,
+      "committee_referral_verified": false,
+      "original_binary_retained": false,
+      "signed_presidential_instrument_independently_reconciled": false,
+      "qualification": "GovInfo Public Law approval date; independent signed original not retained"
+    }
+  ]
+}

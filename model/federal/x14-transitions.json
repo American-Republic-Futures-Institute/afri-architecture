@@ -1,0 +1,188 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-transitions",
+  "items": [
+    {
+      "id": "X14-TRANS-INTRO-HOUSE-REF",
+      "from_id": "X14-STAGE-INTRO",
+      "to_id": "X14-STAGE-HOUSE-REF",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-HOUSE-REF-HOUSE-COM",
+      "from_id": "X14-STAGE-HOUSE-REF",
+      "to_id": "X14-STAGE-HOUSE-COM",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-HOUSE-COM-HOUSE-FLOOR",
+      "from_id": "X14-STAGE-HOUSE-COM",
+      "to_id": "X14-STAGE-HOUSE-FLOOR",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-HOUSE-FLOOR-SENATE-REF",
+      "from_id": "X14-STAGE-HOUSE-FLOOR",
+      "to_id": "X14-STAGE-SENATE-REF",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-SENATE-REF-SENATE-COM",
+      "from_id": "X14-STAGE-SENATE-REF",
+      "to_id": "X14-STAGE-SENATE-COM",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-SENATE-COM-SENATE-FLOOR",
+      "from_id": "X14-STAGE-SENATE-COM",
+      "to_id": "X14-STAGE-SENATE-FLOOR",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-SENATE-FLOOR-RECONCILE",
+      "from_id": "X14-STAGE-SENATE-FLOOR",
+      "to_id": "X14-STAGE-RECONCILE",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-RECONCILE-IDENTICAL",
+      "from_id": "X14-STAGE-RECONCILE",
+      "to_id": "X14-STAGE-IDENTICAL",
+      "condition": "requires_separate_house_and_senate_approval_of_identical_text",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-IDENTICAL-ENROLL",
+      "from_id": "X14-STAGE-IDENTICAL",
+      "to_id": "X14-STAGE-ENROLL",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-ENROLL-PRESENT",
+      "from_id": "X14-STAGE-ENROLL",
+      "to_id": "X14-STAGE-PRESENT",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-PRESENT-DISPOSITION",
+      "from_id": "X14-STAGE-PRESENT",
+      "to_id": "X14-STAGE-DISPOSITION",
+      "condition": "conditional_nonautomatic_procedure",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-DISPOSITION-PUBLICATION",
+      "from_id": "X14-STAGE-DISPOSITION",
+      "to_id": "X14-STAGE-PUBLICATION",
+      "condition": "only_if_constitutionally_enacted",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-DISPOSITION-OVERRIDE",
+      "from_id": "X14-STAGE-DISPOSITION",
+      "to_id": "X14-STAGE-OVERRIDE",
+      "condition": "only_if_veto_and_override_path_applicable",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    },
+    {
+      "id": "X14-TRANS-OVERRIDE-PUBLICATION",
+      "from_id": "X14-STAGE-OVERRIDE",
+      "to_id": "X14-STAGE-PUBLICATION",
+      "condition": "two_thirds_approval_both_chambers_and_enacted",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "constitutes_legislative_enactment": false,
+      "automatic_government_authorization": false,
+      "specific_measured_bill_event": false
+    }
+  ]
+}

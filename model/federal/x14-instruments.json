@@ -1,0 +1,110 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-instruments",
+  "items": [
+    {
+      "id": "X14-INSTR-ARTICLE-I",
+      "title": "Article I constitutional lawmaking and presentment",
+      "instrument_kind": "constitutional_text",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION"
+      ],
+      "qualifier": "Constitutional allocation, not committee authority or executive spending",
+      "as_of": "2026-10-19",
+      "independently_qualified_current_legal_effect": false,
+      "signed_operational_delegation_proven": false,
+      "status": "source_bounded_instrument_not_executed_authority"
+    },
+    {
+      "id": "X14-INSTR-HOUSE-119",
+      "title": "119th House Rules",
+      "instrument_kind": "chamber_adopted_rules",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES"
+      ],
+      "qualifier": "House Rule X and committee procedures require version-specific review",
+      "as_of": "2026-10-19",
+      "independently_qualified_current_legal_effect": false,
+      "signed_operational_delegation_proven": false,
+      "status": "source_bounded_instrument_not_executed_authority"
+    },
+    {
+      "id": "X14-INSTR-SENATE-STANDING",
+      "title": "Senate Standing Rules",
+      "instrument_kind": "chamber_continuing_rules",
+      "source_ids": [
+        "X14-SRC-SENATE-RULES"
+      ],
+      "qualifier": "Senate Rule XXV jurisdiction and XXVI committee procedures differ from House",
+      "as_of": "2026-10-19",
+      "independently_qualified_current_legal_effect": false,
+      "signed_operational_delegation_proven": false,
+      "status": "source_bounded_instrument_not_executed_authority"
+    },
+    {
+      "id": "X14-INSTR-HOUSE-DIRECTORY",
+      "title": "House Appropriations publisher roster",
+      "instrument_kind": "publisher_directory_not_law",
+      "source_ids": [
+        "X14-SRC-HOUSE-MILCON"
+      ],
+      "qualifier": "No automatic signed authority or current complete roster",
+      "as_of": "2026-10-19",
+      "independently_qualified_current_legal_effect": false,
+      "signed_operational_delegation_proven": false,
+      "status": "source_bounded_instrument_not_executed_authority"
+    },
+    {
+      "id": "X14-INSTR-SENATE-DIRECTORY",
+      "title": "Senate Appropriations publisher roster",
+      "instrument_kind": "publisher_directory_not_law",
+      "source_ids": [
+        "X14-SRC-SENATE-MILCON"
+      ],
+      "qualifier": "No automatic signed authority or current complete roster",
+      "as_of": "2026-10-19",
+      "independently_qualified_current_legal_effect": false,
+      "signed_operational_delegation_proven": false,
+      "status": "source_bounded_instrument_not_executed_authority"
+    },
+    {
+      "id": "X14-INSTR-CRS-PROCESS",
+      "title": "CRS generalized legislative process",
+      "instrument_kind": "nonbinding_congressional_research",
+      "source_ids": [
+        "X14-SRC-CRS-R42843"
+      ],
+      "qualifier": "Illustration is not evidence of actual committee action",
+      "as_of": "2026-10-19",
+      "independently_qualified_current_legal_effect": false,
+      "signed_operational_delegation_proven": false,
+      "status": "source_bounded_instrument_not_executed_authority"
+    },
+    {
+      "id": "X14-INSTR-PUBL11931",
+      "title": "Public Law 119-31 official enacted law publication",
+      "instrument_kind": "specific_enacted_law_metadata",
+      "source_ids": [
+        "X14-SRC-PLAW11931"
+      ],
+      "qualifier": "Not an FY2025 appropriation; no proof of committee action without additional evidence",
+      "as_of": "2026-10-19",
+      "independently_qualified_current_legal_effect": false,
+      "signed_operational_delegation_proven": false,
+      "status": "source_bounded_instrument_not_executed_authority"
+    },
+    {
+      "id": "X14-INSTR-GPO-SLIP",
+      "title": "Official slip-law publication collection",
+      "instrument_kind": "government_publication_register",
+      "source_ids": [
+        "X14-SRC-GOVINFO-LAWS"
+      ],
+      "qualifier": "Publication metadata is subsequent to enactment, not Treasury disbursement",
+      "as_of": "2026-10-19",
+      "independently_qualified_current_legal_effect": false,
+      "signed_operational_delegation_proven": false,
+      "status": "source_bounded_instrument_not_executed_authority"
+    }
+  ]
+}
