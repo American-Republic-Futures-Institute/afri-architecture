@@ -22,7 +22,17 @@
   "complete_department_first_level_denominator": null,
   "adl1_certified_count": 0,
   "independent_institutional_review_complete": false,
-  "reconciled_observations": [
+  "explicit_scope_exclusions": [
+    "outside_selected_36_connector_chart_source_group",
+    "current_full_department_first_level_roster",
+    "signed_individual_delegations",
+    "supervision_and_operational_command",
+    "independent_IG_statutory_authority",
+    "adjudicatory_independence_or_jurisdiction",
+    "original_bytes_and_verified_signed_instrument",
+    "current_legal_effect_or_historical_successions"
+  ],
+  "items": [
     {
       "id": "X13B2-OBS-DEPT04-UNIT-JUSTICE-AG",
       "source_collection": "model/federal/department-structure/units.json",
@@ -995,15 +1005,5 @@
       "independent_legal_review_complete": false,
       "adl1_certified": false
     }
-  ],
-  "explicit_scope_exclusions": [
-    "outside_selected_36_connector_chart_source_group",
-    "current_full_department_first_level_roster",
-    "signed_individual_delegations",
-    "supervision_and_operational_command",
-    "independent_IG_statutory_authority",
-    "adjudicatory_independence_or_jurisdiction",
-    "original_bytes_and_verified_signed_instrument",
-    "current_legal_effect_or_historical_successions"
   ]
 }

@@ -64,7 +64,7 @@ export function validateINC13B2(model,inputs){
  if(originals.length!==36||edges.length!==36||prior.length!==36||
   !uniq(originals.map(x=>x.id))||!uniq(edges.map(x=>x.id))||!uniq(prior.map(x=>x.id)))fail("unexpected original group denominator");
  const byUnit=new Map(originals.map(x=>[x.id,x])),byEdge=new Map(edges.map(x=>[x.from_id,x])),byPrior=new Map(prior.map(x=>[x.source_record_id,x]));
- const rows=model?.reconciled_observations;
+ const rows=model?.items;
  if(!Array.isArray(rows)||rows.length!==36||!uniq(rows.map(x=>x.id))||
   !uniq(rows.map(x=>x.original_record_id)))fail("incomplete, duplicated or invented source observation");
  const rowByOrig=new Map((Array.isArray(rows)?rows:[]).map(x=>[x.original_record_id,x]));
@@ -115,8 +115,8 @@ export function projectINC13B2(data){
  if(report.errors.length)throw Error(report.errors.join("; "));
  return {root_id:DEPT,source_snapshot_id:SNAP,source_record_id:SRC,
   source_timeline:data.model.source_scope,
-  nodes:data.model.reconciled_observations,
-  edges:data.model.reconciled_observations.map(x=>({id:x.original_source_relation_id,
+  nodes:data.model.items,
+  edges:data.model.items.map(x=>({id:x.original_source_relation_id,
    from_id:x.original_record_id,to_id:x.source_observed_parent_id,relationship_type:x.source_relation_class,
    source_id:SRC,as_observed_on:x.source_observed_on,legal_effective_on:null})),
   coverage:report,warning:"Chart connector is not legal supervision, executed delegation, operational command, complete roster or certified ADL-1."};
