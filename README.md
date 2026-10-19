@@ -201,3 +201,7 @@ The [source-bounded federal office/policy/authority contract](docs/FEDERAL-OFFIC
 ## INC-12 — Source-bounded Federal census identity reconciliation
 
 The [Federal institutional census reconciliation](docs/FEDERAL-INSTITUTIONAL-CENSUS-INC12.md) preserves 61 selected canonical federal references, 150 bounded source observations, 12 verified Government Manual publication locators (not agency identifiers) and four unqualified historical transitions. Seven manifest-registered data families expose five root-first Atlas projection contracts, each with an unknown government-wide denominator and independent research gate. Validate with `node scripts/validate-inc12.mjs` and `node --test tests/inc12.test.mjs`.
+
+## INC-13A — Federal ADL-1 structural qualification contract
+
+The [nine-gate DoD/DOJ/VA ADL-1 intake](docs/FEDERAL-ADL1-QUALIFICATION-INC13A.md) preserves the unmet VA 04E prerequisites and original INC-12 source limits without conflating the independent X13 EOP/FTC research. All three pilot scopes are research-only, denominators are unknown and no delegation, operational command or ADL-1 entity is certified. Validate with `node scripts/validate-inc13a.mjs` and `node --test tests/inc13a.test.mjs`.

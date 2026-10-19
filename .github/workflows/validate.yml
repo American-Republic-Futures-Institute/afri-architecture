@@ -250,3 +250,10 @@ jobs:
           node scripts/validate-inc13.mjs --view VIEW-X13-FTC > /dev/null
       - name: Test INC-13 source provenance, structural semantics, missing denominators and anti-delegation guards
         run: node --test tests/inc13.test.mjs
+
+      - name: Validate INC-13A nine-gate federal ADL-1 qualification contract
+        run: |
+          node scripts/validate-inc13a.mjs
+          node scripts/validate-inc13a.mjs --view ORG-FED-EXE-DEP-VA > /dev/null
+      - name: Test INC-13A source, effective-period and independent-review fail-closed gates
+        run: node --test tests/inc13a.test.mjs

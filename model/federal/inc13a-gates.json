@@ -1,0 +1,87 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13a-gates",
+  "items": [
+    {
+      "id": "X13A-GATE-SCOPE",
+      "va04e_precedent_gate_id": "E04E-QUAL-SCOPE",
+      "title": "Scope, identity and jurisdiction",
+      "required_evidence": "Define first-level institution boundaries, exclusions, legal identity and an explicit as-of research question.",
+      "review_role": "institutional_architect",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    },
+    {
+      "id": "X13A-GATE-SOURCE",
+      "va04e_precedent_gate_id": "E04E-QUAL-SOURCE",
+      "title": "Original source and edition integrity",
+      "required_evidence": "Independently retrieve, hash and bind exact government-source editions and legal instruments to their published records.",
+      "review_role": "source_custodian",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    },
+    {
+      "id": "X13A-GATE-COHORT",
+      "va04e_precedent_gate_id": "E04E-QUAL-COHORT",
+      "title": "Complete first-level cohort",
+      "required_evidence": "Reconcile the entire qualified first-level cohort at the declared effective date, including independent exceptions and residuals.",
+      "review_role": "institutional_architect",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    },
+    {
+      "id": "X13A-GATE-STATUTE",
+      "va04e_precedent_gate_id": "E04E-QUAL-STATUTE",
+      "title": "Statutory composition and limits",
+      "required_evidence": "Identify applicable statutory establishment, organizational categories, exceptions, conditions, changes and temporal legal effect.",
+      "review_role": "qualified_statutory_counsel",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    },
+    {
+      "id": "X13A-GATE-FUNCTIONS",
+      "va04e_precedent_gate_id": "E04E-QUAL-FUNCTIONS",
+      "title": "Typed structural relationships",
+      "required_evidence": "Distinguish source placement, statutory composition, supervision, delegation, command, adjudicative independence and oversight.",
+      "review_role": "qualified_statutory_counsel",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    },
+    {
+      "id": "X13A-GATE-HISTORICAL",
+      "va04e_precedent_gate_id": "E04E-QUAL-HISTORICAL",
+      "title": "Historical identity and succession",
+      "required_evidence": "Reconcile documented redesignations, predecessor/successor functions and unresolved operative dates without inventing continuity.",
+      "review_role": "qualified_statutory_counsel",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    },
+    {
+      "id": "X13A-GATE-HUMAN",
+      "va04e_precedent_gate_id": "E04E-QUAL-HUMAN",
+      "title": "Independent expert determinations",
+      "required_evidence": "Obtain independently authenticated, appropriately scoped institutional and legal human-review decisions; preserve dissent.",
+      "review_role": "independent_review_authority",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    },
+    {
+      "id": "X13A-GATE-CUSTODY",
+      "va04e_precedent_gate_id": "E04E-QUAL-CUSTODY",
+      "title": "Institutionally approved evidence custody",
+      "required_evidence": "Bind evidence to ratified signer policy, exact-source digests and approved immutable retention; preserve the VA-specific 04E higher bar.",
+      "review_role": "records_governance",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    },
+    {
+      "id": "X13A-GATE-AUDIT",
+      "va04e_precedent_gate_id": "E04E-QUAL-AUDIT",
+      "title": "Independent audit and recovery",
+      "required_evidence": "Verify reproducible independently authenticated source access, tamper evidence, and restoration of protected original evidence.",
+      "review_role": "independent_auditor",
+      "mandatory": true,
+      "effect": "prerequisite_only_not_automatic_ADL1_certification"
+    }
+  ]
+}

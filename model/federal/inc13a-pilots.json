@@ -1,0 +1,300 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13a-pilots",
+  "items": [
+    {
+      "id": "X13A-PILOT-DEFENSE",
+      "canonical_department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "census_identity_id": "X12-IDENTITY-ORG-FED-EXE-DEP-DEFENSE",
+      "source_baseline_commit": "e4252ff4e81d9b4aae52ec930a52588b61ad13ee",
+      "scope": "bounded_first_level_structural_qualification_pilot",
+      "as_of_effective_date": null,
+      "complete_first_level_denominator": null,
+      "denominator_qualified": false,
+      "independent_legal_review_complete": false,
+      "adl1_certified": false,
+      "certification_decision_id": null,
+      "review_state": "research_only_pending_independent_review",
+      "gate_results": [
+        {
+          "gate_id": "X13A-GATE-SCOPE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required scope, identity and jurisdiction evidence and independent approval remain unqualified for Department of Defense."
+        },
+        {
+          "gate_id": "X13A-GATE-SOURCE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required original source and edition integrity evidence and independent approval remain unqualified for Department of Defense."
+        },
+        {
+          "gate_id": "X13A-GATE-COHORT",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required complete first-level cohort evidence and independent approval remain unqualified for Department of Defense."
+        },
+        {
+          "gate_id": "X13A-GATE-STATUTE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required statutory composition and limits evidence and independent approval remain unqualified for Department of Defense."
+        },
+        {
+          "gate_id": "X13A-GATE-FUNCTIONS",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required typed structural relationships evidence and independent approval remain unqualified for Department of Defense."
+        },
+        {
+          "gate_id": "X13A-GATE-HISTORICAL",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required historical identity and succession evidence and independent approval remain unqualified for Department of Defense."
+        },
+        {
+          "gate_id": "X13A-GATE-HUMAN",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required independent expert determinations evidence and independent approval remain unqualified for Department of Defense."
+        },
+        {
+          "gate_id": "X13A-GATE-CUSTODY",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required institutionally approved evidence custody evidence and independent approval remain unqualified for Department of Defense."
+        },
+        {
+          "gate_id": "X13A-GATE-AUDIT",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required independent audit and recovery evidence and independent approval remain unqualified for Department of Defense."
+        }
+      ],
+      "research_relationships": []
+    },
+    {
+      "id": "X13A-PILOT-JUSTICE",
+      "canonical_department_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "census_identity_id": "X12-IDENTITY-ORG-FED-EXE-DEP-JUSTICE",
+      "source_baseline_commit": "e4252ff4e81d9b4aae52ec930a52588b61ad13ee",
+      "scope": "bounded_first_level_structural_qualification_pilot",
+      "as_of_effective_date": null,
+      "complete_first_level_denominator": null,
+      "denominator_qualified": false,
+      "independent_legal_review_complete": false,
+      "adl1_certified": false,
+      "certification_decision_id": null,
+      "review_state": "research_only_pending_independent_review",
+      "gate_results": [
+        {
+          "gate_id": "X13A-GATE-SCOPE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required scope, identity and jurisdiction evidence and independent approval remain unqualified for Department of Justice."
+        },
+        {
+          "gate_id": "X13A-GATE-SOURCE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required original source and edition integrity evidence and independent approval remain unqualified for Department of Justice."
+        },
+        {
+          "gate_id": "X13A-GATE-COHORT",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required complete first-level cohort evidence and independent approval remain unqualified for Department of Justice."
+        },
+        {
+          "gate_id": "X13A-GATE-STATUTE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required statutory composition and limits evidence and independent approval remain unqualified for Department of Justice."
+        },
+        {
+          "gate_id": "X13A-GATE-FUNCTIONS",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required typed structural relationships evidence and independent approval remain unqualified for Department of Justice."
+        },
+        {
+          "gate_id": "X13A-GATE-HISTORICAL",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required historical identity and succession evidence and independent approval remain unqualified for Department of Justice."
+        },
+        {
+          "gate_id": "X13A-GATE-HUMAN",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required independent expert determinations evidence and independent approval remain unqualified for Department of Justice."
+        },
+        {
+          "gate_id": "X13A-GATE-CUSTODY",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required institutionally approved evidence custody evidence and independent approval remain unqualified for Department of Justice."
+        },
+        {
+          "gate_id": "X13A-GATE-AUDIT",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required independent audit and recovery evidence and independent approval remain unqualified for Department of Justice."
+        }
+      ],
+      "research_relationships": []
+    },
+    {
+      "id": "X13A-PILOT-VA",
+      "canonical_department_id": "ORG-FED-EXE-DEP-VA",
+      "census_identity_id": "X12-IDENTITY-ORG-FED-EXE-DEP-VA",
+      "source_baseline_commit": "e4252ff4e81d9b4aae52ec930a52588b61ad13ee",
+      "scope": "bounded_first_level_structural_qualification_pilot",
+      "as_of_effective_date": null,
+      "complete_first_level_denominator": null,
+      "denominator_qualified": false,
+      "independent_legal_review_complete": false,
+      "adl1_certified": false,
+      "certification_decision_id": null,
+      "review_state": "research_only_pending_independent_review",
+      "gate_results": [
+        {
+          "gate_id": "X13A-GATE-SCOPE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required scope, identity and jurisdiction evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        },
+        {
+          "gate_id": "X13A-GATE-SOURCE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required original source and edition integrity evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        },
+        {
+          "gate_id": "X13A-GATE-COHORT",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required complete first-level cohort evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        },
+        {
+          "gate_id": "X13A-GATE-STATUTE",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required statutory composition and limits evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        },
+        {
+          "gate_id": "X13A-GATE-FUNCTIONS",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required typed structural relationships evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        },
+        {
+          "gate_id": "X13A-GATE-HISTORICAL",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required historical identity and succession evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        },
+        {
+          "gate_id": "X13A-GATE-HUMAN",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required independent expert determinations evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        },
+        {
+          "gate_id": "X13A-GATE-CUSTODY",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required institutionally approved evidence custody evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        },
+        {
+          "gate_id": "X13A-GATE-AUDIT",
+          "status": "not_met",
+          "evidence_refs": [],
+          "reviewer_id": null,
+          "reviewed_at": null,
+          "review_decision_id": null,
+          "gap": "Required independent audit and recovery evidence and independent approval remain unqualified for Department of Veterans Affairs."
+        }
+      ],
+      "research_relationships": []
+    }
+  ]
+}
