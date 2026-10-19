@@ -274,7 +274,9 @@
     "model/federal/x14c-crosswalks.json",
     "model/federal/x14c-history.json",
     "model/federal/x14c-gaps.json",
-    "model/federal/x14c-views.json"
+    "model/federal/x14c-views.json",
+    "model/federal/inc13a-gates.json",
+    "model/federal/inc13a-pilots.json"
   ],
   "standards": [
     {
@@ -945,5 +947,19 @@
     "enacted_law_means_executed_spending": false,
     "adl1_certified_count": 0,
     "status": "source_bounded_unratified_research"
+  },
+  "federal_adl1_qualification_13a_extension": {
+    "id": "ARFI-FED-INC13A-ADL1-QUALIFICATION",
+    "model_version": "0.1.0",
+    "research_as_of": "2026-10-19",
+    "release_status": "bounded_research_pending_independent_structural_review",
+    "source_baseline_commit": "e4252ff4e81d9b4aae52ec930a52588b61ad13ee",
+    "qualification_gates": 9,
+    "research_pilot_departments": 3,
+    "certified_institutions": 0,
+    "independent_decision_verified": false,
+    "complete_first_level_denominators_qualified": false,
+    "website_publication_enabled": false,
+    "note": "Source-bounded prerequisite taxonomy and research-only pilots; no complete current first-level roster, statutory delegation, command, counsel signoff or ADL-1 certification."
   }
 }
