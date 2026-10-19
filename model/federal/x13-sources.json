@@ -1,0 +1,126 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13-sources",
+  "items": [
+    {
+      "id": "X13-SRC-USC31-501",
+      "title": "31 U.S.C. § 501 (OMB statutory location)",
+      "url": "https://uscode.house.gov/us/usc/119-118/t31/s501/",
+      "publisher": "Office of Law Revision Counsel",
+      "source_kind": "codified_statute",
+      "edition_on": "2026-10-07",
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-USC31-504",
+      "title": "31 U.S.C. § 504",
+      "url": "https://uscode.house.gov/us/usc/119-118/t31/s504/",
+      "publisher": "Office of Law Revision Counsel",
+      "source_kind": "codified_statute",
+      "edition_on": "2026-10-07",
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-USC31-505",
+      "title": "31 U.S.C. § 505",
+      "url": "https://uscode.house.gov/us/usc/119-118/t31/s505/",
+      "publisher": "Office of Law Revision Counsel",
+      "source_kind": "codified_statute",
+      "edition_on": "2026-10-07",
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-USC31-506",
+      "title": "31 U.S.C. § 506",
+      "url": "https://uscode.house.gov/us/usc/119-118/t31/s506/",
+      "publisher": "Office of Law Revision Counsel",
+      "source_kind": "codified_statute",
+      "edition_on": "2026-10-07",
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-USC31-507",
+      "title": "31 U.S.C. § 507",
+      "url": "https://uscode.house.gov/us/usc/119-118/t31/s507/",
+      "publisher": "Office of Law Revision Counsel",
+      "source_kind": "codified_statute",
+      "edition_on": "2026-10-07",
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-USC44-3503",
+      "title": "44 U.S.C. § 3503 (OIRA and statutory delegation requirement)",
+      "url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title44-section3503",
+      "publisher": "Office of Law Revision Counsel",
+      "source_kind": "codified_statute_preliminary",
+      "edition_on": null,
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-WH-OMB-OFFICES",
+      "title": "OMB FOIA agency organization / named offices",
+      "url": "https://www.whitehouse.gov/omb/information-resources/freedom-of-information-act-foia/",
+      "publisher": "Office of Management and Budget",
+      "source_kind": "agency_descriptive_directory",
+      "edition_on": null,
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-FTC-BUREAUS",
+      "title": "Federal Trade Commission, Bureaus & Offices",
+      "url": "https://www.ftc.gov/about-ftc/bureaus-offices",
+      "publisher": "Federal Trade Commission",
+      "source_kind": "agency_descriptive_directory",
+      "edition_on": null,
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-FTC-ABOUT",
+      "title": "About the Federal Trade Commission",
+      "url": "https://www.ftc.gov/about-ftc",
+      "publisher": "Federal Trade Commission",
+      "source_kind": "agency_descriptive_overview",
+      "edition_on": null,
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    },
+    {
+      "id": "X13-SRC-USC15-41",
+      "title": "15 U.S.C. § 41 (FTC statutory commission)",
+      "url": "https://uscode.house.gov/us/usc/119-118/t15/s41/",
+      "publisher": "Office of Law Revision Counsel",
+      "source_kind": "codified_statute",
+      "edition_on": "2026-10-07",
+      "retrieved_on": "2026-10-19",
+      "original_bytes_sha256": null,
+      "independent_original_custody_verified": false,
+      "source_status": "publisher_page_located_not_custody_certified"
+    }
+  ]
+}

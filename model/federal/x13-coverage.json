@@ -1,0 +1,48 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13-coverage",
+  "items": [
+    {
+      "id": "X13-COVERAGE-EOP",
+      "family": "eop",
+      "pilot_root_id": "ORG-FED-EXE-EOP-OMB",
+      "legacy_family_selected_identity_count": 10,
+      "source_sliced_new_unit_count": 7,
+      "source_sliced_pilot_root_count": 1,
+      "complete_government_family_denominator": null,
+      "complete_pilot_first_level_denominator": null,
+      "official_publication_roster_exhaustive": false,
+      "source_inventory_denominator": 7,
+      "observed_source_group_ids": [
+        "X13-SRC-WH-OMB-OFFICES",
+        "X13-SRC-USC31-501"
+      ],
+      "certified_adl1_count": 0,
+      "current_structure_complete": false,
+      "independent_legal_review_complete": false,
+      "independent_original_custody_complete": false,
+      "coverage_scope": "OMB bounded offices and statutory offices only; EOP family not recounted"
+    },
+    {
+      "id": "X13-COVERAGE-INDEPENDENT",
+      "family": "independent",
+      "pilot_root_id": "ORG-FED-EXE-IND-FTC",
+      "legacy_family_selected_identity_count": 18,
+      "source_sliced_new_unit_count": 6,
+      "source_sliced_pilot_root_count": 1,
+      "complete_government_family_denominator": null,
+      "complete_pilot_first_level_denominator": null,
+      "official_publication_roster_exhaustive": false,
+      "source_inventory_denominator": 6,
+      "observed_source_group_ids": [
+        "X13-SRC-FTC-BUREAUS",
+        "X13-SRC-USC15-41"
+      ],
+      "certified_adl1_count": 0,
+      "current_structure_complete": false,
+      "independent_legal_review_complete": false,
+      "independent_original_custody_complete": false,
+      "coverage_scope": "Selected FTC bureaus and offices plus statutory collective body; no comprehensive independent-agency census"
+    }
+  ]
+}

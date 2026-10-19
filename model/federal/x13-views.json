@@ -1,0 +1,39 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13-views",
+  "items": [
+    {
+      "id": "VIEW-X13-OMB",
+      "family": "eop",
+      "title": "OMB statutory offices and source-listed administrative components",
+      "root_id": "ORG-FED-EXE-EOP-OMB",
+      "included_relationship_types": [
+        "statutory_organizational_location",
+        "statutory_office_location",
+        "publisher_listed_organizational_component"
+      ],
+      "source_commit_policy": "exact_git_commit_required",
+      "read_only": true,
+      "qualified_current_legal_authority": false,
+      "current_organization_complete": false,
+      "adl1_certified": false,
+      "disclaimer": "Selected publication and statutory observations; no full EOP or OMB roster, no signed individual delegation."
+    },
+    {
+      "id": "VIEW-X13-FTC",
+      "family": "independent",
+      "title": "FTC statutory commission, bureaus and offices",
+      "root_id": "ORG-FED-EXE-IND-FTC",
+      "included_relationship_types": [
+        "statutory_commission_composition",
+        "publisher_listed_organizational_component"
+      ],
+      "source_commit_policy": "exact_git_commit_required",
+      "read_only": true,
+      "qualified_current_legal_authority": false,
+      "current_organization_complete": false,
+      "adl1_certified": false,
+      "disclaimer": "Selected FTC official directory and statute records; neither complete agency hierarchy nor removal/control law certified."
+    }
+  ]
+}
