@@ -1,0 +1,66 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13-gaps",
+  "items": [
+    {
+      "id": "X13-GAP-EOP-ROSTER",
+      "family": "eop",
+      "pilot_root_id": "ORG-FED-EXE-EOP-OMB",
+      "missing_requirement": "Complete current first-level EOP and OMB denominators, reconciled Government Manual granules and organization chart vintages, independently sourced",
+      "source_ids": [
+        "X13-SRC-WH-OMB-OFFICES"
+      ],
+      "confirmed_resolved": false,
+      "adt_qualification": "adl1_blocked",
+      "review_status": "open"
+    },
+    {
+      "id": "X13-GAP-EOP-DELEGATION",
+      "family": "eop",
+      "pilot_root_id": "ORG-FED-EXE-EOP-OMB",
+      "missing_requirement": "Distinguish statutory 44 U.S.C. §3503(b) requirement to delegate from executed appointment/delegation and current supervision: actual dated signed instrument and independent legal review required",
+      "source_ids": [
+        "X13-SRC-USC44-3503"
+      ],
+      "confirmed_resolved": false,
+      "adt_qualification": "adl1_blocked",
+      "review_status": "open"
+    },
+    {
+      "id": "X13-GAP-FTC-ROSTER",
+      "family": "independent",
+      "pilot_root_id": "ORG-FED-EXE-IND-FTC",
+      "missing_requirement": "Complete official FTC first-level roster and chart vintage, confirm omitted offices, regional functions and legal role of bureau organization",
+      "source_ids": [
+        "X13-SRC-FTC-BUREAUS"
+      ],
+      "confirmed_resolved": false,
+      "adt_qualification": "adl1_blocked",
+      "review_status": "open"
+    },
+    {
+      "id": "X13-GAP-FTC-LEGAL",
+      "family": "independent",
+      "pilot_root_id": "ORG-FED-EXE-IND-FTC",
+      "missing_requirement": "Independent legal review of current FTC commissioners' statutory status, presidential authority/removal jurisprudence, delegated adjudicatory and enforcement powers, signed instruments and oversight boundaries",
+      "source_ids": [
+        "X13-SRC-USC15-41"
+      ],
+      "confirmed_resolved": false,
+      "adt_qualification": "adl1_blocked",
+      "review_status": "open"
+    },
+    {
+      "id": "X13-GAP-ORIGINAL-CUSTODY",
+      "family": "eop",
+      "pilot_root_id": "ORG-FED-EXE-EOP-OMB",
+      "missing_requirement": "Original source bytes and SHA-256 custody, authenticated historical reorganization plan and legally reviewed source as-of dates",
+      "source_ids": [
+        "X13-SRC-USC31-501"
+      ],
+      "confirmed_resolved": false,
+      "adt_qualification": "adl1_blocked",
+      "review_status": "open"
+    }
+  ]
+}

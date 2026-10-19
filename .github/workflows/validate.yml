@@ -241,3 +241,12 @@ jobs:
         run: node scripts/validate-inc12.mjs
       - name: Test INC-12 source identity, temporal authority, missing coverage and anti-certification invariants
         run: node --test tests/inc12.test.mjs
+
+      - name: Validate INC-13 dated OMB and FTC primary-source structural research
+        run: node scripts/validate-inc13.mjs
+      - name: Project INC-13 OMB and FTC bounded evidence views
+        run: |
+          node scripts/validate-inc13.mjs --view VIEW-X13-OMB > /dev/null
+          node scripts/validate-inc13.mjs --view VIEW-X13-FTC > /dev/null
+      - name: Test INC-13 source provenance, structural semantics, missing denominators and anti-delegation guards
+        run: node --test tests/inc13.test.mjs

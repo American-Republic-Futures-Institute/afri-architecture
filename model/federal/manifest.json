@@ -243,7 +243,14 @@
     "model/federal/x12-locators.json",
     "model/federal/x12-events.json",
     "model/federal/x12-gaps.json",
-    "model/federal/x12-views.json"
+    "model/federal/x12-views.json",
+    "model/federal/x13-sources.json",
+    "model/federal/x13-units.json",
+    "model/federal/x13-relationships.json",
+    "model/federal/x13-coverage.json",
+    "model/federal/x13-events.json",
+    "model/federal/x13-gaps.json",
+    "model/federal/x13-views.json"
   ],
   "standards": [
     {
@@ -863,5 +870,25 @@
     "first_level_adl1_certification": false,
     "agency_identifier_verified_count": 0,
     "independent_legal_review_qualified": false
+  },
+  "federal_eop_independent_structure_13_extension": {
+    "id": "ARFI-FED-INC13-EOP-INDEPENDENT",
+    "model_version": "0.1.0",
+    "research_as_of": "2026-10-19",
+    "release_status": "bounded_unratified_research",
+    "pilot_roots": [
+      "ORG-FED-EXE-EOP-OMB",
+      "ORG-FED-EXE-IND-FTC"
+    ],
+    "legacy_eop_selected_references": 10,
+    "legacy_independent_selected_references": 18,
+    "new_source_observations": 13,
+    "source_groups": 10,
+    "pilot_families": 2,
+    "approved_whole_family_denominators": false,
+    "complete_first_level_rosters_verified": false,
+    "independently_corroborated_legal_authority": false,
+    "signed_individual_delegation_verified": false,
+    "adl1_certified_count": 0
   }
 }
