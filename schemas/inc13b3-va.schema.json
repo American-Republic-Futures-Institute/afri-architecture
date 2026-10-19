@@ -1,0 +1,1241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-13B3 VA source-bounded reconciliation; no legally effective or ADL-1 certified entity",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "type": "string",
+          "const": "inc13b3-va-scopes"
+        },
+        "source_baseline_commit": {
+          "type": "string",
+          "const": "b52d99f5dc8c36803dd4c3298795f75c1ece707a"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "complete_current_department_roster",
+                  "completeness",
+                  "id",
+                  "observation_date",
+                  "publisher_edition",
+                  "source_count",
+                  "source_family",
+                  "source_subcounts"
+                ],
+                "properties": {
+                  "complete_current_department_roster": {
+                    "type": "boolean",
+                    "const": false
+                  },
+                  "completeness": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "id": {
+                    "const": "X13B3-SCOPE-VA-DIRECTORY",
+                    "type": "string"
+                  },
+                  "observation_date": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "publisher_edition": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_count": {
+                    "type": "integer"
+                  },
+                  "source_family": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_subcounts": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "administrations",
+                      "staff_offices"
+                    ],
+                    "properties": {
+                      "administrations": {
+                        "type": "integer"
+                      },
+                      "staff_offices": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "complete_current_department_roster",
+                  "completeness",
+                  "id",
+                  "observation_date",
+                  "publisher_edition",
+                  "source_count",
+                  "source_family",
+                  "source_subcounts"
+                ],
+                "properties": {
+                  "complete_current_department_roster": {
+                    "type": "boolean",
+                    "const": false
+                  },
+                  "completeness": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "id": {
+                    "const": "X13B3-SCOPE-VA-STATUTE",
+                    "type": "string"
+                  },
+                  "observation_date": {
+                    "type": "null",
+                    "const": null
+                  },
+                  "publisher_edition": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_count": {
+                    "type": "integer"
+                  },
+                  "source_family": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_subcounts": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "named_statutory_clauses",
+                      "open_residual_classes"
+                    ],
+                    "properties": {
+                      "named_statutory_clauses": {
+                        "type": "integer"
+                      },
+                      "open_residual_classes": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "complete_current_department_roster",
+                  "completeness",
+                  "id",
+                  "observation_date",
+                  "publisher_edition",
+                  "source_count",
+                  "source_family",
+                  "source_subcounts"
+                ],
+                "properties": {
+                  "complete_current_department_roster": {
+                    "type": "boolean",
+                    "const": false
+                  },
+                  "completeness": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "id": {
+                    "const": "X13B3-SCOPE-VA-CANDIDATES",
+                    "type": "string"
+                  },
+                  "observation_date": {
+                    "type": "null",
+                    "const": null
+                  },
+                  "publisher_edition": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_count": {
+                    "type": "integer"
+                  },
+                  "source_family": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_subcounts": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "directory_linked",
+                      "outside_directory"
+                    ],
+                    "properties": {
+                      "directory_linked": {
+                        "type": "integer"
+                      },
+                      "outside_directory": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "complete_current_department_roster",
+                  "completeness",
+                  "id",
+                  "observation_date",
+                  "publisher_edition",
+                  "source_count",
+                  "source_family",
+                  "source_subcounts"
+                ],
+                "properties": {
+                  "complete_current_department_roster": {
+                    "type": "boolean",
+                    "const": false
+                  },
+                  "completeness": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "id": {
+                    "const": "X13B3-SCOPE-VA-LEGAL",
+                    "type": "string"
+                  },
+                  "observation_date": {
+                    "type": "null",
+                    "const": null
+                  },
+                  "publisher_edition": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_count": {
+                    "type": "integer"
+                  },
+                  "source_family": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_subcounts": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "unratified_legal_cases"
+                    ],
+                    "properties": {
+                      "unratified_legal_cases": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "complete_current_department_roster",
+                  "completeness",
+                  "id",
+                  "observation_date",
+                  "publisher_edition",
+                  "source_count",
+                  "source_family",
+                  "source_subcounts"
+                ],
+                "properties": {
+                  "complete_current_department_roster": {
+                    "type": "boolean",
+                    "const": false
+                  },
+                  "completeness": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "id": {
+                    "const": "X13B3-SCOPE-VA-HISTORY",
+                    "type": "string"
+                  },
+                  "observation_date": {
+                    "type": "null",
+                    "const": null
+                  },
+                  "publisher_edition": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_count": {
+                    "type": "integer"
+                  },
+                  "source_family": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_subcounts": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "candidate_transition_events"
+                    ],
+                    "properties": {
+                      "candidate_transition_events": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "complete_current_department_roster",
+                  "completeness",
+                  "id",
+                  "observation_date",
+                  "publisher_edition",
+                  "source_count",
+                  "source_family",
+                  "source_subcounts"
+                ],
+                "properties": {
+                  "complete_current_department_roster": {
+                    "type": "boolean",
+                    "const": false
+                  },
+                  "completeness": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "id": {
+                    "const": "X13B3-SCOPE-VA-EVIDENCE",
+                    "type": "string"
+                  },
+                  "observation_date": {
+                    "type": "null",
+                    "const": null
+                  },
+                  "publisher_edition": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_count": {
+                    "type": "integer"
+                  },
+                  "source_family": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_subcounts": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "recorded_temp_captures",
+                      "unavailable_source_originals"
+                    ],
+                    "properties": {
+                      "recorded_temp_captures": {
+                        "type": "integer"
+                      },
+                      "unavailable_source_originals": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "type": "string",
+          "const": "inc13b3-va-directory"
+        },
+        "source_baseline_commit": {
+          "type": "string",
+          "const": "b52d99f5dc8c36803dd4c3298795f75c1ece707a"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 22,
+          "maxItems": 22,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "direct_reporting_verified",
+              "first_level_certified",
+              "id",
+              "independent_legal_review_complete",
+              "legal_effective_on",
+              "observed_parent_id",
+              "original_04a_observed_parent_id",
+              "original_04a_source_id",
+              "original_04f_candidate_id",
+              "original_class",
+              "original_department_unit_relation_id",
+              "original_directory_id",
+              "original_inc12_observation_id",
+              "original_relation_type",
+              "original_snapshot_id",
+              "original_unit_candidate_id",
+              "permanent_custody_qualified",
+              "publisher_updated_on",
+              "recorded_original_sha256",
+              "source_group",
+              "source_heading",
+              "source_id",
+              "source_observed_on",
+              "source_queue_id",
+              "source_receipt_id",
+              "source_relative_heading_ordinal"
+            ],
+            "properties": {
+              "direct_reporting_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "first_level_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "independent_legal_review_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "legal_effective_on": {
+                "type": "null",
+                "const": null
+              },
+              "observed_parent_id": {
+                "type": "null",
+                "const": null
+              },
+              "original_04a_observed_parent_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_04a_source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_04f_candidate_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_class": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_department_unit_relation_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_directory_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_inc12_observation_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_relation_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_snapshot_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_unit_candidate_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "permanent_custody_qualified": {
+                "type": "boolean",
+                "const": false
+              },
+              "publisher_updated_on": {
+                "type": "string",
+                "minLength": 1
+              },
+              "recorded_original_sha256": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "source_group": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_heading": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_observed_on": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_queue_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_receipt_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_relative_heading_ordinal": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "type": "string",
+          "const": "inc13b3-va-statutes"
+        },
+        "source_baseline_commit": {
+          "type": "string",
+          "const": "b52d99f5dc8c36803dd4c3298795f75c1ece707a"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 9,
+          "maxItems": 9,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "adl1_certified",
+              "composition_claim_type",
+              "current_2026_legality_certified",
+              "current_direct_reporting_verified",
+              "directory_unit_candidate_id",
+              "id",
+              "is_historical_transition_question",
+              "legal_effective_on",
+              "legal_reference",
+              "legal_review_signature",
+              "original_clause_id",
+              "original_crosswalk_id",
+              "original_reconciliation",
+              "recorded_original_sha256",
+              "source_edition",
+              "source_id",
+              "source_queue_id",
+              "source_receipt_id"
+            ],
+            "properties": {
+              "adl1_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "composition_claim_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_2026_legality_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_direct_reporting_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "directory_unit_candidate_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "is_historical_transition_question": {
+                "type": "boolean"
+              },
+              "legal_effective_on": {
+                "type": "null",
+                "const": null
+              },
+              "legal_reference": {
+                "type": "string",
+                "minLength": 1
+              },
+              "legal_review_signature": {
+                "type": "null",
+                "const": null
+              },
+              "original_clause_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_crosswalk_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_reconciliation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "recorded_original_sha256": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "source_edition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_queue_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_receipt_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "type": "string",
+          "const": "inc13b3-va-candidates"
+        },
+        "source_baseline_commit": {
+          "type": "string",
+          "const": "b52d99f5dc8c36803dd4c3298795f75c1ece707a"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 25,
+          "maxItems": 25,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "adl1_certified",
+              "candidate_basis",
+              "current_legal_first_level_inclusion_verified",
+              "directory_parent_asserted",
+              "id",
+              "independent_review_complete",
+              "is_historical_board_candidate",
+              "legal_effective_on",
+              "original_candidate_id",
+              "original_directory_id",
+              "original_predecessor_id",
+              "original_source_edition",
+              "recorded_original_sha256",
+              "source_class",
+              "source_classification",
+              "source_queue_id",
+              "source_receipt_id"
+            ],
+            "properties": {
+              "adl1_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "candidate_basis": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_legal_first_level_inclusion_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "directory_parent_asserted": {
+                "type": "boolean",
+                "const": false
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "independent_review_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "is_historical_board_candidate": {
+                "type": "boolean"
+              },
+              "legal_effective_on": {
+                "type": "null",
+                "const": null
+              },
+              "original_candidate_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_directory_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "original_predecessor_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_edition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "recorded_original_sha256": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "source_class": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_classification": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_queue_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_receipt_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "type": "string",
+          "const": "inc13b3-va-legal"
+        },
+        "source_baseline_commit": {
+          "type": "string",
+          "const": "b52d99f5dc8c36803dd4c3298795f75c1ece707a"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "adjudication_or_oversight_override_authorized",
+              "adl1_certified",
+              "current_legal_jurisdiction_qualified",
+              "current_statutory_effect_2026_verified",
+              "external_GSA_body_not_VA_first_level",
+              "historical_research_only",
+              "id",
+              "independent_counsel_decision_id",
+              "legal_effective_on",
+              "official_source_url",
+              "original_identity_id",
+              "original_issue_id",
+              "original_review_packet_id",
+              "primary_reference",
+              "protected_distinction",
+              "qualifying_reference",
+              "relationship_kind_candidate",
+              "review_basis",
+              "verified_individual_delegation"
+            ],
+            "properties": {
+              "adjudication_or_oversight_override_authorized": {
+                "type": "boolean",
+                "const": false
+              },
+              "adl1_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_legal_jurisdiction_qualified": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_statutory_effect_2026_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "external_GSA_body_not_VA_first_level": {
+                "type": "boolean"
+              },
+              "historical_research_only": {
+                "type": "boolean"
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "independent_counsel_decision_id": {
+                "type": "null",
+                "const": null
+              },
+              "legal_effective_on": {
+                "type": "null",
+                "const": null
+              },
+              "official_source_url": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_identity_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_issue_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_review_packet_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "primary_reference": {
+                "type": "string",
+                "minLength": 1
+              },
+              "protected_distinction": {
+                "type": "string",
+                "minLength": 1
+              },
+              "qualifying_reference": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relationship_kind_candidate": {
+                "type": "string",
+                "minLength": 1
+              },
+              "review_basis": {
+                "type": "string",
+                "minLength": 1
+              },
+              "verified_individual_delegation": {
+                "type": "boolean",
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "type": "string",
+          "const": "inc13b3-va-history"
+        },
+        "source_baseline_commit": {
+          "type": "string",
+          "const": "b52d99f5dc8c36803dd4c3298795f75c1ece707a"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "adl1_certified",
+              "current_VA_first_level_membership_inferred",
+              "external_successor_identity_id",
+              "id",
+              "legal_review_decision_id",
+              "missing_original_exception_id",
+              "operative_legal_effect_certified",
+              "original_event_id",
+              "original_source_ids",
+              "predecessor_identity_id",
+              "publisher_reported_date",
+              "source_original_capture_verified",
+              "statutory_repeal_inferred",
+              "transition_scope_fully_verified"
+            ],
+            "properties": {
+              "adl1_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_VA_first_level_membership_inferred": {
+                "type": "boolean",
+                "const": false
+              },
+              "external_successor_identity_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "legal_review_decision_id": {
+                "type": "null",
+                "const": null
+              },
+              "missing_original_exception_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "operative_legal_effect_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "original_event_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_ids": {
+                "type": "array",
+                "minItems": 0,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "predecessor_identity_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_reported_date": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_original_capture_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "statutory_repeal_inferred": {
+                "type": "boolean",
+                "const": false
+              },
+              "transition_scope_fully_verified": {
+                "type": "boolean",
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "type": "string",
+          "const": "inc13b3-va-evidence"
+        },
+        "source_baseline_commit": {
+          "type": "string",
+          "const": "b52d99f5dc8c36803dd4c3298795f75c1ece707a"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "current_legal_edition_reverified",
+              "id",
+              "independently_reverified_from_provider_04f",
+              "institutional_signer_ratified",
+              "original_bytes_in_repository",
+              "original_unavailable_exception_id",
+              "permanent_WORM_custody_qualified",
+              "recorded_original_sha256",
+              "source_edition",
+              "source_id",
+              "source_original_captured_previously",
+              "source_queue_id",
+              "source_receipt_id",
+              "source_url"
+            ],
+            "properties": {
+              "current_legal_edition_reverified": {
+                "type": "boolean",
+                "const": false
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "independently_reverified_from_provider_04f": {
+                "type": "boolean",
+                "const": false
+              },
+              "institutional_signer_ratified": {
+                "type": "boolean",
+                "const": false
+              },
+              "original_bytes_in_repository": {
+                "type": "boolean",
+                "const": false
+              },
+              "original_unavailable_exception_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "permanent_WORM_custody_qualified": {
+                "type": "boolean",
+                "const": false
+              },
+              "recorded_original_sha256": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1,
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "source_edition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_original_captured_previously": {
+                "type": "boolean"
+              },
+              "source_queue_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "source_receipt_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_url": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "type": "string",
+          "const": "inc13b3-va-source-pins"
+        },
+        "source_baseline_commit": {
+          "type": "string",
+          "const": "b52d99f5dc8c36803dd4c3298795f75c1ece707a"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 23,
+          "maxItems": 23,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "git_blob_sha",
+              "government_original_retained_in_this_repo",
+              "id",
+              "independent_institutional_source_authentication_complete",
+              "path",
+              "source_commit"
+            ],
+            "properties": {
+              "git_blob_sha": {
+                "type": "string",
+                "minLength": 1
+              },
+              "government_original_retained_in_this_repo": {
+                "type": "boolean",
+                "const": false
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "independent_institutional_source_authentication_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_commit": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$comment": "Closed shape; semantic source joins and fixed immutable source-pin checks are separately enforced by validate-inc13b3."
+}

@@ -1,0 +1,191 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13b3-va-source-pins",
+  "source_baseline_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+  "items": [
+    {
+      "id": "X13B3-PIN-INC04C-VA-COVERAGE",
+      "path": "model/federal/inc04c/va-coverage.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "35845d9716a46bd5d96084035f8e8d284f1a1489",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04C-VA-DIRECTORY",
+      "path": "model/federal/inc04c/va-directory.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "d4d5b30c7522cb99ec297a10f7779937c00c1274",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04C-VA-STATUTORY-COMPOSITION",
+      "path": "model/federal/inc04c/va-statutory-composition.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "b5edeb7342e26cdf6125f15c773b41c973964287",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04C-VA-SOURCE-VERSIONS",
+      "path": "model/federal/inc04c/va-source-versions.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "5eb09daefb6568e3177fd7ea82f0cfb5c2659335",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04D-COVERAGE",
+      "path": "model/federal/inc04d/coverage.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "1fee5d01a72e0bec671219372409a35009d8a830",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04D-LEGAL-IDENTITIES",
+      "path": "model/federal/inc04d/legal-identities.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "c9a41a69b83e9add4e051b939f706e11480bd4a7",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04D-STATUTORY-CROSSWALK",
+      "path": "model/federal/inc04d/statutory-crosswalk.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "3f77edc3fbb85d977641d7088983de88b3e9608f",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04D-TEMPORAL-EVENTS",
+      "path": "model/federal/inc04d/temporal-events.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "79728d6ca8bd1970be63796944863c2a2113225c",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04D-OBSERVED-SOURCE-RECEIPTS",
+      "path": "model/federal/inc04d/observed-source-receipts.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "b617d10b3a4c27df469a231a22dde0949f39247a",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04E-VA-LEGAL-ISSUES",
+      "path": "model/federal/inc04e/va-legal-issues.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "6a7feab488c929ce4a8487712112d446cd21a597",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04E-QUALIFICATION-GATES",
+      "path": "model/federal/inc04e/qualification-gates.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "228a6fdb9aea3a75830ce7c2e7f0265fefc9c3b0",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04E-VA-DOSSIER",
+      "path": "model/federal/inc04e/va-dossier.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "f3fe23a82fa11267609f16bcdf966463e432f291",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04E-SOURCE-TEMPORAL-INDEX",
+      "path": "model/federal/inc04e/source-temporal-index.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "7d19bdf177d303d930f04977c52ed13dd9b3d264",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04F-VA-FIRST-LEVEL-CANDIDATES",
+      "path": "model/federal/inc04f/va-first-level-candidates.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "c596d34bfb65f659cd63609d9c828169df9d1c43",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04F-VA-LEGAL-REVIEW-PACKETS",
+      "path": "model/federal/inc04f/va-legal-review-packets.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "7b9e6c52f9a7c690a052b0aae764ec4332b481c5",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04F-CUSTODY-SOURCE-QUEUE",
+      "path": "model/federal/inc04f/custody-source-queue.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "a3c3d038d3476b8a4818ba0c76d072c0758cd631",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04F-UNAVAILABLE-ORIGINALS",
+      "path": "model/federal/inc04f/unavailable-originals.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "e318ded6d0fb3425e3c305f0ba581503151ac580",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC04F-CUSTODY-ACCEPTANCE-GATES",
+      "path": "model/federal/inc04f/custody-acceptance-gates.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "a440749b874bc3bc68a2fcbc07ad88454bae5592",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-DEPARTMENT-STRUCTURE-UNITS",
+      "path": "model/federal/department-structure/units.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "4b5748c932c3139e39abca684eb56f5d5d9995ae",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-DEPARTMENT-STRUCTURE-RELATIONSHIPS",
+      "path": "model/federal/department-structure/relationships.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "4afc01a4e5c80746667bc45180c37b423e4485f4",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-X12-OBSERVATIONS",
+      "path": "model/federal/x12-observations.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "7e4b20396c545207b9847c7a4f14e593a3b30b68",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC13A-PILOTS",
+      "path": "model/federal/inc13a-pilots.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "da782a05b0fcef2fb1b28b243dda97d628791e05",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    },
+    {
+      "id": "X13B3-PIN-INC13A-GATES",
+      "path": "model/federal/inc13a-gates.json",
+      "source_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+      "git_blob_sha": "56e59f4a1d56c7a0de12ed3d887b67dbc9d84069",
+      "government_original_retained_in_this_repo": false,
+      "independent_institutional_source_authentication_complete": false
+    }
+  ]
+}
