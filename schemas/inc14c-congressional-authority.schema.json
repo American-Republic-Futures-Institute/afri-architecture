@@ -313,7 +313,10 @@
           "minLength": 1
         },
         "rule_ref_id": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "minLength": 1
         },
         "qualification": {
@@ -461,7 +464,10 @@
           "minLength": 1
         },
         "chamber_id": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "minLength": 1
         },
         "action_kind": {
@@ -469,13 +475,22 @@
           "minLength": 1
         },
         "roll_call_number": {
-          "type": "number"
+          "type": [
+            "number",
+            "null"
+          ]
         },
         "yeas": {
-          "type": "number"
+          "type": [
+            "number",
+            "null"
+          ]
         },
         "nays": {
-          "type": "number"
+          "type": [
+            "number",
+            "null"
+          ]
         },
         "source_ids": {
           "type": "array",
