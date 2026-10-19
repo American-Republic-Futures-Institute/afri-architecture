@@ -1,0 +1,742 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-12 bounded federal institution census reconciliation",
+  "description": "Closed deterministic research catalogs, not a complete current federal institution denominator.",
+  "$defs": {
+    "scopes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "family",
+        "title",
+        "canonical_selected_count",
+        "source_observation_count",
+        "verified_govinfo_granule_count",
+        "denominator_basis",
+        "official_federal_population_denominator",
+        "complete_current_first_level_denominator",
+        "current_organization_complete",
+        "adl1_certified_count",
+        "independent_legal_review_complete",
+        "canonical_reference_scope_complete",
+        "publication_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X12-|VIEW-X12-)[A-Z0-9-]+$"
+        },
+        "family": {
+          "enum": [
+            "legislative",
+            "eop",
+            "cabinet",
+            "independent",
+            "judiciary"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_selected_count": {
+          "type": "number"
+        },
+        "source_observation_count": {
+          "type": "number"
+        },
+        "verified_govinfo_granule_count": {
+          "type": "number"
+        },
+        "denominator_basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_federal_population_denominator": {
+          "const": null
+        },
+        "complete_current_first_level_denominator": {
+          "const": null
+        },
+        "current_organization_complete": {
+          "const": false
+        },
+        "adl1_certified_count": {
+          "const": 0
+        },
+        "independent_legal_review_complete": {
+          "const": false
+        },
+        "canonical_reference_scope_complete": {
+          "const": true
+        },
+        "publication_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "identities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "source_pointer_id",
+        "canonical_id",
+        "canonical_model_path",
+        "family",
+        "branch_id",
+        "canonical_kind",
+        "source_ids",
+        "canonical_source_snapshot_id",
+        "entity_identifier",
+        "entity_identifier_verified",
+        "verified_publisher_locator_id",
+        "adl_evidenced",
+        "adl1_certified",
+        "present_day_structure_complete",
+        "identity_disposition",
+        "independent_legal_review_complete"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X12-|VIEW-X12-)[A-Z0-9-]+$"
+        },
+        "source_pointer_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_model_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family": {
+          "enum": [
+            "legislative",
+            "eop",
+            "cabinet",
+            "independent",
+            "judiciary"
+          ]
+        },
+        "branch_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "canonical_source_snapshot_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_identifier": {
+          "const": null
+        },
+        "entity_identifier_verified": {
+          "const": false
+        },
+        "verified_publisher_locator_id": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "adl_evidenced": {
+          "const": 0
+        },
+        "adl1_certified": {
+          "const": false
+        },
+        "present_day_structure_complete": {
+          "const": false
+        },
+        "identity_disposition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independent_legal_review_complete": {
+          "const": false
+        }
+      }
+    },
+    "observations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "source_record_id",
+        "source_collection",
+        "display_name",
+        "family",
+        "branch_id",
+        "declared_parent_id",
+        "observed_parent_id",
+        "relation_source_id",
+        "relation_type",
+        "source_ids",
+        "source_snapshot_id",
+        "unit_status",
+        "official_entity_id",
+        "canonical_identity_id",
+        "source_record_adl",
+        "adl1_eligible",
+        "confirmed_command",
+        "confirmed_supervision",
+        "confirmed_delegation",
+        "independent_current_status_review"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X12-|VIEW-X12-)[A-Z0-9-]+$"
+        },
+        "source_record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_collection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "display_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family": {
+          "enum": [
+            "legislative",
+            "eop",
+            "cabinet",
+            "independent",
+            "judiciary"
+          ]
+        },
+        "branch_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "declared_parent_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_parent_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation_source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "source_snapshot_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unit_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_entity_id": {
+          "const": null
+        },
+        "canonical_identity_id": {
+          "const": null
+        },
+        "source_record_adl": {
+          "const": 0
+        },
+        "adl1_eligible": {
+          "const": false
+        },
+        "confirmed_command": {
+          "const": false
+        },
+        "confirmed_supervision": {
+          "const": false
+        },
+        "confirmed_delegation": {
+          "const": false
+        },
+        "independent_current_status_review": {
+          "const": false
+        }
+      }
+    },
+    "locators": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "canonical_id",
+        "source_record_id",
+        "source_id",
+        "identifier_type",
+        "external_locator",
+        "source_url",
+        "edition_on",
+        "original_bytes_sha256",
+        "publisher_title_checked",
+        "agency_identifier_verified",
+        "organization_complete",
+        "current_status_verified",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X12-|VIEW-X12-)[A-Z0-9-]+$"
+        },
+        "canonical_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identifier_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "external_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_bytes_sha256": {
+          "const": null
+        },
+        "publisher_title_checked": {
+          "const": true
+        },
+        "agency_identifier_verified": {
+          "const": false
+        },
+        "organization_complete": {
+          "const": false
+        },
+        "current_status_verified": {
+          "const": false
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "events": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "source_record_id",
+        "event_kind",
+        "from_id",
+        "to_id",
+        "old_name",
+        "new_name",
+        "event_on",
+        "source_ids",
+        "review_status",
+        "confirmed_full_legal_succession",
+        "signed_original_verified",
+        "no_new_canonical_identity"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X12-|VIEW-X12-)[A-Z0-9-]+$"
+        },
+        "source_record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "from_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "old_name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "new_name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "event_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confirmed_full_legal_succession": {
+          "const": false
+        },
+        "signed_original_verified": {
+          "const": false
+        },
+        "no_new_canonical_identity": {
+          "const": true
+        }
+      }
+    },
+    "gaps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "scope_id",
+        "title",
+        "missing_requirement",
+        "source_observation_count",
+        "unverified_universe",
+        "unknown_denominator",
+        "qualified_institutional_review",
+        "complete_adl1",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X12-|VIEW-X12-)[A-Z0-9-]+$"
+        },
+        "scope_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "missing_requirement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_observation_count": {
+          "type": "number"
+        },
+        "unverified_universe": {
+          "const": true
+        },
+        "unknown_denominator": {
+          "const": true
+        },
+        "qualified_institutional_review": {
+          "const": false
+        },
+        "complete_adl1": {
+          "const": false
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "views": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "scope_id",
+        "title",
+        "root_ids",
+        "included_families",
+        "source_commit_policy",
+        "consumer_kind",
+        "render_disclaimer_required",
+        "legal_authority_certified",
+        "complete_federal_census",
+        "static_view_is_not_decision_or_delegation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X12-|VIEW-X12-)[A-Z0-9-]+$"
+        },
+        "scope_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "root_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "included_families": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "source_commit_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "consumer_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "render_disclaimer_required": {
+          "const": true
+        },
+        "legal_authority_certified": {
+          "const": false
+        },
+        "complete_federal_census": {
+          "const": false
+        },
+        "static_view_is_not_decision_or_delegation": {
+          "const": true
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc12-scopes"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/scopes"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc12-identities"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/identities"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc12-observations"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/observations"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc12-locators"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/locators"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc12-events"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/events"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc12-gaps"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/gaps"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc12-views"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/views"
+          }
+        }
+      }
+    }
+  ]
+}

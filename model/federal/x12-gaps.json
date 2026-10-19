@@ -1,0 +1,66 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc12-gaps",
+  "items": [
+    {
+      "id": "X12-GAP-LEGISLATIVE",
+      "scope_id": "X12-SCOPE-LEGISLATIVE",
+      "title": "Unknown complete current institution and first-level roster: legislative",
+      "missing_requirement": "Independently sourced government-wide and first-level denominator; historical transitions; legal classification and signed human review",
+      "source_observation_count": 4,
+      "unverified_universe": true,
+      "unknown_denominator": true,
+      "qualified_institutional_review": false,
+      "complete_adl1": false,
+      "review_status": "unresolved"
+    },
+    {
+      "id": "X12-GAP-EOP",
+      "scope_id": "X12-SCOPE-EOP",
+      "title": "Unknown complete current institution and first-level roster: eop",
+      "missing_requirement": "Independently sourced government-wide and first-level denominator; historical transitions; legal classification and signed human review",
+      "source_observation_count": 0,
+      "unverified_universe": true,
+      "unknown_denominator": true,
+      "qualified_institutional_review": false,
+      "complete_adl1": false,
+      "review_status": "unresolved"
+    },
+    {
+      "id": "X12-GAP-CABINET",
+      "scope_id": "X12-SCOPE-CABINET",
+      "title": "Unknown complete current institution and first-level roster: cabinet",
+      "missing_requirement": "Independently sourced government-wide and first-level denominator; historical transitions; legal classification and signed human review",
+      "source_observation_count": 133,
+      "unverified_universe": true,
+      "unknown_denominator": true,
+      "qualified_institutional_review": false,
+      "complete_adl1": false,
+      "review_status": "unresolved"
+    },
+    {
+      "id": "X12-GAP-INDEPENDENT",
+      "scope_id": "X12-SCOPE-INDEPENDENT",
+      "title": "Unknown complete current institution and first-level roster: independent",
+      "missing_requirement": "Independently sourced government-wide and first-level denominator; historical transitions; legal classification and signed human review",
+      "source_observation_count": 0,
+      "unverified_universe": true,
+      "unknown_denominator": true,
+      "qualified_institutional_review": false,
+      "complete_adl1": false,
+      "review_status": "unresolved"
+    },
+    {
+      "id": "X12-GAP-JUDICIARY",
+      "scope_id": "X12-SCOPE-JUDICIARY",
+      "title": "Unknown complete current institution and first-level roster: judiciary",
+      "missing_requirement": "Independently sourced government-wide and first-level denominator; historical transitions; legal classification and signed human review",
+      "source_observation_count": 13,
+      "unverified_universe": true,
+      "unknown_denominator": true,
+      "qualified_institutional_review": false,
+      "complete_adl1": false,
+      "review_status": "unresolved"
+    }
+  ]
+}

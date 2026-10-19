@@ -236,3 +236,8 @@ jobs:
         run: node scripts/validate-inc11.mjs
       - name: Test INC-11 adversarial source, fiscal and anti-delegation invariants
         run: node --test tests/inc11.test.mjs
+
+      - name: Validate INC-12 federal census evidence, identity crosswalk and Atlas model contract
+        run: node scripts/validate-inc12.mjs
+      - name: Test INC-12 source identity, temporal authority, missing coverage and anti-certification invariants
+        run: node --test tests/inc12.test.mjs
