@@ -113,7 +113,7 @@ export function validateINC12({manifest,schema,data,canonical,originals,relation
  for(const x of rows("observations")){
   const o=obsOriginal.get(x.source_record_id),r=relOriginal.get(x.relation_source_id);
   const mappedCollection=o?.__collection;
-  const parent=o?.parent_institution_id||o?.department_id||o?.parent_department_id||o?.parent_id;
+  const parent=mappedCollection==="department_chart"?o?.parent_ref:(o?.parent_institution_id||o?.parent_department_id||o?.parent_id);
   const actualSources=o?.source_ids||(o?.source_id?[o.source_id]:[]);
   const actualSnapshot=o?.snapshot_id||o?.source_snapshot_id||null;
   const actualBranch=o?.branch_id||r?.branch_id||"BR-FED-EXE";
