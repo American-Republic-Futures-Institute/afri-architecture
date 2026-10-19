@@ -1,0 +1,105 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc12-views",
+  "items": [
+    {
+      "id": "VIEW-X12-LEGISLATIVE",
+      "scope_id": "X12-SCOPE-LEGISLATIVE",
+      "title": "Congress and legislative support — source-bounded coverage",
+      "root_ids": [
+        "ORG-FED-LEG-CONGRESS"
+      ],
+      "included_families": [
+        "legislative"
+      ],
+      "source_commit_policy": "immutable_commit_sha_required",
+      "consumer_kind": "read_only_root_first_graph_coverage",
+      "render_disclaimer_required": true,
+      "legal_authority_certified": false,
+      "complete_federal_census": false,
+      "static_view_is_not_decision_or_delegation": true
+    },
+    {
+      "id": "VIEW-X12-EOP",
+      "scope_id": "X12-SCOPE-EOP",
+      "title": "Executive leadership and EOP — source-bounded coverage",
+      "root_ids": [
+        "ORG-FED-EXE-EOP"
+      ],
+      "included_families": [
+        "eop"
+      ],
+      "source_commit_policy": "immutable_commit_sha_required",
+      "consumer_kind": "read_only_root_first_graph_coverage",
+      "render_disclaimer_required": true,
+      "legal_authority_certified": false,
+      "complete_federal_census": false,
+      "static_view_is_not_decision_or_delegation": true
+    },
+    {
+      "id": "VIEW-X12-CABINET",
+      "scope_id": "X12-SCOPE-CABINET",
+      "title": "Fifteen statutory executive departments — source-bounded coverage",
+      "root_ids": [
+        "ORG-FED-EXE-DEP-STATE",
+        "ORG-FED-EXE-DEP-TREASURY",
+        "ORG-FED-EXE-DEP-DEFENSE",
+        "ORG-FED-EXE-DEP-JUSTICE",
+        "ORG-FED-EXE-DEP-INTERIOR",
+        "ORG-FED-EXE-DEP-AGRICULTURE",
+        "ORG-FED-EXE-DEP-COMMERCE",
+        "ORG-FED-EXE-DEP-LABOR",
+        "ORG-FED-EXE-DEP-HHS",
+        "ORG-FED-EXE-DEP-HUD",
+        "ORG-FED-EXE-DEP-TRANSPORTATION",
+        "ORG-FED-EXE-DEP-ENERGY",
+        "ORG-FED-EXE-DEP-EDUCATION",
+        "ORG-FED-EXE-DEP-VA",
+        "ORG-FED-EXE-DEP-DHS"
+      ],
+      "included_families": [
+        "cabinet"
+      ],
+      "source_commit_policy": "immutable_commit_sha_required",
+      "consumer_kind": "read_only_root_first_graph_coverage",
+      "render_disclaimer_required": true,
+      "legal_authority_certified": false,
+      "complete_federal_census": false,
+      "static_view_is_not_decision_or_delegation": true
+    },
+    {
+      "id": "VIEW-X12-INDEPENDENT",
+      "scope_id": "X12-SCOPE-INDEPENDENT",
+      "title": "Selected independent federal bodies — source-bounded coverage",
+      "root_ids": [
+        "BR-FED-EXE"
+      ],
+      "included_families": [
+        "independent"
+      ],
+      "source_commit_policy": "immutable_commit_sha_required",
+      "consumer_kind": "read_only_root_first_graph_coverage",
+      "render_disclaimer_required": true,
+      "legal_authority_certified": false,
+      "complete_federal_census": false,
+      "static_view_is_not_decision_or_delegation": true
+    },
+    {
+      "id": "VIEW-X12-JUDICIARY",
+      "scope_id": "X12-SCOPE-JUDICIARY",
+      "title": "Judiciary and judicial support — source-bounded coverage",
+      "root_ids": [
+        "BR-FED-JUD"
+      ],
+      "included_families": [
+        "judiciary"
+      ],
+      "source_commit_policy": "immutable_commit_sha_required",
+      "consumer_kind": "read_only_root_first_graph_coverage",
+      "render_disclaimer_required": true,
+      "legal_authority_certified": false,
+      "complete_federal_census": false,
+      "static_view_is_not_decision_or_delegation": true
+    }
+  ]
+}

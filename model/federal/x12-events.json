@@ -1,0 +1,76 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc12-events",
+  "items": [
+    {
+      "id": "X12-EVENT-DOD-NAME-EVENT-DHRA-2026",
+      "source_record_id": "DOD-NAME-EVENT-DHRA-2026",
+      "event_kind": "reported_same_identity_name_change",
+      "from_id": "DOD-DAFA-DHRA",
+      "to_id": "DOD-DAFA-DHRA",
+      "old_name": "Defense Human Resources Activity",
+      "new_name": "Personnel Readiness Management Agency",
+      "event_on": "2026-06-29",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "review_status": "source_reports_redesignation_not_verified_current_legal_effect",
+      "confirmed_full_legal_succession": false,
+      "signed_original_verified": false,
+      "no_new_canonical_identity": true
+    },
+    {
+      "id": "X12-EVENT-DOD-NAME-EVENT-MEDIA-2026",
+      "source_record_id": "DOD-NAME-EVENT-MEDIA-2026",
+      "event_kind": "reported_same_identity_name_change",
+      "from_id": "DOD-DAFA-MEDIA",
+      "to_id": "DOD-DAFA-MEDIA",
+      "old_name": "Defense Media Activity",
+      "new_name": "Department of War Information Activity",
+      "event_on": "2026-02-09",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "review_status": "source_reports_redesignation_not_verified_current_legal_effect",
+      "confirmed_full_legal_succession": false,
+      "signed_original_verified": false,
+      "no_new_canonical_identity": true
+    },
+    {
+      "id": "X12-EVENT-DOD-NAME-EVENT-TRMC-2026",
+      "source_record_id": "DOD-NAME-EVENT-TRMC-2026",
+      "event_kind": "reported_same_identity_name_change",
+      "from_id": "DOD-DAFA-TRMC",
+      "to_id": "DOD-DAFA-TRMC",
+      "old_name": "DoD Test Resource Management Center",
+      "new_name": "Department of War Test Resource Management Center",
+      "event_on": "2026-02-09",
+      "source_ids": [
+        "DOD-SRC-GAO-DAFA-2026"
+      ],
+      "review_status": "source_reports_redesignation_not_verified_current_legal_effect",
+      "confirmed_full_legal_succession": false,
+      "signed_original_verified": false,
+      "no_new_canonical_identity": true
+    },
+    {
+      "id": "X12-EVENT-D04D-EVENT-2007",
+      "source_record_id": "D04D-EVENT-2007",
+      "event_kind": "candidate_historical_function_transfer_not_legal_entity_equivalence",
+      "from_id": "D04D-INST-FORMER-VABCA",
+      "to_id": "D04D-INST-CBCA",
+      "old_name": null,
+      "new_name": null,
+      "event_on": "2007-01-06",
+      "source_ids": [
+        "D04D-SRC-CBCA",
+        "D04D-SRC-USC41",
+        "D04D-SRC-USC38"
+      ],
+      "review_status": "source_reported_transfer_pending_qualified_legal_review",
+      "confirmed_full_legal_succession": false,
+      "signed_original_verified": false,
+      "no_new_canonical_identity": true
+    }
+  ]
+}

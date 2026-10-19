@@ -236,7 +236,14 @@
     "model/federal/x11-claims.json",
     "model/federal/x11-events.json",
     "model/federal/x11-gaps.json",
-    "model/federal/x11-viewpoints.json"
+    "model/federal/x11-viewpoints.json",
+    "model/federal/x12-scopes.json",
+    "model/federal/x12-identities.json",
+    "model/federal/x12-observations.json",
+    "model/federal/x12-locators.json",
+    "model/federal/x12-events.json",
+    "model/federal/x12-gaps.json",
+    "model/federal/x12-views.json"
   ],
   "standards": [
     {
@@ -840,5 +847,21 @@
     "independent_legal_review_complete": false,
     "individual_delegations_proven": false,
     "whole_federal_coverage_certified": false
+  },
+  "federal_institutional_census_reconciliation_12_extension": {
+    "id": "ARFI-FED-INC12-GOVERNMENT-SCOPE",
+    "model_version": "0.1.0",
+    "research_as_of": "2026-10-18",
+    "release_status": "bounded_unratified_research",
+    "canonical_selected": 61,
+    "source_observations": 150,
+    "govman_verified_granule_locators": 12,
+    "unresolved_identity_events": 4,
+    "federal_families": 5,
+    "source_data_completeness_only": true,
+    "whole_federal_government_census_verified": false,
+    "first_level_adl1_certification": false,
+    "agency_identifier_verified_count": 0,
+    "independent_legal_review_qualified": false
   }
 }
