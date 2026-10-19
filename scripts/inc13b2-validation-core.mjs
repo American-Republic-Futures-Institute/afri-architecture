@@ -72,7 +72,7 @@ export function validateINC13B2(model,inputs){
   const e=byEdge.get(u.id),p=byPrior.get(u.id),x=rowByOrig.get(u.id);
   if(!e||!p||!x){fail("missing one-to-one original chart join "+u.id);continue;}
   if(e.id!==p.relation_source_id||e.to_id!==u.parent_ref||p.observed_parent_id!==u.parent_ref||
-   e.relationship_type!=="dated_organizational_chart_connector_not_power"||
+   e.relationship_type!==(u.id==="DEPT04-UNIT-JUSTICE-OIG"?"independent_oversight_display_placement_not_command":"dated_organizational_chart_connector_not_power")||
    u.original_published_relation_verified_in_named_slice!==true||u.direct_operational_command_verified!==false||
    u.statutory_delegation_verified!==false||u.adl_evidenced!==0||
    e.delegated_power_proven!==false||e.authorized_actor_id!==null||
@@ -83,7 +83,7 @@ export function validateINC13B2(model,inputs){
    x.original_source_relation_id!==e.id||x.inc12_observation_id!==p.id||
    x.source_snapshot_id!==SNAP||JSON.stringify(x.source_ids)!==JSON.stringify([SRC])||
    x.primary_source_id!==SRC||
-   x.source_relation_class!=="dated_organizational_chart_connector_not_power"||
+   x.source_relation_class!==e.relationship_type||
    x.source_observed_on!==snapshot?.observed_on||x.source_observed_parent_id!==u.parent_ref||
    x.publisher_reported_supervisor_role_id!==null||
    x.source_classification!==u.structural_class||x.source_group!==u.group||

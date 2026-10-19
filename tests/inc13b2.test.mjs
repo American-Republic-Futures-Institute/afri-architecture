@@ -29,6 +29,7 @@ const bad=[
  ["pretend chart was a signed delegation",d=>d.model.items[0].verified_signed_delegation=true],
  ["pretend chart original bytes retained",d=>d.model.items[0].original_source_bytes_verified=true],
  ["invent effective legal operation",d=>d.model.items[0].legal_effective_on="2026-02-17"],
+ ["erase inspector general typed edge",d=>d.model.items.find(x=>x.original_record_id==="DEPT04-UNIT-JUSTICE-OIG").source_relation_class="dated_organizational_chart_connector_not_power"],
  ["mislabel DOJ Inspector General as executive commander",d=>d.inputs.units.items.find(x=>x.id==="DEPT04-UNIT-JUSTICE-OIG").structural_class="command_staff"],
  ["lose adjudicatory independence qualifier",d=>d.inputs.units.items.find(x=>x.id==="DEPT04-UNIT-JUSTICE-EOIR").structural_class="unqualified_adjudicator"],
  ["forge signed authority in source relationship",d=>d.inputs.relationships.items.find(x=>x.from_id==="DEPT04-UNIT-JUSTICE-DAG").delegated_power_proven=true],

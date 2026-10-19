@@ -584,7 +584,7 @@
         "DEPT04-SRC-DOJ-CHART-2026"
       ],
       "primary_source_id": "DEPT04-SRC-DOJ-CHART-2026",
-      "source_relation_class": "dated_organizational_chart_connector_not_power",
+      "source_relation_class": "independent_oversight_display_placement_not_command",
       "source_observed_on": "2026-10-16",
       "source_observed_parent_id": "DEPT04-UNIT-JUSTICE-DAG",
       "publisher_reported_supervisor_role_id": null,
