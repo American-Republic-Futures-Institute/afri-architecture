@@ -8,6 +8,7 @@ const date=x=>typeof x==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x)&&
  !Number.isNaN(Date.parse(x))&&new Date(x+"T00:00:00Z").toISOString().slice(0,10)===x;
 const t=x=>x===null?"null":Array.isArray(x)?"array":typeof x;
 const hash=x=>/^https:\/\/(uscode\.house\.gov|www\.whitehouse\.gov|www\.ftc\.gov)\//.test(x);
+const SOURCE_ANCHORS=new Map([["X13-SRC-USC31-501",{"url":"https://uscode.house.gov/us/usc/119-118/t31/s501/","kind":"codified_statute","publisher":"Office of Law Revision Counsel"}],["X13-SRC-USC31-504",{"url":"https://uscode.house.gov/us/usc/119-118/t31/s504/","kind":"codified_statute","publisher":"Office of Law Revision Counsel"}],["X13-SRC-USC31-505",{"url":"https://uscode.house.gov/us/usc/119-118/t31/s505/","kind":"codified_statute","publisher":"Office of Law Revision Counsel"}],["X13-SRC-USC31-506",{"url":"https://uscode.house.gov/us/usc/119-118/t31/s506/","kind":"codified_statute","publisher":"Office of Law Revision Counsel"}],["X13-SRC-USC31-507",{"url":"https://uscode.house.gov/us/usc/119-120/t31/s507/","kind":"codified_statute","publisher":"Office of Law Revision Counsel"}],["X13-SRC-USC44-3503",{"url":"https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title44-section3503","kind":"codified_statute_preliminary","publisher":"Office of Law Revision Counsel"}],["X13-SRC-WH-OMB-OFFICES",{"url":"https://www.whitehouse.gov/omb/information-resources/freedom-of-information-act-foia/","kind":"agency_descriptive_directory","publisher":"Office of Management and Budget"}],["X13-SRC-FTC-BUREAUS",{"url":"https://www.ftc.gov/about-ftc/bureaus-offices","kind":"agency_descriptive_directory","publisher":"Federal Trade Commission"}],["X13-SRC-FTC-ABOUT",{"url":"https://www.ftc.gov/about-ftc","kind":"agency_descriptive_overview","publisher":"Federal Trade Commission"}],["X13-SRC-USC15-41",{"url":"https://uscode.house.gov/us/usc/119-118/t15/s41/","kind":"codified_statute","publisher":"Office of Law Revision Counsel"}]]);
 function rule(v,r,where,defs,errors){
  if(r.$ref){const d=defs[r.$ref.split("/").at(-1)];if(!d)errors.push(where+" bad reference");
   else rule(v,d,where,defs,errors);return;}
@@ -88,6 +89,9 @@ export function validateINC13({manifest,schema,data,canonical,x12scopes}){
  const src=new Map(sources.map(s=>[s.id,s])),nodes=new Map(units.map(u=>[u.id,u]));
  const roots=new Set(Object.values(ROOTS));
  for(const s of sources){
+  const anchor=SOURCE_ANCHORS.get(s.id);
+  assert(anchor&&s.url===anchor.url&&s.source_kind===anchor.kind&&s.publisher===anchor.publisher,
+   "known published source ID changed to unrelated source "+s.id);
   assert(/^X13-SRC-[A-Z0-9-]+$/.test(s.id)&&typeof s.url==="string"&&hash(s.url)&&
     date(s.retrieved_on)&&s.retrieved_on==="2026-10-19"&&
     (s.edition_on===null||date(s.edition_on)&&s.edition_on<="2026-10-19")&&

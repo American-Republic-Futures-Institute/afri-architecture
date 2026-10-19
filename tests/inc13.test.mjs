@@ -68,3 +68,5 @@ breaks("deny missing mandatory schema family",s=>{delete s.schema.$defs.relation
 breaks("deny silent extra enum value",s=>{items(s,"units")[0].observation_class="assumed_delegated_command"},/schema enum mismatch/);
 breaks("deny local ratification by manifest",s=>{s.manifest.release_status="ratified"},/baseline must remain unratified/);
 breaks("deny non-reviewed FTC executive control assertion",s=>{items(s,"gaps")[3].confirmed_resolved=true},/schema const mismatch|qualification/);
+
+breaks("deny same-host source URL substitution",s=>{items(s,"sources").find(x=>x.id==="X13-SRC-FTC-BUREAUS").url="https://www.ftc.gov/about-ftc/fake-page"},/known published source ID/);
