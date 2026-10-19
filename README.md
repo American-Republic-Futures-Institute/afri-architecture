@@ -193,3 +193,7 @@ Seven nondelegating constitutional competency crosswalks link the existing U.S. 
 ## INC-10 — VA gross-to-net source classification and original government evidence
 
 [INC-10 original Treasury/OMB FY2025 accounting and publication-vintage reconciliation](docs/VA-FY2025-GROSS-NET-INC10.md) adds permanently Git-versioned source-original government PDFs, FY2025 OMB federal/nonfederal offset categories, eight bounded cross-source comparisons, and nine explicit outstanding signed-document/legal/custody gates. Numeric cross-document differences cannot be represented as actual ledger transactions or independently audited authorizations.
+
+## INC-11 — Federal office, statutory authority and internal policy semantics
+
+The [source-bounded federal office/policy/authority contract](docs/FEDERAL-OFFICE-POLICY-AUTHORITY-INC11.md) introduces six classification and relationship families, strict schema checks, source-backed views and adversarial tests. An office's existence, agency policy approval or enacted appropriation is **not** a specific signed delegation, execution event, qualified legal opinion or whole-of-federal-government completeness claim. Run `node scripts/validate-inc11.mjs` and `node --test tests/inc11.test.mjs`.

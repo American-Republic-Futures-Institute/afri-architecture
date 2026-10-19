@@ -1,0 +1,657 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-11 federal office and policy authority overlay contract",
+  "description": "Closed source-bounded research model; a restricted JSON Schema evaluator and semantic validation jointly enforce acceptance.",
+  "$defs": {
+    "offices": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "name",
+        "office_kind",
+        "department_id",
+        "existing_canonical_ref",
+        "associated_unit_ref",
+        "source_ids",
+        "reference_as_of",
+        "legal_placement_status",
+        "named_incumbent_id",
+        "individual_delegation_verified",
+        "whole_department_adl1_qualified",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X11-|VIEW-X11-)[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "federal_office_or_position_reference"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "office_kind": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "statutory_position_reference",
+            "policy_named_administrative_unit_candidate"
+          ]
+        },
+        "department_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "existing_canonical_ref": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "associated_unit_ref": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "reference_as_of": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "legal_placement_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "named_incumbent_id": {
+          "const": null
+        },
+        "individual_delegation_verified": {
+          "const": false
+        },
+        "whole_department_adl1_qualified": {
+          "const": false
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "unratified_source_bounded"
+          ]
+        }
+      }
+    },
+    "instruments": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "title",
+        "instrument_kind",
+        "citation",
+        "canonical_source_or_instrument_ref",
+        "source_ids",
+        "source_observed_on",
+        "reported_event_on",
+        "fiscal_availability_from",
+        "legal_effect_class",
+        "original_byte_qualified",
+        "complete_legal_citator_review",
+        "individual_action_supported",
+        "arfi_ratified"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X11-|VIEW-X11-)[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "legal_and_policy_instrument_overlay"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "instrument_kind": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "codified_statute",
+            "enacted_public_law",
+            "internal_agency_policy"
+          ]
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_source_or_instrument_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "source_observed_on": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "reported_event_on": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "fiscal_availability_from": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "minLength": 1,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "legal_effect_class": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "statutory_source_context_without_individual_delegation",
+            "enacted_account_authority_not_individual_obligation",
+            "published_internal_controls_not_public_regulation_or_signed_allotment"
+          ]
+        },
+        "original_byte_qualified": {
+          "const": false
+        },
+        "complete_legal_citator_review": {
+          "const": false
+        },
+        "individual_action_supported": {
+          "const": false
+        },
+        "arfi_ratified": {
+          "const": false
+        }
+      }
+    },
+    "claims": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "from_id",
+        "to_id",
+        "predicate",
+        "instrument_id",
+        "source_ids",
+        "qualification_gap_ids",
+        "statement",
+        "jurisdiction",
+        "reference_as_of",
+        "effective_scope",
+        "actual_delegation_verified",
+        "individual_government_action_verified",
+        "independently_qualified_legal_effect",
+        "assertion_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X11-|VIEW-X11-)[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "typed_source_bounded_federal_claim"
+        },
+        "from_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "predicate": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "statutory_headship_context",
+            "enacted_appropriation_context",
+            "statutory_limit_context",
+            "policy_described_workflow"
+          ]
+        },
+        "instrument_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "qualification_gap_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "US_federal"
+          ]
+        },
+        "reference_as_of": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "effective_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "actual_delegation_verified": {
+          "const": false
+        },
+        "individual_government_action_verified": {
+          "const": false
+        },
+        "independently_qualified_legal_effect": {
+          "const": false
+        },
+        "assertion_status": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "source_bounded_research_unratified"
+          ]
+        }
+      }
+    },
+    "events": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "instrument_id",
+        "event_kind",
+        "event_on",
+        "source_ids",
+        "publisher_event_only",
+        "individual_delegation_event_verified",
+        "independently_verified_current_effect",
+        "supersession_verified"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X11-|VIEW-X11-)[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "source_reported_instrument_event"
+        },
+        "instrument_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_kind": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "agency_policy_approval_reported",
+            "public_law_enactment_reported"
+          ]
+        },
+        "event_on": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "publisher_event_only": {
+          "const": true
+        },
+        "individual_delegation_event_verified": {
+          "const": false
+        },
+        "independently_verified_current_effect": {
+          "const": false
+        },
+        "supersession_verified": {
+          "const": false
+        }
+      }
+    },
+    "gaps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "title",
+        "affected_ids",
+        "source_ids",
+        "required_evidence",
+        "verified",
+        "qualified_legal_review_complete",
+        "signed_official_instrument_sha256",
+        "review_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X11-|VIEW-X11-)[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "unresolved_authority_or_policy_qualification"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "affected_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "required_evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verified": {
+          "const": false
+        },
+        "qualified_legal_review_complete": {
+          "const": false
+        },
+        "signed_official_instrument_sha256": {
+          "const": null
+        },
+        "review_status": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "open_unverified"
+          ]
+        }
+      }
+    },
+    "viewpoints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "title",
+        "root_id",
+        "additional_node_ids",
+        "claim_ids",
+        "qualification_gap_ids",
+        "interpretation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(?:X11-|VIEW-X11-)[A-Z0-9-]+$"
+        },
+        "type": {
+          "const": "qualified_canonical_claim_projection"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "root_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "additional_node_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "claim_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "qualification_gap_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Z0-9-]+$"
+          }
+        },
+        "interpretation": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc11-offices"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/offices"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc11-instruments"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/instruments"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc11-claims"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/claims"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc11-events"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/events"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc11-gaps"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/gaps"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc11-viewpoints"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/viewpoints"
+          }
+        }
+      }
+    }
+  ]
+}

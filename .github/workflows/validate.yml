@@ -3,6 +3,9 @@ on:
   pull_request:
     paths:
       - "model/**"
+      - "docs/**"
+      - "evidence/**"
+      - "README.md"
       - "schemas/**"
       - "scripts/**"
       - "tests/**"
@@ -12,6 +15,9 @@ on:
     branches: [main]
     paths:
       - "model/**"
+      - "docs/**"
+      - "evidence/**"
+      - "README.md"
       - "schemas/**"
       - "scripts/**"
       - "tests/**"
@@ -225,3 +231,8 @@ jobs:
         run: node --test tests/outcomes.test.mjs
       - name: Test INC-07 schema positive and negative cases
         run: node --test tests/outcome-schemas.test.mjs
+
+      - name: Validate INC-11 office, legal instrument and policy-lifecycle source contracts
+        run: node scripts/validate-inc11.mjs
+      - name: Test INC-11 adversarial source, fiscal and anti-delegation invariants
+        run: node --test tests/inc11.test.mjs
