@@ -74,7 +74,7 @@ test("five bounded publication projections have sources, qualifications and NO c
 });
 negative("reject false global chamber denominator",s=>rows(s,"denominators")[0].current_global_chamber_office_denominator=36,/locked schema qualification/);
 negative("reject inflated Appropriations subcommittee count",s=>rows(s,"denominators")[0].publisher_listing_count=13,/source-specific page denominator/);
-negative("reject duplicate subcommittee",s=>rows(s,"units").push(structuredClone(rows(s,"units")[0])),/count\/duplicate identity/);
+negative("reject duplicate subcommittee",s=>rows(s,"units").push(structuredClone(rows(s,"units")[0])),/global duplicate identity|count\/duplicate identity/);
 negative("reject a fabricated congressional committee",s=>rows(s,"units")[0].id="X14C-UNIT-HOUSE-FAKE",/source anchor changed|source anchor/);
 negative("reject cross-Senate subcommittee placement under House",s=>rows(s,"units")[0].parent_id="X14-NODE-SENATE-APP",/source anchor changed/);
 negative("reject invented current subcommittee legal jurisdiction",s=>rows(s,"units")[0].current_rules_jurisdiction_certified=true,/locked schema qualification/);
