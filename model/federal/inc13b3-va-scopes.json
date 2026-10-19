@@ -1,0 +1,83 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13b3-va-scopes",
+  "source_baseline_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+  "items": [
+    {
+      "id": "X13B3-SCOPE-VA-DIRECTORY",
+      "source_family": "inc04c/va-directory",
+      "source_count": 22,
+      "source_subcounts": {
+        "administrations": 3,
+        "staff_offices": 19
+      },
+      "completeness": "bounded_directory_headings_only",
+      "publisher_edition": "updated_2026-02-25",
+      "observation_date": "2026-10-17",
+      "complete_current_department_roster": false
+    },
+    {
+      "id": "X13B3-SCOPE-VA-STATUTE",
+      "source_family": "inc04c/va-statutory-composition",
+      "source_count": 9,
+      "source_subcounts": {
+        "named_statutory_clauses": 7,
+        "open_residual_classes": 2
+      },
+      "completeness": "bounded_2024_code_section_plus_preliminary_2026_locator_not_citator",
+      "publisher_edition": "USCODE-2024",
+      "observation_date": null,
+      "complete_current_department_roster": false
+    },
+    {
+      "id": "X13B3-SCOPE-VA-CANDIDATES",
+      "source_family": "inc04f/va-first-level-candidates",
+      "source_count": 25,
+      "source_subcounts": {
+        "directory_linked": 22,
+        "outside_directory": 3
+      },
+      "completeness": "overlapping_research_candidate_union_not_institutional_denominator",
+      "publisher_edition": "mixed_source_epochs",
+      "observation_date": null,
+      "complete_current_department_roster": false
+    },
+    {
+      "id": "X13B3-SCOPE-VA-LEGAL",
+      "source_family": "inc04f/va-legal-review-packets",
+      "source_count": 6,
+      "source_subcounts": {
+        "unratified_legal_cases": 6
+      },
+      "completeness": "separate_unratified_legal_questions_not_six_additional_institutions",
+      "publisher_edition": "mixed_source_epochs",
+      "observation_date": null,
+      "complete_current_department_roster": false
+    },
+    {
+      "id": "X13B3-SCOPE-VA-HISTORY",
+      "source_family": "inc04d/temporal-events",
+      "source_count": 1,
+      "source_subcounts": {
+        "candidate_transition_events": 1
+      },
+      "completeness": "historical_transfer_candidate_not_good_law_certification",
+      "publisher_edition": "event_reported_2007-01-06",
+      "observation_date": null,
+      "complete_current_department_roster": false
+    },
+    {
+      "id": "X13B3-SCOPE-VA-EVIDENCE",
+      "source_family": "inc04f/custody-source-queue_and_unavailable-originals",
+      "source_count": 6,
+      "source_subcounts": {
+        "recorded_temp_captures": 5,
+        "unavailable_source_originals": 1
+      },
+      "completeness": "receipt_metadata_not_durable_custody_or_independent_legality",
+      "publisher_edition": "mixed_source_epochs",
+      "observation_date": null,
+      "complete_current_department_roster": false
+    }
+  ]
+}

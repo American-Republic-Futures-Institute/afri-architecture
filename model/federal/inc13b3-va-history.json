@@ -1,0 +1,27 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc13b3-va-history",
+  "source_baseline_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+  "items": [
+    {
+      "id": "X13B3-HISTORY-2007",
+      "original_event_id": "D04D-EVENT-2007",
+      "predecessor_identity_id": "D04D-INST-FORMER-VABCA",
+      "external_successor_identity_id": "D04D-INST-CBCA",
+      "publisher_reported_date": "2007-01-06",
+      "original_source_ids": [
+        "D04D-SRC-CBCA",
+        "D04D-SRC-USC41",
+        "D04D-SRC-USC38"
+      ],
+      "missing_original_exception_id": "F04F-EXCEPTION-CBCA",
+      "source_original_capture_verified": false,
+      "transition_scope_fully_verified": false,
+      "statutory_repeal_inferred": false,
+      "current_VA_first_level_membership_inferred": false,
+      "operative_legal_effect_certified": false,
+      "legal_review_decision_id": null,
+      "adl1_certified": false
+    }
+  ]
+}
