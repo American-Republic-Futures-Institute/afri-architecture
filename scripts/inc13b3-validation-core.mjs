@@ -83,6 +83,7 @@ function verifySourceBaseline(data,errors){
    pin.independent_institutional_source_authentication_complete===false,
    errors,"incorrect immutable source-pin "+path);
   assert(raw&&sha1Blob(raw)===baselineSHA,errors,"baseline source bytes changed "+path);
+  assert(raw&&objEq(JSON.parse(raw.toString("utf8")),data.orig[path]),errors,"in-memory source records differ from pinned source bytes "+path);
  }
  assert(!pins.some(x=>!SOURCE_BLOB_SHAS.has(x.path)),errors,"unexpected or unsafe source pin path");
 }
