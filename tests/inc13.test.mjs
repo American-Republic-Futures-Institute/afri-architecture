@@ -58,7 +58,7 @@ breaks("deny omitted source record",s=>{items(s,"units").pop()},/source-slice co
 breaks("deny duplicate record ID",s=>{items(s,"units")[1].id=items(s,"units")[0].id},/duplicate record identity|duplicate/);
 breaks("deny unknown model field",s=>{items(s,"units")[0].authority_verified=true},/unexpected schema field/);
 breaks("deny swapped OMB/FTC source parent",s=>{items(s,"units")[0].observed_parent_id="ORG-FED-EXE-IND-FTC"},/unit improperly/);
-breaks("deny policy directory promoted to statute",s=>{items(s,"relationships")[1].relationship_type="statutory_office_location"},/statutory office|agency descriptive/);
+breaks("deny policy directory promoted to statute",s=>{items(s,"relationships")[1].relationship_type="statutory_office_location"},/statutory office|agency descriptive|publisher directory represented as legally authoritative/);
 breaks("deny fabricated review",s=>{s.manifest.federal_eop_independent_structure_13_extension.independently_corroborated_legal_authority=true},/manifest claims/);
 breaks("deny historical successor equivalence",s=>{items(s,"events")[0].confirmed_complete_legal_succession=true},/schema const mismatch|historic/);
 breaks("deny historical original signing",s=>{items(s,"events")[1].signed_original_verified=true},/schema const mismatch|historic/);
