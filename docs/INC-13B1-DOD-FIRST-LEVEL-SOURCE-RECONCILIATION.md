@@ -33,3 +33,10 @@ Retain exact existing canonical IDs and original source IDs. Preserve source edi
 
 ## Following increments
 INC-13B2 reconciles DOJ dated first-level chart structures; INC-13B3 reconciles VA statutory/directory/historical exceptions. Both should reuse INC-13A qualification semantics. A separate Atlas publication PR must use an immutable merged architecture SHA.
+
+## Record-level source and identity reconciliation
+The model now contains **55 one-to-one source-observation crosswalks** keyed to original canonical DoD source records. Each crosswalk preserves the original record ID, its source collection, exact publisher snapshot ID, source ID set, classified relationship (statutory composition, GAO-described placement, public command-name listing, or statutory service placement), observed parent reference and source observation date. Reported GAO supervisory-role *labels* remain descriptors rather than verified present-day administrative control or signed delegation.
+
+Seventeen existing military/civilian office-role IDs—including Secretary of Defense, Chairman of the Joint Chiefs, a combatant commander *role class*, and Inspector General—are exposed as a **separate associated-role index**, not 17 additional first-level institution records. The Inspector General remains an independent statutory oversight office; the Chairman is not represented as exercising operational command. The Coast Guard is an external DHS-service comparison with conditional transfer provisions, not an additional peacetime DoD component.
+
+Validators deterministically join **all 55** crosswalks back to unchanged original records and validate source-family membership, cohort dates, reported parent/classification, GAO 19/8 distribution, the distinct IG and JCS roles, the Coast Guard exception and explicit absence of verified original-byte custody, effective legal interval, signed delegation, operational command or positive ADL-1 determinations. They reject added, missing, duplicated, reparented, cross-edition or falsely certified entries.
