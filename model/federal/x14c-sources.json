@@ -1,0 +1,171 @@
+{
+  "model_family": "inc14c-sources",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-SRC-HOUSE-APP",
+      "title": "House Clerk Committee on Appropriations directory, 119th 2nd Session",
+      "url": "https://clerk.house.gov/committees/AP00",
+      "source_kind": "house_official_directory",
+      "locator": "Committee > Subcommittees",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-SENATE-APP",
+      "title": "Senate Committee on Appropriations, subcommittees directory",
+      "url": "https://www.appropriations.senate.gov/subcommittees",
+      "source_kind": "senate_official_directory",
+      "locator": "Subcommittees",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-HOUSE-RULE-X",
+      "title": "119th House rules adopted January 2025",
+      "url": "https://rules.house.gov/sites/evo-subsites/rules.house.gov/files/documents/houserules119thupdated.pdf",
+      "source_kind": "chamber_rules_original_locator",
+      "locator": "Rule X clauses 1 and 2; Rule XI clause 2(m)",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-SENATE-XXV-XXVI",
+      "title": "Senate Standing Rules",
+      "url": "https://www.rules.senate.gov/rules-of-the-senate",
+      "source_kind": "chamber_rules_publication",
+      "locator": "Rules XXV and XXVI",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-HOUSE-V281",
+      "title": "House Clerk Roll Call 281 for H.R. 5371",
+      "url": "https://clerk.house.gov/Votes/2025281",
+      "source_kind": "house_official_roll_call",
+      "locator": "119th 1st Session Sep 19 2025 H.R. 5371 roll 281",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-HOUSE-V285",
+      "title": "House Clerk Roll Call 285 for H.R. 5371 amendment concurrence",
+      "url": "https://clerk.house.gov/Votes/2025285",
+      "source_kind": "house_official_roll_call",
+      "locator": "119th 1st Session Nov 12 2025 H.R. 5371 roll 285",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-SENATE-V616",
+      "title": "Senate Roll Call 616 Collins substitute amendment",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00616.htm",
+      "source_kind": "senate_official_roll_call",
+      "locator": "119th 1st Session Nov 10 2025 amendment 3937 vote 616",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-SENATE-V618",
+      "title": "Senate Roll Call 618 H.R. 5371 passage",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00618.htm",
+      "source_kind": "senate_official_roll_call",
+      "locator": "119th 1st Session Nov 10 2025 roll 618",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-GOVINFO-37",
+      "title": "GovInfo enacted Public Law 119-37 metadata and history",
+      "url": "https://www.govinfo.gov/app/details/PLAW-119publ37",
+      "source_kind": "official_enacted_law_record",
+      "locator": "PLAW-119publ37; Legislative History",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-GOVINFO-TEXT",
+      "title": "GovInfo public law 119-37 published full text",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ37/html/PLAW-119publ37.htm",
+      "source_kind": "official_enacted_law_text",
+      "locator": "Division D; Section 5",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-HOUSE-HRES5",
+      "title": "House 119th adopted chamber rules",
+      "url": "https://rules.house.gov/resources",
+      "source_kind": "official_chamber_rules_index",
+      "locator": "House Rules, Constitution and Jefferson's Manual 119th",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-DOD-101",
+      "title": "U.S. Code 10 USC 101 definitions, inherited DoD scope",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-section101&num=0&edition=prelim",
+      "source_kind": "statutory_name_reference",
+      "locator": "10 U.S.C. 101(a)(16) congressional defense committees",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-CONSTITUTION",
+      "title": "Article I congressional lawmaking and treasury appropriations",
+      "url": "https://constitution.congress.gov/browse/article-1/",
+      "source_kind": "constitutional_text",
+      "locator": "Article I §§ 7, 8, 9",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-GAO",
+      "title": "GAO mission and support to Congress",
+      "url": "https://www.gao.gov/about",
+      "source_kind": "legislative_support_agency_directory",
+      "locator": "About GAO",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-SRC-CBO",
+      "title": "Congressional Budget Office mission and support",
+      "url": "https://www.cbo.gov/about/overview",
+      "source_kind": "legislative_support_agency_directory",
+      "locator": "About CBO",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "source_edition_bytes_archived": false,
+      "current_rules_effect_independently_reviewed": false
+    }
+  ]
+}

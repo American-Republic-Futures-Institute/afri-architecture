@@ -1,0 +1,125 @@
+{
+  "model_family": "inc14c-rules",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-RULE-HOUSE-X-1",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "locator": "Rule X clause 1",
+      "source_ids": [
+        "X14C-SRC-HOUSE-RULE-X"
+      ],
+      "instrument_class": "chamber_adopted_or_continuing_rule",
+      "rule_relation_kind": "subject_matter_jurisdiction",
+      "subject": "Appropriations legislative subject assignment, not a signed executive delegation",
+      "version_scope": "119th Congress published House Rules",
+      "procedural_requirement_observed": true,
+      "individual_action_executed": false,
+      "legislative_jurisdiction_exhaustively_adjudicated": false,
+      "executive_command_authorized": false,
+      "current_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-RULE-HOUSE-X-2",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "locator": "Rule X clause 2",
+      "source_ids": [
+        "X14C-SRC-HOUSE-RULE-X"
+      ],
+      "instrument_class": "chamber_adopted_or_continuing_rule",
+      "rule_relation_kind": "general_oversight_rule",
+      "subject": "General oversight with Appropriations exclusions and specific limits; not executive supervision",
+      "version_scope": "119th Congress published House Rules",
+      "procedural_requirement_observed": true,
+      "individual_action_executed": false,
+      "legislative_jurisdiction_exhaustively_adjudicated": false,
+      "executive_command_authorized": false,
+      "current_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-RULE-HOUSE-XI-2M",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "locator": "Rule XI clause 2(m)",
+      "source_ids": [
+        "X14C-SRC-HOUSE-RULE-X"
+      ],
+      "instrument_class": "chamber_adopted_or_continuing_rule",
+      "rule_relation_kind": "committee_subpoena_procedure",
+      "subject": "Committee subpoena issuance depends on applicable chamber and committee procedures; no issued subpoena proved",
+      "version_scope": "119th Congress published House Rules",
+      "procedural_requirement_observed": true,
+      "individual_action_executed": false,
+      "legislative_jurisdiction_exhaustively_adjudicated": false,
+      "executive_command_authorized": false,
+      "current_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-RULE-SENATE-XXV",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "locator": "Rule XXV",
+      "source_ids": [
+        "X14C-SRC-SENATE-XXV-XXVI"
+      ],
+      "instrument_class": "chamber_adopted_or_continuing_rule",
+      "rule_relation_kind": "subject_matter_jurisdiction",
+      "subject": "Standing committees including Appropriations; subject assignment not blanket executive command",
+      "version_scope": "Senate Standing Rules publisher edition as observed",
+      "procedural_requirement_observed": true,
+      "individual_action_executed": false,
+      "legislative_jurisdiction_exhaustively_adjudicated": false,
+      "executive_command_authorized": false,
+      "current_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-RULE-SENATE-XXVI-1",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "locator": "Rule XXVI paragraph 1",
+      "source_ids": [
+        "X14C-SRC-SENATE-XXV-XXVI"
+      ],
+      "instrument_class": "chamber_adopted_or_continuing_rule",
+      "rule_relation_kind": "committee_investigation_hearing_subpoena_framework",
+      "subject": "Authorize hearings/investigations and subpoena mechanisms subject to Senate and committee rules, not evidence of exercise",
+      "version_scope": "Senate Standing Rules publisher edition as observed",
+      "procedural_requirement_observed": true,
+      "individual_action_executed": false,
+      "legislative_jurisdiction_exhaustively_adjudicated": false,
+      "executive_command_authorized": false,
+      "current_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-RULE-SENATE-XXVI-2",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "locator": "Rule XXVI paragraph 2",
+      "source_ids": [
+        "X14C-SRC-SENATE-XXV-XXVI"
+      ],
+      "instrument_class": "chamber_adopted_or_continuing_rule",
+      "rule_relation_kind": "committee_rules_publication",
+      "subject": "Committees adopt and publish their own rules; original committee-rule edition not yet archived",
+      "version_scope": "Senate Standing Rules publisher edition as observed",
+      "procedural_requirement_observed": true,
+      "individual_action_executed": false,
+      "legislative_jurisdiction_exhaustively_adjudicated": false,
+      "executive_command_authorized": false,
+      "current_effect_independently_reviewed": false
+    },
+    {
+      "id": "X14C-RULE-SENATE-XXVI-8",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "locator": "Rule XXVI paragraph 8",
+      "source_ids": [
+        "X14C-SRC-SENATE-XXV-XXVI"
+      ],
+      "instrument_class": "chamber_adopted_or_continuing_rule",
+      "rule_relation_kind": "legislative_oversight_with_exceptions",
+      "subject": "Continuing statutory review excludes Appropriations and Budget under this clause, not all other powers",
+      "version_scope": "Senate Standing Rules publisher edition as observed",
+      "procedural_requirement_observed": true,
+      "individual_action_executed": false,
+      "legislative_jurisdiction_exhaustively_adjudicated": false,
+      "executive_command_authorized": false,
+      "current_effect_independently_reviewed": false
+    }
+  ]
+}

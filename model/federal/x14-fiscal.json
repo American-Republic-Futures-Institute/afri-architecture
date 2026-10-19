@@ -1,0 +1,70 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-fiscal",
+  "items": [
+    {
+      "id": "X14-FISCAL-HOUSE-APP-REVIEW",
+      "actor_ref_id": "X14-NODE-HOUSE-APP",
+      "relation_kind": "legislative_committee_appropriations_research",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "specific_enacted_TAS_id": null,
+      "appropriation_value_cents": null,
+      "signed_executive_allotment": false,
+      "obligation_verified": false,
+      "payment_verified": false,
+      "legislative_committee_cannot_disburse": true,
+      "status": "fiscal_control_separate_from_executive_obligation_outlay"
+    },
+    {
+      "id": "X14-FISCAL-SENATE-APP-REVIEW",
+      "actor_ref_id": "X14-NODE-SENATE-APP",
+      "relation_kind": "legislative_committee_appropriations_research",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "specific_enacted_TAS_id": null,
+      "appropriation_value_cents": null,
+      "signed_executive_allotment": false,
+      "obligation_verified": false,
+      "payment_verified": false,
+      "legislative_committee_cannot_disburse": true,
+      "status": "fiscal_control_separate_from_executive_obligation_outlay"
+    },
+    {
+      "id": "X14-FISCAL-ENACTED-APPROPRIATION",
+      "actor_ref_id": "ORG-FED-LEG-CONGRESS",
+      "relation_kind": "only_enacted_fiscal_law_creates_specific_budget_authority",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "specific_enacted_TAS_id": null,
+      "appropriation_value_cents": null,
+      "signed_executive_allotment": false,
+      "obligation_verified": false,
+      "payment_verified": false,
+      "legislative_committee_cannot_disburse": true,
+      "status": "fiscal_control_separate_from_executive_obligation_outlay"
+    },
+    {
+      "id": "X14-FISCAL-EXECUTIVE-SPENDING-BOUNDARY",
+      "actor_ref_id": "ORG-FED-EXE-DEP-VA",
+      "relation_kind": "executive_spending_needs_separate_funds_control_and_payment_evidence",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "specific_enacted_TAS_id": null,
+      "appropriation_value_cents": null,
+      "signed_executive_allotment": false,
+      "obligation_verified": false,
+      "payment_verified": false,
+      "legislative_committee_cannot_disburse": true,
+      "status": "fiscal_control_separate_from_executive_obligation_outlay"
+    }
+  ]
+}

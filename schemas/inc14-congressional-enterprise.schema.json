@@ -1,0 +1,1026 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-14 bounded 119th Congressional enterprise architecture research",
+  "description": "Closed research families and falsification gates; no complete roster, enacted legislative transaction chain, executive payment, or legal signoff",
+  "$defs": {
+    "sources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "url",
+        "source_kind",
+        "edition_on",
+        "observed_on",
+        "original_sha256",
+        "original_custody_verified",
+        "source_status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^https://"
+        },
+        "source_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition_on": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "observed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_sha256": {
+          "const": null
+        },
+        "original_custody_verified": {
+          "const": false
+        },
+        "source_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "nodes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "record_class",
+        "parent_id",
+        "chamber_id",
+        "source_ids",
+        "observed_on",
+        "verified_current_complete_first_level",
+        "independently_verified_role_incumbent",
+        "executive_authority_implied",
+        "adl1_certified",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "record_class": {
+          "enum": [
+            "standing_committee",
+            "appropriations_subcommittee",
+            "legislative_support_office",
+            "chamber_constitutional_office"
+          ]
+        },
+        "parent_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "chamber_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "observed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verified_current_complete_first_level": {
+          "const": false
+        },
+        "independently_verified_role_incumbent": {
+          "const": false
+        },
+        "executive_authority_implied": {
+          "const": false
+        },
+        "adl1_certified": {
+          "const": false
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "instruments": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "instrument_kind",
+        "source_ids",
+        "qualifier",
+        "as_of",
+        "independently_qualified_current_legal_effect",
+        "signed_operational_delegation_proven",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "instrument_kind": {
+          "enum": [
+            "constitutional_text",
+            "chamber_adopted_rules",
+            "chamber_continuing_rules",
+            "publisher_directory_not_law",
+            "nonbinding_congressional_research",
+            "specific_enacted_law_metadata",
+            "government_publication_register"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "qualifier": {
+          "type": "string",
+          "minLength": 1
+        },
+        "as_of": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independently_qualified_current_legal_effect": {
+          "const": false
+        },
+        "signed_operational_delegation_proven": {
+          "const": false
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "from_id",
+        "to_id",
+        "relation_kind",
+        "source_ids",
+        "observed_on",
+        "signed_delegation_verified",
+        "supervision_power_verified",
+        "executive_payment_authorized",
+        "independent_legal_review_qualified",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "from_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation_kind": {
+          "enum": [
+            "publisher_listed_chamber_committee",
+            "senate_rules_and_directory_committee",
+            "publisher_listed_subcommittee",
+            "publisher_listed_chamber_support",
+            "constitutionally_named_office"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "observed_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signed_delegation_verified": {
+          "const": false
+        },
+        "supervision_power_verified": {
+          "const": false
+        },
+        "executive_payment_authorized": {
+          "const": false
+        },
+        "independent_legal_review_qualified": {
+          "const": false
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "stages": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "actor_ref_id",
+        "workflow_id",
+        "source_ids",
+        "stage_is_proposed_template",
+        "completed_for_any_actual_bill",
+        "actual_bill_event_id",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "actor_ref_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workflow_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "stage_is_proposed_template": {
+          "const": true
+        },
+        "completed_for_any_actual_bill": {
+          "const": false
+        },
+        "actual_bill_event_id": {
+          "const": null
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "transitions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "from_id",
+        "to_id",
+        "condition",
+        "source_ids",
+        "constitutes_legislative_enactment",
+        "automatic_government_authorization",
+        "specific_measured_bill_event"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "from_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "constitutes_legislative_enactment": {
+          "const": false
+        },
+        "automatic_government_authorization": {
+          "const": false
+        },
+        "specific_measured_bill_event": {
+          "const": false
+        }
+      }
+    },
+    "observations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "measure_id",
+        "event_on",
+        "event_kind",
+        "stage_id",
+        "source_ids",
+        "publisher_record_id",
+        "independent_journal_sequence_verified",
+        "original_signed_action_evidence_verified",
+        "committee_referral_proven",
+        "appropriations_act_proven",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "measure_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stage_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "publisher_record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independent_journal_sequence_verified": {
+          "const": false
+        },
+        "original_signed_action_evidence_verified": {
+          "const": false
+        },
+        "committee_referral_proven": {
+          "const": false
+        },
+        "appropriations_act_proven": {
+          "const": false
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "fiscal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "actor_ref_id",
+        "relation_kind",
+        "source_ids",
+        "specific_enacted_TAS_id",
+        "appropriation_value_cents",
+        "signed_executive_allotment",
+        "obligation_verified",
+        "payment_verified",
+        "legislative_committee_cannot_disburse",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "actor_ref_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "specific_enacted_TAS_id": {
+          "const": null
+        },
+        "appropriation_value_cents": {
+          "const": null
+        },
+        "signed_executive_allotment": {
+          "const": false
+        },
+        "obligation_verified": {
+          "const": false
+        },
+        "payment_verified": {
+          "const": false
+        },
+        "legislative_committee_cannot_disburse": {
+          "const": true
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "history": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "subject_id",
+        "history_kind",
+        "event_on",
+        "source_ids",
+        "independent_original_rules_reconciliation",
+        "committee_succession_inferred",
+        "full_historical_chamber_roster_certified",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "subject_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "history_kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "independent_original_rules_reconciliation": {
+          "const": false
+        },
+        "committee_succession_inferred": {
+          "const": false
+        },
+        "full_historical_chamber_roster_certified": {
+          "const": false
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "congress_number",
+        "canonical_selected_legislative_count",
+        "source_sliced_institutional_units",
+        "house_committee_pilot_count",
+        "senate_committee_pilot_count",
+        "source_sliced_subcommittee_count",
+        "complete_chamber_office_denominator",
+        "whole_congress_entity_denominator",
+        "complete_119th_committee_roster_verified",
+        "complete_staff_and_leadership_roster_verified",
+        "fully_audited_specific_measure_workflows",
+        "publisher_history_points",
+        "adl1_certified_count",
+        "independent_parliamentary_review_complete",
+        "scope"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "congress_number": {
+          "type": "number"
+        },
+        "canonical_selected_legislative_count": {
+          "type": "number"
+        },
+        "source_sliced_institutional_units": {
+          "type": "number"
+        },
+        "house_committee_pilot_count": {
+          "type": "number"
+        },
+        "senate_committee_pilot_count": {
+          "type": "number"
+        },
+        "source_sliced_subcommittee_count": {
+          "type": "number"
+        },
+        "complete_chamber_office_denominator": {
+          "const": null
+        },
+        "whole_congress_entity_denominator": {
+          "const": null
+        },
+        "complete_119th_committee_roster_verified": {
+          "const": false
+        },
+        "complete_staff_and_leadership_roster_verified": {
+          "const": false
+        },
+        "fully_audited_specific_measure_workflows": {
+          "const": 0
+        },
+        "publisher_history_points": {
+          "type": "number"
+        },
+        "adl1_certified_count": {
+          "const": 0
+        },
+        "independent_parliamentary_review_complete": {
+          "const": false
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "gaps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "coverage_ref_id",
+        "missing_requirement",
+        "source_ids",
+        "confirmed_resolved",
+        "adl1_promotion_permitted",
+        "independent_signoff",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "coverage_ref_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "missing_requirement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "confirmed_resolved": {
+          "const": false
+        },
+        "adl1_promotion_permitted": {
+          "const": false
+        },
+        "independent_signoff": {
+          "const": false
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "views": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "root_id",
+        "view_kind",
+        "source_commit_policy",
+        "read_only",
+        "complete_congress_scope_certified",
+        "live_legislative_transaction_verified",
+        "independent_legal_authority_certified",
+        "adl1_certified",
+        "notice"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(X14-|VIEW-X14-)[A-Z0-9-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "root_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "view_kind": {
+          "enum": [
+            "institutional",
+            "workflow",
+            "fiscal"
+          ]
+        },
+        "source_commit_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "read_only": {
+          "const": true
+        },
+        "complete_congress_scope_certified": {
+          "const": false
+        },
+        "live_legislative_transaction_verified": {
+          "const": false
+        },
+        "independent_legal_authority_certified": {
+          "const": false
+        },
+        "adl1_certified": {
+          "const": false
+        },
+        "notice": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-sources"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sources"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-nodes"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/nodes"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-instruments"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/instruments"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-relationships"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/relationships"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-stages"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/stages"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-transitions"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/transitions"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-observations"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/observations"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-fiscal"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/fiscal"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-history"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/history"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-coverage"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/coverage"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-gaps"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/gaps"
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc14-views"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/views"
+          }
+        }
+      }
+    }
+  ]
+}

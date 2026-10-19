@@ -1,0 +1,24 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-coverage",
+  "items": [
+    {
+      "id": "X14-COVERAGE-119",
+      "congress_number": 119,
+      "canonical_selected_legislative_count": 9,
+      "source_sliced_institutional_units": 8,
+      "house_committee_pilot_count": 1,
+      "senate_committee_pilot_count": 1,
+      "source_sliced_subcommittee_count": 2,
+      "complete_chamber_office_denominator": null,
+      "whole_congress_entity_denominator": null,
+      "complete_119th_committee_roster_verified": false,
+      "complete_staff_and_leadership_roster_verified": false,
+      "fully_audited_specific_measure_workflows": 0,
+      "publisher_history_points": 3,
+      "adl1_certified_count": 0,
+      "independent_parliamentary_review_complete": false,
+      "scope": "House/Senate Appropriations and MilCon-VA subcommittees and selected officers; not full Congress"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-nodes",
+  "items": [
+    {
+      "id": "X14-NODE-HOUSE-APP",
+      "name": "House Committee on Appropriations",
+      "record_class": "standing_committee",
+      "parent_id": "ORG-FED-LEG-HOUSE",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "source_ids": [
+        "X14-SRC-HOUSE-COMMITTEES"
+      ],
+      "observed_on": "2026-10-19",
+      "verified_current_complete_first_level": false,
+      "independently_verified_role_incumbent": false,
+      "executive_authority_implied": false,
+      "adl1_certified": false,
+      "status": "119th_source_bounded_institutional_observation"
+    },
+    {
+      "id": "X14-NODE-SENATE-APP",
+      "name": "Senate Committee on Appropriations",
+      "record_class": "standing_committee",
+      "parent_id": "ORG-FED-LEG-SENATE",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "source_ids": [
+        "X14-SRC-SENATE-RULES"
+      ],
+      "observed_on": "2026-10-19",
+      "verified_current_complete_first_level": false,
+      "independently_verified_role_incumbent": false,
+      "executive_authority_implied": false,
+      "adl1_certified": false,
+      "status": "119th_source_bounded_institutional_observation"
+    },
+    {
+      "id": "X14-NODE-HOUSE-MILCON",
+      "name": "House Appropriations Subcommittee, Military Construction VA Related Agencies",
+      "record_class": "appropriations_subcommittee",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "source_ids": [
+        "X14-SRC-HOUSE-MILCON"
+      ],
+      "observed_on": "2026-10-19",
+      "verified_current_complete_first_level": false,
+      "independently_verified_role_incumbent": false,
+      "executive_authority_implied": false,
+      "adl1_certified": false,
+      "status": "119th_source_bounded_institutional_observation"
+    },
+    {
+      "id": "X14-NODE-SENATE-MILCON",
+      "name": "Senate Appropriations Subcommittee, Military Construction VA Related Agencies",
+      "record_class": "appropriations_subcommittee",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "source_ids": [
+        "X14-SRC-SENATE-MILCON"
+      ],
+      "observed_on": "2026-10-19",
+      "verified_current_complete_first_level": false,
+      "independently_verified_role_incumbent": false,
+      "executive_authority_implied": false,
+      "adl1_certified": false,
+      "status": "119th_source_bounded_institutional_observation"
+    },
+    {
+      "id": "X14-NODE-HOUSE-CLERK-OPS",
+      "name": "House Clerk Office of Legislative Operations",
+      "record_class": "legislative_support_office",
+      "parent_id": "ORG-FED-LEG-HOUSE",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "source_ids": [
+        "X14-SRC-HOUSE-CLERK"
+      ],
+      "observed_on": "2026-10-19",
+      "verified_current_complete_first_level": false,
+      "independently_verified_role_incumbent": false,
+      "executive_authority_implied": false,
+      "adl1_certified": false,
+      "status": "119th_source_bounded_institutional_observation"
+    },
+    {
+      "id": "X14-NODE-SENATE-SECRETARY",
+      "name": "Secretary of Senate office",
+      "record_class": "legislative_support_office",
+      "parent_id": "ORG-FED-LEG-SENATE",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "source_ids": [
+        "X14-SRC-SENATE-SECRETARY"
+      ],
+      "observed_on": "2026-10-19",
+      "verified_current_complete_first_level": false,
+      "independently_verified_role_incumbent": false,
+      "executive_authority_implied": false,
+      "adl1_certified": false,
+      "status": "119th_source_bounded_institutional_observation"
+    },
+    {
+      "id": "X14-NODE-HOUSE-SPEAKER",
+      "name": "Speaker of House constitutional office",
+      "record_class": "chamber_constitutional_office",
+      "parent_id": "ORG-FED-LEG-HOUSE",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION"
+      ],
+      "observed_on": "2026-10-19",
+      "verified_current_complete_first_level": false,
+      "independently_verified_role_incumbent": false,
+      "executive_authority_implied": false,
+      "adl1_certified": false,
+      "status": "119th_source_bounded_institutional_observation"
+    },
+    {
+      "id": "X14-NODE-SENATE-PRO-TEM",
+      "name": "President pro tempore constitutional Senate office",
+      "record_class": "chamber_constitutional_office",
+      "parent_id": "ORG-FED-LEG-SENATE",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION"
+      ],
+      "observed_on": "2026-10-19",
+      "verified_current_complete_first_level": false,
+      "independently_verified_role_incumbent": false,
+      "executive_authority_implied": false,
+      "adl1_certified": false,
+      "status": "119th_source_bounded_institutional_observation"
+    }
+  ]
+}

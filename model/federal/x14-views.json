@@ -1,0 +1,58 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-views",
+  "items": [
+    {
+      "id": "VIEW-X14-HOUSE",
+      "title": "House Appropriations and MilCon-VA source pilot",
+      "root_id": "ORG-FED-LEG-HOUSE",
+      "view_kind": "institutional",
+      "source_commit_policy": "immutable_exact_sha",
+      "read_only": true,
+      "complete_congress_scope_certified": false,
+      "live_legislative_transaction_verified": false,
+      "independent_legal_authority_certified": false,
+      "adl1_certified": false,
+      "notice": "119th source-bounded research only; statutory, procedural, committee, fiscal and executive powers remain distinct."
+    },
+    {
+      "id": "VIEW-X14-SENATE",
+      "title": "Senate Appropriations and MilCon-VA source pilot",
+      "root_id": "ORG-FED-LEG-SENATE",
+      "view_kind": "institutional",
+      "source_commit_policy": "immutable_exact_sha",
+      "read_only": true,
+      "complete_congress_scope_certified": false,
+      "live_legislative_transaction_verified": false,
+      "independent_legal_authority_certified": false,
+      "adl1_certified": false,
+      "notice": "119th source-bounded research only; statutory, procedural, committee, fiscal and executive powers remain distinct."
+    },
+    {
+      "id": "VIEW-X14-PROCESS",
+      "title": "Conditional House-originated legislative workflow",
+      "root_id": "ORG-FED-LEG-CONGRESS",
+      "view_kind": "workflow",
+      "source_commit_policy": "immutable_exact_sha",
+      "read_only": true,
+      "complete_congress_scope_certified": false,
+      "live_legislative_transaction_verified": false,
+      "independent_legal_authority_certified": false,
+      "adl1_certified": false,
+      "notice": "119th source-bounded research only; statutory, procedural, committee, fiscal and executive powers remain distinct."
+    },
+    {
+      "id": "VIEW-X14-FISCAL",
+      "title": "Appropriations authority and oversight versus executive execution",
+      "root_id": "ORG-FED-LEG-CONGRESS",
+      "view_kind": "fiscal",
+      "source_commit_policy": "immutable_exact_sha",
+      "read_only": true,
+      "complete_congress_scope_certified": false,
+      "live_legislative_transaction_verified": false,
+      "independent_legal_authority_certified": false,
+      "adl1_certified": false,
+      "notice": "119th source-bounded research only; statutory, procedural, committee, fiscal and executive powers remain distinct."
+    }
+  ]
+}
