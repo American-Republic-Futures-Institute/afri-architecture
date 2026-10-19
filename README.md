@@ -205,3 +205,7 @@ The [Federal institutional census reconciliation](docs/FEDERAL-INSTITUTIONAL-CEN
 ## INC-13A — Federal ADL-1 structural qualification contract
 
 The [nine-gate DoD/DOJ/VA ADL-1 intake](docs/FEDERAL-ADL1-QUALIFICATION-INC13A.md) preserves the unmet VA 04E prerequisites and original INC-12 source limits without conflating the independent X13 EOP/FTC research. All three pilot scopes are research-only, denominators are unknown and no delegation, operational command or ADL-1 entity is certified. Validate with `node scripts/validate-inc13a.mjs` and `node --test tests/inc13a.test.mjs`.
+
+## INC-13B3 — VA bounded institutional source reconciliation
+
+The [VA 04C–04F evidence and qualification crosswalk](docs/INC-13B3-VA-INSTITUTIONAL-SOURCE-RECONCILIATION.md) preserves 22 directory observations, nine 38 U.S.C. §301(c) clauses, 25 overlapping research candidates, six special legal cases, one unqualified 2007 history event, and 23 immutable predecessor model pins. All current first-level denominators, counsel approvals, qualifying original-source custody and ADL-1 entities remain unknown/false/zero; no authority is inferred from directory placement. Validate with `node scripts/validate-inc13b3.mjs` and `node --test tests/inc13b3.test.mjs`.

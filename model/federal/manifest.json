@@ -278,7 +278,15 @@
     "model/federal/inc13a-gates.json",
     "model/federal/inc13a-pilots.json",
     "model/federal/inc13b1-source-slices.json",
-    "model/federal/inc13b2-doj-chart.json"
+    "model/federal/inc13b2-doj-chart.json",
+    "model/federal/inc13b3-va-scopes.json",
+    "model/federal/inc13b3-va-directory.json",
+    "model/federal/inc13b3-va-statutes.json",
+    "model/federal/inc13b3-va-candidates.json",
+    "model/federal/inc13b3-va-legal.json",
+    "model/federal/inc13b3-va-history.json",
+    "model/federal/inc13b3-va-evidence.json",
+    "model/federal/inc13b3-va-source-pins.json"
   ],
   "standards": [
     {
@@ -991,5 +999,29 @@
     "independent_human_review_complete": false,
     "adl1_certified_count": 0,
     "website_publication_enabled": false
+  },
+  "federal_va_13b3_source_reconciliation_extension": {
+    "id": "ARFI-FED-INC13B3-VA-INSTITUTIONAL-RECONCILIATION",
+    "model_version": "0.1.0",
+    "source_baseline_commit": "b52d99f5dc8c36803dd4c3298795f75c1ece707a",
+    "research_as_of": "2026-10-19",
+    "directory_headings": 22,
+    "administrations": 3,
+    "staff_office_headings": 19,
+    "statutory_clauses": 9,
+    "open_residual_categories": 2,
+    "statutory_to_directory_matches": 4,
+    "candidate_units": 25,
+    "directory_linked_candidates": 22,
+    "outside_directory_candidates": 3,
+    "legal_cases": 6,
+    "historical_transitions": 1,
+    "immutable_source_model_pins": 23,
+    "qualified_current_first_level_denominator": null,
+    "adl1_certified_count": 0,
+    "independent_review_complete": false,
+    "original_custody_ratified": false,
+    "website_publication_enabled": false,
+    "notice": "Nonadditive source-population research; previous original SHA-256 receipts are not newly verified government original custody or legal authority."
   }
 }
