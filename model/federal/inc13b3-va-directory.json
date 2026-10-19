@@ -23,7 +23,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-NCA",
+      "original_department_unit_relation_id": "DEPT04-REL-0037",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-VBA",
@@ -45,7 +51,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-VBA",
+      "original_department_unit_relation_id": "DEPT04-REL-0038",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-VHA",
@@ -67,7 +79,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-VHA",
+      "original_department_unit_relation_id": "DEPT04-REL-0039",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-ACMO",
@@ -89,7 +107,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-ACMO",
+      "original_department_unit_relation_id": "DEPT04-REL-0040",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-BVA",
@@ -111,7 +135,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-BVA",
+      "original_department_unit_relation_id": "DEPT04-REL-0041",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-EHRM-IO",
@@ -133,7 +163,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-EHRM-IO",
+      "original_department_unit_relation_id": "DEPT04-REL-0042",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OAWP",
@@ -155,7 +191,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OAWP",
+      "original_department_unit_relation_id": "DEPT04-REL-0043",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OALC",
@@ -177,7 +219,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OALC",
+      "original_department_unit_relation_id": "DEPT04-REL-0044",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OCLA",
@@ -199,7 +247,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OCLA",
+      "original_department_unit_relation_id": "DEPT04-REL-0045",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OEDCA",
@@ -221,7 +275,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OEDCA",
+      "original_department_unit_relation_id": "DEPT04-REL-0046",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OGC",
@@ -243,7 +303,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OGC",
+      "original_department_unit_relation_id": "DEPT04-REL-0047",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-HRA",
@@ -265,7 +331,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-HRA",
+      "original_department_unit_relation_id": "DEPT04-REL-0048",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OIT",
@@ -287,7 +359,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OIT",
+      "original_department_unit_relation_id": "DEPT04-REL-0049",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OM",
@@ -309,7 +387,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OM",
+      "original_department_unit_relation_id": "DEPT04-REL-0050",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OSP",
@@ -331,7 +415,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OSP",
+      "original_department_unit_relation_id": "DEPT04-REL-0051",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OPIA",
@@ -353,7 +443,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OPIA",
+      "original_department_unit_relation_id": "DEPT04-REL-0052",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-ORPM",
@@ -375,7 +471,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-ORPM",
+      "original_department_unit_relation_id": "DEPT04-REL-0053",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OSDBU",
@@ -397,7 +499,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OSDBU",
+      "original_department_unit_relation_id": "DEPT04-REL-0054",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OSA",
@@ -419,7 +527,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OSA",
+      "original_department_unit_relation_id": "DEPT04-REL-0055",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-OIG",
@@ -441,7 +555,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-OIG",
+      "original_department_unit_relation_id": "DEPT04-REL-0056",
+      "original_relation_type": "independent_oversight_display_placement_not_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-VHO",
@@ -463,7 +583,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-VHO",
+      "original_department_unit_relation_id": "DEPT04-REL-0057",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     },
     {
       "id": "X13B3-DIR-AR04C-VA-ROW-VEO",
@@ -485,7 +611,13 @@
       "independent_legal_review_complete": false,
       "direct_reporting_verified": false,
       "first_level_certified": false,
-      "permanent_custody_qualified": false
+      "permanent_custody_qualified": false,
+      "original_inc12_observation_id": "X12-OBS-DEPT04-UNIT-VA-VEO",
+      "original_department_unit_relation_id": "DEPT04-REL-0058",
+      "original_relation_type": "dated_directory_grouping_not_direct_command",
+      "original_04a_source_id": "DEPT04-SRC-VA-ADMIN-2026",
+      "original_snapshot_id": "DEPT04-SNAPSHOT-VA",
+      "original_04a_observed_parent_id": "ORG-FED-EXE-DEP-VA"
     }
   ]
 }
