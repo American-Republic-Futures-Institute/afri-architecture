@@ -48,14 +48,15 @@
       "id": "X14C-OV-SENATE-SUBPOENA-BOUNDARY",
       "actor_id": "X14-NODE-SENATE-APP",
       "relation_kind": "potential_subpoena_procedure",
-      "rule_ref_id": "Actual subpoena needs committee rules and issuing record",
+      "rule_ref_id": "X14C-RULE-SENATE-XXVI-1",
       "source_ids": [
         "X14C-SRC-SENATE-XXV-XXVI"
       ],
       "specific_hearing_or_subpoena_record_id": null,
       "executive_supervision_proven": false,
       "subpoena_actually_issued": false,
-      "independent_parliamentary_review_qualified": false
+      "independent_parliamentary_review_qualified": false,
+      "qualification": "Actual subpoena needs committee rules and issuing record"
     },
     {
       "id": "X14C-OV-GAO-RESEARCH",
