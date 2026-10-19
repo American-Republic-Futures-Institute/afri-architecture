@@ -1,0 +1,438 @@
+{
+  "model_family": "inc14c-units",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-UNIT-HOUSE-AGRICULTURE",
+      "name": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-CJS",
+      "name": "Commerce, Justice, Science, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-DEFENSE",
+      "name": "Defense",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-ENERGY",
+      "name": "Energy and Water Development and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-FSGG",
+      "name": "Financial Services and General Government",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-HOMELAND",
+      "name": "Homeland Security",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-INTERIOR",
+      "name": "Interior, Environment, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-LHHS",
+      "name": "Labor, Health and Human Services, Education, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-LEGISLATIVE",
+      "name": "Legislative Branch",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14-NODE-HOUSE-MILCON",
+      "name": "Military Construction, Veterans Affairs, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": "X14-NODE-HOUSE-MILCON",
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-FOREIGN",
+      "name": "National Security, Department of State, and Related Programs",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-HOUSE-THUD",
+      "name": "Transportation, Housing and Urban Development, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-HOUSE",
+      "parent_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-AGRICULTURE",
+      "name": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-CJS",
+      "name": "Commerce, Justice, Science, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-DEFENSE",
+      "name": "Defense",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-ENERGY",
+      "name": "Energy and Water Development",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-FSGG",
+      "name": "Financial Services and General Government",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-HOMELAND",
+      "name": "Homeland Security",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-INTERIOR",
+      "name": "Interior, Environment, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-LHHS",
+      "name": "Labor, Health and Human Services, Education, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-LEGISLATIVE",
+      "name": "Legislative Branch",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14-NODE-SENATE-MILCON",
+      "name": "Military Construction, Veterans Affairs, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": "X14-NODE-SENATE-MILCON",
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-FOREIGN",
+      "name": "State, Foreign Operations, and Related Programs",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    },
+    {
+      "id": "X14C-UNIT-SENATE-THUD",
+      "name": "Transportation, Housing and Urban Development, and Related Agencies",
+      "kind": "publisher_listed_appropriations_subcommittee",
+      "chamber_id": "ORG-FED-LEG-SENATE",
+      "parent_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "source_observed_on": "2026-10-19",
+      "preexisting_canonical_id": null,
+      "first_level_chamber_unit": false,
+      "source_directory_relationship_only": true,
+      "current_rules_jurisdiction_certified": false,
+      "executive_supervision_inferred": false,
+      "individually_executed_subpoena": false,
+      "adl1_certified": false
+    }
+  ]
+}

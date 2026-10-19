@@ -1,0 +1,27 @@
+{
+  "model_family": "inc14c-measure",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-MEASURE-HR5371",
+      "bill_number": "H.R. 5371",
+      "congress": 119,
+      "public_law": "119-37",
+      "law_approved_on": "2025-11-12",
+      "law_title": "Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026",
+      "appropriations_division": "D",
+      "fiscal_year": 2026,
+      "source_ids": [
+        "X14C-SRC-GOVINFO-37",
+        "X14C-SRC-GOVINFO-TEXT"
+      ],
+      "enacted_division_D_text_identified": true,
+      "complete_legislative_action_chain_verified": false,
+      "committee_referral_chain_verified": false,
+      "enrolled_bytes_custodied": false,
+      "specific_TAS_allocation_verified": false,
+      "agency_obligation_or_payment_verified": false,
+      "status": "enacted_public_law_with_bounded_public_source_events"
+    }
+  ]
+}

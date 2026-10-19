@@ -1,0 +1,102 @@
+{
+  "model_family": "inc14c-gaps",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-GAP-HOUSE-DENOM",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "missing_evidence": "Full House committee, officer, leadership and legislative-support universe unavailable in this bounded slice",
+      "resolved": false,
+      "independent_signoff": false,
+      "original_custody_qualified": false,
+      "adl1_promotion_allowed": false
+    },
+    {
+      "id": "X14C-GAP-SENATE-DENOM",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "missing_evidence": "Full Senate committee, officer, leadership and legislative-support universe unavailable in this bounded slice",
+      "resolved": false,
+      "independent_signoff": false,
+      "original_custody_qualified": false,
+      "adl1_promotion_allowed": false
+    },
+    {
+      "id": "X14C-GAP-COMMITTEE-RULES",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "missing_evidence": "Original 119th Appropriations committee-specific rules and any amendments require edition and pinpoint qualification",
+      "resolved": false,
+      "independent_signoff": false,
+      "original_custody_qualified": false,
+      "adl1_promotion_allowed": false
+    },
+    {
+      "id": "X14C-GAP-BILL-ROUTE",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "missing_evidence": "H.R.5371 introduction/referral, committee actions and journal/enrollment originals not independently reconstructed",
+      "resolved": false,
+      "independent_signoff": false,
+      "original_custody_qualified": false,
+      "adl1_promotion_allowed": false
+    },
+    {
+      "id": "X14C-GAP-EXEC-RECORD",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "missing_evidence": "Presidential signed enrolled original and relevant approval/proclamation record custody pending",
+      "resolved": false,
+      "independent_signoff": false,
+      "original_custody_qualified": false,
+      "adl1_promotion_allowed": false
+    },
+    {
+      "id": "X14C-GAP-FISCAL-EXEC",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "missing_evidence": "FY2026 VA TAS account mapping, enacted line amounts, OMB apportionments, allotments, obligation and payment not verified",
+      "resolved": false,
+      "independent_signoff": false,
+      "original_custody_qualified": false,
+      "adl1_promotion_allowed": false
+    },
+    {
+      "id": "X14C-GAP-HISTORY",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "missing_evidence": "Subcommittee predecessor/successor identities and source-era version comparison not independently reviewed",
+      "resolved": false,
+      "independent_signoff": false,
+      "original_custody_qualified": false,
+      "adl1_promotion_allowed": false
+    },
+    {
+      "id": "X14C-GAP-ORIGINALS",
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "missing_evidence": "Immutable official original bytes, cryptographic hashes, independent legal review and evidence custody remain pending",
+      "resolved": false,
+      "independent_signoff": false,
+      "original_custody_qualified": false,
+      "adl1_promotion_allowed": false
+    }
+  ]
+}
