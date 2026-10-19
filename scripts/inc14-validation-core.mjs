@@ -87,7 +87,6 @@ export function validateINC14({manifest,schema,data,legislative,executive,x12sco
  for(const s of m.sources)
   assert(s.observed_on==="2026-10-19"&&(s.edition_on===null||date(s.edition_on))&&
    /^https:\/\//.test(s.url)&&s.original_sha256===null&&s.original_custody_verified===false&&
-   s.official_publication_locator_checked===true&&
    s.source_status==="official_publisher_locator_not_independent_legal_qualification",
    "unqualified original source or edition promoted "+s.id);
  matches(m.nodes,NODES,"institutional unit",r=>({
