@@ -1,0 +1,21 @@
+{
+  "model_family": "inc14c-history",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-HISTORY-119-STRUCTURE",
+      "source_ids": [
+        "X14C-SRC-HOUSE-HRES5",
+        "X14C-SRC-HOUSE-APP",
+        "X14C-SRC-SENATE-APP"
+      ],
+      "chamber_rules_version": "119th House adopted rules; Senate Standing Rules observed publication",
+      "institutional_observation_on": "2026-10-19",
+      "comparative_prior_roster_available": false,
+      "legal_succession_reconciliation_complete": false,
+      "retired_unit_successors_certified": false,
+      "directory_revision_hash_available": false,
+      "independent_signed_original_custody": false
+    }
+  ]
+}

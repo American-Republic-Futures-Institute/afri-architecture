@@ -1,0 +1,44 @@
+{
+  "model_family": "inc14c-denominators",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-DENOM-HOUSE-APP",
+      "congress": 119,
+      "scope": "X14-NODE-HOUSE-APP",
+      "denominator_kind": "publisher_page_listed_subcommittees",
+      "publisher_listing_count": 12,
+      "captured_identity_count": 12,
+      "covered_identity_count": 12,
+      "source_ids": [
+        "X14C-SRC-HOUSE-APP"
+      ],
+      "observation_date": "2026-10-19",
+      "source_page_bounded_listing_reconciled": true,
+      "independently_archived_source_verified": false,
+      "current_global_chamber_office_denominator": null,
+      "complete_chamber_committee_roster_denominator": null,
+      "complete_current_legal_roster_qualified": false,
+      "adl1_certified_count": 0
+    },
+    {
+      "id": "X14C-DENOM-SENATE-APP",
+      "congress": 119,
+      "scope": "X14-NODE-SENATE-APP",
+      "denominator_kind": "publisher_page_listed_subcommittees",
+      "publisher_listing_count": 12,
+      "captured_identity_count": 12,
+      "covered_identity_count": 12,
+      "source_ids": [
+        "X14C-SRC-SENATE-APP"
+      ],
+      "observation_date": "2026-10-19",
+      "source_page_bounded_listing_reconciled": true,
+      "independently_archived_source_verified": false,
+      "current_global_chamber_office_denominator": null,
+      "complete_chamber_committee_roster_denominator": null,
+      "complete_current_legal_roster_qualified": false,
+      "adl1_certified_count": 0
+    }
+  ]
+}

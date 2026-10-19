@@ -1,0 +1,32 @@
+{
+  "model_family": "inc14c-crosswalks",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-CROSS-HOUSE-APP",
+      "source_definition_id": "DOD-CONG-HOUSE-APP",
+      "canonical_committee_node_id": "X14-NODE-HOUSE-APP",
+      "source_ids": [
+        "X14C-SRC-DOD-101"
+      ],
+      "match_kind": "statutory_name_to_source_bounded_institutional_identity",
+      "statutory_subject_classification_only": true,
+      "current_committee_rules_qualified": false,
+      "subcommittee_jurisdiction_qualified": false,
+      "executive_command_authorized": false
+    },
+    {
+      "id": "X14C-CROSS-SENATE-APP",
+      "source_definition_id": "DOD-CONG-SENATE-APP",
+      "canonical_committee_node_id": "X14-NODE-SENATE-APP",
+      "source_ids": [
+        "X14C-SRC-DOD-101"
+      ],
+      "match_kind": "statutory_name_to_source_bounded_institutional_identity",
+      "statutory_subject_classification_only": true,
+      "current_committee_rules_qualified": false,
+      "subcommittee_jurisdiction_qualified": false,
+      "executive_command_authorized": false
+    }
+  ]
+}

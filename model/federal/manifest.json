@@ -262,7 +262,19 @@
     "model/federal/x14-history.json",
     "model/federal/x14-coverage.json",
     "model/federal/x14-gaps.json",
-    "model/federal/x14-views.json"
+    "model/federal/x14-views.json",
+    "model/federal/x14c-sources.json",
+    "model/federal/x14c-units.json",
+    "model/federal/x14c-denominators.json",
+    "model/federal/x14c-rules.json",
+    "model/federal/x14c-oversight.json",
+    "model/federal/x14c-measure.json",
+    "model/federal/x14c-actions.json",
+    "model/federal/x14c-fiscal.json",
+    "model/federal/x14c-crosswalks.json",
+    "model/federal/x14c-history.json",
+    "model/federal/x14c-gaps.json",
+    "model/federal/x14c-views.json"
   ],
   "standards": [
     {
@@ -917,5 +929,21 @@
     "complete_enactment_chain_verified": false,
     "legislative_control_means_executive_spending": false,
     "adl1_certified_count": 0
+  },
+  "congressional_coverage_authority_14c_extension": {
+    "id": "ARFI-FED-INC14C-CONGRESS",
+    "observed_on": "2026-10-19",
+    "congress": 119,
+    "source_bounded_house_appropriations_subcommittees": 12,
+    "source_bounded_senate_appropriations_subcommittees": 12,
+    "official_roll_call_records": 4,
+    "official_published_approval_records": 1,
+    "complete_house_or_senate_institutional_denominator_verified": false,
+    "source_page_denominators_are_global": false,
+    "actual_complete_bill_route_verified": false,
+    "legal_effect_independently_qualified": false,
+    "enacted_law_means_executed_spending": false,
+    "adl1_certified_count": 0,
+    "status": "source_bounded_unratified_research"
   }
 }

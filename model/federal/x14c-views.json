@@ -1,0 +1,61 @@
+{
+  "model_family": "inc14c-views",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "VIEW-X14C-HOUSE-ROSTER",
+      "title": "House Appropriations — 119th source-specific subcommittee directory",
+      "root_id": "ORG-FED-LEG-HOUSE",
+      "research_evidence_only": true,
+      "source_commit_policy": "exact_immutable_merge_commit",
+      "full_congress_current_roster_claim": false,
+      "adl1_certified": false,
+      "automatic_legal_power": false,
+      "actual_executive_outlay_claim": false
+    },
+    {
+      "id": "VIEW-X14C-SENATE-ROSTER",
+      "title": "Senate Appropriations — 119th source-specific subcommittee directory",
+      "root_id": "ORG-FED-LEG-SENATE",
+      "research_evidence_only": true,
+      "source_commit_policy": "exact_immutable_merge_commit",
+      "full_congress_current_roster_claim": false,
+      "adl1_certified": false,
+      "automatic_legal_power": false,
+      "actual_executive_outlay_claim": false
+    },
+    {
+      "id": "VIEW-X14C-RULES-OVERSIGHT",
+      "title": "Congressional committee jurisdiction, procedure and oversight boundaries",
+      "root_id": "ORG-FED-LEG-CONGRESS",
+      "research_evidence_only": true,
+      "source_commit_policy": "exact_immutable_merge_commit",
+      "full_congress_current_roster_claim": false,
+      "adl1_certified": false,
+      "automatic_legal_power": false,
+      "actual_executive_outlay_claim": false
+    },
+    {
+      "id": "VIEW-X14C-HR5371",
+      "title": "H.R. 5371 / Public Law 119-37 recorded legislative evidence",
+      "root_id": "ORG-FED-LEG-CONGRESS",
+      "research_evidence_only": true,
+      "source_commit_policy": "exact_immutable_merge_commit",
+      "full_congress_current_roster_claim": false,
+      "adl1_certified": false,
+      "automatic_legal_power": false,
+      "actual_executive_outlay_claim": false
+    },
+    {
+      "id": "VIEW-X14C-DIVISION-D",
+      "title": "Public Law 119-37 Division D fiscal authority versus VA execution",
+      "root_id": "ORG-FED-LEG-CONGRESS",
+      "research_evidence_only": true,
+      "source_commit_policy": "exact_immutable_merge_commit",
+      "full_congress_current_roster_claim": false,
+      "adl1_certified": false,
+      "automatic_legal_power": false,
+      "actual_executive_outlay_claim": false
+    }
+  ]
+}

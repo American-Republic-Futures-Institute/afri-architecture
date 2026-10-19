@@ -1,0 +1,89 @@
+{
+  "model_family": "inc14c-oversight",
+  "model_version": "0.1.0",
+  "items": [
+    {
+      "id": "X14C-OV-HOUSE-APP-OVERSIGHT",
+      "actor_id": "X14-NODE-HOUSE-APP",
+      "relation_kind": "committee_review",
+      "rule_ref_id": "X14C-RULE-HOUSE-X-2",
+      "qualification": "Committee review does not direct VA operational decisions",
+      "source_ids": [
+        "X14C-SRC-HOUSE-RULE-X"
+      ],
+      "specific_hearing_or_subpoena_record_id": null,
+      "executive_supervision_proven": false,
+      "subpoena_actually_issued": false,
+      "independent_parliamentary_review_qualified": false
+    },
+    {
+      "id": "X14C-OV-SENATE-APP-OVERSIGHT",
+      "actor_id": "X14-NODE-SENATE-APP",
+      "relation_kind": "committee_review",
+      "rule_ref_id": "X14C-RULE-SENATE-XXVI-1",
+      "qualification": "Hearing/investigation capacity not evidence of actual subpoena",
+      "source_ids": [
+        "X14C-SRC-SENATE-XXV-XXVI"
+      ],
+      "specific_hearing_or_subpoena_record_id": null,
+      "executive_supervision_proven": false,
+      "subpoena_actually_issued": false,
+      "independent_parliamentary_review_qualified": false
+    },
+    {
+      "id": "X14C-OV-HOUSE-SUBPOENA-BOUNDARY",
+      "actor_id": "X14-NODE-HOUSE-APP",
+      "relation_kind": "potential_subpoena_procedure",
+      "rule_ref_id": "X14C-RULE-HOUSE-XI-2M",
+      "qualification": "Actual subpoena needs committee rules and issuing record",
+      "source_ids": [
+        "X14C-SRC-HOUSE-RULE-X"
+      ],
+      "specific_hearing_or_subpoena_record_id": null,
+      "executive_supervision_proven": false,
+      "subpoena_actually_issued": false,
+      "independent_parliamentary_review_qualified": false
+    },
+    {
+      "id": "X14C-OV-SENATE-SUBPOENA-BOUNDARY",
+      "actor_id": "X14-NODE-SENATE-APP",
+      "relation_kind": "potential_subpoena_procedure",
+      "rule_ref_id": "Actual subpoena needs committee rules and issuing record",
+      "source_ids": [
+        "X14C-SRC-SENATE-XXV-XXVI"
+      ],
+      "specific_hearing_or_subpoena_record_id": null,
+      "executive_supervision_proven": false,
+      "subpoena_actually_issued": false,
+      "independent_parliamentary_review_qualified": false
+    },
+    {
+      "id": "X14C-OV-GAO-RESEARCH",
+      "actor_id": "ORG-FED-LEG-GAO",
+      "relation_kind": "congressional_audit_evaluation_support",
+      "rule_ref_id": null,
+      "qualification": "GAO audit does not exercise congressional appropriations or direct VA",
+      "source_ids": [
+        "X14C-SRC-GAO"
+      ],
+      "specific_hearing_or_subpoena_record_id": null,
+      "executive_supervision_proven": false,
+      "subpoena_actually_issued": false,
+      "independent_parliamentary_review_qualified": false
+    },
+    {
+      "id": "X14C-OV-CBO-RESEARCH",
+      "actor_id": "ORG-FED-LEG-CBO",
+      "relation_kind": "congressional_cost_estimate_support",
+      "rule_ref_id": null,
+      "qualification": "CBO estimate is analysis, not appropriations enactment",
+      "source_ids": [
+        "X14C-SRC-CBO"
+      ],
+      "specific_hearing_or_subpoena_record_id": null,
+      "executive_supervision_proven": false,
+      "subpoena_actually_issued": false,
+      "independent_parliamentary_review_qualified": false
+    }
+  ]
+}
