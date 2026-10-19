@@ -1,0 +1,127 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-relationships",
+  "items": [
+    {
+      "id": "X14-REL-HOUSE-APP",
+      "from_id": "X14-NODE-HOUSE-APP",
+      "to_id": "ORG-FED-LEG-HOUSE",
+      "relation_kind": "publisher_listed_chamber_committee",
+      "source_ids": [
+        "X14-SRC-HOUSE-COMMITTEES"
+      ],
+      "observed_on": "2026-10-19",
+      "signed_delegation_verified": false,
+      "supervision_power_verified": false,
+      "executive_payment_authorized": false,
+      "independent_legal_review_qualified": false,
+      "status": "bounded_structure_not_executive_command"
+    },
+    {
+      "id": "X14-REL-SENATE-APP",
+      "from_id": "X14-NODE-SENATE-APP",
+      "to_id": "ORG-FED-LEG-SENATE",
+      "relation_kind": "senate_rules_and_directory_committee",
+      "source_ids": [
+        "X14-SRC-SENATE-RULES",
+        "X14-SRC-SENATE-MILCON"
+      ],
+      "observed_on": "2026-10-19",
+      "signed_delegation_verified": false,
+      "supervision_power_verified": false,
+      "executive_payment_authorized": false,
+      "independent_legal_review_qualified": false,
+      "status": "bounded_structure_not_executive_command"
+    },
+    {
+      "id": "X14-REL-HOUSE-SUB",
+      "from_id": "X14-NODE-HOUSE-MILCON",
+      "to_id": "X14-NODE-HOUSE-APP",
+      "relation_kind": "publisher_listed_subcommittee",
+      "source_ids": [
+        "X14-SRC-HOUSE-MILCON"
+      ],
+      "observed_on": "2026-10-19",
+      "signed_delegation_verified": false,
+      "supervision_power_verified": false,
+      "executive_payment_authorized": false,
+      "independent_legal_review_qualified": false,
+      "status": "bounded_structure_not_executive_command"
+    },
+    {
+      "id": "X14-REL-SENATE-SUB",
+      "from_id": "X14-NODE-SENATE-MILCON",
+      "to_id": "X14-NODE-SENATE-APP",
+      "relation_kind": "publisher_listed_subcommittee",
+      "source_ids": [
+        "X14-SRC-SENATE-MILCON"
+      ],
+      "observed_on": "2026-10-19",
+      "signed_delegation_verified": false,
+      "supervision_power_verified": false,
+      "executive_payment_authorized": false,
+      "independent_legal_review_qualified": false,
+      "status": "bounded_structure_not_executive_command"
+    },
+    {
+      "id": "X14-REL-HOUSE-CLERK",
+      "from_id": "X14-NODE-HOUSE-CLERK-OPS",
+      "to_id": "ORG-FED-LEG-HOUSE",
+      "relation_kind": "publisher_listed_chamber_support",
+      "source_ids": [
+        "X14-SRC-HOUSE-CLERK"
+      ],
+      "observed_on": "2026-10-19",
+      "signed_delegation_verified": false,
+      "supervision_power_verified": false,
+      "executive_payment_authorized": false,
+      "independent_legal_review_qualified": false,
+      "status": "bounded_structure_not_executive_command"
+    },
+    {
+      "id": "X14-REL-SENATE-SECRETARY",
+      "from_id": "X14-NODE-SENATE-SECRETARY",
+      "to_id": "ORG-FED-LEG-SENATE",
+      "relation_kind": "publisher_listed_chamber_support",
+      "source_ids": [
+        "X14-SRC-SENATE-SECRETARY"
+      ],
+      "observed_on": "2026-10-19",
+      "signed_delegation_verified": false,
+      "supervision_power_verified": false,
+      "executive_payment_authorized": false,
+      "independent_legal_review_qualified": false,
+      "status": "bounded_structure_not_executive_command"
+    },
+    {
+      "id": "X14-REL-HOUSE-SPEAKER",
+      "from_id": "X14-NODE-HOUSE-SPEAKER",
+      "to_id": "ORG-FED-LEG-HOUSE",
+      "relation_kind": "constitutionally_named_office",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION"
+      ],
+      "observed_on": "2026-10-19",
+      "signed_delegation_verified": false,
+      "supervision_power_verified": false,
+      "executive_payment_authorized": false,
+      "independent_legal_review_qualified": false,
+      "status": "bounded_structure_not_executive_command"
+    },
+    {
+      "id": "X14-REL-SENATE-PRO-TEM",
+      "from_id": "X14-NODE-SENATE-PRO-TEM",
+      "to_id": "ORG-FED-LEG-SENATE",
+      "relation_kind": "constitutionally_named_office",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION"
+      ],
+      "observed_on": "2026-10-19",
+      "signed_delegation_verified": false,
+      "supervision_power_verified": false,
+      "executive_payment_authorized": false,
+      "independent_legal_review_qualified": false,
+      "status": "bounded_structure_not_executive_command"
+    }
+  ]
+}

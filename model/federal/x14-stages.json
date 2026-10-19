@@ -1,0 +1,202 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-stages",
+  "items": [
+    {
+      "id": "X14-STAGE-INTRO",
+      "title": "House introduction",
+      "actor_ref_id": "ORG-FED-LEG-HOUSE",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-HOUSE-REF",
+      "title": "House referral",
+      "actor_ref_id": "ORG-FED-LEG-HOUSE",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-HOUSE-COM",
+      "title": "Possible House committee consideration",
+      "actor_ref_id": "X14-NODE-HOUSE-APP",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-HOUSE-FLOOR",
+      "title": "House floor consideration",
+      "actor_ref_id": "ORG-FED-LEG-HOUSE",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-SENATE-REF",
+      "title": "Senate referral",
+      "actor_ref_id": "ORG-FED-LEG-SENATE",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-SENATE-COM",
+      "title": "Possible Senate committee consideration",
+      "actor_ref_id": "X14-NODE-SENATE-APP",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-SENATE-FLOOR",
+      "title": "Senate floor consideration",
+      "actor_ref_id": "ORG-FED-LEG-SENATE",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-RECONCILE",
+      "title": "Bicameral text reconciliation when needed",
+      "actor_ref_id": "ORG-FED-LEG-CONGRESS",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-IDENTICAL",
+      "title": "Both chambers separately approve identical text",
+      "actor_ref_id": "ORG-FED-LEG-CONGRESS",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-ENROLL",
+      "title": "Enrolled measure prepared",
+      "actor_ref_id": "X14-NODE-HOUSE-CLERK-OPS",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-PRESENT",
+      "title": "Presentment",
+      "actor_ref_id": "ORG-FED-EXE-PRESIDENT",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-DISPOSITION",
+      "title": "Constitutional presidential or no-signature disposition",
+      "actor_ref_id": "ORG-FED-EXE-PRESIDENT",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-OVERRIDE",
+      "title": "Potential veto reconsideration in both chambers",
+      "actor_ref_id": "ORG-FED-LEG-CONGRESS",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    },
+    {
+      "id": "X14-STAGE-PUBLICATION",
+      "title": "Enacted-law public record",
+      "actor_ref_id": "ORG-FED-LEG-GPO",
+      "workflow_id": "X14-FLOW-HOUSE-ORIGIN-PATTERN",
+      "source_ids": [
+        "X14-SRC-CONSTITUTION",
+        "X14-SRC-CRS-R42843"
+      ],
+      "stage_is_proposed_template": true,
+      "completed_for_any_actual_bill": false,
+      "actual_bill_event_id": null,
+      "status": "conditional_workflow_template_not_event_log"
+    }
+  ]
+}
