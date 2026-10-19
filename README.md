@@ -197,3 +197,7 @@ Seven nondelegating constitutional competency crosswalks link the existing U.S. 
 ## INC-11 — Federal office, statutory authority and internal policy semantics
 
 The [source-bounded federal office/policy/authority contract](docs/FEDERAL-OFFICE-POLICY-AUTHORITY-INC11.md) introduces six classification and relationship families, strict schema checks, source-backed views and adversarial tests. An office's existence, agency policy approval or enacted appropriation is **not** a specific signed delegation, execution event, qualified legal opinion or whole-of-federal-government completeness claim. Run `node scripts/validate-inc11.mjs` and `node --test tests/inc11.test.mjs`.
+
+## INC-12 — Source-bounded Federal census identity reconciliation
+
+The [Federal institutional census reconciliation](docs/FEDERAL-INSTITUTIONAL-CENSUS-INC12.md) preserves 61 selected canonical federal references, 150 bounded source observations, 12 verified Government Manual publication locators (not agency identifiers) and four unqualified historical transitions. Seven manifest-registered data families expose five root-first Atlas projection contracts, each with an unknown government-wide denominator and independent research gate. Validate with `node scripts/validate-inc12.mjs` and `node --test tests/inc12.test.mjs`.
