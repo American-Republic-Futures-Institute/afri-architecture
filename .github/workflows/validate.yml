@@ -285,3 +285,9 @@ jobs:
           node scripts/validate-inc13b1.mjs --view > /dev/null
       - name: Test INC-13B1 false-roster, false-authority, source and ADL gates
         run: node --test tests/inc13b1.test.mjs
+      - name: Validate INC-13B2 DOJ chart source, identity, relationship and timeline
+        run: |
+          node scripts/validate-inc13b2.mjs
+          node scripts/validate-inc13b2.mjs --view > /dev/null
+      - name: Test INC-13B2 DOJ 36-source identity and legal-nonpromotion contract
+        run: node --test tests/inc13b2.test.mjs

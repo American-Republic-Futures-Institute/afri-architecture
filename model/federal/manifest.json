@@ -277,7 +277,8 @@
     "model/federal/x14c-views.json",
     "model/federal/inc13a-gates.json",
     "model/federal/inc13a-pilots.json",
-    "model/federal/inc13b1-source-slices.json"
+    "model/federal/inc13b1-source-slices.json",
+    "model/federal/inc13b2-doj-chart.json"
   ],
   "standards": [
     {
@@ -975,5 +976,20 @@
     "legal_review_complete": false,
     "website_publication_enabled": false,
     "precondition": "INC13A PR39 integration and independent review pending"
+  },
+  "federal_doj_13b2_reconciliation_extension": {
+    "id": "ARFI-FED-INC13B2-DOJ-CHART",
+    "version": "0.1.0",
+    "research_as_of": "2026-10-19",
+    "source_group_count": 36,
+    "original_source_relationships": 36,
+    "inc12_identity_links": 36,
+    "source_snapshot_id": "DEPT04-SNAPSHOT-JUSTICE",
+    "current_complete_first_level_denominator": null,
+    "original_bytes_qualified": false,
+    "current_signed_delegations_verified": false,
+    "independent_human_review_complete": false,
+    "adl1_certified_count": 0,
+    "website_publication_enabled": false
   }
 }
