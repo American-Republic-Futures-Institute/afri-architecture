@@ -1,0 +1,110 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-gaps",
+  "items": [
+    {
+      "id": "X14-GAP-ROSTER",
+      "coverage_ref_id": "X14-COVERAGE-119",
+      "missing_requirement": "Complete chamber-specific committee, subcommittee and officer rosters, dated with independent official denominators",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES",
+        "X14-SRC-SENATE-RULES"
+      ],
+      "confirmed_resolved": false,
+      "adl1_promotion_permitted": false,
+      "independent_signoff": false,
+      "status": "open_unqualified"
+    },
+    {
+      "id": "X14-GAP-RULES",
+      "coverage_ref_id": "X14-COVERAGE-119",
+      "missing_requirement": "Independent House Rule X and Senate Rules XXV/XXVI current-edition parliamentary review and jurisdiction interpretation",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES",
+        "X14-SRC-SENATE-RULES"
+      ],
+      "confirmed_resolved": false,
+      "adl1_promotion_permitted": false,
+      "independent_signoff": false,
+      "status": "open_unqualified"
+    },
+    {
+      "id": "X14-GAP-LEGISLATION",
+      "coverage_ref_id": "X14-COVERAGE-119",
+      "missing_requirement": "Original bill-level House and Senate journals, referrals, floor votes, amendments, conference/bicameral text and enrollment for a complete specific action chain",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES",
+        "X14-SRC-SENATE-RULES"
+      ],
+      "confirmed_resolved": false,
+      "adl1_promotion_permitted": false,
+      "independent_signoff": false,
+      "status": "open_unqualified"
+    },
+    {
+      "id": "X14-GAP-PRESENTMENT",
+      "coverage_ref_id": "X14-COVERAGE-119",
+      "missing_requirement": "Presidential approval, veto, no-signature and override evidentiary modes must be separately qualified under Article I Section 7",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES",
+        "X14-SRC-SENATE-RULES"
+      ],
+      "confirmed_resolved": false,
+      "adl1_promotion_permitted": false,
+      "independent_signoff": false,
+      "status": "open_unqualified"
+    },
+    {
+      "id": "X14-GAP-FISCAL",
+      "coverage_ref_id": "X14-COVERAGE-119",
+      "missing_requirement": "Specific appropriations law, TAS, apportionment, agency allotment, obligations and payee-level payment proof needed before any executive outlay claims",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES",
+        "X14-SRC-SENATE-RULES"
+      ],
+      "confirmed_resolved": false,
+      "adl1_promotion_permitted": false,
+      "independent_signoff": false,
+      "status": "open_unqualified"
+    },
+    {
+      "id": "X14-GAP-OVERSIGHT",
+      "coverage_ref_id": "X14-COVERAGE-119",
+      "missing_requirement": "Committee investigations, hearings, subpoenas and GAO/CBO assistance do not create direct executive command or fiscal disbursement",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES",
+        "X14-SRC-SENATE-RULES"
+      ],
+      "confirmed_resolved": false,
+      "adl1_promotion_permitted": false,
+      "independent_signoff": false,
+      "status": "open_unqualified"
+    },
+    {
+      "id": "X14-GAP-HISTORY",
+      "coverage_ref_id": "X14-COVERAGE-119",
+      "missing_requirement": "119th vs earlier committee and House rules version reconciliation; no unsupported predecessor/successor equivalence",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES",
+        "X14-SRC-SENATE-RULES"
+      ],
+      "confirmed_resolved": false,
+      "adl1_promotion_permitted": false,
+      "independent_signoff": false,
+      "status": "open_unqualified"
+    },
+    {
+      "id": "X14-GAP-CUSTODY",
+      "coverage_ref_id": "X14-COVERAGE-119",
+      "missing_requirement": "Original issuer bytes and hash manifests, qualified legal/current procedures and independent reviewers",
+      "source_ids": [
+        "X14-SRC-HOUSE-RULES",
+        "X14-SRC-SENATE-RULES"
+      ],
+      "confirmed_resolved": false,
+      "adl1_promotion_permitted": false,
+      "independent_signoff": false,
+      "status": "open_unqualified"
+    }
+  ]
+}

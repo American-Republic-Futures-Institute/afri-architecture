@@ -1,0 +1,19 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-history",
+  "items": [
+    {
+      "id": "X14-HIST-119-HOUSE-RULES",
+      "subject_id": "ORG-FED-LEG-HOUSE",
+      "history_kind": "dated_house_rules_adoption",
+      "event_on": "2025-01-03",
+      "source_ids": [
+        "X14-SRC-HOUSE-HRES5"
+      ],
+      "independent_original_rules_reconciliation": false,
+      "committee_succession_inferred": false,
+      "full_historical_chamber_roster_certified": false,
+      "status": "house_resolution_publisher_record_only"
+    }
+  ]
+}

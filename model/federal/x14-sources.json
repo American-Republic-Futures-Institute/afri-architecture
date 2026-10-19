@@ -1,0 +1,149 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc14-sources",
+  "items": [
+    {
+      "id": "X14-SRC-CONSTITUTION",
+      "title": "United States Constitution Article I",
+      "url": "https://constitution.congress.gov/browse/article-1/",
+      "source_kind": "constitutional_text",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-HOUSE-RULES",
+      "title": "House Rules 119th Congress",
+      "url": "https://rules.house.gov/house-rules-119th-congress",
+      "source_kind": "house_adopted_procedural_rules",
+      "edition_on": "2025-01-21",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-HOUSE-HRES5",
+      "title": "H. Res. 5 adopting House rules 119th Congress",
+      "url": "https://rules.house.gov/bill/119/h-res-5",
+      "source_kind": "house_resolution_source",
+      "edition_on": "2025-01-03",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-SENATE-RULES",
+      "title": "Standing Rules of Senate",
+      "url": "https://www.rules.senate.gov/rules-of-the-senate",
+      "source_kind": "senate_procedural_rules",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-HOUSE-COMMITTEES",
+      "title": "House Clerk Committee Profiles",
+      "url": "https://clerk.house.gov/Committees",
+      "source_kind": "house_committee_directory",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-HOUSE-MILCON",
+      "title": "House Appropriations MilCon VA subcommittee 119th Congress",
+      "url": "https://appropriations.house.gov/subcommittees/military-construction-veterans-affairs-and-related-agencies-119th-congress",
+      "source_kind": "house_subcommittee_directory",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-SENATE-MILCON",
+      "title": "Senate Appropriations MilCon VA subcommittee",
+      "url": "https://www.appropriations.senate.gov/subcommittees/military-construction-veterans-affairs-and-related-agencies",
+      "source_kind": "senate_subcommittee_directory",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-SENATE-RULE25",
+      "title": "Senate committee rules and jurisdiction explanation",
+      "url": "https://www.senate.gov/about/origins-foundations/committee-system/committee-rules.htm",
+      "source_kind": "senate_jurisdiction_guidance",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-HOUSE-CLERK",
+      "title": "House Clerk legislative operations",
+      "url": "https://clerk.house.gov/About/ViewOLODetails",
+      "source_kind": "house_support_directory",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-SENATE-SECRETARY",
+      "title": "Secretary of Senate roles",
+      "url": "https://www.senate.gov/about/officers-staff/secretary-of-the-senate.htm",
+      "source_kind": "senate_support_directory",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-CRS-R42843",
+      "title": "CRS Introduction to Legislative Process R42843 edition 18",
+      "url": "https://www.congress.gov/crs_external_products/R/PDF/R42843/R42843.18.pdf",
+      "source_kind": "crs_nonbinding_process_guide",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-GOVINFO-LAWS",
+      "title": "GovInfo Public and Private Laws",
+      "url": "https://www.govinfo.gov/app/collection/plaw",
+      "source_kind": "official_publication_index",
+      "edition_on": null,
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    },
+    {
+      "id": "X14-SRC-PLAW11931",
+      "title": "Public Law 119-31 VA Home Loan Program Reform Act",
+      "url": "https://www.govinfo.gov/app/details/PLAW-119publ31",
+      "source_kind": "official_enacted_law_record",
+      "edition_on": "2025-07-30",
+      "observed_on": "2026-10-19",
+      "original_sha256": null,
+      "original_custody_verified": false,
+      "source_status": "official_publisher_locator_not_independent_legal_qualification"
+    }
+  ]
+}
