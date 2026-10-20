@@ -4,6 +4,133 @@ import {createHash} from "node:crypto";
 export const SOURCE_PIN="414704cd8eb749696387be95613772df90ef64ac";
 export const FAMILIES=Object.freeze(["inc15b-cabinet-sources","inc15b-roster-crosswalks","inc15b-source-partitions"]);
 const P="model/federal/",SHA=/^[a-f0-9]{40}$/,ID=/^[A-Z][A-Z0-9-]{2,174}$/;
+// Structural field allowlists are separate from the mutable JSON Schema/data.
+// A co-edited schema cannot authorize newly invented legal claims or commands.
+const CONTRACT_FIELDS=Object.freeze({
+  "inc15b-cabinet-sources": {
+    "root": [
+      "model_version",
+      "model_family",
+      "source_baseline_commit",
+      "complete_current_whole_federal_first_level_denominator",
+      "official_publisher_source_cohort_count",
+      "department_source_unavailable_count",
+      "legally_qualified_department_count",
+      "items"
+    ],
+    "record": [
+      "id",
+      "canonical_department_id",
+      "original_cabinet_crosswalk_id",
+      "canonical_department_name",
+      "branch_id",
+      "publisher_source_id",
+      "publisher_source_url",
+      "publisher_source_kind",
+      "source_model_path",
+      "source_model_commit",
+      "source_model_git_blob_sha",
+      "source_snapshot_id",
+      "source_edition",
+      "source_last_published_or_updated",
+      "source_observed_on",
+      "source_scoped_record_count",
+      "source_group_reconciled",
+      "source_group_kind",
+      "original_publisher_bytes_independently_archived",
+      "publisher_source_classification",
+      "complete_current_first_level_denominator",
+      "identity_legal_review_complete",
+      "adl1_certified",
+      "nonadditive_other_editions",
+      "source_coverage_state"
+    ],
+    "items": 15
+  },
+  "inc15b-roster-crosswalks": {
+    "root": [
+      "model_version",
+      "model_family",
+      "source_baseline_commit",
+      "crosswalk_count",
+      "matched_prior_expansion_candidates",
+      "new_legal_institutional_identities",
+      "complete_department_first_level_denominator",
+      "items"
+    ],
+    "record": [
+      "id",
+      "canonical_department_id",
+      "source_unit_id",
+      "source_unit_name",
+      "original_source_model_path",
+      "original_source_relation_id",
+      "source_observation_id",
+      "source_id",
+      "source_snapshot_id",
+      "source_observed_on",
+      "original_observed_parent_id",
+      "original_relation_target_id",
+      "original_relation_kind",
+      "original_source_group",
+      "original_structural_class",
+      "source_locator",
+      "original_legacy_candidate_id",
+      "matched_existing_seed_id",
+      "source_identity_resolution",
+      "canonical_unit_institution_id",
+      "individual_officeholder_verified",
+      "legal_first_level_member_certified",
+      "direct_reporting_verified",
+      "military_or_civilian_command_verified",
+      "delegated_authority_verified",
+      "independent_original_publisher_custody",
+      "adl1_certified"
+    ],
+    "items": 22
+  },
+  "inc15b-source-partitions": {
+    "root": [
+      "model_version",
+      "model_family",
+      "source_baseline_commit",
+      "original_department_structure_source_records",
+      "crosswalk_new_records",
+      "crosswalk_prior_reconciliation_source_records",
+      "global_first_level_denominator",
+      "adl1_certified_count",
+      "items"
+    ],
+    "record": [
+      "id",
+      "department_id",
+      "original_source_collection",
+      "original_source_registry_collection",
+      "source_id",
+      "source_url",
+      "snapshot_id",
+      "source_edition",
+      "source_observed_on",
+      "source_group",
+      "original_source_rows",
+      "unique_source_labels",
+      "duplicate_source_labels",
+      "inc12_observation_crosswalk_count",
+      "inc15b_new_crosswalk_count",
+      "preexisting_reconciliation_model_path",
+      "prior_expansion_seed_overlaps",
+      "recorded_structural_classes",
+      "source_scoped_group_extraction_complete",
+      "first_level_current_department_denominator",
+      "complete_current_department_roster_verified",
+      "independent_publisher_original_custody",
+      "independent_legal_effect_review_complete",
+      "source_population_additive_to_other_editions",
+      "adl1_certified_count"
+    ],
+    "items": 4
+  }
+});
 const ORIGINAL_GIT_BLOBS=Object.freeze({
   "model/federal/executive-departments.json": "a7557ec212e3e3123d6b4e6bc121ed734d93bfc7",
   "model/federal/department-structure/units.json": "4b5748c932c3139e39abca684eb56f5d5d9995ae",
@@ -94,6 +221,13 @@ export function validateINC15B(input){
    m?.source_baseline_commit===SOURCE_PIN&&Array.isArray(m.items)&&
    unique(m.items.map(x=>x.id))&&m.items.every(x=>ID.test(x.id)),
    "source cohort family or IDs changed");
+  const expectedFields=CONTRACT_FIELDS[FAMILIES[i]];
+  ok(expectedFields&&m.items.length===expectedFields.items&&
+   same(Object.keys(m).sort(),expectedFields.root.slice().sort())&&
+   m.items.every(row=>same(Object.keys(row).sort(),expectedFields.record.slice().sort()))&&
+   same(Object.keys(schema.oneOf[i].properties||{}).sort(),expectedFields.root.slice().sort())&&
+   same(Object.keys(schema.oneOf[i].properties?.items?.items?.properties||{}).sort(),expectedFields.record.slice().sort()),
+   "source/schema contract cannot jointly introduce new fields or extra legal assertions");
   closedRule(schema.oneOf[i],m);
  }
  // These expected source digests were independently copied from the fixed
