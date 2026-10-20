@@ -121,8 +121,7 @@
                 "minimum": 0
               },
               "source_scoped_roster_validated": {
-                "type": "boolean",
-                "const": true
+                "type": "boolean"
               },
               "source_scoped_count_kind": {
                 "type": "string",
