@@ -200,7 +200,25 @@ export function validateINC15B(input){
   manifest.release_status==="research_baseline_unratified"&&
   Array.isArray(manifest.models)&&manifest.models.length>=276&&manifest.models.length<=512&&
   unique(manifest.models),"invalid 276-source-model baseline");
+ // Immutable extension contract: cannot be co-edited with the manifest to
+ // claim certified current legal rosters or original publisher custody.
+ const extensionContract=Object.freeze({
+  id:"ARFI-FED-INC15B-CABINET-PUBLISHER-CENSUS",
+  source_baseline_commit:SOURCE_PIN,
+  cabinet_departments:15,publisher_source_cohorts:5,
+  publisher_rosters_missing:10,first_new_department_source_observations:22,
+  original_dept04_source_records:80,nonadditive_source_partitions:4,
+  complete_current_first_level_denominator:null,
+  original_publisher_source_custody_qualified:false,
+  independent_legal_review_complete:false,
+  adl1_certified_count:0,
+  status:"unratified_source_scoped_edition_reconciliation_not_current_legal_roster",
+  next_scope:"official_roster_capture_for_missing_ten_depts_and_separate_eop_independent_legislative_judiciary_populations"
+ });
  const ext=manifest.federal_institutional_breadth_15b_extension;
+ ok(ext&&same(Object.keys(ext).sort(),Object.keys(extensionContract).sort())&&
+  Object.entries(extensionContract).every(([key,value])=>same(ext[key],value)),
+  "manifest extension has unauthorized field, source drift or legal-status promotion");
  ok(ext?.source_baseline_commit===SOURCE_PIN&&
   ext.cabinet_departments===15&&ext.publisher_source_cohorts===5&&
   ext.publisher_rosters_missing===10&&ext.first_new_department_source_observations===22&&
