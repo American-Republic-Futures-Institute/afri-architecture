@@ -99,3 +99,24 @@ test("INC15B rejects a new authority field even if the attacker co-edits the sch
  rule.properties.signed_operational_command={type:"boolean"};
  assert.throws(()=>validateINC15B(d),/source\/schema contract cannot jointly introduce/);
 });
+
+
+for(const [label,mutate] of [
+ ["invented ratified extension status",d=>
+   d.manifest.federal_institutional_breadth_15b_extension.status="legally_ratified_current_roster"],
+ ["substituted extension identity",d=>
+   d.manifest.federal_institutional_breadth_15b_extension.id="ARFI-INC15A-SOURCE-REPLAY"],
+ ["misleading downstream scope",d=>
+   d.manifest.federal_institutional_breadth_15b_extension.next_scope="full_operational_command_certified"],
+ ["manifest extra ADL certification",d=>
+   d.manifest.federal_institutional_breadth_15b_extension.adl1_certified=true],
+ ["manifest extra publisher custody",d=>
+   d.manifest.federal_institutional_breadth_15b_extension.independent_publisher_original_custody=true],
+ ["missing research-only limitation",d=>
+   delete d.manifest.federal_institutional_breadth_15b_extension.next_scope]
+]){
+ test("INC15B rejects "+label,()=>{
+  const d=clone(load());mutate(d);
+  assert.throws(()=>validateINC15B(d),/INC-15B source census rejected: manifest extension/);
+ });
+}
