@@ -120,7 +120,7 @@
       "source_model_blob_sha": "3e0e2cc0bcf20197900c42e20dde33f86a6e62df",
       "source_snapshot_id": null,
       "source_id": null,
-      "source_as_of": "2024-01-01",
+      "source_as_of": null,
       "observed_on": null,
       "source_record_count": 9,
       "source_scoped_roster_validated": true,
