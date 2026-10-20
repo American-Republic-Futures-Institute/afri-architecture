@@ -70,7 +70,7 @@ for(const [name,mutate] of [
  ["lost Commerce mixed-type source exception",d=>partitions(d).items[3].recorded_structural_classes.pop()],
  ["altered published source row in memory",d=>d.originals["model/federal/department-structure/units.json"].items[0].name="Falsified"],
  ["missing validated predecessor source file",d=>delete d.sourceBytes["model/federal/x12-observations.json"]],
- ["extra undeclared source model",d=>d.manifest.models.push("model/federal/forged.json")],
+ ["missing required INC15B source family",d=>d.manifest.models=d.manifest.models.filter(p=>p!=="model/federal/inc15b-roster-crosswalks.json")],
  ["asserted sovereign State unit as Cabinet member",d=>registry(d).items[0].canonical_department_id="JUR-US-VA"],
  ["injected untyped legal clearance",d=>crosswalk(d).items[0].agency_command_certified=true],
  ["top-level false legal certification",d=>partitions(d).adl1_certified_count=1]
