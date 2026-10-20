@@ -37,6 +37,32 @@ const additional=[P+"x12-identities.json",P+"coverage/components.json",
  P+"department-structure/source-registry.json",
  P+"department-structure/source-snapshots.json",
  P+"dod/source-registry.json",P+"dod/source-snapshots.json"];
+// Each digest is from the Git blob tree at immutable PIN, NOT calculated from
+// the mutable working tree or copied from a cohort's own declared checksum.
+const PINNED_SOURCE_BLOBS=Object.freeze({
+  "model/federal/executive-departments.json": "a7557ec212e3e3123d6b4e6bc121ed734d93bfc7",
+  "model/federal/coverage/institution-references.json": "e0c2a131e39a8985b52b2705f9a852977cf5628f",
+  "model/federal/dod/statutory-composition.json": "85f7311d716968fd80744df70725758a7afd7680",
+  "model/federal/inc13b2-doj-chart.json": "c612fce3a4e5b77eb3e7ab60fe3f5b33400da5f6",
+  "model/federal/inc13b3-va-directory.json": "b827932a7b54baeb453ebf9e890199960ea8a19a",
+  "model/federal/inc13b3-va-statutes.json": "3e0e2cc0bcf20197900c42e20dde33f86a6e62df",
+  "model/federal/inc13b3-va-candidates.json": "26df6c0364d4c490e21162d838bbbb4115dba8b7",
+  "model/federal/x14c-units.json": "be9c40e39a30f1bd04f8e7884c387fdf5d797c96",
+  "model/federal/executive-leadership.json": "48300360c7616b4ca011a9b4c2ca7a7372512005",
+  "model/federal/executive-independent.json": "42aee8be052acf712f4766193f3f917730029b8f",
+  "model/federal/legislative.json": "ebe49aea1a33a0e6aab28e34821e8504a24f71f4",
+  "model/federal/judiciary.json": "f17f31f2e0497574dae5915bbce3f1fdeeff836c",
+  "model/federal/x12-identities.json": "b46d975c78d8789f2e96288b0349462e7a82597f",
+  "model/federal/coverage/components.json": "e4d6f5f7bec4aa53d0aca5622615938945ca0962",
+  "model/federal/expansion/sources.json": "eea865ca03483672491606eb7f6de0250b0979f7",
+  "model/federal/expansion/snapshots.json": "e790add0820c70fd7081257d4fa104d393bfe9bc",
+  "model/federal/coverage/source-registry.json": "7f0d6aae22c625d83dc1609cbc332335e5022bdc",
+  "model/federal/coverage/source-snapshots.json": "b8d60b31ef07df7ee9cbb1fff670ccb3e102b9cc",
+  "model/federal/department-structure/source-registry.json": "b91cccbe4687c4d1f7ca67cb4a513aeb096f8543",
+  "model/federal/department-structure/source-snapshots.json": "15284a0e2b653703ce3b30d1a0f770c80c92389f",
+  "model/federal/dod/source-registry.json": "9202f0a97c3f5b8f7f31f0471459199fb24c692c",
+  "model/federal/dod/source-snapshots.json": "68fb444b46d688b87a67d2190958e3c0da810567"
+});
 export function loadINC15(){
  const paths=[...new Set([...sourcePaths,...additional])];
  const sourceBytes=Object.fromEntries(paths.map(p=>[p,read(p)]));
@@ -105,6 +131,19 @@ export function validateINC15(input){
    "model family/edition/source ID drift "+MODELS[n]);
   schemaRule(schema.oneOf[n],model);
  }
+ ok(models["inc15-cohorts"].adl1_certified_count===0&&
+  models["inc15-department-pilots"].admitted_legal_authority_count===0,
+  "top-level legal authority or ADL certification cannot be promoted");
+ // Source-input bytes MUST resolve to the original fixed Git tree and cannot
+ // be modified with a matching self-reported checksum.
+ ok(sourceBytes&&same(Object.keys(sourceBytes).sort(),Object.keys(PINNED_SOURCE_BLOBS).sort()),
+  "missing, added or substituted original model file");
+ for(const [p,pinned] of Object.entries(PINNED_SOURCE_BLOBS)){
+  const raw=sourceBytes[p];
+  ok(SHA.test(pinned)&&typeof raw==="string"&&blobSha(raw)===pinned&&
+    same(JSON.parse(raw),originals?.[p]),
+    "pinned-commit original Git blob mismatch "+p);
+ }
  const cohorts=models["inc15-cohorts"].items,cabinet=models["inc15-cabinet-crosswalks"].items,
   pilots=models["inc15-department-pilots"].items;
  ok(cohorts.length===12&&cabinet.length===15&&pilots.length===3&&
@@ -118,6 +157,7 @@ export function validateINC15(input){
   const full=P+path,raw=sourceBytes?.[full],o=originals?.[full];
   ok(c&&c.source_model_path===full&&c.source_model_commit===PIN&&
    typeof raw==="string"&&SHA.test(c.source_model_blob_sha)&&
+   c.source_model_blob_sha===PINNED_SOURCE_BLOBS[full]&&
    c.source_model_blob_sha===blobSha(raw)&&
    same(JSON.parse(raw),o)&&o?.model_version==="0.1.0"&&
    Array.isArray(o.items)&&unique(o.items.map(x=>x.id)),
@@ -183,16 +223,19 @@ export function validateINC15(input){
    "Cabinet original identity or independent certification mismatch "+d.id);
  }
  const expectedPilots=[
-  ["DEFENSE","DOD-10USC111B",11],
-  ["JUSTICE","DOJ-CHART36",36],
-  ["VA","VA-DIR22",22]
+  ["DEFENSE",["DOD-10USC111B"],11],
+  ["JUSTICE",["DOJ-CHART36"],36],
+  ["VA",["VA-DIR22","VA-STAT9","VA-CAND25"],22]
  ];
- for(const [n,id,count] of expectedPilots){
+ const declaredCohorts=new Set(cohorts.map(x=>x.id));
+ for(const [n,ids,count] of expectedPilots){
+  const cohortIds=ids.map(id=>"INC15-COHORT-"+id);
   const x=pilots.find(p=>p.id==="INC15-PILOT-"+n);
   ok(x&&x.department_id==="ORG-FED-EXE-DEP-"+n&&
    x.canonical_reference_id==="CENSUS-REF-ORG-FED-EXE-DEP-"+n&&
    x.lead_source_count===count&&
-   x.counted_cohort_ids[0]==="INC15-COHORT-"+id&&
+   same(x.counted_cohort_ids,cohortIds)&&
+   x.counted_cohort_ids.every(id=>declaredCohorts.has(id))&&
    x.source_cohorts_may_be_summed===false&&
    x.current_department_roster_complete===false&&
    x.global_first_level_denominator===null&&
