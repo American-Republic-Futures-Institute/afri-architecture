@@ -213,7 +213,7 @@ export function validateINC15B(input){
    rel.appropriation_verified===false&&rel.legally_valid_adl1_claim===false&&
    u.legal_subtype_finalized===false&&u.adl_evidenced===0&&
    u.direct_operational_command_verified===false&&u.statutory_delegation_verified===false&&
-   (seed===undefined||seed?.parent_department_id===u.department_id),
+   (seed===null||seed?.parent_department_id===u.department_id),
    "original date/identity/source/authority linkage invalid "+u.id);
   ok(x.id==="INC15B-OBS-"+u.id&&x.canonical_department_id===u.department_id&&
    x.source_unit_id===u.id&&x.source_unit_name===u.name&&
