@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import {createHash} from "node:crypto";
 import {loadINC15,validateINC15,PIN} from "../scripts/inc15-validation-core.mjs";
 const copy=x=>structuredClone(x);
 const load=()=>loadINC15();
@@ -59,6 +60,32 @@ for(const [name,alter]of [
 ]){
  test("INC-15A refuses "+name,()=>{
   const d=copy(load());alter(d);
+  assert.throws(()=>validateINC15(d),/INC-15 source census rejected:/);
+ });
+}
+
+
+// The declared checksum and mutable file cannot jointly impersonate an older
+// original: compare against the separately pinned commit-tree path digest.
+test("INC-15 rejects altered model bytes even when the cohort checksum is also forged",()=>{
+ const d=copy(load()),p="model/federal/dod/statutory-composition.json";
+ d.sourceBytes[p]+=" ";
+ const b=Buffer.from(d.sourceBytes[p],"utf8");
+
+ cohort(d,"DOD-10USC111B").source_model_blob_sha=
+  createHash("sha1").update("blob "+b.length+"\0","utf8").update(b).digest("hex");
+ assert.throws(()=>validateINC15(d),/pinned-commit original Git blob mismatch/);
+});
+for(const [name,mutate] of [
+ ["top-level ADL certified",d=>d.models["inc15-cohorts"].adl1_certified_count=1],
+ ["top-level admitted authority",d=>d.models["inc15-department-pilots"].admitted_legal_authority_count=7],
+ ["VA statute cohort substituted",d=>pilot(d,"VA").counted_cohort_ids[1]="INC15-COHORT-CABINET-5USC101"],
+ ["VA candidate cohort substituted",d=>pilot(d,"VA").counted_cohort_ids[2]="INC15-COHORT-FAKE"],
+ ["Defense extra cohort",d=>pilot(d,"DEFENSE").counted_cohort_ids.push("INC15-COHORT-VA-DIR22")],
+ ["Justice extra cohort",d=>pilot(d,"JUSTICE").counted_cohort_ids.push("INC15-COHORT-CONGRESS-APP24")]
+]){
+ test("INC-15 rejects "+name,()=>{
+  const d=copy(load());mutate(d);
   assert.throws(()=>validateINC15(d),/INC-15 source census rejected:/);
  });
 }
