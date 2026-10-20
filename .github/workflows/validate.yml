@@ -34,6 +34,10 @@ jobs:
           node-version: "22"
       - name: Validate federal architecture
         run: node scripts/validate.mjs
+      - name: Validate INC-15 source-epoch institutional breadth and disjoint coverage denominators
+        run: node scripts/validate-inc15.mjs
+      - name: Test INC-15 original Git source blobs, Cabinet identities, and false legal/ADL claims
+        run: node --test tests/inc15.test.mjs
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views

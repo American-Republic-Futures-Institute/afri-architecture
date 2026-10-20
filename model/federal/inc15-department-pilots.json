@@ -1,0 +1,92 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc15-department-pilots",
+  "source_baseline_commit": "359694ec26e5e65d0915485d05f2df2631ad2d15",
+  "whole_government_denominator": null,
+  "admitted_legal_authority_count": 0,
+  "items": [
+    {
+      "id": "INC15-PILOT-DEFENSE",
+      "department_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "canonical_reference_id": "CENSUS-REF-ORG-FED-EXE-DEP-DEFENSE",
+      "counted_cohort_ids": [
+        "INC15-COHORT-DOD-10USC111B"
+      ],
+      "lead_source_count": 11,
+      "lead_count_unit": "statutory_10_usc_111_b_composition_categories",
+      "original_source_reconciliation": "9 existing census candidate IDs plus 2 residual class definitions",
+      "global_first_level_denominator": null,
+      "source_cohorts_may_be_summed": false,
+      "source_scope_complete_only": true,
+      "current_department_roster_complete": false,
+      "specific_supervisory_control_verified": false,
+      "signed_delegation_verified": false,
+      "independent_legal_review_complete": false,
+      "publisher_original_custody_verified": false,
+      "adl1_certified": false,
+      "exceptions": [
+        "statutory_composition_is_not_operational_chain_of_command",
+        "combatant_commands_are_a_class_not_all_assigned_forces",
+        "statutory_residuals_are_not_individually_identified_offices",
+        "GAO_DAFA_27_and_public_CC_11_are_other_overlapping_source_populations",
+        "Coast_Guard_outside_DoD_except_specific_statutory_condition"
+      ]
+    },
+    {
+      "id": "INC15-PILOT-JUSTICE",
+      "department_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "canonical_reference_id": "CENSUS-REF-ORG-FED-EXE-DEP-JUSTICE",
+      "counted_cohort_ids": [
+        "INC15-COHORT-DOJ-CHART36"
+      ],
+      "lead_source_count": 36,
+      "lead_count_unit": "dated_DOJ_chart_connector_observations",
+      "original_source_reconciliation": "36 source chart connector records; not necessarily top-level individuals",
+      "global_first_level_denominator": null,
+      "source_cohorts_may_be_summed": false,
+      "source_scope_complete_only": true,
+      "current_department_roster_complete": false,
+      "specific_supervisory_control_verified": false,
+      "signed_delegation_verified": false,
+      "independent_legal_review_complete": false,
+      "publisher_original_custody_verified": false,
+      "adl1_certified": false,
+      "exceptions": [
+        "DOJ_OIG_independence_not_departmental_command",
+        "adjudicative_authority_does_not_follow_org_chart_arrow",
+        "dated_2026_02_17_chart_is_not_signed_delegation",
+        "source_group_may_omit_or_duplicate_first_level_units",
+        "current_whole_department_population_unknown"
+      ]
+    },
+    {
+      "id": "INC15-PILOT-VA",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "canonical_reference_id": "CENSUS-REF-ORG-FED-EXE-DEP-VA",
+      "counted_cohort_ids": [
+        "INC15-COHORT-VA-DIR22",
+        "INC15-COHORT-VA-STAT9",
+        "INC15-COHORT-VA-CAND25"
+      ],
+      "lead_source_count": 22,
+      "lead_count_unit": "publisher_directory_headings_only",
+      "original_source_reconciliation": "22 publisher headings, 9 statute clauses and 25 overlapping source candidates are non-additive",
+      "global_first_level_denominator": null,
+      "source_cohorts_may_be_summed": false,
+      "source_scope_complete_only": true,
+      "current_department_roster_complete": false,
+      "specific_supervisory_control_verified": false,
+      "signed_delegation_verified": false,
+      "independent_legal_review_complete": false,
+      "publisher_original_custody_verified": false,
+      "adl1_certified": false,
+      "exceptions": [
+        "three_administrations_and_nineteen_staff_directory_headings",
+        "statutory_classes_are_not_additional_offices",
+        "IG_and_legal_independence_require_separate_review",
+        "outside_directory_three_candidates_do_not_establish_global_completeness",
+        "original_source_custody_and_ADL1_reviews_outstanding"
+      ]
+    }
+  ]
+}

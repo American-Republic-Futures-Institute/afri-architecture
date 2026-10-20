@@ -1,0 +1,437 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15A source-qualified federal institutional breadth contracts",
+  "description": "Three fail-closed research models. Completeness, source original custody, legal signoff, and ADL-1 remain unratified.",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "whole_federal_institution_denominator",
+        "whole_federal_first_level_denominator",
+        "adl1_certified_count",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc15-cohorts"
+        },
+        "source_baseline_commit": {
+          "const": "359694ec26e5e65d0915485d05f2df2631ad2d15"
+        },
+        "whole_federal_institution_denominator": {
+          "type": "null"
+        },
+        "whole_federal_first_level_denominator": {
+          "type": "null"
+        },
+        "adl1_certified_count": {
+          "const": 0
+        },
+        "items": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "jurisdiction",
+              "count_unit",
+              "source_model_path",
+              "source_model_commit",
+              "source_model_blob_sha",
+              "source_snapshot_id",
+              "source_id",
+              "source_as_of",
+              "observed_on",
+              "source_record_count",
+              "source_scoped_roster_validated",
+              "source_scoped_count_kind",
+              "full_current_first_level_denominator",
+              "independent_publisher_original_custody",
+              "independent_legal_review_complete",
+              "adl1_certified_count",
+              "counts_additive_to_other_cohorts",
+              "notes"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "jurisdiction": {
+                "type": "string",
+                "minLength": 1
+              },
+              "count_unit": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_model_path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_model_commit": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_model_blob_sha": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_snapshot_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_as_of": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "observed_on": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_record_count": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "source_scoped_roster_validated": {
+                "type": "boolean"
+              },
+              "source_scoped_count_kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "full_current_first_level_denominator": {
+                "type": "null"
+              },
+              "independent_publisher_original_custody": {
+                "type": "boolean",
+                "const": false
+              },
+              "independent_legal_review_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "adl1_certified_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "counts_additive_to_other_cohorts": {
+                "type": "boolean",
+                "const": false
+              },
+              "notes": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "statute_source_id",
+        "source_snapshot_id",
+        "statutory_name_cohort_count",
+        "government_first_level_denominator",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc15-cabinet-crosswalks"
+        },
+        "source_baseline_commit": {
+          "const": "359694ec26e5e65d0915485d05f2df2631ad2d15"
+        },
+        "statute_source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_snapshot_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statutory_name_cohort_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "government_first_level_denominator": {
+          "type": "null"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 15,
+          "maxItems": 15,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_institution_id",
+              "canonical_source_model_path",
+              "canonical_catalog_ordinal",
+              "canonical_catalog_name",
+              "prior_inc12_reference_id",
+              "prior_x12_identity_id",
+              "canonical_parent_id",
+              "branch_id",
+              "source_id",
+              "source_snapshot_id",
+              "source_edition",
+              "identity_match_kind",
+              "source_label_independently_transcribed",
+              "agency_components_complete",
+              "current_individual_officeholders_verified",
+              "independent_legal_review_complete",
+              "adl1_certified"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_institution_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_source_model_path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_catalog_ordinal": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "canonical_catalog_name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prior_inc12_reference_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prior_x12_identity_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_parent_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "branch_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_snapshot_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_edition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "identity_match_kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_label_independently_transcribed": {
+                "type": "boolean",
+                "const": false
+              },
+              "agency_components_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_individual_officeholders_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "independent_legal_review_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "adl1_certified": {
+                "type": "boolean",
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "whole_government_denominator",
+        "admitted_legal_authority_count",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc15-department-pilots"
+        },
+        "source_baseline_commit": {
+          "const": "359694ec26e5e65d0915485d05f2df2631ad2d15"
+        },
+        "whole_government_denominator": {
+          "type": "null"
+        },
+        "admitted_legal_authority_count": {
+          "const": 0
+        },
+        "items": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "department_id",
+              "canonical_reference_id",
+              "counted_cohort_ids",
+              "lead_source_count",
+              "lead_count_unit",
+              "original_source_reconciliation",
+              "global_first_level_denominator",
+              "source_cohorts_may_be_summed",
+              "source_scope_complete_only",
+              "current_department_roster_complete",
+              "specific_supervisory_control_verified",
+              "signed_delegation_verified",
+              "independent_legal_review_complete",
+              "publisher_original_custody_verified",
+              "adl1_certified",
+              "exceptions"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_reference_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "counted_cohort_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "lead_source_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "lead_count_unit": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_reconciliation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "global_first_level_denominator": {
+                "type": "null"
+              },
+              "source_cohorts_may_be_summed": {
+                "type": "boolean",
+                "const": false
+              },
+              "source_scope_complete_only": {
+                "type": "boolean",
+                "const": true
+              },
+              "current_department_roster_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "specific_supervisory_control_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "signed_delegation_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "independent_legal_review_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "publisher_original_custody_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "adl1_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "exceptions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
