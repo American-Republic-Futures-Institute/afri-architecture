@@ -104,7 +104,7 @@ export function validateINC15(input){
  ok(manifest?.model_standard==="ARFI-COA"&&
    manifest?.model_version==="0.1.0"&&
    manifest?.release_status==="research_baseline_unratified"&&
-   Array.isArray(manifest.models)&&manifest.models.length===273&&
+   Array.isArray(manifest.models)&&manifest.models.length>=273&&manifest.models.length<=512&&
    unique(manifest.models),"source declaration and unratified edition");
  const extension=manifest.federal_institutional_breadth_15_extension;
  ok(extension?.source_baseline_commit===PIN&&

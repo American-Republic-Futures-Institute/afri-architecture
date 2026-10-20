@@ -1,0 +1,565 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15B Cabinet first-level publisher cohort and original ID reconciliation contract",
+  "description": "Edition-pinned unratified source observations. All records are closed. No inferred legal classification or ADL-1.",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "complete_current_whole_federal_first_level_denominator",
+        "official_publisher_source_cohort_count",
+        "department_source_unavailable_count",
+        "legally_qualified_department_count",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc15b-cabinet-sources"
+        },
+        "source_baseline_commit": {
+          "const": "414704cd8eb749696387be95613772df90ef64ac"
+        },
+        "complete_current_whole_federal_first_level_denominator": {
+          "type": "null"
+        },
+        "official_publisher_source_cohort_count": {
+          "const": 5
+        },
+        "department_source_unavailable_count": {
+          "const": 10
+        },
+        "legally_qualified_department_count": {
+          "const": 0
+        },
+        "items": {
+          "type": "array",
+          "minItems": 15,
+          "maxItems": 15,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "original_cabinet_crosswalk_id",
+              "canonical_department_name",
+              "branch_id",
+              "publisher_source_id",
+              "publisher_source_url",
+              "publisher_source_kind",
+              "source_model_path",
+              "source_model_commit",
+              "source_model_git_blob_sha",
+              "source_snapshot_id",
+              "source_edition",
+              "source_last_published_or_updated",
+              "source_observed_on",
+              "source_scoped_record_count",
+              "source_group_reconciled",
+              "source_group_kind",
+              "original_publisher_bytes_independently_archived",
+              "publisher_source_classification",
+              "complete_current_first_level_denominator",
+              "identity_legal_review_complete",
+              "adl1_certified",
+              "nonadditive_other_editions",
+              "source_coverage_state"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_cabinet_crosswalk_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "branch_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_source_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "publisher_source_url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "publisher_source_kind": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_model_path": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_model_commit": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_model_git_blob_sha": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_snapshot_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_edition": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_last_published_or_updated": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_observed_on": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_scoped_record_count": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "source_group_reconciled": {
+                "type": "boolean"
+              },
+              "source_group_kind": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "original_publisher_bytes_independently_archived": {
+                "const": false
+              },
+              "publisher_source_classification": {
+                "type": "string",
+                "minLength": 1
+              },
+              "complete_current_first_level_denominator": {
+                "type": "null"
+              },
+              "identity_legal_review_complete": {
+                "const": false
+              },
+              "adl1_certified": {
+                "const": false
+              },
+              "nonadditive_other_editions": {
+                "const": true
+              },
+              "source_coverage_state": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "crosswalk_count",
+        "matched_prior_expansion_candidates",
+        "new_legal_institutional_identities",
+        "complete_department_first_level_denominator",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc15b-roster-crosswalks"
+        },
+        "source_baseline_commit": {
+          "const": "414704cd8eb749696387be95613772df90ef64ac"
+        },
+        "crosswalk_count": {
+          "const": 22
+        },
+        "matched_prior_expansion_candidates": {
+          "const": 4
+        },
+        "new_legal_institutional_identities": {
+          "const": 0
+        },
+        "complete_department_first_level_denominator": {
+          "type": "null"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 22,
+          "maxItems": 22,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "source_unit_id",
+              "source_unit_name",
+              "original_source_model_path",
+              "original_source_relation_id",
+              "source_observation_id",
+              "source_id",
+              "source_snapshot_id",
+              "source_observed_on",
+              "original_observed_parent_id",
+              "original_relation_target_id",
+              "original_relation_kind",
+              "original_source_group",
+              "original_structural_class",
+              "source_locator",
+              "original_legacy_candidate_id",
+              "matched_existing_seed_id",
+              "source_identity_resolution",
+              "canonical_unit_institution_id",
+              "individual_officeholder_verified",
+              "legal_first_level_member_certified",
+              "direct_reporting_verified",
+              "military_or_civilian_command_verified",
+              "delegated_authority_verified",
+              "independent_original_publisher_custody",
+              "adl1_certified"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_unit_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_unit_name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_model_path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_relation_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_observation_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_snapshot_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_observed_on": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_observed_parent_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_relation_target_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_relation_kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_group": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_structural_class": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_locator": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_legacy_candidate_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "matched_existing_seed_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_identity_resolution": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_unit_institution_id": {
+                "type": "null"
+              },
+              "individual_officeholder_verified": {
+                "const": false
+              },
+              "legal_first_level_member_certified": {
+                "const": false
+              },
+              "direct_reporting_verified": {
+                "const": false
+              },
+              "military_or_civilian_command_verified": {
+                "const": false
+              },
+              "delegated_authority_verified": {
+                "const": false
+              },
+              "independent_original_publisher_custody": {
+                "const": false
+              },
+              "adl1_certified": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_baseline_commit",
+        "original_department_structure_source_records",
+        "crosswalk_new_records",
+        "crosswalk_prior_reconciliation_source_records",
+        "global_first_level_denominator",
+        "adl1_certified_count",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc15b-source-partitions"
+        },
+        "source_baseline_commit": {
+          "const": "414704cd8eb749696387be95613772df90ef64ac"
+        },
+        "original_department_structure_source_records": {
+          "const": 80
+        },
+        "crosswalk_new_records": {
+          "const": 22
+        },
+        "crosswalk_prior_reconciliation_source_records": {
+          "const": 58
+        },
+        "global_first_level_denominator": {
+          "type": "null"
+        },
+        "adl1_certified_count": {
+          "const": 0
+        },
+        "items": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "department_id",
+              "original_source_collection",
+              "original_source_registry_collection",
+              "source_id",
+              "source_url",
+              "snapshot_id",
+              "source_edition",
+              "source_observed_on",
+              "source_group",
+              "original_source_rows",
+              "unique_source_labels",
+              "duplicate_source_labels",
+              "inc12_observation_crosswalk_count",
+              "inc15b_new_crosswalk_count",
+              "preexisting_reconciliation_model_path",
+              "prior_expansion_seed_overlaps",
+              "recorded_structural_classes",
+              "source_scoped_group_extraction_complete",
+              "first_level_current_department_denominator",
+              "complete_current_department_roster_verified",
+              "independent_publisher_original_custody",
+              "independent_legal_effect_review_complete",
+              "source_population_additive_to_other_editions",
+              "adl1_certified_count"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_collection": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_registry_collection": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_url": {
+                "type": "string",
+                "minLength": 1
+              },
+              "snapshot_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_edition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_observed_on": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_group": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_rows": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "unique_source_labels": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "duplicate_source_labels": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "inc12_observation_crosswalk_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "inc15b_new_crosswalk_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "preexisting_reconciliation_model_path": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "prior_expansion_seed_overlaps": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "recorded_structural_classes": {
+                "type": "array",
+                "minItems": 0,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "source_scoped_group_extraction_complete": {
+                "const": true
+              },
+              "first_level_current_department_denominator": {
+                "type": "null"
+              },
+              "complete_current_department_roster_verified": {
+                "const": false
+              },
+              "independent_publisher_original_custody": {
+                "const": false
+              },
+              "independent_legal_effect_review_complete": {
+                "const": false
+              },
+              "source_population_additive_to_other_editions": {
+                "const": false
+              },
+              "adl1_certified_count": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

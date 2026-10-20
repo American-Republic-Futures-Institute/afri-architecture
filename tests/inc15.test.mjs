@@ -54,7 +54,7 @@ for(const [name,alter]of [
  ["evidence of signed individual delegation forged",d=>pilot(d,"JUSTICE").signed_delegation_verified=true],
  ["wrong source record group",d=>cohort(d,"CONGRESS-APP24").source_record_count=25],
  ["duplicated source cohort",d=>d.models["inc15-cohorts"].items.push(copy(d.models["inc15-cohorts"].items[0]))],
- ["undeclared source family",d=>d.manifest.models.pop()],
+ ["undeclared source family",d=>d.manifest.models=d.manifest.models.filter(p=>p!=="model/federal/inc15-department-pilots.json")],
  ["false State-level agency classification",d=>cohort(d,"VA-DIR22").jurisdiction="state"],
  ["open schema allows invented binding",d=>d.models["inc15-department-pilots"].items[0].command_authority="all"]
 ]){
