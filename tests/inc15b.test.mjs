@@ -89,3 +89,13 @@ test("INC15B refuses recomputed checksum accompanying a modified original Git bl
  cab(d,"TREASURY").source_model_git_blob_sha=coforged;
  assert.throws(()=>validateINC15B(d),/pinned original Git blob mismatch/);
 });
+
+test("INC15B rejects a new authority field even if the attacker co-edits the schema",()=>{
+ const d=clone(load()),m=crosswalk(d);
+ m.items[0].signed_operational_command=true;
+ const rule=d.schema.oneOf.find(x=>x.properties.model_family.const===m.model_family)
+  .properties.items.items;
+ rule.required.push("signed_operational_command");
+ rule.properties.signed_operational_command={type:"boolean"};
+ assert.throws(()=>validateINC15B(d),/source\/schema contract cannot jointly introduce/);
+});
