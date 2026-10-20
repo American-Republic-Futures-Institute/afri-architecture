@@ -289,7 +289,10 @@
     "model/federal/inc13b3-va-source-pins.json",
     "model/federal/inc15-cohorts.json",
     "model/federal/inc15-cabinet-crosswalks.json",
-    "model/federal/inc15-department-pilots.json"
+    "model/federal/inc15-department-pilots.json",
+    "model/federal/inc15b-cabinet-sources.json",
+    "model/federal/inc15b-roster-crosswalks.json",
+    "model/federal/inc15b-source-partitions.json"
   ],
   "standards": [
     {
@@ -1043,5 +1046,21 @@
     "publication_status": "research_unratified_source_versioned_non_additive_not_current_legal_census",
     "scope": "first-level federal institutional breadth and source-cohort identity; no inferred authority or detailed policy",
     "next_scope": "independent department-source rosters and federal EOP/independent, legislative and judiciary denominators"
+  },
+  "federal_institutional_breadth_15b_extension": {
+    "id": "ARFI-FED-INC15B-CABINET-PUBLISHER-CENSUS",
+    "source_baseline_commit": "414704cd8eb749696387be95613772df90ef64ac",
+    "cabinet_departments": 15,
+    "publisher_source_cohorts": 5,
+    "publisher_rosters_missing": 10,
+    "first_new_department_source_observations": 22,
+    "original_dept04_source_records": 80,
+    "nonadditive_source_partitions": 4,
+    "complete_current_first_level_denominator": null,
+    "original_publisher_source_custody_qualified": false,
+    "independent_legal_review_complete": false,
+    "adl1_certified_count": 0,
+    "status": "unratified_source_scoped_edition_reconciliation_not_current_legal_roster",
+    "next_scope": "official_roster_capture_for_missing_ten_depts_and_separate_eop_independent_legislative_judiciary_populations"
   }
 }
