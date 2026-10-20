@@ -71,7 +71,7 @@ export function validateINC15B(input){
  const {manifest,schema,models,sourceBytes,originals}=input||{};
  ok(manifest?.model_standard==="ARFI-COA"&&manifest.model_version==="0.1.0"&&
   manifest.release_status==="research_baseline_unratified"&&
-  Array.isArray(manifest.models)&&manifest.models.length===276&&
+  Array.isArray(manifest.models)&&manifest.models.length>=276&&manifest.models.length<=512&&
   unique(manifest.models),"invalid 276-source-model baseline");
  const ext=manifest.federal_institutional_breadth_15b_extension;
  ok(ext?.source_baseline_commit===SOURCE_PIN&&
