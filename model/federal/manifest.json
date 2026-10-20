@@ -286,7 +286,10 @@
     "model/federal/inc13b3-va-legal.json",
     "model/federal/inc13b3-va-history.json",
     "model/federal/inc13b3-va-evidence.json",
-    "model/federal/inc13b3-va-source-pins.json"
+    "model/federal/inc13b3-va-source-pins.json",
+    "model/federal/inc15-cohorts.json",
+    "model/federal/inc15-cabinet-crosswalks.json",
+    "model/federal/inc15-department-pilots.json"
   ],
   "standards": [
     {
@@ -1023,5 +1026,22 @@
     "original_custody_ratified": false,
     "website_publication_enabled": false,
     "notice": "Nonadditive source-population research; previous original SHA-256 receipts are not newly verified government original custody or legal authority."
+  },
+  "federal_institutional_breadth_15_extension": {
+    "id": "ARFI-INC15A-FEDERAL-INSTITUTIONAL-BREADTH",
+    "source_baseline_commit": "359694ec26e5e65d0915485d05f2df2631ad2d15",
+    "source_baseline_manifest_git_blob_sha": "a92db5009ccdf5439ffe8381707b16bb372b99e6",
+    "cohorts": 12,
+    "cabinet_identity_crosswalks": 15,
+    "department_pilots": 3,
+    "source_bounded_census_reference_count": 61,
+    "whole_federal_institution_denominator": null,
+    "whole_federal_first_level_denominator": null,
+    "independently_qualified_original_source_count": 0,
+    "adl1_certified_count": 0,
+    "legal_review_complete": false,
+    "publication_status": "research_unratified_source_versioned_non_additive_not_current_legal_census",
+    "scope": "first-level federal institutional breadth and source-cohort identity; no inferred authority or detailed policy",
+    "next_scope": "independent department-source rosters and federal EOP/independent, legislative and judiciary denominators"
   }
 }
