@@ -11,7 +11,7 @@ h=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(h)
 
 HTML=("<!DOCTYPE html><html><head><title>HHS Organizational Charts</title></head>"
-      "<body><h1>HHS Organizational Charts</h1><p>Office of Inspector General</p>"
+      "<body><h1>HHS Organizational Charts</h1><p>Office of Inspector General</p><p>Organization Chart</p><p>Office of Audit Services</p><p>Departmental Appeals Board</p><p>Administrative Law Judges</p><p>Office of Medicare Hearings and Appeals</p><p>Chief Administrative Law Judge</p>"
       +("Publisher chart and offices " * 65)+"</body></html>").encode()
 PDF=b"%PDF-1.7\n"+b"x"*2000+b"\n%%EOF\n"
 
@@ -32,8 +32,8 @@ class HHSProbe(unittest.TestCase):
  def test_different_editions_and_source_types(self):
   with tempfile.TemporaryDirectory() as d:
    obj=h.capture(Path(d),positive)
-   self.assertEqual(len(obj["source_probes"]),2)
-   self.assertEqual({x["result"] for x in obj["source_probes"]},{"transient_original_captured"})
+   self.assertEqual(len(obj["source_probes"]),len(h.SOURCES))
+   self.assertTrue(all(x["result"]=="transient_original_captured" for x in obj["source_probes"]))
    self.assertNotEqual(obj["source_probes"][0]["original_sha256"],obj["source_probes"][1]["original_sha256"])
    self.assertTrue(h.verify(Path(d))["verified"])
  def test_failed_hhs_index_does_not_promote_pdf_as_html(self):
