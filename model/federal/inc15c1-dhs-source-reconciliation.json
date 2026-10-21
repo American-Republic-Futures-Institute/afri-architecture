@@ -29,7 +29,37 @@
   "legal_review_complete": false,
   "adl1_certified_count": 0,
   "source_population_additive_to_other_editions": false,
-  "observations": [
+  "exceptions": [
+    {
+      "id": "INC15C1-GAP-ORIGINAL-PDF",
+      "affected_candidate_id": null,
+      "category": "original_publisher_custody",
+      "status": "open",
+      "note": "Official DHS FY2024 report PDF locator exists but decoded publisher bytes were not independently preserved; HTTP retrieval blocked with 403 in research environment. Model Git blobs are not publisher custody."
+    },
+    {
+      "id": "INC15C1-GAP-2026-STRUCTURE",
+      "affected_candidate_id": null,
+      "category": "current_org_completeness",
+      "status": "open",
+      "note": "January 2025 chart cannot prove exhaustive current October 2026 first-level departmental population or independently resolved legal placements."
+    },
+    {
+      "id": "INC15C1-EXC-DHS-OIG",
+      "affected_candidate_id": "CENSUS-COMP-DHS-OIG",
+      "category": "independent_oversight",
+      "status": "open",
+      "note": "DHS Inspector General is not a subordinate operational command chain merely because the office appears on the chart."
+    },
+    {
+      "id": "INC15C1-EXC-USCG",
+      "affected_candidate_id": "CENSUS-COMP-DHS-USCG",
+      "category": "conditional_military_placement",
+      "status": "open",
+      "note": "Coast Guard operational/military transfer exceptions must not be inferred from a DHS organizational chart."
+    }
+  ],
+  "items": [
     {
       "id": "INC15C1-OBS-CENSUS-COMP-DHS-CBP",
       "source_candidate_id": "CENSUS-COMP-DHS-CBP",
@@ -259,36 +289,6 @@
       "legal_delegation_verified": false,
       "appropriation_verified": false,
       "adl1_certified": false
-    }
-  ],
-  "exceptions": [
-    {
-      "id": "INC15C1-GAP-ORIGINAL-PDF",
-      "affected_candidate_id": null,
-      "category": "original_publisher_custody",
-      "status": "open",
-      "note": "Official DHS FY2024 report PDF locator exists but decoded publisher bytes were not independently preserved; HTTP retrieval blocked with 403 in research environment. Model Git blobs are not publisher custody."
-    },
-    {
-      "id": "INC15C1-GAP-2026-STRUCTURE",
-      "affected_candidate_id": null,
-      "category": "current_org_completeness",
-      "status": "open",
-      "note": "January 2025 chart cannot prove exhaustive current October 2026 first-level departmental population or independently resolved legal placements."
-    },
-    {
-      "id": "INC15C1-EXC-DHS-OIG",
-      "affected_candidate_id": "CENSUS-COMP-DHS-OIG",
-      "category": "independent_oversight",
-      "status": "open",
-      "note": "DHS Inspector General is not a subordinate operational command chain merely because the office appears on the chart."
-    },
-    {
-      "id": "INC15C1-EXC-USCG",
-      "affected_candidate_id": "CENSUS-COMP-DHS-USCG",
-      "category": "conditional_military_placement",
-      "status": "open",
-      "note": "Coast Guard operational/military transfer exceptions must not be inferred from a DHS organizational chart."
     }
   ]
 }
