@@ -301,7 +301,9 @@
     "model/federal/inc15d-govman-2025-crosswalk.json",
     "model/federal/inc15d-govman-2025-coverage.json",
     "model/federal/inc15c4-hhs-dual-edition-crosswalk.json",
-    "model/federal/inc15c5-education-fy2024-chart-boxes.json"
+    "model/federal/inc15c5-education-fy2024-chart-boxes.json",
+    "model/federal/inc15c6-hhs-oig-source-office-groups.json",
+    "model/federal/inc15c6-hhs-institutional-exception-boundaries.json"
   ],
   "standards": [
     {
@@ -1175,5 +1177,29 @@
     "certified_legal_authority_from_chart": false,
     "govman_federally_aided_corporations_are_department_offices": false,
     "research_status": "source_original_eric_git_custodied_fy2024_19_box_coordinating_structure_only_unratified"
+  },
+  "federal_institutional_breadth_15c6_extension": {
+    "id": "ARFI-FED-INC15C6-HHS-OIG-SOURCE-DEPTH",
+    "department_canonical_id": "ORG-FED-EXE-DEP-HHS",
+    "source_probe_run": 39668188500,
+    "source_probe_artifact_id": 12378132516,
+    "oig_original_html_sha256": "97fd0513471e013ee8de2534f81184621c7babb7bf2f1d3181f935df275300a6",
+    "oig_original_pdf_sha256": "068fa03980a4add3be412750ce63b0cc435c3d77f54a1153347b19e1200dc3ea",
+    "oig_pdf_as_of_date": "2025-12-23",
+    "oig_html_original_git_custody": true,
+    "oig_pdf_original_git_custody": true,
+    "oig_source_office_groups": 6,
+    "oig_pdf_leadership_position_columns": 6,
+    "hhs_exception_source_names": 4,
+    "wider_hhs_index_linked_name_population": 29,
+    "govman_2025_hhs_publisher_entries": 11,
+    "legal_first_level_denominator": null,
+    "canonical_ids_replaced": 0,
+    "department_index_original_html_custodied": false,
+    "independent_OIG_statutory_qualification_complete": false,
+    "signed_command_or_delegation_certified": false,
+    "independent_external_worm_custody_verified": false,
+    "cross_edition_counts_nonadditive": true,
+    "research_status": "dated_original_OIG_html_and_pdf_provisional_office_group_and_exception_crosswalk_only"
   }
 }
