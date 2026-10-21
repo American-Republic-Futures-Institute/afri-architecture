@@ -240,5 +240,105 @@
       "canonical_2026_legal_office_id": null,
       "present_day_operational_chain_verified": false
     }
+  ],
+  "items": [
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-01",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-01",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-02",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-02",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-03",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-03",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-04",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-04",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-05",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-05",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-06",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-06",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-07",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-07",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-08",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-08",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-09",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-09",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-OFFICE-MENTION-10",
+      "record_family": "office_items",
+      "source_record_id": "INC15C6E-ARPAH-OFFICE-MENTION-10",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-TIMELINE-01",
+      "record_family": "timeline_items",
+      "source_record_id": "INC15C6E-ARPAH-TIMELINE-01",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-TIMELINE-02",
+      "record_family": "timeline_items",
+      "source_record_id": "INC15C6E-ARPAH-TIMELINE-02",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-TIMELINE-03",
+      "record_family": "timeline_items",
+      "source_record_id": "INC15C6E-ARPAH-TIMELINE-03",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-ARPAH-TIMELINE-04",
+      "record_family": "timeline_items",
+      "source_record_id": "INC15C6E-ARPAH-TIMELINE-04",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    }
   ]
 }
