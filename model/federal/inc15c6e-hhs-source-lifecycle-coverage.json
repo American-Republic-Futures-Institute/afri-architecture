@@ -183,5 +183,77 @@
       "current_canonical_legal_office_identifier": null,
       "title_count_not_legal_census": true
     }
+  ],
+  "items": [
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-01",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-01",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-02",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-02",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-03",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-03",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-04",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-04",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-05",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-05",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-06",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-06",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-HHS-EXCEPTION-STATUS-01",
+      "record_family": "exception_items",
+      "source_record_id": "INC15C6E-HHS-EXCEPTION-STATUS-01",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-HHS-EXCEPTION-STATUS-02",
+      "record_family": "exception_items",
+      "source_record_id": "INC15C6E-HHS-EXCEPTION-STATUS-02",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-HHS-EXCEPTION-STATUS-03",
+      "record_family": "exception_items",
+      "source_record_id": "INC15C6E-HHS-EXCEPTION-STATUS-03",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-HHS-EXCEPTION-STATUS-04",
+      "record_family": "exception_items",
+      "source_record_id": "INC15C6E-HHS-EXCEPTION-STATUS-04",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    }
   ]
 }
