@@ -84,6 +84,10 @@ jobs:
         run: node scripts/validate-inc15c6-model.mjs
       - name: Test INC-15C.6 HHS original and statutory boundary protection against adversarial source/model promotion
         run: node --test tests/inc15c6-hhs-model.test.mjs
+      - name: Verify INC-15C.6D five retained official GovInfo and ARPA-H PDF originals and immutable receipts
+        run: python3 scripts/inc15c6d-validate-original-custody.py
+      - name: Reject INC-15C.6D original tampering, false current HHS office counts, ALJ authority and planned ARPA-H implementation
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6d_original_custody.py' -v
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
