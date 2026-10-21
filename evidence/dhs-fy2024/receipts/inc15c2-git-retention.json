@@ -1,0 +1,17 @@
+{
+  "id": "INC15C2-DHS-FY2024-GIT-SOURCE-EVIDENCE",
+  "publisher_url": "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf",
+  "source_edition": "FY2024",
+  "claimed_published_on": "2025-01-17",
+  "captured_at_utc": "2026-10-21T01:17:50.787Z",
+  "original_pdf_sha256": "d48f661bf9d6643409585451a2dc49f53358fe869dd40d182344f0bed58e4175",
+  "original_pdf_byte_count": 17622005,
+  "original_pdf_git_blob_sha": "",
+  "original_repository_path": "evidence/dhs-fy2024/originals/sha256/d48f661bf9d6643409585451a2dc49f53358fe869dd40d182344f0bed58e4175.pdf",
+  "storage_tier": "git_versioned_source_original_no_independent_WORM_attestation",
+  "independent_WORM_custody_verified": false,
+  "source_page_24_independently_reviewed": false,
+  "current_first_level_DHS_denominator": null,
+  "legal_review_complete": false,
+  "adl1_certified_count": 0
+}
