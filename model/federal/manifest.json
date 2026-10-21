@@ -300,7 +300,8 @@
     "model/federal/inc15d-govman-2025-directory.json",
     "model/federal/inc15d-govman-2025-crosswalk.json",
     "model/federal/inc15d-govman-2025-coverage.json",
-    "model/federal/inc15c4-hhs-dual-edition-crosswalk.json"
+    "model/federal/inc15c4-hhs-dual-edition-crosswalk.json",
+    "model/federal/inc15c5-education-fy2024-chart-boxes.json"
   ],
   "standards": [
     {
@@ -1146,5 +1147,33 @@
     "authority_certified": false,
     "legally_qualified_reporting_lines": 0,
     "research_status": "historical_nonadditive_source_name_overlap_no_legal_certification"
+  },
+  "federal_institutional_breadth_15c5_extension": {
+    "id": "ARFI-FED-INC15C5-ED-FY2024-CHART",
+    "department_canonical_id": "ORG-FED-EXE-DEP-EDUCATION",
+    "report_edition": "FY2024",
+    "publisher_posted_on": "2025-01-15",
+    "publisher_report_distribution": "official_ED_ERIC_repository_reproduction_not_direct_department_url",
+    "original_distribution_sha256": "0af9a9f4e11ddce14fffd467317d9e4c531e9931edb43abcb3ddb8e4fa6291b7",
+    "original_git_blob_sha1": "82eb949fa6b61c4483a188f9e75b3e73a86ae49b",
+    "original_distributed_pdf_bytes_retained_in_git": true,
+    "ED_direct_publisher_originals_verified": false,
+    "chart_source_box_count": 19,
+    "chart_source_publisher_printed_page": 5,
+    "chart_source_pdf_physical_page": 10,
+    "chart_source_original_pdf_physical_pages": 146,
+    "reconciled_prior_census_candidates": 10,
+    "new_figure_labels": 9,
+    "independent_inspector_general_oversight_labels": 1,
+    "white_house_initiatives_group_labels": 1,
+    "individual_footnote_initiatives_not_separate_chart_boxes": 5,
+    "source_only_not_current": true,
+    "current_legal_first_level_denominator": null,
+    "complete_current_education_organizational_chart_verified": false,
+    "independently_certified_worm_custody": false,
+    "independent_human_legal_review_complete": false,
+    "certified_legal_authority_from_chart": false,
+    "govman_federally_aided_corporations_are_department_offices": false,
+    "research_status": "source_original_eric_git_custodied_fy2024_19_box_coordinating_structure_only_unratified"
   }
 }
