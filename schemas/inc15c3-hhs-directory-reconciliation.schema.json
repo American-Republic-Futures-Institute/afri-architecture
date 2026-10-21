@@ -1,0 +1,279 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15C.3 — Original HHS publisher directory, 28 previous IDs, one new linked-name candidate",
+  "description": "Closed, non-authoritative descriptive research. Original publisher HTML not archived, Government Manual granule is separate; no ADL-1, reporting, mission links or current denominators.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_baseline_commit",
+    "department_id",
+    "original_directory_source_id",
+    "official_publisher_url",
+    "page_last_reviewed_as_reported",
+    "source_text_retrieved_as_of",
+    "original_official_html_sha256",
+    "original_official_html_bytes_archived",
+    "source_evidence_level",
+    "govman_2025_official_source_id",
+    "govman_2025_root_granule_id",
+    "govman_granule_is_separate_source_population",
+    "original_historical_named_research_entries",
+    "newly_observed_publisher_linked_names",
+    "bounded_publisher_index_linked_name_records",
+    "individually_noncounted_page_headings_and_leadership",
+    "current_complete_department_first_level_denominator",
+    "independent_original_bytes_qualified",
+    "independent_legal_review_complete",
+    "adl1_certified_count",
+    "current_reporting_chain_certified_count",
+    "mission_cross_agency_relations_verified_count",
+    "items",
+    "ancillary_publisher_features"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c3-hhs-directory-reconciliation"
+    },
+    "source_baseline_commit": {
+      "const": "2288a20a4a7ff65b0163775c776bfeb3bf34fd74"
+    },
+    "department_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "original_directory_source_id": {
+      "const": "ARCH04B-HHS-HTML"
+    },
+    "official_publisher_url": {
+      "const": "https://www.hhs.gov/about/organization/org-chart/index.html"
+    },
+    "page_last_reviewed_as_reported": {
+      "const": "2025-08-21"
+    },
+    "source_text_retrieved_as_of": {
+      "const": "2026-10-21"
+    },
+    "original_official_html_sha256": {
+      "const": null
+    },
+    "original_official_html_bytes_archived": {
+      "const": false
+    },
+    "source_evidence_level": {
+      "const": "official_publisher_visible_index_text_only_no_retained_raw_html"
+    },
+    "govman_2025_official_source_id": {
+      "const": "ARCH04B-GOVMAN-HHS-XML"
+    },
+    "govman_2025_root_granule_id": {
+      "const": "GOVMAN-2025-12-31-117"
+    },
+    "govman_granule_is_separate_source_population": {
+      "const": true
+    },
+    "original_historical_named_research_entries": {
+      "const": 28
+    },
+    "newly_observed_publisher_linked_names": {
+      "const": 1
+    },
+    "bounded_publisher_index_linked_name_records": {
+      "const": 29
+    },
+    "individually_noncounted_page_headings_and_leadership": {
+      "const": 5
+    },
+    "current_complete_department_first_level_denominator": {
+      "const": null
+    },
+    "independent_original_bytes_qualified": {
+      "const": false
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "adl1_certified_count": {
+      "const": 0
+    },
+    "current_reporting_chain_certified_count": {
+      "const": 0
+    },
+    "mission_cross_agency_relations_verified_count": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 29,
+      "maxItems": 29,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "published_position",
+          "source_name",
+          "source_abbreviation",
+          "original_arch04b_id",
+          "original_arch04b_position",
+          "previously_modeled",
+          "source_research_kind",
+          "source_original_model",
+          "original_html_id",
+          "legally_qualified_unit_id",
+          "published_heading_not_legal_parent",
+          "current_first_level_placement_verified",
+          "operational_reporting_verified",
+          "officeholder_appointment_verified",
+          "mission_assignment_verified",
+          "other_agency_dependency_verified",
+          "legally_delegated_authority_verified",
+          "independent_legal_review_complete",
+          "adl1_certified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "published_position": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "source_abbreviation": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "original_arch04b_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "original_arch04b_position": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "previously_modeled": {
+            "type": "boolean"
+          },
+          "source_research_kind": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "source_original_model": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "original_html_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "legally_qualified_unit_id": {
+            "type": "null"
+          },
+          "published_heading_not_legal_parent": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "current_first_level_placement_verified": {
+            "const": false
+          },
+          "operational_reporting_verified": {
+            "const": false
+          },
+          "officeholder_appointment_verified": {
+            "const": false
+          },
+          "mission_assignment_verified": {
+            "const": false
+          },
+          "other_agency_dependency_verified": {
+            "const": false
+          },
+          "legally_delegated_authority_verified": {
+            "const": false
+          },
+          "independent_legal_review_complete": {
+            "const": false
+          },
+          "adl1_certified": {
+            "const": false
+          }
+        }
+      }
+    },
+    "ancillary_publisher_features": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "publisher_text",
+          "research_classification",
+          "previous_arch04b_id",
+          "counted_as_directory_link",
+          "legally_qualified_organizational_id",
+          "officeholder_name_verified",
+          "structural_parent_verified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "publisher_text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "research_classification": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "previous_arch04b_id": {
+            "type": "null"
+          },
+          "counted_as_directory_link": {
+            "const": false
+          },
+          "legally_qualified_organizational_id": {
+            "type": "null"
+          },
+          "officeholder_name_verified": {
+            "const": false
+          },
+          "structural_parent_verified": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
