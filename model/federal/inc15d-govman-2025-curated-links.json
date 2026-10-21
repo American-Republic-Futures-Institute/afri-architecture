@@ -1,0 +1,311 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc15d-govman-2025-curated-links",
+  "source_package_id": "GOVMAN-2025-12-31",
+  "original_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+  "link_status": "explicit_research_curation_not_independent_identity_or_legal_review",
+  "total_source_directory_entries": 231,
+  "current_legal_first_level_denominator": null,
+  "items": [
+    {
+      "source_entity_local_id": "70",
+      "publisher_name": "Congress",
+      "canonical_id": "ORG-FED-LEG-CONGRESS",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "202",
+      "publisher_name": "The Senate",
+      "canonical_id": "ORG-FED-LEG-SENATE",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "72",
+      "publisher_name": "The House of Representatives",
+      "canonical_id": "ORG-FED-LEG-HOUSE",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "73",
+      "publisher_name": "Architect of the Capitol",
+      "canonical_id": "ORG-FED-LEG-AOC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "79",
+      "publisher_name": "Congressional Budget Office",
+      "canonical_id": "ORG-FED-LEG-CBO",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "75",
+      "publisher_name": "Government Accountability Office",
+      "canonical_id": "ORG-FED-LEG-GAO",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "76",
+      "publisher_name": "Government Publishing Office",
+      "canonical_id": "ORG-FED-LEG-GPO",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "77",
+      "publisher_name": "Library of Congress",
+      "canonical_id": "ORG-FED-LEG-LOC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "78",
+      "publisher_name": "Congressional Research Service",
+      "canonical_id": "ORG-FED-LEG-CRS",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "80",
+      "publisher_name": "The Supreme Court of the United States",
+      "canonical_id": "ORG-FED-JUD-SCOTUS",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "82",
+      "publisher_name": "United States Courts of Appeals",
+      "canonical_id": "ORG-FED-JUD-APPEALS",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "84",
+      "publisher_name": "United States District Courts",
+      "canonical_id": "ORG-FED-JUD-DISTRICT",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "86",
+      "publisher_name": "United States Court of International Trade",
+      "canonical_id": "ORG-FED-JUD-CIT",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "89",
+      "publisher_name": "United States Court of Federal Claims",
+      "canonical_id": "ORG-FED-JUD-COFC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "93",
+      "publisher_name": "Administrative Office of the United States Courts",
+      "canonical_id": "ORG-FED-JUD-AO",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "94",
+      "publisher_name": "Federal Judicial Center",
+      "canonical_id": "ORG-FED-JUD-FJC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "96",
+      "publisher_name": "The President",
+      "canonical_id": "ORG-FED-EXE-PRESIDENT",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "97",
+      "publisher_name": "The Vice President",
+      "canonical_id": "ORG-FED-EXE-VP",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "322",
+      "publisher_name": "Department of Agriculture",
+      "canonical_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "113",
+      "publisher_name": "Department of Commerce",
+      "canonical_id": "ORG-FED-EXE-DEP-COMMERCE",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "114",
+      "publisher_name": "Department of Defense",
+      "canonical_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "115",
+      "publisher_name": "Department of Education",
+      "canonical_id": "ORG-FED-EXE-DEP-EDUCATION",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "116",
+      "publisher_name": "Department of Energy",
+      "canonical_id": "ORG-FED-EXE-DEP-ENERGY",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "117",
+      "publisher_name": "Department of Health and Human Services",
+      "canonical_id": "ORG-FED-EXE-DEP-HHS",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "118",
+      "publisher_name": "Department of Homeland Security",
+      "canonical_id": "ORG-FED-EXE-DEP-DHS",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "119",
+      "publisher_name": "Department of Housing and Urban Development",
+      "canonical_id": "ORG-FED-EXE-DEP-HUD",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "121",
+      "publisher_name": "Department of Justice",
+      "canonical_id": "ORG-FED-EXE-DEP-JUSTICE",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "323",
+      "publisher_name": "Department of Labor",
+      "canonical_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "123",
+      "publisher_name": "Department of State",
+      "canonical_id": "ORG-FED-EXE-DEP-STATE",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "124",
+      "publisher_name": "Department of Transportation",
+      "canonical_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "126",
+      "publisher_name": "Department of Veterans Affairs",
+      "canonical_id": "ORG-FED-EXE-DEP-VA",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "120",
+      "publisher_name": "Department of the Interior",
+      "canonical_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "125",
+      "publisher_name": "Department of the Treasury",
+      "canonical_id": "ORG-FED-EXE-DEP-TREASURY",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "130",
+      "publisher_name": "Central Intelligence Agency",
+      "canonical_id": "ORG-FED-EXE-IND-CIA",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "131",
+      "publisher_name": "Commodity Futures Trading Commission",
+      "canonical_id": "ORG-FED-EXE-IND-CFTC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "135",
+      "publisher_name": "Environmental Protection Agency",
+      "canonical_id": "ORG-FED-EXE-IND-EPA",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "139",
+      "publisher_name": "Federal Communications Commission",
+      "canonical_id": "ORG-FED-EXE-IND-FCC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "140",
+      "publisher_name": "Federal Deposit Insurance Corporation",
+      "canonical_id": "ORG-FED-EXE-IND-FDIC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "149",
+      "publisher_name": "Federal Trade Commission",
+      "canonical_id": "ORG-FED-EXE-IND-FTC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "150",
+      "publisher_name": "General Services Administration",
+      "canonical_id": "ORG-FED-EXE-IND-GSA",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "153",
+      "publisher_name": "National Aeronautics and Space Administration",
+      "canonical_id": "ORG-FED-EXE-IND-NASA",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "154",
+      "publisher_name": "National Archives and Records Administration",
+      "canonical_id": "ORG-FED-EXE-IND-NARA",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "161",
+      "publisher_name": "National Science Foundation",
+      "canonical_id": "ORG-FED-EXE-IND-NSF",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "163",
+      "publisher_name": "Nuclear Regulatory Commission",
+      "canonical_id": "ORG-FED-EXE-IND-NRC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "167",
+      "publisher_name": "Office of Personnel Management",
+      "canonical_id": "ORG-FED-EXE-IND-OPM",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "165",
+      "publisher_name": "Office of the Director of National Intelligence",
+      "canonical_id": "ORG-FED-EXE-IND-ODNI",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "174",
+      "publisher_name": "Securities and Exchange Commission",
+      "canonical_id": "ORG-FED-EXE-IND-SEC",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "176",
+      "publisher_name": "Small Business Administration",
+      "canonical_id": "ORG-FED-EXE-IND-SBA",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "177",
+      "publisher_name": "Social Security Administration",
+      "canonical_id": "ORG-FED-EXE-IND-SSA",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    },
+    {
+      "source_entity_local_id": "183",
+      "publisher_name": "United States Postal Service",
+      "canonical_id": "ORG-FED-EXE-IND-USPS",
+      "disposition": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+    }
+  ]
+}

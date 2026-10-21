@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15d-govman-2025-coverage source-bounded model",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "source_package_id",
+    "source_publication_date",
+    "original_source_sha256",
+    "source_original_repository_path",
+    "whole_federal_legal_institution_denominator",
+    "current_first_level_institution_denominator",
+    "independent_legal_review_complete",
+    "independent_worm_custody_verified",
+    "model_family",
+    "publisher_entry_count",
+    "source_category_partition_count",
+    "cabinet_publisher_subtree_count",
+    "publisher_source_category_counts",
+    "cross_edition_addition_authorized",
+    "publisher_denominator_is_legal_first_level_denominator",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "original_source_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "whole_federal_legal_institution_denominator": {
+      "type": "null"
+    },
+    "current_first_level_institution_denominator": {
+      "type": "null"
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "independent_worm_custody_verified": {
+      "const": false
+    },
+    "model_family": {
+      "const": "inc15d-govman-2025-coverage"
+    },
+    "publisher_entry_count": {
+      "const": 231
+    },
+    "source_category_partition_count": {
+      "const": 7
+    },
+    "cabinet_publisher_subtree_count": {
+      "const": 15
+    },
+    "publisher_source_category_counts": {
+      "type": "object",
+      "properties": {
+        "Legislative Branch": {
+          "const": 10
+        },
+        "Judicial Branch": {
+          "const": 16
+        },
+        "Executive Branch: The President": {
+          "const": 2
+        },
+        "Executive Branch: Departments": {
+          "const": 117
+        },
+        "Executive Branch: Independent Agencies and Government Corporations": {
+          "const": 62
+        },
+        "Quasi-Official Agencies": {
+          "const": 8
+        },
+        "International Organizations": {
+          "const": 16
+        }
+      },
+      "required": [
+        "Legislative Branch",
+        "Judicial Branch",
+        "Executive Branch: The President",
+        "Executive Branch: Departments",
+        "Executive Branch: Independent Agencies and Government Corporations",
+        "Quasi-Official Agencies",
+        "International Organizations"
+      ],
+      "additionalProperties": false
+    },
+    "cross_edition_addition_authorized": {
+      "const": false
+    },
+    "publisher_denominator_is_legal_first_level_denominator": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 22,
+      "maxItems": 22,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "population_kind",
+          "publisher_partition_name",
+          "publisher_source_root_key",
+          "publisher_entry_denominator",
+          "provisional_canonical_links",
+          "unresolved_publisher_entries",
+          "source_partition_extracted_within_edition",
+          "current_legal_first_level_institution_denominator",
+          "nonadditive_against_other_publisher_editions"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "population_kind": {
+            "enum": [
+              "publisher_category",
+              "publisher_department_subtree"
+            ]
+          },
+          "publisher_partition_name": {
+            "type": "string"
+          },
+          "publisher_source_root_key": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publisher_entry_denominator": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "provisional_canonical_links": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "unresolved_publisher_entries": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_partition_extracted_within_edition": {
+            "const": true
+          },
+          "current_legal_first_level_institution_denominator": {
+            "type": "null"
+          },
+          "nonadditive_against_other_publisher_editions": {
+            "const": true
+          }
+        }
+      }
+    }
+  }
+}

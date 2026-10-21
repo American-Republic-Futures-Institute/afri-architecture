@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15d-govman-2025-crosswalk source-bounded model",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "source_package_id",
+    "source_publication_date",
+    "original_source_sha256",
+    "source_original_repository_path",
+    "whole_federal_legal_institution_denominator",
+    "current_first_level_institution_denominator",
+    "independent_legal_review_complete",
+    "independent_worm_custody_verified",
+    "model_family",
+    "publisher_entry_count",
+    "explicit_provisional_links",
+    "unresolved_entries",
+    "existing_canonical_ids_replaced",
+    "source_local_identifiers_not_permanent",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "original_source_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "whole_federal_legal_institution_denominator": {
+      "type": "null"
+    },
+    "current_first_level_institution_denominator": {
+      "type": "null"
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "independent_worm_custody_verified": {
+      "const": false
+    },
+    "model_family": {
+      "const": "inc15d-govman-2025-crosswalk"
+    },
+    "publisher_entry_count": {
+      "const": 231
+    },
+    "explicit_provisional_links": {
+      "const": 50
+    },
+    "unresolved_entries": {
+      "const": 181
+    },
+    "existing_canonical_ids_replaced": {
+      "const": 0
+    },
+    "source_local_identifiers_not_permanent": {
+      "const": true
+    },
+    "items": {
+      "type": "array",
+      "minItems": 231,
+      "maxItems": 231,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_entity_key",
+          "publisher_name",
+          "publisher_category",
+          "canonical_id",
+          "previous_x12_identity_id",
+          "canonical_model_path",
+          "identity_reconciliation_state",
+          "review_status",
+          "legal_identity_certified",
+          "legal_authority_inferred",
+          "command_delegation_inferred"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_entity_key": {
+            "type": "string"
+          },
+          "publisher_name": {
+            "type": "string"
+          },
+          "publisher_category": {
+            "type": "string"
+          },
+          "canonical_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "previous_x12_identity_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "canonical_model_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "identity_reconciliation_state": {
+            "enum": [
+              "provisional_explicit_source_name_or_alias",
+              "external_international_unmatched",
+              "quasi_official_unmatched",
+              "unresolved_publisher_directory_entry"
+            ]
+          },
+          "review_status": {
+            "const": "research_only_not_independently_qualified"
+          },
+          "legal_identity_certified": {
+            "const": false
+          },
+          "legal_authority_inferred": {
+            "const": false
+          },
+          "command_delegation_inferred": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

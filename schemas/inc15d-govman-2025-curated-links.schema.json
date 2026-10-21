@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15d-govman-2025-curated-links source-bounded model",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_package_id",
+    "original_sha256",
+    "link_status",
+    "total_source_directory_entries",
+    "current_legal_first_level_denominator",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d-govman-2025-curated-links"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "link_status": {
+      "const": "explicit_research_curation_not_independent_identity_or_legal_review"
+    },
+    "total_source_directory_entries": {
+      "const": 231
+    },
+    "current_legal_first_level_denominator": {
+      "type": "null"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 50,
+      "maxItems": 50,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_entity_local_id",
+          "publisher_name",
+          "canonical_id",
+          "disposition"
+        ],
+        "properties": {
+          "source_entity_local_id": {
+            "type": "string",
+            "pattern": "^[1-9][0-9]*$"
+          },
+          "publisher_name": {
+            "type": "string"
+          },
+          "canonical_id": {
+            "type": "string",
+            "pattern": "^ORG-FED-"
+          },
+          "disposition": {
+            "const": "provisional_name_or_edition_alias_same_subject_pending_identity_review"
+          }
+        }
+      }
+    }
+  }
+}

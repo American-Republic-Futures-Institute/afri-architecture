@@ -60,6 +60,10 @@ jobs:
         run: node scripts/validate-inc15d-source.mjs
       - name: Reject tampered INC-15D source, custody, temporal epoch and legal promotions
         run: node --test tests/inc15d-source-custody.test.mjs
+      - name: Replay complete 2025 Government Manual publisher XML and all derived institutional records
+        run: python3 scripts/inc15d-govman-directory.py
+      - name: Test closed INC-15D source schemas, provisional crosswalk and false legal authority rejections
+        run: python3 -m unittest discover -s tests -p 'test_inc15d_directory.py' -v
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
