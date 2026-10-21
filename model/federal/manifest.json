@@ -306,7 +306,10 @@
     "model/federal/inc15c6-hhs-institutional-exception-boundaries.json",
     "model/federal/inc15c6d-hhs-historical-source-office-observations.json",
     "model/federal/inc15c6d-arpah-fy2025-organization-chart.json",
-    "model/federal/inc15c6d-hhs-historical-source-coverage.json"
+    "model/federal/inc15c6d-hhs-historical-source-coverage.json",
+    "model/federal/inc15c6e-hhs-budget-proposal-epochs.json",
+    "model/federal/inc15c6e-arpah-live-office-observations.json",
+    "model/federal/inc15c6e-hhs-source-lifecycle-coverage.json"
   ],
   "standards": [
     {
@@ -1231,5 +1234,28 @@
     "original_pdf_source_epochs_independent": true,
     "current_status_qualified": false,
     "research_status": "five_historical_originals_versioned_in_git_source_only_legal_completeness_unresolved"
+  },
+  "federal_institutional_breadth_15c6e_extension": {
+    "id": "ARFI-FED-INC15C6E-HHS-PROPOSAL-VS-OBSERVED-EDITION",
+    "source_acquisition_run": 39694381413,
+    "source_acquisition_artifact": 12389997023,
+    "ARPAH_people_html_sha256": "149e49bd3f1593b82027e7151414d907a6960cf03f22450ef6c4f9bcbfc20646",
+    "ARPAH_timeline_html_sha256": "b30fa39c015976657905299a7aee3ee888dc3bfcaffde4f55e0431684e9bdcb3",
+    "official_ARPAH_HTML_originals_retained": 2,
+    "HHS_budget_PDF_originals_retained": 0,
+    "DAB_OMHA_current_HTML_originals_retained": 0,
+    "distinct_FY2026_and_FY2027_GDM_budget_proposal_editions": 2,
+    "dated_budget_proposal_research_records": 6,
+    "official_ARPAH_current_people_office_mentions": 10,
+    "independently_dated_ARPAH_historical_events": 4,
+    "preserved_HHS_exception_id_crosswalks": 4,
+    "legal_first_level_denominator": null,
+    "certified_implementation_of_budget_reorganization": false,
+    "FY2026_ASE_FY2027_ASCRA_identity_equivalence_qualified": false,
+    "independent_statutory_effective_date_established": false,
+    "existing_canonical_HHS_identifiers_replaced": 0,
+    "cross_edition_counts_nonadditive": true,
+    "current_legal_reporting_or_adjudicative_control_qualified": false,
+    "research_status": "two_arpah_HTML_originals_2026_budget_proposals_unarchived_HHS_blocks_unresolved_law"
   }
 }
