@@ -1,0 +1,33 @@
+name: Probe DHS FY2024 original PDF availability (research only)
+on:
+  pull_request:
+    paths:
+      - "scripts/inc15c2-dhs-*.mjs"
+      - "tests/inc15c2-dhs-acquisition.test.mjs"
+      - ".github/workflows/inc15c2-dhs-source-probe.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  official-source-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Test official source allowlist, PDF byte integrity and false custody defenses
+        run: node --test tests/inc15c2-dhs-acquisition.test.mjs
+      - name: Read-only attempt at exact official DHS PDF editions
+        run: node scripts/inc15c2-dhs-original.mjs probe "$GITHUB_WORKSPACE/.inc15c2-run"
+      - name: Verify actual attempt receipt and retained bytes, when present
+        run: node scripts/inc15c2-dhs-original.mjs verify "$GITHUB_WORKSPACE/.inc15c2-run"
+      - name: Preserve transient acquisition attempt and captured PDF, if any
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inc15c2-dhs-official-original-attempt
+          path: .inc15c2-run/
+          if-no-files-found: error
+          retention-days: 30
