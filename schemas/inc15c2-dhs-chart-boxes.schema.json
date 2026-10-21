@@ -1,0 +1,265 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15C.2 34 source-observed DHS FY2024 PDF chart boxes (unratified)",
+  "description": "Closed research-source diagram enumeration: not complete legal first-level departmental census, current structure, signed command or ADL-1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_id",
+    "source_snapshot_id",
+    "source_publisher",
+    "source_report_title",
+    "source_claimed_publication_date",
+    "captured_official_url",
+    "source_retrieved_at_utc",
+    "source_original_git_path",
+    "source_original_sha256",
+    "source_original_git_blob_sha",
+    "source_original_bytes",
+    "pdf_metadata_creation_utc",
+    "pdf_metadata_modified_utc",
+    "source_figure",
+    "printed_page_number",
+    "physical_pdf_page_number",
+    "chart_scope_statement",
+    "figure_box_count",
+    "legend_box_count_excluded",
+    "office_secretary_executive_boxes",
+    "operational_component_boxes",
+    "support_and_oversight_boxes",
+    "prior_research_candidate_boxes_reconciled",
+    "previously_unmodeled_chart_boxes",
+    "complete_source_figure_box_enumeration_reviewed",
+    "complete_current_DHS_institutional_census",
+    "current_DHS_first_level_denominator",
+    "independent_WORM_custody_verified",
+    "independent_legal_review_complete",
+    "adl1_certified_count",
+    "no_new_current_canonical_institution_ids",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c2-dhs-original-chart-boxes"
+    },
+    "source_id": {
+      "const": "CENSUS-SRC-DHS-CHART-2025"
+    },
+    "source_snapshot_id": {
+      "const": "CENSUS-SNAPSHOT-DHS-CHART-2025"
+    },
+    "source_publisher": {
+      "const": "U.S. Department of Homeland Security"
+    },
+    "source_report_title": {
+      "const": "DHS FY2024 Annual Performance Report"
+    },
+    "source_claimed_publication_date": {
+      "const": "2025-01-17"
+    },
+    "captured_official_url": {
+      "const": "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf"
+    },
+    "source_retrieved_at_utc": {
+      "const": "2026-10-21T01:18:06.338Z"
+    },
+    "source_original_git_path": {
+      "const": "evidence/dhs-fy2024/originals/sha256/d48f661bf9d6643409585451a2dc49f53358fe869dd40d182344f0bed58e4175.pdf"
+    },
+    "source_original_sha256": {
+      "const": "d48f661bf9d6643409585451a2dc49f53358fe869dd40d182344f0bed58e4175"
+    },
+    "source_original_git_blob_sha": {
+      "const": "bdbcbc4a6045eebef852daeceeb154be15c48684"
+    },
+    "source_original_bytes": {
+      "const": 17622005
+    },
+    "pdf_metadata_creation_utc": {
+      "const": "2025-01-16T13:57:53Z"
+    },
+    "pdf_metadata_modified_utc": {
+      "const": "2025-02-04T13:53:52Z"
+    },
+    "source_figure": {
+      "const": "Figure 1: DHS Organizational Chart"
+    },
+    "printed_page_number": {
+      "const": 24
+    },
+    "physical_pdf_page_number": {
+      "const": 24
+    },
+    "chart_scope_statement": {
+      "const": "This chart shows how DHS, its Components, and a majority of our key offices are organized."
+    },
+    "figure_box_count": {
+      "const": 34
+    },
+    "legend_box_count_excluded": {
+      "const": 3
+    },
+    "office_secretary_executive_boxes": {
+      "const": 13
+    },
+    "operational_component_boxes": {
+      "const": 8
+    },
+    "support_and_oversight_boxes": {
+      "const": 13
+    },
+    "prior_research_candidate_boxes_reconciled": {
+      "const": 10
+    },
+    "previously_unmodeled_chart_boxes": {
+      "const": 24
+    },
+    "complete_source_figure_box_enumeration_reviewed": {
+      "const": true
+    },
+    "complete_current_DHS_institutional_census": {
+      "const": false
+    },
+    "current_DHS_first_level_denominator": {
+      "const": null
+    },
+    "independent_WORM_custody_verified": {
+      "const": false
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "adl1_certified_count": {
+      "const": 0
+    },
+    "no_new_current_canonical_institution_ids": {
+      "const": true
+    },
+    "items": {
+      "type": "array",
+      "minItems": 34,
+      "maxItems": 34,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "figure_order",
+          "chart_label",
+          "chart_legend_class",
+          "printed_page",
+          "physical_pdf_page",
+          "box_top_left_x_pt",
+          "box_top_left_y_pt",
+          "contains_multiple_office_titles",
+          "source_footnote_marker",
+          "prior_inc15c1_candidate_id",
+          "prior_inc12_observation_id",
+          "prior_descriptive_relation_id",
+          "source_only_unratified_candidate",
+          "independent_oversight_exception",
+          "conditional_coast_guard_military_placement",
+          "source_descriptive_chart_placement_only",
+          "current_authority_verified",
+          "operational_command_verified",
+          "statutory_delegation_verified",
+          "independent_legal_review_complete",
+          "adl1_certified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "figure_order": {
+            "type": "integer"
+          },
+          "chart_label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "chart_legend_class": {
+            "type": "string",
+            "minLength": 1
+          },
+          "printed_page": {
+            "type": "integer"
+          },
+          "physical_pdf_page": {
+            "type": "integer"
+          },
+          "box_top_left_x_pt": {
+            "type": "number"
+          },
+          "box_top_left_y_pt": {
+            "type": "number"
+          },
+          "contains_multiple_office_titles": {
+            "type": "boolean"
+          },
+          "source_footnote_marker": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "prior_inc15c1_candidate_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "prior_inc12_observation_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "prior_descriptive_relation_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_only_unratified_candidate": {
+            "type": "boolean"
+          },
+          "independent_oversight_exception": {
+            "type": "boolean"
+          },
+          "conditional_coast_guard_military_placement": {
+            "type": "boolean"
+          },
+          "source_descriptive_chart_placement_only": {
+            "type": "boolean"
+          },
+          "current_authority_verified": {
+            "type": "boolean"
+          },
+          "operational_command_verified": {
+            "type": "boolean"
+          },
+          "statutory_delegation_verified": {
+            "type": "boolean"
+          },
+          "independent_legal_review_complete": {
+            "type": "boolean"
+          },
+          "adl1_certified": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}
