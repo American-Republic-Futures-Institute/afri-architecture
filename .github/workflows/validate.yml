@@ -64,6 +64,10 @@ jobs:
         run: python3 scripts/inc15d-govman-directory.py
       - name: Test closed INC-15D source schemas, provisional crosswalk and false legal authority rejections
         run: python3 -m unittest discover -s tests -p 'test_inc15d_directory.py' -v
+      - name: Validate INC-15C.4 historical HHS 11-to-29 bounded publisher edition overlap
+        run: node scripts/validate-inc15c4.mjs
+      - name: Test INC-15C.4 immutable source pins, CMS naming variant, IG protection and no invented HHS legal hierarchy
+        run: node --test tests/inc15c4.test.mjs
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
