@@ -35,7 +35,7 @@
     "legal_review_complete",
     "adl1_certified_count",
     "source_population_additive_to_other_editions",
-    "observations",
+    "items",
     "exceptions"
   ],
   "properties": {
@@ -133,7 +133,49 @@
     "source_population_additive_to_other_editions": {
       "const": false
     },
-    "observations": {
+    "exceptions": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "affected_candidate_id",
+          "category",
+          "status",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "name": "id",
+            "type": "string",
+            "minLength": 1
+          },
+          "affected_candidate_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "category": {
+            "name": "category",
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "const": "open"
+          },
+          "note": {
+            "name": "note",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "items": {
       "type": "array",
       "minItems": 10,
       "maxItems": 10,
@@ -242,48 +284,6 @@
           },
           "adl1_certified": {
             "const": false
-          }
-        }
-      }
-    },
-    "exceptions": {
-      "type": "array",
-      "minItems": 4,
-      "maxItems": 4,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "id",
-          "affected_candidate_id",
-          "category",
-          "status",
-          "note"
-        ],
-        "properties": {
-          "id": {
-            "name": "id",
-            "type": "string",
-            "minLength": 1
-          },
-          "affected_candidate_id": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "category": {
-            "name": "category",
-            "type": "string",
-            "minLength": 1
-          },
-          "status": {
-            "const": "open"
-          },
-          "note": {
-            "name": "note",
-            "type": "string",
-            "minLength": 1
           }
         }
       }
