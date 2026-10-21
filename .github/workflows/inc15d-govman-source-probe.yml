@@ -1,0 +1,42 @@
+name: INC-15D GovInfo 2025 whole-manual XML source probe
+on:
+  pull_request:
+    paths:
+      - "scripts/inc15d-govman-*.mjs"
+      - "tests/inc15d-govman-acquisition.test.mjs"
+      - ".github/workflows/inc15d-govman-source-probe.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-acquisition-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Reject false source custody and invented legal authority
+        run: node --test tests/inc15d-govman-acquisition.test.mjs
+  probe-official-publisher:
+    needs: verify-acquisition-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Capture exact official GovInfo full-issue XML as temporary runner original
+        run: node scripts/inc15d-govman-original.mjs probe "$GITHUB_WORKSPACE/inc15d-run"
+      - name: Independently recompute original SHA-256 from captured bytes
+        run: node scripts/inc15d-govman-original.mjs verify "$GITHUB_WORKSPACE/inc15d-run"
+      - name: Retain bounded transient source original and receipt for manual promotion
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inc15d-govman-2025-original-attempt
+          path: inc15d-run/
+          if-no-files-found: warn
+          retention-days: 30
