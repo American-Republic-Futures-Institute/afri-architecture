@@ -1,0 +1,292 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15C.1 — Bounded DHS published-chart research evidence and original ID crosswalk",
+  "description": "Closed unratified source-reconciliation contract. Original DHS PDF byte custody and 2026 first-level denominator remain unverified; no ADL-1 or authority promotion.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_baseline_commit",
+    "canonical_department_id",
+    "canonical_department_crosswalk_id",
+    "publisher_source_id",
+    "publisher_source_url",
+    "publisher_name",
+    "publisher_document",
+    "publisher_edition_date",
+    "publisher_edition_year",
+    "original_chart_locator",
+    "original_snapshot_id",
+    "source_model_observed_on",
+    "original_publisher_pdf_sha256",
+    "original_publisher_pdf_bytes",
+    "original_publisher_custody_qualified",
+    "source_capture_status",
+    "source_originals_pin_status",
+    "source_scope",
+    "existing_source_candidate_count",
+    "reconciled_original_candidate_count",
+    "original_relation_count",
+    "inc12_original_observation_count",
+    "new_legally_qualified_institution_count",
+    "full_current_first_level_denominator",
+    "complete_publisher_chart_census_verified",
+    "legal_review_complete",
+    "adl1_certified_count",
+    "source_population_additive_to_other_editions",
+    "items",
+    "exceptions"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c1-dhs-source-reconciliation"
+    },
+    "source_baseline_commit": {
+      "const": "f34b82c1d3ebfede1ae8b54e84c73f211f43f3bb"
+    },
+    "canonical_department_id": {
+      "const": "ORG-FED-EXE-DEP-DHS"
+    },
+    "canonical_department_crosswalk_id": {
+      "const": "INC15-XWALK-ORG-FED-EXE-DEP-DHS"
+    },
+    "publisher_source_id": {
+      "const": "CENSUS-SRC-DHS-CHART-2025"
+    },
+    "publisher_source_url": {
+      "const": "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf"
+    },
+    "publisher_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher_document": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher_edition_date": {
+      "const": "2025-01-17"
+    },
+    "publisher_edition_year": {
+      "type": "string",
+      "minLength": 1
+    },
+    "original_chart_locator": {
+      "const": "Organizational Chart, p. 24"
+    },
+    "original_snapshot_id": {
+      "const": "CENSUS-SNAPSHOT-DHS-CHART-2025"
+    },
+    "source_model_observed_on": {
+      "type": "string",
+      "minLength": 1
+    },
+    "original_publisher_pdf_sha256": {
+      "type": "null"
+    },
+    "original_publisher_pdf_bytes": {
+      "type": "null"
+    },
+    "original_publisher_custody_qualified": {
+      "const": false
+    },
+    "source_capture_status": {
+      "const": "external_pdf_HTTP_403_original_bytes_not_archived"
+    },
+    "source_originals_pin_status": {
+      "const": "canonical_git_objects_only_not_publisher_original"
+    },
+    "source_scope": {
+      "const": "ten_prior_arficoa_chart_candidate_records_not_all_publisher_members"
+    },
+    "existing_source_candidate_count": {
+      "const": 10
+    },
+    "reconciled_original_candidate_count": {
+      "const": 10
+    },
+    "original_relation_count": {
+      "const": 10
+    },
+    "inc12_original_observation_count": {
+      "const": 10
+    },
+    "new_legally_qualified_institution_count": {
+      "const": 0
+    },
+    "full_current_first_level_denominator": {
+      "type": "null"
+    },
+    "complete_publisher_chart_census_verified": {
+      "const": false
+    },
+    "legal_review_complete": {
+      "const": false
+    },
+    "adl1_certified_count": {
+      "const": 0
+    },
+    "source_population_additive_to_other_editions": {
+      "const": false
+    },
+    "exceptions": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "affected_candidate_id",
+          "category",
+          "status",
+          "note"
+        ],
+        "properties": {
+          "id": {
+            "name": "id",
+            "type": "string",
+            "minLength": 1
+          },
+          "affected_candidate_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "category": {
+            "name": "category",
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "const": "open"
+          },
+          "note": {
+            "name": "note",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_candidate_id",
+          "display_name",
+          "canonical_parent_id",
+          "original_relationship_id",
+          "original_relation_kind",
+          "inc12_observation_id",
+          "source_id",
+          "source_snapshot_id",
+          "source_locator",
+          "provisional_kind",
+          "independent_oversight_exception",
+          "coast_guard_transfer_exception",
+          "source_record_claim",
+          "qualified_current_institution_id",
+          "source_publisher_independently_archived",
+          "current_membership_verified",
+          "command_verified",
+          "legal_delegation_verified",
+          "appropriation_verified",
+          "adl1_certified"
+        ],
+        "properties": {
+          "id": {
+            "name": "id",
+            "type": "string",
+            "minLength": 1
+          },
+          "source_candidate_id": {
+            "name": "source_candidate_id",
+            "type": "string",
+            "minLength": 1
+          },
+          "display_name": {
+            "name": "display_name",
+            "type": "string",
+            "minLength": 1
+          },
+          "canonical_parent_id": {
+            "const": "ORG-FED-EXE-DEP-DHS"
+          },
+          "original_relationship_id": {
+            "name": "original_relationship_id",
+            "type": "string",
+            "minLength": 1
+          },
+          "original_relation_kind": {
+            "name": "original_relation_kind",
+            "type": "string",
+            "minLength": 1
+          },
+          "inc12_observation_id": {
+            "name": "inc12_observation_id",
+            "type": "string",
+            "minLength": 1
+          },
+          "source_id": {
+            "const": "CENSUS-SRC-DHS-CHART-2025"
+          },
+          "source_snapshot_id": {
+            "const": "CENSUS-SNAPSHOT-DHS-CHART-2025"
+          },
+          "source_locator": {
+            "name": "source_locator",
+            "type": "string",
+            "minLength": 1
+          },
+          "provisional_kind": {
+            "name": "provisional_kind",
+            "type": "string",
+            "minLength": 1
+          },
+          "independent_oversight_exception": {
+            "type": "boolean"
+          },
+          "coast_guard_transfer_exception": {
+            "type": "boolean"
+          },
+          "source_record_claim": {
+            "const": "previously_researched_edition_candidate_not_independently_recaptured"
+          },
+          "qualified_current_institution_id": {
+            "type": "null"
+          },
+          "source_publisher_independently_archived": {
+            "const": false
+          },
+          "current_membership_verified": {
+            "const": false
+          },
+          "command_verified": {
+            "const": false
+          },
+          "legal_delegation_verified": {
+            "const": false
+          },
+          "appropriation_verified": {
+            "const": false
+          },
+          "adl1_certified": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

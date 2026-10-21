@@ -292,7 +292,8 @@
     "model/federal/inc15-department-pilots.json",
     "model/federal/inc15b-cabinet-sources.json",
     "model/federal/inc15b-roster-crosswalks.json",
-    "model/federal/inc15b-source-partitions.json"
+    "model/federal/inc15b-source-partitions.json",
+    "model/federal/inc15c1-dhs-source-reconciliation.json"
   ],
   "standards": [
     {
@@ -1062,5 +1063,18 @@
     "adl1_certified_count": 0,
     "status": "unratified_source_scoped_edition_reconciliation_not_current_legal_roster",
     "next_scope": "official_roster_capture_for_missing_ten_depts_and_separate_eop_independent_legislative_judiciary_populations"
+  },
+  "federal_institutional_breadth_15c1_extension": {
+    "id": "ARFI-INC15C1-DHS-CHART-RECONCILIATION",
+    "source_baseline_commit": "f34b82c1d3ebfede1ae8b54e84c73f211f43f3bb",
+    "source_selected_research_candidates": 10,
+    "original_model_collection_count": 6,
+    "original_publisher_pdf_custody_qualified": false,
+    "reconciled_prior_research_observations": 10,
+    "new_authoritative_current_institution_count": 0,
+    "current_department_first_level_denominator": null,
+    "adl1_certified_count": 0,
+    "legal_review_complete": false,
+    "status": "bounded_source_reconciliation_original_pdf_custody_pending_unratified"
   }
 }
