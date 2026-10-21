@@ -8,7 +8,7 @@ permissions:
   actions: read
 jobs:
   preserve-exact-source:
-    if: \${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/inc15c5-education-eric-source-custody' }}
+    if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/inc15c5-education-eric-source-custody' }}
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
@@ -19,8 +19,8 @@ jobs:
           fetch-depth: 1
       - name: Download only approved source artifact and validate publisher attribution
         env:
-          GH_TOKEN: \${{ github.token }}
-          GH_REPO: \${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/inc15c5"
