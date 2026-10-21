@@ -1,0 +1,259 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc15c6e-hhs-source-lifecycle-coverage",
+  "department_canonical_id": "ORG-FED-EXE-DEP-HHS",
+  "valid_lifecycle_states": [
+    "observed_at_publisher",
+    "proposed_not_implemented",
+    "historical_superseded",
+    "implemented_primary_source_qualified",
+    "unresolved"
+  ],
+  "source_edition_count": 6,
+  "exceptional_institution_crosswalk_count": 4,
+  "source_original_pdf_count": 0,
+  "official_publisher_HTML_originals_retained": 2,
+  "prior_hhs_index_name_population": 29,
+  "prior_govman_hhs_subentries": 11,
+  "prior_oig_internal_office_groups": 6,
+  "prior_historical_source_observation_rows": 34,
+  "new_arpah_people_office_mentions": 10,
+  "new_arpah_timeline_event_mentions": 4,
+  "additive_government_institution_count": null,
+  "complete_current_legal_HHS_first_level_denominator": null,
+  "independent_statutory_or_legal_implementation_review_complete": false,
+  "unretained_publisher_web_text_not_original_byte_custody": true,
+  "budget_request_organizational_change_not_implementation": true,
+  "no_cross_edition_organization_counts_additive": true,
+  "minted_canonical_ids": 0,
+  "source_items": [
+    {
+      "id": "INC15C6E-SOURCE-01",
+      "publisher_source_key": "hhs_fy2026_gdm",
+      "publisher_official_url": "https://www.hhs.gov/sites/default/files/fy-2026-gdm-cj.pdf",
+      "source_edition_or_retrieval_epoch": "FY2026",
+      "source_scope": "HHS_GDM_budget_proposal",
+      "exact_original_bytes_in_git": false,
+      "original_bytes": null,
+      "original_sha256": null,
+      "evidence_mode": "official_publisher_pdf_web_text_inspected_runner_HTTP_403",
+      "lifecycle_state": "proposed_not_implemented",
+      "source_page_last_reviewed_attribution": "FY2026_but_published_2025",
+      "official_original_source_acquisition_status": "HTTP_403_not_retained",
+      "operative_reorganization_instrument_verified": false,
+      "publisher_public_text_cannot_confer_signed_authority": true,
+      "source_must_not_be_summed_with_other_editions": true
+    },
+    {
+      "id": "INC15C6E-SOURCE-02",
+      "publisher_source_key": "hhs_fy2027_gdm",
+      "publisher_official_url": "https://www.hhs.gov/sites/default/files/fy-2027-gdm-cj.pdf",
+      "source_edition_or_retrieval_epoch": "FY2027",
+      "source_scope": "HHS_GDM_revised_budget_proposal",
+      "exact_original_bytes_in_git": false,
+      "original_bytes": null,
+      "original_sha256": null,
+      "evidence_mode": "official_publisher_pdf_web_text_inspected_runner_HTTP_403",
+      "lifecycle_state": "proposed_not_implemented",
+      "source_page_last_reviewed_attribution": "FY2027_but_published_2026",
+      "official_original_source_acquisition_status": "HTTP_403_not_retained",
+      "operative_reorganization_instrument_verified": false,
+      "publisher_public_text_cannot_confer_signed_authority": true,
+      "source_must_not_be_summed_with_other_editions": true
+    },
+    {
+      "id": "INC15C6E-SOURCE-03",
+      "publisher_source_key": "arpah_people",
+      "publisher_official_url": "https://arpa-h.gov/about/people",
+      "source_edition_or_retrieval_epoch": "2026-10-21",
+      "source_scope": "official_arpah_people_listing",
+      "exact_original_bytes_in_git": true,
+      "original_bytes": 63246,
+      "original_sha256": "149e49bd3f1593b82027e7151414d907a6960cf03f22450ef6c4f9bcbfc20646",
+      "evidence_mode": "official_arpah_html_original_git_custodied",
+      "lifecycle_state": "observed_at_publisher",
+      "source_page_last_reviewed_attribution": null,
+      "official_original_source_acquisition_status": "source_original_custodied",
+      "operative_reorganization_instrument_verified": false,
+      "publisher_public_text_cannot_confer_signed_authority": true,
+      "source_must_not_be_summed_with_other_editions": true
+    },
+    {
+      "id": "INC15C6E-SOURCE-04",
+      "publisher_source_key": "arpah_timeline",
+      "publisher_official_url": "https://arpa-h.gov/about/timeline",
+      "source_edition_or_retrieval_epoch": "2026-10-21",
+      "source_scope": "official_arpah_historical_timeline",
+      "exact_original_bytes_in_git": true,
+      "original_bytes": 56301,
+      "original_sha256": "b30fa39c015976657905299a7aee3ee888dc3bfcaffde4f55e0431684e9bdcb3",
+      "evidence_mode": "official_arpah_html_original_git_custodied",
+      "lifecycle_state": "observed_at_publisher",
+      "source_page_last_reviewed_attribution": null,
+      "official_original_source_acquisition_status": "source_original_custodied",
+      "operative_reorganization_instrument_verified": false,
+      "publisher_public_text_cannot_confer_signed_authority": true,
+      "source_must_not_be_summed_with_other_editions": true
+    },
+    {
+      "id": "INC15C6E-SOURCE-05",
+      "publisher_source_key": "dab_overview",
+      "publisher_official_url": "https://www.hhs.gov/about/agencies/dab/about-dab/organizational-overview/index.html",
+      "source_edition_or_retrieval_epoch": "2026-10-21",
+      "source_scope": "DAB_official_organizational_overview",
+      "exact_original_bytes_in_git": false,
+      "original_bytes": null,
+      "original_sha256": null,
+      "evidence_mode": "official_publisher_web_text_inspected_runner_HTTP_403",
+      "lifecycle_state": "observed_at_publisher",
+      "source_page_last_reviewed_attribution": "publisher_page_last_reviewed_2021-05-19",
+      "official_original_source_acquisition_status": "HTTP_403_not_retained",
+      "operative_reorganization_instrument_verified": false,
+      "publisher_public_text_cannot_confer_signed_authority": true,
+      "source_must_not_be_summed_with_other_editions": true
+    },
+    {
+      "id": "INC15C6E-SOURCE-06",
+      "publisher_source_key": "omha_chart",
+      "publisher_official_url": "https://www.hhs.gov/about/agencies/omha/about/organizational-chart/index.html",
+      "source_edition_or_retrieval_epoch": "2026-10-21",
+      "source_scope": "OMHA_official_organization_chart",
+      "exact_original_bytes_in_git": false,
+      "original_bytes": null,
+      "original_sha256": null,
+      "evidence_mode": "official_publisher_web_text_inspected_runner_HTTP_403",
+      "lifecycle_state": "observed_at_publisher",
+      "source_page_last_reviewed_attribution": "publisher_page_last_reviewed_2026-01-12",
+      "official_original_source_acquisition_status": "HTTP_403_not_retained",
+      "operative_reorganization_instrument_verified": false,
+      "publisher_public_text_cannot_confer_signed_authority": true,
+      "source_must_not_be_summed_with_other_editions": true
+    }
+  ],
+  "exception_items": [
+    {
+      "id": "INC15C6E-HHS-EXCEPTION-STATUS-01",
+      "legacy_index_source_id": "INC15C3-HHS-LINK-DAB",
+      "unchanged_exception_id": "INC15C6-HHS-EXCEPTION-DAB",
+      "source_qualifier": "dab_overview",
+      "status_evidence_kind": "official_DAB_overview_public_text_not_original_custody",
+      "publisher_observation_lifecycle_state": "observed_at_publisher",
+      "independently_verified_legal_reporting_change": false,
+      "budget_proposal_parent_office_implemented": false,
+      "independent_adjudicative_or_inspector_general_power_certified": false,
+      "current_canonical_legal_office_identifier": null,
+      "title_count_not_legal_census": true
+    },
+    {
+      "id": "INC15C6E-HHS-EXCEPTION-STATUS-02",
+      "legacy_index_source_id": "INC15C3-HHS-LINK-OMHA",
+      "unchanged_exception_id": "INC15C6-HHS-EXCEPTION-OMHA",
+      "source_qualifier": "omha_chart",
+      "status_evidence_kind": "official_OMHA_chart_public_text_not_original_custody",
+      "publisher_observation_lifecycle_state": "observed_at_publisher",
+      "independently_verified_legal_reporting_change": false,
+      "budget_proposal_parent_office_implemented": false,
+      "independent_adjudicative_or_inspector_general_power_certified": false,
+      "current_canonical_legal_office_identifier": null,
+      "title_count_not_legal_census": true
+    },
+    {
+      "id": "INC15C6E-HHS-EXCEPTION-STATUS-03",
+      "legacy_index_source_id": "INC15C3-HHS-LINK-ARPA-H",
+      "unchanged_exception_id": "INC15C6-HHS-EXCEPTION-ARPAH",
+      "source_qualifier": "arpah_people",
+      "status_evidence_kind": "official_ARPAH_people_html_original_custodied_no_legal_transfer",
+      "publisher_observation_lifecycle_state": "observed_at_publisher",
+      "independently_verified_legal_reporting_change": false,
+      "budget_proposal_parent_office_implemented": false,
+      "independent_adjudicative_or_inspector_general_power_certified": false,
+      "current_canonical_legal_office_identifier": null,
+      "title_count_not_legal_census": true
+    },
+    {
+      "id": "INC15C6E-HHS-EXCEPTION-STATUS-04",
+      "legacy_index_source_id": "INC15C3-HHS-LINK-OIG",
+      "unchanged_exception_id": "INC15C6-HHS-EXCEPTION-OIG",
+      "source_qualifier": "prior_inc15c6_oig_html",
+      "status_evidence_kind": "historical_oig_html_original_custodied_independent_review_pending",
+      "publisher_observation_lifecycle_state": "observed_at_publisher",
+      "independently_verified_legal_reporting_change": false,
+      "budget_proposal_parent_office_implemented": false,
+      "independent_adjudicative_or_inspector_general_power_certified": false,
+      "current_canonical_legal_office_identifier": null,
+      "title_count_not_legal_census": true
+    }
+  ],
+  "items": [
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-01",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-01",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-02",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-02",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-03",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-03",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-04",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-04",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-05",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-05",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-SOURCE-06",
+      "record_family": "source_items",
+      "source_record_id": "INC15C6E-SOURCE-06",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-HHS-EXCEPTION-STATUS-01",
+      "record_family": "exception_items",
+      "source_record_id": "INC15C6E-HHS-EXCEPTION-STATUS-01",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-HHS-EXCEPTION-STATUS-02",
+      "record_family": "exception_items",
+      "source_record_id": "INC15C6E-HHS-EXCEPTION-STATUS-02",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-HHS-EXCEPTION-STATUS-03",
+      "record_family": "exception_items",
+      "source_record_id": "INC15C6E-HHS-EXCEPTION-STATUS-03",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    },
+    {
+      "id": "INC15C6E-INDEX-INC15C6E-HHS-EXCEPTION-STATUS-04",
+      "record_family": "exception_items",
+      "source_record_id": "INC15C6E-HHS-EXCEPTION-STATUS-04",
+      "nonadditive_index_pointer_only": true,
+      "canonical_institution_id": null
+    }
+  ]
+}

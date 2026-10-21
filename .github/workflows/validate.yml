@@ -96,6 +96,10 @@ jobs:
         run: python3 scripts/inc15c6e-validate-original-custody.py
       - name: Reject INC-15C.6E source tampering, false enacted 2026 budget or ARPA-H signed reorganization
         run: python3 -m unittest discover -s tests -p 'test_inc15c6e_original_custody.py' -v
+      - name: Validate INC-15C.6E FY2026/FY2027 budget proposals and ARPA-H observed office epoch models
+        run: python3 scripts/inc15c6e-validate-models.py
+      - name: Reject INC-15C.6E invented HHS office implementation, jurisdiction or schema/cohort tampering
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6e_models.py' -v
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views

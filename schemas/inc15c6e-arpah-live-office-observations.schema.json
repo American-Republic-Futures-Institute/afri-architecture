@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15c6e-arpah-live-office-observations source-only historical/publisher status",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "parent_exception_source_reference",
+    "original_people_page_url",
+    "original_people_page_sha256",
+    "original_people_page_git_blob_sha1",
+    "original_timeline_page_url",
+    "original_timeline_page_sha256",
+    "original_timeline_git_blob_sha1",
+    "source_original_receipt_path",
+    "publisher_snapshot_retrieved_on",
+    "publisher_html_snapshot_is_effective_date",
+    "observed_people_page_office_labels",
+    "observed_timeline_event_mentions",
+    "people_page_is_personnel_listing_not_legal_office_census",
+    "current_office_hierarchy_exhaustiveness_verified",
+    "present_day_hhs_legal_first_level_denominator",
+    "FY2025_budget_14_to_8_plan_verified_implemented",
+    "new_canonical_institution_ids",
+    "independent_legal_office_id_qualification_count",
+    "office_items",
+    "timeline_items",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6e-arpah-live-publisher-office-observations"
+    },
+    "parent_exception_source_reference": {
+      "const": "INC15C6-HHS-EXCEPTION-ARPAH"
+    },
+    "original_people_page_url": {
+      "const": "https://arpa-h.gov/about/people"
+    },
+    "original_people_page_sha256": {
+      "const": "149e49bd3f1593b82027e7151414d907a6960cf03f22450ef6c4f9bcbfc20646"
+    },
+    "original_people_page_git_blob_sha1": {
+      "const": "9602a7f609a623afd1f05c17ede6f6c907164416"
+    },
+    "original_timeline_page_url": {
+      "const": "https://arpa-h.gov/about/timeline"
+    },
+    "original_timeline_page_sha256": {
+      "const": "b30fa39c015976657905299a7aee3ee888dc3bfcaffde4f55e0431684e9bdcb3"
+    },
+    "original_timeline_git_blob_sha1": {
+      "const": "d007f32fab4557f968e1145281001fe15af7c93a"
+    },
+    "source_original_receipt_path": {
+      "const": "evidence/hhs-arpah-2026-observation/receipts/git-custody.json"
+    },
+    "publisher_snapshot_retrieved_on": {
+      "const": "2026-10-21"
+    },
+    "publisher_html_snapshot_is_effective_date": {
+      "const": false
+    },
+    "observed_people_page_office_labels": {
+      "const": 10
+    },
+    "observed_timeline_event_mentions": {
+      "const": 4
+    },
+    "people_page_is_personnel_listing_not_legal_office_census": {
+      "const": true
+    },
+    "current_office_hierarchy_exhaustiveness_verified": {
+      "const": false
+    },
+    "present_day_hhs_legal_first_level_denominator": {
+      "const": null
+    },
+    "FY2025_budget_14_to_8_plan_verified_implemented": {
+      "const": false
+    },
+    "new_canonical_institution_ids": {
+      "const": 0
+    },
+    "independent_legal_office_id_qualification_count": {
+      "const": 0
+    },
+    "office_items": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_official_page",
+          "source_office_name",
+          "source_section",
+          "source_provenance_role_text",
+          "classification",
+          "observed_office_lifecycle_state",
+          "publisher_statement_as_of_date",
+          "effective_organizational_order_date",
+          "related_2024_budget_chart_box_id",
+          "independent_source_legal_office_id",
+          "independent_written_legal_qualification_complete",
+          "currently_active_legal_institution_verified",
+          "command_budget_delegation_verified",
+          "observable_publisher_text_does_not_certify_independent_office"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_official_page": {
+            "type": "string"
+          },
+          "source_office_name": {
+            "type": "string"
+          },
+          "source_section": {
+            "type": "string"
+          },
+          "source_provenance_role_text": {
+            "type": "string"
+          },
+          "classification": {
+            "type": "string"
+          },
+          "observed_office_lifecycle_state": {
+            "type": "string"
+          },
+          "publisher_statement_as_of_date": {
+            "type": "null"
+          },
+          "effective_organizational_order_date": {
+            "type": "null"
+          },
+          "related_2024_budget_chart_box_id": {
+            "type": "null"
+          },
+          "independent_source_legal_office_id": {
+            "type": "null"
+          },
+          "independent_written_legal_qualification_complete": {
+            "const": false
+          },
+          "currently_active_legal_institution_verified": {
+            "const": false
+          },
+          "command_budget_delegation_verified": {
+            "const": false
+          },
+          "observable_publisher_text_does_not_certify_independent_office": {
+            "const": true
+          }
+        }
+      }
+    },
+    "timeline_items": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_official_page",
+          "publisher_event_date",
+          "source_date_heading",
+          "source_event_subject",
+          "source_event_description_type",
+          "publisher_mission_office_name",
+          "historical_publisher_event_not_current_institution_certification",
+          "canonical_2026_legal_office_id",
+          "present_day_operational_chain_verified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_official_page": {
+            "type": "string"
+          },
+          "publisher_event_date": {
+            "type": "string"
+          },
+          "source_date_heading": {
+            "type": "string"
+          },
+          "source_event_subject": {
+            "type": "string"
+          },
+          "source_event_description_type": {
+            "type": "string"
+          },
+          "publisher_mission_office_name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "historical_publisher_event_not_current_institution_certification": {
+            "const": true
+          },
+          "canonical_2026_legal_office_id": {
+            "type": "null"
+          },
+          "present_day_operational_chain_verified": {
+            "const": false
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 14,
+      "maxItems": 14,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "record_family",
+          "source_record_id",
+          "nonadditive_index_pointer_only",
+          "canonical_institution_id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "record_family": {
+            "enum": [
+              "office_items",
+              "timeline_items"
+            ]
+          },
+          "source_record_id": {
+            "type": "string"
+          },
+          "nonadditive_index_pointer_only": {
+            "const": true
+          },
+          "canonical_institution_id": {
+            "type": "null"
+          }
+        }
+      }
+    }
+  }
+}
