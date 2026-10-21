@@ -131,8 +131,7 @@ def validate(root=BASE):
    x["source_office_name"] in html and
    x["observed_office_lifecycle_state"]=="observed_at_publisher" and
    x["independent_source_legal_office_id"] is None and
-   x["present_day_still_active_verified"] is False if "present_day_still_active_verified" in x
-     else x["independent_written_legal_qualification_complete"] is False,
+   x["independent_written_legal_qualification_complete"] is False,
    "ARPA-H staff role original source mismatch or illegal office ID")
   chk(x["command_budget_delegation_verified"] is False and
       x["currently_active_legal_institution_verified"] is False,
