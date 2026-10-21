@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HHS 2025 source edition overlap, not legal roster",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "hhs_department_canonical_id",
+    "hhs_index_model_path",
+    "hhs_index_source_blob_sha1",
+    "hhs_index_original_official_html_sha256",
+    "hhs_index_official_html_original_archived",
+    "govman_directory_model_path",
+    "govman_directory_model_git_blob_sha1",
+    "govman_original_sha256",
+    "govman_publication_edition",
+    "source_overlap_is_historical_cross_edition_not_current_roster",
+    "hhs_index_linked_names",
+    "govman_hhs_subentries",
+    "explicitly_source_paired_candidates",
+    "hhs_index_only_linked_names",
+    "govman_only_hhs_subentry_names",
+    "total_current_legal_first_level_denominator",
+    "independently_qualified_same_legal_identity_pairs",
+    "current_reporting_chain_certified_count",
+    "legally_delegated_power_certified_count",
+    "mission_cross_agency_relations_verified_count",
+    "independently_archived_hhs_html",
+    "items",
+    "hhs_index_only"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c4-hhs-2025-dual-publisher-source-overlap"
+    },
+    "hhs_department_canonical_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "hhs_index_model_path": {
+      "const": "model/federal/inc15c3-hhs-directory-reconciliation.json"
+    },
+    "hhs_index_source_blob_sha1": {
+      "const": "37d06d6341a560a0689654819816e1396624b890"
+    },
+    "hhs_index_original_official_html_sha256": {
+      "type": "null"
+    },
+    "hhs_index_official_html_original_archived": {
+      "const": false
+    },
+    "govman_directory_model_path": {
+      "const": "model/federal/inc15d-govman-2025-directory.json"
+    },
+    "govman_directory_model_git_blob_sha1": {
+      "const": "ec626f20bb3a7be2fffd12d8af4c305d52c61b5e"
+    },
+    "govman_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "govman_publication_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_overlap_is_historical_cross_edition_not_current_roster": {
+      "const": true
+    },
+    "hhs_index_linked_names": {
+      "const": 29
+    },
+    "govman_hhs_subentries": {
+      "const": 11
+    },
+    "explicitly_source_paired_candidates": {
+      "const": 11
+    },
+    "hhs_index_only_linked_names": {
+      "const": 18
+    },
+    "govman_only_hhs_subentry_names": {
+      "const": 0
+    },
+    "total_current_legal_first_level_denominator": {
+      "type": "null"
+    },
+    "independently_qualified_same_legal_identity_pairs": {
+      "const": 0
+    },
+    "current_reporting_chain_certified_count": {
+      "const": 0
+    },
+    "legally_delegated_power_certified_count": {
+      "const": 0
+    },
+    "mission_cross_agency_relations_verified_count": {
+      "const": 0
+    },
+    "independently_archived_hhs_html": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "govman_source_entity_key",
+          "govman_publisher_name",
+          "govman_parent_source_key",
+          "hhs_index_source_link_id",
+          "hhs_index_abbreviation",
+          "hhs_index_publisher_name",
+          "original_arch04b_id",
+          "name_relation",
+          "source_research_kind",
+          "identity_reconciliation_state",
+          "current_office_reporting_verified",
+          "independent_same_legal_identity_review_complete",
+          "legal_delegation_or_command_verified",
+          "mission_cross_agency_relationship_verified",
+          "current_first_level_placement_certified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "govman_source_entity_key": {
+            "type": "string"
+          },
+          "govman_publisher_name": {
+            "type": "string"
+          },
+          "govman_parent_source_key": {
+            "const": "GOVMAN-2025-12-31:117"
+          },
+          "hhs_index_source_link_id": {
+            "type": "string"
+          },
+          "hhs_index_abbreviation": {
+            "type": "string"
+          },
+          "hhs_index_publisher_name": {
+            "type": "string"
+          },
+          "original_arch04b_id": {
+            "type": "string"
+          },
+          "name_relation": {
+            "enum": [
+              "exact_publisher_name",
+              "publisher_spelling_variant_requires_review"
+            ]
+          },
+          "source_research_kind": {
+            "const": "operating_division_candidate"
+          },
+          "identity_reconciliation_state": {
+            "const": "candidate_same_described_body_two_dated_publisher_sources"
+          },
+          "current_office_reporting_verified": {
+            "const": false
+          },
+          "independent_same_legal_identity_review_complete": {
+            "const": false
+          },
+          "legal_delegation_or_command_verified": {
+            "const": false
+          },
+          "mission_cross_agency_relationship_verified": {
+            "const": false
+          },
+          "current_first_level_placement_certified": {
+            "const": false
+          }
+        }
+      }
+    },
+    "hhs_index_only": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "hhs_index_source_link_id",
+          "hhs_index_abbreviation",
+          "hhs_index_publisher_name",
+          "disposition",
+          "prior_arch04b_id",
+          "independent_organizational_review_complete"
+        ],
+        "properties": {
+          "hhs_index_source_link_id": {
+            "type": "string"
+          },
+          "hhs_index_abbreviation": {
+            "type": "string"
+          },
+          "hhs_index_publisher_name": {
+            "type": "string"
+          },
+          "disposition": {
+            "const": "index_only_unresolved_in_govman_not_absence_proof"
+          },
+          "prior_arch04b_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "independent_organizational_review_complete": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
