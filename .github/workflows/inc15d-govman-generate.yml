@@ -1,0 +1,40 @@
+name: INC-15D derive verified 2025 publisher directory artifacts
+on:
+  pull_request:
+    paths:
+      - "scripts/inc15d-govman-directory.py"
+      - "model/federal/inc15d-govman-2025-curated-links.json"
+      - ".github/workflows/inc15d-govman-generate.yml"
+permissions:
+  contents: write
+jobs:
+  publish-source-derived-research:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/inc15d-publisher-directory-crosswalk' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/inc15d-publisher-directory-crosswalk
+          fetch-depth: 1
+          persist-credentials: true
+      - name: Verify Python extraction grammar and replay three research-only directories
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/inc15d-govman-directory.py
+          python3 scripts/inc15d-govman-directory.py --write
+          python3 scripts/inc15d-govman-directory.py
+      - name: Commit deterministic source-derived directory, crosswalk and coverage to this PR
+        run: |
+          set -euo pipefail
+          git config user.name "arfi-architecture-evidence[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add model/federal/inc15d-govman-2025-directory.json \
+            model/federal/inc15d-govman-2025-crosswalk.json \
+            model/federal/inc15d-govman-2025-coverage.json
+          if git diff --cached --quiet; then
+            echo "Generated catalogs already match approved original source"
+          else
+            git commit -m "data(inc15d): preserve 231 bounded publisher entities and conservative crosswalk"
+            git push origin "HEAD:refs/heads/feat/inc15d-publisher-directory-crosswalk"
+          fi
