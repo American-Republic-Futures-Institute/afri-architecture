@@ -40,7 +40,7 @@ jobs:
           cp "$RUNNER_TEMP/arfi-inc15c2-publisher-original/originals/sha256/$sha.pdf" "$dirname/$sha.pdf"
           cp "$RUNNER_TEMP/arfi-inc15c2-publisher-original/capture-receipt.json" "evidence/dhs-fy2024/receipts/inc15c2-official-source-capture.json"
           gitblob="$(git hash-object "$dirname/$sha.pdf")"
-          node --input-type=module -e '
+          GIT_SOURCE_BLOB_SHA="$gitblob" node --input-type=module -e '
             import fs from "node:fs";
             const rec=JSON.parse(fs.readFileSync("evidence/dhs-fy2024/receipts/inc15c2-official-source-capture.json","utf8"));
             const entry={
@@ -62,8 +62,6 @@ jobs:
             };
             fs.writeFileSync("evidence/dhs-fy2024/receipts/inc15c2-git-retention.json",JSON.stringify(entry,null,2)+"\n");
           ' 
-        env:
-          GIT_SOURCE_BLOB_SHA: ""
       - name: Commit original PDF as a versioned research evidence object (not ADL-1)
         run: |
           git config user.name "ARFI source evidence automation"
