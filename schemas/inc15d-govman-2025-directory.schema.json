@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15d-govman-2025-directory source-bounded model",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "source_package_id",
+    "source_publication_date",
+    "original_source_sha256",
+    "source_original_repository_path",
+    "whole_federal_legal_institution_denominator",
+    "current_first_level_institution_denominator",
+    "independent_legal_review_complete",
+    "independent_worm_custody_verified",
+    "model_family",
+    "publisher_entry_count",
+    "top_level_publisher_entries",
+    "source_tag_counts",
+    "mission_source_level",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "original_source_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "whole_federal_legal_institution_denominator": {
+      "type": "null"
+    },
+    "current_first_level_institution_denominator": {
+      "type": "null"
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "independent_worm_custody_verified": {
+      "const": false
+    },
+    "model_family": {
+      "const": "inc15d-govman-2025-directory"
+    },
+    "publisher_entry_count": {
+      "const": 231
+    },
+    "top_level_publisher_entries": {
+      "const": 105
+    },
+    "source_tag_counts": {
+      "type": "object",
+      "properties": {
+        "Entity": {
+          "const": 105
+        },
+        "SubEntityLevelOne": {
+          "const": 87
+        },
+        "SubEntityLevelTwo": {
+          "const": 35
+        },
+        "SubEntityLevelThree": {
+          "const": 4
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "Entity",
+        "SubEntityLevelOne",
+        "SubEntityLevelTwo",
+        "SubEntityLevelThree"
+      ]
+    },
+    "mission_source_level": {
+      "const": "publisher_text_not_independently_verified_mission_or_authority"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 231,
+      "maxItems": 231,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_entity_key",
+          "source_entity_local_id",
+          "edition_local_only",
+          "source_element_tag",
+          "published_kind",
+          "published_name",
+          "published_category",
+          "publisher_category_scope",
+          "published_parent_key",
+          "directory_nesting_only",
+          "published_order",
+          "published_depth",
+          "source_xml_xpath",
+          "source_original_sha256",
+          "mission_statement_as_published",
+          "mission_text_is_legal_authority",
+          "current_organization_verified",
+          "independent_legal_review_complete"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_entity_key": {
+            "type": "string"
+          },
+          "source_entity_local_id": {
+            "type": "string",
+            "pattern": "^[1-9][0-9]*$"
+          },
+          "edition_local_only": {
+            "const": true
+          },
+          "source_element_tag": {
+            "enum": [
+              "Entity",
+              "SubEntityLevelOne",
+              "SubEntityLevelTwo",
+              "SubEntityLevelThree"
+            ]
+          },
+          "published_kind": {
+            "type": "string"
+          },
+          "published_name": {
+            "type": "string"
+          },
+          "published_category": {
+            "type": "string"
+          },
+          "publisher_category_scope": {
+            "type": "string"
+          },
+          "published_parent_key": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "directory_nesting_only": {
+            "const": true
+          },
+          "published_order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "published_depth": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "source_xml_xpath": {
+            "type": "string"
+          },
+          "source_original_sha256": {
+            "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+          },
+          "mission_statement_as_published": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mission_text_is_legal_authority": {
+            "const": false
+          },
+          "current_organization_verified": {
+            "const": false
+          },
+          "independent_legal_review_complete": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
