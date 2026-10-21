@@ -75,7 +75,7 @@ def validate(capture_record,acquisition,raw):
   src=SOURCE.SOURCES[key]
   insist(a["key"]==key and a["result"]=="transient_original_captured"
    and a["original_sha256"]==sha and a["original_byte_count"]==n
-   and a["final_source_url"]==src["url"]
+   and a["final_url"]==src["url"]
    and a["current_hhs_first_level_legal_denominator"] is None
    and a["department_command_or_adjudicative_authority_certified"] is False
    and a["independent_legal_review_complete"] is False
