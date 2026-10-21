@@ -1,0 +1,35 @@
+name: INC-15C.6E HHS budget and observed office original-source probe
+on:
+  pull_request:
+    paths:
+      - "scripts/inc15c6e-hhs-source-acquire.py"
+      - "tests/test_inc15c6e_hhs_source_probe.py"
+      - ".github/workflows/inc15c6e-hhs-source-probe.yml"
+permissions:
+  contents: read
+jobs:
+  source-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test independent proposal editions and source legal nonpromotion
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6e_hhs_source_probe.py' -v
+  acquire-publisher-snapshots:
+    needs: source-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Acquire 6 official HHS and ARPA-H publisher sources with strict original-byte custody
+        run: python3 scripts/inc15c6e-hhs-source-acquire.py probe "$RUNNER_TEMP/inc15c6e"
+      - name: Verify independent source receipts and SHA-256 or blocked-url observations
+        run: python3 scripts/inc15c6e-hhs-source-acquire.py verify "$RUNNER_TEMP/inc15c6e"
+      - name: Archive only authentic source bytes and acquisition receipts for reviewed Git promotion
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inc15c6e-hhs-publisher-original-attempt
+          path: ${{ runner.temp }}/inc15c6e/
+          if-no-files-found: error
+          retention-days: 30
