@@ -200,7 +200,10 @@
             "type": "string"
           },
           "publisher_mission_office_name": {
-            "type": "null"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "historical_publisher_event_not_current_institution_certification": {
             "const": true
