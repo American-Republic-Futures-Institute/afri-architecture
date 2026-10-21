@@ -294,7 +294,8 @@
     "model/federal/inc15b-roster-crosswalks.json",
     "model/federal/inc15b-source-partitions.json",
     "model/federal/inc15c1-dhs-source-reconciliation.json",
-    "model/federal/inc15c2-dhs-chart-boxes.json"
+    "model/federal/inc15c2-dhs-chart-boxes.json",
+    "model/federal/inc15c3-hhs-directory-reconciliation.json"
   ],
   "standards": [
     {
@@ -1090,5 +1091,16 @@
     "independent_legal_review_complete": false,
     "adl1_certified_count": 0,
     "status": "original_dhs_publisher_pdf_git_preserved_source_chart_reconciled_research_unratified"
+  },
+  "federal_institutional_breadth_15c3_extension": {
+    "id": "ARFI-FED-INC15C3-HHS-INDEX",
+    "source_baseline_commit": "2288a20a4a7ff65b0163775c776bfeb3bf34fd74",
+    "prior_historical_directory_links": 28,
+    "newly_observed_publisher_index_links": 1,
+    "bounded_publisher_index_link_records": 29,
+    "publisher_html_original_bytes_verified": false,
+    "current_legal_first_level_department_denominator": null,
+    "independent_legal_review_complete": false,
+    "adl1_certified_count": 0
   }
 }
