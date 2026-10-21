@@ -1,0 +1,23 @@
+{
+  "id": "INC15C5-ED-ERIC-REPORT-GIT-CUSTODY",
+  "original_document_publisher": "U.S. Department of Education",
+  "publisher_report_edition": "FY2024",
+  "official_publisher_posting_date": "2025-01-15",
+  "distribution_url": "https://files.eric.ed.gov/fulltext/ED673614.pdf",
+  "distribution_type": "official_ED_ERIC_repository_reproduction_not_direct_department_url",
+  "direct_department_edgov_original_bytes_verified": false,
+  "original_eric_distribution_sha256": "0af9a9f4e11ddce14fffd467317d9e4c531e9931edb43abcb3ddb8e4fa6291b7",
+  "original_eric_distribution_byte_count": 5675466,
+  "git_blob_sha1": "82eb949fa6b61c4483a188f9e75b3e73a86ae49b",
+  "git_path": "evidence/education-fy2024/originals/sha256/0af9a9f4e11ddce14fffd467317d9e4c531e9931edb43abcb3ddb8e4fa6291b7.pdf",
+  "source_capture_workflow_run": 39663546563,
+  "source_capture_artifact_id": 12375557273,
+  "report_pdf_physical_pages": 146,
+  "fy2024_chart_physical_pdf_page": 10,
+  "fy2024_chart_printed_report_page": 5,
+  "chart_boxes_independently_admitted": false,
+  "current_ED_department_legal_first_level_denominator": null,
+  "independent_worm_custody_verified": false,
+  "independent_legal_review_complete": false,
+  "authority_verified_from_chart": false
+}

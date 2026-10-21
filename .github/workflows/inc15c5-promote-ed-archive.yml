@@ -1,0 +1,123 @@
+name: INC-15C.5 preserve checked official Education ERIC report in Git
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/inc15c5-promote-ed-archive.yml"
+permissions:
+  contents: write
+  actions: read
+jobs:
+  preserve-exact-source:
+    if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/inc15c5-education-eric-source-custody' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/inc15c5-education-eric-source-custody
+          persist-credentials: true
+          fetch-depth: 1
+      - name: Install PDF source inspection tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Download only approved source artifact and validate publisher attribution
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/inc15c5"
+          curl --fail --silent --show-error --location --retry 3 \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/$GH_REPO/actions/artifacts/12375557273/zip" \
+            -o "$RUNNER_TEMP/inc15c5/approved.zip"
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, re, subprocess, zipfile
+          checksum="0af9a9f4e11ddce14fffd467317d9e4c531e9931edb43abcb3ddb8e4fa6291b7"
+          file="originals/sha256/"+checksum+".pdf"
+          zip_path=pathlib.Path(os.environ["RUNNER_TEMP"])/"inc15c5"/"approved.zip"
+          with zipfile.ZipFile(zip_path) as z:
+              members=[x.filename for x in z.infolist() if not x.is_dir()]
+              if set(members)!={"capture-receipt.json",file} or len(members)!=2:
+                  raise RuntimeError("source artifact contains unexpected members")
+              for x in z.infolist():
+                  if x.file_size>25*1024*1024: raise RuntimeError("oversize source artifact")
+              raw=z.read(file)
+              cap=json.loads(z.read("capture-receipt.json"))
+          if len(raw)!=5675466 or hashlib.sha256(raw).hexdigest()!=checksum:
+              raise RuntimeError("Education ERIC report bytes mismatch approved original")
+          if not raw.startswith(b"%PDF-1.") or b"%%EOF" not in raw[-4096:]:
+              raise RuntimeError("PDF signature/EOF invalid")
+          if not (
+              cap["record_type"]=="INC15C5-ED-FY2024-APR-OFFICIAL-PDF-ORIGINAL-ACQUISITION"
+              and cap["source_id"]=="INC15C5-ED-FY2024-APR-CHART"
+              and cap["edition"]=="FY2024"
+              and cap["official_publisher_posted_on"]=="2025-01-15"
+              and cap["selected_source_url"]=="https://files.eric.ed.gov/fulltext/ED673614.pdf"
+              and cap["selected_distribution_type"]=="official_ED_ERIC_repository_reproduction_not_direct_department_url"
+              and cap["original_sha256"]==checksum and cap["original_byte_count"]==5675466
+              and cap["pdf_header_and_eof_verified"] is True
+              and cap["pdf_render_inspected"] is False
+              and cap["git_original_custody_verified"] is False
+              and cap["independent_worm_custody_verified"] is False
+              and cap["complete_current_ED_first_level_denominator"] is None
+              and cap["independent_legal_review_complete"] is False
+              and cap["legal_composition_or_command_delegation_verified"] is False
+              and len(cap["attempts"])==3
+              and [a["reason"] for a in cap["attempts"][:2]]==["HTTP_403","HTTP_403"]
+              and cap["attempts"][2]["result"]=="received_original_pdf"
+          ): raise RuntimeError("source distribution or legal qualification receipt mismatch")
+          out=pathlib.Path("evidence/education-fy2024")
+          original=out/file
+          original.parent.mkdir(parents=True,exist_ok=True)
+          if original.exists() and original.read_bytes()!=raw:
+              raise RuntimeError("source object path already exists with different bytes")
+          original.write_bytes(raw)
+          meta=subprocess.check_output(["pdfinfo",str(original)],text=True)
+          if not re.search(r"^Pages:\s+146\s*$",meta,re.M) or not re.search(r"^PDF version:\s+1\.6",meta,re.M):
+              raise RuntimeError("report page count / PDF edition mismatch")
+          chart=subprocess.check_output(["pdftotext","-f","10","-l","10",str(original),"-"],text=True)
+          if "FY 2024 Organization Structure" not in chart or "coordinating structure in fiscal year 2024" not in chart:
+              raise RuntimeError("FY2024 source chart page mismatch")
+          receipts=out/"receipts";receipts.mkdir(parents=True,exist_ok=True)
+          (receipts/"original-acquisition.json").write_text(json.dumps(cap,indent=2)+"\n",encoding="utf-8")
+          blob=subprocess.check_output(["git","hash-object",str(original)],text=True).strip()
+          rec={
+              "id":"INC15C5-ED-ERIC-REPORT-GIT-CUSTODY",
+              "original_document_publisher":"U.S. Department of Education",
+              "publisher_report_edition":"FY2024",
+              "official_publisher_posting_date":"2025-01-15",
+              "distribution_url":"https://files.eric.ed.gov/fulltext/ED673614.pdf",
+              "distribution_type":"official_ED_ERIC_repository_reproduction_not_direct_department_url",
+              "direct_department_edgov_original_bytes_verified":False,
+              "original_eric_distribution_sha256":checksum,
+              "original_eric_distribution_byte_count":len(raw),
+              "git_blob_sha1":blob,
+              "git_path":str(original),
+              "source_capture_workflow_run":39663546563,
+              "source_capture_artifact_id":12375557273,
+              "report_pdf_physical_pages":146,
+              "fy2024_chart_physical_pdf_page":10,
+              "fy2024_chart_printed_report_page":5,
+              "chart_boxes_independently_admitted":False,
+              "current_ED_department_legal_first_level_denominator":None,
+              "independent_worm_custody_verified":False,
+              "independent_legal_review_complete":False,
+              "authority_verified_from_chart":False
+          }
+          (receipts/"git-custody.json").write_text(json.dumps(rec,indent=2)+"\n",encoding="utf-8")
+          print("ED-CUSTODY",checksum,blob,len(raw))
+          PY
+      - name: Commit verified official ED ERIC distribution and Git custody receipts to PR branch
+        run: |
+          set -euo pipefail
+          git config user.name "arfi-source-preservation[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/education-fy2024/
+          if git diff --cached --quiet; then
+            echo "Identical source already present"
+          else
+            git commit -m "evidence(inc15c5): preserve FY2024 Education ERIC original and custody receipts"
+            git push origin "HEAD:refs/heads/feat/inc15c5-education-eric-source-custody"
+          fi
