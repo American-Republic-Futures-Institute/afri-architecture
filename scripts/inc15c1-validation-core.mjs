@@ -14,7 +14,7 @@ const SOURCE_BLOBS=Object.freeze({
   "model/federal/coverage/source-snapshots.json": "b8d60b31ef07df7ee9cbb1fff670ccb3e102b9cc",
   "model/federal/inc15b-cabinet-sources.json": "90558c7913255da8ea786e8e6ffb81e7739eb500"
 });
-const ROOT_FIELDS=Object.freeze(["model_version","model_family","source_baseline_commit","canonical_department_id","canonical_department_crosswalk_id","publisher_source_id","publisher_source_url","publisher_name","publisher_document","publisher_edition_date","publisher_edition_year","original_chart_locator","original_snapshot_id","source_model_observed_on","original_publisher_pdf_sha256","original_publisher_pdf_bytes","original_publisher_custody_qualified","source_capture_status","source_originals_pin_status","source_scope","existing_source_candidate_count","reconciled_original_candidate_count","original_relation_count","inc12_original_observation_count","new_legally_qualified_institution_count","full_current_first_level_denominator","complete_publisher_chart_census_verified","legal_review_complete","adl1_certified_count","source_population_additive_to_other_editions","observations","exceptions"]);
+const ROOT_FIELDS=Object.freeze(["model_version","model_family","source_baseline_commit","canonical_department_id","canonical_department_crosswalk_id","publisher_source_id","publisher_source_url","publisher_name","publisher_document","publisher_edition_date","publisher_edition_year","original_chart_locator","original_snapshot_id","source_model_observed_on","original_publisher_pdf_sha256","original_publisher_pdf_bytes","original_publisher_custody_qualified","source_capture_status","source_originals_pin_status","source_scope","existing_source_candidate_count","reconciled_original_candidate_count","original_relation_count","inc12_original_observation_count","new_legally_qualified_institution_count","full_current_first_level_denominator","complete_publisher_chart_census_verified","legal_review_complete","adl1_certified_count","source_population_additive_to_other_editions","items","exceptions"]);
 const OBS_FIELDS=Object.freeze(["id","source_candidate_id","display_name","canonical_parent_id","original_relationship_id","original_relation_kind","inc12_observation_id","source_id","source_snapshot_id","source_locator","provisional_kind","independent_oversight_exception","coast_guard_transfer_exception","source_record_claim","qualified_current_institution_id","source_publisher_independently_archived","current_membership_verified","command_verified","legal_delegation_verified","appropriation_verified","adl1_certified"]);
 const EXC_FIELDS=Object.freeze(["id","affected_candidate_id","category","status","note"]);
 const IDS=Object.freeze(["CENSUS-COMP-DHS-CBP","CENSUS-COMP-DHS-ICE","CENSUS-COMP-DHS-USCIS","CENSUS-COMP-DHS-CISA","CENSUS-COMP-DHS-FEMA","CENSUS-COMP-DHS-TSA","CENSUS-COMP-DHS-USSS","CENSUS-COMP-DHS-USCG","CENSUS-COMP-DHS-FLETC","CENSUS-COMP-DHS-OIG"]);
@@ -116,7 +116,7 @@ export function validateINC15C1(input){
   schema.type==="object"&&schema.additionalProperties===false&&
   equalKeys(schema.properties,ROOT_FIELDS)&&
   same([...schema.required].sort(),[...ROOT_FIELDS].sort())&&
-  equalKeys(schema.properties.observations.items.properties,OBS_FIELDS)&&
+  equalKeys(schema.properties.items.items.properties,OBS_FIELDS)&&
   equalKeys(schema.properties.exceptions.items.properties,EXC_FIELDS)&&
   model?.model_family==="inc15c1-dhs-source-reconciliation"&&model?.model_version==="0.1.0",
   "source and schema fields drifted or were co-edited");
@@ -176,15 +176,15 @@ export function validateINC15C1(input){
  };
  check(Object.entries(stable).every(([k,v])=>same(model[k],v)),
   "unreviewed original publisher custody, denominator, identity or legal authority promoted");
- check(Array.isArray(model.observations)&&model.observations.length===10&&
-  same(model.observations.map(x=>x.source_candidate_id),IDS)&&
-  uniq(model.observations.map(x=>x.inc12_observation_id))&&
-  uniq(model.observations.map(x=>x.original_relationship_id)),
+ check(Array.isArray(model.items)&&model.items.length===10&&
+  same(model.items.map(x=>x.source_candidate_id),IDS)&&
+  uniq(model.items.map(x=>x.inc12_observation_id))&&
+  uniq(model.items.map(x=>x.original_relationship_id)),
   "ten source records/relation identity/order missing, changed or duplicated");
  const byRelation=new Map(rselected.map(x=>[x.from_id,x]));
  const byObservation=new Map(xselected.map(x=>[x.source_record_id,x]));
  for(let i=0;i<10;i++){
-  const c=selected[i],m=model.observations[i],
+  const c=selected[i],m=model.items[i],
    rel=byRelation.get(c.id),x=byObservation.get(c.id);
   check(equalKeys(m,OBS_FIELDS)&&c?.id===IDS[i]&&rel&&x&&
    x.relation_source_id===rel.id&&x.relation_type===rel.relationship_type&&
