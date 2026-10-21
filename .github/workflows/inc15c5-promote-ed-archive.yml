@@ -17,6 +17,8 @@ jobs:
           ref: feat/inc15c5-education-eric-source-custody
           persist-credentials: true
           fetch-depth: 1
+      - name: Install PDF source inspection tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Download only approved source artifact and validate publisher attribution
         env:
           GH_TOKEN: ${{ github.token }}
