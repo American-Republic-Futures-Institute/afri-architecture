@@ -56,6 +56,10 @@ jobs:
         run: node scripts/validate-inc15c3.mjs
       - name: Test INC-15C.3 HHS 29 names and unsupported legal or cross-government mission promotions
         run: node --test tests/inc15c3.test.mjs
+      - name: Verify preserved whole-issue GovInfo XML original SHA-256, Git blob and false authority limits
+        run: node scripts/validate-inc15d-source.mjs
+      - name: Reject tampered INC-15D source, custody, temporal epoch and legal promotions
+        run: node --test tests/inc15d-source-custody.test.mjs
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
