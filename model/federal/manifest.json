@@ -303,7 +303,10 @@
     "model/federal/inc15c4-hhs-dual-edition-crosswalk.json",
     "model/federal/inc15c5-education-fy2024-chart-boxes.json",
     "model/federal/inc15c6-hhs-oig-source-office-groups.json",
-    "model/federal/inc15c6-hhs-institutional-exception-boundaries.json"
+    "model/federal/inc15c6-hhs-institutional-exception-boundaries.json",
+    "model/federal/inc15c6d-hhs-historical-source-office-observations.json",
+    "model/federal/inc15c6d-arpah-fy2025-organization-chart.json",
+    "model/federal/inc15c6d-hhs-historical-source-coverage.json"
   ],
   "standards": [
     {
@@ -1201,5 +1204,32 @@
     "independent_external_worm_custody_verified": false,
     "cross_edition_counts_nonadditive": true,
     "research_status": "dated_original_OIG_html_and_pdf_provisional_office_group_and_exception_crosswalk_only"
+  },
+  "federal_institutional_breadth_15c6d_extension": {
+    "id": "ARFI-FED-INC15C6D-DAB-OMHA-ARPAH-HISTORICAL-EDITIONS",
+    "original_source_custody_receipt_path": "evidence/hhs-dab-omha-arpah-historical/receipts/git-custody.json",
+    "five_original_official_pdfs_preserved_in_git": true,
+    "official_publications_date_or_budget_request": [
+      "2012-03-02",
+      "2005-06-23",
+      "2015-01-20",
+      "2022-05-27",
+      "FY2025_budget_request_published_2024"
+    ],
+    "selected_historical_notice_source_observations": 19,
+    "manually_verified_arpah_budget_chart_boxes": 15,
+    "source_edition_coverage_records": 5,
+    "historic_source_observations_total_nonadditive": 34,
+    "prior_hhs_index_named_entries": 29,
+    "prior_govman_hhs_subentries": 11,
+    "prior_oig_internal_groups": 6,
+    "prior_exception_source_names": 4,
+    "present_day_federal_or_hhs_legal_first_level_denominator": null,
+    "current_jurisdiction_or_delegation_verified": false,
+    "arpa_h_14_to_8_implementation_certified": false,
+    "newly_minted_canonical_institution_ids": 0,
+    "original_pdf_source_epochs_independent": true,
+    "current_status_qualified": false,
+    "research_status": "five_historical_originals_versioned_in_git_source_only_legal_completeness_unresolved"
   }
 }
