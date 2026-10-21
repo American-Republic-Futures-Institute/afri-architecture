@@ -2,9 +2,11 @@
 
 Issue: [INC-15C.2 #52](https://github.com/American-Republic-Futures-Institute/afri-architecture/issues/52). Predecessor: [INC-15C.1 merged PR #51](https://github.com/American-Republic-Futures-Institute/afri-architecture/pull/51), merge `c722e7493f8fa6a4bb3f5d56b9b8d1bf82be0976`.
 
-## Qualification status — acquisition infrastructure only, not the completed census
+## Qualification status — authentic original obtained and chart transcribed; current legal census remains unqualified
 
-This is a *read-only source-acquisition and evidence-verification tool*, not a new authenticated agency cohort. It must not change the previous model's `original_publisher_pdf_sha256=null`, `original_publisher_custody_qualified=false`, current DHS first-level denominator `null`, or `adl1_certified_count=0` until a **different** independently qualified evidence and chart-reconciliation increment.
+The source-acquisition tool **successfully retrieved the exact original PDF** from the registered `/2025-02/` DHS HTTPS URL using GitHub Actions and preserved 17,622,005 bytes as a versioned content-addressed Git evidence object. SHA-256: `d48f661bf9d6643409585451a2dc49f53358fe869dd40d182344f0bed58e4175`; Git blob: `bdbcbc4a6045eebef852daeceeb154be15c48684`. The separately published `model/federal/inc15c2-dhs-chart-boxes.json` enumerates **34 source diagram boxes**. Previous INC-15C.1 unqualified source-study flags remain historically unchanged, while this new record states the new independently verified source bytes and bounds.
+
+The capture and Git receipt do **not** attest independent WORM custody, human legal review, current DHS first-level membership or ADL-1. The current departmental legal denominator remains `null` and legally certified institutions remain `0`.
 
 The authoritative report being sought is the DHS *Annual Performance Report FY2024*, stated publication date January 17, 2025. The source reference `CENSUS-SRC-DHS-CHART-2025` previously recorded:
 
@@ -13,7 +15,7 @@ The authoritative report being sought is the DHS *Annual Performance Report FY20
 
 Both paths must be treated as **separate, unverified potential byte editions** until acquired and compared. Shared filenames or indexed text do not establish byte identity. The second locator must not silently replace the source snapshot's first locator.
 
-A public-source reader reported HTTP 403 at both URLs; container DNS resolution was unavailable, and a direct download tool also failed. These are **environment-specific failures** only; a separate GitHub Actions runner performs independent live attempts and emits its own timestamped receipt.
+Earlier public-source readers returned HTTP 403 for both URLs and the local container lacked external DNS resolution. A GitHub Actions runner **did successfully capture** the registered `/2025-02/` original on 2026-10-21; capture receipt and exact original are retained under `evidence/dhs-fy2024/`. The alternate `/2025-01/` URL remains **unacquired and unproven byte-identical**; no historical revision is inferred from that separate locator.
 
 ## Procedure
 
@@ -33,13 +35,13 @@ The acquisition allows only exact two HTTPS DHS.gov PDF URLs and same-allowlist 
 
 GitHub Actions workflow `.github/workflows/inc15c2-dhs-source-probe.yml` tests these controls and attempts the publisher endpoints. It uploads a **30-day temporary workflow artifact** containing a JSON receipt and, if downloaded, the exact PDF under `originals/sha256/<actual-digest>.pdf`. Downloadable workflow artifacts expire and must not be mistaken for independent WORM preservation.
 
-## Next acceptance gates if the original is obtained
+## Completed and remaining source-qualification gates
 
-1. Independently verify the publisher TLS source, PDF MIME/structure, real SHA-256, decoded byte count, final URL and redirects; **also** compare the `2025-01` and `2025-02` URLs when obtainable. Preserve any differences as separate editions.
-2. Retain authenticated original PDF bytes in an approved permanent content-addressed archive. Produce an independently verifiable archive receipt, evidence location, access controls, reviewer identity and immutable Git commit for the *receipt* (not a fabricated Git blob identity). Temporary CI artifacts alone are insufficient.
-3. Render and visually inspect the report's printed organizational chart (nominal page 24; physical PDF page may differ). Transcribe **all** chart heads/classes/residuals from that exact retained edition, including leadership offices, support units, independent IG placement and conditional Coast Guard relationships.
-4. Crosswalk every observed chart entry against the ten historical ARFI records in `model/federal/inc15c1-dhs-source-reconciliation.json`; separately record nonmatches rather than forcing a count of ten. Retain the original `CENSUS-COMP-DHS-*` and `X12-OBS-*` identifiers.
-5. The resulting denominator, if established, is for a **source edition's defined chart population**, never the present-day legal first-level membership denominator by implication. Current legal review, departmental denominator and ADL-1 remain independent release gates.
+1. **Completed:** official `2025-02` DHS-hosted PDF original acquired with exact decoded SHA-256, byte count, HTTP final URL and no redirect; authenticated original and capture receipts preserved in versioned Git at `evidence/dhs-fy2024/`. Temporary CI artifacts are *additional* evidence, not the primary retained original.
+2. **Completed:** physical PDF page 24 visually inspected, parsed and reconciled. The independent chart workpaper `model/federal/inc15c2-dhs-chart-boxes.json` describes **34 colored source boxes**, ten linked to previous `CENSUS-COMP-DHS-*` and `X12-OBS-*` identifiers, **24 additional source-only boxes**, and Inspector General and Coast Guard distinctions.
+3. **Outstanding:** authenticate independent WORM custody/signer and human evidence/legal review. Git versioning with a verified source SHA-256 **is not** independent WORM storage or legal authority certification.
+4. **Outstanding:** acquire/compare the distinct `2025-01` official candidate URL before stating that the two potential editions have byte-identical histories. Publisher report PDF metadata indicates February 4 modification despite stated January 17 publication; do not infer an amendment without evidence.
+5. **Outstanding and separately scoped:** legally qualify DHS first-level current institutional membership, statutory delegated powers and ADL-1, if ever supported by comprehensive independently reviewed evidence. The 34-box figure is a historical source-diagram denominator, not the department's full present-day legal first-level population.
 
 ## Stop condition
 
