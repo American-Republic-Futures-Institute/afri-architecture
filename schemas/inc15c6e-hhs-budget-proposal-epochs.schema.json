@@ -129,8 +129,7 @@
             "type": "string"
           },
           "source_pdf_physical_page": {
-            "type": "integer",
-            "minimum": 0
+            "type": "integer"
           },
           "source_published_period": {
             "type": "string"
@@ -155,21 +154,19 @@
             "items": {
               "type": "string"
             },
-            "minItems": 4,
-            "maxItems": 4
+            "uniqueItems": true
           },
           "prior_hhs_index_component_refs": {
             "type": "array",
             "items": {
               "type": "string"
             },
-            "minItems": 3,
-            "maxItems": 3
+            "uniqueItems": true
           },
           "lifecycle_state": {
             "enum": [
-              "proposed_not_implemented",
               "observed_at_publisher",
+              "proposed_not_implemented",
               "historical_superseded",
               "implemented_primary_source_qualified",
               "unresolved"
@@ -179,10 +176,16 @@
             "type": "string"
           },
           "planned_later_publisher_record": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "planned_later_relationship": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "target_canonical_legal_institution_id": {
             "type": "null"
