@@ -1,0 +1,42 @@
+name: INC-15C.5 ED FY2024 official organizational chart source probe
+on:
+  pull_request:
+    paths:
+      - "scripts/inc15c5-education-*.mjs"
+      - "tests/inc15c5-education-acquisition.test.mjs"
+      - ".github/workflows/inc15c5-education-source-probe.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-source-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate publisher URL allowlist, original digest and false legal claim defense
+        run: node --test tests/inc15c5-education-acquisition.test.mjs
+  probe-primary-and-official-ERIC:
+    needs: check-source-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Capture one pinned official Education-issued FY2024 APR original from allowlist
+        run: node scripts/inc15c5-education-source.mjs probe "$RUNNER_TEMP/inc15c5-ed-original"
+      - name: Verify original byte hash and closed temporary source receipt
+        run: node scripts/inc15c5-education-source.mjs verify "$RUNNER_TEMP/inc15c5-ed-original"
+      - name: Retain exact publisher source original and source attempt receipt, temporary only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inc15c5-ed-fy2024-official-original-attempt
+          path: ${{ runner.temp }}/inc15c5-ed-original/
+          if-no-files-found: warn
+          retention-days: 30
