@@ -1,0 +1,71 @@
+{
+  "record_type": "inc15c6d_git_source_original_custody_v1",
+  "source_probe_workflow_run": 39691326721,
+  "source_probe_artifact_id": 12389115569,
+  "source_records": [
+    {
+      "source_key": "dab_2012_notice",
+      "original_sha256": "cefec870f1670f7bdaea68445a11b0be204fcd42466b2f3dd40ec63819e42369",
+      "original_bytes": 156417,
+      "physical_pdf_pages": 2,
+      "publisher_edition": "2012-03-02",
+      "git_blob_sha1": "32be8eb3589562afb90efe9f104ab63f499196e2",
+      "path": "evidence/hhs-dab-omha-arpah-historical/originals/dab_2012_notice/sha256/cefec870f1670f7bdaea68445a11b0be204fcd42466b2f3dd40ec63819e42369.pdf",
+      "source_scoped_only": true,
+      "authority_certified": false
+    },
+    {
+      "source_key": "omha_2005_notice",
+      "original_sha256": "9fc58a57771e26b3d897203c6510bff9f33a11387f7de6b4e996b8600f6fbe42",
+      "original_bytes": 148382,
+      "physical_pdf_pages": 2,
+      "publisher_edition": "2005-06-23",
+      "git_blob_sha1": "ad8082c53c3564cebc83fcd0df09578b24138fba",
+      "path": "evidence/hhs-dab-omha-arpah-historical/originals/omha_2005_notice/sha256/9fc58a57771e26b3d897203c6510bff9f33a11387f7de6b4e996b8600f6fbe42.pdf",
+      "source_scoped_only": true,
+      "authority_certified": false
+    },
+    {
+      "source_key": "omha_2015_notice",
+      "original_sha256": "a3b7d5a3a92c9768ee4820e4cb56251317691c54a0d596a55139cd7c73e8eb91",
+      "original_bytes": 190638,
+      "physical_pdf_pages": 1,
+      "publisher_edition": "2015-01-20",
+      "git_blob_sha1": "19a2b346e9e3213b1de127575d11e4889c9e4b6c",
+      "path": "evidence/hhs-dab-omha-arpah-historical/originals/omha_2015_notice/sha256/a3b7d5a3a92c9768ee4820e4cb56251317691c54a0d596a55139cd7c73e8eb91.pdf",
+      "source_scoped_only": true,
+      "authority_certified": false
+    },
+    {
+      "source_key": "arpah_2022_notice",
+      "original_sha256": "57fc6ee11be04104e0bfd9a2d4a61aae867dc3d9cfae892256ce1bf42650b86a",
+      "original_bytes": 215491,
+      "physical_pdf_pages": 3,
+      "publisher_edition": "2022-05-27",
+      "git_blob_sha1": "9d6f908fb82edeb0159def6b37762a5ee73948f9",
+      "path": "evidence/hhs-dab-omha-arpah-historical/originals/arpah_2022_notice/sha256/57fc6ee11be04104e0bfd9a2d4a61aae867dc3d9cfae892256ce1bf42650b86a.pdf",
+      "source_scoped_only": true,
+      "authority_certified": false
+    },
+    {
+      "source_key": "arpah_fy2025_cj",
+      "original_sha256": "1e325bfe20151762242c7f59a5df21f0113c8644f431aec5debb22f5671493d1",
+      "original_bytes": 870264,
+      "physical_pdf_pages": 51,
+      "publisher_edition": "FY2025_budget_request_published_2024",
+      "git_blob_sha1": "2eed6072be324f47320f1878121d378936bf2ce0",
+      "path": "evidence/hhs-dab-omha-arpah-historical/originals/arpah_fy2025_cj/sha256/1e325bfe20151762242c7f59a5df21f0113c8644f431aec5debb22f5671493d1.pdf",
+      "source_scoped_only": true,
+      "authority_certified": false
+    }
+  ],
+  "all_five_originals_git_retained": true,
+  "direct_hhs_current_organizational_html_retained": false,
+  "independent_worm_qualification": false,
+  "historical_source_notice_is_current_legal_status": false,
+  "dab_adjudication_jurisdiction_current_certified": false,
+  "omha_alj_case_control_current_certified": false,
+  "arpah_2024_budget_eight_office_implementation_certified": false,
+  "current_hhs_legal_first_level_denominator": null,
+  "hhs_canonical_ids_replaced": 0
+}
