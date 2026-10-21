@@ -11,8 +11,8 @@ from pathlib import Path
 BASE=Path(__file__).resolve().parents[1]
 PINNED={
  "inc15c6e-hhs-budget-proposal-epochs":("52b659cb97a1cd697e94b142cdf9e3a5d6898310","2781989c4ef3a828138bd7dabe05176d93f41c8d",{"items":6}),
- "inc15c6e-arpah-live-office-observations":("6432368de4ef50961a8dba1a7a0683090781b317","c8833720e9521958e51d89533913b7b77ea71b57",{"office_items":10,"timeline_items":4}),
- "inc15c6e-hhs-source-lifecycle-coverage":("abfa3d46d68a3cacf6187b39c58940a10db6c41b","610d7bad23a8760e0c1a67bd93cdfe235dd2e02f",{"source_items":6,"exception_items":4})
+ "inc15c6e-arpah-live-office-observations":("f3509c74158bb0d02a37e8d2fa72f5541ff1f2ef","7c6867e9f9ae6b1ce6403acf7f146abbc89b9856",{"office_items":10,"timeline_items":4,"items":14}),
+ "inc15c6e-hhs-source-lifecycle-coverage":("62ba502bb2af468c1da2e73065dc38e42be12bbd","1df5cb465aabf298709eb96a8a6cc519316290d2",{"source_items":6,"exception_items":4,"items":10})
 }
 PUBLISHER_OFFICES=(
  "Business Innovation Division","Comptroller Division","Division of International Affairs",
@@ -177,6 +177,16 @@ def validate(root=BASE):
       x["current_canonical_legal_office_identifier"] is None and
       x["independent_adjudicative_or_inspector_general_power_certified"] is False,
       "HHS exception authority incorrectly promoted")
+ for entry,families in ((people,("office_items","timeline_items")),(cover,("source_items","exception_items"))):
+  expected=[(family,record["id"]) for family in families for record in entry[family]]
+  chk(len(entry["items"])==len(expected),"catalog source-pointer count altered")
+  for pointer,(family,record_id) in zip(entry["items"],expected):
+   chk(pointer["record_family"]==family and
+       pointer["source_record_id"]==record_id and
+       pointer["id"]=="INC15C6E-INDEX-"+record_id and
+       pointer["nonadditive_index_pointer_only"] is True and
+       pointer["canonical_institution_id"] is None,
+       "catalog index pointer incorrectly treated as additional legal organization")
  for name,h in (("model/federal/inc15c3-hhs-directory-reconciliation.json","37d06d6341a560a0689654819816e1396624b890"),
                 ("model/federal/inc15c6-hhs-institutional-exception-boundaries.json","3669a7aa2dd04f6b4fe07e916449a1728bb569b7"),
                 ("model/federal/inc15c6d-hhs-historical-source-coverage.json","8de831f4c35723a3457ab51ab6331b3648c995ee")):
