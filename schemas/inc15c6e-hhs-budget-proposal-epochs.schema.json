@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15c6e-hhs-budget-proposal-epochs source-only historical/publisher status",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "department_canonical_id",
+    "source_publisher",
+    "source_family",
+    "approved_lifecycle_states",
+    "source_edition_count",
+    "proposal_records_count",
+    "original_hhs_budget_pdf_bytes_in_git",
+    "original_publisher_pdf_source_access",
+    "official_public_pages_inspected_via_web",
+    "publisher_proposed_reorganization_implementation_status",
+    "independent_effective_date_or_statutory_reorganization_certified",
+    "budget_request_is_authority_instrument",
+    "source_era_reporting_and_budget_levels_are_not_additive",
+    "current_HHS_legal_first_level_denominator",
+    "new_canonical_institutions_created",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6e-hhs-budget-proposal-epochs"
+    },
+    "department_canonical_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "source_publisher": {
+      "const": "U.S. Department of Health and Human Services"
+    },
+    "source_family": {
+      "const": "General Departmental Management Congressional Justifications"
+    },
+    "approved_lifecycle_states": {
+      "const": [
+        "observed_at_publisher",
+        "proposed_not_implemented",
+        "historical_superseded",
+        "implemented_primary_source_qualified",
+        "unresolved"
+      ]
+    },
+    "source_edition_count": {
+      "const": 2
+    },
+    "proposal_records_count": {
+      "const": 6
+    },
+    "original_hhs_budget_pdf_bytes_in_git": {
+      "const": false
+    },
+    "original_publisher_pdf_source_access": {
+      "const": "HTTP_403_in_GitHub_source_runner_both_editions"
+    },
+    "official_public_pages_inspected_via_web": {
+      "const": true
+    },
+    "publisher_proposed_reorganization_implementation_status": {
+      "const": "not_qualified_no_operative_instrument"
+    },
+    "independent_effective_date_or_statutory_reorganization_certified": {
+      "const": false
+    },
+    "budget_request_is_authority_instrument": {
+      "const": false
+    },
+    "source_era_reporting_and_budget_levels_are_not_additive": {
+      "const": true
+    },
+    "current_HHS_legal_first_level_denominator": {
+      "const": null
+    },
+    "new_canonical_institutions_created": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "publisher_fiscal_budget_edition",
+          "source_original_pdf_url",
+          "source_local_document_id",
+          "source_pdf_physical_page",
+          "source_published_period",
+          "source_original_sha256",
+          "source_original_bytes_custodied",
+          "source_public_web_text_verified",
+          "proposal_named_target",
+          "proposal_type",
+          "proposed_component_names",
+          "prior_hhs_index_component_refs",
+          "lifecycle_state",
+          "lifecycle_confidence",
+          "planned_later_publisher_record",
+          "planned_later_relationship",
+          "target_canonical_legal_institution_id",
+          "operative_instrument_url",
+          "independent_effective_date",
+          "enacted_or_implemented_organizational_transfer_verified",
+          "independent_legal_first_level_identification_verified",
+          "adjudicative_case_control_or_statutory_powers_transferred_verified",
+          "departmental_supervisory_command_verified",
+          "current_organizational_office_status_unresolved"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "publisher_fiscal_budget_edition": {
+            "type": "string"
+          },
+          "source_original_pdf_url": {
+            "type": "string"
+          },
+          "source_local_document_id": {
+            "type": "string"
+          },
+          "source_pdf_physical_page": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_published_period": {
+            "type": "string"
+          },
+          "source_original_sha256": {
+            "type": "null"
+          },
+          "source_original_bytes_custodied": {
+            "const": false
+          },
+          "source_public_web_text_verified": {
+            "const": true
+          },
+          "proposal_named_target": {
+            "type": "string"
+          },
+          "proposal_type": {
+            "type": "string"
+          },
+          "proposed_component_names": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "prior_hhs_index_component_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "lifecycle_state": {
+            "enum": [
+              "proposed_not_implemented",
+              "observed_at_publisher",
+              "historical_superseded",
+              "implemented_primary_source_qualified",
+              "unresolved"
+            ]
+          },
+          "lifecycle_confidence": {
+            "type": "string"
+          },
+          "planned_later_publisher_record": {
+            "type": "string"
+          },
+          "planned_later_relationship": {
+            "type": "string"
+          },
+          "target_canonical_legal_institution_id": {
+            "type": "null"
+          },
+          "operative_instrument_url": {
+            "type": "null"
+          },
+          "independent_effective_date": {
+            "type": "null"
+          },
+          "enacted_or_implemented_organizational_transfer_verified": {
+            "const": false
+          },
+          "independent_legal_first_level_identification_verified": {
+            "const": false
+          },
+          "adjudicative_case_control_or_statutory_powers_transferred_verified": {
+            "const": false
+          },
+          "departmental_supervisory_command_verified": {
+            "const": false
+          },
+          "current_organizational_office_status_unresolved": {
+            "const": true
+          }
+        }
+      }
+    }
+  }
+}
