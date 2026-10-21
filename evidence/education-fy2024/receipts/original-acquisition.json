@@ -1,0 +1,52 @@
+{
+  "record_type": "INC15C5-ED-FY2024-APR-OFFICIAL-PDF-ORIGINAL-ACQUISITION",
+  "source_id": "INC15C5-ED-FY2024-APR-CHART",
+  "edition": "FY2024",
+  "publisher": "U.S. Department of Education",
+  "official_publisher_posted_on": "2025-01-15",
+  "attempted_at_utc": "2026-10-21T19:39:45.674Z",
+  "source_allowlist": [
+    "https://www.ed.gov/media/document/fy-2024-annual-agency-performance-report-109331.pdf",
+    "https://www.ed.gov/sites/ed/files/2025-01/FY2024-Annual-Agency-Performance-Report.pdf",
+    "https://files.eric.ed.gov/fulltext/ED673614.pdf"
+  ],
+  "attempts": [
+    {
+      "requested_url": "https://www.ed.gov/media/document/fy-2024-annual-agency-performance-report-109331.pdf",
+      "result": "http_rejected",
+      "reason": "HTTP_403",
+      "redirects": 0,
+      "attempted_at_utc": "2026-10-21T19:39:45.829Z"
+    },
+    {
+      "requested_url": "https://www.ed.gov/sites/ed/files/2025-01/FY2024-Annual-Agency-Performance-Report.pdf",
+      "result": "http_rejected",
+      "reason": "HTTP_403",
+      "redirects": 0,
+      "attempted_at_utc": "2026-10-21T19:39:45.860Z"
+    },
+    {
+      "requested_url": "https://files.eric.ed.gov/fulltext/ED673614.pdf",
+      "result": "received_original_pdf",
+      "reason": "validated_header_eof_and_sha256_transient",
+      "redirects": 0,
+      "attempted_at_utc": "2026-10-21T19:39:46.326Z"
+    }
+  ],
+  "status": "captured_transient_requires_git_custody",
+  "selected_source_url": "https://files.eric.ed.gov/fulltext/ED673614.pdf",
+  "selected_distribution_type": "official_ED_ERIC_repository_reproduction_not_direct_department_url",
+  "original_sha256": "0af9a9f4e11ddce14fffd467317d9e4c531e9931edb43abcb3ddb8e4fa6291b7",
+  "original_byte_count": 5675466,
+  "artifact_relative_path": "originals/sha256/0af9a9f4e11ddce14fffd467317d9e4c531e9931edb43abcb3ddb8e4fa6291b7.pdf",
+  "pdf_header_and_eof_verified": true,
+  "pdf_render_inspected": false,
+  "storage_tier": "temporary_runner_artifact_only",
+  "git_original_custody_verified": false,
+  "independent_worm_custody_verified": false,
+  "extracted_chart_box_count": null,
+  "chart_population_exhaustive_verified": false,
+  "complete_current_ED_first_level_denominator": null,
+  "independent_legal_review_complete": false,
+  "legal_composition_or_command_delegation_verified": false
+}
