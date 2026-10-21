@@ -29,6 +29,10 @@ const baseReceipt=(timestamp)=>({
  original_census_candidates_unchanged:true,current_dhs_first_level_denominator:null,
  independent_legal_review_complete:false,adl1_certified_count:0
 });
+const RECEIPT_FIELDS=Object.keys(baseReceipt("2000-01-01T00:00:00.000Z")).sort();
+const ATTEMPT_FIELDS=Object.keys(attempt("https://www.dhs.gov","http_rejected","HTTP_403","2000-01-01T00:00:00.000Z",0)).sort();
+const closed=(obj,expected)=>obj&&typeof obj==="object"&&!Array.isArray(obj)&&
+ JSON.stringify(Object.keys(obj).sort())===JSON.stringify(expected);
 function fail(message){throw new Error("INC-15C.2 evidence rejected: "+message);}
 async function boundedPdf(response){
  const declared=response.headers.get("content-length");
@@ -109,7 +113,7 @@ export async function captureDhsOriginal({outputDir,fetchImpl=fetch,clock=()=>ne
  return rec;
 }
 export async function verifyDhsReceipt({outputDir,receipt}){
- if(!receipt||receipt.id!=="INC15C2-DHS-FY2024-OFFICIAL-PDF-PROBE"||
+ if(!closed(receipt,RECEIPT_FIELDS)||receipt.id!=="INC15C2-DHS-FY2024-OFFICIAL-PDF-PROBE"||
     receipt.source_id!==SOURCE_ID||
     JSON.stringify(receipt.allowlisted_urls)!==JSON.stringify(DHS_REPORT_URLS)||
     !Array.isArray(receipt.attempts)||receipt.attempts.length<1||
@@ -122,7 +126,7 @@ export async function verifyDhsReceipt({outputDir,receipt}){
     receipt.original_census_candidates_unchanged!==true)fail("missing research-only scope");
  for(let i=0;i<receipt.attempts.length;i++){
   const a=receipt.attempts[i];
-  if(a.requested_official_url!==DHS_REPORT_URLS[i]||
+  if(!closed(a,ATTEMPT_FIELDS)||a.requested_official_url!==DHS_REPORT_URLS[i]||
       !["http_rejected","invalid_response","network_or_validation_failure","received_pdf"].includes(a.result)||
       typeof a.reason!=="string"||!a.reason||
       !Number.isInteger(a.redirect_count)||a.redirect_count<0||a.redirect_count>2)
