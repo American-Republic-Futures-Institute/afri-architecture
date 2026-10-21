@@ -35,10 +35,42 @@ SOURCES = {
         "max_bytes": 35_000_000,
         "required_markers": (),
     },
+    "hhs_oig_chart": {
+        "source_id": "INC15C6-HHS-OIG-OFFICE-CHART-HTML",
+        "url": "https://oig.hhs.gov/about-oig/organization-chart/",
+        "kind": "independent_hhs_oig_organization_chart_html",
+        "source_edition": "HHS_OIG_publisher_observed_2026-10-21_original_no_editional_date_asserted",
+        "extension": ".html", "max_bytes": 12_000_000,
+        "required_markers": ("Organization Chart", "Office of Audit Services"),
+    },
+    "hhs_dab_chart": {
+        "source_id": "INC15C6-HHS-DAB-CHART-HTML",
+        "url": "https://www.hhs.gov/about/agencies/orgchart/dab/index.html",
+        "kind": "hhs_dab_adjudicative_chart_html",
+        "source_edition": "HHS_DAB_publisher_page_last_reviewed_2025-08-21_prior_web_attribution",
+        "extension": ".html", "max_bytes": 12_000_000,
+        "required_markers": ("Departmental Appeals Board", "Administrative Law Judges"),
+    },
+    "hhs_omha_chart": {
+        "source_id": "INC15C6-HHS-OMHA-CHART-HTML",
+        "url": "https://www.hhs.gov/about/agencies/omha/about/organizational-chart/index.html",
+        "kind": "hhs_omha_medicaid_medicare_appeals_chart_html",
+        "source_edition": "HHS_OMHA_publisher_page_last_reviewed_2026-01-12_prior_web_attribution",
+        "extension": ".html", "max_bytes": 12_000_000,
+        "required_markers": ("Office of Medicare Hearings and Appeals", "Chief Administrative Law Judge"),
+    },
+    "hhs_aspr_chart": {
+        "source_id": "INC15C6-HHS-ASPR-OFFICE-CHART-PDF",
+        "url": "https://aspr.hhs.gov/AboutASPR/ProgramOffices/Documents/ASPR-Organizational-Chart.pdf",
+        "kind": "hhs_aspr_organization_chart_pdf_separate_office_population",
+        "source_edition": "HHS_ASPR_pdf_publisher_document_date_to_verify_from_original",
+        "extension": ".pdf", "max_bytes": 35_000_000,
+        "required_markers": (),
+    },
 }
 RECEIPT_VERSION = "inc15c6_publisher_source_probe_v1"
 USER_AGENT = "ARFI-Research-Source-Retention/1.0 (https://arfinstitute.org)"
-DIRECT_HOSTS = {"www.hhs.gov", "hhs.gov"}
+DIRECT_HOSTS = {"www.hhs.gov", "hhs.gov", "oig.hhs.gov", "aspr.hhs.gov"}
 
 
 class SourceFailure(Exception):
@@ -194,7 +226,7 @@ def verify(out: Path):
         data["federal_legal_roster_complete"] is not False or
         data["legal_first_level_denominator"] is not None or
         data["independent_worm_qualification"] is not False or
-        len(data["source_probes"]) != 2
+        len(data["source_probes"]) != len(SOURCES)
     ):
         raise SourceFailure("closed source-receipt contract violated")
     for rec, (key, source) in zip(data["source_probes"], SOURCES.items()):
