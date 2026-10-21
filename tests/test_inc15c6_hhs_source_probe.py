@@ -26,7 +26,7 @@ class HHSProbe(unittest.TestCase):
    self.assertTrue(h.approved_url(source["url"],source))
    for alt in [source["url"].replace("https://","http://"),
                source["url"]+"?edition=2026",source["url"]+"#current",
-               source["url"].replace("www.hhs.gov","www.hhs.gov.evil.org"),
+               source["url"].replace("://","://attacker.",1),
                "https://evil.org/source.html"]:
     self.assertFalse(h.approved_url(alt,source),alt)
  def test_different_editions_and_source_types(self):
