@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15C.5 19 ED FY2024 chart boxes, research only",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "department_id",
+    "branch_id",
+    "prior_canonical_education_crosswalk_id",
+    "prior_govman_department_source_entity_key",
+    "original_source_pdf_path",
+    "official_document_title",
+    "official_document_publisher",
+    "official_report_fiscal_year",
+    "publisher_posting_date",
+    "source_distribution_url",
+    "source_distribution_kind",
+    "source_original_sha256",
+    "source_original_git_blob_sha1",
+    "source_pdf_physical_pages",
+    "physical_pdf_page",
+    "printed_page",
+    "source_figure_title",
+    "source_figure_scope",
+    "source_figure_colored_box_count",
+    "counted_white_house_initiatives_as_one_aggregate_box",
+    "individually_named_footnote_initiatives_outside_figure_box_count",
+    "previously_modeled_census_candidates_reconciled",
+    "previously_unmodeled_figure_labels",
+    "previous_census_candidate_ids_replaced",
+    "publisher_visual_layout_grouping_only",
+    "original_direct_edgov_publisher_bytes_verified",
+    "independently_certified_worm_custody",
+    "chart_visual_inspection_complete",
+    "current_department_first_level_denominator",
+    "independently_qualified_legal_first_level_components",
+    "legal_organizational_certification_complete",
+    "operational_reporting_chain_certified",
+    "inspector_general_command_subordination_inferred",
+    "statutory_delegation_certified",
+    "foreign_quasi_official_govman_entities_promoted_to_ED_offices",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c5-education-fy2024-chart-boxes"
+    },
+    "department_id": {
+      "const": "ORG-FED-EXE-DEP-EDUCATION"
+    },
+    "branch_id": {
+      "const": "BR-FED-EXE"
+    },
+    "prior_canonical_education_crosswalk_id": {
+      "const": "INC15-XWALK-ORG-FED-EXE-DEP-EDUCATION"
+    },
+    "prior_govman_department_source_entity_key": {
+      "const": "GOVMAN-2025-12-31:115"
+    },
+    "original_source_pdf_path": {
+      "const": "evidence/education-fy2024/originals/sha256/0af9a9f4e11ddce14fffd467317d9e4c531e9931edb43abcb3ddb8e4fa6291b7.pdf"
+    },
+    "official_document_title": {
+      "const": "FY 2024 Annual Agency Performance Report"
+    },
+    "official_document_publisher": {
+      "const": "U.S. Department of Education"
+    },
+    "official_report_fiscal_year": {
+      "const": "FY2024"
+    },
+    "publisher_posting_date": {
+      "const": "2025-01-15"
+    },
+    "source_distribution_url": {
+      "const": "https://files.eric.ed.gov/fulltext/ED673614.pdf"
+    },
+    "source_distribution_kind": {
+      "const": "official_ED_ERIC_repository_reproduction_not_direct_department_url"
+    },
+    "source_original_sha256": {
+      "const": "0af9a9f4e11ddce14fffd467317d9e4c531e9931edb43abcb3ddb8e4fa6291b7"
+    },
+    "source_original_git_blob_sha1": {
+      "const": "82eb949fa6b61c4483a188f9e75b3e73a86ae49b"
+    },
+    "source_pdf_physical_pages": {
+      "const": 146
+    },
+    "physical_pdf_page": {
+      "const": 10
+    },
+    "printed_page": {
+      "const": 5
+    },
+    "source_figure_title": {
+      "const": "FY 2024 Organization Structure"
+    },
+    "source_figure_scope": {
+      "const": "Department coordinating structure in fiscal year 2024 (not exhaustive legal institution roster)"
+    },
+    "source_figure_colored_box_count": {
+      "const": 19
+    },
+    "counted_white_house_initiatives_as_one_aggregate_box": {
+      "const": true
+    },
+    "individually_named_footnote_initiatives_outside_figure_box_count": {
+      "const": 5
+    },
+    "previously_modeled_census_candidates_reconciled": {
+      "const": 10
+    },
+    "previously_unmodeled_figure_labels": {
+      "const": 9
+    },
+    "previous_census_candidate_ids_replaced": {
+      "const": 0
+    },
+    "publisher_visual_layout_grouping_only": {
+      "const": true
+    },
+    "original_direct_edgov_publisher_bytes_verified": {
+      "const": false
+    },
+    "independently_certified_worm_custody": {
+      "const": false
+    },
+    "chart_visual_inspection_complete": {
+      "const": true
+    },
+    "current_department_first_level_denominator": {
+      "const": null
+    },
+    "independently_qualified_legal_first_level_components": {
+      "const": 0
+    },
+    "legal_organizational_certification_complete": {
+      "const": false
+    },
+    "operational_reporting_chain_certified": {
+      "const": false
+    },
+    "inspector_general_command_subordination_inferred": {
+      "const": false
+    },
+    "statutory_delegation_certified": {
+      "const": false
+    },
+    "foreign_quasi_official_govman_entities_promoted_to_ED_offices": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 19,
+      "maxItems": 19,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_figure_order",
+          "source_label",
+          "source_box_left_pt",
+          "source_box_top_pt",
+          "source_box_right_pt",
+          "source_box_bottom_pt",
+          "source_physical_pdf_page",
+          "publisher_display_region",
+          "classification",
+          "prior_census_candidate_id",
+          "prior_x12_observation_id",
+          "original_source_govman_entity_id",
+          "source_layout_only_not_operational_reporting",
+          "independent_legal_identity_review_complete",
+          "command_relationship_verified",
+          "statutory_delegation_verified",
+          "current_first_level_organization_verified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_figure_order": {
+            "type": "number",
+            "minimum": 0
+          },
+          "source_label": {
+            "type": "string"
+          },
+          "source_box_left_pt": {
+            "type": "number",
+            "minimum": 0
+          },
+          "source_box_top_pt": {
+            "type": "number",
+            "minimum": 0
+          },
+          "source_box_right_pt": {
+            "type": "number",
+            "minimum": 0
+          },
+          "source_box_bottom_pt": {
+            "type": "number",
+            "minimum": 0
+          },
+          "source_physical_pdf_page": {
+            "const": 10
+          },
+          "publisher_display_region": {
+            "enum": [
+              "secretary_root",
+              "secretary_side_aggregate",
+              "deputy_chart_region",
+              "under_secretary_chart_region",
+              "central_chart_region"
+            ]
+          },
+          "classification": {
+            "enum": [
+              "departmental_leadership_office_label",
+              "publisher_group_label_not_single_organization",
+              "departmental_office_label",
+              "independent_inspector_general_oversight_label"
+            ]
+          },
+          "prior_census_candidate_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "prior_x12_observation_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "original_source_govman_entity_id": {
+            "type": "null"
+          },
+          "source_layout_only_not_operational_reporting": {
+            "const": true
+          },
+          "independent_legal_identity_review_complete": {
+            "const": false
+          },
+          "command_relationship_verified": {
+            "const": false
+          },
+          "statutory_delegation_verified": {
+            "const": false
+          },
+          "current_first_level_organization_verified": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
