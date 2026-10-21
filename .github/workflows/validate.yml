@@ -48,6 +48,10 @@ jobs:
         run: node --test tests/inc15c1.test.mjs
       - name: Test INC-15C.2 exact official PDF allowlist, transient receipts and fail-closed source verification
         run: node --test tests/inc15c2-dhs-acquisition.test.mjs
+      - name: Verify actual original DHS report SHA-256, Git blob and all 34 chart source boxes
+        run: node scripts/validate-inc15c2.mjs
+      - name: Reject altered publisher bytes, unverified identities, legal authority and false WORM custody
+        run: node --test tests/inc15c2-chart.test.mjs
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
