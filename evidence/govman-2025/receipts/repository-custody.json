@@ -1,0 +1,17 @@
+{
+  "record_type": "inc15d_govman_2025_repository_original_custody",
+  "publisher_package": "GOVMAN-2025-12-31",
+  "source_publication_date": "2025-12-31",
+  "retrieval_artifact_id": 12372126121,
+  "retrieval_workflow_run_id": 39655760881,
+  "original_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+  "original_byte_count": 8138096,
+  "git_blob_sha1": "195c46a67c87ae85f1dedd423250900f119a041a",
+  "git_repository_original_path": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml",
+  "source_entries_parsed_at_promotion": 231,
+  "publisher_entry_count_legal_institution_denominator": false,
+  "independent_worm_custody_verified": false,
+  "human_legal_review_complete": false,
+  "current_first_level_denominator": null,
+  "operational_command_or_delegation_certified": false
+}
