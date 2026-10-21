@@ -295,7 +295,11 @@
     "model/federal/inc15b-source-partitions.json",
     "model/federal/inc15c1-dhs-source-reconciliation.json",
     "model/federal/inc15c2-dhs-chart-boxes.json",
-    "model/federal/inc15c3-hhs-directory-reconciliation.json"
+    "model/federal/inc15c3-hhs-directory-reconciliation.json",
+    "model/federal/inc15d-govman-2025-curated-links.json",
+    "model/federal/inc15d-govman-2025-directory.json",
+    "model/federal/inc15d-govman-2025-crosswalk.json",
+    "model/federal/inc15d-govman-2025-coverage.json"
   ],
   "standards": [
     {
@@ -1102,5 +1106,27 @@
     "current_legal_first_level_department_denominator": null,
     "independent_legal_review_complete": false,
     "adl1_certified_count": 0
+  },
+  "federal_institutional_breadth_15d_extension": {
+    "id": "ARFI-FED-INC15D-2025-GOVMAN-SOURCE-EDITION",
+    "source_edition": "GOVMAN-2025-12-31",
+    "original_source_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+    "original_git_blob_sha1": "195c46a67c87ae85f1dedd423250900f119a041a",
+    "original_byte_count": 8138096,
+    "original_bytes_retained_in_git": true,
+    "independent_worm_custody_verified": false,
+    "publisher_entry_population": 231,
+    "publisher_top_level_entity_entries": 105,
+    "publisher_category_partitions": 7,
+    "cabinet_department_publisher_subtrees": 15,
+    "provisional_canonical_name_links": 50,
+    "unresolved_or_external_publisher_entries": 181,
+    "source_complete_within_this_publisher_edition": true,
+    "current_whole_federal_legal_institution_denominator": null,
+    "current_first_level_institution_denominator": null,
+    "independent_legal_review_complete": false,
+    "legal_command_delegation_or_budget_authority_certified": false,
+    "nonadditive_against_all_other_source_editions": true,
+    "research_status": "source_original_custodied_publisher_directory_descriptive_only_unratified"
   }
 }
