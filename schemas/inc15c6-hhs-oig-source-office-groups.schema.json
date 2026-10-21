@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15c6-hhs-oig-source-office-groups unratified source-bounded original publisher record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "department_canonical_id",
+    "hhs_prior_oig_source_reference",
+    "hhs_prior_oig_legacy_reference",
+    "source_scope",
+    "source_html_original_path",
+    "source_html_sha256",
+    "source_html_git_blob_sha1",
+    "source_html_edition",
+    "source_html_acquired_in_run",
+    "source_pdf_original_path",
+    "source_pdf_sha256",
+    "source_pdf_git_blob_sha1",
+    "source_pdf_as_of_date",
+    "source_pdf_physical_page",
+    "publisher_html_office_group_count",
+    "pdf_chief_role_column_count",
+    "source_roles_are_distinct_from_organizational_offices",
+    "same_effective_date_as_html_unverified",
+    "independent_hhs_legal_office_roster_denominator",
+    "current_hhs_first_level_denominator",
+    "oversight_reporting_authority_certified",
+    "signed_delegation_certified",
+    "legal_identity_certified_count",
+    "independent_human_review_complete",
+    "source_only_research",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6-hhs-oig-source-office-groups"
+    },
+    "department_canonical_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "hhs_prior_oig_source_reference": {
+      "const": "INC15C3-HHS-LINK-OIG"
+    },
+    "hhs_prior_oig_legacy_reference": {
+      "const": "ARCH04B-HHS-OIG"
+    },
+    "source_scope": {
+      "const": "OIG_internal_publisher_office_headings_and_separate_2025_pdf_role_columns_not_full_HHS_directory"
+    },
+    "source_html_original_path": {
+      "const": "evidence/hhs-oig-2025/originals/hhs_oig_chart/sha256/97fd0513471e013ee8de2534f81184621c7babb7bf2f1d3181f935df275300a6.html"
+    },
+    "source_html_sha256": {
+      "const": "97fd0513471e013ee8de2534f81184621c7babb7bf2f1d3181f935df275300a6"
+    },
+    "source_html_git_blob_sha1": {
+      "const": "5e4281689da34a32add7adc6f522f276bb11fef7"
+    },
+    "source_html_edition": {
+      "const": "retrieval_observation_unqualified_as_of_date"
+    },
+    "source_html_acquired_in_run": {
+      "const": 39668188500
+    },
+    "source_pdf_original_path": {
+      "const": "evidence/hhs-oig-2025/originals/hhs_oig_2025_pdf/sha256/068fa03980a4add3be412750ce63b0cc435c3d77f54a1153347b19e1200dc3ea.pdf"
+    },
+    "source_pdf_sha256": {
+      "const": "068fa03980a4add3be412750ce63b0cc435c3d77f54a1153347b19e1200dc3ea"
+    },
+    "source_pdf_git_blob_sha1": {
+      "const": "56504a9092deb5d7b44c8c3e6261e11d5a7e8fd8"
+    },
+    "source_pdf_as_of_date": {
+      "const": "2025-12-23"
+    },
+    "source_pdf_physical_page": {
+      "const": 1
+    },
+    "publisher_html_office_group_count": {
+      "const": 6
+    },
+    "pdf_chief_role_column_count": {
+      "const": 6
+    },
+    "source_roles_are_distinct_from_organizational_offices": {
+      "const": true
+    },
+    "same_effective_date_as_html_unverified": {
+      "const": true
+    },
+    "independent_hhs_legal_office_roster_denominator": {
+      "const": null
+    },
+    "current_hhs_first_level_denominator": {
+      "const": null
+    },
+    "oversight_reporting_authority_certified": {
+      "const": false
+    },
+    "signed_delegation_certified": {
+      "const": false
+    },
+    "legal_identity_certified_count": {
+      "const": 0
+    },
+    "independent_human_review_complete": {
+      "const": false
+    },
+    "source_only_research": {
+      "const": true
+    },
+    "items": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_html_office_heading",
+          "source_html_h2_anchor_id",
+          "source_html_display_order",
+          "source_pdf_related_column_heading",
+          "source_pdf_column_order",
+          "office_reference_parent_source_id",
+          "canonical_oig_suborganization_id",
+          "source_html_publisher_office_group",
+          "source_pdf_heading_classification",
+          "candidate_same_office_family_not_independently_qualified",
+          "official_org_chart_implies_signed_control",
+          "oversight_independence_legal_review_complete",
+          "current_staffing_verified",
+          "operational_command_or_fiscal_delegation_verified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_html_office_heading": {
+            "type": "string"
+          },
+          "source_html_h2_anchor_id": {
+            "type": "string"
+          },
+          "source_html_display_order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "source_pdf_related_column_heading": {
+            "type": "string"
+          },
+          "source_pdf_column_order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "office_reference_parent_source_id": {
+            "type": "string"
+          },
+          "canonical_oig_suborganization_id": {
+            "type": "null"
+          },
+          "source_html_publisher_office_group": {
+            "const": true
+          },
+          "source_pdf_heading_classification": {
+            "const": "leadership_position_column_not_independent_institution"
+          },
+          "candidate_same_office_family_not_independently_qualified": {
+            "const": true
+          },
+          "official_org_chart_implies_signed_control": {
+            "const": false
+          },
+          "oversight_independence_legal_review_complete": {
+            "const": false
+          },
+          "current_staffing_verified": {
+            "const": false
+          },
+          "operational_command_or_fiscal_delegation_verified": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
