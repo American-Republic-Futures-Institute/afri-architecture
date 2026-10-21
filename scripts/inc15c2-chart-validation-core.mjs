@@ -54,6 +54,8 @@ const ROOT_FIELDS=Object.freeze(["model_version","model_family","source_id","sou
 const BOX_FIELDS=Object.freeze(["id","type","figure_order","chart_label","chart_legend_class","printed_page","physical_pdf_page","box_top_left_x_pt","box_top_left_y_pt","contains_multiple_office_titles","source_footnote_marker","prior_inc15c1_candidate_id","prior_inc12_observation_id","prior_descriptive_relation_id","source_only_unratified_candidate","independent_oversight_exception","conditional_coast_guard_military_placement","source_descriptive_chart_placement_only","current_authority_verified","operational_command_verified","statutory_delegation_verified","independent_legal_review_complete","adl1_certified"]);
 const GIT_RECEIPT_FIELDS=Object.freeze(["id","publisher_url","source_edition","claimed_published_on","captured_at_utc","original_pdf_sha256","original_pdf_byte_count","original_pdf_git_blob_sha","original_repository_path","storage_tier","independent_WORM_custody_verified","source_page_24_independently_reviewed","current_first_level_DHS_denominator","legal_review_complete","adl1_certified_count"]);
 const TRANSIENT_RECEIPT_FIELDS=Object.freeze(["id","source_id","source_edition","original_published_on","attempted_at_utc","allowlisted_urls","attempts","status","acquired_url","original_sha256","original_byte_count","artifact_relative_path","storage_tier","independent_durable_custody_verified","original_pdf_page_24_inspected","full_chart_population_reconciled","original_census_candidates_unchanged","current_dhs_first_level_denominator","independent_legal_review_complete","adl1_certified_count"]);
+const EXPECTED_BOX_IDS=Object.freeze(["INC15C2-BOX-01-EXECUTIVE-SECRETARY","INC15C2-BOX-02-SECRETARY-DEPUTY-SECRETARY","INC15C2-BOX-03-CHIEF-OF-STAFF","INC15C2-BOX-04-MILITARY-ADVISOR","INC15C2-BOX-05-COUNTERTERRORISM-COORDINATOR","INC15C2-BOX-06-CIVIL-RIGHTS-CIVIL-LIBERTIES","INC15C2-BOX-07-GENERAL-COUNSEL","INC15C2-BOX-08-LEGISLATIVE-AFFAIRS","INC15C2-BOX-09-PARTNERSHIP-ENGAGEMENT","INC15C2-BOX-10-PRIVACY-OFFICE","INC15C2-BOX-11-PUBLIC-AFFAIRS","INC15C2-BOX-12-STRATEGY-POLICY-PLANS","INC15C2-BOX-13-STATE-LOCAL-LAW-ENFORCEMENT","INC15C2-BOX-14-FLETC","INC15C2-BOX-15-SCIENCE-TECHNOLOGY","INC15C2-BOX-16-CWMD","INC15C2-BOX-17-INTELLIGENCE-ANALYSIS","INC15C2-BOX-18-OIG","INC15C2-BOX-19-MANAGEMENT-DIRECTORATE","INC15C2-BOX-20-SITUATIONAL-AWARENESS","INC15C2-BOX-21-OFFICE-HEALTH-SECURITY","INC15C2-BOX-22-IMMIGRATION-DETENTION-OMBUDSMAN","INC15C2-BOX-23-CITIZENSHIP-IMMIGRATION-OMBUDSMAN","INC15C2-BOX-24-CHIEF-FINANCIAL-OFFICER","INC15C2-BOX-25-CBP","INC15C2-BOX-26-CISA","INC15C2-BOX-27-FEMA","INC15C2-BOX-28-ICE","INC15C2-BOX-29-CHIEF-INFORMATION-OFFICER","INC15C2-BOX-30-FEDERAL-PROTECTIVE-SERVICE","INC15C2-BOX-31-TSA","INC15C2-BOX-32-USCG","INC15C2-BOX-33-USCIS","INC15C2-BOX-34-USSS"]);
+const RETRIEVAL_UTC="2026-10-21T01:18:06.338Z";
 const error=message=>{throw new Error("INC-15C.2 chart rejected: "+message);};
 const check=(ok,message)=>{if(!ok)error(message);};
 const eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
@@ -148,7 +150,7 @@ export function validateINC15C2(d){
   model.source_original_git_path===ORIGINAL_PATH&&
   model.source_original_bytes===ORIGINAL_BYTES&&
   model.captured_official_url===OFFICIAL_URL&&
-  model.source_retrieved_at_utc===gitReceipt.captured_at_utc&&
+  model.source_retrieved_at_utc===RETRIEVAL_UTC&&gitReceipt.captured_at_utc===RETRIEVAL_UTC&&
   model.source_claimed_publication_date==="2025-01-17"&&
   model.pdf_metadata_creation_utc==="2025-01-16T13:57:53Z"&&
   model.pdf_metadata_modified_utc==="2025-02-04T13:53:52Z"&&
@@ -183,7 +185,7 @@ export function validateINC15C2(d){
   check(typeof m.id==="string"&&!seenIds.has(m.id)&&
    m.figure_order===i+1&&
    m.type==="source_bounded_pdf_org_chart_box"&&
-   m.id.startsWith("INC15C2-BOX-"+String(i+1).padStart(2,"0")+"-")&&
+   m.id===EXPECTED_BOX_IDS[i]&&
    m.chart_label===e[0]&&m.chart_legend_class===e[1]&&
    m.box_top_left_x_pt===e[2]&&m.box_top_left_y_pt===e[3]&&
    m.printed_page===24&&m.physical_pdf_page===24&&
