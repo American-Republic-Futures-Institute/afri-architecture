@@ -299,7 +299,8 @@
     "model/federal/inc15d-govman-2025-curated-links.json",
     "model/federal/inc15d-govman-2025-directory.json",
     "model/federal/inc15d-govman-2025-crosswalk.json",
-    "model/federal/inc15d-govman-2025-coverage.json"
+    "model/federal/inc15d-govman-2025-coverage.json",
+    "model/federal/inc15c4-hhs-dual-edition-crosswalk.json"
   ],
   "standards": [
     {
@@ -1128,5 +1129,22 @@
     "legal_command_delegation_or_budget_authority_certified": false,
     "nonadditive_against_all_other_source_editions": true,
     "research_status": "source_original_custodied_publisher_directory_descriptive_only_unratified"
+  },
+  "federal_institutional_breadth_15c4_extension": {
+    "id": "ARFI-FED-INC15C4-HHS-SOURCE-OVERLAP",
+    "hhs_publisher_index_edition": "site_content_reviewed_2025-08-21",
+    "govman_2025_edition": "GOVMAN-2025-12-31",
+    "hhs_index_linked_names": 29,
+    "govman_2025_hhs_linked_names": 11,
+    "provisional_publisher_name_pairs": 11,
+    "hhs_index_only_residual": 18,
+    "govman_only_residual": 0,
+    "independently_certified_pairs": 0,
+    "cross_publisher_identity_certified": false,
+    "independent_html_custody_complete": false,
+    "current_first_level_denominator": null,
+    "authority_certified": false,
+    "legally_qualified_reporting_lines": 0,
+    "research_status": "historical_nonadditive_source_name_overlap_no_legal_certification"
   }
 }
