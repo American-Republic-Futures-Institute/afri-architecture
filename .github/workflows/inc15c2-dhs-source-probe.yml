@@ -20,14 +20,14 @@ jobs:
       - name: Test official source allowlist, PDF byte integrity and false custody defenses
         run: node --test tests/inc15c2-dhs-acquisition.test.mjs
       - name: Read-only attempt at exact official DHS PDF editions
-        run: node scripts/inc15c2-dhs-original.mjs probe "$GITHUB_WORKSPACE/.inc15c2-run"
+        run: node scripts/inc15c2-dhs-original.mjs probe "$GITHUB_WORKSPACE/inc15c2-run"
       - name: Verify actual attempt receipt and retained bytes, when present
-        run: node scripts/inc15c2-dhs-original.mjs verify "$GITHUB_WORKSPACE/.inc15c2-run"
+        run: node scripts/inc15c2-dhs-original.mjs verify "$GITHUB_WORKSPACE/inc15c2-run"
       - name: Preserve transient acquisition attempt and captured PDF, if any
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: inc15c2-dhs-official-original-attempt
-          path: .inc15c2-run/
+          path: inc15c2-run/
           if-no-files-found: error
           retention-days: 30
