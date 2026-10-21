@@ -5,7 +5,7 @@ import {loadINC15C1,validateINC15C1,SOURCE_PIN} from "../scripts/inc15c1-validat
 
 const duplicate=x=>structuredClone(x);
 const load=()=>loadINC15C1();
-const ids=d=>d.model.observations;
+const ids=d=>d.model.items;
 const record=(d,suffix)=>ids(d).find(x=>x.source_candidate_id==="CENSUS-COMP-DHS-"+suffix);
 const exception=(d,suffix)=>d.model.exceptions.find(x=>x.id==="INC15C1-"+suffix);
 const ext=d=>d.manifest.federal_institutional_breadth_15c1_extension;
@@ -72,7 +72,7 @@ for(const [label,mutate] of [
  ["extra untyped source-model field",d=>ids(d)[0].executed_UCP_directive=true],
  ["schema and observed record jointly authorize added command",d=>{
   ids(d)[0].signed_military_command=true;
-  const p=d.schema.properties.observations.items;
+  const p=d.schema.properties.items.items;
   p.required.push("signed_military_command");
   p.properties.signed_military_command={type:"boolean"};
  }],
