@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15c6-hhs-institutional-exception-boundaries unratified source-bounded original publisher record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "department_canonical_id",
+    "prior_hhs_index_model_path",
+    "prior_hhs_index_git_blob_sha1",
+    "prior_cross_edition_model_path",
+    "prior_cross_edition_git_blob_sha1",
+    "prior_legal_identity_model_path",
+    "prior_legal_identity_model_git_blob_sha1",
+    "oig_original_html_sha256",
+    "oig_original_chart_pdf_sha256",
+    "hhs_indexed_name_population",
+    "edition_local_govman_hhs_subentries",
+    "oig_publisher_internal_office_groups",
+    "exceptional_index_source_records",
+    "cross_population_additivity_authorized",
+    "govman_hhs_entries_absence_is_nonexistence_proof",
+    "whole_hhs_current_first_level_legal_denominator",
+    "independent_legal_classification_complete",
+    "newly_minted_canonical_institution_ids",
+    "legal_reporting_command_authority_certified_count",
+    "statutory_independence_or_adjudication_jurisdiction_certified_count",
+    "intra_hhs_adjudicative_appeal_or_review_edges_certified_count",
+    "current_official_page_original_custody_complete",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6-hhs-institutional-exception-boundaries"
+    },
+    "department_canonical_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "prior_hhs_index_model_path": {
+      "const": "model/federal/inc15c3-hhs-directory-reconciliation.json"
+    },
+    "prior_hhs_index_git_blob_sha1": {
+      "const": "37d06d6341a560a0689654819816e1396624b890"
+    },
+    "prior_cross_edition_model_path": {
+      "const": "model/federal/inc15c4-hhs-dual-edition-crosswalk.json"
+    },
+    "prior_cross_edition_git_blob_sha1": {
+      "const": "013229fc94e60109a629d02944f1d642914ee323"
+    },
+    "prior_legal_identity_model_path": {
+      "const": "model/federal/archive04b/hhs-source-entries.json"
+    },
+    "prior_legal_identity_model_git_blob_sha1": {
+      "const": "ae6b4eeb6962f4bf3ee3fc439e1f07c0ba2ecbfd"
+    },
+    "oig_original_html_sha256": {
+      "const": "97fd0513471e013ee8de2534f81184621c7babb7bf2f1d3181f935df275300a6"
+    },
+    "oig_original_chart_pdf_sha256": {
+      "const": "068fa03980a4add3be412750ce63b0cc435c3d77f54a1153347b19e1200dc3ea"
+    },
+    "hhs_indexed_name_population": {
+      "const": 29
+    },
+    "edition_local_govman_hhs_subentries": {
+      "const": 11
+    },
+    "oig_publisher_internal_office_groups": {
+      "const": 6
+    },
+    "exceptional_index_source_records": {
+      "const": 4
+    },
+    "cross_population_additivity_authorized": {
+      "const": false
+    },
+    "govman_hhs_entries_absence_is_nonexistence_proof": {
+      "const": false
+    },
+    "whole_hhs_current_first_level_legal_denominator": {
+      "const": null
+    },
+    "independent_legal_classification_complete": {
+      "const": false
+    },
+    "newly_minted_canonical_institution_ids": {
+      "const": 0
+    },
+    "legal_reporting_command_authority_certified_count": {
+      "const": 0
+    },
+    "statutory_independence_or_adjudication_jurisdiction_certified_count": {
+      "const": 0
+    },
+    "intra_hhs_adjudicative_appeal_or_review_edges_certified_count": {
+      "const": 0
+    },
+    "current_official_page_original_custody_complete": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "prior_inc15c3_index_source_id",
+          "prior_arch04b_source_id",
+          "hhs_publisher_index_label",
+          "hhs_index_source_research_kind",
+          "descriptive_architecture_boundary",
+          "related_official_component_page_url",
+          "independent_component_page_raw_original_retained",
+          "department_index_html_raw_original_retained",
+          "source_custody_qualification",
+          "prior_govman_2025_hhs_subentry_matched",
+          "current_first_level_legal_institution_verified",
+          "judicial_or_administrative_adjudication_jurisdiction_certified",
+          "independent_inspector_general_statutory_review_complete",
+          "sworn_officer_or_fiscal_command_verified",
+          "signed_delegated_authority_verified",
+          "current_operational_reporting_verified",
+          "source_descriptive_only_not_policy_model"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "prior_inc15c3_index_source_id": {
+            "type": "string"
+          },
+          "prior_arch04b_source_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "hhs_publisher_index_label": {
+            "type": "string"
+          },
+          "hhs_index_source_research_kind": {
+            "type": "string"
+          },
+          "descriptive_architecture_boundary": {
+            "enum": [
+              "special_health_research_agency_source_identity_pending_legal_qualification",
+              "administrative_adjudication_proceedings_boundary",
+              "inspector_general_audit_inspection_and_investigation_boundary",
+              "medicare_administrative_hearing_boundary"
+            ]
+          },
+          "related_official_component_page_url": {
+            "type": "string"
+          },
+          "independent_component_page_raw_original_retained": {
+            "type": "boolean"
+          },
+          "department_index_html_raw_original_retained": {
+            "const": false
+          },
+          "source_custody_qualification": {
+            "enum": [
+              "dated_pdf_plus_unversioned_html_oig_originals_git_custodied",
+              "published_public_locator_only_no_original_component_page_bytes"
+            ]
+          },
+          "prior_govman_2025_hhs_subentry_matched": {
+            "const": false
+          },
+          "current_first_level_legal_institution_verified": {
+            "const": false
+          },
+          "judicial_or_administrative_adjudication_jurisdiction_certified": {
+            "const": false
+          },
+          "independent_inspector_general_statutory_review_complete": {
+            "const": false
+          },
+          "sworn_officer_or_fiscal_command_verified": {
+            "const": false
+          },
+          "signed_delegated_authority_verified": {
+            "const": false
+          },
+          "current_operational_reporting_verified": {
+            "const": false
+          },
+          "source_descriptive_only_not_policy_model": {
+            "const": true
+          }
+        }
+      }
+    }
+  }
+}
