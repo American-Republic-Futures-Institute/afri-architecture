@@ -64,6 +64,12 @@ for(const [name,mutate] of [
  ["source PDF physical page changed",d=>d.model.physical_pdf_page_number=25],
  ["source observation row missing",d=>d.model.items.pop()],
  ["duplicate first chart box inserted",d=>d.model.items[1].id=d.model.items[0].id],
+ ["plausible but invented source chart box identifier",d=>d.model.items[0].id="INC15C2-BOX-01-FAKE-SECRETARY"],
+ ["jointly rewritten Git receipt and schema source observation date",d=>{
+  d.gitReceipt.captured_at_utc="2026-10-22T00:00:00Z";
+  d.model.source_retrieved_at_utc="2026-10-22T00:00:00Z";
+  d.schema.properties.source_retrieved_at_utc.const="2026-10-22T00:00:00Z";
+ }],
  ["source chart row positions reordered",d=>d.model.items.reverse()],
  ["newly invented off-chart office",d=>d.model.items[10].chart_label="Office of Nonexistent Authority"],
  ["chart color classification changed",d=>d.model.items[0].chart_legend_class="operational_component"],
