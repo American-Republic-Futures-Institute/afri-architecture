@@ -76,6 +76,10 @@ jobs:
         run: node scripts/validate-inc15c5-chart.mjs
       - name: Reject INC-15C.5 source chart tampering, invented reporting, IG command and current legal census
         run: node --test tests/inc15c5-education-chart.test.mjs
+      - name: Verify retained HHS OIG December 2025 original HTML PDF and blocked wider publisher claims
+        run: node scripts/validate-inc15c6-oig-original.mjs
+      - name: Reject altered HHS OIG original, false DAB or OMHA custody and inflated legal office identities
+        run: node --test tests/inc15c6-hhs-oig-custody.test.mjs
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
