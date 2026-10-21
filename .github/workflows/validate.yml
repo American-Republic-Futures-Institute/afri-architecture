@@ -80,6 +80,10 @@ jobs:
         run: node scripts/validate-inc15c6-oig-original.mjs
       - name: Reject altered HHS OIG original, false DAB or OMHA custody and inflated legal office identities
         run: node --test tests/inc15c6-hhs-oig-custody.test.mjs
+      - name: Validate INC-15C.6 source-backed six OIG groups and four HHS special institutional boundaries
+        run: node scripts/validate-inc15c6-model.mjs
+      - name: Test INC-15C.6 HHS original and statutory boundary protection against adversarial source/model promotion
+        run: node --test tests/inc15c6-hhs-model.test.mjs
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
