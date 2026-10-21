@@ -1,0 +1,22 @@
+{
+  "id": "INC15D-GOVMAN-2025-FULL-ISSUE-XML",
+  "package_id": "GOVMAN-2025-12-31",
+  "official_source_url": "https://www.govinfo.gov/content/pkg/GOVMAN-2025-12-31/xml/GOVMAN-2025-12-31.xml",
+  "publication_date": "2025-12-31",
+  "retrieval_attempt_at_utc": "2026-10-21T18:46:52.330Z",
+  "final_source_url": "https://www.govinfo.gov/content/pkg/GOVMAN-2025-12-31/xml/GOVMAN-2025-12-31.xml",
+  "media_type": "application/xml",
+  "status": "captured_transient_pending_repository_and_independent_custody",
+  "failure_reason": null,
+  "original_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+  "original_byte_count": 8138096,
+  "original_relative_path": "originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml",
+  "source_storage_tier": "temporary_runner_artifact_only",
+  "independent_durable_custody_verified": false,
+  "published_directory_extracted": false,
+  "source_observation_count": null,
+  "canonical_identity_crosswalk_reviewed": false,
+  "whole_federal_legal_institution_denominator": null,
+  "current_first_level_institution_denominator": null,
+  "any_legal_or_command_authority_certified": false
+}
