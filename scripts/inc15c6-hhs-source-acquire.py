@@ -43,6 +43,14 @@ SOURCES = {
         "extension": ".html", "max_bytes": 12_000_000,
         "required_markers": ("Organization Chart", "Office of Audit Services"),
     },
+    "hhs_oig_2025_pdf": {
+        "source_id": "INC15C6-HHS-OIG-CHART-2025-PDF",
+        "url": "https://oig.hhs.gov/documents/root/9810/2025-oig-org-chart-web.pdf",
+        "kind": "official_hhs_oig_dated_2025_12_23_chart_pdf",
+        "source_edition": "HHS_OIG_org_chart_as_of_2025-12-23_as_printed",
+        "extension": ".pdf", "max_bytes": 35_000_000,
+        "required_markers": (),
+    },
     "hhs_dab_chart": {
         "source_id": "INC15C6-HHS-DAB-CHART-HTML",
         "url": "https://www.hhs.gov/about/agencies/orgchart/dab/index.html",
