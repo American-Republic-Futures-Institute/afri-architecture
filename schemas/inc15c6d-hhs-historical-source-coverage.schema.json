@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15c6d-hhs-historical-source-coverage bounded unratified original-publication research",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "department_canonical_id",
+    "predecessor_hhs_index_name_records",
+    "predecessor_govman_2025_hhs_subentries",
+    "predecessor_oig_internal_publisher_groups",
+    "historical_hhs_exception_source_references",
+    "five_original_pdf_source_editions",
+    "historical_publisher_research_observations",
+    "current_hhs_legal_first_level_denominator",
+    "source_scoped_populations_not_additive",
+    "retained_originals_not_canonical_legal_structure_certification",
+    "exact_historical_as_of_dates_cannot_be_used_as_current",
+    "independent_verified_legal_identities_created",
+    "cross_institution_adjudicative_edges_certified",
+    "executed_arpah_eight_office_plan_certified",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6d-hhs-historical-source-coverage-register"
+    },
+    "department_canonical_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "predecessor_hhs_index_name_records": {
+      "const": 29
+    },
+    "predecessor_govman_2025_hhs_subentries": {
+      "const": 11
+    },
+    "predecessor_oig_internal_publisher_groups": {
+      "const": 6
+    },
+    "historical_hhs_exception_source_references": {
+      "const": 4
+    },
+    "five_original_pdf_source_editions": {
+      "const": 5
+    },
+    "historical_publisher_research_observations": {
+      "const": 34
+    },
+    "current_hhs_legal_first_level_denominator": {
+      "const": null
+    },
+    "source_scoped_populations_not_additive": {
+      "const": true
+    },
+    "retained_originals_not_canonical_legal_structure_certification": {
+      "const": true
+    },
+    "exact_historical_as_of_dates_cannot_be_used_as_current": {
+      "const": true
+    },
+    "independent_verified_legal_identities_created": {
+      "const": 0
+    },
+    "cross_institution_adjudicative_edges_certified": {
+      "const": 0
+    },
+    "executed_arpah_eight_office_plan_certified": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_key",
+          "source_subject",
+          "publisher_historical_edition",
+          "source_scoped_observation_count",
+          "observed_population_scope",
+          "prior_hhs_exception_reference",
+          "retained_original_verified_in_git",
+          "current_organizational_denominator",
+          "no_addition_across_different_editions",
+          "all_reported_labels_legally_qualified",
+          "current_mission_or_adjudicative_authority_certified",
+          "independently_confirmed_2026_structure"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_key": {
+            "type": "string"
+          },
+          "source_subject": {
+            "type": "string"
+          },
+          "publisher_historical_edition": {
+            "type": "string"
+          },
+          "source_scoped_observation_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "observed_population_scope": {
+            "type": "string"
+          },
+          "prior_hhs_exception_reference": {
+            "type": "string"
+          },
+          "retained_original_verified_in_git": {
+            "const": true
+          },
+          "current_organizational_denominator": {
+            "type": "null"
+          },
+          "no_addition_across_different_editions": {
+            "const": true
+          },
+          "all_reported_labels_legally_qualified": {
+            "const": false
+          },
+          "current_mission_or_adjudicative_authority_certified": {
+            "const": false
+          },
+          "independently_confirmed_2026_structure": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

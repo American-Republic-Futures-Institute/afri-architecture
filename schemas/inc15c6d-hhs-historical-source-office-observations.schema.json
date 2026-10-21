@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15c6d-hhs-historical-source-office-observations bounded unratified original-publication research",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "department_canonical_id",
+    "historical_official_notices",
+    "source_observation_count",
+    "notice_distribution",
+    "source_coverage_scope",
+    "cross_edition_counts_nonadditive",
+    "existing_hhs_index_names",
+    "existing_govman_2025_hhs_entries",
+    "existing_oig_internal_office_groups",
+    "hhs_current_legal_first_level_denominator",
+    "current_legal_identifications_certified",
+    "current_adjudicative_or_appeal_jurisdiction_certified",
+    "signed_delegation_or_operational_command_certified",
+    "new_canonical_institution_ids_minted",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6d-hhs-historical-source-office-observations"
+    },
+    "department_canonical_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "historical_official_notices": {
+      "const": 4
+    },
+    "source_observation_count": {
+      "const": 19
+    },
+    "notice_distribution": {
+      "const": "govinfo_original_pdf_document_specific_not_entire_federal_register_issue"
+    },
+    "source_coverage_scope": {
+      "const": "selected_explicit_org_structure_labels_in_notices_not_exhaustive_census"
+    },
+    "cross_edition_counts_nonadditive": {
+      "const": true
+    },
+    "existing_hhs_index_names": {
+      "const": 29
+    },
+    "existing_govman_2025_hhs_entries": {
+      "const": 11
+    },
+    "existing_oig_internal_office_groups": {
+      "const": 6
+    },
+    "hhs_current_legal_first_level_denominator": {
+      "const": null
+    },
+    "current_legal_identifications_certified": {
+      "const": 0
+    },
+    "current_adjudicative_or_appeal_jurisdiction_certified": {
+      "const": 0
+    },
+    "signed_delegation_or_operational_command_certified": {
+      "const": 0
+    },
+    "new_canonical_institution_ids_minted": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 19,
+      "maxItems": 19,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_key",
+          "source_edition",
+          "source_original_sha256",
+          "source_original_pdf_path",
+          "source_pdf_physical_page",
+          "source_label",
+          "source_record_kind",
+          "edition_local_parent_heading",
+          "prior_hhs_exception_reference",
+          "source_locator_type",
+          "original_hhs_index_name_replaced",
+          "canonical_office_id",
+          "present_day_office_exists_verified",
+          "complete_edition_internal_roster_certified",
+          "statutory_or_adjudication_authority_certified",
+          "operational_supervision_certified",
+          "office_name_source_evidence_only"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_key": {
+            "type": "string"
+          },
+          "source_edition": {
+            "type": "string"
+          },
+          "source_original_sha256": {
+            "type": "string"
+          },
+          "source_original_pdf_path": {
+            "type": "string"
+          },
+          "source_pdf_physical_page": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_label": {
+            "type": "string"
+          },
+          "source_record_kind": {
+            "type": "string"
+          },
+          "edition_local_parent_heading": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "prior_hhs_exception_reference": {
+            "type": "string"
+          },
+          "source_locator_type": {
+            "type": "string"
+          },
+          "original_hhs_index_name_replaced": {
+            "const": false
+          },
+          "canonical_office_id": {
+            "type": "null"
+          },
+          "present_day_office_exists_verified": {
+            "const": false
+          },
+          "complete_edition_internal_roster_certified": {
+            "const": false
+          },
+          "statutory_or_adjudication_authority_certified": {
+            "const": false
+          },
+          "operational_supervision_certified": {
+            "const": false
+          },
+          "office_name_source_evidence_only": {
+            "const": true
+          }
+        }
+      }
+    }
+  }
+}
