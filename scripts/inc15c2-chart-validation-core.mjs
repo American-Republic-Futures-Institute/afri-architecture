@@ -50,6 +50,10 @@ const expected=[
 ["U.S. Citizenship and Immigration Services",B,313.36,579.87,"USCIS"],
 ["U.S. Secret Service",B,411.57,579.87,"USSS"]
 ];
+const ROOT_FIELDS=Object.freeze(["model_version","model_family","source_id","source_snapshot_id","source_publisher","source_report_title","source_claimed_publication_date","captured_official_url","source_retrieved_at_utc","source_original_git_path","source_original_sha256","source_original_git_blob_sha","source_original_bytes","pdf_metadata_creation_utc","pdf_metadata_modified_utc","source_figure","printed_page_number","physical_pdf_page_number","chart_scope_statement","figure_box_count","legend_box_count_excluded","office_secretary_executive_boxes","operational_component_boxes","support_and_oversight_boxes","prior_research_candidate_boxes_reconciled","previously_unmodeled_chart_boxes","complete_source_figure_box_enumeration_reviewed","complete_current_DHS_institutional_census","current_DHS_first_level_denominator","independent_WORM_custody_verified","independent_legal_review_complete","adl1_certified_count","no_new_current_canonical_institution_ids","items"]);
+const BOX_FIELDS=Object.freeze(["id","type","figure_order","chart_label","chart_legend_class","printed_page","physical_pdf_page","box_top_left_x_pt","box_top_left_y_pt","contains_multiple_office_titles","source_footnote_marker","prior_inc15c1_candidate_id","prior_inc12_observation_id","prior_descriptive_relation_id","source_only_unratified_candidate","independent_oversight_exception","conditional_coast_guard_military_placement","source_descriptive_chart_placement_only","current_authority_verified","operational_command_verified","statutory_delegation_verified","independent_legal_review_complete","adl1_certified"]);
+const GIT_RECEIPT_FIELDS=Object.freeze(["id","publisher_url","source_edition","claimed_published_on","captured_at_utc","original_pdf_sha256","original_pdf_byte_count","original_pdf_git_blob_sha","original_repository_path","storage_tier","independent_WORM_custody_verified","source_page_24_independently_reviewed","current_first_level_DHS_denominator","legal_review_complete","adl1_certified_count"]);
+const TRANSIENT_RECEIPT_FIELDS=Object.freeze(["id","source_id","source_edition","original_published_on","attempted_at_utc","allowlisted_urls","attempts","status","acquired_url","original_sha256","original_byte_count","artifact_relative_path","storage_tier","independent_durable_custody_verified","original_pdf_page_24_inspected","full_chart_population_reconciled","original_census_candidates_unchanged","current_dhs_first_level_denominator","independent_legal_review_complete","adl1_certified_count"]);
 const error=message=>{throw new Error("INC-15C.2 chart rejected: "+message);};
 const check=(ok,message)=>{if(!ok)error(message);};
 const eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
@@ -132,6 +136,10 @@ export function validateINC15C2(d){
   transientReceipt.original_pdf_page_24_inspected===false&&
   transientReceipt.current_dhs_first_level_denominator===null,
   "publisher original Git receipt, research capture provenance or false WORM claim");
+ check(sameKeys(model,ROOT_FIELDS)&&sameKeys(schema?.properties,ROOT_FIELDS)&&
+  sameKeys(schema?.properties?.items?.items?.properties,BOX_FIELDS)&&
+  sameKeys(gitReceipt,GIT_RECEIPT_FIELDS)&&sameKeys(transientReceipt,TRANSIENT_RECEIPT_FIELDS),
+  "co-edited record, schema, receipt or unauthorized legal field");
  check(model?.model_family==="inc15c2-dhs-original-chart-boxes"&&
   model.model_version==="0.1.0"&&
   model.source_id===SOURCE&&model.source_snapshot_id===SNAP&&
