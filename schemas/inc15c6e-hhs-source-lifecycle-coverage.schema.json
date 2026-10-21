@@ -26,7 +26,8 @@
     "no_cross_edition_organization_counts_additive",
     "minted_canonical_ids",
     "source_items",
-    "exception_items"
+    "exception_items",
+    "items"
   ],
   "properties": {
     "model_version": {
@@ -245,6 +246,42 @@
           },
           "title_count_not_legal_census": {
             "const": true
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "record_family",
+          "source_record_id",
+          "nonadditive_index_pointer_only",
+          "canonical_institution_id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "record_family": {
+            "enum": [
+              "source_items",
+              "exception_items"
+            ]
+          },
+          "source_record_id": {
+            "type": "string"
+          },
+          "nonadditive_index_pointer_only": {
+            "const": true
+          },
+          "canonical_institution_id": {
+            "type": "null"
           }
         }
       }
