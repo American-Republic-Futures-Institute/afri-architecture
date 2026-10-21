@@ -1,0 +1,33 @@
+{
+  "id": "INC15C2-DHS-FY2024-OFFICIAL-PDF-PROBE",
+  "source_id": "CENSUS-SRC-DHS-CHART-2025",
+  "source_edition": "FY2024",
+  "original_published_on": "2025-01-17",
+  "attempted_at_utc": "2026-10-21T01:18:06.142Z",
+  "allowlisted_urls": [
+    "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf",
+    "https://www.dhs.gov/sites/default/files/2025-01/2025_0117_dhs_annual_performance_report_fy2024.pdf"
+  ],
+  "attempts": [
+    {
+      "requested_official_url": "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf",
+      "result": "received_pdf",
+      "reason": "decoded_pdf_validated_transient_only",
+      "attempted_at_utc": "2026-10-21T01:18:06.338Z",
+      "redirect_count": 0
+    }
+  ],
+  "status": "captured_transient_requires_independent_durable_promotion",
+  "acquired_url": "https://www.dhs.gov/sites/default/files/2025-02/2025_0117_dhs_annual_performance_report_fy2024.pdf",
+  "original_sha256": "d48f661bf9d6643409585451a2dc49f53358fe869dd40d182344f0bed58e4175",
+  "original_byte_count": 17622005,
+  "artifact_relative_path": "originals/sha256/d48f661bf9d6643409585451a2dc49f53358fe869dd40d182344f0bed58e4175.pdf",
+  "storage_tier": "temporary_runner_artifact_only",
+  "independent_durable_custody_verified": false,
+  "original_pdf_page_24_inspected": false,
+  "full_chart_population_reconciled": false,
+  "original_census_candidates_unchanged": true,
+  "current_dhs_first_level_denominator": null,
+  "independent_legal_review_complete": false,
+  "adl1_certified_count": 0
+}

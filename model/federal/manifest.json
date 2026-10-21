@@ -293,7 +293,8 @@
     "model/federal/inc15b-cabinet-sources.json",
     "model/federal/inc15b-roster-crosswalks.json",
     "model/federal/inc15b-source-partitions.json",
-    "model/federal/inc15c1-dhs-source-reconciliation.json"
+    "model/federal/inc15c1-dhs-source-reconciliation.json",
+    "model/federal/inc15c2-dhs-chart-boxes.json"
   ],
   "standards": [
     {
@@ -1076,5 +1077,18 @@
     "adl1_certified_count": 0,
     "legal_review_complete": false,
     "status": "bounded_source_reconciliation_original_pdf_custody_pending_unratified"
+  },
+  "federal_institutional_breadth_15c2_extension": {
+    "id": "ARFI-INC15C2-DHS-FY2024-PDF-CHART-BOXES",
+    "source_original_sha256": "d48f661bf9d6643409585451a2dc49f53358fe869dd40d182344f0bed58e4175",
+    "source_original_git_blob_sha": "bdbcbc4a6045eebef852daeceeb154be15c48684",
+    "source_chart_box_count": 34,
+    "existing_research_candidates_reconciled": 10,
+    "unqualified_source_only_chart_boxes": 24,
+    "current_DHS_first_level_denominator": null,
+    "independent_WORM_custody_verified": false,
+    "independent_legal_review_complete": false,
+    "adl1_certified_count": 0,
+    "status": "original_dhs_publisher_pdf_git_preserved_source_chart_reconciled_research_unratified"
   }
 }
