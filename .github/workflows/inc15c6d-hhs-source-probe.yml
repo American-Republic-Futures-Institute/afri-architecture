@@ -1,0 +1,35 @@
+name: INC-15C.6D official HHS historical source probe
+on:
+  pull_request:
+    paths:
+      - "scripts/inc15c6d-hhs-source-acquire.py"
+      - "tests/test_inc15c6d_hhs_source_probe.py"
+      - ".github/workflows/inc15c6d-hhs-source-probe.yml"
+permissions:
+  contents: read
+jobs:
+  validate-source-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test official publisher allowlists, source immutability and null legal qualifications
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6d_hhs_source_probe.py' -v
+  acquire-five-official-sources:
+    needs: validate-source-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture five official independent historical notices and ARPA-H budget original
+        run: python3 scripts/inc15c6d-hhs-source-acquire.py probe "$RUNNER_TEMP/inc15c6d"
+      - name: Verify complete closed source receipt and captured SHA-256 originals
+        run: python3 scripts/inc15c6d-hhs-source-acquire.py verify "$RUNNER_TEMP/inc15c6d"
+      - name: Retain exact source original bytes and failed-source receipts for reviewed promotion
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inc15c6d-official-hhs-source-attempt
+          path: ${{ runner.temp }}/inc15c6d/
+          if-no-files-found: error
+          retention-days: 30
