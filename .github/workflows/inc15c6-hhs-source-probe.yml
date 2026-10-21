@@ -1,0 +1,36 @@
+name: INC-15C.6 HHS official originals source probe
+on:
+  pull_request:
+    paths:
+      - 'scripts/inc15c6-hhs-source-acquire.py'
+      - 'tests/test_inc15c6_hhs_source_probe.py'
+      - '.github/workflows/inc15c6-hhs-source-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test strict original source custody, redirect and legal nonpromotion
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6_hhs_source_probe.py' -v
+  publisher-capture:
+    needs: source-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Acquire the two separate official HHS source populations if allowed
+        run: python3 scripts/inc15c6-hhs-source-acquire.py probe "$RUNNER_TEMP/inc15c6-hhs"
+      - name: Independently verify original digests or authenticated blocked receipts
+        run: python3 scripts/inc15c6-hhs-source-acquire.py verify "$RUNNER_TEMP/inc15c6-hhs"
+      - name: Preserve bounded originals and blocked source receipts for reviewed promotion
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inc15c6-official-hhs-original-attempt
+          path: ${{ runner.temp }}/inc15c6-hhs/
+          if-no-files-found: error
+          retention-days: 30
