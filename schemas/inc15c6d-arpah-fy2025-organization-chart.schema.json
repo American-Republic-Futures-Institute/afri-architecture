@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI inc15c6d-arpah-fy2025-organization-chart bounded unratified original-publication research",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_publisher",
+    "source_title",
+    "source_period",
+    "source_url",
+    "source_original_path",
+    "source_original_sha256",
+    "source_git_blob_sha1",
+    "source_pdf_physical_pages",
+    "source_chart_pdf_physical_page",
+    "source_chart_printed_page",
+    "source_chart_figure_heading",
+    "as_printed_chart_box_count",
+    "as_printed_director_root_count",
+    "as_printed_office_labels_beneath_director",
+    "source_footnote_proposes_reducing_offices_from",
+    "source_footnote_proposes_reducing_offices_to",
+    "published_footnote_reorganization_is_in_progress",
+    "independently_verified_implementation_of_eight_office_chart",
+    "no_current_organization_certification",
+    "historical_source_observation_not_current_legal_roster",
+    "current_legal_first_level_denominator",
+    "independent_statutory_organization_certification_complete",
+    "prior_hhs_exception_reference",
+    "prior_HHS_index_reference",
+    "newly_minted_canonical_office_ids",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6d-arpah-fy2025-budget-request-chart"
+    },
+    "source_publisher": {
+      "const": "Advanced Research Projects Agency for Health"
+    },
+    "source_title": {
+      "const": "FY 2025 Congressional Justification"
+    },
+    "source_period": {
+      "const": "FY2025_budget_request_published_2024"
+    },
+    "source_url": {
+      "const": "https://arpa-h.gov/sites/default/files/2024-03/ARPA-H%20FY%202025.pdf"
+    },
+    "source_original_path": {
+      "const": "evidence/hhs-dab-omha-arpah-historical/originals/arpah_fy2025_cj/sha256/1e325bfe20151762242c7f59a5df21f0113c8644f431aec5debb22f5671493d1.pdf"
+    },
+    "source_original_sha256": {
+      "const": "1e325bfe20151762242c7f59a5df21f0113c8644f431aec5debb22f5671493d1"
+    },
+    "source_git_blob_sha1": {
+      "const": "2eed6072be324f47320f1878121d378936bf2ce0"
+    },
+    "source_pdf_physical_pages": {
+      "const": 51
+    },
+    "source_chart_pdf_physical_page": {
+      "const": 6
+    },
+    "source_chart_printed_page": {
+      "const": 2
+    },
+    "source_chart_figure_heading": {
+      "const": "Organization Chart"
+    },
+    "as_printed_chart_box_count": {
+      "const": 15
+    },
+    "as_printed_director_root_count": {
+      "const": 1
+    },
+    "as_printed_office_labels_beneath_director": {
+      "const": 14
+    },
+    "source_footnote_proposes_reducing_offices_from": {
+      "const": 14
+    },
+    "source_footnote_proposes_reducing_offices_to": {
+      "const": 8
+    },
+    "published_footnote_reorganization_is_in_progress": {
+      "const": true
+    },
+    "independently_verified_implementation_of_eight_office_chart": {
+      "const": false
+    },
+    "no_current_organization_certification": {
+      "const": true
+    },
+    "historical_source_observation_not_current_legal_roster": {
+      "const": true
+    },
+    "current_legal_first_level_denominator": {
+      "const": null
+    },
+    "independent_statutory_organization_certification_complete": {
+      "const": false
+    },
+    "prior_hhs_exception_reference": {
+      "const": "INC15C6-HHS-EXCEPTION-ARPAH"
+    },
+    "prior_HHS_index_reference": {
+      "const": "INC15C3-HHS-LINK-ARPA-H"
+    },
+    "newly_minted_canonical_office_ids": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_chart_box_position",
+          "publisher_text_label",
+          "source_box_category",
+          "source_visual_parent_box_id",
+          "original_source_pdf_physical_page",
+          "source_figure_box_not_operational_structure",
+          "source_office_alias_review_complete",
+          "confirmed_current_legal_office_id",
+          "present_day_still_active_verified",
+          "realized_eight_office_reorganization_verified",
+          "reporting_or_budget_delegation_verified",
+          "source_manual_visual_transcription"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_chart_box_position": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "publisher_text_label": {
+            "type": "string"
+          },
+          "source_box_category": {
+            "type": "string"
+          },
+          "source_visual_parent_box_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "original_source_pdf_physical_page": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_figure_box_not_operational_structure": {
+            "const": true
+          },
+          "source_office_alias_review_complete": {
+            "const": false
+          },
+          "confirmed_current_legal_office_id": {
+            "type": "null"
+          },
+          "present_day_still_active_verified": {
+            "const": false
+          },
+          "realized_eight_office_reorganization_verified": {
+            "const": false
+          },
+          "reporting_or_budget_delegation_verified": {
+            "const": false
+          },
+          "source_manual_visual_transcription": {
+            "const": true
+          }
+        }
+      }
+    }
+  }
+}
