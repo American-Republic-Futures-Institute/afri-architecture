@@ -141,7 +141,7 @@ def verify(root=BASE):
  ext=m.get("federal_institutional_breadth_15c6d_extension")
  ensure(all(path in m["models"] for path in paths) and
   ext["id"]=="ARFI-FED-INC15C6D-DAB-OMHA-ARPAH-HISTORICAL-EDITIONS"
-  and ext["historical_source_observations_total_nonadditive"]==34
+  and ext["historic_source_observations_total_nonadditive"]==34
   and ext["present_day_federal_or_hhs_legal_first_level_denominator"] is None
   and ext["current_jurisdiction_or_delegation_verified"] is False
   and ext["arpa_h_14_to_8_implementation_certified"] is False
