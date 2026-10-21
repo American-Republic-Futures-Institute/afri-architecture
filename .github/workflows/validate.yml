@@ -72,6 +72,10 @@ jobs:
         run: node scripts/validate-inc15c5-original.mjs
       - name: Reject tampered Education source original, false publisher custody, legal authority and false WORM qualification
         run: node --test tests/inc15c5-education-custody.test.mjs
+      - name: Validate INC-15C.5 ED FY2024 original-pinned chart and ten historical office crosswalks
+        run: node scripts/validate-inc15c5-chart.mjs
+      - name: Reject INC-15C.5 source chart tampering, invented reporting, IG command and current legal census
+        run: node --test tests/inc15c5-education-chart.test.mjs
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
