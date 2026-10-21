@@ -139,28 +139,37 @@
             "type": "string"
           },
           "exact_original_bytes_in_git": {
-            "const": false
+            "type": "boolean"
           },
           "original_bytes": {
-            "type": "null"
+            "type": [
+              "integer",
+              "null"
+            ]
           },
           "original_sha256": {
-            "type": "null"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "evidence_mode": {
             "type": "string"
           },
           "lifecycle_state": {
             "enum": [
-              "proposed_not_implemented",
               "observed_at_publisher",
+              "proposed_not_implemented",
               "historical_superseded",
               "implemented_primary_source_qualified",
               "unresolved"
             ]
           },
           "source_page_last_reviewed_attribution": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "official_original_source_acquisition_status": {
             "type": "string"
