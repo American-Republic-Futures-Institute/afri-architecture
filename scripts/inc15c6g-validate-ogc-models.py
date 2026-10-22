@@ -128,7 +128,7 @@ def validate(root=ROOT):
    "OGC organizational notice promoted into agency command or particular role holder")
  check(positions["role_classes_transcribed"]==22 and
   positions["individual_people_and_vacancies_not_enumerated"] is True and
-  positions["externally_appointing_or_delegation_instruments_retrieved_and_verified"] is False
+  positions["external_appointing_or_delegation_instruments_retrieved_and_verified"] is False
   and positions["independently_qualified_effective_date"] is None
   and positions["aggregate_current_HHS_first_level_unit_population"] is None
   and positions["no_new_canonical_agency_ids"]==0,
