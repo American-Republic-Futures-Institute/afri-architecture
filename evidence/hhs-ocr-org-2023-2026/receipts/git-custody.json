@@ -1,0 +1,41 @@
+{
+  "contract": "inc15c6f_GovInfo_original_2023_2026_git_custody_v1",
+  "acquisition_workflow_run": 39786687439,
+  "acquisition_artifact_id": 12429386599,
+  "originals": [
+    {
+      "source_key": "ocr_2023",
+      "official_govinfo_url": "https://www.govinfo.gov/content/pkg/FR-2023-03-01/pdf/2023-03892.pdf",
+      "sha256": "7035eea1497113c5964fce2f6d3862b31c5452e34a0b80b1ee572bb50610cfad",
+      "bytes": 195496,
+      "git_blob_sha1": "26debd0afc20c528a022702d1a3b5a604b6966ed",
+      "path": "evidence/hhs-ocr-org-2023-2026/originals/ocr_2023/sha256/7035eea1497113c5964fce2f6d3862b31c5452e34a0b80b1ee572bb50610cfad.pdf",
+      "fr_pages": "88 FR 12954-12955",
+      "publication_date": "2023-03-01",
+      "secretary_approval_date": "2023-02-10",
+      "organization_effective_date": "2023-02-25",
+      "pdf_pages": 2
+    },
+    {
+      "source_key": "ocr_2026",
+      "official_govinfo_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-30/pdf/2026-13142.pdf",
+      "sha256": "973323350377319d1e737d7b476ab90d18f754bd9d2505521c66b97524a22498",
+      "bytes": 208043,
+      "git_blob_sha1": "ee5086ddd4390e228a4f424505968faff91e2efb",
+      "path": "evidence/hhs-ocr-org-2023-2026/originals/ocr_2026/sha256/973323350377319d1e737d7b476ab90d18f754bd9d2505521c66b97524a22498.pdf",
+      "fr_pages": "91 FR 39626-39627",
+      "publication_date": "2026-06-30",
+      "secretary_approval_date": "2026-05-14",
+      "organization_effective_date": "2026-06-28",
+      "pdf_pages": 2
+    }
+  ],
+  "two_independent_official_source_originals_git_retained": true,
+  "source_notice_2026_OCR_internal_organization_effective": true,
+  "source_notice_establishes_entire_HHS_roster": false,
+  "FY2026_ASE_or_FY2027_ASCRA_implemented_by_notice": false,
+  "signed_case_specific_OCR_delegates_inferred": false,
+  "independent_external_WORM_custody_verified": false,
+  "HHS_2026_legal_first_level_denominator": null,
+  "canonical_institution_ids_added": 0
+}
