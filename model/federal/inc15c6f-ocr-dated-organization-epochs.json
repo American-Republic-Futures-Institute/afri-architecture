@@ -16,7 +16,6 @@
   "edition_row_count_nonadditive": 12,
   "legal_organization_identity_equivalence_across_dates_certified": false,
   "newly_minted_canonical_federal_institutions": 0,
-  "FYY2026_ASE_or_FY2027_ASCRA_implementation_certified": false,
   "source_2026_current_through_2026_10_22_independently_verified": false,
   "items": [
     {
@@ -355,5 +354,6 @@
       "individual_officeholder_or_budget_delegation_verified": false,
       "current_2026_10_22_organizational_status_independently_recensused": false
     }
-  ]
+  ],
+  "FY2026_ASE_or_FY2027_ASCRA_implementation_certified": false
 }
