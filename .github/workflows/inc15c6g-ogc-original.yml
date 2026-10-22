@@ -1,0 +1,37 @@
+name: INC-15C.6G — retain exact official 2026 OGC source PDF
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/inc15c6g-ogc-original.yml"
+      - "scripts/inc15c6g-ogc-original.py"
+permissions:
+  contents: write
+jobs:
+  acquire-and-retain:
+    if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'feat/inc15c6g-ogc-govinfo-original-custody' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/inc15c6g-ogc-govinfo-original-custody
+          persist-credentials: true
+          fetch-depth: 1
+      - name: Install original PDF metadata and edition inspection tooling
+        run: sudo apt-get update -qq && sudo apt-get install -qq -y poppler-utils
+      - name: Acquire only exact allowlisted GovInfo FR Doc 2026-19903 PDF
+        run: python3 scripts/inc15c6g-ogc-original.py acquire
+      - name: Independently re-read and validate captured bytes and two receipts
+        run: python3 scripts/inc15c6g-ogc-original.py verify
+      - name: Preserve exact source bytes and two typed receipts in isolated PR
+        run: |
+          set -euo pipefail
+          git config user.name "arfi-architecture-archive[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/hhs-ogc-2026-statement/
+          if git diff --cached --quiet; then
+            echo "Exact originals already retained"
+          else
+            git commit -m "evidence(inc15c6g): retain original official 2026 OGC Federal Register notice"
+            git push origin HEAD:refs/heads/feat/inc15c6g-ogc-govinfo-original-custody
+          fi
