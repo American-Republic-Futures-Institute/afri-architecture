@@ -50,9 +50,9 @@ class HistoricalCounselSourceQualification(unittest.TestCase):
    with self.assertRaisesRegex(ValueError,"INC-15C.6H REJECTED"):
     v.validate(root)
  def test_historical_2025_cfr_section_must_not_be_current_2026(self):
-  self.mutate(EV,lambda m:find(m,"INC15C6H-CITATION-6").update(citation_status="operative_at_edition"))
+  self.mutate(EV,lambda m:find(m,"INC15C6H-CITATION-06").update(citation_status="operative_at_edition"))
  def test_regulatory_removal_date_must_not_be_notice_date(self):
-  self.mutate(EV,lambda m:find(m,"INC15C6H-CITATION-3").update(express_legal_effective_date="2026-09-29"))
+  self.mutate(EV,lambda m:find(m,"INC15C6H-CITATION-03").update(express_legal_effective_date="2026-09-29"))
  def test_stale_OGC_citation_identified(self):
   self.mutate(EP,lambda m:m.update(outdated_citation_OGC_source_date="2026-06-15"))
  def test_2026_fda_chart_not_pinned_to_superseded_september_edition(self):
