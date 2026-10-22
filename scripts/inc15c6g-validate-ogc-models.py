@@ -120,7 +120,7 @@ def validate(root=ROOT):
  for x in hier["items"]:
   check(x["parent_edition_local_id"] in units or x["parent_edition_local_id"]==OGC,
    "fabricated OGC organizational parent")
-  check(x["source_document_number"]=="2026-19903" and x["published_on"]=="2026-09-29"
+  check(x["document_number"]=="2026-19903" and x["published_on"]=="2026-09-29"
    and x["legal_effective_date"] is None and x["satellite_duty_location"] is False
    and x["new_canonical_HHS_institution_id"] is None and
    x["independent_role_appointment_and_delegation_verified"] is False and
