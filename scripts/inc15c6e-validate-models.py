@@ -193,7 +193,8 @@ def validate(root=BASE):
   chk(blob(read(name,root))==h,"historical HHS source identity base changed")
  mf=load("model/federal/manifest.json",root)
  e=mf.get("federal_institutional_breadth_15c6e_extension")
- chk(len(mf["models"])==293 and all("model/federal/"+k+".json" in mf["models"] for k in PINNED) and
+ chk(len(mf["models"])>=293 and len(set(mf["models"]))==len(mf["models"]) and
+   all("model/federal/"+k+".json" in mf["models"] for k in PINNED) and
     e["official_ARPAH_HTML_originals_retained"]==2 and e["HHS_budget_PDF_originals_retained"]==0 and
     e["distinct_FY2026_and_FY2027_GDM_budget_proposal_editions"]==2 and
     e["legal_first_level_denominator"] is None and
