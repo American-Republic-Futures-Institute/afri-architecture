@@ -150,7 +150,7 @@ export function validateINC16A(data){
     const raw=fs.readFileSync(path.join(root,s.original_repo_path));
     const digest=createHash("sha256").update(raw).digest("hex");
     const gitBlob=createHash("sha1").update(Buffer.concat([
-      Buffer.from("blob "+raw.length+"\\0"),raw])).digest("hex");
+      Buffer.from("blob "+raw.length),Buffer.from([0]),raw])).digest("hex");
     check(receipt && receipt.publisher==="Office of the Law Revision Counsel, U.S. House of Representatives" &&
       receipt.publisher_code_text_through==="Public Law 119-120" &&
       receipt.original_repository_path===s.original_repo_path &&
