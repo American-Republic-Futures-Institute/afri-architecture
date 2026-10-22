@@ -154,12 +154,12 @@ def validate(root=BASE):
    x["legal_authority_over_independent_OIG_or_ALJ_inferred"] is False and
    x["distinct_HHS_new_agency_ID"] is None,
    "citation not anchored to same immutable original or unsupported professional authority")
- check(cit["INC15C6H-CITATION-3"]["express_legal_effective_date"]=="2026-06-15" and
-  cit["INC15C6H-CITATION-3"]["target_reference"]=="21 CFR 5.1105" and
-  cit["INC15C6H-CITATION-6"]["citation_status"]=="removed_before_citing_edition" and
-  cit["INC15C6H-CITATION-6"]["express_legal_effective_date"] is None and
+ check(cit["INC15C6H-CITATION-03"]["express_legal_effective_date"]=="2026-06-15" and
+  cit["INC15C6H-CITATION-03"]["target_reference"]=="21 CFR 5.1105" and
+  cit["INC15C6H-CITATION-06"]["citation_status"]=="removed_before_citing_edition" and
+  cit["INC15C6H-CITATION-06"]["express_legal_effective_date"] is None and
   cit["INC15C6H-CITATION-15"]["publisher_section_or_paragraph"]=="Section 8(b)(i)-(ii) and 8(c)" and
-  cit["INC15C6H-CITATION-7"]["source_epoch_or_publication_date"]=="2026-10-13",
+  cit["INC15C6H-CITATION-07"]["source_epoch_or_publication_date"]=="2026-10-13",
   "revocation/citation/EO 14215 §8(b) or post-repeal chart chronology invalid")
  check(oig["historical_OIG_top_level_component_labels"]==7 and
   oig["historical_OCIG_internal_source_labels"]==4 and
