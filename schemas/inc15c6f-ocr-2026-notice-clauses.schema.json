@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15C.6F source-qualified OCR organization and bounded authority — inc15c6f-ocr-2026-notice-clauses",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_document_id",
+    "source_original_path",
+    "source_original_sha256",
+    "source_publication_date",
+    "source_approved_date",
+    "source_effective_date",
+    "source_printed_page_range",
+    "source_signed_attribution",
+    "referenced_preceding_chapter_edition",
+    "independent_operative_ocr_notice_verified",
+    "nine_roman_notice_clauses_reconciled",
+    "chapter_AT00_replaced",
+    "chapter_AT10_replaced",
+    "chapter_AT20_targeted_amendments_not_entire_republication",
+    "existing_delegations_continued_if_consistent_not_newly_issued",
+    "signed_individual_delegate_register_captured",
+    "HHS_budget_FY2026_FY2027_reorganization_qualified",
+    "current_HHS_full_legal_first_level_denominator",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6f-ocr-2026-operative-notice-clauses"
+    },
+    "source_document_id": {
+      "const": "2026-13142"
+    },
+    "source_original_path": {
+      "const": "evidence/hhs-ocr-org-2023-2026/originals/ocr_2026/sha256/973323350377319d1e737d7b476ab90d18f754bd9d2505521c66b97524a22498.pdf"
+    },
+    "source_original_sha256": {
+      "const": "973323350377319d1e737d7b476ab90d18f754bd9d2505521c66b97524a22498"
+    },
+    "source_publication_date": {
+      "const": "2026-06-30"
+    },
+    "source_approved_date": {
+      "const": "2026-05-14"
+    },
+    "source_effective_date": {
+      "const": "2026-06-28"
+    },
+    "source_printed_page_range": {
+      "const": "91 FR 39626-39627"
+    },
+    "source_signed_attribution": {
+      "const": "Robert F. Kennedy, Jr., Secretary, Department of Health and Human Services"
+    },
+    "referenced_preceding_chapter_edition": {
+      "const": "88 FR 12954 (2023-03-01)"
+    },
+    "independent_operative_ocr_notice_verified": {
+      "const": true
+    },
+    "nine_roman_notice_clauses_reconciled": {
+      "const": 9
+    },
+    "chapter_AT00_replaced": {
+      "const": true
+    },
+    "chapter_AT10_replaced": {
+      "const": true
+    },
+    "chapter_AT20_targeted_amendments_not_entire_republication": {
+      "const": true
+    },
+    "existing_delegations_continued_if_consistent_not_newly_issued": {
+      "const": true
+    },
+    "signed_individual_delegate_register_captured": {
+      "const": false
+    },
+    "HHS_budget_FY2026_FY2027_reorganization_qualified": {
+      "const": false
+    },
+    "current_HHS_full_legal_first_level_denominator": {
+      "const": null
+    },
+    "items": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_clause_roman",
+          "source_document_id",
+          "source_original_sha256",
+          "source_printed_page_range",
+          "source_section_locator",
+          "source_clause_title",
+          "source_amendment_classification",
+          "publisher_supported_meaning_summary",
+          "source_organization_code",
+          "legal_effect_scope",
+          "effective_date",
+          "notice_signatory",
+          "operative_OCR_notice_supported",
+          "independent_full_federal_law_power_inventory_certified",
+          "new_individual_signed_delegations_proved",
+          "HHS_budget_proposal_organizational_transfer_enacted",
+          "interagency_command_legal_instrument_identified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_clause_roman": {
+            "type": "string"
+          },
+          "source_document_id": {
+            "type": "string"
+          },
+          "source_original_sha256": {
+            "type": "string"
+          },
+          "source_printed_page_range": {
+            "type": "string"
+          },
+          "source_section_locator": {
+            "type": "string"
+          },
+          "source_clause_title": {
+            "type": "string"
+          },
+          "source_amendment_classification": {
+            "type": "string"
+          },
+          "publisher_supported_meaning_summary": {
+            "type": "string"
+          },
+          "source_organization_code": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "legal_effect_scope": {
+            "type": "string"
+          },
+          "effective_date": {
+            "type": "string"
+          },
+          "notice_signatory": {
+            "type": "string"
+          },
+          "operative_OCR_notice_supported": {
+            "const": true
+          },
+          "independent_full_federal_law_power_inventory_certified": {
+            "const": false
+          },
+          "new_individual_signed_delegations_proved": {
+            "const": false
+          },
+          "HHS_budget_proposal_organizational_transfer_enacted": {
+            "const": false
+          },
+          "interagency_command_legal_instrument_identified": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
