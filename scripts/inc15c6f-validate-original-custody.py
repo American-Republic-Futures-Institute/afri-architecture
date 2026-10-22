@@ -67,8 +67,18 @@ def verify(c,cap,originals):
     hashlib.sha256(raw).hexdigest()==expected["sha256"] and gitblob(raw)==expected["git"]
     and raw.startswith(b"%PDF-1.") and b"%%EOF" in raw[-4096:],
     "publisher original PDF bytes modified: "+k)
-  check(receipt["key"]==k and receipt["result"]=="transient_original_captured" and
-    receipt["requested_official_url"]==expected["url"] and
+  check(receipt["record_type"]=="inc15c6f_OCR_original_GovInfo_source_probe_v1"
+    and receipt["key"]==k and
+    receipt["source_id"]==("INC15C6F-OCR-2023-ORGANIZATION" if k=="ocr_2023" else "INC15C6F-OCR-2026-ORGANIZATION")
+    and receipt["source_edition_attribution"]==(
+      "88_FR_12954_2023-03-01_effective_2023-02-25" if k=="ocr_2023"
+      else "91_FR_39626-39627_2026-06-30_effective_2026-06-28")
+    and receipt["result"]=="transient_original_captured" and
+    receipt["requested_official_url"]==expected["url"]
+    and receipt["final_url"]==expected["url"]
+    and receipt["original_relative_path"]==path(k)
+    and receipt["retrieval_tier"]=="github_runner_artifact_only"
+    and receipt["source_directory_edition_fully_extracted"] is False and
     receipt["original_sha256"]==expected["sha256"] and
     receipt["original_byte_count"]==expected["bytes"] and
     receipt["git_original_custody_verified"] is False and
