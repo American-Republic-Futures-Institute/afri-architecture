@@ -1,0 +1,450 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.5 inc15d5-govman-2025-dispositions source-edition-only unratified contract",
+  "description": "Immutable 2025 GovInfo publisher observations; parentage is directory display only, never legal identity, command, statutory delegation, ADL-1, or service outcome certification.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_package_id",
+    "source_publication_date",
+    "source_original_sha256",
+    "source_original_git_blob_sha1",
+    "source_original_repository_path",
+    "publisher_whole_edition_entry_count",
+    "prior_provisional_canonical_links",
+    "prior_unlinked_publisher_entries",
+    "whole_federal_legal_institution_denominator",
+    "current_first_level_institution_denominator",
+    "independent_legal_review_complete",
+    "independent_worm_custody_verified",
+    "new_canonical_ids_minted",
+    "statutorily_qualified_component_identities",
+    "statutory_authority_verified",
+    "atlas_published_relationships",
+    "selected_source_entry_count",
+    "selected_entries_accounted_for",
+    "unresolved_legal_component_identity_count",
+    "source_only_pending_statutory_confirmation",
+    "prior_research_candidate_correspondences",
+    "provisional_canonical_component_matches",
+    "source_directory_nesting_is_legal_parentage",
+    "publisher_mission_text_is_verified_legal_authority",
+    "current_day_organization_status_qualified",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d5-govman-2025-dispositions"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "source_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "publisher_whole_edition_entry_count": {
+      "const": 231
+    },
+    "prior_provisional_canonical_links": {
+      "const": 50
+    },
+    "prior_unlinked_publisher_entries": {
+      "const": 181
+    },
+    "whole_federal_legal_institution_denominator": {
+      "const": null
+    },
+    "current_first_level_institution_denominator": {
+      "const": null
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "independent_worm_custody_verified": {
+      "const": false
+    },
+    "new_canonical_ids_minted": {
+      "const": 0
+    },
+    "statutorily_qualified_component_identities": {
+      "const": 0
+    },
+    "statutory_authority_verified": {
+      "const": 0
+    },
+    "atlas_published_relationships": {
+      "const": 0
+    },
+    "selected_source_entry_count": {
+      "const": 28
+    },
+    "selected_entries_accounted_for": {
+      "const": 28
+    },
+    "unresolved_legal_component_identity_count": {
+      "const": 28
+    },
+    "source_only_pending_statutory_confirmation": {
+      "const": 28
+    },
+    "prior_research_candidate_correspondences": {
+      "const": 6
+    },
+    "provisional_canonical_component_matches": {
+      "const": 0
+    },
+    "source_directory_nesting_is_legal_parentage": {
+      "const": false
+    },
+    "publisher_mission_text_is_verified_legal_authority": {
+      "const": false
+    },
+    "current_day_organization_status_qualified": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 28,
+      "maxItems": 28,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_entity_key",
+          "source_entity_local_id",
+          "publisher_edition",
+          "published_name",
+          "published_parent_key",
+          "published_department_name",
+          "canonical_department_anchor_id",
+          "canonical_component_id",
+          "published_element_tag",
+          "published_order",
+          "source_xml_xpath",
+          "source_original_sha256",
+          "source_original_git_blob_sha1",
+          "disposition",
+          "disposition_rationale",
+          "previous_research_candidate_id",
+          "previous_granule_research_id",
+          "previous_granule_resolution",
+          "previous_granule_url",
+          "identity_reconciliation_state",
+          "publisher_nesting_only_not_legal_parentage",
+          "present_day_component_verified",
+          "legal_identity_certified",
+          "independently_retained_component_statute_original",
+          "specific_statutory_authority_verified",
+          "operational_command_verified",
+          "direct_supervision_verified",
+          "congressional_fiscal_control_verified",
+          "independent_legal_review_complete",
+          "adl1_certified",
+          "atlas_graph_admitted"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "INC15D5-DISP-240",
+              "INC15D5-DISP-241",
+              "INC15D5-DISP-242",
+              "INC15D5-DISP-243",
+              "INC15D5-DISP-244",
+              "INC15D5-DISP-245",
+              "INC15D5-DISP-246",
+              "INC15D5-DISP-247",
+              "INC15D5-DISP-249",
+              "INC15D5-DISP-294",
+              "INC15D5-DISP-295",
+              "INC15D5-DISP-296",
+              "INC15D5-DISP-297",
+              "INC15D5-DISP-298",
+              "INC15D5-DISP-299",
+              "INC15D5-DISP-300",
+              "INC15D5-DISP-301",
+              "INC15D5-DISP-302",
+              "INC15D5-DISP-308",
+              "INC15D5-DISP-324",
+              "INC15D5-DISP-325",
+              "INC15D5-DISP-326",
+              "INC15D5-DISP-327",
+              "INC15D5-DISP-328",
+              "INC15D5-DISP-329",
+              "INC15D5-DISP-330",
+              "INC15D5-DISP-331",
+              "INC15D5-DISP-332"
+            ]
+          },
+          "source_entity_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:240",
+              "GOVMAN-2025-12-31:241",
+              "GOVMAN-2025-12-31:242",
+              "GOVMAN-2025-12-31:243",
+              "GOVMAN-2025-12-31:244",
+              "GOVMAN-2025-12-31:245",
+              "GOVMAN-2025-12-31:246",
+              "GOVMAN-2025-12-31:247",
+              "GOVMAN-2025-12-31:249",
+              "GOVMAN-2025-12-31:294",
+              "GOVMAN-2025-12-31:295",
+              "GOVMAN-2025-12-31:296",
+              "GOVMAN-2025-12-31:297",
+              "GOVMAN-2025-12-31:298",
+              "GOVMAN-2025-12-31:299",
+              "GOVMAN-2025-12-31:300",
+              "GOVMAN-2025-12-31:301",
+              "GOVMAN-2025-12-31:302",
+              "GOVMAN-2025-12-31:308",
+              "GOVMAN-2025-12-31:324",
+              "GOVMAN-2025-12-31:325",
+              "GOVMAN-2025-12-31:326",
+              "GOVMAN-2025-12-31:327",
+              "GOVMAN-2025-12-31:328",
+              "GOVMAN-2025-12-31:329",
+              "GOVMAN-2025-12-31:330",
+              "GOVMAN-2025-12-31:331",
+              "GOVMAN-2025-12-31:332"
+            ]
+          },
+          "source_entity_local_id": {
+            "enum": [
+              "240",
+              "241",
+              "242",
+              "243",
+              "244",
+              "245",
+              "246",
+              "247",
+              "249",
+              "294",
+              "295",
+              "296",
+              "297",
+              "298",
+              "299",
+              "300",
+              "301",
+              "302",
+              "308",
+              "324",
+              "325",
+              "326",
+              "327",
+              "328",
+              "329",
+              "330",
+              "331",
+              "332"
+            ]
+          },
+          "publisher_edition": {
+            "const": "GOVMAN-2025-12-31"
+          },
+          "published_name": {
+            "enum": [
+              "Bureau of Indian Affairs",
+              "Bureau of Indian Education",
+              "Bureau of International Labor Affairs",
+              "Bureau of Labor Statistics",
+              "Bureau of Land Management",
+              "Bureau of Ocean Energy Management",
+              "Bureau of Reclamation",
+              "Bureau of Safety and Environmental Enforcement",
+              "Employee Benefits Security Administration",
+              "Employment and Training Administration",
+              "Federal Aviation Administration",
+              "Federal Highway Administration",
+              "Federal Motor Carrier Safety Administration",
+              "Federal Railroad Administration",
+              "Federal Transit Administration",
+              "Great Lakes Saint Lawrence Seaway Development Corporation",
+              "Maritime Administration",
+              "Mine Safety and Health Administration",
+              "National Highway Traffic Safety Administration",
+              "National Park Service",
+              "Occupational Safety and Health Administration",
+              "Office of Surface Mining Reclamation and Enforcement",
+              "Pipeline and Hazardous Materials Safety Administration",
+              "United States Fish and Wildlife Service",
+              "United States Geological Survey",
+              "Veterans' Employment and Training Service",
+              "Wage and Hour Division",
+              "Women's Bureau"
+            ]
+          },
+          "published_parent_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:120",
+              "GOVMAN-2025-12-31:124",
+              "GOVMAN-2025-12-31:323"
+            ]
+          },
+          "published_department_name": {
+            "enum": [
+              "Department of Labor",
+              "Department of the Interior",
+              "Department of Transportation"
+            ]
+          },
+          "canonical_department_anchor_id": {
+            "enum": [
+              "ORG-FED-EXE-DEP-INTERIOR",
+              "ORG-FED-EXE-DEP-LABOR",
+              "ORG-FED-EXE-DEP-TRANSPORTATION"
+            ]
+          },
+          "canonical_component_id": {
+            "const": null
+          },
+          "published_element_tag": {
+            "const": "SubEntityLevelOne"
+          },
+          "published_order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "source_xml_xpath": {
+            "enum": [
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='294']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='295']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='296']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='297']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='298']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='299']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='300']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='301']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='302']",
+              "/GovernmentManual/Entity[@EntityId='120']/Childrens/SubEntityLevelOne[@EntityId='308']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='240']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='241']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='242']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='243']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='244']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='245']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='246']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='247']",
+              "/GovernmentManual/Entity[@EntityId='124']/Childrens/SubEntityLevelOne[@EntityId='249']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='324']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='325']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='326']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='327']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='328']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='329']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='330']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='331']",
+              "/GovernmentManual/Entity[@EntityId='323']/Childrens/SubEntityLevelOne[@EntityId='332']"
+            ]
+          },
+          "source_original_sha256": {
+            "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+          },
+          "source_original_git_blob_sha1": {
+            "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+          },
+          "disposition": {
+            "const": "source_only_institutional_candidate_pending_statutory_confirmation"
+          },
+          "disposition_rationale": {
+            "enum": [
+              "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command.",
+              "Explicit earlier first-level research seed is only source-index correspondence; no independently verified legal identity, present-day parentage, power or command."
+            ]
+          },
+          "previous_research_candidate_id": {
+            "enum": [
+              "EXP-SEED-INTERIOR-BIA",
+              "EXP-SEED-INTERIOR-NPS",
+              "EXP-SEED-LABOR-BLS",
+              "EXP-SEED-LABOR-OSHA",
+              "EXP-SEED-TRANSPORTATION-FAA",
+              "EXP-SEED-TRANSPORTATION-FTA",
+              null
+            ]
+          },
+          "previous_granule_research_id": {
+            "enum": [
+              "DEPT04-XW-EXP-SEED-INTERIOR-BIA",
+              "DEPT04-XW-EXP-SEED-INTERIOR-NPS",
+              "DEPT04-XW-EXP-SEED-LABOR-BLS",
+              "DEPT04-XW-EXP-SEED-LABOR-OSHA",
+              "DEPT04-XW-EXP-SEED-TRANSPORTATION-FAA",
+              "DEPT04-XW-EXP-SEED-TRANSPORTATION-FTA",
+              null
+            ]
+          },
+          "previous_granule_resolution": {
+            "enum": [
+              "exact_official_details_page_verified",
+              null,
+              "present_in_edition_navigation_but_granule_id_not_reconciled"
+            ]
+          },
+          "previous_granule_url": {
+            "enum": [
+              "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31/GOVMAN-2025-12-31-240",
+              "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31/GOVMAN-2025-12-31-244",
+              "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31/GOVMAN-2025-12-31-295",
+              "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31/GOVMAN-2025-12-31-298",
+              "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31/GOVMAN-2025-12-31-329",
+              null
+            ]
+          },
+          "identity_reconciliation_state": {
+            "const": "source_only_edition_local_accounted_identity_unresolved"
+          },
+          "publisher_nesting_only_not_legal_parentage": {
+            "const": true
+          },
+          "present_day_component_verified": {
+            "const": false
+          },
+          "legal_identity_certified": {
+            "const": false
+          },
+          "independently_retained_component_statute_original": {
+            "const": false
+          },
+          "specific_statutory_authority_verified": {
+            "const": false
+          },
+          "operational_command_verified": {
+            "const": false
+          },
+          "direct_supervision_verified": {
+            "const": false
+          },
+          "congressional_fiscal_control_verified": {
+            "const": false
+          },
+          "independent_legal_review_complete": {
+            "const": false
+          },
+          "adl1_certified": {
+            "const": false
+          },
+          "atlas_graph_admitted": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
