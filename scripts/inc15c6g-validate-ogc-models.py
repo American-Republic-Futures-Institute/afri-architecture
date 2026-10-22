@@ -203,7 +203,11 @@ def validate(root=ROOT):
   "publisher original SHA-256/bytes diverge from independently reviewed approved original")
  spec=importlib.util.spec_from_file_location("inc15c6g_original",root/"scripts/inc15c6g-ogc-original.py")
  mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
- check(mod.verify()["original_sha256"]==PINNED_SOURCE_SHA256,
+ try:
+  verified_original=mod.verify()
+ except Exception as exc:
+  raise ValueError("INC-15C.6G REJECTED: original Git source PDF or separate receipts fail independent validation: "+str(exc)) from exc
+ check(verified_original["original_sha256"]==PINNED_SOURCE_SHA256,
    "original Git source PDF or separate receipts fail independent validation")
  manifest=jload("model/federal/manifest.json",root)
  ext=manifest.get("federal_institutional_breadth_15c6g_extension",{})
