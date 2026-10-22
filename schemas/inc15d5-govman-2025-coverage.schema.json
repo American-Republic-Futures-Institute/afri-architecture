@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.5 inc15d5-govman-2025-coverage source-edition-only unratified contract",
+  "description": "Immutable 2025 GovInfo publisher observations; parentage is directory display only, never legal identity, command, statutory delegation, ADL-1, or service outcome certification.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_package_id",
+    "source_publication_date",
+    "source_original_sha256",
+    "source_original_git_blob_sha1",
+    "source_original_repository_path",
+    "publisher_whole_edition_entry_count",
+    "prior_provisional_canonical_links",
+    "prior_unlinked_publisher_entries",
+    "whole_federal_legal_institution_denominator",
+    "current_first_level_institution_denominator",
+    "independent_legal_review_complete",
+    "independent_worm_custody_verified",
+    "new_canonical_ids_minted",
+    "statutorily_qualified_component_identities",
+    "statutory_authority_verified",
+    "atlas_published_relationships",
+    "department_cohort_count",
+    "publisher_entries_targeted",
+    "publisher_entries_accounted_for",
+    "unaccounted_target_entries",
+    "source_only_pending_statutory_confirmation",
+    "source_only_identity_unresolved",
+    "prior_research_seed_correspondences",
+    "prior_exact_govinfo_details_references",
+    "prior_unreconciled_govinfo_details_references",
+    "canonical_component_matches",
+    "existing_50_provisional_links_changed",
+    "earlier_181_unlinked_source_entries_reclassified_as_linked",
+    "publisher_entry_population_is_legal_denominator",
+    "date_is_current_institutional_authority_certification",
+    "source_edition_additive_across_prior_editions",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d5-govman-2025-coverage"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "source_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "publisher_whole_edition_entry_count": {
+      "const": 231
+    },
+    "prior_provisional_canonical_links": {
+      "const": 50
+    },
+    "prior_unlinked_publisher_entries": {
+      "const": 181
+    },
+    "whole_federal_legal_institution_denominator": {
+      "const": null
+    },
+    "current_first_level_institution_denominator": {
+      "const": null
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "independent_worm_custody_verified": {
+      "const": false
+    },
+    "new_canonical_ids_minted": {
+      "const": 0
+    },
+    "statutorily_qualified_component_identities": {
+      "const": 0
+    },
+    "statutory_authority_verified": {
+      "const": 0
+    },
+    "atlas_published_relationships": {
+      "const": 0
+    },
+    "department_cohort_count": {
+      "const": 3
+    },
+    "publisher_entries_targeted": {
+      "const": 28
+    },
+    "publisher_entries_accounted_for": {
+      "const": 28
+    },
+    "unaccounted_target_entries": {
+      "const": 0
+    },
+    "source_only_pending_statutory_confirmation": {
+      "const": 28
+    },
+    "source_only_identity_unresolved": {
+      "const": 28
+    },
+    "prior_research_seed_correspondences": {
+      "const": 6
+    },
+    "prior_exact_govinfo_details_references": {
+      "const": 5
+    },
+    "prior_unreconciled_govinfo_details_references": {
+      "const": 1
+    },
+    "canonical_component_matches": {
+      "const": 0
+    },
+    "existing_50_provisional_links_changed": {
+      "const": 0
+    },
+    "earlier_181_unlinked_source_entries_reclassified_as_linked": {
+      "const": 0
+    },
+    "publisher_entry_population_is_legal_denominator": {
+      "const": false
+    },
+    "date_is_current_institutional_authority_certification": {
+      "const": false
+    },
+    "source_edition_additive_across_prior_editions": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "published_department_name",
+          "publisher_department_root_key",
+          "canonical_department_anchor_id",
+          "publisher_full_subtree_entries",
+          "existing_provisional_department_root_links",
+          "selected_first_level_unlinked_entries",
+          "disposition_accounted_entries",
+          "new_canonical_component_matches",
+          "prior_research_seed_correspondences",
+          "prior_verified_govinfo_details_page_references",
+          "prior_unreconciled_govinfo_details_page_references",
+          "source_only_identity_unresolved",
+          "legal_component_identities_certified",
+          "independent_legal_review_complete",
+          "observed_legal_command_relationships",
+          "source_date_is_current_law_certification"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "INC15D5-COV-120",
+              "INC15D5-COV-124",
+              "INC15D5-COV-323"
+            ]
+          },
+          "published_department_name": {
+            "enum": [
+              "Department of Labor",
+              "Department of the Interior",
+              "Department of Transportation"
+            ]
+          },
+          "publisher_department_root_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:120",
+              "GOVMAN-2025-12-31:124",
+              "GOVMAN-2025-12-31:323"
+            ]
+          },
+          "canonical_department_anchor_id": {
+            "enum": [
+              "ORG-FED-EXE-DEP-INTERIOR",
+              "ORG-FED-EXE-DEP-LABOR",
+              "ORG-FED-EXE-DEP-TRANSPORTATION"
+            ]
+          },
+          "publisher_full_subtree_entries": {
+            "type": "integer",
+            "minimum": 10,
+            "maximum": 11
+          },
+          "existing_provisional_department_root_links": {
+            "const": 1
+          },
+          "selected_first_level_unlinked_entries": {
+            "type": "integer",
+            "minimum": 9,
+            "maximum": 10
+          },
+          "disposition_accounted_entries": {
+            "type": "integer",
+            "minimum": 9,
+            "maximum": 10
+          },
+          "new_canonical_component_matches": {
+            "const": 0
+          },
+          "prior_research_seed_correspondences": {
+            "const": 2
+          },
+          "prior_verified_govinfo_details_page_references": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2
+          },
+          "prior_unreconciled_govinfo_details_page_references": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "source_only_identity_unresolved": {
+            "type": "integer",
+            "minimum": 9,
+            "maximum": 10
+          },
+          "legal_component_identities_certified": {
+            "const": 0
+          },
+          "independent_legal_review_complete": {
+            "const": false
+          },
+          "observed_legal_command_relationships": {
+            "const": 0
+          },
+          "source_date_is_current_law_certification": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
