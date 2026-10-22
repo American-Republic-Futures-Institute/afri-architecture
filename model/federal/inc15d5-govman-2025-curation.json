@@ -1,0 +1,264 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc15d5-govman-2025-curation",
+  "source_package_id": "GOVMAN-2025-12-31",
+  "original_source_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+  "disposition_qualification": "edition_local_research_curation_not_independent_identity_or_legal_review",
+  "all_entries_checked_as_legal_institutions": false,
+  "independently_qualified_canonical_identity_count": 0,
+  "current_first_level_institution_denominator": null,
+  "items": [
+    {
+      "source_entity_local_id": "298",
+      "published_name": "Bureau of Indian Affairs",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": "EXP-SEED-INTERIOR-BIA",
+      "rationale": "Explicit earlier first-level research seed is only source-index correspondence; no independently verified legal identity, present-day parentage, power or command."
+    },
+    {
+      "source_entity_local_id": "299",
+      "published_name": "Bureau of Indian Education",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "301",
+      "published_name": "Bureau of Land Management",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "300",
+      "published_name": "Bureau of Ocean Energy Management",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "302",
+      "published_name": "Bureau of Reclamation",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "308",
+      "published_name": "Bureau of Safety and Environmental Enforcement",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "295",
+      "published_name": "National Park Service",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": "EXP-SEED-INTERIOR-NPS",
+      "rationale": "Explicit earlier first-level research seed is only source-index correspondence; no independently verified legal identity, present-day parentage, power or command."
+    },
+    {
+      "source_entity_local_id": "297",
+      "published_name": "Office of Surface Mining Reclamation and Enforcement",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "294",
+      "published_name": "United States Fish and Wildlife Service",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "296",
+      "published_name": "United States Geological Survey",
+      "published_parent_key": "GOVMAN-2025-12-31:120",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-INTERIOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "324",
+      "published_name": "Bureau of International Labor Affairs",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "325",
+      "published_name": "Bureau of Labor Statistics",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": "EXP-SEED-LABOR-BLS",
+      "rationale": "Explicit earlier first-level research seed is only source-index correspondence; no independently verified legal identity, present-day parentage, power or command."
+    },
+    {
+      "source_entity_local_id": "326",
+      "published_name": "Employee Benefits Security Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "327",
+      "published_name": "Employment and Training Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "328",
+      "published_name": "Mine Safety and Health Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "329",
+      "published_name": "Occupational Safety and Health Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": "EXP-SEED-LABOR-OSHA",
+      "rationale": "Explicit earlier first-level research seed is only source-index correspondence; no independently verified legal identity, present-day parentage, power or command."
+    },
+    {
+      "source_entity_local_id": "330",
+      "published_name": "Veterans' Employment and Training Service",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "331",
+      "published_name": "Wage and Hour Division",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "332",
+      "published_name": "Women's Bureau",
+      "published_parent_key": "GOVMAN-2025-12-31:323",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-LABOR",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "240",
+      "published_name": "Federal Aviation Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": "EXP-SEED-TRANSPORTATION-FAA",
+      "rationale": "Explicit earlier first-level research seed is only source-index correspondence; no independently verified legal identity, present-day parentage, power or command."
+    },
+    {
+      "source_entity_local_id": "241",
+      "published_name": "Federal Highway Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "249",
+      "published_name": "Federal Motor Carrier Safety Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "242",
+      "published_name": "Federal Railroad Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "244",
+      "published_name": "Federal Transit Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": "EXP-SEED-TRANSPORTATION-FTA",
+      "rationale": "Explicit earlier first-level research seed is only source-index correspondence; no independently verified legal identity, present-day parentage, power or command."
+    },
+    {
+      "source_entity_local_id": "246",
+      "published_name": "Great Lakes Saint Lawrence Seaway Development Corporation",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "245",
+      "published_name": "Maritime Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "243",
+      "published_name": "National Highway Traffic Safety Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    },
+    {
+      "source_entity_local_id": "247",
+      "published_name": "Pipeline and Hazardous Materials Safety Administration",
+      "published_parent_key": "GOVMAN-2025-12-31:124",
+      "canonical_department_anchor_id": "ORG-FED-EXE-DEP-TRANSPORTATION",
+      "disposition": "source_only_institutional_candidate_pending_statutory_confirmation",
+      "prior_research_candidate_id": null,
+      "rationale": "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command."
+    }
+  ]
+}
