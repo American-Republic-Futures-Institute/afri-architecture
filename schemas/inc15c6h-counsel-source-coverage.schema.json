@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6H counsel authority source edition and legal-boundary contract: inc15c6h-counsel-source-coverage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_coverage_registers",
+    "HHS_current_first_level_legal_denominator",
+    "downstream_mission_interface_global_authority_certified",
+    "FY2026_ASE_and_FY2027_ASCRA_budget_proposals_still_unimplemented_unqualified",
+    "OIG_research_original_1997_not_current_2026_census",
+    "current_status_of_revoked_21_CFR_5_1105",
+    "FDA_publisher_OCC_role_still_observed_after_removal",
+    "full_HHS_independent_signed_legal_delegation_inventory_complete",
+    "source_records_and_legal_identifications_additive",
+    "newly_certified_canonical_HHS_institutions",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6h-counsel-source-coverage-nonadditive"
+    },
+    "source_coverage_registers": {
+      "const": 14
+    },
+    "HHS_current_first_level_legal_denominator": {
+      "const": null
+    },
+    "downstream_mission_interface_global_authority_certified": {
+      "const": false
+    },
+    "FY2026_ASE_and_FY2027_ASCRA_budget_proposals_still_unimplemented_unqualified": {
+      "const": true
+    },
+    "OIG_research_original_1997_not_current_2026_census": {
+      "const": true
+    },
+    "current_status_of_revoked_21_CFR_5_1105": {
+      "const": "removed_effective_2026-06-15"
+    },
+    "FDA_publisher_OCC_role_still_observed_after_removal": {
+      "const": true
+    },
+    "full_HHS_independent_signed_legal_delegation_inventory_complete": {
+      "const": false
+    },
+    "source_records_and_legal_identifications_additive": {
+      "const": false
+    },
+    "newly_certified_canonical_HHS_institutions": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 14,
+      "maxItems": 14,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_population_label",
+          "source_population_code",
+          "record_grain",
+          "source_scoped_record_count",
+          "publisher_source_epoch",
+          "source_version_reference",
+          "current_HHS_first_level_denominator_increment",
+          "any_distinct_agency_implied_by_record",
+          "additive_across_citation_epochs",
+          "independent_legal_authority_assertion",
+          "individual_signed_legal_delegation_qualified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_population_label": {
+            "type": "string"
+          },
+          "source_population_code": {
+            "type": "string"
+          },
+          "record_grain": {
+            "type": "string"
+          },
+          "source_scoped_record_count": {
+            "type": "integer"
+          },
+          "publisher_source_epoch": {
+            "type": "string"
+          },
+          "source_version_reference": {
+            "type": "string"
+          },
+          "current_HHS_first_level_denominator_increment": {
+            "type": "integer"
+          },
+          "any_distinct_agency_implied_by_record": {
+            "const": false
+          },
+          "additive_across_citation_epochs": {
+            "const": false
+          },
+          "independent_legal_authority_assertion": {
+            "const": false
+          },
+          "individual_signed_legal_delegation_qualified": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

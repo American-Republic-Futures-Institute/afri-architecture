@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6H counsel authority source edition and legal-boundary contract: inc15c6h-counsel-authority-source-editions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "issue",
+    "source_edition_rows",
+    "new_publisher_originals_to_retain",
+    "already_retained_2026_OGC_originals",
+    "OGC_canonical_institution_id",
+    "OIG_canonical_institution_id",
+    "FDA_canonical_institution_id",
+    "fda_removed_section",
+    "fda_effective_removal_date",
+    "outdated_citation_OGC_source_date",
+    "separately_identified_2026_OGC_notice_effective_date",
+    "whole_HHS_current_legal_first_level_denominator",
+    "all_rows_nonadditive_source_editions",
+    "all_legal_citation_crosswalks_independently_qualified",
+    "no_new_canonical_institutions",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6h-counsel-authority-source-editions"
+    },
+    "issue": {
+      "const": "INC-15C.6H"
+    },
+    "source_edition_rows": {
+      "const": 6
+    },
+    "new_publisher_originals_to_retain": {
+      "const": 5
+    },
+    "already_retained_2026_OGC_originals": {
+      "const": 1
+    },
+    "OGC_canonical_institution_id": {
+      "const": "INC15C3-HHS-LINK-OGC"
+    },
+    "OIG_canonical_institution_id": {
+      "const": "INC15C3-HHS-LINK-OIG"
+    },
+    "FDA_canonical_institution_id": {
+      "const": "INC15C3-HHS-LINK-FDA"
+    },
+    "fda_removed_section": {
+      "const": "21 CFR 5.1105"
+    },
+    "fda_effective_removal_date": {
+      "const": "2026-06-15"
+    },
+    "outdated_citation_OGC_source_date": {
+      "const": "2026-09-29"
+    },
+    "separately_identified_2026_OGC_notice_effective_date": {
+      "const": null
+    },
+    "whole_HHS_current_legal_first_level_denominator": {
+      "const": null
+    },
+    "all_rows_nonadditive_source_editions": {
+      "const": true
+    },
+    "all_legal_citation_crosswalks_independently_qualified": {
+      "const": false
+    },
+    "no_new_canonical_institutions": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "official_publisher_source_key",
+          "original_publisher_document_title",
+          "source_publication_or_edition_date",
+          "separately_express_effective_date",
+          "source_classification",
+          "official_citation_or_source_locator",
+          "bounded_source_description",
+          "original_publisher_url",
+          "retained_original_sha256",
+          "exact_original_custody_receipt",
+          "historical_1997_edition_full_issue_other_material_excluded",
+          "pre_2026_ogc_notice_legal_basis_not_auto_superseded",
+          "separate_HHS_current_institution_count",
+          "independent_exhaustive_legal_and_statutory_review_completed",
+          "original_legal_authority_minted_by_source_ingestion",
+          "organizational_direct_command_inferred",
+          "index"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "official_publisher_source_key": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "original_publisher_document_title": {
+            "type": "string"
+          },
+          "source_publication_or_edition_date": {
+            "type": "string"
+          },
+          "separately_express_effective_date": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "source_classification": {
+            "type": "string"
+          },
+          "official_citation_or_source_locator": {
+            "type": "string"
+          },
+          "bounded_source_description": {
+            "type": "string"
+          },
+          "original_publisher_url": {
+            "type": "string"
+          },
+          "retained_original_sha256": {
+            "type": "string"
+          },
+          "exact_original_custody_receipt": {
+            "type": "string"
+          },
+          "historical_1997_edition_full_issue_other_material_excluded": {
+            "type": "boolean"
+          },
+          "pre_2026_ogc_notice_legal_basis_not_auto_superseded": {
+            "const": true
+          },
+          "separate_HHS_current_institution_count": {
+            "type": "null"
+          },
+          "independent_exhaustive_legal_and_statutory_review_completed": {
+            "const": false
+          },
+          "original_legal_authority_minted_by_source_ingestion": {
+            "const": false
+          },
+          "organizational_direct_command_inferred": {
+            "const": false
+          },
+          "index": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

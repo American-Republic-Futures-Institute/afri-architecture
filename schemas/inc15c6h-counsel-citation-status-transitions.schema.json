@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6H counsel authority source edition and legal-boundary contract: inc15c6h-counsel-citation-status-transitions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_rows",
+    "dated_cross_source_statuses_nonadditive",
+    "FDA_CFR_section_revoked",
+    "FDA_CFR_5_1110_revoked",
+    "signed_removal_effective_date",
+    "erroneous_HHS_citation_date",
+    "obsolete_CFR_citation_is_not_current_authority",
+    "FDA_OCC_existence_abolition_from_CFR_removal_unproven",
+    "no_HHS_IG_legal_direction_from_general_counsel_inferred",
+    "no_ALJ_case_or_apellate_control_inferred",
+    "current_HHS_first_level_legal_denominator",
+    "current_named_HHS_legal_delegations_certified",
+    "new_canonical_federal_institution_ids",
+    "observation_type_counts",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6h-counsel-citation-status-transitions"
+    },
+    "source_rows": {
+      "const": 17
+    },
+    "dated_cross_source_statuses_nonadditive": {
+      "const": true
+    },
+    "FDA_CFR_section_revoked": {
+      "const": "21 CFR 5.1105"
+    },
+    "FDA_CFR_5_1110_revoked": {
+      "const": true
+    },
+    "signed_removal_effective_date": {
+      "const": "2026-06-15"
+    },
+    "erroneous_HHS_citation_date": {
+      "const": "2026-09-29"
+    },
+    "obsolete_CFR_citation_is_not_current_authority": {
+      "const": true
+    },
+    "FDA_OCC_existence_abolition_from_CFR_removal_unproven": {
+      "const": true
+    },
+    "no_HHS_IG_legal_direction_from_general_counsel_inferred": {
+      "const": true
+    },
+    "no_ALJ_case_or_apellate_control_inferred": {
+      "const": true
+    },
+    "current_HHS_first_level_legal_denominator": {
+      "const": null
+    },
+    "current_named_HHS_legal_delegations_certified": {
+      "const": 0
+    },
+    "new_canonical_federal_institution_ids": {
+      "const": 0
+    },
+    "observation_type_counts": {
+      "const": {
+        "historical_regulation_text": 1,
+        "historical_editorial_footnote": 1,
+        "regulatory_section_removed": 2,
+        "regulation_organizational_pointer_revised": 1,
+        "anachronistic_cross_source_citation": 1,
+        "publisher_described_professional_reporting": 2,
+        "publisher_described_advisory_function": 1,
+        "publisher_described_administrative_placement": 1,
+        "historical_counsel_consolidation": 1,
+        "historical_OIG_counsel_function": 1,
+        "OGC_OIG_counsel_exception": 1,
+        "presidential_interpretation_source_rule": 1,
+        "executive_order_applicable_law_exception": 1,
+        "department_legal_advice_scope_claim": 1,
+        "rule_effect_not_office_dissolution": 1
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 17,
+      "maxItems": 17,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_edition_id",
+          "source_observation_type",
+          "citation_status",
+          "subject_reference",
+          "target_reference",
+          "publisher_section_or_paragraph",
+          "publisher_printed_page_or_locator",
+          "source_epoch_or_publication_date",
+          "express_legal_effective_date",
+          "bounded_edition_finding",
+          "predecessor_OGC_relation_id",
+          "source_original_sha256",
+          "legal_instrument_additional_independent_qualification_complete",
+          "signed_delegation_to_named_individual_established",
+          "legal_authority_over_independent_OIG_or_ALJ_inferred",
+          "distinct_HHS_new_agency_ID",
+          "different_source_eras_not_additive"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_edition_id": {
+            "type": "string"
+          },
+          "source_observation_type": {
+            "type": "string"
+          },
+          "citation_status": {
+            "type": "string",
+            "enum": [
+              "operative_at_edition",
+              "removed_before_citing_edition",
+              "historical_publisher_claim",
+              "publisher_described_organizational_placement",
+              "unresolved_independent_legal_qualification"
+            ]
+          },
+          "subject_reference": {
+            "type": "string"
+          },
+          "target_reference": {
+            "type": "string"
+          },
+          "publisher_section_or_paragraph": {
+            "type": "string"
+          },
+          "publisher_printed_page_or_locator": {
+            "type": "string"
+          },
+          "source_epoch_or_publication_date": {
+            "type": "string"
+          },
+          "express_legal_effective_date": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "bounded_edition_finding": {
+            "type": "string"
+          },
+          "predecessor_OGC_relation_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "source_original_sha256": {
+            "type": "string"
+          },
+          "legal_instrument_additional_independent_qualification_complete": {
+            "const": false
+          },
+          "signed_delegation_to_named_individual_established": {
+            "const": false
+          },
+          "legal_authority_over_independent_OIG_or_ALJ_inferred": {
+            "const": false
+          },
+          "distinct_HHS_new_agency_ID": {
+            "type": "null"
+          },
+          "different_source_eras_not_additive": {
+            "const": true
+          }
+        }
+      }
+    }
+  }
+}
