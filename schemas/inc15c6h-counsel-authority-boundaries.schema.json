@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ARFI INC-15C.6H source bounded inc15c6h-counsel-authority-boundaries",
+  "title": "ARFI INC-15C.6H bounded source inc15c6h-counsel-authority-boundaries",
   "type": "object",
   "additionalProperties": false,
   "required": [
