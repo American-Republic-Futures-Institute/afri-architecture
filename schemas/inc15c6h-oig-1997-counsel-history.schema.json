@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6H counsel authority source edition and legal-boundary contract: inc15c6h-oig-1997-counsel-history",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "cited_official_historical_source",
+    "original_archive_source",
+    "referenced_report_section",
+    "official_full_issue_source_receipt",
+    "original_1997_full_issue_sha256",
+    "original_Federal_Register_published",
+    "independently_declared_effective_date",
+    "HHS_OIG_root_identity_ref",
+    "original_1997_Office_of_Counsel_code",
+    "historical_OIG_top_level_component_labels",
+    "historical_OCIG_internal_source_labels",
+    "source_historical_unit_observations_total",
+    "old_OGC_IG_and_litigation_coordination_consolidation_source_claim",
+    "historical_OCIG_part_of_OGC_ongoing_supervision_claim",
+    "current_OCIG_statutory_independent_legal_review_completed",
+    "current_2026_OIG_roster_equivalence_independently_certified",
+    "all_historical_division_labels_nonadditive",
+    "HHS_current_legal_first_level_roster_total",
+    "new_canonical_federal_agency_identifiers",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6h-historical-1997-oig-ocig"
+    },
+    "cited_official_historical_source": {
+      "const": "FR Doc 97-14611, 62 FR 30859-30865"
+    },
+    "original_archive_source": {
+      "const": "1997-06-05 full issue official GPO PDF, not an individual FR document original"
+    },
+    "referenced_report_section": {
+      "const": "AF.10 and AFG.00/AFG.10"
+    },
+    "official_full_issue_source_receipt": {
+      "const": "evidence/hhs-counsel-source-editions/receipts/source-custody.json"
+    },
+    "original_1997_full_issue_sha256": {
+      "const": "75d648c24c18802812128e2708fe29340458b274d522d8e97ef38129bac1fe0d"
+    },
+    "original_Federal_Register_published": {
+      "const": "1997-06-05"
+    },
+    "independently_declared_effective_date": {
+      "const": null
+    },
+    "HHS_OIG_root_identity_ref": {
+      "const": "INC15C3-HHS-LINK-OIG"
+    },
+    "original_1997_Office_of_Counsel_code": {
+      "const": "AFG"
+    },
+    "historical_OIG_top_level_component_labels": {
+      "const": 7
+    },
+    "historical_OCIG_internal_source_labels": {
+      "const": 4
+    },
+    "source_historical_unit_observations_total": {
+      "const": 11
+    },
+    "old_OGC_IG_and_litigation_coordination_consolidation_source_claim": {
+      "const": true
+    },
+    "historical_OCIG_part_of_OGC_ongoing_supervision_claim": {
+      "const": false
+    },
+    "current_OCIG_statutory_independent_legal_review_completed": {
+      "const": false
+    },
+    "current_2026_OIG_roster_equivalence_independently_certified": {
+      "const": false
+    },
+    "all_historical_division_labels_nonadditive": {
+      "const": true
+    },
+    "HHS_current_legal_first_level_roster_total": {
+      "const": null
+    },
+    "new_canonical_federal_agency_identifiers": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "publisher_label",
+          "publisher_source_code",
+          "source_publisher_era_type",
+          "parent_edition_identity",
+          "source_section_locator",
+          "FR_printed_page_locator",
+          "publication",
+          "separately_specified_effective_date",
+          "exact_original_publisher_source_key",
+          "original_source_sha256",
+          "source_edition_status",
+          "previous_OGC_IG_legal_relationship",
+          "cross_2026_office_identity_legally_equivalent_certified",
+          "canonical_legal_new_HHS_institution_id",
+          "current_subunit_roster_qualified",
+          "OGC_commands_OIG_counsel",
+          "current_statutory_authority_inferred_from_1997_notice",
+          "ordinal"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "publisher_label": {
+            "type": "string"
+          },
+          "publisher_source_code": {
+            "type": "string"
+          },
+          "source_publisher_era_type": {
+            "type": "string"
+          },
+          "parent_edition_identity": {
+            "type": "string"
+          },
+          "source_section_locator": {
+            "type": "string"
+          },
+          "FR_printed_page_locator": {
+            "type": "string"
+          },
+          "publication": {
+            "type": "string"
+          },
+          "separately_specified_effective_date": {
+            "type": "null"
+          },
+          "exact_original_publisher_source_key": {
+            "type": "string"
+          },
+          "original_source_sha256": {
+            "type": "string"
+          },
+          "source_edition_status": {
+            "type": "string",
+            "const": "historical_1997_org_statement_not_current_certification"
+          },
+          "previous_OGC_IG_legal_relationship": {
+            "type": "string"
+          },
+          "cross_2026_office_identity_legally_equivalent_certified": {
+            "const": false
+          },
+          "canonical_legal_new_HHS_institution_id": {
+            "type": "null"
+          },
+          "current_subunit_roster_qualified": {
+            "const": false
+          },
+          "OGC_commands_OIG_counsel": {
+            "const": false
+          },
+          "current_statutory_authority_inferred_from_1997_notice": {
+            "const": false
+          },
+          "ordinal": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

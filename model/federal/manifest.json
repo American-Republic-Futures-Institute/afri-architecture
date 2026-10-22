@@ -316,7 +316,12 @@
     "model/federal/inc15c6g-ogc-hierarchy.json",
     "model/federal/inc15c6g-ogc-role-classes.json",
     "model/federal/inc15c6g-ogc-institutional-interfaces.json",
-    "model/federal/inc15c6g-ogc-source-coverage.json"
+    "model/federal/inc15c6g-ogc-source-coverage.json",
+    "model/federal/inc15c6h-counsel-authority-source-editions.json",
+    "model/federal/inc15c6h-counsel-citation-status-transitions.json",
+    "model/federal/inc15c6h-oig-1997-counsel-history.json",
+    "model/federal/inc15c6h-counsel-source-coverage.json",
+    "model/federal/inc15c6h-counsel-authority-boundaries.json"
   ],
   "standards": [
     {
@@ -1315,5 +1320,32 @@
     "FY2026_ASE_and_FY2027_ASCRA_budget_proposals_not_implemented_by_OGC_notice": true,
     "independent_executive_order_and_FDA_regulatory_legal_review_pending": true,
     "source_notes": "Published organizational statement replaces previous OGC statements, no independently stated distinct operative effective date; not agency command or a current complete HHS organization"
+  },
+  "federal_institutional_breadth_15c6h_extension": {
+    "id": "ARFI-FED-INC15C6H-HHS-OGC-OIG-FDA-LEGAL-CITATION-EPOCHS",
+    "official_edition_sources_retained": 6,
+    "newly_custodied_official_originals": 5,
+    "preceding_OGC_official_original_reused": 1,
+    "new_source_versioned_citation_records": 17,
+    "new_typed_authority_boundary_records": 11,
+    "historical_1997_OCIG_source_local_rows": 11,
+    "separately_1997_OCIG_subordinate_functions": 4,
+    "bounded_nonadditive_coverage_register_rows": 14,
+    "obsolete_FDA_21_CFR_5_1105_removed_effective_date": "2026-06-15",
+    "2026_OGC_notice_citing_removed_5_1105_publication_date": "2026-09-29",
+    "2026_post_repeal_FDA_chart_edition_date": "2026-10-13",
+    "2026_OGC_notice_separate_effective_date": null,
+    "FDA_Chief_Counsel_current_publisher_professional_reporting_to_HHS_OGC_observed": true,
+    "FDA_Chief_Counsel_office_abolition_proved": false,
+    "1997_OIG_legal_counsel_historical_source_reconciled": true,
+    "HHS_OGC_current_statutory_supervision_of_OCIG_independently_certified": false,
+    "whole_HHS_current_legal_first_level_denominator": null,
+    "new_canonical_agency_identifiers_added": 0,
+    "FY2026_ASE_FY2027_ASCRA_proposal_implementation_verified": false,
+    "all_source_edition_populations_nonadditive": true,
+    "original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+    "legal_currentness_scope": "regulatory_repeal_verified_reported_relationships_publisher_observed_broader_individual_authority_unqualified",
+    "historical_1997_OCIG_original_historical_register_includes_7_OIG_plus_4_OCIG": true,
+    "EO_14215_sections_8b_reserved_authorities_and_8c_applicable_law_qualified": true
   }
 }

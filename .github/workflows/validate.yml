@@ -125,6 +125,10 @@ jobs:
         run: python3 scripts/inc15c6h-capture-source-editions.py verify
       - name: Reject INC-15C.6H forged publisher originals, 1997 granule source inflation and 2026 FDA revoked citation
         run: python3 -m unittest discover -s tests -p 'test_inc15c6h_original_custody.py' -v
+      - name: Validate INC-15C.6H exact source editions, dated revoked citations, OIG counsel history and legal nonpromotion
+        run: python3 scripts/inc15c6h-validate-counsel-models.py
+      - name: Reject INC-15C.6H source tampering, repealed-law resurrection, fabricated ALJ/OIG powers and schema coforgery
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6h_counsel_models.py' -v
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
