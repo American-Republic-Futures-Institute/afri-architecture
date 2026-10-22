@@ -121,6 +121,10 @@ jobs:
         run: python3 scripts/inc15c6g-validate-ogc-models.py
       - name: Reject INC-15C.6G fabricated HHS command, ALJ powers, OIG override, UAC conflict or source/schema co-forgery
         run: python3 -m unittest discover -s tests -p 'test_inc15c6g_ogc_models.py' -v
+      - name: Verify INC-15C.6H five original FDA CFR OIG EO publisher sources against pinned bytes and edition-local dates
+        run: python3 scripts/inc15c6h-capture-source-editions.py verify
+      - name: Reject INC-15C.6H forged publisher originals, 1997 granule source inflation and 2026 FDA revoked citation
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6h_original_custody.py' -v
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
