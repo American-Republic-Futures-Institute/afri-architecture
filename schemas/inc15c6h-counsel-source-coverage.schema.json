@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ARFI INC-15C.6H counsel authority source edition and legal-boundary contract: inc15c6h-counsel-source-coverage",
+  "title": "ARFI INC-15C.6H bounded source inc15c6h-counsel-source-coverage",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -78,13 +78,29 @@
         ],
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^INC15C6H-"
           },
           "source_population_label": {
             "type": "string"
           },
           "source_population_code": {
-            "type": "string"
+            "enum": [
+              "CFR-2025",
+              "FDA-RULE-2026",
+              "OIG-1997-ROOT",
+              "OIG-1997-OCIG",
+              "EO-2025",
+              "FDA-CHART-OCT",
+              "OGC-SEP2026",
+              "C6H-STATUS",
+              "C6G-OGC-UNITS",
+              "C6G-INTERFACES",
+              "HHS-INDEX",
+              "HHS-GOVMAN",
+              "HHS-OIG-2025",
+              "HHS-OCR-2026"
+            ]
           },
           "record_grain": {
             "type": "string"
