@@ -59,3 +59,35 @@ Those descriptions mention HHS public-health emergency preparedness and DHS disa
 Two canonical institution roots; at least one source-qualified function for each; one independently source-qualified **actual interagency interface**; exact versioned source inspection; graph projection without fabricated authority; regression tests for legal and temporal non-promotion. Current federal legal denominator and actual outcomes remain unknown until independently established.
 
 This document is a scope and admission contract, not an assertion that these acceptance conditions are already met.
+
+## Implementation checkpoint — 2026-10-22 (research layer, not Atlas-admitted)
+
+The first executable INC-16A functional model is now on this PR branch:
+
+- `model/federal/inc16/inc16a-hhs-dhs-functional-interface.json` — two previously established canonical Cabinet departments, nine source-exact dated Government Manual mission clauses (four HHS; five DHS), three conditional cross-department statutory interface records, two explicit negative authority boundaries and three candidate projection viewpoints.
+- `schemas/inc16a-hhs-dhs-functional-interface.schema.json` — closed additive contract; unrelated legacy `ORG-FED-*`, `CAP-FED-*` and `REL-FED-*` identifiers remain unchanged.
+- `scripts/inc16a-validation-core.mjs`, `scripts/validate-inc16a.mjs`, `tests/inc16a.test.mjs` — original retained Government Manual SHA-256 verification, existing INC-15D canonical identity crosswalk, source-exact mission verification, official U.S. Code version and statutory direction/conditions, plus negative tests for forged legal powers, current operational performance, source editions, identities and Atlas admission.
+- The main architecture manifest and existing validation workflow now reference these additions. The INC-15C.6H historical validator was made additive while preserving its own source-specific constraints.
+
+**Statutory basis and direction:**
+
+| Typed claim | Source | Scope and negative bounds |
+| --- | --- | --- |
+| HHS → DHS: conditional statutory disclosure duty | [6 U.S.C. § 467(b)(2)](https://uscode.house.gov/us/usc/119-118/t6/s467/) | When HHS has declared a public health emergency; does not establish that information was actually sent |
+| DHS → HHS: conditional statutory disclosure duty | [6 U.S.C. § 467(b)(3)](https://uscode.house.gov/us/usc/119-118/t6/s467/) | Potential incident without an HHS declaration; statute names other relevant agencies and the CDC Director as a recipient |
+| HHS → DHS: statutory duty to collaborate on an interagency agreement | [42 U.S.C. § 300hh(b)](https://uscode.house.gov/us/usc/119-120/t42/s300hh/) | Includes other named Secretaries; proves a statutory requirement, **not an executed agreement or an activated transfer of command** |
+
+The Office of the Law Revision Counsel text inspected on 2026-10-22 states laws in effect through Public Law 119-120 (2026-10-07). **The online U.S. Code HTML originals have not been retained in this repo or independently WORM-certified**. Only the Government Manual publisher XML is SHA-256-pinned in Git. `source_original_sha256: null` for the U.S. Code sources is intentional. This proof is source-anchored official-text research; it is not independent legal signoff, source-original archival completion, or proof of actual interagency action.
+
+The exception in **42 U.S.C. § 300hh(b)** preserves Department of Defense command and control over its forces and associated assets. The proof also prohibits treating GovManual mission overlap as evidence of signed delegation or actual joint performance.
+
+To validate in a full repository checkout:
+
+```sh
+node scripts/validate-inc16a.mjs
+node --test tests/inc16a.test.mjs
+python3 scripts/inc15c6h-validate-counsel-models.py
+```
+
+**Publication gate:** no public Atlas adapter has been changed and all three viewpoints and interface edges remain `atlas_admitted: false`. The next bounded source-custody step is to retain/verify the legally applicable original statutory texts and cross-check currentness; then implement a separately reviewed website adapter that publishes only correctly labeled source-backed relationships. Broader functional tracing to subordinate offices, real service delivery and Data Observatory outcomes remains distinct follow-on work.
+
