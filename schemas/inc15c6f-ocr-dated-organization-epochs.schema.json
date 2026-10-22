@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15C.6F source-qualified OCR organization and bounded authority — inc15c6f-ocr-dated-organization-epochs",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "department_canonical_id",
+    "unchanged_HHS_OCR_source_reference",
+    "original_custody_manifest",
+    "source_2023_GovInfo_document_id",
+    "source_2026_GovInfo_document_id",
+    "source_2023_at10_label_count",
+    "source_2026_at10_label_count",
+    "source_2026_notice_signed_operative_internal_structure",
+    "source_2026_notice_effective_date",
+    "source_2023_notice_superseded_AT10_text_as_of_2026",
+    "legal_current_entire_HHS_first_level_denominator",
+    "distinct_2026_OCR_internal_composition_entries",
+    "edition_row_count_nonadditive",
+    "legal_organization_identity_equivalence_across_dates_certified",
+    "newly_minted_canonical_federal_institutions",
+    "source_2026_current_through_2026_10_22_independently_verified",
+    "FY2026_ASE_or_FY2027_ASCRA_implementation_certified",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6f-ocr-dated-internal-organization-epochs"
+    },
+    "department_canonical_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "unchanged_HHS_OCR_source_reference": {
+      "const": "INC15C3-HHS-LINK-OCR"
+    },
+    "original_custody_manifest": {
+      "const": "evidence/hhs-ocr-org-2023-2026/receipts/git-custody.json"
+    },
+    "source_2023_GovInfo_document_id": {
+      "const": "2023-03892"
+    },
+    "source_2026_GovInfo_document_id": {
+      "const": "2026-13142"
+    },
+    "source_2023_at10_label_count": {
+      "const": 6
+    },
+    "source_2026_at10_label_count": {
+      "const": 6
+    },
+    "source_2026_notice_signed_operative_internal_structure": {
+      "const": true
+    },
+    "source_2026_notice_effective_date": {
+      "const": "2026-06-28"
+    },
+    "source_2023_notice_superseded_AT10_text_as_of_2026": {
+      "const": "2026-06-28"
+    },
+    "legal_current_entire_HHS_first_level_denominator": {
+      "const": null
+    },
+    "distinct_2026_OCR_internal_composition_entries": {
+      "const": 6
+    },
+    "edition_row_count_nonadditive": {
+      "const": 12
+    },
+    "legal_organization_identity_equivalence_across_dates_certified": {
+      "const": false
+    },
+    "newly_minted_canonical_federal_institutions": {
+      "const": 0
+    },
+    "source_2026_current_through_2026_10_22_independently_verified": {
+      "const": false
+    },
+    "FY2026_ASE_or_FY2027_ASCRA_implementation_certified": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_year",
+          "source_publication_date",
+          "source_secretary_approval_date",
+          "source_reorganization_effective_date",
+          "source_fr_document_id",
+          "source_fr_pages",
+          "source_printed_page",
+          "source_original_pdf_sha256",
+          "publisher_section",
+          "publisher_list_ordinal",
+          "publisher_organization_code",
+          "publisher_organization_label",
+          "parent_source_reference",
+          "preceding_edition_same_code_id",
+          "preceding_edition_name",
+          "publisher_code_continuity_observed",
+          "unchanged_publisher_organization_label_from_2023",
+          "edition_local_status",
+          "edition_local_superseded_on",
+          "as_of_notice_effective_date_only",
+          "completeness_entire_HHS_not_claimed",
+          "new_canonical_legal_institution_id",
+          "same_legal_office_identity_across_2023_2026_certified",
+          "individual_officeholder_or_budget_delegation_verified",
+          "current_2026_10_22_organizational_status_independently_recensused"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_year": {
+            "type": "string"
+          },
+          "source_publication_date": {
+            "type": "string"
+          },
+          "source_secretary_approval_date": {
+            "type": "string"
+          },
+          "source_reorganization_effective_date": {
+            "type": "string"
+          },
+          "source_fr_document_id": {
+            "type": "string"
+          },
+          "source_fr_pages": {
+            "type": "string"
+          },
+          "source_printed_page": {
+            "type": "string"
+          },
+          "source_original_pdf_sha256": {
+            "type": "string"
+          },
+          "publisher_section": {
+            "type": "string"
+          },
+          "publisher_list_ordinal": {
+            "type": "integer"
+          },
+          "publisher_organization_code": {
+            "type": "string"
+          },
+          "publisher_organization_label": {
+            "type": "string"
+          },
+          "parent_source_reference": {
+            "type": "string"
+          },
+          "preceding_edition_same_code_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "preceding_edition_name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "publisher_code_continuity_observed": {
+            "type": "boolean"
+          },
+          "unchanged_publisher_organization_label_from_2023": {
+            "type": "boolean"
+          },
+          "edition_local_status": {
+            "enum": [
+              "historical_superseded",
+              "implemented_primary_source_qualified"
+            ]
+          },
+          "edition_local_superseded_on": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "as_of_notice_effective_date_only": {
+            "const": true
+          },
+          "completeness_entire_HHS_not_claimed": {
+            "const": true
+          },
+          "new_canonical_legal_institution_id": {
+            "type": "null"
+          },
+          "same_legal_office_identity_across_2023_2026_certified": {
+            "const": false
+          },
+          "individual_officeholder_or_budget_delegation_verified": {
+            "const": false
+          },
+          "current_2026_10_22_organizational_status_independently_recensused": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
