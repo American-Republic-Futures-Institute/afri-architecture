@@ -1,0 +1,32 @@
+{
+  "OIG_independent_counsel_exception_preserved": true,
+  "contract": "inc15c6g_govinfo_git_custody_v1",
+  "dated_proposal_not_presented_as_implemented_HHS_parent": true,
+  "distinct_operative_effective_date": null,
+  "existing_canonical_institution_ids_changed": 0,
+  "external_WORM_custody_verified": false,
+  "fr_citation": "91 FR 61422-61426",
+  "fr_document_number": "2026-19903",
+  "individual_written_delegations_independently_qualified": false,
+  "internal_divisions_publisher_denominator": 11,
+  "legal_services_not_general_command": true,
+  "original_byte_count": 204358,
+  "original_git_blob_sha1": "43c99b2f51ba8d99f0a789ddc8446098883793b3",
+  "original_repo_path": "evidence/hhs-ogc-2026-statement/originals/sha256/e779cb68e4641730a00043a78b08c06a4a2db243c8987c27dd723287224e9f76/2026-19903.pdf",
+  "original_sha256": "e779cb68e4641730a00043a78b08c06a4a2db243c8987c27dd723287224e9f76",
+  "original_source": "https://www.govinfo.gov/content/pkg/FR-2026-09-29/pdf/2026-19903.pdf",
+  "physical_pdf_pages": 5,
+  "prior_OGC_statements_rescinded_not_all_HHS_statements": true,
+  "publication_date": "2026-09-29",
+  "publication_pages": [
+    61422,
+    61423,
+    61424,
+    61425,
+    61426
+  ],
+  "publisher_source": "GovInfo GPO Federal Register",
+  "source_scope": "OGC statement only; adjacent printed unrelated notices excluded",
+  "upstream_acquisition_receipt_sha256": "63990c49d1889613c640621fc6f3f2d1e92727d8062e9cadfee04bb0d0ef24a8",
+  "whole_HHS_first_level_legal_denominator": null
+}
