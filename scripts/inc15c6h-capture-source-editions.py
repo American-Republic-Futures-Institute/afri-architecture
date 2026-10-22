@@ -157,6 +157,7 @@ def validate(receipts,root=ROOT):
           rec["original_bytes"]==approved[1] and
           rec["original_git_blob_sha1"]==approved[2],
           "reviewed source-original fingerprint changed: "+key)
+  require(rec["original_path"]==raw_relpath(key,approved[0]),"exact source-original path changed")
   data=(root/rec["original_path"]).read_bytes()
   require(sha256(data)==approved[0] and len(data)==approved[1] and gitblob(data)==approved[2],
           "source original PDF or HTML bytes do not match approved independent fingerprints: "+key)
