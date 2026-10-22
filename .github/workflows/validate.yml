@@ -117,6 +117,10 @@ jobs:
         run: python3 scripts/inc15c6g-ogc-original.py verify
       - name: Reject INC-15C.6G forged 2026 OGC original, authority, independent legal effective date and custody
         run: python3 -m unittest discover -s tests -p 'test_inc15c6g_original_custody.py' -v
+      - name: Verify INC-15C.6G independently pinned source and typed OGC office, role, legal interface registers
+        run: python3 scripts/inc15c6g-validate-ogc-models.py
+      - name: Reject INC-15C.6G fabricated HHS command, ALJ powers, OIG override, UAC conflict or source/schema co-forgery
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6g_ogc_models.py' -v
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views

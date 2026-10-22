@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6G source-observed HHS Office of General Counsel - inc15c6g-ogc-role-classes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "publisher_document_id",
+    "publisher_date",
+    "original_source_receipt_path",
+    "independently_qualified_effective_date",
+    "role_classes_transcribed",
+    "individual_people_and_vacancies_not_enumerated",
+    "general_counsel_professional_hierarchy_source_observed",
+    "secretarial_ethics_designations_described_source_only",
+    "external_appointing_or_delegation_instruments_retrieved_and_verified",
+    "satellite_managing_counsel_not_organizational_component",
+    "actual_role_incumbents_certified",
+    "valid_number_of_positions_under_statute",
+    "aggregate_current_HHS_first_level_unit_population",
+    "no_new_canonical_agency_ids",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6g-ogc-role-and-position-classes"
+    },
+    "publisher_document_id": {
+      "const": "2026-19903"
+    },
+    "publisher_date": {
+      "const": "2026-09-29"
+    },
+    "original_source_receipt_path": {
+      "const": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json"
+    },
+    "independently_qualified_effective_date": {
+      "const": null
+    },
+    "role_classes_transcribed": {
+      "const": 22
+    },
+    "individual_people_and_vacancies_not_enumerated": {
+      "const": true
+    },
+    "general_counsel_professional_hierarchy_source_observed": {
+      "const": true
+    },
+    "secretarial_ethics_designations_described_source_only": {
+      "const": true
+    },
+    "external_appointing_or_delegation_instruments_retrieved_and_verified": {
+      "const": false
+    },
+    "satellite_managing_counsel_not_organizational_component": {
+      "const": true
+    },
+    "actual_role_incumbents_certified": {
+      "const": 0
+    },
+    "valid_number_of_positions_under_statute": {
+      "const": null
+    },
+    "aggregate_current_HHS_first_level_unit_population": {
+      "const": null
+    },
+    "no_new_canonical_agency_ids": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 22,
+      "maxItems": 22,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_role_name",
+          "source_section_locator",
+          "source_printed_page_locator",
+          "linked_ogc_unit_id",
+          "source_role_relationship_qualifier",
+          "publisher_role_classification",
+          "role_catalog_sequence",
+          "source_document_number",
+          "source_publication_date",
+          "role_edition_effective_date",
+          "currently_named_incumbent",
+          "headcount_or_occupied_positions_certified",
+          "position_hierarchy_observation_only",
+          "independent_external_signed_delegation_instrument_retained",
+          "new_canonical_HHS_institution_id",
+          "legal_command_over_client_agency_inferred"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_role_name": {
+            "type": "string"
+          },
+          "source_section_locator": {
+            "type": "string"
+          },
+          "source_printed_page_locator": {
+            "type": "string"
+          },
+          "linked_ogc_unit_id": {
+            "type": "string"
+          },
+          "source_role_relationship_qualifier": {
+            "type": "string"
+          },
+          "publisher_role_classification": {
+            "type": "string"
+          },
+          "role_catalog_sequence": {
+            "type": "integer"
+          },
+          "source_document_number": {
+            "type": "string"
+          },
+          "source_publication_date": {
+            "type": "string"
+          },
+          "role_edition_effective_date": {
+            "const": null
+          },
+          "currently_named_incumbent": {
+            "const": null
+          },
+          "headcount_or_occupied_positions_certified": {
+            "const": null
+          },
+          "position_hierarchy_observation_only": {
+            "const": true
+          },
+          "independent_external_signed_delegation_instrument_retained": {
+            "const": false
+          },
+          "new_canonical_HHS_institution_id": {
+            "const": null
+          },
+          "legal_command_over_client_agency_inferred": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

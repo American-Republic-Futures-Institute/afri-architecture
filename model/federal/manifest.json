@@ -312,7 +312,11 @@
     "model/federal/inc15c6e-hhs-source-lifecycle-coverage.json",
     "model/federal/inc15c6f-ocr-dated-organization-epochs.json",
     "model/federal/inc15c6f-ocr-2026-notice-clauses.json",
-    "model/federal/inc15c6f-ocr-typed-source-relationships.json"
+    "model/federal/inc15c6f-ocr-typed-source-relationships.json",
+    "model/federal/inc15c6g-ogc-hierarchy.json",
+    "model/federal/inc15c6g-ogc-role-classes.json",
+    "model/federal/inc15c6g-ogc-institutional-interfaces.json",
+    "model/federal/inc15c6g-ogc-source-coverage.json"
   ],
   "standards": [
     {
@@ -1287,5 +1291,29 @@
     "current_2026_Oct_OCR_officeholder_or_organizational_roster_reverified": false,
     "independent_external_WORM_source_custody_verified": false,
     "research_status": "OCR_internal_notice_effective_as_published_2026-06-28_predecessor_2023_crosswalk_nonadditive_HHS_open"
+  },
+  "federal_institutional_breadth_15c6g_extension": {
+    "id": "ARFI-FED-INC15C6G-HHS-OGC-2026-ORG-STATEMENT",
+    "OGC_publisher_document_id": "2026-19903",
+    "OGC_publisher_date": "2026-09-29",
+    "OGC_original_official_pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-29/pdf/2026-19903.pdf",
+    "OGC_original_git_custody_receipt": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json",
+    "OGC_notice_physical_pdf_pages": 5,
+    "separate_OGC_legal_operative_effective_date_qualified": null,
+    "2026_source_scoped_OGC_division_count": 11,
+    "2026_source_scoped_OGC_org_component_count": 39,
+    "2026_source_scoped_OGC_role_class_observations": 22,
+    "2026_source_scoped_OGC_legal_service_and_boundary_relations": 39,
+    "2026_source_scoped_OGC_nonadditive_cohort_registers": 11,
+    "HHS_whole_legal_first_level_population": null,
+    "no_new_canonical_institution_ids": 0,
+    "original_HHS_OGC_publisher_index_ID": "INC15C3-HHS-LINK-OGC",
+    "OIG_independent_counsel_exception_observed": true,
+    "UACLRD_representation_conflict_qualified": true,
+    "FDA_administrative_vs_professional_reporting_separate": true,
+    "satellite_duty_locations_not_OGC_org_components": true,
+    "FY2026_ASE_and_FY2027_ASCRA_budget_proposals_not_implemented_by_OGC_notice": true,
+    "independent_executive_order_and_FDA_regulatory_legal_review_pending": true,
+    "source_notes": "Published organizational statement replaces previous OGC statements, no independently stated distinct operative effective date; not agency command or a current complete HHS organization"
   }
 }
