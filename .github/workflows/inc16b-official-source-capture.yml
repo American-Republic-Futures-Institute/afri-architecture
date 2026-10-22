@@ -1,0 +1,35 @@
+name: INC-16B one-time official statutory publisher custody
+on:
+  push:
+    branches:
+      - feat/inc16b-official-statutory-custody
+    paths:
+      - ".github/workflows/inc16b-official-source-capture.yml"
+      - "scripts/inc16b-capture-usc-originals.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  capture:
+    if: github.repository == 'American-Republic-Futures-Institute/afri-architecture' && github.ref == 'refs/heads/feat/inc16b-official-statutory-custody'
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Checkout expected first-party branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Capture official publisher HTML bytes and validate statutory text
+        run: python3 scripts/inc16b-capture-usc-originals.py capture
+      - name: Verify immutable original byte hashes offline
+        run: python3 scripts/inc16b-capture-usc-originals.py verify
+      - name: Commit Git original custody receipts to this branch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- evidence/inc16b-uscode/
+          test -n "$(git diff --cached --name-only)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "evidence(inc16b): retain OLRC statute originals with immutable content receipts"
+          git push origin HEAD:feat/inc16b-official-statutory-custody

@@ -1,0 +1,50 @@
+{
+  "model_family": "inc16b-official-uscode-originals",
+  "model_version": "0.1.0",
+  "not_external_worm_custody": true,
+  "not_independent_legal_review": true,
+  "original_source_count": 2,
+  "publisher_release_point": "Public Law 119-120",
+  "publisher_through_date": "October 7, 2026",
+  "records": {
+    "INC16A-SRC-USC-42-300HH": {
+      "content_type": "text/html",
+      "external_independent_WORM_verified": false,
+      "final_official_url": "https://uscode.house.gov/us/usc/119-120/t42/s300hh/",
+      "git_blob_sha1": "809b025fad46f77f35eab61f44692cc497c4657c",
+      "http_etag": "\"0af2e3535bdd1:0\"",
+      "legal_certification_completed": false,
+      "operational_relationship_execution_verified": false,
+      "original_bytes": 19474,
+      "original_repository_path": "evidence/inc16b-uscode/originals/sha256/23b076dd183daacd5489f4352b4e342c97b2a95807822ddf6a85f2cd115e9058.html",
+      "original_sha256": "23b076dd183daacd5489f4352b4e342c97b2a95807822ddf6a85f2cd115e9058",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "publisher_code_text_through": "Public Law 119-120",
+      "publisher_code_text_through_date": "October 7, 2026",
+      "requested_official_url": "https://uscode.house.gov/us/usc/119-120/t42/s300hh/",
+      "retrieved_at_utc": "2026-10-22T20:55:04.891557+00:00",
+      "section": "42 U.S.C. 300hh(b)",
+      "source_original_git_retained": true
+    },
+    "INC16A-SRC-USC-6-467": {
+      "content_type": "text/html",
+      "external_independent_WORM_verified": false,
+      "final_official_url": "https://uscode.house.gov/us/usc/119-118/t6/s467/",
+      "git_blob_sha1": "2ac9553bd6cd0ea81fa6c1154150cf1aff5280e6",
+      "http_etag": "\"04c6c1d545bdd1:0\"",
+      "legal_certification_completed": false,
+      "operational_relationship_execution_verified": false,
+      "original_bytes": 8744,
+      "original_repository_path": "evidence/inc16b-uscode/originals/sha256/37a657bc872228bc232de0ef75dd78a03fec194bc9e30f435adae5b07985ccd2.html",
+      "original_sha256": "37a657bc872228bc232de0ef75dd78a03fec194bc9e30f435adae5b07985ccd2",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "publisher_code_text_through": "Public Law 119-120",
+      "publisher_code_text_through_date": "October 7, 2026",
+      "requested_official_url": "https://uscode.house.gov/us/usc/119-118/t6/s467/",
+      "retrieved_at_utc": "2026-10-22T20:55:04.891382+00:00",
+      "section": "6 U.S.C. 467(b)(2)-(3)",
+      "source_original_git_retained": true
+    }
+  },
+  "website_atlas_admission": false
+}

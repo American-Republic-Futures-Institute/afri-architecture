@@ -1357,10 +1357,12 @@
     "source_mission_function_excerpts": 9,
     "conditional_statutory_interface_claims": 3,
     "source_text_only_no_observed_disclosure": true,
-    "all_statutory_originals_retained": false,
+    "all_statutory_originals_retained": true,
     "atlas_graph_admission": false,
     "new_canonical_institution_ids": 0,
     "current_legal_first_level_denominator": null,
-    "qualification": "online_official_UScode_text_verified_original_binary_and_independent_legal_review_pending"
+    "qualification": "official_OLRC_HTML_originals_SHA256_and_Git_blob_retained_current_through_PL119_120_2026_10_07_independent_legal_review_and_WORM_unqualified",
+    "source_originals_receipt": "evidence/inc16b-uscode/source-custody.json",
+    "statute_source_original_count": 2
   }
 }
