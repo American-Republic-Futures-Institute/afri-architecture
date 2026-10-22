@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.5 inc15d5-govman-2025-curation source-edition-only unratified contract",
+  "description": "Immutable 2025 GovInfo publisher observations; parentage is directory display only, never legal identity, command, statutory delegation, ADL-1, or service outcome certification.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_package_id",
+    "original_source_sha256",
+    "disposition_qualification",
+    "all_entries_checked_as_legal_institutions",
+    "independently_qualified_canonical_identity_count",
+    "current_first_level_institution_denominator",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d5-govman-2025-curation"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "original_source_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "disposition_qualification": {
+      "const": "edition_local_research_curation_not_independent_identity_or_legal_review"
+    },
+    "all_entries_checked_as_legal_institutions": {
+      "const": false
+    },
+    "independently_qualified_canonical_identity_count": {
+      "const": 0
+    },
+    "current_first_level_institution_denominator": {
+      "const": null
+    },
+    "items": {
+      "type": "array",
+      "minItems": 28,
+      "maxItems": 28,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_entity_local_id",
+          "published_name",
+          "published_parent_key",
+          "canonical_department_anchor_id",
+          "disposition",
+          "prior_research_candidate_id",
+          "rationale"
+        ],
+        "properties": {
+          "source_entity_local_id": {
+            "enum": [
+              "240",
+              "241",
+              "242",
+              "243",
+              "244",
+              "245",
+              "246",
+              "247",
+              "249",
+              "294",
+              "295",
+              "296",
+              "297",
+              "298",
+              "299",
+              "300",
+              "301",
+              "302",
+              "308",
+              "324",
+              "325",
+              "326",
+              "327",
+              "328",
+              "329",
+              "330",
+              "331",
+              "332"
+            ]
+          },
+          "published_name": {
+            "enum": [
+              "Bureau of Indian Affairs",
+              "Bureau of Indian Education",
+              "Bureau of International Labor Affairs",
+              "Bureau of Labor Statistics",
+              "Bureau of Land Management",
+              "Bureau of Ocean Energy Management",
+              "Bureau of Reclamation",
+              "Bureau of Safety and Environmental Enforcement",
+              "Employee Benefits Security Administration",
+              "Employment and Training Administration",
+              "Federal Aviation Administration",
+              "Federal Highway Administration",
+              "Federal Motor Carrier Safety Administration",
+              "Federal Railroad Administration",
+              "Federal Transit Administration",
+              "Great Lakes Saint Lawrence Seaway Development Corporation",
+              "Maritime Administration",
+              "Mine Safety and Health Administration",
+              "National Highway Traffic Safety Administration",
+              "National Park Service",
+              "Occupational Safety and Health Administration",
+              "Office of Surface Mining Reclamation and Enforcement",
+              "Pipeline and Hazardous Materials Safety Administration",
+              "United States Fish and Wildlife Service",
+              "United States Geological Survey",
+              "Veterans' Employment and Training Service",
+              "Wage and Hour Division",
+              "Women's Bureau"
+            ]
+          },
+          "published_parent_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:120",
+              "GOVMAN-2025-12-31:124",
+              "GOVMAN-2025-12-31:323"
+            ]
+          },
+          "canonical_department_anchor_id": {
+            "enum": [
+              "ORG-FED-EXE-DEP-INTERIOR",
+              "ORG-FED-EXE-DEP-LABOR",
+              "ORG-FED-EXE-DEP-TRANSPORTATION"
+            ]
+          },
+          "disposition": {
+            "const": "source_only_institutional_candidate_pending_statutory_confirmation"
+          },
+          "prior_research_candidate_id": {
+            "enum": [
+              "EXP-SEED-INTERIOR-BIA",
+              "EXP-SEED-INTERIOR-NPS",
+              "EXP-SEED-LABOR-BLS",
+              "EXP-SEED-LABOR-OSHA",
+              "EXP-SEED-TRANSPORTATION-FAA",
+              "EXP-SEED-TRANSPORTATION-FTA",
+              null
+            ]
+          },
+          "rationale": {
+            "enum": [
+              "2025 publisher's first-level named directory component; no independently verified canonical identity, present-day status, statutory authority or command.",
+              "Explicit earlier first-level research seed is only source-index correspondence; no independently verified legal identity, present-day parentage, power or command."
+            ]
+          }
+        }
+      }
+    }
+  }
+}

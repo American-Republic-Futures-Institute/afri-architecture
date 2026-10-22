@@ -1,0 +1,37 @@
+name: INC-15D.5 original-source Cabinet disposition gate
+on:
+  push:
+    branches:
+      - feat/inc15d5-cabinet-breadth-dispositions
+  pull_request:
+    paths:
+      - "model/federal/inc15d5-*.json"
+      - "model/federal/manifest.json"
+      - "docs/inc15d5-cabinet-breadth.md"
+      - "schemas/inc15d5-*.json"
+      - "scripts/inc15d5-govman-reconcile.py"
+      - "tests/test_inc15d5_reconciliation.py"
+      - ".github/workflows/inc15d5-cabinet-source-gate.yml"
+permissions:
+  contents: read
+jobs:
+  source-dispositions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Replay official 8.1 MB GovInfo XML and unchanged 231-entry directory/crosswalk/coverage
+        run: python3 scripts/inc15d-govman-directory.py
+      - name: Replay 28 exact 2025 publisher entity paths and edition-local noncanonical dispositions
+        run: python3 scripts/inc15d5-govman-reconcile.py
+      - name: Negative test original source bytes, 28-key coverage, branch, earlier research and forbidden authority claims
+        run: python3 -m unittest discover -s tests -p 'test_inc15d5_reconciliation.py' -v
+      - name: Preserve prior official Government Manual and original-source legal denials
+        run: python3 -m unittest discover -s tests -p 'test_inc15d_directory.py' -v
+      - name: Preserve INC-15 global federal breadth baseline
+        run: node scripts/validate-inc15.mjs
+      - name: Preserve general canonical architecture and model manifest constraints
+        run: node scripts/validate.mjs

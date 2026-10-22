@@ -322,7 +322,10 @@
     "model/federal/inc15c6h-oig-1997-counsel-history.json",
     "model/federal/inc15c6h-counsel-source-coverage.json",
     "model/federal/inc15c6h-counsel-authority-boundaries.json",
-    "model/federal/inc16/inc16a-hhs-dhs-functional-interface.json"
+    "model/federal/inc16/inc16a-hhs-dhs-functional-interface.json",
+    "model/federal/inc15d5-govman-2025-curation.json",
+    "model/federal/inc15d5-govman-2025-dispositions.json",
+    "model/federal/inc15d5-govman-2025-coverage.json"
   ],
   "standards": [
     {
@@ -1364,5 +1367,21 @@
     "qualification": "official_OLRC_HTML_originals_SHA256_and_Git_blob_retained_current_through_PL119_120_2026_10_07_independent_legal_review_and_WORM_unqualified",
     "source_originals_receipt": "evidence/inc16b-uscode/source-custody.json",
     "statute_source_original_count": 2
+  },
+  "federal_institutional_breadth_15d5_extension": {
+    "source_edition": "GOVMAN-2025-12-31",
+    "original_source_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+    "curation_model_path": "model/federal/inc15d5-govman-2025-curation.json",
+    "disposition_model_path": "model/federal/inc15d5-govman-2025-dispositions.json",
+    "coverage_model_path": "model/federal/inc15d5-govman-2025-coverage.json",
+    "publisher_entries_selected": 28,
+    "publisher_entries_accounted": 28,
+    "earlier_research_candidate_overlap": 6,
+    "new_canonical_component_matches": 0,
+    "independent_legal_review_complete": false,
+    "current_first_level_institution_denominator": null,
+    "publisher_entry_count_is_legal_denominator": false,
+    "website_atlas_published": false,
+    "policy_recommendations_created": false
   }
 }
