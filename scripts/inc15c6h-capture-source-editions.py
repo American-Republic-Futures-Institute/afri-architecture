@@ -49,9 +49,9 @@ SOURCES={
  "fda_chart_2026":{
    "url":"https://www.fda.gov/about-fda/fda-organization-charts/fda-overview-organization-chart-text-version",
    "type":"html","max_bytes":2500000,
-   "marks":["September 16, 2026","Office of the Chief Counsel","General Counsel of HHS","advises the Commissioner"],
-   "publisher_edition":"FDA overview organization chart text version, printed September 16 2026",
-   "publication":"2026-09-16","effective":None,
+   "marks":["October 13, 2026","Office of the Chief Counsel","General Counsel of HHS","advises the Commissioner"],
+   "publisher_edition":"FDA overview organization chart text version, printed October 13 2026",
+   "publication":"2026-10-13","effective":None,
    "scope":"FDA publisher-observed HHS General Counsel reporting; not certified law or signed personnel instrument",
  }
 }
