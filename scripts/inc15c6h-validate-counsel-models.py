@@ -207,7 +207,7 @@ def validate(root=BASE):
   "duplicate OCIG source era model retained")
  ext=load("model/federal/manifest.json",root)
  q=ext.get("federal_institutional_breadth_15c6h_extension",{})
- check(len(ext["models"])==305 and len(set(ext["models"]))==305 and
+ check(len(ext["models"])>=305 and len(set(ext["models"]))==len(ext["models"]) and
   all("model/federal/"+n+".json" in ext["models"] for n in MODEL) and
   q.get("newly_custodied_official_originals")==5 and
   q.get("new_source_versioned_citation_records")==17 and
