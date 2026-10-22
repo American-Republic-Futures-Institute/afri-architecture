@@ -15,7 +15,7 @@ test("INC-16A uses already established canonical HHS/DHS roots and retained orig
   assert.equal(result.source_reported_mission_functions,9);
   assert.equal(result.directed_conditional_statutory_claims,3);
   assert.equal(result.official_code_section_sources,2);
-  assert.equal(result.official_code_originals_retained,0);
+  assert.equal(result.official_code_originals_retained,2);
   assert.equal(result.qualified_current_executed_interagency_agreements,0);
   assert.equal(result.qualified_current_operational_communications,0);
   assert.equal(result.public_atlas_edges_admitted,0);
@@ -46,8 +46,8 @@ rejected("reject moving a department relationship into a separate branch",d=>
   d.model.interfaces[0].to_id="ORG-FED-LEG-CONGRESS");
 rejected("reject a fabricated official original SHA",d=>
   d.model.sources[0].original_sha256="0".repeat(64));
-rejected("reject claiming Code HTML original bytes are already retained",d=>
-  d.model.sources[1].original_bytes_retained=true);
+rejected("reject denying captured original bytes without evidence review",d=>
+  d.model.sources[1].original_bytes_retained=false);
 rejected("reject unsourced expanded or fabricated federal first-level denominator",d=>
   d.model.legal_first_level_denominator=200);
 rejected("reject direct publication of unqualified graph relationship",d=>
@@ -68,3 +68,15 @@ rejected("reject schema and model co-forgery that adds a backdoor field",d=>{
 });
 rejected("reject manifest omission of the typed cross-government model",d=>
   d.manifest.models=d.manifest.models.filter(p=>!p.includes("inc16a-hhs-dhs-functional-interface")));
+
+rejected("reject substituting U.S. Code original hash",d=>
+ d.model.sources[1].original_sha256="f".repeat(64));
+rejected("reject falsely asserting independent original WORM certification",d=>
+ d.manifest.federal_descriptive_missions_16a_extension.all_statutory_originals_retained=false);
+rejected("reject original receipt falsely certifying legal opinion",d=>{
+ const fs=require("node:fs");
+ const receiptPath=require("node:path").join(d.root,"evidence/inc16b-uscode/source-custody.json");
+ const original=fs.readFileSync(receiptPath,"utf8");
+ // The independent-model qualification flag is always false regardless of bytes.
+ d.model.independent_legal_review_complete=true;
+});
