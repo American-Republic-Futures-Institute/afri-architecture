@@ -151,7 +151,12 @@ def validate(root=ROOT):
   and edges["no_new_canonical_federal_institutions"]==0
   and edges["relationship_type_counts"]==TYPE_COUNTS,
   "typed source relations recast as legislative authority")
- prior=jload("model/federal/inc15c3-hhs-directory-reconciliation.json",root)
+ prior_path="model/federal/inc15c3-hhs-directory-reconciliation.json"
+ check(gitblob((root/prior_path).read_bytes())=="37d06d6341a560a0689654819816e1396624b890",
+  "existing HHS source identity directory tampered or replaced")
+ prior=jload(prior_path,root)
+ check(any(v["id"]=="INC15C3-HHS-LINK-OGC" and v["source_name"]=="Office of the General Counsel"
+    for v in prior["items"]), "canonical OGC directory identity not preserved")
  priorIDs={v["id"] for v in prior["items"]}
  tcount={}
  for x in edges["items"]:
