@@ -108,6 +108,15 @@ jobs:
         run: python3 scripts/inc15c6f-validate-ocr-models.py
       - name: Reject INC-15C.6F forged organizational entries, dates, delegation, HHS budget execution or model/schema coforgery
         run: python3 -m unittest discover -s tests -p 'test_inc15c6f_ocr_models.py' -v
+      - name: Ensure PDF original tooling available for INC-15C.6G OGC source inspection
+        run: |
+          if ! command -v pdftotext >/dev/null || ! command -v pdfinfo >/dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -qq -y poppler-utils
+          fi
+      - name: Verify INC-15C.6G official five-page OGC original source SHA and independent receipts
+        run: python3 scripts/inc15c6g-ogc-original.py verify
+      - name: Reject INC-15C.6G forged 2026 OGC original, authority, independent legal effective date and custody
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6g_original_custody.py' -v
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
