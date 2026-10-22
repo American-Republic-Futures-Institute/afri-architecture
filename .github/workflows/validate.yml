@@ -34,6 +34,8 @@ jobs:
           node-version: "22"
       - name: Validate federal architecture
         run: node scripts/validate.mjs
+      - name: Independently verify retained OLRC publisher HTML originals, code release dates and Git blob receipts
+        run: python3 scripts/inc16b-capture-usc-originals.py verify
       - name: Validate INC-16A dated mission functions and conditional HHS-DHS statutory interfaces
         run: node scripts/validate-inc16a.mjs
       - name: Reject INC-16A identity, command, legal, historical and public-graph false promotions
