@@ -55,6 +55,34 @@ SOURCES={
    "scope":"FDA publisher-observed HHS General Counsel reporting; not certified law or signed personnel instrument",
  }
 }
+PINNED_APPROVED_SOURCE_ORIGINALS={
+  "cfr_2025_21_5": [
+    "d821dcb01c90f90d4d6d543c777124175908fdb8b04ffd4fecb7af1814a4d245",
+    228136,
+    "b5512e303e9d0c70be97db1bb95f2b73f1ac0b04"
+  ],
+  "eo_14215_2025": [
+    "1399f0857b1e4fe2b4c7fa9c3bb2fde0ee199ea372c47cdf4f3fecddc2994593",
+    15803,
+    "ff90402008c83e9f657fe478320c2f800eaa3f7e"
+  ],
+  "fda_chart_2026": [
+    "181fd936025d6c739c45dbd329366efcc7695f55d8e160e38c4c403d43793e32",
+    31184,
+    "a15cc5de4fdd8e1a25c84c86d157a2b408a212ee"
+  ],
+  "fda_rule_2026": [
+    "70df495934558185f9d19b3e83f13882dc0351f25cc225ab1e2d85fb3adc2310",
+    251677,
+    "cf8ee41b129b6419f4da43a9d20d6faa7b6081ac"
+  ],
+  "oig_fr_1997_issue": [
+    "75d648c24c18802812128e2708fe29340458b274d522d8e97ef38129bac1fe0d",
+    2124538,
+    "5c470e91de64d390dc631c541337123df244eb10"
+  ]
+}
+
 class SourceError(ValueError):pass
 def require(cond,msg):
  if not cond:raise SourceError(msg)
@@ -124,7 +152,14 @@ def validate(receipts,root=ROOT):
   require(type(rec) is dict and rec["key"]==key and rec["official_url"]==spec["url"],"missing official publisher receipt: "+key)
   digest=rec["original_sha256"]
   require(re.fullmatch(r"[a-f0-9]{64}",digest)!=None,"bad digest")
+  approved=PINNED_APPROVED_SOURCE_ORIGINALS[key]
+  require(rec["original_sha256"]==approved[0] and
+          rec["original_bytes"]==approved[1] and
+          rec["original_git_blob_sha1"]==approved[2],
+          "reviewed source-original fingerprint changed: "+key)
   data=(root/rec["original_path"]).read_bytes()
+  require(sha256(data)==approved[0] and len(data)==approved[1] and gitblob(data)==approved[2],
+          "source original PDF or HTML bytes do not match approved independent fingerprints: "+key)
   txt=extract(data,key)
   require(rec==record(key,data,txt),"publisher original changed or fabricated rights: "+key)
  return {"validated":True,"publisher_source_originals":len(SOURCES),
