@@ -100,6 +100,10 @@ jobs:
         run: python3 scripts/inc15c6e-validate-models.py
       - name: Reject INC-15C.6E invented HHS office implementation, jurisdiction or schema/cohort tampering
         run: python3 -m unittest discover -s tests -p 'test_inc15c6e_models.py' -v
+      - name: Verify INC-15C.6F two original GovInfo OCR notices, Git SHA and 2023/2026 effective dates
+        run: python3 scripts/inc15c6f-validate-original-custody.py
+      - name: Reject INC-15C.6F forged OCR original, false HHS office completeness and delegated case powers
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6f_original_custody.py' -v
       - name: Validate bounded federal institutional census, taxonomy and immutable source editions
         run: node scripts/validate-federal-census.mjs --validate
       - name: Validate federal institutional census reference views
