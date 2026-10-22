@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6H source bounded inc15c6h-ocig-1997-internal-components",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "original_official_federal_register_whole_issue_pdf",
+    "original_source_receipt",
+    "document_specific_scope",
+    "source_parent_OIG_canonical_identity",
+    "original_publication_date",
+    "original_distinct_effective_date",
+    "historical_AFG_OCIG_root_nodes",
+    "source_local_AFG_subordinate_functions",
+    "historic_source_component_rows",
+    "historical_whole_OIG_AF10_units",
+    "source_1997_ranks_not_current_2026_hierarchy",
+    "OGC_legal_supervision_of_OCIG_not_inferred",
+    "OIG_independent_counsel_subject_to_own_jurisdiction_source_observed",
+    "whole_HHS_first_level_legal_denominator",
+    "new_canonical_HHS_institution_ids",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6h-ocig-1997-internal-components"
+    },
+    "original_official_federal_register_whole_issue_pdf": {
+      "const": "evidence/hhs-counsel-source-editions/originals/oig_fr_1997_issue/sha256/75d648c24c18802812128e2708fe29340458b274d522d8e97ef38129bac1fe0d.pdf"
+    },
+    "original_source_receipt": {
+      "const": "evidence/hhs-counsel-source-editions/receipts/source-custody.json"
+    },
+    "document_specific_scope": {
+      "const": "1997 OIG FR Doc 97-14611; unrelated entire issue contents expressly excluded"
+    },
+    "source_parent_OIG_canonical_identity": {
+      "const": "INC15C3-HHS-LINK-OIG"
+    },
+    "original_publication_date": {
+      "const": "1997-06-05"
+    },
+    "original_distinct_effective_date": {
+      "const": null
+    },
+    "historical_AFG_OCIG_root_nodes": {
+      "const": 1
+    },
+    "source_local_AFG_subordinate_functions": {
+      "const": 4
+    },
+    "historic_source_component_rows": {
+      "const": 5
+    },
+    "historical_whole_OIG_AF10_units": {
+      "const": 7
+    },
+    "source_1997_ranks_not_current_2026_hierarchy": {
+      "const": true
+    },
+    "OGC_legal_supervision_of_OCIG_not_inferred": {
+      "const": true
+    },
+    "OIG_independent_counsel_subject_to_own_jurisdiction_source_observed": {
+      "const": true
+    },
+    "whole_HHS_first_level_legal_denominator": {
+      "const": null
+    },
+    "new_canonical_HHS_institution_ids": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "publication_local_code",
+          "historical_publisher_name",
+          "archival_section",
+          "publisher_description_classification",
+          "source_parent_ref",
+          "historical_1997_section_effective_2026_certified",
+          "source_publication_date",
+          "source_1997_document",
+          "source_1997_printed_page_range",
+          "source_historical_original_sha256",
+          "historical_scope_summary",
+          "current_2026_component_continuity_independently_verified",
+          "FDA_repeal_or_OGC_notice_changes_OCIG_structure_verified",
+          "signed_current_delegation_or_individual_officeholder_verified",
+          "no_new_canonical_federal_institution_minted",
+          "nonadditive_prior_OIG_source_observation",
+          "row"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^INC15C6H-"
+          },
+          "publication_local_code": {
+            "type": "string"
+          },
+          "historical_publisher_name": {
+            "type": "string"
+          },
+          "archival_section": {
+            "type": "string"
+          },
+          "publisher_description_classification": {
+            "enum": [
+              "source_historical_legal_counsel_component",
+              "historical_OIG_legal_counsel_function",
+              "historical_OCIG_civil_recovery_function",
+              "historical_OCIG_administrative_litigation_function",
+              "historical_OCIG_industry_guidance_function"
+            ]
+          },
+          "source_parent_ref": {
+            "type": "string"
+          },
+          "historical_1997_section_effective_2026_certified": {
+            "const": false
+          },
+          "source_publication_date": {
+            "type": "string"
+          },
+          "source_1997_document": {
+            "type": "string"
+          },
+          "source_1997_printed_page_range": {
+            "type": "string"
+          },
+          "source_historical_original_sha256": {
+            "type": "string"
+          },
+          "historical_scope_summary": {
+            "type": "string"
+          },
+          "current_2026_component_continuity_independently_verified": {
+            "const": false
+          },
+          "FDA_repeal_or_OGC_notice_changes_OCIG_structure_verified": {
+            "const": false
+          },
+          "signed_current_delegation_or_individual_officeholder_verified": {
+            "const": false
+          },
+          "no_new_canonical_federal_institution_minted": {
+            "const": true
+          },
+          "nonadditive_prior_OIG_source_observation": {
+            "const": true
+          },
+          "row": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}
