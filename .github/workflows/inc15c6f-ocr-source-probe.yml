@@ -1,0 +1,35 @@
+name: INC-15C.6F official OCR 2023/2026 Federal Register source probe
+on:
+  pull_request:
+    paths:
+      - "scripts/inc15c6f-ocr-source-acquire.py"
+      - "tests/test_inc15c6f_ocr_source_probe.py"
+      - ".github/workflows/inc15c6f-ocr-source-probe.yml"
+permissions:
+  contents: read
+jobs:
+  validate-acquisition-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test exact OCR Federal Register URLs, independent editions and authority nonpromotion
+        run: python3 -m unittest discover -s tests -p 'test_inc15c6f_ocr_source_probe.py' -v
+  capture-original-pdfs:
+    needs: validate-acquisition-contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Acquire both official OCR 2023 and 2026 Federal Register source original PDFs
+        run: python3 scripts/inc15c6f-ocr-source-acquire.py probe "$RUNNER_TEMP/inc15c6f"
+      - name: Reverify two separate original source receipts and exact PDF SHA-256 bytes
+        run: python3 scripts/inc15c6f-ocr-source-acquire.py verify "$RUNNER_TEMP/inc15c6f"
+      - name: Retain publisher original bytes and closed acquisition receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inc15c6f-ocr-publisher-original-attempt
+          path: ${{ runner.temp }}/inc15c6f/
+          retention-days: 30
+          if-no-files-found: error
