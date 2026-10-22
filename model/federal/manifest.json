@@ -316,7 +316,11 @@
     "model/federal/inc15c6g-ogc-hierarchy.json",
     "model/federal/inc15c6g-ogc-role-classes.json",
     "model/federal/inc15c6g-ogc-institutional-interfaces.json",
-    "model/federal/inc15c6g-ogc-source-coverage.json"
+    "model/federal/inc15c6g-ogc-source-coverage.json",
+    "model/federal/inc15c6h-counsel-authority-source-editions.json",
+    "model/federal/inc15c6h-counsel-citation-status-transitions.json",
+    "model/federal/inc15c6h-oig-1997-counsel-history.json",
+    "model/federal/inc15c6h-counsel-source-coverage.json"
   ],
   "standards": [
     {
@@ -1315,5 +1319,32 @@
     "FY2026_ASE_and_FY2027_ASCRA_budget_proposals_not_implemented_by_OGC_notice": true,
     "independent_executive_order_and_FDA_regulatory_legal_review_pending": true,
     "source_notes": "Published organizational statement replaces previous OGC statements, no independently stated distinct operative effective date; not agency command or a current complete HHS organization"
+  },
+  "federal_institutional_breadth_15c6h_extension": {
+    "id": "ARFI-FED-INC15C6H-COUNSEL-CITATION-VERSION-QUALIFICATION",
+    "source_legal_edition_model_count": 4,
+    "new_official_original_publishers_archived": 5,
+    "reused_preexisting_original_OGC_notice_editions": 1,
+    "source_edition_rows": 6,
+    "typed_source_status_transition_rows": 17,
+    "historic_1997_OIG_source_local_hierarchy_rows": 11,
+    "source_coverage_register_rows": 14,
+    "effective_2026_FDA_CFR_repeal_date": "2026-06-15",
+    "removed_current_CFR_section": "21 CFR 5.1105",
+    "OGC_outdated_citation_publication_date": "2026-09-29",
+    "FDA_recent_publisher_chart_edition_date": "2026-10-13",
+    "OGC_notice_separate_legal_effective_date": null,
+    "retained_counsel_source_original_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+    "preexisting_HHS_OGC_source_id": "INC15C3-HHS-LINK-OGC",
+    "preexisting_HHS_OIG_source_id": "INC15C3-HHS-LINK-OIG",
+    "preexisting_HHS_FDA_source_id": "INC15C3-HHS-LINK-FDA",
+    "FDA_CFR_revocation_not_proof_of_OCC_abolition": true,
+    "FDA_OCG_professional_relationship_source_described_after_revocation": true,
+    "hhs_general_counsel_OIG_override_independently_certified": false,
+    "HHS_first_level_current_legal_denominator": null,
+    "independent_signed_legal_delegations_qualified": 0,
+    "no_new_canonical_federal_agency_identifiers": 0,
+    "proposal_FY2026_ASE_FY2027_ASCRA_enacted_certified": false,
+    "research_status": "published_and_retained_source_edition_chronology_only_authority_provisional"
   }
 }
