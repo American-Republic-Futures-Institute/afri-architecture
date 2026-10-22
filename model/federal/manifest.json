@@ -1339,13 +1339,13 @@
     "FDA_Chief_Counsel_office_abolition_proved": false,
     "1997_OIG_legal_counsel_historical_source_reconciled": true,
     "HHS_OGC_current_statutory_supervision_of_OCIG_independently_certified": false,
-    "EO_14215_section_8b_applicable_law_qualification_retained": true,
     "whole_HHS_current_legal_first_level_denominator": null,
     "new_canonical_agency_identifiers_added": 0,
     "FY2026_ASE_FY2027_ASCRA_proposal_implementation_verified": false,
     "all_source_edition_populations_nonadditive": true,
     "original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
     "legal_currentness_scope": "regulatory_repeal_verified_reported_relationships_publisher_observed_broader_individual_authority_unqualified",
-    "historical_1997_OCIG_original_historical_register_includes_7_OIG_plus_4_OCIG": true
+    "historical_1997_OCIG_original_historical_register_includes_7_OIG_plus_4_OCIG": true,
+    "EO_14215_sections_8b_reserved_authorities_and_8c_applicable_law_qualified": true
   }
 }
