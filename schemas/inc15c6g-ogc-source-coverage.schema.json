@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6G source-observed HHS Office of General Counsel - inc15c6g-ogc-source-coverage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "ogc_existing_canonical_HHS_identity",
+    "proposed_Ogc_divisions_not_new_agencies",
+    "ogc_source_document",
+    "ogc_publication_date",
+    "ogc_independently_qualified_effective_date",
+    "ogc_original_git_custody_receipt",
+    "source_naming_population_register_count",
+    "OGC_eleven_divisions_publisher_denominator",
+    "OGC_nested_component_rows_nonadditive",
+    "OGC_roles_and_interface_rows_nonadditive",
+    "prior_HHS_index_name_population",
+    "prior_HHS_Government_Manual_entries",
+    "prior_HHS_OIG_internal_groups",
+    "prior_HHS_historical_notice_observations",
+    "prior_OCR_internal_AT10_components",
+    "HHS_whole_current_legal_first_level_institution_denominator",
+    "independent_all_divisions_legal_basis_certified",
+    "OGC_2026_legal_effective_date_identified",
+    "OIG_separate_counsel_exception_source_stated",
+    "source_research_no_new_canonical_institution_ids",
+    "cross_epoch_count_addition_authorized",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6g-ogc-source-population-coverage"
+    },
+    "ogc_existing_canonical_HHS_identity": {
+      "const": "INC15C3-HHS-LINK-OGC"
+    },
+    "proposed_Ogc_divisions_not_new_agencies": {
+      "const": true
+    },
+    "ogc_source_document": {
+      "const": "2026-19903"
+    },
+    "ogc_publication_date": {
+      "const": "2026-09-29"
+    },
+    "ogc_independently_qualified_effective_date": {
+      "const": null
+    },
+    "ogc_original_git_custody_receipt": {
+      "const": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json"
+    },
+    "source_naming_population_register_count": {
+      "const": 11
+    },
+    "OGC_eleven_divisions_publisher_denominator": {
+      "const": 11
+    },
+    "OGC_nested_component_rows_nonadditive": {
+      "const": 39
+    },
+    "OGC_roles_and_interface_rows_nonadditive": {
+      "const": true
+    },
+    "prior_HHS_index_name_population": {
+      "const": 29
+    },
+    "prior_HHS_Government_Manual_entries": {
+      "const": 11
+    },
+    "prior_HHS_OIG_internal_groups": {
+      "const": 6
+    },
+    "prior_HHS_historical_notice_observations": {
+      "const": 34
+    },
+    "prior_OCR_internal_AT10_components": {
+      "const": 6
+    },
+    "HHS_whole_current_legal_first_level_institution_denominator": {
+      "const": null
+    },
+    "independent_all_divisions_legal_basis_certified": {
+      "const": false
+    },
+    "OGC_2026_legal_effective_date_identified": {
+      "const": false
+    },
+    "OIG_separate_counsel_exception_source_stated": {
+      "const": true
+    },
+    "source_research_no_new_canonical_institution_ids": {
+      "const": 0
+    },
+    "cross_epoch_count_addition_authorized": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_population_code",
+          "source_population_label",
+          "source_denominator_kind",
+          "source_scoped_row_count",
+          "source_section_or_architecture_reference",
+          "source_publisher_edition_key",
+          "source_count_additive_to_HHS_current_legal_first_level",
+          "whole_HHS_first_level_independent_legal_status_certified",
+          "source_qualifies_government_legal_command_over_clients",
+          "date_epoch_is_edition_local_not_contemporaneous_universality",
+          "primary_official_original_custody_complete",
+          "current_operational_status_independently_verified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_population_code": {
+            "type": "string"
+          },
+          "source_population_label": {
+            "type": "string"
+          },
+          "source_denominator_kind": {
+            "type": "string"
+          },
+          "source_scoped_row_count": {
+            "type": "integer"
+          },
+          "source_section_or_architecture_reference": {
+            "type": "string"
+          },
+          "source_publisher_edition_key": {
+            "type": "string"
+          },
+          "source_count_additive_to_HHS_current_legal_first_level": {
+            "const": false
+          },
+          "whole_HHS_first_level_independent_legal_status_certified": {
+            "const": false
+          },
+          "source_qualifies_government_legal_command_over_clients": {
+            "const": false
+          },
+          "date_epoch_is_edition_local_not_contemporaneous_universality": {
+            "const": true
+          },
+          "primary_official_original_custody_complete": {
+            "const": null
+          },
+          "current_operational_status_independently_verified": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

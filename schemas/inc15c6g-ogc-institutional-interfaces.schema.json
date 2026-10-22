@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6G source-observed HHS Office of General Counsel - inc15c6g-ogc-institutional-interfaces",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "retained_original_source_receipt",
+    "source_document_id",
+    "published_on",
+    "separately_qualified_legal_effective_date",
+    "previous_OGC_statements_rescinded_as_source_claim",
+    "source_institution_ref",
+    "HHS_legal_first_level_denominator",
+    "legal_services_client_edge_count",
+    "source_relationship_records",
+    "source_reported_exceptions_and_qualifiers_required",
+    "OIG_exclusion_source_qualified",
+    "OGC_legal_direction_over_OIG_certified",
+    "FDA_administrative_position_not_professional_chain",
+    "UACLRD_independent_child_representation_boundary",
+    "satellites_not_separately_established_offices",
+    "no_new_canonical_federal_institutions",
+    "role_and_program_authorities_referenced_but_not_independently_certified",
+    "relationship_type_counts",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6g-ogc-legal-services-and-authority-boundaries"
+    },
+    "retained_original_source_receipt": {
+      "const": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json"
+    },
+    "source_document_id": {
+      "const": "2026-19903"
+    },
+    "published_on": {
+      "const": "2026-09-29"
+    },
+    "separately_qualified_legal_effective_date": {
+      "const": null
+    },
+    "previous_OGC_statements_rescinded_as_source_claim": {
+      "const": true
+    },
+    "source_institution_ref": {
+      "const": "INC15C3-HHS-LINK-OGC"
+    },
+    "HHS_legal_first_level_denominator": {
+      "const": null
+    },
+    "legal_services_client_edge_count": {
+      "const": 23
+    },
+    "source_relationship_records": {
+      "const": 39
+    },
+    "source_reported_exceptions_and_qualifiers_required": {
+      "const": true
+    },
+    "OIG_exclusion_source_qualified": {
+      "const": true
+    },
+    "OGC_legal_direction_over_OIG_certified": {
+      "const": false
+    },
+    "FDA_administrative_position_not_professional_chain": {
+      "const": true
+    },
+    "UACLRD_independent_child_representation_boundary": {
+      "const": true
+    },
+    "satellites_not_separately_established_offices": {
+      "const": true
+    },
+    "no_new_canonical_federal_institutions": {
+      "const": 0
+    },
+    "role_and_program_authorities_referenced_but_not_independently_certified": {
+      "const": true
+    },
+    "relationship_type_counts": {
+      "const": {
+        "publisher_described_legal_services_client": 23,
+        "individual_child_legal_representation": 1,
+        "case_scoped_OGC_complex_litigation_service": 1,
+        "department_wide_professional_ethics_service": 1,
+        "department_wide_legal_services_domain": 1,
+        "express_statutory_jurisdiction_legal_counsel_carveout": 1,
+        "FDA_ChiefCounsel_administrative_location_only": 1,
+        "FDA_ChiefCounsel_professional_reporting": 1,
+        "CMSD_professional_reporting_via_CLO": 1,
+        "case_specific_adverse_client_representation_exclusion": 2,
+        "internal_OGC_conflicted_legal_function_separation": 1,
+        "duty_location_non_organizational_and_limited_site_administration": 1,
+        "General_Counsel_direct_professional_reporting": 1,
+        "binding_legal_advice_source_scope_with_external_citation": 1,
+        "publisher_reports_secretarial_ethics_role_delegations": 1,
+        "OGC_predecessor_statement_rescission_source_bound": 1
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 39,
+      "maxItems": 39,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_ogc_unit_id",
+          "target_existing_HHS_index_id",
+          "target_publisher_name",
+          "relationship_type",
+          "source_section_locator",
+          "source_printed_page_locator",
+          "source_qualified_scope",
+          "external_instrument_citation",
+          "externally_cited_instrument_independently_qualified",
+          "source_document_id",
+          "source_publication_date",
+          "source_legal_effective_date",
+          "relationship_source_status",
+          "signed_client_agency_command_transfer_verified",
+          "ALJ_case_control_or_adjudicative_decision_power_verified",
+          "independent_OIG_counsel_override_verified",
+          "named_individual_power_assignment_verified",
+          "current_whole_HHS_legal_first_level_count",
+          "target_ogc_unit_id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_ogc_unit_id": {
+            "type": "string"
+          },
+          "target_existing_HHS_index_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "target_publisher_name": {
+            "type": "string"
+          },
+          "relationship_type": {
+            "enum": [
+              "publisher_described_legal_services_client",
+              "individual_child_legal_representation",
+              "case_scoped_OGC_complex_litigation_service",
+              "department_wide_professional_ethics_service",
+              "department_wide_legal_services_domain",
+              "express_statutory_jurisdiction_legal_counsel_carveout",
+              "FDA_ChiefCounsel_administrative_location_only",
+              "FDA_ChiefCounsel_professional_reporting",
+              "CMSD_professional_reporting_via_CLO",
+              "case_specific_adverse_client_representation_exclusion",
+              "internal_OGC_conflicted_legal_function_separation",
+              "duty_location_non_organizational_and_limited_site_administration",
+              "General_Counsel_direct_professional_reporting",
+              "binding_legal_advice_source_scope_with_external_citation",
+              "publisher_reports_secretarial_ethics_role_delegations",
+              "OGC_predecessor_statement_rescission_source_bound"
+            ]
+          },
+          "source_section_locator": {
+            "type": "string"
+          },
+          "source_printed_page_locator": {
+            "type": "string"
+          },
+          "source_qualified_scope": {
+            "type": "string"
+          },
+          "external_instrument_citation": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "externally_cited_instrument_independently_qualified": {
+            "const": false
+          },
+          "source_document_id": {
+            "type": "string"
+          },
+          "source_publication_date": {
+            "type": "string"
+          },
+          "source_legal_effective_date": {
+            "const": null
+          },
+          "relationship_source_status": {
+            "type": "string"
+          },
+          "signed_client_agency_command_transfer_verified": {
+            "const": false
+          },
+          "ALJ_case_control_or_adjudicative_decision_power_verified": {
+            "const": false
+          },
+          "independent_OIG_counsel_override_verified": {
+            "const": false
+          },
+          "named_individual_power_assignment_verified": {
+            "const": false
+          },
+          "current_whole_HHS_legal_first_level_count": {
+            "const": null
+          },
+          "target_ogc_unit_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -181,7 +181,7 @@ def validate(root=BASE):
  check(module.verify(*module.load(root/"evidence/hhs-ocr-org-2023-2026"))["retained_original_notice_editions"]==2,
   "GovInfo 2023/2026 source originals or Git receipt changed")
  manifest=load("model/federal/manifest.json",root);ext=manifest.get("federal_institutional_breadth_15c6f_extension",{})
- check(len(manifest["models"])==296 and
+ check(len(manifest["models"])>=296 and len(set(manifest["models"]))==len(manifest["models"]) and
    all("model/federal/"+k+".json" in manifest["models"] for k in FAMILIES)
    and ext.get("original_pdf_sources_verified_and_git_retained")==2
    and ext.get("2026_OCR_AT10_effective_date")=="2026-06-28"

@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15C.6G source-observed HHS Office of General Counsel - inc15c6g-ogc-hierarchy",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "retained_source_document",
+    "retained_pdf_original_receipt_path",
+    "retained_publisher_url",
+    "source_publication_date",
+    "independently_qualified_effective_date",
+    "current_HHS_first_level_legal_denominator",
+    "OGC_current_canonical_source_reference",
+    "OGC_division_count",
+    "OGC_immediate_office_count",
+    "OLR_office_count",
+    "OLR_named_branch_count",
+    "immediate_legislation_section_count",
+    "other_nested_division_group_branch_section_count",
+    "named_component_rows_total",
+    "group_branch_section_and_division_counts_nonadditive",
+    "published_satellite_offices_are_not_independent_components",
+    "independent_FDA_administrative_housing_not_separate_OGC_division",
+    "legal_organization_root_bounded_to_OGC",
+    "new_canonical_federal_institutions_minted",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6g-ogc-publisher-hierarchy"
+    },
+    "retained_source_document": {
+      "const": "2026-19903"
+    },
+    "retained_pdf_original_receipt_path": {
+      "const": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json"
+    },
+    "retained_publisher_url": {
+      "const": "https://www.govinfo.gov/content/pkg/FR-2026-09-29/pdf/2026-19903.pdf"
+    },
+    "source_publication_date": {
+      "const": "2026-09-29"
+    },
+    "independently_qualified_effective_date": {
+      "const": null
+    },
+    "current_HHS_first_level_legal_denominator": {
+      "const": null
+    },
+    "OGC_current_canonical_source_reference": {
+      "const": "INC15C3-HHS-LINK-OGC"
+    },
+    "OGC_division_count": {
+      "const": 11
+    },
+    "OGC_immediate_office_count": {
+      "const": 1
+    },
+    "OLR_office_count": {
+      "const": 1
+    },
+    "OLR_named_branch_count": {
+      "const": 6
+    },
+    "immediate_legislation_section_count": {
+      "const": 1
+    },
+    "other_nested_division_group_branch_section_count": {
+      "const": 19
+    },
+    "named_component_rows_total": {
+      "const": 39
+    },
+    "group_branch_section_and_division_counts_nonadditive": {
+      "const": true
+    },
+    "published_satellite_offices_are_not_independent_components": {
+      "const": true
+    },
+    "independent_FDA_administrative_housing_not_separate_OGC_division": {
+      "const": true
+    },
+    "legal_organization_root_bounded_to_OGC": {
+      "const": true
+    },
+    "new_canonical_federal_institutions_minted": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 39,
+      "maxItems": 39,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "edition_local_code",
+          "publisher_source_label",
+          "publisher_structural_type",
+          "parent_edition_local_id",
+          "parent_is_existing_HHS_canonical_OGC",
+          "source_section_locator",
+          "source_printed_page_locator",
+          "publisher_lead_role_text",
+          "publisher_order_in_transcription",
+          "document_number",
+          "published_on",
+          "legal_effective_date",
+          "organization_source_status",
+          "source_scoped_Ogc_component_only",
+          "new_canonical_HHS_institution_id",
+          "satellite_duty_location",
+          "identified_officeholder_name",
+          "independent_role_appointment_and_delegation_verified",
+          "cross_HHS_supervisory_command_inferred"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "edition_local_code": {
+            "type": "string"
+          },
+          "publisher_source_label": {
+            "type": "string"
+          },
+          "publisher_structural_type": {
+            "enum": [
+              "immediate_office",
+              "resources_office",
+              "branch",
+              "section",
+              "division",
+              "group"
+            ]
+          },
+          "parent_edition_local_id": {
+            "type": "string"
+          },
+          "parent_is_existing_HHS_canonical_OGC": {
+            "type": "boolean"
+          },
+          "source_section_locator": {
+            "type": "string"
+          },
+          "source_printed_page_locator": {
+            "type": "string"
+          },
+          "publisher_lead_role_text": {
+            "type": "string"
+          },
+          "publisher_order_in_transcription": {
+            "type": "integer"
+          },
+          "document_number": {
+            "type": "string"
+          },
+          "published_on": {
+            "type": "string"
+          },
+          "legal_effective_date": {
+            "const": null
+          },
+          "organization_source_status": {
+            "type": "string"
+          },
+          "source_scoped_Ogc_component_only": {
+            "const": true
+          },
+          "new_canonical_HHS_institution_id": {
+            "const": null
+          },
+          "satellite_duty_location": {
+            "const": false
+          },
+          "identified_officeholder_name": {
+            "const": null
+          },
+          "independent_role_appointment_and_delegation_verified": {
+            "const": false
+          },
+          "cross_HHS_supervisory_command_inferred": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
