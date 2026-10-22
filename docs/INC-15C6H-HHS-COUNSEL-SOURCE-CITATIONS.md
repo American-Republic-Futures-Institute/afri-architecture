@@ -11,7 +11,7 @@ All five new sources are retained by SHA-256 address and Git blob in `evidence/h
 | [2025 21 CFR Part 5 official historical PDF](https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol1/pdf/CFR-2025-title21-vol1-part5.pdf), § 5.1105 and footnote | Apr. 1, 2025 edition | `d821dcb01c90f90d4d6d543c777124175908fdb8b04ffd4fecb7af1814a4d245` | 228,136 |
 | [FDA final rule FR Doc 2026-11998](https://www.govinfo.gov/content/pkg/FR-2026-06-15/pdf/2026-11998.pdf), 91 FR 35884–35886 | Jun. 15, 2026, **effective the same day** | `70df495934558185f9d19b3e83f13882dc0351f25cc225ab1e2d85fb3adc2310` | 251,677 |
 | [Full official Federal Register issue, June 5, 1997](https://www.govinfo.gov/content/pkg/FR-1997-06-05/pdf/FR-1997-06-05.pdf), specific OIG FR Doc 97-14611, 62 FR 30859–30865 | Jun. 5, 1997 | `75d648c24c18802812128e2708fe29340458b274d522d8e97ef38129bac1fe0d` | 2,124,538 |
-| [Executive Order 14215](https://www.govinfo.gov/content/pkg/DCPD-202500277/html/DCPD-202500277.htm), §7 and §8(b) | Issued Feb. 18, 2025 (Federal Register Feb. 24) | `1399f0857b1e4fe2b4c7fa9c3bb2fde0ee199ea372c47cdf4f3fecddc2994593` | 15,803 |
+| [Executive Order 14215](https://www.govinfo.gov/content/pkg/DCPD-202500277/html/DCPD-202500277.htm), §7 and §§8(b)–(c) | Issued Feb. 18, 2025 (Federal Register Feb. 24) | `1399f0857b1e4fe2b4c7fa9c3bb2fde0ee199ea372c47cdf4f3fecddc2994593` | 15,803 |
 | [FDA Overview Organization Chart, text edition](https://www.fda.gov/about-fda/fda-organization-charts/fda-overview-organization-chart-text-version), Chief Counsel (DCAA) | Oct. 13, 2026 | `181fd936025d6c739c45dbd329366efcc7695f55d8e160e38c4c403d43793e32` | 31,184 |
 
 The sixth underlying original is the prior retained [September 29, 2026 HHS OGC restatement](https://www.govinfo.gov/content/pkg/FR-2026-09-29/pdf/2026-19903.pdf), SHA-256 `e779cb68e4641730a00043a78b08c06a4a2db243c8987c27dd723287224e9f76`, under `evidence/hhs-ogc-2026-statement/`. Its independently specified distinct legal effective date remains `null`.
@@ -37,7 +37,7 @@ The 1997 HHS OIG Chapter AF statement published **seven OIG main organizational 
 
 ## EO 14215 and law-dependent interpretation
 
-The HHS OGC September 2026 mission invokes [Executive Order 14215](https://www.govinfo.gov/content/pkg/DCPD-202500277/html/DCPD-202500277.htm) with the qualifying language **“to the maximum extent permitted.”** The order's **§7** describes presidential and Attorney General interpretation rules. Its **§8(b)** (not §8(a)'s severability clause) expressly preserves authority granted by law and requires implementation consistent with applicable law.
+The HHS OGC September 2026 mission invokes [Executive Order 14215](https://www.govinfo.gov/content/pkg/DCPD-202500277/html/DCPD-202500277.htm) with the qualifying language **“to the maximum extent permitted.”** The order's **§7** describes presidential and Attorney General interpretation rules. Its **§8(b)** (not §8(a)'s severability clause) preserves law-granted authorities, while **§8(c)** separately requires implementation consistent with applicable law.
 
 This increment records the actual source language and version. It **does not** certify the applicability of every executive-order provision to every agency action, the constitutionality or legal sufficiency of executive directives, or any specific individual attorney's signed authority.
 
