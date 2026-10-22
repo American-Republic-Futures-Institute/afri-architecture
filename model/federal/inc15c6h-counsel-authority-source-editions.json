@@ -35,7 +35,12 @@
       "independent_exhaustive_legal_and_statutory_review_completed": false,
       "original_legal_authority_minted_by_source_ingestion": false,
       "organizational_direct_command_inferred": false,
-      "index": 1
+      "index": 1,
+      "original_publisher_git_blob_sha1": "b5512e303e9d0c70be97db1bb95f2b73f1ac0b04",
+      "original_byte_count": 228136,
+      "original_is_preserved_and_integrity_verified": true,
+      "original_repository_relative_path": "evidence/hhs-counsel-source-editions/originals/cfr_2025_21_5/sha256/d821dcb01c90f90d4d6d543c777124175908fdb8b04ffd4fecb7af1814a4d245.pdf",
+      "external_independent_WORM_custody": false
     },
     {
       "id": "INC15C6H-EDITION-FDA2026",
@@ -55,7 +60,12 @@
       "independent_exhaustive_legal_and_statutory_review_completed": false,
       "original_legal_authority_minted_by_source_ingestion": false,
       "organizational_direct_command_inferred": false,
-      "index": 2
+      "index": 2,
+      "original_publisher_git_blob_sha1": "cf8ee41b129b6419f4da43a9d20d6faa7b6081ac",
+      "original_byte_count": 251677,
+      "original_is_preserved_and_integrity_verified": true,
+      "original_repository_relative_path": "evidence/hhs-counsel-source-editions/originals/fda_rule_2026/sha256/70df495934558185f9d19b3e83f13882dc0351f25cc225ab1e2d85fb3adc2310.pdf",
+      "external_independent_WORM_custody": false
     },
     {
       "id": "INC15C6H-EDITION-OIG1997",
@@ -75,7 +85,12 @@
       "independent_exhaustive_legal_and_statutory_review_completed": false,
       "original_legal_authority_minted_by_source_ingestion": false,
       "organizational_direct_command_inferred": false,
-      "index": 3
+      "index": 3,
+      "original_publisher_git_blob_sha1": "5c470e91de64d390dc631c541337123df244eb10",
+      "original_byte_count": 2124538,
+      "original_is_preserved_and_integrity_verified": true,
+      "original_repository_relative_path": "evidence/hhs-counsel-source-editions/originals/oig_fr_1997_issue/sha256/75d648c24c18802812128e2708fe29340458b274d522d8e97ef38129bac1fe0d.pdf",
+      "external_independent_WORM_custody": false
     },
     {
       "id": "INC15C6H-EDITION-EO2025",
@@ -95,7 +110,12 @@
       "independent_exhaustive_legal_and_statutory_review_completed": false,
       "original_legal_authority_minted_by_source_ingestion": false,
       "organizational_direct_command_inferred": false,
-      "index": 4
+      "index": 4,
+      "original_publisher_git_blob_sha1": "ff90402008c83e9f657fe478320c2f800eaa3f7e",
+      "original_byte_count": 15803,
+      "original_is_preserved_and_integrity_verified": true,
+      "original_repository_relative_path": "evidence/hhs-counsel-source-editions/originals/eo_14215_2025/sha256/1399f0857b1e4fe2b4c7fa9c3bb2fde0ee199ea372c47cdf4f3fecddc2994593.html",
+      "external_independent_WORM_custody": false
     },
     {
       "id": "INC15C6H-EDITION-FDACHART2026",
@@ -115,7 +135,12 @@
       "independent_exhaustive_legal_and_statutory_review_completed": false,
       "original_legal_authority_minted_by_source_ingestion": false,
       "organizational_direct_command_inferred": false,
-      "index": 5
+      "index": 5,
+      "original_publisher_git_blob_sha1": "a15cc5de4fdd8e1a25c84c86d157a2b408a212ee",
+      "original_byte_count": 31184,
+      "original_is_preserved_and_integrity_verified": true,
+      "original_repository_relative_path": "evidence/hhs-counsel-source-editions/originals/fda_chart_2026/sha256/181fd936025d6c739c45dbd329366efcc7695f55d8e160e38c4c403d43793e32.html",
+      "external_independent_WORM_custody": false
     },
     {
       "id": "INC15C6H-EDITION-OGC2026",
@@ -135,7 +160,14 @@
       "independent_exhaustive_legal_and_statutory_review_completed": false,
       "original_legal_authority_minted_by_source_ingestion": false,
       "organizational_direct_command_inferred": false,
-      "index": 6
+      "index": 6,
+      "original_publisher_git_blob_sha1": "43c99b2f51ba8d99f0a789ddc8446098883793b3",
+      "original_byte_count": 204358,
+      "original_is_preserved_and_integrity_verified": true,
+      "original_repository_relative_path": "evidence/hhs-ogc-2026-statement/originals/sha256/e779cb68e4641730a00043a78b08c06a4a2db243c8987c27dd723287224e9f76/2026-19903.pdf",
+      "external_independent_WORM_custody": false
     }
-  ]
+  ],
+  "new_publisher_originals_retained": 5,
+  "source_original_sha_manifest": "evidence/hhs-counsel-source-editions/receipts/source-custody.json"
 }
