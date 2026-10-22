@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ARFI INC-15C.6H counsel authority source edition and legal-boundary contract: inc15c6h-counsel-citation-status-transitions",
+  "title": "ARFI INC-15C.6H bounded source inc15c6h-counsel-citation-status-transitions",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -15,11 +15,13 @@
     "obsolete_CFR_citation_is_not_current_authority",
     "FDA_OCC_existence_abolition_from_CFR_removal_unproven",
     "no_HHS_IG_legal_direction_from_general_counsel_inferred",
-    "no_ALJ_case_or_apellate_control_inferred",
     "current_HHS_first_level_legal_denominator",
     "current_named_HHS_legal_delegations_certified",
     "new_canonical_federal_institution_ids",
     "observation_type_counts",
+    "no_ALJ_case_or_appellate_control_inferred",
+    "retained_official_original_source_count",
+    "later_FDA_2026_chart_is_publisher_observation_not_signed_delegation",
     "items"
   ],
   "properties": {
@@ -56,9 +58,6 @@
     "no_HHS_IG_legal_direction_from_general_counsel_inferred": {
       "const": true
     },
-    "no_ALJ_case_or_apellate_control_inferred": {
-      "const": true
-    },
     "current_HHS_first_level_legal_denominator": {
       "const": null
     },
@@ -87,6 +86,15 @@
         "rule_effect_not_office_dissolution": 1
       }
     },
+    "no_ALJ_case_or_appellate_control_inferred": {
+      "const": true
+    },
+    "retained_official_original_source_count": {
+      "const": 6
+    },
+    "later_FDA_2026_chart_is_publisher_observation_not_signed_delegation": {
+      "const": true
+    },
     "items": {
       "type": "array",
       "minItems": 17,
@@ -112,24 +120,43 @@
           "signed_delegation_to_named_individual_established",
           "legal_authority_over_independent_OIG_or_ALJ_inferred",
           "distinct_HHS_new_agency_ID",
-          "different_source_eras_not_additive"
+          "different_source_eras_not_additive",
+          "source_original_git_blob_sha1",
+          "source_original_custody_receipt",
+          "retained_source_edition_sha_qualified"
         ],
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^INC15C6H-"
           },
           "source_edition_id": {
             "type": "string"
           },
           "source_observation_type": {
-            "type": "string"
+            "enum": [
+              "historical_regulation_text",
+              "historical_editorial_footnote",
+              "regulatory_section_removed",
+              "regulation_organizational_pointer_revised",
+              "anachronistic_cross_source_citation",
+              "publisher_described_professional_reporting",
+              "publisher_described_advisory_function",
+              "publisher_described_administrative_placement",
+              "historical_counsel_consolidation",
+              "historical_OIG_counsel_function",
+              "OGC_OIG_counsel_exception",
+              "presidential_interpretation_source_rule",
+              "executive_order_applicable_law_exception",
+              "department_legal_advice_scope_claim",
+              "rule_effect_not_office_dissolution"
+            ]
           },
           "citation_status": {
-            "type": "string",
             "enum": [
               "operative_at_edition",
-              "removed_before_citing_edition",
               "historical_publisher_claim",
+              "removed_before_citing_edition",
               "publisher_described_organizational_placement",
               "unresolved_independent_legal_qualification"
             ]
@@ -177,9 +204,18 @@
             "const": false
           },
           "distinct_HHS_new_agency_ID": {
-            "type": "null"
+            "const": null
           },
           "different_source_eras_not_additive": {
+            "const": true
+          },
+          "source_original_git_blob_sha1": {
+            "type": "string"
+          },
+          "source_original_custody_receipt": {
+            "type": "string"
+          },
+          "retained_source_edition_sha_qualified": {
             "const": true
           }
         }
