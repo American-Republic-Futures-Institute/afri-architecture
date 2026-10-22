@@ -9,6 +9,11 @@ export const ROOT=path.resolve(HERE,"..");
 export const MODEL="model/federal/inc16/inc16a-hhs-dhs-functional-interface.json";
 export const SCHEMA="schemas/inc16a-hhs-dhs-functional-interface.schema.json";
 export const GOVSHA="c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138";
+const CODE_ORIGINALS={
+ "INC16A-SRC-USC-6-467":"37a657bc872228bc232de0ef75dd78a03fec194bc9e30f435adae5b07985ccd2",
+ "INC16A-SRC-USC-42-300HH":"23b076dd183daacd5489f4352b4e342c97b2a95807822ddf6a85f2cd115e9058"
+};
+const SOURCE_RECEIPT="evidence/inc16b-uscode/source-custody.json";
 const H="ORG-FED-EXE-DEP-HHS",D="ORG-FED-EXE-DEP-DHS",DEF="ORG-FED-EXE-DEP-DEFENSE";
 const G="INC16A-SRC-GOVMAN-2025",S6="INC16A-SRC-USC-6-467",S42="INC16A-SRC-USC-42-300HH";
 const ORIGINAL="evidence/govman-2025/originals/sha256/"+GOVSHA+".xml";
@@ -81,9 +86,9 @@ export function validateINC16A(data){
   keys(m,FILE_FIELDS.root,"root");
   check(m.model_version==="0.1.0" && m.model_family==="inc16a-hhs-dhs-functional-interface" &&
     m.release_status==="research_baseline_unratified","unratified release");
-  check(m.edition_scope==="2025-12-31 Government Manual missions plus official Code text through Public Law 119-120 on 2026-10-07","edition/temporal qualification");
+  check(m.edition_scope==="2025-12-31 Government Manual missions plus official Code text through Public Law 119-120 on 2026-10-07; statutory originals captured 2026-10-22 as publisher HTML bytes","edition/temporal qualification");
   check(m.legal_first_level_denominator===null &&
-    m.independent_legal_review_complete===false && m.all_source_originals_retained===false &&
+    m.independent_legal_review_complete===false && m.all_source_originals_retained===true &&
     m.new_canonical_institution_ids===0 && m.website_atlas_admitted===false &&
     m.policy_recommendations_created===false,"false authority, institution or Atlas admission");
   check(manifest.release_status==="research_baseline_unratified" &&
@@ -96,7 +101,8 @@ export function validateINC16A(data){
     ext.conditional_statutory_interface_claims===3 &&
     ext.existing_canonical_department_roots===2 &&
     ext.source_text_only_no_observed_disclosure===true &&
-    ext.all_statutory_originals_retained===false &&
+    ext.all_statutory_originals_retained===true && ext.source_originals_receipt===SOURCE_RECEIPT &&
+    ext.statute_source_original_count===2 &&
     ext.atlas_graph_admission===false && ext.new_canonical_institution_ids===0 &&
     ext.current_legal_first_level_denominator===null,"extension source/qualification metrics");
   const families=["sources","canonical_links","functions","relationship_type_registry",
@@ -117,6 +123,16 @@ export function validateINC16A(data){
     "GovManual original receipt");
   const digest=createHash("sha256").update(fs.readFileSync(path.join(root,ORIGINAL))).digest("hex");
   check(digest===GOVSHA,"GovManual original bytes changed");
+  const custody=jload(root,SOURCE_RECEIPT);
+  check(custody.model_family==="inc16b-official-uscode-originals" &&
+    custody.original_source_count===2 && custody.publisher_release_point==="Public Law 119-120" &&
+    custody.publisher_through_date==="October 7, 2026" &&
+    custody.not_external_worm_custody===true &&
+    custody.not_independent_legal_review===true &&
+    custody.website_atlas_admission===false &&
+    JSON.stringify(Object.keys(custody.records).sort())===
+      JSON.stringify(Object.keys(CODE_ORIGINALS).sort()),
+    "untrusted official originals receipt or forged independent review");
   for(const [id,reference,url] of [
     [S6,"official_text_inspected_online_6_USC_467_subsections_b2_b3",
       "https://uscode.house.gov/us/usc/119-118/t6/s467/"],
@@ -126,9 +142,25 @@ export function validateINC16A(data){
     check(s.source_kind==="official_us_code_online_text" &&
       s.source_edition==="text_in_effect_through_Public_Law_119-120_2026-10-07" &&
       s.official_url===url && s.verified_scope===reference &&
-      s.original_repo_path===null && s.original_sha256===null &&
-      s.original_bytes_retained===false && s.legally_certified_current===false,
+      s.original_sha256===CODE_ORIGINALS[id] &&
+      s.original_repo_path==="evidence/inc16b-uscode/originals/sha256/"+CODE_ORIGINALS[id]+".html" &&
+      s.original_bytes_retained===true && s.legally_certified_current===false,
       "official Code original bytes or legal status falsely represented: "+id);
+    const receipt=custody.records[id];
+    const raw=fs.readFileSync(path.join(root,s.original_repo_path));
+    const digest=createHash("sha256").update(raw).digest("hex");
+    const gitBlob=createHash("sha1").update(Buffer.concat([
+      Buffer.from("blob "+raw.length+"\\0"),raw])).digest("hex");
+    check(receipt && receipt.publisher==="Office of the Law Revision Counsel, U.S. House of Representatives" &&
+      receipt.publisher_code_text_through==="Public Law 119-120" &&
+      receipt.original_repository_path===s.original_repo_path &&
+      receipt.original_sha256===digest && digest===CODE_ORIGINALS[id] &&
+      receipt.original_bytes===raw.length && receipt.git_blob_sha1===gitBlob &&
+      receipt.source_original_git_retained===true &&
+      receipt.external_independent_WORM_verified===false &&
+      receipt.legal_certification_completed===false &&
+      receipt.operational_relationship_execution_verified===false,
+      "source original receipt differs from exact retained Git bytes: "+id);
   }
   const existing=new Map(departments.items.map(x=>[x.id,x]));
   check(existing.has(H) && existing.has(D) && existing.has(DEF),"existing canonical departments");
@@ -226,7 +258,7 @@ export function validateINC16A(data){
   }
   return {
     govman_original_sha256:GOVSHA,canonical_department_roots:2,
-    official_code_section_sources:2,official_code_originals_retained:0,
+    official_code_section_sources:2,official_code_originals_retained:2,
     source_reported_mission_functions:9,directed_conditional_statutory_claims:3,
     qualified_current_executed_interagency_agreements:0,
     qualified_current_operational_communications:0,public_atlas_edges_admitted:0,
