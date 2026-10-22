@@ -21,10 +21,10 @@ SOURCE_MANIFEST="evidence/hhs-counsel-source-editions/receipts/source-custody.js
 OGC_SHA="e779cb68e4641730a00043a78b08c06a4a2db243c8987c27dd723287224e9f76"
 MODEL={
  "inc15c6h-counsel-authority-source-editions":("09a0684e432d52cf3142ded502660efd50fcd54f","a085eb87eeb562a99a72a114f464c7c1763a3e69",6),
- "inc15c6h-counsel-citation-status-transitions":("eabfdd9973c904bfebb88300cf5594650c59f551","9d62c9de89ccb0db6bc7dbc015132db385e0b81b",17),
+ "inc15c6h-counsel-citation-status-transitions":("980e7a897e366c7dce21e4f8223afc9ba6778506","9d62c9de89ccb0db6bc7dbc015132db385e0b81b",17),
  "inc15c6h-oig-1997-counsel-history":("2b06eb005bdfce06b64dba5a92b0466bc6dce533","f86fff1d6bd6dfcba032debedb1dd20788bce89b",11),
  "inc15c6h-counsel-source-coverage":("db2959efd90e95feaeecccfffb45e828eb4829a7","12a162e9c97c6cf4e1193b1c041a779a127fd40c",14),
- "inc15c6h-counsel-authority-boundaries":("c146e64355aafd8a832562392a7d2083e8669ea7","c141fdd274acfc6a20e75b63d9b632101d2da544",11),
+ "inc15c6h-counsel-authority-boundaries":("cf03bc281b01a9affc700a4fc44caf8cdaf3a9bf","c141fdd274acfc6a20e75b63d9b632101d2da544",11),
 }
 PRIOR={
  "model/federal/inc15c3-hhs-directory-reconciliation.json":"37d06d6341a560a0689654819816e1396624b890",
@@ -158,7 +158,7 @@ def validate(root=BASE):
   cit["INC15C6H-CITATION-3"]["target_reference"]=="21 CFR 5.1105" and
   cit["INC15C6H-CITATION-6"]["citation_status"]=="removed_before_citing_edition" and
   cit["INC15C6H-CITATION-6"]["express_legal_effective_date"] is None and
-  cit["INC15C6H-CITATION-15"]["publisher_section_or_paragraph"]=="Section 8(b)(i) and 8(b)(ii)" and
+  cit["INC15C6H-CITATION-15"]["publisher_section_or_paragraph"]=="Section 8(b)(i)-(ii) and 8(c)" and
   cit["INC15C6H-CITATION-7"]["source_epoch_or_publication_date"]=="2026-10-13",
   "revocation/citation/EO 14215 §8(b) or post-repeal chart chronology invalid")
  check(oig["historical_OIG_top_level_component_labels"]==7 and
