@@ -14,6 +14,9 @@ ROOT = BASE / "evidence/hhs-ogc-2026-statement"
 URL = "https://www.govinfo.gov/content/pkg/FR-2026-09-29/pdf/2026-19903.pdf"
 DOCUMENT = "2026-19903"
 EXPECTED_PAGES = 5
+PINNED_SHA256 = "e779cb68e4641730a00043a78b08c06a4a2db243c8987c27dd723287224e9f76"
+PINNED_BYTE_COUNT = 204358
+PINNED_GIT_BLOB_SHA1 = "43c99b2f51ba8d99f0a789ddc8446098883793b3"
 MAX_BYTES = 12000000
 MUST_CONTAIN = (
     "Office of the General Counsel",
@@ -37,6 +40,8 @@ def source_path(digest): return ROOT / "originals" / "sha256" / digest / (DOCUME
 def checked_original(raw):
     if not isinstance(raw, bytes) or not (40000 < len(raw) <= MAX_BYTES):
         raise SourceError("PDF original content length outside approved bounds")
+    if len(raw)!=PINNED_BYTE_COUNT or sha(raw)!=PINNED_SHA256 or gitblob(raw)!=PINNED_GIT_BLOB_SHA1:
+        raise SourceError("original publisher PDF differs from independently reviewed byte and SHA-256/Git pins")
     if not raw.startswith(b"%PDF-1.") or b"%%EOF" not in raw[-4096:]:
         raise SourceError("not an original PDF")
     import tempfile
