@@ -309,7 +309,10 @@
     "model/federal/inc15c6d-hhs-historical-source-coverage.json",
     "model/federal/inc15c6e-hhs-budget-proposal-epochs.json",
     "model/federal/inc15c6e-arpah-live-office-observations.json",
-    "model/federal/inc15c6e-hhs-source-lifecycle-coverage.json"
+    "model/federal/inc15c6e-hhs-source-lifecycle-coverage.json",
+    "model/federal/inc15c6f-ocr-dated-organization-epochs.json",
+    "model/federal/inc15c6f-ocr-2026-notice-clauses.json",
+    "model/federal/inc15c6f-ocr-typed-source-relationships.json"
   ],
   "standards": [
     {
@@ -1257,5 +1260,32 @@
     "cross_edition_counts_nonadditive": true,
     "current_legal_reporting_or_adjudicative_control_qualified": false,
     "research_status": "two_arpah_HTML_originals_2026_budget_proposals_unarchived_HHS_blocks_unresolved_law"
+  },
+  "federal_institutional_breadth_15c6f_extension": {
+    "id": "ARFI-FED-INC15C6F-OCR-OPERATIVE-2026-EDITION",
+    "historic_2023_source_document": "2023-03892",
+    "operative_2026_source_document": "2026-13142",
+    "2023_OCR_AT10_effective_date": "2023-02-25",
+    "2026_OCR_AT10_effective_date": "2026-06-28",
+    "2026_OCR_reorganization_secretary_approval_date": "2026-05-14",
+    "original_pdf_sources_verified_and_git_retained": 2,
+    "original_2023_OCR_PDF_sha256": "7035eea1497113c5964fce2f6d3862b31c5452e34a0b80b1ee572bb50610cfad",
+    "original_2026_OCR_PDF_sha256": "973323350377319d1e737d7b476ab90d18f754bd9d2505521c66b97524a22498",
+    "2023_publisher_component_labels": 6,
+    "2026_publisher_component_labels": 6,
+    "2026_operative_internal_composition_entries": 6,
+    "nine_2026_notice_clauses_reconciled": 9,
+    "OCR_2026_typed_source_relationships": 13,
+    "OCR_director_deputy_source_reporting_statements": 3,
+    "2026_legal_HHS_first_level_denominator": null,
+    "independent_full_HHS_roster_certification_complete": false,
+    "only_OCR_internal_operational_structure_qualified": true,
+    "independent_signed_delegation_inventory_complete": false,
+    "FY2026_ASE_or_FY2027_ASCRA_budget_proposal_implementation_proved": false,
+    "new_canonical_federal_institution_ids": 0,
+    "source_edition_counts_nonadditive": true,
+    "current_2026_Oct_OCR_officeholder_or_organizational_roster_reverified": false,
+    "independent_external_WORM_source_custody_verified": false,
+    "research_status": "OCR_internal_notice_effective_as_published_2026-06-28_predecessor_2023_crosswalk_nonadditive_HHS_open"
   }
 }
