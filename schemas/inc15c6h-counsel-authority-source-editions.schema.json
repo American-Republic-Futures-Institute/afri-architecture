@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "ARFI INC-15C.6H counsel authority source edition and legal-boundary contract: inc15c6h-counsel-authority-source-editions",
+  "title": "ARFI INC-15C.6H bounded source inc15c6h-counsel-authority-source-editions",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -21,6 +21,8 @@
     "all_rows_nonadditive_source_editions",
     "all_legal_citation_crosswalks_independently_qualified",
     "no_new_canonical_institutions",
+    "new_publisher_originals_retained",
+    "source_original_sha_manifest",
     "items"
   ],
   "properties": {
@@ -75,6 +77,12 @@
     "no_new_canonical_institutions": {
       "const": 0
     },
+    "new_publisher_originals_retained": {
+      "const": 5
+    },
+    "source_original_sha_manifest": {
+      "const": "evidence/hhs-counsel-source-editions/receipts/source-custody.json"
+    },
     "items": {
       "type": "array",
       "minItems": 6,
@@ -100,16 +108,22 @@
           "independent_exhaustive_legal_and_statutory_review_completed",
           "original_legal_authority_minted_by_source_ingestion",
           "organizational_direct_command_inferred",
-          "index"
+          "index",
+          "original_publisher_git_blob_sha1",
+          "original_byte_count",
+          "original_is_preserved_and_integrity_verified",
+          "original_repository_relative_path",
+          "external_independent_WORM_custody"
         ],
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^INC15C6H-"
           },
           "official_publisher_source_key": {
             "type": [
-              "string",
-              "null"
+              "null",
+              "string"
             ]
           },
           "original_publisher_document_title": {
@@ -125,7 +139,14 @@
             ]
           },
           "source_classification": {
-            "type": "string"
+            "enum": [
+              "historical_operative_at_edition",
+              "operative_rule_effective_date",
+              "historical_organizational_statement",
+              "presidential_order_issued_source",
+              "publisher_observed_structure_edition",
+              "publisher_claim_citing_revoked_source"
+            ]
           },
           "official_citation_or_source_locator": {
             "type": "string"
@@ -149,7 +170,7 @@
             "const": true
           },
           "separate_HHS_current_institution_count": {
-            "type": "null"
+            "const": null
           },
           "independent_exhaustive_legal_and_statutory_review_completed": {
             "const": false
@@ -162,6 +183,21 @@
           },
           "index": {
             "type": "integer"
+          },
+          "original_publisher_git_blob_sha1": {
+            "type": "string"
+          },
+          "original_byte_count": {
+            "type": "integer"
+          },
+          "original_is_preserved_and_integrity_verified": {
+            "const": true
+          },
+          "original_repository_relative_path": {
+            "type": "string"
+          },
+          "external_independent_WORM_custody": {
+            "const": false
           }
         }
       }
