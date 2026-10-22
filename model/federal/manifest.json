@@ -321,8 +321,7 @@
     "model/federal/inc15c6h-counsel-citation-status-transitions.json",
     "model/federal/inc15c6h-oig-1997-counsel-history.json",
     "model/federal/inc15c6h-counsel-source-coverage.json",
-    "model/federal/inc15c6h-counsel-authority-boundaries.json",
-    "model/federal/inc15c6h-ocig-1997-internal-components.json"
+    "model/federal/inc15c6h-counsel-authority-boundaries.json"
   ],
   "standards": [
     {
@@ -1329,7 +1328,7 @@
     "preceding_OGC_official_original_reused": 1,
     "new_source_versioned_citation_records": 17,
     "new_typed_authority_boundary_records": 11,
-    "historical_1997_OCIG_source_local_rows": 5,
+    "historical_1997_OCIG_source_local_rows": 11,
     "separately_1997_OCIG_subordinate_functions": 4,
     "bounded_nonadditive_coverage_register_rows": 14,
     "obsolete_FDA_21_CFR_5_1105_removed_effective_date": "2026-06-15",
@@ -1346,6 +1345,7 @@
     "FY2026_ASE_FY2027_ASCRA_proposal_implementation_verified": false,
     "all_source_edition_populations_nonadditive": true,
     "original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
-    "legal_currentness_scope": "regulatory_repeal_verified_reported_relationships_publisher_observed_broader_individual_authority_unqualified"
+    "legal_currentness_scope": "regulatory_repeal_verified_reported_relationships_publisher_observed_broader_individual_authority_unqualified",
+    "historical_1997_OCIG_original_historical_register_includes_7_OIG_plus_4_OCIG": true
   }
 }
