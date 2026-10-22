@@ -22,7 +22,7 @@ MUST_CONTAIN = (
     "Unaccompanied Alien Children Legal Representation Division",
     "Satellite offices are not separate organizational components",
     "Office of the Counsel to the Inspector General",
-    "separation-of-functions",
+    "of-functions",
 )
 class SourceError(Exception):
     pass
@@ -51,6 +51,8 @@ def checked_original(raw):
         flattened = " ".join(extracted.split())
         missing = [m for m in MUST_CONTAIN if m not in flattened]
         if missing: raise SourceError("original PDF has missing HHS source clauses: " + repr(missing))
+        if not re.search(r"separation-\s*of-functions", flattened, re.I):
+            raise SourceError("FDA source separation-of-functions qualifier missing")
         if not re.search(r"2026[\-–]19903", flattened):
             raise SourceError("document number missing or not matching official edition")
         if "61422" not in flattened or "61426" not in flattened:
