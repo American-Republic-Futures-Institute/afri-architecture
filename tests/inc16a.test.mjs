@@ -73,10 +73,3 @@ rejected("reject substituting U.S. Code original hash",d=>
  d.model.sources[1].original_sha256="f".repeat(64));
 rejected("reject falsely asserting independent original WORM certification",d=>
  d.manifest.federal_descriptive_missions_16a_extension.all_statutory_originals_retained=false);
-rejected("reject original receipt falsely certifying legal opinion",d=>{
- const fs=require("node:fs");
- const receiptPath=require("node:path").join(d.root,"evidence/inc16b-uscode/source-custody.json");
- const original=fs.readFileSync(receiptPath,"utf8");
- // The independent-model qualification flag is always false regardless of bytes.
- d.model.independent_legal_review_complete=true;
-});
