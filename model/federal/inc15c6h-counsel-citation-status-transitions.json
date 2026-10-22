@@ -10,7 +10,6 @@
   "obsolete_CFR_citation_is_not_current_authority": true,
   "FDA_OCC_existence_abolition_from_CFR_removal_unproven": true,
   "no_HHS_IG_legal_direction_from_general_counsel_inferred": true,
-  "no_ALJ_case_or_apellate_control_inferred": true,
   "current_HHS_first_level_legal_denominator": null,
   "current_named_HHS_legal_delegations_certified": 0,
   "new_canonical_federal_institution_ids": 0,
@@ -50,7 +49,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "b5512e303e9d0c70be97db1bb95f2b73f1ac0b04",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-02",
@@ -70,7 +72,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "b5512e303e9d0c70be97db1bb95f2b73f1ac0b04",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-03",
@@ -90,7 +95,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "cf8ee41b129b6419f4da43a9d20d6faa7b6081ac",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-04",
@@ -110,7 +118,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "cf8ee41b129b6419f4da43a9d20d6faa7b6081ac",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-05",
@@ -130,7 +141,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "cf8ee41b129b6419f4da43a9d20d6faa7b6081ac",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-06",
@@ -150,7 +164,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "43c99b2f51ba8d99f0a789ddc8446098883793b3",
+      "source_original_custody_receipt": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-07",
@@ -170,7 +187,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "a15cc5de4fdd8e1a25c84c86d157a2b408a212ee",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-08",
@@ -190,7 +210,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "a15cc5de4fdd8e1a25c84c86d157a2b408a212ee",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-09",
@@ -210,7 +233,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "43c99b2f51ba8d99f0a789ddc8446098883793b3",
+      "source_original_custody_receipt": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-10",
@@ -230,7 +256,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "43c99b2f51ba8d99f0a789ddc8446098883793b3",
+      "source_original_custody_receipt": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-11",
@@ -243,14 +272,17 @@
       "publisher_printed_page_or_locator": "62 FR 30859",
       "source_epoch_or_publication_date": "1997-06-05",
       "express_legal_effective_date": null,
-      "bounded_edition_finding": "1997 HHS OIG statement describes consolidation into OCIG within Inspector General organization; no automatic certification as unchanged in 2026",
+      "bounded_edition_finding": "1997 HHS OIG organizational statement identifies OCIG (AFG) and OIG seven-unit historical composition, not verified current 2026 OIG hierarchy",
       "predecessor_OGC_relation_id": null,
       "source_original_sha256": "75d648c24c18802812128e2708fe29340458b274d522d8e97ef38129bac1fe0d",
       "legal_instrument_additional_independent_qualification_complete": false,
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "5c470e91de64d390dc631c541337123df244eb10",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-12",
@@ -263,14 +295,17 @@
       "publisher_printed_page_or_locator": "62 FR 30862-30863",
       "source_epoch_or_publication_date": "1997-06-05",
       "express_legal_effective_date": null,
-      "bounded_edition_finding": "OCIG historically performed legal services for Inspector General within Chapter AF organizational roster",
+      "bounded_edition_finding": "1997 OCIG (AFG) provides legal services to Inspector General and OIG components, with four named organizational functions: Advice, Civil Recoveries, Administrative Litigation, and Industry Guidance; legal authority in 2026 independently unresolved",
       "predecessor_OGC_relation_id": null,
       "source_original_sha256": "75d648c24c18802812128e2708fe29340458b274d522d8e97ef38129bac1fe0d",
       "legal_instrument_additional_independent_qualification_complete": false,
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "5c470e91de64d390dc631c541337123df244eb10",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-13",
@@ -290,7 +325,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "43c99b2f51ba8d99f0a789ddc8446098883793b3",
+      "source_original_custody_receipt": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-14",
@@ -310,7 +348,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "ff90402008c83e9f657fe478320c2f800eaa3f7e",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-15",
@@ -319,18 +360,21 @@
       "citation_status": "unresolved_independent_legal_qualification",
       "subject_reference": "Executive Order 14215",
       "target_reference": "Applicable law and statutory agency powers",
-      "publisher_section_or_paragraph": "Section 8(a)",
+      "publisher_section_or_paragraph": "Section 8(b)(i) and 8(b)(ii)",
       "publisher_printed_page_or_locator": "DCPD-202500277",
       "source_epoch_or_publication_date": "2025-02-18",
       "express_legal_effective_date": null,
-      "bounded_edition_finding": "Executive Order says it must not impair authority granted by law and implemented consistent with applicable law",
+      "bounded_edition_finding": "Executive Order §8(b) preserves authority conferred by law and requires implementation consistent with applicable law; this does not independently qualify any claimed HHS delegation or override",
       "predecessor_OGC_relation_id": null,
       "source_original_sha256": "1399f0857b1e4fe2b4c7fa9c3bb2fde0ee199ea372c47cdf4f3fecddc2994593",
       "legal_instrument_additional_independent_qualification_complete": false,
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "ff90402008c83e9f657fe478320c2f800eaa3f7e",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-16",
@@ -350,7 +394,10 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "43c99b2f51ba8d99f0a789ddc8446098883793b3",
+      "source_original_custody_receipt": "evidence/hhs-ogc-2026-statement/receipts/git-custody.json",
+      "retained_source_edition_sha_qualified": true
     },
     {
       "id": "INC15C6H-CITATION-17",
@@ -370,7 +417,13 @@
       "signed_delegation_to_named_individual_established": false,
       "legal_authority_over_independent_OIG_or_ALJ_inferred": false,
       "distinct_HHS_new_agency_ID": null,
-      "different_source_eras_not_additive": true
+      "different_source_eras_not_additive": true,
+      "source_original_git_blob_sha1": "cf8ee41b129b6419f4da43a9d20d6faa7b6081ac",
+      "source_original_custody_receipt": "evidence/hhs-counsel-source-editions/receipts/source-custody.json",
+      "retained_source_edition_sha_qualified": true
     }
-  ]
+  ],
+  "no_ALJ_case_or_appellate_control_inferred": true,
+  "retained_official_original_source_count": 6,
+  "later_FDA_2026_chart_is_publisher_observation_not_signed_delegation": true
 }
