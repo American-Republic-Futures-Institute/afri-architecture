@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15C.6F source-qualified OCR organization and bounded authority — inc15c6f-ocr-typed-source-relationships",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "prior_canonical_OCR_publisher_identity",
+    "department_canonical_id",
+    "notice_id",
+    "notice_effective_date",
+    "notice_source_original_sha256",
+    "relation_count",
+    "operative_OCR_internal_component_membership_edges",
+    "document_effective_date_statements",
+    "deputy_role_reporting_statements",
+    "preexisting_delegations_conditional_continuation_statements",
+    "publisher_coordination_statements_not_interagency_command",
+    "type_vocabulary",
+    "source_notice_and_typed_references_nonadditive",
+    "root_current_HHS_first_level_legal_denominator",
+    "independent_case_specific_legal_delegations_reviewed",
+    "signed_budget_ASCRA_ASE_parent_organizational_transfers",
+    "new_canonical_institution_IDs",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15c6f-ocr-2026-typed-source-relationships"
+    },
+    "prior_canonical_OCR_publisher_identity": {
+      "const": "INC15C3-HHS-LINK-OCR"
+    },
+    "department_canonical_id": {
+      "const": "ORG-FED-EXE-DEP-HHS"
+    },
+    "notice_id": {
+      "const": "2026-13142"
+    },
+    "notice_effective_date": {
+      "const": "2026-06-28"
+    },
+    "notice_source_original_sha256": {
+      "const": "973323350377319d1e737d7b476ab90d18f754bd9d2505521c66b97524a22498"
+    },
+    "relation_count": {
+      "const": 13
+    },
+    "operative_OCR_internal_component_membership_edges": {
+      "const": 6
+    },
+    "document_effective_date_statements": {
+      "const": 1
+    },
+    "deputy_role_reporting_statements": {
+      "const": 3
+    },
+    "preexisting_delegations_conditional_continuation_statements": {
+      "const": 1
+    },
+    "publisher_coordination_statements_not_interagency_command": {
+      "const": 2
+    },
+    "type_vocabulary": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "source_notice_and_typed_references_nonadditive": {
+      "const": true
+    },
+    "root_current_HHS_first_level_legal_denominator": {
+      "const": null
+    },
+    "independent_case_specific_legal_delegations_reviewed": {
+      "const": 0
+    },
+    "signed_budget_ASCRA_ASE_parent_organizational_transfers": {
+      "const": 0
+    },
+    "new_canonical_institution_IDs": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 13,
+      "maxItems": 13,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "relation_type",
+          "source_subject_id",
+          "source_subject_label",
+          "source_object_id",
+          "source_object_label",
+          "supporting_fr_document_id",
+          "source_2026_pdf_sha256",
+          "source_clause_roman",
+          "source_printed_page",
+          "source_statement_scope",
+          "source_statement_effective_date",
+          "relation_operative_only_within_OCR_boundary",
+          "legally_signed_cross_HHS_reporting_or_command_verified",
+          "authority_held_by_specific_individual_or_office_verifiable_from_this_record",
+          "verified_FY2026_ASE_FY2027_ASCRA_implemented",
+          "newly_minted_canonical_institution_id",
+          "whole_federal_institution_count_effect"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "relation_type": {
+            "enum": [
+              "OCR_internal_organizational_composition",
+              "source_notice_effective_date",
+              "publisher_described_reporting",
+              "existing_delegations_continued_subject_to_consistency",
+              "publisher_described_coordination"
+            ]
+          },
+          "source_subject_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "source_subject_label": {
+            "type": "string"
+          },
+          "source_object_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "source_object_label": {
+            "type": "string"
+          },
+          "supporting_fr_document_id": {
+            "type": "string"
+          },
+          "source_2026_pdf_sha256": {
+            "type": "string"
+          },
+          "source_clause_roman": {
+            "type": "string"
+          },
+          "source_printed_page": {
+            "type": "string"
+          },
+          "source_statement_scope": {
+            "type": "string"
+          },
+          "source_statement_effective_date": {
+            "type": "string"
+          },
+          "relation_operative_only_within_OCR_boundary": {
+            "const": true
+          },
+          "legally_signed_cross_HHS_reporting_or_command_verified": {
+            "const": false
+          },
+          "authority_held_by_specific_individual_or_office_verifiable_from_this_record": {
+            "const": false
+          },
+          "verified_FY2026_ASE_FY2027_ASCRA_implemented": {
+            "const": false
+          },
+          "newly_minted_canonical_institution_id": {
+            "type": "null"
+          },
+          "whole_federal_institution_count_effect": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}
