@@ -1,0 +1,330 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc16a-hhs-dhs-functional-interface",
+  "release_status": "research_baseline_unratified",
+  "edition_scope": "2025-12-31 Government Manual missions plus official Code text through Public Law 119-120 on 2026-10-07",
+  "legal_first_level_denominator": null,
+  "independent_legal_review_complete": false,
+  "all_source_originals_retained": false,
+  "new_canonical_institution_ids": 0,
+  "website_atlas_admitted": false,
+  "policy_recommendations_created": false,
+  "sources": [
+    {
+      "id": "INC16A-SRC-GOVMAN-2025",
+      "source_kind": "official_government_manual_original",
+      "publisher": "Office of the Federal Register / GPO GovInfo",
+      "official_url": "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31",
+      "source_edition": "GOVMAN-2025-12-31",
+      "original_repo_path": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml",
+      "original_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+      "original_bytes_retained": true,
+      "verified_scope": "source_edition_directory_and_mission_text_not_current_legal_assignment",
+      "legally_certified_current": false
+    },
+    {
+      "id": "INC16A-SRC-USC-6-467",
+      "source_kind": "official_us_code_online_text",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "official_url": "https://uscode.house.gov/us/usc/119-118/t6/s467/",
+      "source_edition": "text_in_effect_through_Public_Law_119-120_2026-10-07",
+      "original_repo_path": null,
+      "original_sha256": null,
+      "original_bytes_retained": false,
+      "verified_scope": "official_text_inspected_online_6_USC_467_subsections_b2_b3",
+      "legally_certified_current": false
+    },
+    {
+      "id": "INC16A-SRC-USC-42-300HH",
+      "source_kind": "official_us_code_online_text",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "official_url": "https://uscode.house.gov/us/usc/119-120/t42/s300hh/",
+      "source_edition": "text_in_effect_through_Public_Law_119-120_2026-10-07",
+      "original_repo_path": null,
+      "original_sha256": null,
+      "original_bytes_retained": false,
+      "verified_scope": "official_text_inspected_online_42_USC_300hh_subsection_b",
+      "legally_certified_current": false
+    }
+  ],
+  "canonical_links": [
+    {
+      "id": "INC16A-XWALK-HHS",
+      "source_local_id": "GOVMAN-2025-12-31:117",
+      "source_observation_id": "INC15D-OBS-117",
+      "existing_canonical_id": "ORG-FED-EXE-DEP-HHS",
+      "existing_x12_id": "X12-IDENTITY-ORG-FED-EXE-DEP-HHS",
+      "identity_status": "provisional_explicit_source_name_or_alias",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "independent_identity_review_complete": false
+    },
+    {
+      "id": "INC16A-XWALK-DHS",
+      "source_local_id": "GOVMAN-2025-12-31:118",
+      "source_observation_id": "INC15D-OBS-118",
+      "existing_canonical_id": "ORG-FED-EXE-DEP-DHS",
+      "existing_x12_id": "X12-IDENTITY-ORG-FED-EXE-DEP-DHS",
+      "identity_status": "provisional_explicit_source_name_or_alias",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "independent_identity_review_complete": false
+    }
+  ],
+  "functions": [
+    {
+      "id": "INC16A-FUNC-HHS-HEALTH-ACCESS",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "function_label": "healthcare_and_childcare_access",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-117",
+      "source_excerpt": "making affordable and quality health care and childcare accessible",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    },
+    {
+      "id": "INC16A-FUNC-HHS-FOOD-SAFETY",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "function_label": "food_product_safety",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-117",
+      "source_excerpt": "ensuring the safety of food products",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    },
+    {
+      "id": "INC16A-FUNC-HHS-EMERGENCY-PREPAREDNESS",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "function_label": "public_health_emergency_preparedness",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-117",
+      "source_excerpt": "preparing for public health emergencies",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    },
+    {
+      "id": "INC16A-FUNC-HHS-MEDICAL-RESEARCH",
+      "institution_id": "ORG-FED-EXE-DEP-HHS",
+      "function_label": "diagnosis_and_treatment_advancement",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-117",
+      "source_excerpt": "advancing the diagnosis, treatment, and curing of life-threatening illnesses",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    },
+    {
+      "id": "INC16A-FUNC-DHS-TERRORISM",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "function_label": "terrorism_prevention_and_security",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-118",
+      "source_excerpt": "prevents terrorism and enhances security",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    },
+    {
+      "id": "INC16A-FUNC-DHS-BORDERS",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "function_label": "border_management",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-118",
+      "source_excerpt": "manages the Nation’s borders",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    },
+    {
+      "id": "INC16A-FUNC-DHS-IMMIGRATION",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "function_label": "immigration_law_administration",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-118",
+      "source_excerpt": "administers immigration laws",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    },
+    {
+      "id": "INC16A-FUNC-DHS-CYBER",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "function_label": "cyberspace_security",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-118",
+      "source_excerpt": "safeguards cyberspace",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    },
+    {
+      "id": "INC16A-FUNC-DHS-RESILIENCE",
+      "institution_id": "ORG-FED-EXE-DEP-DHS",
+      "function_label": "disaster_resilience",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "source_observation_id": "INC15D-OBS-118",
+      "source_excerpt": "ensures resilience in the wake of disaster",
+      "claim_type": "publisher_mission_mentions_function",
+      "verified_execution": false,
+      "assigned_office_id": null,
+      "exclusive_mandate_asserted": false,
+      "legal_delegation_inferred": false,
+      "public_outcome_evidenced": false
+    }
+  ],
+  "relationship_type_registry": [
+    {
+      "type": "statutory_conditional_disclosure_to",
+      "direction": "specified",
+      "qualified_as": "reported_codified_statutory_duty_not_observed_disclosure",
+      "atlas_category_candidate": "context",
+      "implies_command": false,
+      "implies_actual_operation": false
+    },
+    {
+      "type": "statutory_interagency_agreement_collaboration",
+      "direction": "hhs_secretary_toward_named_collaborator",
+      "qualified_as": "reported_codified_collaboration_duty_not_signed_agreement",
+      "atlas_category_candidate": "context",
+      "implies_command": false,
+      "implies_actual_operation": false
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "INC16A-IF-HHS-TO-DHS-DECLARED",
+      "from_id": "ORG-FED-EXE-DEP-HHS",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "statutory_conditional_disclosure_to",
+      "condition": "public_health_emergency_declared_under_42_USC_247d_a",
+      "source_id": "INC16A-SRC-USC-6-467",
+      "official_locator": "6 U.S.C. 467(b)(2)",
+      "source_excerpt": "shall keep relevant agencies, including the Department of Homeland Security",
+      "interpretation_limit": "Secretary HHS must keep relevant agencies including DHS informed; source does not prove specific notices occurred.",
+      "claimed_direction": "HHS_to_DHS",
+      "actual_notice_verified": false,
+      "signed_agreement_verified": false,
+      "operational_control_transfer_verified": false,
+      "legal_review_complete": false,
+      "public_graph_admitted": false
+    },
+    {
+      "id": "INC16A-IF-DHS-TO-HHS-POTENTIAL",
+      "from_id": "ORG-FED-EXE-DEP-DHS",
+      "to_id": "ORG-FED-EXE-DEP-HHS",
+      "relationship_type": "statutory_conditional_disclosure_to",
+      "condition": "potential_public_health_emergency_no_hhs_declaration_under_42_USC_247d_a",
+      "source_id": "INC16A-SRC-USC-6-467",
+      "official_locator": "6 U.S.C. 467(b)(3)",
+      "source_excerpt": "all relevant agencies, including the Department of Homeland Security",
+      "interpretation_limit": "DHS is expressly named among relevant agencies which must keep the HHS Secretary and CDC Director informed; other recipients not collapsed to HHS agency.",
+      "claimed_direction": "DHS_to_HHS",
+      "actual_notice_verified": false,
+      "signed_agreement_verified": false,
+      "operational_control_transfer_verified": false,
+      "legal_review_complete": false,
+      "public_graph_admitted": false
+    },
+    {
+      "id": "INC16A-IF-HHS-DHS-AGREEMENT-DUTY",
+      "from_id": "ORG-FED-EXE-DEP-HHS",
+      "to_id": "ORG-FED-EXE-DEP-DHS",
+      "relationship_type": "statutory_interagency_agreement_collaboration",
+      "condition": "establish_emergency_response_interagency_agreement_consistent_with_successor_plan",
+      "source_id": "INC16A-SRC-USC-42-300HH",
+      "official_locator": "42 U.S.C. 300hh(b)",
+      "source_excerpt": "in collaboration with the Secretary of Veterans Affairs, the Secretary of Transportation, the Secretary of Defense, the Secretary of Homeland Security",
+      "interpretation_limit": "Duty to establish an agreement in collaboration with named Secretaries, not evidence of a signed or activated agreement, actual operations, or transfer of command.",
+      "claimed_direction": "HHS_to_DHS_required_collaboration",
+      "actual_notice_verified": false,
+      "signed_agreement_verified": false,
+      "operational_control_transfer_verified": false,
+      "legal_review_complete": false,
+      "public_graph_admitted": false
+    }
+  ],
+  "authority_boundaries": [
+    {
+      "id": "INC16A-BOUNDARY-DOD-MILITARY-COMMAND",
+      "source_id": "INC16A-SRC-USC-42-300HH",
+      "official_locator": "42 U.S.C. 300hh(b) exception",
+      "existing_institution_id": "ORG-FED-EXE-DEP-DEFENSE",
+      "source_excerpt": "remain under the command and control of the Secretary of Defense",
+      "boundary_kind": "military_command_retained_by_defense",
+      "hhs_command_over_defense_assets_inferred": false,
+      "legally_certified_operational_event": false
+    },
+    {
+      "id": "INC16A-BOUNDARY-NO-MISSION-DERIVED-POWER",
+      "source_id": "INC16A-SRC-GOVMAN-2025",
+      "official_locator": "INC15D-OBS-117 and INC15D-OBS-118 publisher mission statements",
+      "existing_institution_id": "ORG-FED-EXE-DEP-HHS",
+      "source_excerpt": null,
+      "boundary_kind": "mission_text_not_delegation_or_interagency_implementation",
+      "hhs_command_over_defense_assets_inferred": false,
+      "legally_certified_operational_event": false
+    }
+  ],
+  "viewpoints": [
+    {
+      "id": "VIEW-INC16A-HHS-MISSIONS",
+      "root_ids": [
+        "ORG-FED-EXE-DEP-HHS"
+      ],
+      "included_edge_types": [
+        "publisher_mission_mentions_function"
+      ],
+      "qualification_display": "source_edition_and_unratified_status_required",
+      "atlas_admitted": false
+    },
+    {
+      "id": "VIEW-INC16A-DHS-MISSIONS",
+      "root_ids": [
+        "ORG-FED-EXE-DEP-DHS"
+      ],
+      "included_edge_types": [
+        "publisher_mission_mentions_function"
+      ],
+      "qualification_display": "source_edition_and_unratified_status_required",
+      "atlas_admitted": false
+    },
+    {
+      "id": "VIEW-INC16A-HHS-DHS-DIRECTED",
+      "root_ids": [
+        "ORG-FED-EXE-DEP-HHS",
+        "ORG-FED-EXE-DEP-DHS"
+      ],
+      "included_edge_types": [
+        "statutory_conditional_disclosure_to",
+        "statutory_interagency_agreement_collaboration"
+      ],
+      "qualification_display": "show_condition_statute_source_custody_legal_review_and_non_execution",
+      "atlas_admitted": false
+    }
+  ]
+}

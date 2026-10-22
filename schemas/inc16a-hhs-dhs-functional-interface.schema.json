@@ -1,0 +1,535 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-16A HHS-DHS dated mission clauses, conditional statutory interfaces and no-promotion guards",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "release_status",
+    "edition_scope",
+    "legal_first_level_denominator",
+    "independent_legal_review_complete",
+    "all_source_originals_retained",
+    "new_canonical_institution_ids",
+    "website_atlas_admitted",
+    "policy_recommendations_created",
+    "sources",
+    "canonical_links",
+    "functions",
+    "relationship_type_registry",
+    "interfaces",
+    "authority_boundaries",
+    "viewpoints"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc16a-hhs-dhs-functional-interface"
+    },
+    "release_status": {
+      "const": "research_baseline_unratified"
+    },
+    "edition_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "legal_first_level_denominator": {
+      "type": "null"
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "all_source_originals_retained": {
+      "const": false
+    },
+    "new_canonical_institution_ids": {
+      "const": 0
+    },
+    "website_atlas_admitted": {
+      "const": false
+    },
+    "policy_recommendations_created": {
+      "const": false
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/sources"
+      }
+    },
+    "canonical_links": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "$ref": "#/$defs/canonical_links"
+      }
+    },
+    "functions": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {
+        "$ref": "#/$defs/functions"
+      }
+    },
+    "relationship_type_registry": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "$ref": "#/$defs/relationship_type_registry"
+      }
+    },
+    "interfaces": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/interfaces"
+      }
+    },
+    "authority_boundaries": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "$ref": "#/$defs/authority_boundaries"
+      }
+    },
+    "viewpoints": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/viewpoints"
+      }
+    }
+  },
+  "$defs": {
+    "sources": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_kind",
+        "publisher",
+        "official_url",
+        "source_edition",
+        "original_repo_path",
+        "original_sha256",
+        "original_bytes_retained",
+        "verified_scope",
+        "legally_certified_current"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(INC16A-|VIEW-INC16A-)"
+        },
+        "source_kind": {
+          "enum": [
+            "official_government_manual_original",
+            "official_us_code_online_text"
+          ]
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_url": {
+          "type": "string",
+          "pattern": "^https://(www\\.govinfo\\.gov|uscode\\.house\\.gov)/"
+        },
+        "source_edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_repo_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_sha256": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          ]
+        },
+        "original_bytes_retained": {
+          "type": "boolean"
+        },
+        "verified_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legally_certified_current": {
+          "const": false
+        }
+      }
+    },
+    "canonical_links": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_local_id",
+        "source_observation_id",
+        "existing_canonical_id",
+        "existing_x12_id",
+        "identity_status",
+        "source_id",
+        "independent_identity_review_complete"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(INC16A-|VIEW-INC16A-)"
+        },
+        "source_local_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_observation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "existing_canonical_id": {
+          "enum": [
+            "ORG-FED-EXE-DEP-HHS",
+            "ORG-FED-EXE-DEP-DHS"
+          ]
+        },
+        "existing_x12_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identity_status": {
+          "const": "provisional_explicit_source_name_or_alias"
+        },
+        "source_id": {
+          "enum": [
+            "INC16A-SRC-GOVMAN-2025",
+            "INC16A-SRC-USC-6-467",
+            "INC16A-SRC-USC-42-300HH"
+          ]
+        },
+        "independent_identity_review_complete": {
+          "const": false
+        }
+      }
+    },
+    "functions": {
+      "type": "object",
+      "required": [
+        "id",
+        "institution_id",
+        "function_label",
+        "source_id",
+        "source_observation_id",
+        "source_excerpt",
+        "claim_type",
+        "verified_execution",
+        "assigned_office_id",
+        "exclusive_mandate_asserted",
+        "legal_delegation_inferred",
+        "public_outcome_evidenced"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(INC16A-|VIEW-INC16A-)"
+        },
+        "institution_id": {
+          "enum": [
+            "ORG-FED-EXE-DEP-HHS",
+            "ORG-FED-EXE-DEP-DHS"
+          ]
+        },
+        "function_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "enum": [
+            "INC16A-SRC-GOVMAN-2025",
+            "INC16A-SRC-USC-6-467",
+            "INC16A-SRC-USC-42-300HH"
+          ]
+        },
+        "source_observation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_excerpt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_type": {
+          "const": "publisher_mission_mentions_function"
+        },
+        "verified_execution": {
+          "const": false
+        },
+        "assigned_office_id": {
+          "type": "null"
+        },
+        "exclusive_mandate_asserted": {
+          "const": false
+        },
+        "legal_delegation_inferred": {
+          "const": false
+        },
+        "public_outcome_evidenced": {
+          "const": false
+        }
+      }
+    },
+    "relationship_type_registry": {
+      "type": "object",
+      "required": [
+        "type",
+        "direction",
+        "qualified_as",
+        "atlas_category_candidate",
+        "implies_command",
+        "implies_actual_operation"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "statutory_conditional_disclosure_to",
+            "statutory_interagency_agreement_collaboration"
+          ]
+        },
+        "direction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualified_as": {
+          "type": "string",
+          "minLength": 1
+        },
+        "atlas_category_candidate": {
+          "type": "string",
+          "minLength": 1
+        },
+        "implies_command": {
+          "const": false
+        },
+        "implies_actual_operation": {
+          "const": false
+        }
+      }
+    },
+    "interfaces": {
+      "type": "object",
+      "required": [
+        "id",
+        "from_id",
+        "to_id",
+        "relationship_type",
+        "condition",
+        "source_id",
+        "official_locator",
+        "source_excerpt",
+        "interpretation_limit",
+        "claimed_direction",
+        "actual_notice_verified",
+        "signed_agreement_verified",
+        "operational_control_transfer_verified",
+        "legal_review_complete",
+        "public_graph_admitted"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(INC16A-|VIEW-INC16A-)"
+        },
+        "from_id": {
+          "enum": [
+            "ORG-FED-EXE-DEP-HHS",
+            "ORG-FED-EXE-DEP-DHS"
+          ]
+        },
+        "to_id": {
+          "enum": [
+            "ORG-FED-EXE-DEP-HHS",
+            "ORG-FED-EXE-DEP-DHS"
+          ]
+        },
+        "relationship_type": {
+          "enum": [
+            "statutory_conditional_disclosure_to",
+            "statutory_interagency_agreement_collaboration"
+          ]
+        },
+        "condition": {
+          "enum": [
+            "public_health_emergency_declared_under_42_USC_247d_a",
+            "potential_public_health_emergency_no_hhs_declaration_under_42_USC_247d_a",
+            "establish_emergency_response_interagency_agreement_consistent_with_successor_plan"
+          ]
+        },
+        "source_id": {
+          "enum": [
+            "INC16A-SRC-GOVMAN-2025",
+            "INC16A-SRC-USC-6-467",
+            "INC16A-SRC-USC-42-300HH"
+          ]
+        },
+        "official_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_excerpt": {
+          "type": "string",
+          "minLength": 12,
+          "maxLength": 300
+        },
+        "interpretation_limit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claimed_direction": {
+          "enum": [
+            "HHS_to_DHS",
+            "DHS_to_HHS",
+            "HHS_to_DHS_required_collaboration"
+          ]
+        },
+        "actual_notice_verified": {
+          "const": false
+        },
+        "signed_agreement_verified": {
+          "const": false
+        },
+        "operational_control_transfer_verified": {
+          "const": false
+        },
+        "legal_review_complete": {
+          "const": false
+        },
+        "public_graph_admitted": {
+          "const": false
+        }
+      }
+    },
+    "authority_boundaries": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_id",
+        "official_locator",
+        "existing_institution_id",
+        "source_excerpt",
+        "boundary_kind",
+        "hhs_command_over_defense_assets_inferred",
+        "legally_certified_operational_event"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(INC16A-|VIEW-INC16A-)"
+        },
+        "source_id": {
+          "enum": [
+            "INC16A-SRC-GOVMAN-2025",
+            "INC16A-SRC-USC-6-467",
+            "INC16A-SRC-USC-42-300HH"
+          ]
+        },
+        "official_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "existing_institution_id": {
+          "enum": [
+            "ORG-FED-EXE-DEP-DEFENSE",
+            "ORG-FED-EXE-DEP-HHS"
+          ]
+        },
+        "source_excerpt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "boundary_kind": {
+          "enum": [
+            "military_command_retained_by_defense",
+            "mission_text_not_delegation_or_interagency_implementation"
+          ]
+        },
+        "hhs_command_over_defense_assets_inferred": {
+          "const": false
+        },
+        "legally_certified_operational_event": {
+          "const": false
+        }
+      }
+    },
+    "viewpoints": {
+      "type": "object",
+      "required": [
+        "id",
+        "root_ids",
+        "included_edge_types",
+        "qualification_display",
+        "atlas_admitted"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(INC16A-|VIEW-INC16A-)"
+        },
+        "root_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "ORG-FED-EXE-DEP-HHS",
+              "ORG-FED-EXE-DEP-DHS"
+            ]
+          }
+        },
+        "included_edge_types": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "publisher_mission_mentions_function",
+              "statutory_conditional_disclosure_to",
+              "statutory_interagency_agreement_collaboration"
+            ]
+          }
+        },
+        "qualification_display": {
+          "type": "string",
+          "minLength": 1
+        },
+        "atlas_admitted": {
+          "const": false
+        }
+      }
+    }
+  }
+}
