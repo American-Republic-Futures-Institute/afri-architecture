@@ -78,6 +78,10 @@ jobs:
         run: python3 scripts/inc15d6-govman-reconcile.py
       - name: Reject INC-15D.6 false Education federal agency status, legal command, fiscal attribution, 2026 web custody, or Atlas admission
         run: python3 -m unittest discover -s tests -p 'test_inc15d6_reconciliation.py' -v
+      - name: Verify INC-15D.7 original independent-agency category and 15 of 15 source-only identities
+        run: python3 scripts/inc15d7-govman-reconcile.py
+      - name: Reject INC-15D.7 unqualified successor, Federal Reserve Board equivalence, legal authority, currentness and Atlas assertions
+        run: python3 -m unittest discover -s tests -p 'test_inc15d7_reconciliation.py' -v
       - name: Validate INC-15C.4 historical HHS 11-to-29 bounded publisher edition overlap
         run: node scripts/validate-inc15c4.mjs
       - name: Test INC-15C.4 immutable source pins, CMS naming variant, IG protection and no invented HHS legal hierarchy
