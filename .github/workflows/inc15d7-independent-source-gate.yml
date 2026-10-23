@@ -1,0 +1,41 @@
+name: INC-15D.7 immutable independent publisher source and identity gate
+on:
+  push:
+    branches:
+      - feat/inc15d7-independent-first15-source-reconciliation
+  pull_request:
+    paths:
+      - "model/federal/inc15d7-*.json"
+      - "model/federal/manifest.json"
+      - "docs/inc15d7-independent-corporation-breadth.md"
+      - "schemas/inc15d7-*.json"
+      - "scripts/inc15d7-govman-reconcile.py"
+      - "tests/test_inc15d7_reconciliation.py"
+      - ".github/workflows/inc15d7-independent-source-gate.yml"
+permissions:
+  contents: read
+jobs:
+  publisher-identity-dispositions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Reverify original retained Government Manual publisher XML and 231/50/181 source register
+        run: python3 scripts/inc15d-govman-directory.py
+      - name: Preserve prior 28 Interior Labor Transportation original source dispositions
+        run: python3 scripts/inc15d5-govman-reconcile.py
+      - name: Preserve prior 15 Commerce/Education records and corporation-grouping boundaries
+        run: python3 scripts/inc15d6-govman-reconcile.py
+      - name: Reconcile fifteen unlinked top-level independent publisher entries and preserve 62/17/45 category
+        run: python3 scripts/inc15d7-govman-reconcile.py
+      - name: Adversarial denial tests for historical successor and Federal Reserve Board conflation
+        run: python3 -m unittest discover -s tests -p 'test_inc15d7_reconciliation.py' -v
+      - name: Preserve existing GovMan, Cabinet breadth and federal census tests
+        run: python3 -m unittest discover -s tests -p 'test_inc15d6_reconciliation.py' -v
+      - name: Preserve existing immutable official original and architecture catalog constraints
+        run: node scripts/validate-inc15.mjs
+      - name: Preserve core canonical architecture and model manifest
+        run: node scripts/validate.mjs

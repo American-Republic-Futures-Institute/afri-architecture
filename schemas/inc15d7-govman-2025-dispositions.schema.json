@@ -1,0 +1,387 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15D.7 inc15d7-independent-publisher-dispositions original-source closed qualification",
+  "description": "Only Government Manual 2025 source-observed publisher entries. Explicitly forbids creating new federal legal institutions, successor aliases, Board of Governors equivalence, fiscal/command/delegated powers or Atlas relationships.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "publisher_edition",
+    "publisher_date",
+    "publisher_original_sha256",
+    "publisher_original_git_blob_sha1",
+    "publisher_original_repository_path",
+    "publisher_category",
+    "publisher_total_entries",
+    "publisher_independent_category_entries",
+    "publisher_independent_category_prior_provisional_canonical_links",
+    "publisher_independent_category_unlinked_entries",
+    "whole_edition_prior_provisional_canonical_links",
+    "whole_edition_prior_unlinked_entries",
+    "present_day_federal_legal_institution_denominator",
+    "independent_legal_review_complete",
+    "external_worm_original_certified",
+    "new_canonical_institution_ids",
+    "legally_confirmed_source_to_canonical_matches",
+    "legally_established_official_successor_identifications",
+    "certified_institutional_subtype_assignments",
+    "legal_or_operational_authorities_established",
+    "atlas_edges_admitted",
+    "plan_or_data_observatory_changed",
+    "model_family",
+    "selected_unlinked_edition_entries",
+    "source_dispositions_accounted",
+    "ordinary_source_only_organizational_candidates",
+    "historical_name_successor_unverified",
+    "system_level_not_board_of_governors_identity",
+    "remaining_unlinked_publisher_category_entries",
+    "historical_publisher_entry_disposition_is_canonical_match",
+    "system_and_governing_board_are_identity_equivalent",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "publisher_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "publisher_date": {
+      "const": "2025-12-31"
+    },
+    "publisher_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "publisher_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "publisher_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "publisher_category": {
+      "const": "Executive Branch: Independent Agencies and Government Corporations"
+    },
+    "publisher_total_entries": {
+      "const": 231
+    },
+    "publisher_independent_category_entries": {
+      "const": 62
+    },
+    "publisher_independent_category_prior_provisional_canonical_links": {
+      "const": 17
+    },
+    "publisher_independent_category_unlinked_entries": {
+      "const": 45
+    },
+    "whole_edition_prior_provisional_canonical_links": {
+      "const": 50
+    },
+    "whole_edition_prior_unlinked_entries": {
+      "const": 181
+    },
+    "present_day_federal_legal_institution_denominator": {
+      "const": null
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "external_worm_original_certified": {
+      "const": false
+    },
+    "new_canonical_institution_ids": {
+      "const": 0
+    },
+    "legally_confirmed_source_to_canonical_matches": {
+      "const": 0
+    },
+    "legally_established_official_successor_identifications": {
+      "const": 0
+    },
+    "certified_institutional_subtype_assignments": {
+      "const": 0
+    },
+    "legal_or_operational_authorities_established": {
+      "const": 0
+    },
+    "atlas_edges_admitted": {
+      "const": 0
+    },
+    "plan_or_data_observatory_changed": {
+      "const": false
+    },
+    "model_family": {
+      "const": "inc15d7-independent-publisher-dispositions"
+    },
+    "selected_unlinked_edition_entries": {
+      "const": 15
+    },
+    "source_dispositions_accounted": {
+      "const": 15
+    },
+    "ordinary_source_only_organizational_candidates": {
+      "const": 13
+    },
+    "historical_name_successor_unverified": {
+      "const": 1
+    },
+    "system_level_not_board_of_governors_identity": {
+      "const": 1
+    },
+    "remaining_unlinked_publisher_category_entries": {
+      "const": 30
+    },
+    "historical_publisher_entry_disposition_is_canonical_match": {
+      "const": false
+    },
+    "system_and_governing_board_are_identity_equivalent": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_entity_key",
+          "source_entity_local_id",
+          "publisher_edition",
+          "published_name",
+          "publisher_category",
+          "publisher_category_scope",
+          "publisher_element_tag",
+          "published_parent_key",
+          "publisher_depth",
+          "published_order",
+          "publisher_original_xpath",
+          "publisher_original_sha256",
+          "publisher_original_git_blob_sha1",
+          "directory_grouping_not_entity_legal_classification",
+          "disposition",
+          "disposition_rationale",
+          "publisher_mission_text_present",
+          "publisher_mission_text_not_legal_authority",
+          "existing_canonical_id",
+          "unverified_alias_candidate_id",
+          "historical_name_current_successor_unverified",
+          "composite_federal_reserve_system_not_board_of_governors",
+          "legal_agency_or_corporation_subtype_certified",
+          "current_organization_2026_verified",
+          "legal_identity_certified",
+          "statutory_original_independently_captured_for_this_entity",
+          "appropriation_or_fiscal_authority_verified",
+          "oversight_or_reporting_chain_verified",
+          "legal_delegation_or_command_verified",
+          "actual_statutory_action_observed",
+          "adl1_certified",
+          "independent_legal_review_complete",
+          "external_worm_custody_certified",
+          "atlas_graph_admitted",
+          "plan_or_observatory_inference_created"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "INC15D7-DISP-127",
+              "INC15D7-DISP-132",
+              "INC15D7-DISP-133",
+              "INC15D7-DISP-134",
+              "INC15D7-DISP-136",
+              "INC15D7-DISP-137",
+              "INC15D7-DISP-138",
+              "INC15D7-DISP-141",
+              "INC15D7-DISP-142",
+              "INC15D7-DISP-143",
+              "INC15D7-DISP-144",
+              "INC15D7-DISP-145",
+              "INC15D7-DISP-146",
+              "INC15D7-DISP-147",
+              "INC15D7-DISP-321"
+            ]
+          },
+          "source_entity_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:127",
+              "GOVMAN-2025-12-31:132",
+              "GOVMAN-2025-12-31:133",
+              "GOVMAN-2025-12-31:134",
+              "GOVMAN-2025-12-31:136",
+              "GOVMAN-2025-12-31:137",
+              "GOVMAN-2025-12-31:138",
+              "GOVMAN-2025-12-31:141",
+              "GOVMAN-2025-12-31:142",
+              "GOVMAN-2025-12-31:143",
+              "GOVMAN-2025-12-31:144",
+              "GOVMAN-2025-12-31:145",
+              "GOVMAN-2025-12-31:146",
+              "GOVMAN-2025-12-31:147",
+              "GOVMAN-2025-12-31:321"
+            ]
+          },
+          "source_entity_local_id": {
+            "enum": [
+              "127",
+              "132",
+              "133",
+              "134",
+              "136",
+              "137",
+              "138",
+              "141",
+              "142",
+              "143",
+              "144",
+              "145",
+              "146",
+              "147",
+              "321"
+            ]
+          },
+          "publisher_edition": {
+            "const": "GOVMAN-2025-12-31"
+          },
+          "published_name": {
+            "enum": [
+              "Administrative Conference of the United States",
+              "Consumer Financial Protection Bureau",
+              "Consumer Product Safety Commission",
+              "Corporation for National and Community Service",
+              "Defense Nuclear Facilities Safety Board",
+              "Equal Employment Opportunity Commission",
+              "Export-Import Bank of the United States",
+              "Farm Credit Administration",
+              "Federal Election Commission",
+              "Federal Housing Finance Agency",
+              "Federal Labor Relations Authority",
+              "Federal Maritime Commission",
+              "Federal Mediation and Conciliation Service",
+              "Federal Mine Safety and Health Review Commission",
+              "Federal Reserve System"
+            ]
+          },
+          "publisher_category": {
+            "const": "Executive Branch: Independent Agencies and Government Corporations"
+          },
+          "publisher_category_scope": {
+            "const": "independent_publisher"
+          },
+          "publisher_element_tag": {
+            "const": "Entity"
+          },
+          "published_parent_key": {
+            "const": null
+          },
+          "publisher_depth": {
+            "const": 0
+          },
+          "published_order": {
+            "type": "integer",
+            "minimum": 32,
+            "maximum": 51
+          },
+          "publisher_original_xpath": {
+            "enum": [
+              "/GovernmentManual/Entity[@EntityId='127']",
+              "/GovernmentManual/Entity[@EntityId='132']",
+              "/GovernmentManual/Entity[@EntityId='133']",
+              "/GovernmentManual/Entity[@EntityId='134']",
+              "/GovernmentManual/Entity[@EntityId='136']",
+              "/GovernmentManual/Entity[@EntityId='137']",
+              "/GovernmentManual/Entity[@EntityId='138']",
+              "/GovernmentManual/Entity[@EntityId='141']",
+              "/GovernmentManual/Entity[@EntityId='142']",
+              "/GovernmentManual/Entity[@EntityId='143']",
+              "/GovernmentManual/Entity[@EntityId='144']",
+              "/GovernmentManual/Entity[@EntityId='145']",
+              "/GovernmentManual/Entity[@EntityId='146']",
+              "/GovernmentManual/Entity[@EntityId='147']",
+              "/GovernmentManual/Entity[@EntityId='321']"
+            ]
+          },
+          "publisher_original_sha256": {
+            "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+          },
+          "publisher_original_git_blob_sha1": {
+            "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+          },
+          "directory_grouping_not_entity_legal_classification": {
+            "const": true
+          },
+          "disposition": {
+            "enum": [
+              "historically_named_publisher_observation_successor_identity_unverified",
+              "publisher_composite_system_scope_not_board_identity",
+              "source_only_institutional_candidate_pending_statutory_confirmation"
+            ]
+          },
+          "disposition_rationale": {
+            "enum": [
+              "Edition-local Corporation for National and Community Service label: possible later naming or successor is not independently verified or inferred.",
+              "Federal Reserve System is the edition-local publisher's system-level label, not a verified equivalence to its Board of Governors or a singular supervisory institution.",
+              "Named top-level entry from the 2025 publisher directory; its legal form, powers, current-day existence, oversight, and independent canonical identity remain unqualified."
+            ]
+          },
+          "publisher_mission_text_present": {
+            "const": true
+          },
+          "publisher_mission_text_not_legal_authority": {
+            "const": true
+          },
+          "existing_canonical_id": {
+            "const": null
+          },
+          "unverified_alias_candidate_id": {
+            "const": null
+          },
+          "historical_name_current_successor_unverified": {
+            "type": "boolean"
+          },
+          "composite_federal_reserve_system_not_board_of_governors": {
+            "type": "boolean"
+          },
+          "legal_agency_or_corporation_subtype_certified": {
+            "const": false
+          },
+          "current_organization_2026_verified": {
+            "const": false
+          },
+          "legal_identity_certified": {
+            "const": false
+          },
+          "statutory_original_independently_captured_for_this_entity": {
+            "const": false
+          },
+          "appropriation_or_fiscal_authority_verified": {
+            "const": false
+          },
+          "oversight_or_reporting_chain_verified": {
+            "const": false
+          },
+          "legal_delegation_or_command_verified": {
+            "const": false
+          },
+          "actual_statutory_action_observed": {
+            "const": false
+          },
+          "adl1_certified": {
+            "const": false
+          },
+          "independent_legal_review_complete": {
+            "const": false
+          },
+          "external_worm_custody_certified": {
+            "const": false
+          },
+          "atlas_graph_admitted": {
+            "const": false
+          },
+          "plan_or_observatory_inference_created": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
