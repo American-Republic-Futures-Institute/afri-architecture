@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.9 2025 GovInfo publisher original coverage strict source-disposition qualification",
+  "description": "This publisher-edition-only model does not certify 2026 legal identity, OPIC succession, USAID institution status, federal agency subtype, corporate fiscal ownership, statutory oversight, agent command, Atlas publication or national agency completeness.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "publisher_edition",
+    "publisher_publication_date",
+    "publisher_original_sha256",
+    "publisher_original_git_blob_sha1",
+    "publisher_original_repository_path",
+    "original_publisher_entries",
+    "original_provisional_canonical_links",
+    "original_entries_without_canonical_link",
+    "publisher_independent_category_entries",
+    "publisher_independent_category_provisional_links",
+    "publisher_independent_category_unlinked_entries",
+    "present_day_legal_federal_organization_denominator",
+    "whole_current_government_census_established",
+    "newly_qualified_canonical_component_ids",
+    "new_legal_identity_or_successor_certifications",
+    "new_signed_delegation_supervision_or_fiscal_edges",
+    "independent_worm_custody_original_verified",
+    "atlas_public_graph_changes",
+    "plan_or_data_observatory_changes",
+    "independent_category_original_source_unlinked_entries",
+    "source_only_entries_with_individual_dispositions",
+    "source_only_entries_outstanding",
+    "independently_qualified_identity_crosswalks_created",
+    "existing_17_provisional_canonical_links_modified",
+    "external_original_statutes_for_15_records_admitted",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d9-independent-publisher-coverage"
+    },
+    "publisher_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "publisher_publication_date": {
+      "const": "2025-12-31"
+    },
+    "publisher_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "publisher_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "publisher_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "original_publisher_entries": {
+      "const": 231
+    },
+    "original_provisional_canonical_links": {
+      "const": 50
+    },
+    "original_entries_without_canonical_link": {
+      "const": 181
+    },
+    "publisher_independent_category_entries": {
+      "const": 62
+    },
+    "publisher_independent_category_provisional_links": {
+      "const": 17
+    },
+    "publisher_independent_category_unlinked_entries": {
+      "const": 45
+    },
+    "present_day_legal_federal_organization_denominator": {
+      "const": null
+    },
+    "whole_current_government_census_established": {
+      "const": false
+    },
+    "newly_qualified_canonical_component_ids": {
+      "const": 0
+    },
+    "new_legal_identity_or_successor_certifications": {
+      "const": 0
+    },
+    "new_signed_delegation_supervision_or_fiscal_edges": {
+      "const": 0
+    },
+    "independent_worm_custody_original_verified": {
+      "const": false
+    },
+    "atlas_public_graph_changes": {
+      "const": 0
+    },
+    "plan_or_data_observatory_changes": {
+      "const": false
+    },
+    "independent_category_original_source_unlinked_entries": {
+      "const": 45
+    },
+    "source_only_entries_with_individual_dispositions": {
+      "const": 45
+    },
+    "source_only_entries_outstanding": {
+      "const": 0
+    },
+    "independently_qualified_identity_crosswalks_created": {
+      "const": 0
+    },
+    "existing_17_provisional_canonical_links_modified": {
+      "const": 0
+    },
+    "external_original_statutes_for_15_records_admitted": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "publisher_independent_source_entries",
+          "previous_canonical_name_links",
+          "historically_unlinked_independent_source_entries",
+          "INC15D7_source_only_entries",
+          "INC15D8_source_only_entries",
+          "INC15D9_source_only_entries",
+          "all_three_source_only_entries_accounted",
+          "still_unlinked_to_canonical_in_category",
+          "unlinked_source_entries_without_source_disposition",
+          "original_source_only_tranches_are_disjoint",
+          "newly_legally_qualified_canonical_ids",
+          "verified_source_successors_or_aliases",
+          "operational_2026_continuity_asserted",
+          "source_entry_count_equals_verified_agency_count",
+          "legal_subtype_or_delegation_claims_made",
+          "atlas_published_edges"
+        ],
+        "properties": {
+          "id": {
+            "const": "INC15D9-COV-45-OF-45"
+          },
+          "publisher_independent_source_entries": {
+            "const": 62
+          },
+          "previous_canonical_name_links": {
+            "const": 17
+          },
+          "historically_unlinked_independent_source_entries": {
+            "const": 45
+          },
+          "INC15D7_source_only_entries": {
+            "const": 15
+          },
+          "INC15D8_source_only_entries": {
+            "const": 15
+          },
+          "INC15D9_source_only_entries": {
+            "const": 15
+          },
+          "all_three_source_only_entries_accounted": {
+            "const": 45
+          },
+          "still_unlinked_to_canonical_in_category": {
+            "const": 45
+          },
+          "unlinked_source_entries_without_source_disposition": {
+            "const": 0
+          },
+          "original_source_only_tranches_are_disjoint": {
+            "const": true
+          },
+          "newly_legally_qualified_canonical_ids": {
+            "const": 0
+          },
+          "verified_source_successors_or_aliases": {
+            "const": 0
+          },
+          "operational_2026_continuity_asserted": {
+            "const": false
+          },
+          "source_entry_count_equals_verified_agency_count": {
+            "const": false
+          },
+          "legal_subtype_or_delegation_claims_made": {
+            "const": false
+          },
+          "atlas_published_edges": {
+            "const": 0
+          }
+        }
+      }
+    }
+  }
+}
