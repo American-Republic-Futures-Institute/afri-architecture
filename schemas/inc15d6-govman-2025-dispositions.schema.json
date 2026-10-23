@@ -1,0 +1,424 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.6 inc15d6-govman-2025-dispositions closed research contract",
+  "description": "Source-original edition-local publisher records only; Education federally aided corporations heading is not legally qualified federal agency or command. Includes anti-ADL, nonpublication and fiscal/legal limitations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_package_id",
+    "source_publication_date",
+    "source_original_sha256",
+    "source_original_git_blob_sha1",
+    "source_original_repository_path",
+    "whole_edition_publisher_entries",
+    "existing_provisional_canonical_links",
+    "existing_unlinked_source_entries",
+    "current_first_level_institution_denominator",
+    "whole_federal_legal_institution_denominator",
+    "independent_legal_review_complete",
+    "independent_worm_custody_verified",
+    "canonical_component_identities_minted",
+    "legally_certified_subordinate_components",
+    "observed_command_delegations",
+    "new_atlas_relationships",
+    "selected_source_entries",
+    "dispositions_accounted",
+    "commerce_first_level_source_candidates",
+    "education_directory_grouping_count",
+    "education_affiliated_entries_legal_status_unresolved",
+    "prior_noncanonical_research_seeds",
+    "prior_exact_named_2026_web_matches_without_original_custody",
+    "prior_original_2025_granule_detail_refs",
+    "uncertified_alias_name_variants",
+    "fiscal_or_command_relation_established",
+    "education_aided_corporations_are_department_offices",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d6-govman-2025-dispositions"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "source_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "whole_edition_publisher_entries": {
+      "const": 231
+    },
+    "existing_provisional_canonical_links": {
+      "const": 50
+    },
+    "existing_unlinked_source_entries": {
+      "const": 181
+    },
+    "current_first_level_institution_denominator": {
+      "const": null
+    },
+    "whole_federal_legal_institution_denominator": {
+      "const": null
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "independent_worm_custody_verified": {
+      "const": false
+    },
+    "canonical_component_identities_minted": {
+      "const": 0
+    },
+    "legally_certified_subordinate_components": {
+      "const": 0
+    },
+    "observed_command_delegations": {
+      "const": 0
+    },
+    "new_atlas_relationships": {
+      "const": 0
+    },
+    "selected_source_entries": {
+      "const": 15
+    },
+    "dispositions_accounted": {
+      "const": 15
+    },
+    "commerce_first_level_source_candidates": {
+      "const": 10
+    },
+    "education_directory_grouping_count": {
+      "const": 1
+    },
+    "education_affiliated_entries_legal_status_unresolved": {
+      "const": 4
+    },
+    "prior_noncanonical_research_seeds": {
+      "const": 2
+    },
+    "prior_exact_named_2026_web_matches_without_original_custody": {
+      "const": 8
+    },
+    "prior_original_2025_granule_detail_refs": {
+      "const": 2
+    },
+    "uncertified_alias_name_variants": {
+      "const": 1
+    },
+    "fiscal_or_command_relation_established": {
+      "const": false
+    },
+    "education_aided_corporations_are_department_offices": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_entity_key",
+          "publisher_local_id",
+          "publisher_edition",
+          "published_name",
+          "published_parent_key",
+          "canonical_department_anchor_id",
+          "department_publisher_root_key",
+          "canonical_component_id",
+          "publisher_hierarchy_level",
+          "publisher_element_tag",
+          "publisher_sort_order",
+          "publisher_original_xpath",
+          "source_original_sha256",
+          "source_original_git_blob_sha1",
+          "disposition",
+          "disposition_rationale",
+          "prior_seed_id",
+          "prior_exact_2026_commerce_source_unit_id",
+          "prior_exact_2026_commerce_source_snapshot_id",
+          "prior_2026_commerce_source_original_bytes_retained",
+          "prior_govinfo_research_granule_id",
+          "prior_govinfo_details_page_url",
+          "unqualified_name_variant_candidate",
+          "publisher_combined_label_not_split_to_federal_agencies",
+          "identity_reconciliation_state",
+          "publisher_parentage_does_not_establish_legal_supervision",
+          "affiliated_entries_not_certified_as_US_federal_agencies",
+          "2026_current_legal_organization_verified",
+          "specific_legal_identity_certified",
+          "statutory_delegation_certified",
+          "budget_or_fiscal_control_certified",
+          "command_relationship_verified",
+          "independent_legal_review_complete",
+          "adl1_certified",
+          "atlas_graph_admitted",
+          "plan_or_observatory_inference_created"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "INC15D6-DISP-259",
+              "INC15D6-DISP-260",
+              "INC15D6-DISP-261",
+              "INC15D6-DISP-262",
+              "INC15D6-DISP-263",
+              "INC15D6-DISP-264",
+              "INC15D6-DISP-265",
+              "INC15D6-DISP-266",
+              "INC15D6-DISP-267",
+              "INC15D6-DISP-268",
+              "INC15D6-DISP-269",
+              "INC15D6-DISP-270",
+              "INC15D6-DISP-271",
+              "INC15D6-DISP-272",
+              "INC15D6-DISP-274"
+            ]
+          },
+          "source_entity_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:259",
+              "GOVMAN-2025-12-31:260",
+              "GOVMAN-2025-12-31:261",
+              "GOVMAN-2025-12-31:262",
+              "GOVMAN-2025-12-31:263",
+              "GOVMAN-2025-12-31:264",
+              "GOVMAN-2025-12-31:265",
+              "GOVMAN-2025-12-31:266",
+              "GOVMAN-2025-12-31:267",
+              "GOVMAN-2025-12-31:268",
+              "GOVMAN-2025-12-31:269",
+              "GOVMAN-2025-12-31:270",
+              "GOVMAN-2025-12-31:271",
+              "GOVMAN-2025-12-31:272",
+              "GOVMAN-2025-12-31:274"
+            ]
+          },
+          "publisher_local_id": {
+            "enum": [
+              "259",
+              "260",
+              "261",
+              "262",
+              "263",
+              "264",
+              "265",
+              "266",
+              "267",
+              "268",
+              "269",
+              "270",
+              "271",
+              "272",
+              "274"
+            ]
+          },
+          "publisher_edition": {
+            "const": "GOVMAN-2025-12-31"
+          },
+          "published_name": {
+            "enum": [
+              "American Printing House for the Blind",
+              "Bureau of Industry and Security",
+              "Economic Development Administration",
+              "Economics and Statistics Administration",
+              "Federally Aided Corporations",
+              "Gallaudet University",
+              "Howard University",
+              "International Trade Administration",
+              "Minority Business Development Agency",
+              "National Institute of Standards and Technology",
+              "National Oceanic and Atmospheric Administration",
+              "National Technical Information Service",
+              "National Technical Institute for the Deaf / Rochester Institute of Technology",
+              "National Telecommunications and Information Administration",
+              "United States Patent and Trademark Office"
+            ]
+          },
+          "published_parent_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:113",
+              "GOVMAN-2025-12-31:115",
+              "GOVMAN-2025-12-31:269"
+            ]
+          },
+          "canonical_department_anchor_id": {
+            "enum": [
+              "ORG-FED-EXE-DEP-COMMERCE",
+              "ORG-FED-EXE-DEP-EDUCATION"
+            ]
+          },
+          "department_publisher_root_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:113",
+              "GOVMAN-2025-12-31:115"
+            ]
+          },
+          "canonical_component_id": {
+            "const": null
+          },
+          "publisher_hierarchy_level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2
+          },
+          "publisher_element_tag": {
+            "enum": [
+              "SubEntityLevelOne",
+              "SubEntityLevelTwo"
+            ]
+          },
+          "publisher_sort_order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "publisher_original_xpath": {
+            "enum": [
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='259']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='260']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='261']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='262']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='263']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='264']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='265']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='266']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='267']",
+              "/GovernmentManual/Entity[@EntityId='113']/Childrens/SubEntityLevelOne[@EntityId='268']",
+              "/GovernmentManual/Entity[@EntityId='115']/Childrens/SubEntityLevelOne[@EntityId='269']",
+              "/GovernmentManual/Entity[@EntityId='115']/Childrens/SubEntityLevelOne[@EntityId='269']/Childrens/SubEntityLevelTwo[@EntityId='270']",
+              "/GovernmentManual/Entity[@EntityId='115']/Childrens/SubEntityLevelOne[@EntityId='269']/Childrens/SubEntityLevelTwo[@EntityId='271']",
+              "/GovernmentManual/Entity[@EntityId='115']/Childrens/SubEntityLevelOne[@EntityId='269']/Childrens/SubEntityLevelTwo[@EntityId='272']",
+              "/GovernmentManual/Entity[@EntityId='115']/Childrens/SubEntityLevelOne[@EntityId='269']/Childrens/SubEntityLevelTwo[@EntityId='274']"
+            ]
+          },
+          "source_original_sha256": {
+            "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+          },
+          "source_original_git_blob_sha1": {
+            "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+          },
+          "disposition": {
+            "enum": [
+              "noninstitutional_publisher_grouping_not_federal_agency",
+              "publisher_affiliated_entry_legal_classification_unresolved",
+              "source_only_institutional_candidate_pending_statutory_confirmation"
+            ]
+          },
+          "disposition_rationale": {
+            "enum": [
+              "2025 Government Manual publisher component lacking an exact-name 2026 Commerce model counterpart; no legal identity or present-day status inferred.",
+              "Exact-source-title reference to a preexisting expansion seed and a dated Commerce model; neither is an independently established canonical identity or a legal power.",
+              "Exact-title reference in a separate dated Commerce webpage source model; mutable webpage original bytes and legal identity have not been independently verified.",
+              "Publisher entry beneath Federally Aided Corporations; directory placement alone cannot certify this entry as a federal agency or department-controlled organization.",
+              "Publisher's Federally Aided Corporations grouping is a directory header, not a certified federal office, corporate ownership assertion, or command relationship."
+            ]
+          },
+          "prior_seed_id": {
+            "enum": [
+              "EXP-SEED-COMMERCE-NIST",
+              "EXP-SEED-COMMERCE-NOAA",
+              null
+            ]
+          },
+          "prior_exact_2026_commerce_source_unit_id": {
+            "enum": [
+              "DEPT04-UNIT-COMMERCE-BIS",
+              "DEPT04-UNIT-COMMERCE-EDA",
+              "DEPT04-UNIT-COMMERCE-ITA",
+              "DEPT04-UNIT-COMMERCE-MBDA",
+              "DEPT04-UNIT-COMMERCE-NIST",
+              "DEPT04-UNIT-COMMERCE-NOAA",
+              "DEPT04-UNIT-COMMERCE-NTIA",
+              "DEPT04-UNIT-COMMERCE-NTIS",
+              null
+            ]
+          },
+          "prior_exact_2026_commerce_source_snapshot_id": {
+            "enum": [
+              "DEPT04-SNAPSHOT-COMMERCE",
+              null
+            ]
+          },
+          "prior_2026_commerce_source_original_bytes_retained": {
+            "const": false
+          },
+          "prior_govinfo_research_granule_id": {
+            "enum": [
+              "DEPT04-XW-EXP-SEED-COMMERCE-NIST",
+              "DEPT04-XW-EXP-SEED-COMMERCE-NOAA",
+              null
+            ]
+          },
+          "prior_govinfo_details_page_url": {
+            "enum": [
+              "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31/GOVMAN-2025-12-31-264",
+              "https://www.govinfo.gov/app/details/GOVMAN-2025-12-31/GOVMAN-2025-12-31-266",
+              null
+            ]
+          },
+          "unqualified_name_variant_candidate": {
+            "enum": [
+              "DEPT04-UNIT-COMMERCE-USPTO",
+              null
+            ]
+          },
+          "publisher_combined_label_not_split_to_federal_agencies": {
+            "type": "boolean"
+          },
+          "identity_reconciliation_state": {
+            "const": "edition_local_source_only_no_legal_canonical_match"
+          },
+          "publisher_parentage_does_not_establish_legal_supervision": {
+            "const": true
+          },
+          "affiliated_entries_not_certified_as_US_federal_agencies": {
+            "const": true
+          },
+          "2026_current_legal_organization_verified": {
+            "const": false
+          },
+          "specific_legal_identity_certified": {
+            "const": false
+          },
+          "statutory_delegation_certified": {
+            "const": false
+          },
+          "budget_or_fiscal_control_certified": {
+            "const": false
+          },
+          "command_relationship_verified": {
+            "const": false
+          },
+          "independent_legal_review_complete": {
+            "const": false
+          },
+          "adl1_certified": {
+            "const": false
+          },
+          "atlas_graph_admitted": {
+            "const": false
+          },
+          "plan_or_observatory_inference_created": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

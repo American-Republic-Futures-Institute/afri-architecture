@@ -1,0 +1,41 @@
+name: INC-15D.6 Commerce-Education original publisher source gate
+on:
+  push:
+    branches:
+      - feat/inc15d6-commerce-education-publisher-dispositions
+  pull_request:
+    paths:
+      - "model/federal/inc15d6-*.json"
+      - "model/federal/manifest.json"
+      - "docs/inc15d6-commerce-education-breadth.md"
+      - "schemas/inc15d6-*.json"
+      - "scripts/inc15d6-govman-reconcile.py"
+      - "tests/test_inc15d6_reconciliation.py"
+      - ".github/workflows/inc15d6-cabinet-source-gate.yml"
+permissions:
+  contents: read
+jobs:
+  original-source-hierarchy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Preserve original 8 MB publisher XML and full 231-entry source/50-link reconciliation
+        run: python3 scripts/inc15d-govman-directory.py
+      - name: Preserve all 28 earlier Interior/Labor/Transportation noncanonical publisher dispositions
+        run: python3 scripts/inc15d5-govman-reconcile.py
+      - name: Reconcile exactly 15 Commerce/Education publisher records and preserve Education nested groupings
+        run: python3 scripts/inc15d6-govman-reconcile.py
+      - name: Reject forged federal status, publisher nesting, prior-source custody, legal command, fiscal attribution and Atlas promotion
+        run: python3 -m unittest discover -s tests -p 'test_inc15d6_reconciliation.py' -v
+      - name: Verify baseline prior INC-15D.5 negative regressions
+        run: python3 -m unittest discover -s tests -p 'test_inc15d5_reconciliation.py' -v
+      - name: Preserve full prior original GovMan XML closed schemas and link census
+        run: python3 -m unittest discover -s tests -p 'test_inc15d_directory.py' -v
+      - name: Preserve federal original source custody and first-level denominator safeguards
+        run: node scripts/validate-inc15.mjs
+      - name: Preserve canonical architecture and manifest declaration integrity
+        run: node scripts/validate.mjs

@@ -325,7 +325,10 @@
     "model/federal/inc16/inc16a-hhs-dhs-functional-interface.json",
     "model/federal/inc15d5-govman-2025-curation.json",
     "model/federal/inc15d5-govman-2025-dispositions.json",
-    "model/federal/inc15d5-govman-2025-coverage.json"
+    "model/federal/inc15d5-govman-2025-coverage.json",
+    "model/federal/inc15d6-govman-2025-curation.json",
+    "model/federal/inc15d6-govman-2025-dispositions.json",
+    "model/federal/inc15d6-govman-2025-coverage.json"
   ],
   "standards": [
     {
@@ -1383,5 +1386,25 @@
     "publisher_entry_count_is_legal_denominator": false,
     "website_atlas_published": false,
     "policy_recommendations_created": false
+  },
+  "federal_institutional_breadth_15d6_extension": {
+    "source_edition": "GOVMAN-2025-12-31",
+    "original_source_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+    "curation_model_path": "model/federal/inc15d6-govman-2025-curation.json",
+    "disposition_model_path": "model/federal/inc15d6-govman-2025-dispositions.json",
+    "coverage_model_path": "model/federal/inc15d6-govman-2025-coverage.json",
+    "publisher_entries_selected": 15,
+    "publisher_entries_accounted": 15,
+    "commerce_first_level_publisher_entries": 10,
+    "education_publisher_grouping_records": 1,
+    "education_publisher_affiliated_entries": 4,
+    "prior_exact_2026_commerce_web_references": 8,
+    "prior_2026_commerce_original_bytes_retained": false,
+    "new_canonical_component_ids": 0,
+    "legal_identity_and_authority_certified": false,
+    "current_first_level_institution_denominator": null,
+    "publisher_entry_population_equals_federal_agency_census": false,
+    "website_atlas_graph_admitted": false,
+    "plan_or_data_observatory_changed": false
   }
 }

@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.6 inc15d6-govman-2025-coverage closed research contract",
+  "description": "Source-original edition-local publisher records only; Education federally aided corporations heading is not legally qualified federal agency or command. Includes anti-ADL, nonpublication and fiscal/legal limitations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_package_id",
+    "source_publication_date",
+    "source_original_sha256",
+    "source_original_git_blob_sha1",
+    "source_original_repository_path",
+    "whole_edition_publisher_entries",
+    "existing_provisional_canonical_links",
+    "existing_unlinked_source_entries",
+    "current_first_level_institution_denominator",
+    "whole_federal_legal_institution_denominator",
+    "independent_legal_review_complete",
+    "independent_worm_custody_verified",
+    "canonical_component_identities_minted",
+    "legally_certified_subordinate_components",
+    "observed_command_delegations",
+    "new_atlas_relationships",
+    "departments_count",
+    "selected_publisher_entries",
+    "accounted_publisher_entries",
+    "unaccounted_selected_entries",
+    "commerce_observations",
+    "education_publisher_heading_observations",
+    "education_publisher_affiliate_observations",
+    "publisher_grouping_or_affiliate_observations_not_canonical_agencies",
+    "previous_unlinked_181_entries_reclassified_as_canonical",
+    "previous_50_canonical_name_links_modified",
+    "previous_28_INC15D5_curation_records_modified",
+    "current_legal_organizational_denominator_is_known",
+    "earlier_2026_commerce_web_source_original_retained",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d6-govman-2025-coverage"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "source_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "whole_edition_publisher_entries": {
+      "const": 231
+    },
+    "existing_provisional_canonical_links": {
+      "const": 50
+    },
+    "existing_unlinked_source_entries": {
+      "const": 181
+    },
+    "current_first_level_institution_denominator": {
+      "const": null
+    },
+    "whole_federal_legal_institution_denominator": {
+      "const": null
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "independent_worm_custody_verified": {
+      "const": false
+    },
+    "canonical_component_identities_minted": {
+      "const": 0
+    },
+    "legally_certified_subordinate_components": {
+      "const": 0
+    },
+    "observed_command_delegations": {
+      "const": 0
+    },
+    "new_atlas_relationships": {
+      "const": 0
+    },
+    "departments_count": {
+      "const": 2
+    },
+    "selected_publisher_entries": {
+      "const": 15
+    },
+    "accounted_publisher_entries": {
+      "const": 15
+    },
+    "unaccounted_selected_entries": {
+      "const": 0
+    },
+    "commerce_observations": {
+      "const": 10
+    },
+    "education_publisher_heading_observations": {
+      "const": 1
+    },
+    "education_publisher_affiliate_observations": {
+      "const": 4
+    },
+    "publisher_grouping_or_affiliate_observations_not_canonical_agencies": {
+      "const": 5
+    },
+    "previous_unlinked_181_entries_reclassified_as_canonical": {
+      "const": 0
+    },
+    "previous_50_canonical_name_links_modified": {
+      "const": 0
+    },
+    "previous_28_INC15D5_curation_records_modified": {
+      "const": 0
+    },
+    "current_legal_organizational_denominator_is_known": {
+      "const": false
+    },
+    "earlier_2026_commerce_web_source_original_retained": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "publisher_department_root_key",
+          "department_canonical_anchor_id",
+          "root_publisher_name",
+          "publisher_full_subtree_count",
+          "existing_canonical_root_links",
+          "publisher_selected_unlinked_records",
+          "publisher_entries_accounted",
+          "commerce_first_level_source_only_candidates",
+          "education_directory_grouping_records",
+          "education_affiliate_legal_identity_unresolved_records",
+          "prior_expansion_research_seed_overlaps",
+          "prior_exact_dated_commerce_web_unit_refs",
+          "prior_verified_GovInfo_granule_refs",
+          "unreviewed_source_name_variants",
+          "canonical_component_matches",
+          "independent_legal_component_certifications",
+          "new_atlas_relationships",
+          "independently_verified_direct_command_edges",
+          "publisher_subtree_is_verified_federal_institution_inventory"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "INC15D6-COV-113",
+              "INC15D6-COV-115"
+            ]
+          },
+          "publisher_department_root_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:113",
+              "GOVMAN-2025-12-31:115"
+            ]
+          },
+          "department_canonical_anchor_id": {
+            "enum": [
+              "ORG-FED-EXE-DEP-COMMERCE",
+              "ORG-FED-EXE-DEP-EDUCATION"
+            ]
+          },
+          "root_publisher_name": {
+            "enum": [
+              "Department of Commerce",
+              "Department of Education"
+            ]
+          },
+          "publisher_full_subtree_count": {
+            "type": "integer",
+            "minimum": 6,
+            "maximum": 11
+          },
+          "existing_canonical_root_links": {
+            "const": 1
+          },
+          "publisher_selected_unlinked_records": {
+            "type": "integer",
+            "minimum": 5,
+            "maximum": 10
+          },
+          "publisher_entries_accounted": {
+            "type": "integer",
+            "minimum": 5,
+            "maximum": 10
+          },
+          "commerce_first_level_source_only_candidates": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "education_directory_grouping_records": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "education_affiliate_legal_identity_unresolved_records": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4
+          },
+          "prior_expansion_research_seed_overlaps": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "prior_exact_dated_commerce_web_unit_refs": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 8
+          },
+          "prior_verified_GovInfo_granule_refs": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "unreviewed_source_name_variants": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "canonical_component_matches": {
+            "const": 0
+          },
+          "independent_legal_component_certifications": {
+            "const": 0
+          },
+          "new_atlas_relationships": {
+            "const": 0
+          },
+          "independently_verified_direct_command_edges": {
+            "const": 0
+          },
+          "publisher_subtree_is_verified_federal_institution_inventory": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
