@@ -1,0 +1,255 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.9 2025 GovInfo publisher original publisherwide-disposition-coverage strict source-disposition qualification",
+  "description": "This publisher-edition-only model does not certify 2026 legal identity, OPIC succession, USAID institution status, federal agency subtype, corporate fiscal ownership, statutory oversight, agent command, Atlas publication or national agency completeness.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "publisher_edition",
+    "publisher_publication_date",
+    "publisher_original_sha256",
+    "publisher_original_git_blob_sha1",
+    "publisher_original_repository_path",
+    "original_publisher_entries",
+    "original_provisional_canonical_links",
+    "original_entries_without_canonical_link",
+    "publisher_independent_category_entries",
+    "publisher_independent_category_provisional_links",
+    "publisher_independent_category_unlinked_entries",
+    "present_day_legal_federal_organization_denominator",
+    "whole_current_government_census_established",
+    "newly_qualified_canonical_component_ids",
+    "new_legal_identity_or_successor_certifications",
+    "new_signed_delegation_supervision_or_fiscal_edges",
+    "independent_worm_custody_original_verified",
+    "atlas_public_graph_changes",
+    "plan_or_data_observatory_changes",
+    "publisher_category_partition_count",
+    "source_scope",
+    "publisher_observations",
+    "historical_provisional_canonical_name_links",
+    "still_unlinked_publisher_observations",
+    "unlinked_entries_with_explicit_source_only_disposition",
+    "unlinked_entries_without_source_only_disposition",
+    "source_only_research_observation_is_legally_verified_identity",
+    "source_only_entries_with_disposition_from_INC15D5",
+    "source_only_entries_with_disposition_from_INC15D6",
+    "source_only_entries_with_disposition_from_INC15D7",
+    "source_only_entries_with_disposition_from_INC15D8",
+    "source_only_entries_with_disposition_from_INC15D9",
+    "current_2026_agency_population_verified",
+    "legal_authority_census_completed",
+    "current_status_of_preexisting_50_provisional_links_reassessed_in_this_increment",
+    "new_qualifying_legal_source_custody_for_unlinked_entries",
+    "new_public_Atlas_admissions",
+    "newly_independently_measured_public_service_outcome_links",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d9-publisherwide-source-disposition-coverage"
+    },
+    "publisher_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "publisher_publication_date": {
+      "const": "2025-12-31"
+    },
+    "publisher_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "publisher_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "publisher_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "original_publisher_entries": {
+      "const": 231
+    },
+    "original_provisional_canonical_links": {
+      "const": 50
+    },
+    "original_entries_without_canonical_link": {
+      "const": 181
+    },
+    "publisher_independent_category_entries": {
+      "const": 62
+    },
+    "publisher_independent_category_provisional_links": {
+      "const": 17
+    },
+    "publisher_independent_category_unlinked_entries": {
+      "const": 45
+    },
+    "present_day_legal_federal_organization_denominator": {
+      "const": null
+    },
+    "whole_current_government_census_established": {
+      "const": false
+    },
+    "newly_qualified_canonical_component_ids": {
+      "const": 0
+    },
+    "new_legal_identity_or_successor_certifications": {
+      "const": 0
+    },
+    "new_signed_delegation_supervision_or_fiscal_edges": {
+      "const": 0
+    },
+    "independent_worm_custody_original_verified": {
+      "const": false
+    },
+    "atlas_public_graph_changes": {
+      "const": 0
+    },
+    "plan_or_data_observatory_changes": {
+      "const": false
+    },
+    "publisher_category_partition_count": {
+      "const": 7
+    },
+    "source_scope": {
+      "const": "original_2025_publisher_directory_not_government_legal_census"
+    },
+    "publisher_observations": {
+      "const": 231
+    },
+    "historical_provisional_canonical_name_links": {
+      "const": 50
+    },
+    "still_unlinked_publisher_observations": {
+      "const": 181
+    },
+    "unlinked_entries_with_explicit_source_only_disposition": {
+      "const": 88
+    },
+    "unlinked_entries_without_source_only_disposition": {
+      "const": 93
+    },
+    "source_only_research_observation_is_legally_verified_identity": {
+      "const": false
+    },
+    "source_only_entries_with_disposition_from_INC15D5": {
+      "const": 28
+    },
+    "source_only_entries_with_disposition_from_INC15D6": {
+      "const": 15
+    },
+    "source_only_entries_with_disposition_from_INC15D7": {
+      "const": 15
+    },
+    "source_only_entries_with_disposition_from_INC15D8": {
+      "const": 15
+    },
+    "source_only_entries_with_disposition_from_INC15D9": {
+      "const": 15
+    },
+    "current_2026_agency_population_verified": {
+      "const": false
+    },
+    "legal_authority_census_completed": {
+      "const": false
+    },
+    "current_status_of_preexisting_50_provisional_links_reassessed_in_this_increment": {
+      "const": false
+    },
+    "new_qualifying_legal_source_custody_for_unlinked_entries": {
+      "const": 0
+    },
+    "new_public_Atlas_admissions": {
+      "const": 0
+    },
+    "newly_independently_measured_public_service_outcome_links": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "original_publisher_category",
+          "original_publisher_entries",
+          "prior_provisional_canonical_name_links",
+          "unlinked_source_only_entries_with_disposition",
+          "unlinked_entries_without_disposition",
+          "total_unlinked_entries",
+          "legally_certified_federal_entity_denominator",
+          "canonical_link_is_full_legal_identity_certification",
+          "source_disposition_is_canonical_identity_match",
+          "publisher_category_is_current_US_government_population"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "INC15D9-PUB-COV-01",
+              "INC15D9-PUB-COV-02",
+              "INC15D9-PUB-COV-03",
+              "INC15D9-PUB-COV-04",
+              "INC15D9-PUB-COV-05",
+              "INC15D9-PUB-COV-06",
+              "INC15D9-PUB-COV-07"
+            ]
+          },
+          "original_publisher_category": {
+            "enum": [
+              "Executive Branch: Departments",
+              "Executive Branch: Independent Agencies and Government Corporations",
+              "Executive Branch: The President",
+              "International Organizations",
+              "Judicial Branch",
+              "Legislative Branch",
+              "Quasi-Official Agencies"
+            ]
+          },
+          "original_publisher_entries": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 117
+          },
+          "prior_provisional_canonical_name_links": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 17
+          },
+          "unlinked_source_only_entries_with_disposition": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 45
+          },
+          "unlinked_entries_without_disposition": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 59
+          },
+          "total_unlinked_entries": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 102
+          },
+          "legally_certified_federal_entity_denominator": {
+            "const": null
+          },
+          "canonical_link_is_full_legal_identity_certification": {
+            "const": false
+          },
+          "source_disposition_is_canonical_identity_match": {
+            "const": false
+          },
+          "publisher_category_is_current_US_government_population": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
