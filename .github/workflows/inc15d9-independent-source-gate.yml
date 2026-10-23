@@ -1,0 +1,45 @@
+name: INC-15D.9 final independent publisher and all-category source evidence gate
+on:
+  push:
+    branches:
+      - feat/inc15d9-final15-independent-publisher-dispositions
+  pull_request:
+    paths:
+      - "model/federal/inc15d9-*.json"
+      - "model/federal/manifest.json"
+      - "docs/inc15d9-independent-final-source-dispositions.md"
+      - "schemas/inc15d9-*.json"
+      - "scripts/inc15d9-govman-reconcile.py"
+      - "tests/test_inc15d9_reconciliation.py"
+      - ".github/workflows/inc15d9-independent-source-gate.yml"
+permissions:
+  contents: read
+jobs:
+  original-publisher-source-custody:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify retained 8.1MB original GovInfo XML and 231 original source entries
+        run: python3 scripts/inc15d-govman-directory.py
+      - name: Preserve 28 Interior Labor Transportation Cabinet source dispositions
+        run: python3 scripts/inc15d5-govman-reconcile.py
+      - name: Preserve 15 Commerce Education including nonagency affiliated category
+        run: python3 scripts/inc15d6-govman-reconcile.py
+      - name: Preserve first independent 15 and Federal Reserve System vs Board of Governors
+        run: python3 scripts/inc15d7-govman-reconcile.py
+      - name: Preserve next independent 15 and Arts Foundation and Amtrak distinct evidence
+        run: python3 scripts/inc15d8-govman-reconcile.py
+      - name: Replay final independent 15 and verify original seven-category 231=50+88+93 disjointness
+        run: python3 scripts/inc15d9-govman-reconcile.py
+      - name: Reject OPIC alias invention USAID 2026 status and legal fiscal command or Atlas promotion
+        run: python3 -m unittest discover -s tests -p 'test_inc15d9_reconciliation.py' -v
+      - name: Preserve inherited independent publisher identity regression tests
+        run: python3 -m unittest discover -s tests -p 'test_inc15d8_reconciliation.py' -v
+      - name: Preserve federal original legal evidence and census constraints
+        run: node scripts/validate-inc15.mjs
+      - name: Preserve canonical architecture manifest and relationship validators
+        run: node scripts/validate.mjs
