@@ -331,7 +331,10 @@
     "model/federal/inc15d6-govman-2025-coverage.json",
     "model/federal/inc15d7-govman-2025-curation.json",
     "model/federal/inc15d7-govman-2025-dispositions.json",
-    "model/federal/inc15d7-govman-2025-coverage.json"
+    "model/federal/inc15d7-govman-2025-coverage.json",
+    "model/federal/inc15d8-govman-2025-curation.json",
+    "model/federal/inc15d8-govman-2025-dispositions.json",
+    "model/federal/inc15d8-govman-2025-coverage.json"
   ],
   "standards": [
     {
@@ -1427,6 +1430,27 @@
     "current_legal_institution_denominator": null,
     "publisher_category_is_certified_federal_agency_census": false,
     "atlas_graph_admitted": false,
+    "plan_or_data_observatory_changed": false
+  },
+  "federal_institutional_breadth_15d8_extension": {
+    "source_edition": "GOVMAN-2025-12-31",
+    "original_source_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+    "curation_path": "model/federal/inc15d8-govman-2025-curation.json",
+    "dispositions_path": "model/federal/inc15d8-govman-2025-dispositions.json",
+    "coverage_path": "model/federal/inc15d8-govman-2025-coverage.json",
+    "prior_unlinked_category_count": 45,
+    "publisher_entries_selected_and_accounted": 15,
+    "top_level_publisher_entities": 12,
+    "foundation_grouping_entries": 1,
+    "nested_foundation_publisher_components": 3,
+    "named_corporation_amtrak_entries": 1,
+    "new_canonical_identity_links": 0,
+    "qualified_statutory_subtype_count": 0,
+    "independent_legal_review_complete": false,
+    "remaining_unlinked_publisher_category_outside_two_tranches": 15,
+    "current_federal_legal_institution_denominator": null,
+    "publisher_nesting_equated_to_legal_authority": false,
+    "atlas_graph_admission": false,
     "plan_or_data_observatory_changed": false
   }
 }
