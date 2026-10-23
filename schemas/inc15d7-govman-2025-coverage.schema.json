@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15D.7 inc15d7-independent-publisher-coverage original-source closed qualification",
+  "description": "Only Government Manual 2025 source-observed publisher entries. Explicitly forbids creating new federal legal institutions, successor aliases, Board of Governors equivalence, fiscal/command/delegated powers or Atlas relationships.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "publisher_edition",
+    "publisher_date",
+    "publisher_original_sha256",
+    "publisher_original_git_blob_sha1",
+    "publisher_original_repository_path",
+    "publisher_category",
+    "publisher_total_entries",
+    "publisher_independent_category_entries",
+    "publisher_independent_category_prior_provisional_canonical_links",
+    "publisher_independent_category_unlinked_entries",
+    "whole_edition_prior_provisional_canonical_links",
+    "whole_edition_prior_unlinked_entries",
+    "present_day_federal_legal_institution_denominator",
+    "independent_legal_review_complete",
+    "external_worm_original_certified",
+    "new_canonical_institution_ids",
+    "legally_confirmed_source_to_canonical_matches",
+    "legally_established_official_successor_identifications",
+    "certified_institutional_subtype_assignments",
+    "legal_or_operational_authorities_established",
+    "atlas_edges_admitted",
+    "plan_or_data_observatory_changed",
+    "model_family",
+    "selected_publisher_entries",
+    "selected_entries_accounted",
+    "unaccounted_selected_entries",
+    "publisher_source_category_remaining_unlinked",
+    "earlier_28_INC15D5_dispositions_preserved",
+    "earlier_15_INC15D6_dispositions_preserved",
+    "earlier_50_canonical_links_changed",
+    "earlier_181_unlinked_entries_reclassified_as_canonical",
+    "publisher_whole_edition_crosswalk_changed",
+    "federal_reserve_system_auto_mapped_to_board",
+    "historical_corporation_name_auto_mapped_to_successor",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "publisher_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "publisher_date": {
+      "const": "2025-12-31"
+    },
+    "publisher_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "publisher_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "publisher_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "publisher_category": {
+      "const": "Executive Branch: Independent Agencies and Government Corporations"
+    },
+    "publisher_total_entries": {
+      "const": 231
+    },
+    "publisher_independent_category_entries": {
+      "const": 62
+    },
+    "publisher_independent_category_prior_provisional_canonical_links": {
+      "const": 17
+    },
+    "publisher_independent_category_unlinked_entries": {
+      "const": 45
+    },
+    "whole_edition_prior_provisional_canonical_links": {
+      "const": 50
+    },
+    "whole_edition_prior_unlinked_entries": {
+      "const": 181
+    },
+    "present_day_federal_legal_institution_denominator": {
+      "const": null
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "external_worm_original_certified": {
+      "const": false
+    },
+    "new_canonical_institution_ids": {
+      "const": 0
+    },
+    "legally_confirmed_source_to_canonical_matches": {
+      "const": 0
+    },
+    "legally_established_official_successor_identifications": {
+      "const": 0
+    },
+    "certified_institutional_subtype_assignments": {
+      "const": 0
+    },
+    "legal_or_operational_authorities_established": {
+      "const": 0
+    },
+    "atlas_edges_admitted": {
+      "const": 0
+    },
+    "plan_or_data_observatory_changed": {
+      "const": false
+    },
+    "model_family": {
+      "const": "inc15d7-independent-publisher-coverage"
+    },
+    "selected_publisher_entries": {
+      "const": 15
+    },
+    "selected_entries_accounted": {
+      "const": 15
+    },
+    "unaccounted_selected_entries": {
+      "const": 0
+    },
+    "publisher_source_category_remaining_unlinked": {
+      "const": 30
+    },
+    "earlier_28_INC15D5_dispositions_preserved": {
+      "const": 28
+    },
+    "earlier_15_INC15D6_dispositions_preserved": {
+      "const": 15
+    },
+    "earlier_50_canonical_links_changed": {
+      "const": 0
+    },
+    "earlier_181_unlinked_entries_reclassified_as_canonical": {
+      "const": 0
+    },
+    "publisher_whole_edition_crosswalk_changed": {
+      "const": false
+    },
+    "federal_reserve_system_auto_mapped_to_board": {
+      "const": false
+    },
+    "historical_corporation_name_auto_mapped_to_successor": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "publisher_category",
+          "publisher_category_entries",
+          "existing_publisher_source_to_canonical_provisional_links",
+          "publisher_category_entries_unlinked_to_canonical",
+          "selected_first_15_unlinked_top_level_publisher_entries",
+          "publisher_entries_accounted_for",
+          "category_unlinked_entries_outside_this_tranche",
+          "ordinary_source_only_organizational_candidates",
+          "historical_name_with_unverified_successor",
+          "composite_system_not_equivalent_to_board",
+          "new_canonical_identity_matches",
+          "publisher_source_entries_newly_linked_to_canonical",
+          "independently_verified_2026_entity_status",
+          "legal_subtype_or_statutory_authority_certified",
+          "operational_action_or_fiscal_reporting_certified",
+          "atlas_publication_count",
+          "publisher_counts_not_federal_legal_institution_denominator",
+          "current_law_or_organization_status_independently_certified"
+        ],
+        "properties": {
+          "id": {
+            "const": "INC15D7-COV-INDEPENDENT-001"
+          },
+          "publisher_category": {
+            "const": "Executive Branch: Independent Agencies and Government Corporations"
+          },
+          "publisher_category_entries": {
+            "const": 62
+          },
+          "existing_publisher_source_to_canonical_provisional_links": {
+            "const": 17
+          },
+          "publisher_category_entries_unlinked_to_canonical": {
+            "const": 45
+          },
+          "selected_first_15_unlinked_top_level_publisher_entries": {
+            "const": 15
+          },
+          "publisher_entries_accounted_for": {
+            "const": 15
+          },
+          "category_unlinked_entries_outside_this_tranche": {
+            "const": 30
+          },
+          "ordinary_source_only_organizational_candidates": {
+            "const": 13
+          },
+          "historical_name_with_unverified_successor": {
+            "const": 1
+          },
+          "composite_system_not_equivalent_to_board": {
+            "const": 1
+          },
+          "new_canonical_identity_matches": {
+            "const": 0
+          },
+          "publisher_source_entries_newly_linked_to_canonical": {
+            "const": 0
+          },
+          "independently_verified_2026_entity_status": {
+            "const": 0
+          },
+          "legal_subtype_or_statutory_authority_certified": {
+            "const": 0
+          },
+          "operational_action_or_fiscal_reporting_certified": {
+            "const": 0
+          },
+          "atlas_publication_count": {
+            "const": 0
+          },
+          "publisher_counts_not_federal_legal_institution_denominator": {
+            "const": true
+          },
+          "current_law_or_organization_status_independently_certified": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
