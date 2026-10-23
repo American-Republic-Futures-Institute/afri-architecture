@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.8 original-publisher coverage source-only qualification",
+  "description": "Closed 2025 Government Manual publisher-evidence model; preserves 157/208-210 Arts/Foundation nesting and disallows assigning Amtrak corporate/government status, command, oversight, legal parentage, ownership or fiscal powers without separate source custody.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "source_edition",
+    "source_publication_date",
+    "source_original_sha256",
+    "source_original_git_blob_sha1",
+    "source_original_repository_path",
+    "publisher_source_category",
+    "whole_edition_source_entries",
+    "whole_edition_provisional_canonical_links",
+    "whole_edition_unlinked_source_entries",
+    "independent_category_source_entries",
+    "independent_category_provisional_canonical_links",
+    "independent_category_unlinked_source_entries",
+    "current_federal_legal_institution_denominator",
+    "independent_statutory_legal_review_complete",
+    "independent_external_worm_certification",
+    "new_canonical_institution_ids",
+    "new_independently_certified_legal_identities",
+    "new_typed_authority_or_supervision_edges",
+    "atlas_graph_relationships_admitted",
+    "plan_or_data_observatory_changed",
+    "model_family",
+    "targeted_source_entries",
+    "source_observations_accounted_for",
+    "unaccounted_source_records",
+    "prior_28_15D5_dispositions_unchanged",
+    "prior_15_15D6_dispositions_unchanged",
+    "prior_15_15D7_dispositions_unchanged",
+    "cumulative_independent_category_research_dispositions",
+    "source_only_unlinked_entries_outside_two_tranches",
+    "prior_50_whole_edition_canonical_matches_changed",
+    "prior_181_whole_edition_unlinked_records_recategorized_as_canonical",
+    "publisher_disposition_does_not_qualify_current_legal_structure",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "source_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "source_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "publisher_source_category": {
+      "const": "Executive Branch: Independent Agencies and Government Corporations"
+    },
+    "whole_edition_source_entries": {
+      "const": 231
+    },
+    "whole_edition_provisional_canonical_links": {
+      "const": 50
+    },
+    "whole_edition_unlinked_source_entries": {
+      "const": 181
+    },
+    "independent_category_source_entries": {
+      "const": 62
+    },
+    "independent_category_provisional_canonical_links": {
+      "const": 17
+    },
+    "independent_category_unlinked_source_entries": {
+      "const": 45
+    },
+    "current_federal_legal_institution_denominator": {
+      "const": null
+    },
+    "independent_statutory_legal_review_complete": {
+      "const": false
+    },
+    "independent_external_worm_certification": {
+      "const": false
+    },
+    "new_canonical_institution_ids": {
+      "const": 0
+    },
+    "new_independently_certified_legal_identities": {
+      "const": 0
+    },
+    "new_typed_authority_or_supervision_edges": {
+      "const": 0
+    },
+    "atlas_graph_relationships_admitted": {
+      "const": 0
+    },
+    "plan_or_data_observatory_changed": {
+      "const": false
+    },
+    "model_family": {
+      "const": "inc15d8-independent-publisher-coverage"
+    },
+    "targeted_source_entries": {
+      "const": 15
+    },
+    "source_observations_accounted_for": {
+      "const": 15
+    },
+    "unaccounted_source_records": {
+      "const": 0
+    },
+    "prior_28_15D5_dispositions_unchanged": {
+      "const": 28
+    },
+    "prior_15_15D6_dispositions_unchanged": {
+      "const": 15
+    },
+    "prior_15_15D7_dispositions_unchanged": {
+      "const": 15
+    },
+    "cumulative_independent_category_research_dispositions": {
+      "const": 30
+    },
+    "source_only_unlinked_entries_outside_two_tranches": {
+      "const": 15
+    },
+    "prior_50_whole_edition_canonical_matches_changed": {
+      "const": 0
+    },
+    "prior_181_whole_edition_unlinked_records_recategorized_as_canonical": {
+      "const": 0
+    },
+    "publisher_disposition_does_not_qualify_current_legal_structure": {
+      "const": true
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "publisher_source_category",
+          "original_publisher_total_entries",
+          "prior_provisional_publisher_canonical_links",
+          "prior_unlinked_publisher_entries",
+          "first_tranche_unlinked_source_entries_accounted",
+          "this_tranche_unlinked_source_entries_accounted",
+          "cumulative_source_only_dispositions",
+          "unlinked_publisher_entries_outside_15D7_and_15D8",
+          "top_level_publisher_entities",
+          "source_level_one_foundation_children",
+          "foundation_publisher_group_entries",
+          "amtrak_named_corporation_entries",
+          "general_top_level_source_candidates",
+          "canonical_institutional_identities_newly_matched",
+          "legally_qualified_corporate_subtypes",
+          "independently_verified_governance_and_command_edges",
+          "atlas_admitted_typed_relationships",
+          "publisher_counts_are_present_day_government_census",
+          "federal_agency_subtype_inferred_from_corporation_label",
+          "foundation_nesting_inferred_as_legal_supervision"
+        ],
+        "properties": {
+          "id": {
+            "const": "INC15D8-COV-INDEPENDENT-SECOND-015"
+          },
+          "publisher_source_category": {
+            "const": "Executive Branch: Independent Agencies and Government Corporations"
+          },
+          "original_publisher_total_entries": {
+            "const": 62
+          },
+          "prior_provisional_publisher_canonical_links": {
+            "const": 17
+          },
+          "prior_unlinked_publisher_entries": {
+            "const": 45
+          },
+          "first_tranche_unlinked_source_entries_accounted": {
+            "const": 15
+          },
+          "this_tranche_unlinked_source_entries_accounted": {
+            "const": 15
+          },
+          "cumulative_source_only_dispositions": {
+            "const": 30
+          },
+          "unlinked_publisher_entries_outside_15D7_and_15D8": {
+            "const": 15
+          },
+          "top_level_publisher_entities": {
+            "const": 12
+          },
+          "source_level_one_foundation_children": {
+            "const": 3
+          },
+          "foundation_publisher_group_entries": {
+            "const": 1
+          },
+          "amtrak_named_corporation_entries": {
+            "const": 1
+          },
+          "general_top_level_source_candidates": {
+            "const": 10
+          },
+          "canonical_institutional_identities_newly_matched": {
+            "const": 0
+          },
+          "legally_qualified_corporate_subtypes": {
+            "const": 0
+          },
+          "independently_verified_governance_and_command_edges": {
+            "const": 0
+          },
+          "atlas_admitted_typed_relationships": {
+            "const": 0
+          },
+          "publisher_counts_are_present_day_government_census": {
+            "const": false
+          },
+          "federal_agency_subtype_inferred_from_corporation_label": {
+            "const": false
+          },
+          "foundation_nesting_inferred_as_legal_supervision": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

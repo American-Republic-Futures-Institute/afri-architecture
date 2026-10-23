@@ -1,0 +1,43 @@
+name: INC-15D.8 Arts-Foundation and Amtrak source hierarchy gate
+on:
+  push:
+    branches:
+      - feat/inc15d8-foundation-hierarchy-corporate-boundaries
+  pull_request:
+    paths:
+      - "model/federal/inc15d8-*.json"
+      - "model/federal/manifest.json"
+      - "docs/inc15d8-foundation-amtrak-breadth.md"
+      - "schemas/inc15d8-*.json"
+      - "scripts/inc15d8-govman-reconcile.py"
+      - "tests/test_inc15d8_reconciliation.py"
+      - ".github/workflows/inc15d8-independent-source-gate.yml"
+permissions:
+  contents: read
+jobs:
+  independent-publisher-nesting:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify original GovInfo XML and the 231-entry/50-linked/181-unlinked crosswalk
+        run: python3 scripts/inc15d-govman-directory.py
+      - name: Replay original 28-entry Interior Labor Transportation dispositions
+        run: python3 scripts/inc15d5-govman-reconcile.py
+      - name: Replay original 15-entry Commerce Education dispositions
+        run: python3 scripts/inc15d6-govman-reconcile.py
+      - name: Replay first 15 independent source dispositions and Federal Reserve identity restriction
+        run: python3 scripts/inc15d7-govman-reconcile.py
+      - name: Validate exact second 15 independent publisher observations and 157-208-209-210 hierarchy
+        run: python3 scripts/inc15d8-govman-reconcile.py
+      - name: Negative tests for Foundation statutory control, Amtrak corporate subtype and publisher evidence
+        run: python3 -m unittest discover -s tests -p 'test_inc15d8_reconciliation.py' -v
+      - name: Preserve earlier INC-15D.7 identity and authority anti-conflation controls
+        run: python3 -m unittest discover -s tests -p 'test_inc15d7_reconciliation.py' -v
+      - name: Preserve existing federal source custody and model discipline
+        run: node scripts/validate-inc15.mjs
+      - name: Preserve general canonical architecture validation and manifest integrity
+        run: node scripts/validate.mjs

@@ -1,0 +1,407 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.8 original-publisher dispositions source-only qualification",
+  "description": "Closed 2025 Government Manual publisher-evidence model; preserves 157/208-210 Arts/Foundation nesting and disallows assigning Amtrak corporate/government status, command, oversight, legal parentage, ownership or fiscal powers without separate source custody.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "source_edition",
+    "source_publication_date",
+    "source_original_sha256",
+    "source_original_git_blob_sha1",
+    "source_original_repository_path",
+    "publisher_source_category",
+    "whole_edition_source_entries",
+    "whole_edition_provisional_canonical_links",
+    "whole_edition_unlinked_source_entries",
+    "independent_category_source_entries",
+    "independent_category_provisional_canonical_links",
+    "independent_category_unlinked_source_entries",
+    "current_federal_legal_institution_denominator",
+    "independent_statutory_legal_review_complete",
+    "independent_external_worm_certification",
+    "new_canonical_institution_ids",
+    "new_independently_certified_legal_identities",
+    "new_typed_authority_or_supervision_edges",
+    "atlas_graph_relationships_admitted",
+    "plan_or_data_observatory_changed",
+    "model_family",
+    "targeted_source_entries",
+    "source_observations_accounted_for",
+    "first_tranche_records_retained",
+    "cumulative_source_dispositions_independent_category",
+    "independent_category_unlinked_entries_outside_two_tranches",
+    "general_top_level_publisher_source_candidates",
+    "foundation_parent_publisher_grouping",
+    "nested_foundation_level_one_components",
+    "amtrak_corporate_publisher_label_unreviewed",
+    "qualified_statutory_parent_child_edges",
+    "confirmed_corporate_ownership_edges",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "source_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_publication_date": {
+      "const": "2025-12-31"
+    },
+    "source_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "source_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "publisher_source_category": {
+      "const": "Executive Branch: Independent Agencies and Government Corporations"
+    },
+    "whole_edition_source_entries": {
+      "const": 231
+    },
+    "whole_edition_provisional_canonical_links": {
+      "const": 50
+    },
+    "whole_edition_unlinked_source_entries": {
+      "const": 181
+    },
+    "independent_category_source_entries": {
+      "const": 62
+    },
+    "independent_category_provisional_canonical_links": {
+      "const": 17
+    },
+    "independent_category_unlinked_source_entries": {
+      "const": 45
+    },
+    "current_federal_legal_institution_denominator": {
+      "const": null
+    },
+    "independent_statutory_legal_review_complete": {
+      "const": false
+    },
+    "independent_external_worm_certification": {
+      "const": false
+    },
+    "new_canonical_institution_ids": {
+      "const": 0
+    },
+    "new_independently_certified_legal_identities": {
+      "const": 0
+    },
+    "new_typed_authority_or_supervision_edges": {
+      "const": 0
+    },
+    "atlas_graph_relationships_admitted": {
+      "const": 0
+    },
+    "plan_or_data_observatory_changed": {
+      "const": false
+    },
+    "model_family": {
+      "const": "inc15d8-independent-publisher-dispositions"
+    },
+    "targeted_source_entries": {
+      "const": 15
+    },
+    "source_observations_accounted_for": {
+      "const": 15
+    },
+    "first_tranche_records_retained": {
+      "const": 15
+    },
+    "cumulative_source_dispositions_independent_category": {
+      "const": 30
+    },
+    "independent_category_unlinked_entries_outside_two_tranches": {
+      "const": 15
+    },
+    "general_top_level_publisher_source_candidates": {
+      "const": 10
+    },
+    "foundation_parent_publisher_grouping": {
+      "const": 1
+    },
+    "nested_foundation_level_one_components": {
+      "const": 3
+    },
+    "amtrak_corporate_publisher_label_unreviewed": {
+      "const": 1
+    },
+    "qualified_statutory_parent_child_edges": {
+      "const": 0
+    },
+    "confirmed_corporate_ownership_edges": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_entity_key",
+          "source_entity_local_id",
+          "published_name",
+          "source_edition",
+          "source_original_sha256",
+          "source_original_git_blob_sha1",
+          "publisher_category",
+          "publisher_category_scope",
+          "published_parent_key",
+          "published_order",
+          "published_depth",
+          "publisher_element_tag",
+          "publisher_original_xpath",
+          "tranche_sequence",
+          "disposition",
+          "disposition_rationale",
+          "original_mission_text_not_statutory_authority",
+          "publisher_nesting_not_proof_of_statutory_parentage",
+          "publisher_nested_foundation_component",
+          "foundation_group_publisher_entry",
+          "corporation_named_amtrak_source_entry",
+          "corporate_form_or_ownership_legal_review_pending",
+          "canonical_institutional_identity",
+          "qualified_legal_parent_institution",
+          "specific_current_2026_legal_identity_verified",
+          "corporate_or_federal_agency_subtype_verified",
+          "original_statute_or_charter_for_this_record_retained",
+          "legal_supervision_or_delegation_verified",
+          "board_or_commission_oversight_verified",
+          "congressional_appropriation_authority_verified",
+          "operational_command_exercised_verified",
+          "independent_legal_review_complete",
+          "adl1_certified",
+          "external_worm_original_verified",
+          "atlas_graph_admitted",
+          "plan_or_data_observatory_inference_created"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "INC15D8-DISP-148",
+              "INC15D8-DISP-151",
+              "INC15D8-DISP-152",
+              "INC15D8-DISP-155",
+              "INC15D8-DISP-156",
+              "INC15D8-DISP-157",
+              "INC15D8-DISP-158",
+              "INC15D8-DISP-159",
+              "INC15D8-DISP-160",
+              "INC15D8-DISP-162",
+              "INC15D8-DISP-164",
+              "INC15D8-DISP-166",
+              "INC15D8-DISP-208",
+              "INC15D8-DISP-209",
+              "INC15D8-DISP-210"
+            ]
+          },
+          "source_entity_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:148",
+              "GOVMAN-2025-12-31:151",
+              "GOVMAN-2025-12-31:152",
+              "GOVMAN-2025-12-31:155",
+              "GOVMAN-2025-12-31:156",
+              "GOVMAN-2025-12-31:157",
+              "GOVMAN-2025-12-31:158",
+              "GOVMAN-2025-12-31:159",
+              "GOVMAN-2025-12-31:160",
+              "GOVMAN-2025-12-31:162",
+              "GOVMAN-2025-12-31:164",
+              "GOVMAN-2025-12-31:166",
+              "GOVMAN-2025-12-31:208",
+              "GOVMAN-2025-12-31:209",
+              "GOVMAN-2025-12-31:210"
+            ]
+          },
+          "source_entity_local_id": {
+            "enum": [
+              "148",
+              "151",
+              "152",
+              "155",
+              "156",
+              "157",
+              "158",
+              "159",
+              "160",
+              "162",
+              "164",
+              "166",
+              "208",
+              "209",
+              "210"
+            ]
+          },
+          "published_name": {
+            "enum": [
+              "Federal Retirement Thrift Investment Board",
+              "Institute of Museum and Library Services",
+              "Inter-American Foundation",
+              "Merit Systems Protection Board",
+              "National Capital Planning Commission",
+              "National Credit Union Administration",
+              "National Endowment for the Arts",
+              "National Endowment for the Humanities",
+              "National Foundation on the Arts and the Humanities",
+              "National Labor Relations Board",
+              "National Mediation Board",
+              "National Railroad Passenger Corporation (AMTRAK)",
+              "National Transportation Safety Board",
+              "Occupational Safety and Health Review Commission",
+              "Office of Government Ethics"
+            ]
+          },
+          "source_edition": {
+            "const": "GOVMAN-2025-12-31"
+          },
+          "source_original_sha256": {
+            "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+          },
+          "source_original_git_blob_sha1": {
+            "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+          },
+          "publisher_category": {
+            "const": "Executive Branch: Independent Agencies and Government Corporations"
+          },
+          "publisher_category_scope": {
+            "const": "independent_publisher"
+          },
+          "published_parent_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:157",
+              null
+            ]
+          },
+          "published_order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 69
+          },
+          "published_depth": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "publisher_element_tag": {
+            "enum": [
+              "Entity",
+              "SubEntityLevelOne"
+            ]
+          },
+          "publisher_original_xpath": {
+            "enum": [
+              "/GovernmentManual/Entity[@EntityId='148']",
+              "/GovernmentManual/Entity[@EntityId='151']",
+              "/GovernmentManual/Entity[@EntityId='152']",
+              "/GovernmentManual/Entity[@EntityId='155']",
+              "/GovernmentManual/Entity[@EntityId='156']",
+              "/GovernmentManual/Entity[@EntityId='157']",
+              "/GovernmentManual/Entity[@EntityId='157']/Childrens/SubEntityLevelOne[@EntityId='208']",
+              "/GovernmentManual/Entity[@EntityId='157']/Childrens/SubEntityLevelOne[@EntityId='209']",
+              "/GovernmentManual/Entity[@EntityId='157']/Childrens/SubEntityLevelOne[@EntityId='210']",
+              "/GovernmentManual/Entity[@EntityId='158']",
+              "/GovernmentManual/Entity[@EntityId='159']",
+              "/GovernmentManual/Entity[@EntityId='160']",
+              "/GovernmentManual/Entity[@EntityId='162']",
+              "/GovernmentManual/Entity[@EntityId='164']",
+              "/GovernmentManual/Entity[@EntityId='166']"
+            ]
+          },
+          "tranche_sequence": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 15
+          },
+          "disposition": {
+            "enum": [
+              "publisher_composite_foundation_parent_legal_structure_unreviewed",
+              "publisher_named_corporation_distinct_legal_subtype_unreviewed",
+              "publisher_nested_foundation_component_legal_structure_unreviewed",
+              "source_only_institutional_candidate_pending_statutory_confirmation"
+            ]
+          },
+          "disposition_rationale": {
+            "enum": [
+              "National Foundation on the Arts and the Humanities is a parent-level 2025 directory entry. Publisher nesting of the three components is not proof of legal control, office reporting, or statutory delegation.",
+              "Publisher labels the National Railroad Passenger Corporation (AMTRAK); corporate or governmental subtype, governance, ownership and statutory obligations require independently retained charter or law; never classify from directory grouping.",
+              "Publisher level-one observation under the National Foundation on the Arts and the Humanities; precise legal identity, independence, delegated authority, and current structural parentage require separate source qualification.",
+              "Publisher top-level organization entry; legal subtype, current 2026 institution status, authority, fiscal controls, and oversight are not independently verified."
+            ]
+          },
+          "original_mission_text_not_statutory_authority": {
+            "const": true
+          },
+          "publisher_nesting_not_proof_of_statutory_parentage": {
+            "const": true
+          },
+          "publisher_nested_foundation_component": {
+            "type": "boolean"
+          },
+          "foundation_group_publisher_entry": {
+            "type": "boolean"
+          },
+          "corporation_named_amtrak_source_entry": {
+            "type": "boolean"
+          },
+          "corporate_form_or_ownership_legal_review_pending": {
+            "type": "boolean"
+          },
+          "canonical_institutional_identity": {
+            "const": null
+          },
+          "qualified_legal_parent_institution": {
+            "const": null
+          },
+          "specific_current_2026_legal_identity_verified": {
+            "const": false
+          },
+          "corporate_or_federal_agency_subtype_verified": {
+            "const": false
+          },
+          "original_statute_or_charter_for_this_record_retained": {
+            "const": false
+          },
+          "legal_supervision_or_delegation_verified": {
+            "const": false
+          },
+          "board_or_commission_oversight_verified": {
+            "const": false
+          },
+          "congressional_appropriation_authority_verified": {
+            "const": false
+          },
+          "operational_command_exercised_verified": {
+            "const": false
+          },
+          "independent_legal_review_complete": {
+            "const": false
+          },
+          "adl1_certified": {
+            "const": false
+          },
+          "external_worm_original_verified": {
+            "const": false
+          },
+          "atlas_graph_admitted": {
+            "const": false
+          },
+          "plan_or_data_observatory_inference_created": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
