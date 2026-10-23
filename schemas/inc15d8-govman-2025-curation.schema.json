@@ -1,0 +1,223 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.8 original-publisher curation source-only qualification",
+  "description": "Closed 2025 Government Manual publisher-evidence model; preserves 157/208-210 Arts/Foundation nesting and disallows assigning Amtrak corporate/government status, command, oversight, legal parentage, ownership or fiscal powers without separate source custody.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_edition",
+    "source_original_sha256",
+    "publisher_category",
+    "preceding_unlinked_entries",
+    "selected_unlinked_entries",
+    "prior_independent_category_unlinked_entries",
+    "source_curation_is_legal_organizational_review",
+    "independent_legal_original_review_complete",
+    "new_canonical_component_identities",
+    "government_wide_institution_denominator",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d8-independent-publisher-curation"
+    },
+    "source_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "publisher_category": {
+      "const": "Executive Branch: Independent Agencies and Government Corporations"
+    },
+    "preceding_unlinked_entries": {
+      "const": 15
+    },
+    "selected_unlinked_entries": {
+      "const": 15
+    },
+    "prior_independent_category_unlinked_entries": {
+      "const": 45
+    },
+    "source_curation_is_legal_organizational_review": {
+      "const": false
+    },
+    "independent_legal_original_review_complete": {
+      "const": false
+    },
+    "new_canonical_component_identities": {
+      "const": 0
+    },
+    "government_wide_institution_denominator": {
+      "const": null
+    },
+    "items": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_entity_local_id",
+          "source_entity_key",
+          "published_name",
+          "published_parent_key",
+          "source_xml_xpath",
+          "expected_publisher_tag",
+          "source_tranche_position",
+          "disposition",
+          "proposed_canonical_component_id",
+          "independently_qualified_legal_parent_id",
+          "charter_or_statutory_original_qualified",
+          "current_institutional_form_2026_qualified",
+          "signed_supervision_or_delegation_qualified",
+          "board_commission_oversight_qualified",
+          "budget_or_appropriation_power_qualified",
+          "atlas_publication_admitted",
+          "review_note"
+        ],
+        "properties": {
+          "source_entity_local_id": {
+            "enum": [
+              "148",
+              "151",
+              "152",
+              "155",
+              "156",
+              "157",
+              "158",
+              "159",
+              "160",
+              "162",
+              "164",
+              "166",
+              "208",
+              "209",
+              "210"
+            ]
+          },
+          "source_entity_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:148",
+              "GOVMAN-2025-12-31:151",
+              "GOVMAN-2025-12-31:152",
+              "GOVMAN-2025-12-31:155",
+              "GOVMAN-2025-12-31:156",
+              "GOVMAN-2025-12-31:157",
+              "GOVMAN-2025-12-31:158",
+              "GOVMAN-2025-12-31:159",
+              "GOVMAN-2025-12-31:160",
+              "GOVMAN-2025-12-31:162",
+              "GOVMAN-2025-12-31:164",
+              "GOVMAN-2025-12-31:166",
+              "GOVMAN-2025-12-31:208",
+              "GOVMAN-2025-12-31:209",
+              "GOVMAN-2025-12-31:210"
+            ]
+          },
+          "published_name": {
+            "enum": [
+              "Federal Retirement Thrift Investment Board",
+              "Institute of Museum and Library Services",
+              "Inter-American Foundation",
+              "Merit Systems Protection Board",
+              "National Capital Planning Commission",
+              "National Credit Union Administration",
+              "National Endowment for the Arts",
+              "National Endowment for the Humanities",
+              "National Foundation on the Arts and the Humanities",
+              "National Labor Relations Board",
+              "National Mediation Board",
+              "National Railroad Passenger Corporation (AMTRAK)",
+              "National Transportation Safety Board",
+              "Occupational Safety and Health Review Commission",
+              "Office of Government Ethics"
+            ]
+          },
+          "published_parent_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:157",
+              null
+            ]
+          },
+          "source_xml_xpath": {
+            "enum": [
+              "/GovernmentManual/Entity[@EntityId='148']",
+              "/GovernmentManual/Entity[@EntityId='151']",
+              "/GovernmentManual/Entity[@EntityId='152']",
+              "/GovernmentManual/Entity[@EntityId='155']",
+              "/GovernmentManual/Entity[@EntityId='156']",
+              "/GovernmentManual/Entity[@EntityId='157']",
+              "/GovernmentManual/Entity[@EntityId='157']/Childrens/SubEntityLevelOne[@EntityId='208']",
+              "/GovernmentManual/Entity[@EntityId='157']/Childrens/SubEntityLevelOne[@EntityId='209']",
+              "/GovernmentManual/Entity[@EntityId='157']/Childrens/SubEntityLevelOne[@EntityId='210']",
+              "/GovernmentManual/Entity[@EntityId='158']",
+              "/GovernmentManual/Entity[@EntityId='159']",
+              "/GovernmentManual/Entity[@EntityId='160']",
+              "/GovernmentManual/Entity[@EntityId='162']",
+              "/GovernmentManual/Entity[@EntityId='164']",
+              "/GovernmentManual/Entity[@EntityId='166']"
+            ]
+          },
+          "expected_publisher_tag": {
+            "enum": [
+              "Entity",
+              "SubEntityLevelOne"
+            ]
+          },
+          "source_tranche_position": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 15
+          },
+          "disposition": {
+            "enum": [
+              "publisher_composite_foundation_parent_legal_structure_unreviewed",
+              "publisher_named_corporation_distinct_legal_subtype_unreviewed",
+              "publisher_nested_foundation_component_legal_structure_unreviewed",
+              "source_only_institutional_candidate_pending_statutory_confirmation"
+            ]
+          },
+          "proposed_canonical_component_id": {
+            "const": null
+          },
+          "independently_qualified_legal_parent_id": {
+            "const": null
+          },
+          "charter_or_statutory_original_qualified": {
+            "const": false
+          },
+          "current_institutional_form_2026_qualified": {
+            "const": false
+          },
+          "signed_supervision_or_delegation_qualified": {
+            "const": false
+          },
+          "board_commission_oversight_qualified": {
+            "const": false
+          },
+          "budget_or_appropriation_power_qualified": {
+            "const": false
+          },
+          "atlas_publication_admitted": {
+            "const": false
+          },
+          "review_note": {
+            "enum": [
+              "National Foundation on the Arts and the Humanities is a parent-level 2025 directory entry. Publisher nesting of the three components is not proof of legal control, office reporting, or statutory delegation.",
+              "Publisher labels the National Railroad Passenger Corporation (AMTRAK); corporate or governmental subtype, governance, ownership and statutory obligations require independently retained charter or law; never classify from directory grouping.",
+              "Publisher level-one observation under the National Foundation on the Arts and the Humanities; precise legal identity, independence, delegated authority, and current structural parentage require separate source qualification.",
+              "Publisher top-level organization entry; legal subtype, current 2026 institution status, authority, fiscal controls, and oversight are not independently verified."
+            ]
+          }
+        }
+      }
+    }
+  }
+}
