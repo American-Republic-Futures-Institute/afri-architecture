@@ -1,0 +1,383 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.9 2025 GovInfo publisher original dispositions strict source-disposition qualification",
+  "description": "This publisher-edition-only model does not certify 2026 legal identity, OPIC succession, USAID institution status, federal agency subtype, corporate fiscal ownership, statutory oversight, agent command, Atlas publication or national agency completeness.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "publisher_edition",
+    "publisher_publication_date",
+    "publisher_original_sha256",
+    "publisher_original_git_blob_sha1",
+    "publisher_original_repository_path",
+    "original_publisher_entries",
+    "original_provisional_canonical_links",
+    "original_entries_without_canonical_link",
+    "publisher_independent_category_entries",
+    "publisher_independent_category_provisional_links",
+    "publisher_independent_category_unlinked_entries",
+    "present_day_legal_federal_organization_denominator",
+    "whole_current_government_census_established",
+    "newly_qualified_canonical_component_ids",
+    "new_legal_identity_or_successor_certifications",
+    "new_signed_delegation_supervision_or_fiscal_edges",
+    "independent_worm_custody_original_verified",
+    "atlas_public_graph_changes",
+    "plan_or_data_observatory_changes",
+    "last_tranche_entries_disposed",
+    "cumulative_independent_source_dispositions",
+    "independent_entries_remaining_without_disposition",
+    "historically_named_OPIC_entry",
+    "USAID_source_temporal_uncertainty_entry",
+    "special_form_original_statute_required_entries",
+    "ordinary_source_only_candidate_entries",
+    "all_45_source_entries_newly_identified_as_canonical",
+    "current_2026_institutional_status_is_certified",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d9-independent-publisher-dispositions"
+    },
+    "publisher_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "publisher_publication_date": {
+      "const": "2025-12-31"
+    },
+    "publisher_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "publisher_original_git_blob_sha1": {
+      "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+    },
+    "publisher_original_repository_path": {
+      "const": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml"
+    },
+    "original_publisher_entries": {
+      "const": 231
+    },
+    "original_provisional_canonical_links": {
+      "const": 50
+    },
+    "original_entries_without_canonical_link": {
+      "const": 181
+    },
+    "publisher_independent_category_entries": {
+      "const": 62
+    },
+    "publisher_independent_category_provisional_links": {
+      "const": 17
+    },
+    "publisher_independent_category_unlinked_entries": {
+      "const": 45
+    },
+    "present_day_legal_federal_organization_denominator": {
+      "const": null
+    },
+    "whole_current_government_census_established": {
+      "const": false
+    },
+    "newly_qualified_canonical_component_ids": {
+      "const": 0
+    },
+    "new_legal_identity_or_successor_certifications": {
+      "const": 0
+    },
+    "new_signed_delegation_supervision_or_fiscal_edges": {
+      "const": 0
+    },
+    "independent_worm_custody_original_verified": {
+      "const": false
+    },
+    "atlas_public_graph_changes": {
+      "const": 0
+    },
+    "plan_or_data_observatory_changes": {
+      "const": false
+    },
+    "last_tranche_entries_disposed": {
+      "const": 15
+    },
+    "cumulative_independent_source_dispositions": {
+      "const": 45
+    },
+    "independent_entries_remaining_without_disposition": {
+      "const": 0
+    },
+    "historically_named_OPIC_entry": {
+      "const": 1
+    },
+    "USAID_source_temporal_uncertainty_entry": {
+      "const": 1
+    },
+    "special_form_original_statute_required_entries": {
+      "const": 2
+    },
+    "ordinary_source_only_candidate_entries": {
+      "const": 11
+    },
+    "all_45_source_entries_newly_identified_as_canonical": {
+      "const": false
+    },
+    "current_2026_institutional_status_is_certified": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_entity_key",
+          "source_local_id",
+          "original_name",
+          "publisher_date",
+          "source_original_sha256",
+          "source_original_git_blob_sha1",
+          "original_source_xpath",
+          "publisher_category",
+          "publisher_category_scope",
+          "source_element_tag",
+          "source_parent_key",
+          "source_depth",
+          "publisher_published_order",
+          "unlinked_publisher_category_ordinal",
+          "disposition",
+          "disposition_rationale",
+          "historical_OPIC_name_successor_identity_unresolved",
+          "USAID_2026_institution_status_unresolved",
+          "publisher_corporate_or_special_form_requires_legal_original",
+          "publisher_directory_class_is_not_verified_federal_subtype",
+          "publisher_mission_does_not_qualify_legal_powers",
+          "canonical_component_id",
+          "present_day_legal_institutional_identity_verified",
+          "current_2026_operations_or_staffing_verified",
+          "original_statute_charter_or_successor_transition_reconciled",
+          "verified_successor_or_rename_identity",
+          "government_corporation_or_agency_legal_subtype_verified",
+          "fiscal_ownership_appropriation_or_budget_authority_verified",
+          "agency_oversight_delegation_or_command_verified",
+          "reported_publisher_mission_independently_verified_as_actual_action",
+          "adl1_legal_institution_certified",
+          "independent_legal_review_complete",
+          "external_worm_custody_verified",
+          "atlas_relationship_admitted",
+          "plan_or_data_outcome_claims_created"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "INC15D9-DISP-128",
+              "INC15D9-DISP-129",
+              "INC15D9-DISP-168",
+              "INC15D9-DISP-169",
+              "INC15D9-DISP-170",
+              "INC15D9-DISP-171",
+              "INC15D9-DISP-172",
+              "INC15D9-DISP-173",
+              "INC15D9-DISP-175",
+              "INC15D9-DISP-178",
+              "INC15D9-DISP-179",
+              "INC15D9-DISP-180",
+              "INC15D9-DISP-181",
+              "INC15D9-DISP-182",
+              "INC15D9-DISP-335"
+            ]
+          },
+          "source_entity_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:128",
+              "GOVMAN-2025-12-31:129",
+              "GOVMAN-2025-12-31:168",
+              "GOVMAN-2025-12-31:169",
+              "GOVMAN-2025-12-31:170",
+              "GOVMAN-2025-12-31:171",
+              "GOVMAN-2025-12-31:172",
+              "GOVMAN-2025-12-31:173",
+              "GOVMAN-2025-12-31:175",
+              "GOVMAN-2025-12-31:178",
+              "GOVMAN-2025-12-31:179",
+              "GOVMAN-2025-12-31:180",
+              "GOVMAN-2025-12-31:181",
+              "GOVMAN-2025-12-31:182",
+              "GOVMAN-2025-12-31:335"
+            ]
+          },
+          "source_local_id": {
+            "enum": [
+              "128",
+              "129",
+              "168",
+              "169",
+              "170",
+              "171",
+              "172",
+              "173",
+              "175",
+              "178",
+              "179",
+              "180",
+              "181",
+              "182",
+              "335"
+            ]
+          },
+          "original_name": {
+            "enum": [
+              "Overseas Private Investment Corporation",
+              "Peace Corps",
+              "Pension Benefit Guaranty Corporation",
+              "Postal Regulatory Commission",
+              "Railroad Retirement Board",
+              "Selective Service System",
+              "Surface Transportation Board",
+              "Tennessee Valley Authority",
+              "Trade and Development Agency",
+              "United States African Development Foundation",
+              "United States Agency for Global Media",
+              "United States Agency for International Development",
+              "United States Commission on Civil Rights",
+              "United States International Trade Commission",
+              "United States Office of Special Counsel"
+            ]
+          },
+          "publisher_date": {
+            "const": "2025-12-31"
+          },
+          "source_original_sha256": {
+            "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+          },
+          "source_original_git_blob_sha1": {
+            "const": "195c46a67c87ae85f1dedd423250900f119a041a"
+          },
+          "original_source_xpath": {
+            "enum": [
+              "/GovernmentManual/Entity[@EntityId='128']",
+              "/GovernmentManual/Entity[@EntityId='129']",
+              "/GovernmentManual/Entity[@EntityId='168']",
+              "/GovernmentManual/Entity[@EntityId='169']",
+              "/GovernmentManual/Entity[@EntityId='170']",
+              "/GovernmentManual/Entity[@EntityId='171']",
+              "/GovernmentManual/Entity[@EntityId='172']",
+              "/GovernmentManual/Entity[@EntityId='173']",
+              "/GovernmentManual/Entity[@EntityId='175']",
+              "/GovernmentManual/Entity[@EntityId='178']",
+              "/GovernmentManual/Entity[@EntityId='179']",
+              "/GovernmentManual/Entity[@EntityId='180']",
+              "/GovernmentManual/Entity[@EntityId='181']",
+              "/GovernmentManual/Entity[@EntityId='182']",
+              "/GovernmentManual/Entity[@EntityId='335']"
+            ]
+          },
+          "publisher_category": {
+            "const": "Executive Branch: Independent Agencies and Government Corporations"
+          },
+          "publisher_category_scope": {
+            "const": "independent_publisher"
+          },
+          "source_element_tag": {
+            "const": "Entity"
+          },
+          "source_parent_key": {
+            "const": null
+          },
+          "source_depth": {
+            "const": 0
+          },
+          "publisher_published_order": {
+            "type": "integer",
+            "minimum": 73,
+            "maximum": 89
+          },
+          "unlinked_publisher_category_ordinal": {
+            "type": "integer",
+            "minimum": 31,
+            "maximum": 45
+          },
+          "disposition": {
+            "enum": [
+              "historical_publisher_name_successor_identity_unreviewed",
+              "publisher_named_corporate_or_special_authority_form_unreviewed",
+              "source_observation_2026_continuity_or_reorganization_unreviewed",
+              "source_only_institutional_candidate_pending_statutory_confirmation"
+            ]
+          },
+          "disposition_rationale": {
+            "enum": [
+              "2025 publisher retained the Overseas Private Investment Corporation name. No independently retained transition/original law or verified successor identity is part of this source-disposition tranche; no automatic current-name equivalence.",
+              "2025 publisher title suggests a corporation or specially named authority; actual legal form, federal ownership, appropriations, governance and delegation require separately retained and reviewed original charter or law.",
+              "Official 2025 publisher top-level listing only. Published name, board or commission title and mission are not independently verified present-day identity, legal subtype, appointment, authority, operations or oversight.",
+              "Publisher's 2025 USAID entry cannot resolve 2026 institutional continuation, transfer, abolition, agency control or exercise of authority; requires independently retained dated primary sources and distinct legal review."
+            ]
+          },
+          "historical_OPIC_name_successor_identity_unresolved": {
+            "type": "boolean"
+          },
+          "USAID_2026_institution_status_unresolved": {
+            "type": "boolean"
+          },
+          "publisher_corporate_or_special_form_requires_legal_original": {
+            "type": "boolean"
+          },
+          "publisher_directory_class_is_not_verified_federal_subtype": {
+            "const": true
+          },
+          "publisher_mission_does_not_qualify_legal_powers": {
+            "const": true
+          },
+          "canonical_component_id": {
+            "const": null
+          },
+          "present_day_legal_institutional_identity_verified": {
+            "const": false
+          },
+          "current_2026_operations_or_staffing_verified": {
+            "const": false
+          },
+          "original_statute_charter_or_successor_transition_reconciled": {
+            "const": false
+          },
+          "verified_successor_or_rename_identity": {
+            "const": false
+          },
+          "government_corporation_or_agency_legal_subtype_verified": {
+            "const": false
+          },
+          "fiscal_ownership_appropriation_or_budget_authority_verified": {
+            "const": false
+          },
+          "agency_oversight_delegation_or_command_verified": {
+            "const": false
+          },
+          "reported_publisher_mission_independently_verified_as_actual_action": {
+            "const": false
+          },
+          "adl1_legal_institution_certified": {
+            "const": false
+          },
+          "independent_legal_review_complete": {
+            "const": false
+          },
+          "external_worm_custody_verified": {
+            "const": false
+          },
+          "atlas_relationship_admitted": {
+            "const": false
+          },
+          "plan_or_data_outcome_claims_created": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
