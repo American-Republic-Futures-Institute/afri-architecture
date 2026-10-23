@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.9 2025 GovInfo publisher original curation strict source-disposition qualification",
+  "description": "This publisher-edition-only model does not certify 2026 legal identity, OPIC succession, USAID institution status, federal agency subtype, corporate fiscal ownership, statutory oversight, agent command, Atlas publication or national agency completeness.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_edition",
+    "source_original_sha256",
+    "source_category",
+    "source_category_total_entries",
+    "source_category_prior_linked_entries",
+    "source_category_unlinked_entries",
+    "prior_qualified_source_dispositions_in_category",
+    "selected_source_disposition_count",
+    "current_legal_institution_denominator",
+    "new_canonical_links_qualified",
+    "publisher_source_observation_is_not_current_law_certification",
+    "publication_epoch_does_not_establish_2026_organization_status",
+    "plan_observatory_or_Atlas_changed",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d9-independent-publisher-curation"
+    },
+    "source_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "source_original_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "source_category": {
+      "const": "Executive Branch: Independent Agencies and Government Corporations"
+    },
+    "source_category_total_entries": {
+      "const": 62
+    },
+    "source_category_prior_linked_entries": {
+      "const": 17
+    },
+    "source_category_unlinked_entries": {
+      "const": 45
+    },
+    "prior_qualified_source_dispositions_in_category": {
+      "const": 30
+    },
+    "selected_source_disposition_count": {
+      "const": 15
+    },
+    "current_legal_institution_denominator": {
+      "const": null
+    },
+    "new_canonical_links_qualified": {
+      "const": 0
+    },
+    "publisher_source_observation_is_not_current_law_certification": {
+      "const": true
+    },
+    "publication_epoch_does_not_establish_2026_organization_status": {
+      "const": true
+    },
+    "plan_observatory_or_Atlas_changed": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_entity_local_id",
+          "source_entity_key",
+          "published_name",
+          "source_xml_xpath",
+          "original_publisher_sequence_index",
+          "original_published_order",
+          "disposition",
+          "legal_identity_or_successor_canonical_match",
+          "current_2026_operational_status_verified",
+          "current_2026_constitutional_or_statutory_authority_verified",
+          "current_2026_government_entity_subtype_qualified",
+          "independence_or_direct_oversight_verified",
+          "governing_board_command_or_delegation_verified",
+          "fiscal_ownership_or_congressional_appropriation_verified",
+          "agency_rename_reorganization_or_transfer_independently_verified",
+          "original_entity_statute_charter_or_transition_custody_qualified",
+          "atlas_graph_admission_qualified",
+          "source_only_not_legal_identity_certificate",
+          "review_note"
+        ],
+        "properties": {
+          "source_entity_local_id": {
+            "enum": [
+              "128",
+              "129",
+              "168",
+              "169",
+              "170",
+              "171",
+              "172",
+              "173",
+              "175",
+              "178",
+              "179",
+              "180",
+              "181",
+              "182",
+              "335"
+            ]
+          },
+          "source_entity_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:128",
+              "GOVMAN-2025-12-31:129",
+              "GOVMAN-2025-12-31:168",
+              "GOVMAN-2025-12-31:169",
+              "GOVMAN-2025-12-31:170",
+              "GOVMAN-2025-12-31:171",
+              "GOVMAN-2025-12-31:172",
+              "GOVMAN-2025-12-31:173",
+              "GOVMAN-2025-12-31:175",
+              "GOVMAN-2025-12-31:178",
+              "GOVMAN-2025-12-31:179",
+              "GOVMAN-2025-12-31:180",
+              "GOVMAN-2025-12-31:181",
+              "GOVMAN-2025-12-31:182",
+              "GOVMAN-2025-12-31:335"
+            ]
+          },
+          "published_name": {
+            "enum": [
+              "Overseas Private Investment Corporation",
+              "Peace Corps",
+              "Pension Benefit Guaranty Corporation",
+              "Postal Regulatory Commission",
+              "Railroad Retirement Board",
+              "Selective Service System",
+              "Surface Transportation Board",
+              "Tennessee Valley Authority",
+              "Trade and Development Agency",
+              "United States African Development Foundation",
+              "United States Agency for Global Media",
+              "United States Agency for International Development",
+              "United States Commission on Civil Rights",
+              "United States International Trade Commission",
+              "United States Office of Special Counsel"
+            ]
+          },
+          "source_xml_xpath": {
+            "enum": [
+              "/GovernmentManual/Entity[@EntityId='128']",
+              "/GovernmentManual/Entity[@EntityId='129']",
+              "/GovernmentManual/Entity[@EntityId='168']",
+              "/GovernmentManual/Entity[@EntityId='169']",
+              "/GovernmentManual/Entity[@EntityId='170']",
+              "/GovernmentManual/Entity[@EntityId='171']",
+              "/GovernmentManual/Entity[@EntityId='172']",
+              "/GovernmentManual/Entity[@EntityId='173']",
+              "/GovernmentManual/Entity[@EntityId='175']",
+              "/GovernmentManual/Entity[@EntityId='178']",
+              "/GovernmentManual/Entity[@EntityId='179']",
+              "/GovernmentManual/Entity[@EntityId='180']",
+              "/GovernmentManual/Entity[@EntityId='181']",
+              "/GovernmentManual/Entity[@EntityId='182']",
+              "/GovernmentManual/Entity[@EntityId='335']"
+            ]
+          },
+          "original_publisher_sequence_index": {
+            "type": "integer",
+            "minimum": 31,
+            "maximum": 45
+          },
+          "original_published_order": {
+            "type": "integer",
+            "minimum": 73,
+            "maximum": 89
+          },
+          "disposition": {
+            "enum": [
+              "historical_publisher_name_successor_identity_unreviewed",
+              "publisher_named_corporate_or_special_authority_form_unreviewed",
+              "source_observation_2026_continuity_or_reorganization_unreviewed",
+              "source_only_institutional_candidate_pending_statutory_confirmation"
+            ]
+          },
+          "legal_identity_or_successor_canonical_match": {
+            "const": null
+          },
+          "current_2026_operational_status_verified": {
+            "const": false
+          },
+          "current_2026_constitutional_or_statutory_authority_verified": {
+            "const": false
+          },
+          "current_2026_government_entity_subtype_qualified": {
+            "const": false
+          },
+          "independence_or_direct_oversight_verified": {
+            "const": false
+          },
+          "governing_board_command_or_delegation_verified": {
+            "const": false
+          },
+          "fiscal_ownership_or_congressional_appropriation_verified": {
+            "const": false
+          },
+          "agency_rename_reorganization_or_transfer_independently_verified": {
+            "const": false
+          },
+          "original_entity_statute_charter_or_transition_custody_qualified": {
+            "const": false
+          },
+          "atlas_graph_admission_qualified": {
+            "const": false
+          },
+          "source_only_not_legal_identity_certificate": {
+            "const": true
+          },
+          "review_note": {
+            "enum": [
+              "2025 publisher retained the Overseas Private Investment Corporation name. No independently retained transition/original law or verified successor identity is part of this source-disposition tranche; no automatic current-name equivalence.",
+              "2025 publisher title suggests a corporation or specially named authority; actual legal form, federal ownership, appropriations, governance and delegation require separately retained and reviewed original charter or law.",
+              "Official 2025 publisher top-level listing only. Published name, board or commission title and mission are not independently verified present-day identity, legal subtype, appointment, authority, operations or oversight.",
+              "Publisher's 2025 USAID entry cannot resolve 2026 institutional continuation, transfer, abolition, agency control or exercise of authority; requires independently retained dated primary sources and distinct legal review."
+            ]
+          }
+        }
+      }
+    }
+  }
+}
