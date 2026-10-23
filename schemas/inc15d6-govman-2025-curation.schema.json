@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15D.6 inc15d6-govman-2025-curation closed research contract",
+  "description": "Source-original edition-local publisher records only; Education federally aided corporations heading is not legally qualified federal agency or command. Includes anti-ADL, nonpublication and fiscal/legal limitations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_package_id",
+    "original_source_sha256",
+    "research_status",
+    "publisher_grouping_not_legal_supervision",
+    "current_first_level_institution_denominator",
+    "independent_legal_review_complete",
+    "new_canonical_component_id_count",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15d6-govman-2025-curation"
+    },
+    "source_package_id": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "original_source_sha256": {
+      "const": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138"
+    },
+    "research_status": {
+      "const": "source_only_unratified_no_federal_affiliate_assumption"
+    },
+    "publisher_grouping_not_legal_supervision": {
+      "const": true
+    },
+    "current_first_level_institution_denominator": {
+      "const": null
+    },
+    "independent_legal_review_complete": {
+      "const": false
+    },
+    "new_canonical_component_id_count": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_entity_local_id",
+          "published_name",
+          "published_parent_key",
+          "canonical_department_anchor_id",
+          "disposition",
+          "previous_research_seed_id",
+          "previous_exact_commerce_unit_id",
+          "unreviewed_2026_name_variant_candidate",
+          "publisher_label_is_combined_organizational_reference",
+          "rationale"
+        ],
+        "properties": {
+          "source_entity_local_id": {
+            "enum": [
+              "259",
+              "260",
+              "261",
+              "262",
+              "263",
+              "264",
+              "265",
+              "266",
+              "267",
+              "268",
+              "269",
+              "270",
+              "271",
+              "272",
+              "274"
+            ]
+          },
+          "published_name": {
+            "enum": [
+              "American Printing House for the Blind",
+              "Bureau of Industry and Security",
+              "Economic Development Administration",
+              "Economics and Statistics Administration",
+              "Federally Aided Corporations",
+              "Gallaudet University",
+              "Howard University",
+              "International Trade Administration",
+              "Minority Business Development Agency",
+              "National Institute of Standards and Technology",
+              "National Oceanic and Atmospheric Administration",
+              "National Technical Information Service",
+              "National Technical Institute for the Deaf / Rochester Institute of Technology",
+              "National Telecommunications and Information Administration",
+              "United States Patent and Trademark Office"
+            ]
+          },
+          "published_parent_key": {
+            "enum": [
+              "GOVMAN-2025-12-31:113",
+              "GOVMAN-2025-12-31:115",
+              "GOVMAN-2025-12-31:269"
+            ]
+          },
+          "canonical_department_anchor_id": {
+            "enum": [
+              "ORG-FED-EXE-DEP-COMMERCE",
+              "ORG-FED-EXE-DEP-EDUCATION"
+            ]
+          },
+          "disposition": {
+            "enum": [
+              "noninstitutional_publisher_grouping_not_federal_agency",
+              "publisher_affiliated_entry_legal_classification_unresolved",
+              "source_only_institutional_candidate_pending_statutory_confirmation"
+            ]
+          },
+          "previous_research_seed_id": {
+            "enum": [
+              "EXP-SEED-COMMERCE-NIST",
+              "EXP-SEED-COMMERCE-NOAA",
+              null
+            ]
+          },
+          "previous_exact_commerce_unit_id": {
+            "enum": [
+              "DEPT04-UNIT-COMMERCE-BIS",
+              "DEPT04-UNIT-COMMERCE-EDA",
+              "DEPT04-UNIT-COMMERCE-ITA",
+              "DEPT04-UNIT-COMMERCE-MBDA",
+              "DEPT04-UNIT-COMMERCE-NIST",
+              "DEPT04-UNIT-COMMERCE-NOAA",
+              "DEPT04-UNIT-COMMERCE-NTIA",
+              "DEPT04-UNIT-COMMERCE-NTIS",
+              null
+            ]
+          },
+          "unreviewed_2026_name_variant_candidate": {
+            "enum": [
+              "DEPT04-UNIT-COMMERCE-USPTO",
+              null
+            ]
+          },
+          "publisher_label_is_combined_organizational_reference": {
+            "type": "boolean"
+          },
+          "rationale": {
+            "enum": [
+              "2025 Government Manual publisher component lacking an exact-name 2026 Commerce model counterpart; no legal identity or present-day status inferred.",
+              "Exact-source-title reference to a preexisting expansion seed and a dated Commerce model; neither is an independently established canonical identity or a legal power.",
+              "Exact-title reference in a separate dated Commerce webpage source model; mutable webpage original bytes and legal identity have not been independently verified.",
+              "Publisher entry beneath Federally Aided Corporations; directory placement alone cannot certify this entry as a federal agency or department-controlled organization.",
+              "Publisher's Federally Aided Corporations grouping is a directory header, not a certified federal office, corporate ownership assertion, or command relationship."
+            ]
+          }
+        }
+      }
+    }
+  }
+}
