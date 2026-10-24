@@ -281,5 +281,24 @@ class IdentityAndRelationshipEvidence(unittest.TestCase):
             unlinked_entries_with_explicit_source_only_disposition=181),
             "INC-15D.9 publisher/canonical qualification denied")
 
+
+    def test_existing_atlas_adapter_is_future_only_and_source_inspectable(self):
+        adapter=m.read(ROOT,m.ADAPTER)
+        self.assertIs(adapter["website_repository_modified"],False)
+        self.assertIs(adapter["renderer_replacement_required"],False)
+        self.assertIs(adapter["future_publication_requires_separate_website_PR"],True)
+        self.assertIs(adapter["source_record_count_for_future_inspection"]==4,True)
+        self.assertEqual(adapter["admitted_edges_in_this_increment"],0)
+        self.assertIn("source_local_xpath",adapter["required_inspector_fields"])
+
+    def test_website_publication_without_separate_admission_is_rejected(self):
+        self.reject(m.ADAPTER,lambda o:o.update(
+            future_publication_requires_separate_website_PR=False,
+            admitted_edges_in_this_increment=4))
+
+    def test_atlas_inspector_cannot_hide_source_edition_or_qualification(self):
+        self.reject(m.ADAPTER,lambda o:o.update(
+            required_inspector_fields=["official_source","original_repository_path"]))
+
 if __name__=="__main__":
     unittest.main()
