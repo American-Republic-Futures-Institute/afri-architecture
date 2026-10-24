@@ -338,7 +338,12 @@
     "model/federal/inc15d9-govman-2025-curation.json",
     "model/federal/inc15d9-govman-2025-dispositions.json",
     "model/federal/inc15d9-govman-2025-coverage.json",
-    "model/federal/inc15d9-govman-2025-publisherwide-disposition-coverage.json"
+    "model/federal/inc15d9-govman-2025-publisherwide-disposition-coverage.json",
+    "model/federal/inc15e1/relationship-type-registry.json",
+    "model/federal/inc15e1/source-evidence.json",
+    "model/federal/inc15e1/identity-adjudications.json",
+    "model/federal/inc15e1/relationship-candidates.json",
+    "model/federal/inc15e1/evidence-dimensions.json"
   ],
   "standards": [
     {
@@ -1479,5 +1484,25 @@
     "publisher_total_is_not_current_federal_agency_census": true,
     "atlas_graph_admission": false,
     "plan_or_data_observatory_changed": false
+  },
+  "federal_identity_interoperability_15e1_extension": {
+    "source_edition": "GOVMAN-2025-12-31",
+    "source_original_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+    "relationship_registry_path": "model/federal/inc15e1/relationship-type-registry.json",
+    "evidence_registry_path": "model/federal/inc15e1/source-evidence.json",
+    "adjudication_path": "model/federal/inc15e1/identity-adjudications.json",
+    "source_relationship_path": "model/federal/inc15e1/relationship-candidates.json",
+    "evidence_dimensions_path": "model/federal/inc15e1/evidence-dimensions.json",
+    "crosswalk_existing_50_provisional_links_changed": 0,
+    "original_government_manual_unlinked_181_entries_changed": 0,
+    "bounded_identity_cases": 4,
+    "original_publisher_listing_edges_qualified": 4,
+    "new_canonical_institutional_identities": 0,
+    "new_statutorily_qualified_identity_or_succession_edges": 0,
+    "unretained_statute_locators_are_authority_certifications": false,
+    "independent_legal_originals_newly_retained": 0,
+    "verified_2026_operations": 0,
+    "atlas_public_graph_changed": false,
+    "plan_or_observatory_changed": false
   }
 }
