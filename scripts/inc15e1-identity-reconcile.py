@@ -32,6 +32,7 @@ EVIDENCE=BASE+"source-evidence.json"
 CASES=BASE+"identity-adjudications.json"
 RELATIONS=BASE+"relationship-candidates.json"
 COVERAGE=BASE+"evidence-dimensions.json"
+ADAPTER=BASE+"atlas-adapter-contract.json"
 MANIFEST="model/federal/manifest.json"
 CANONICAL="model/federal/executive-independent.json"
 X12="model/federal/x12-identities.json"
@@ -69,7 +70,7 @@ LEGAL_LOCATORS={
  "INC15E1-LOC-USC-12-221":"https://uscode.house.gov/us/usc/119-121/t12/s221/",
  "INC15E1-LOC-USC-49-24301":"https://uscode.house.gov/view.xhtml?req=%28title%3A49+section%3A24301+edition%3Aprelim%29"
 }
-ALLOWED_FILES=(REGISTRY,EVIDENCE,CASES,RELATIONS,COVERAGE)
+ALLOWED_FILES=(REGISTRY,EVIDENCE,CASES,RELATIONS,COVERAGE,ADAPTER)
 
 def reject_unless(condition,message):
     if not condition:
@@ -317,6 +318,38 @@ def run(root=REPO):
                   coverage["plan_or_data_observatory_changed"] is False and
                   len(set(coverage["evidence_dimensions"]))==9,
                   "source coverage conflated identity, law, operations, Atlas and outcomes")
+    adapter=models[ADAPTER]
+    reject_unless(adapter["model_version"]=="0.1.0" and
+                  adapter["model_family"]=="inc15e1-existing-atlas-source-qualified-adapter-contract" and
+                  adapter["renderer_replacement_required"] is False and
+                  adapter["website_repository_modified"] is False and
+                  adapter["canonical_ids_rewritten"] is False and
+                  adapter["source_read_scope"]=="existing_architecture_adapter_future_additive_consumer_only" and
+                  adapter["producer_model_paths"]==list(ALLOWED_FILES[:-1]) and
+                  adapter["candidate_export_qualification"]=="source_original_only_not_independently_legal" and
+                  adapter["future_publication_requires_separate_website_PR"] is True and
+                  adapter["publisher_listing_projection_eligible_only_after_source_inspector_review"] is True and
+                  adapter["legal_relationship_projection_requires_retained_original_and_independent_review"] is True and
+                  adapter["conditional_graph_insertion_if_reviewed"]=="future_website_adapter_gate_only" and
+                  adapter["admitted_edges_in_this_increment"]==0 and
+                  adapter["source_record_count_for_future_inspection"]==4 and
+                  adapter["future_legal_edges_currently_exportable"]==0 and
+                  adapter["future_projection_fields"]==[
+                      "from_id","to_id","relationship_type","evidence_id","source_snapshot",
+                      "qualification","legal_effective_on","source_inspection_required","atlas_admitted"] and
+                  adapter["required_inspector_fields"]==[
+                      "official_source","original_repository_path","source_sha256",
+                      "source_edition","source_local_xpath","review_status",
+                      "legal_status_vs_publisher_observation"] and
+                  set(adapter["prohibited_promotions"])=={
+                      "unreviewed_identity_candidate_to_certified_canonical",
+                      "legal_successor_from_name_similarity",
+                      "legal_parent_from_publisher_nesting",
+                      "supervision_or_command_from_directory_category",
+                      "current_2026_status_from_2025_edition",
+                      "service_delivery_from_publisher_mission_text",
+                      "source_only_edge_direct_to_live_Atlas_graph"},
+                  "Atlas compatibility contract mutated to publish unsupported relationship")
     m=read(root,MANIFEST)
     ext=m.get("federal_identity_interoperability_15e1_extension")
     reject_unless(ext is not None and
@@ -324,7 +357,7 @@ def run(root=REPO):
                   ext["source_original_sha256"]==SHA and
                   [ext[x] for x in (
                       "relationship_registry_path","evidence_registry_path",
-                      "adjudication_path","source_relationship_path","evidence_dimensions_path"
+                      "adjudication_path","source_relationship_path","evidence_dimensions_path","atlas_adapter_contract_path"
                   )]==list(ALLOWED_FILES) and
                   ext["crosswalk_existing_50_provisional_links_changed"]==0 and
                   ext["original_government_manual_unlinked_181_entries_changed"]==0 and
@@ -336,6 +369,7 @@ def run(root=REPO):
                   ext["independent_legal_originals_newly_retained"]==0 and
                   ext["verified_2026_operations"]==0 and
                   ext["atlas_public_graph_changed"] is False and
+                  ext["allow_direct_Atlas_edge_publication"] is False and
                   ext["plan_or_observatory_changed"] is False and
                   all(p in m["models"] for p in ALLOWED_FILES) and
                   len(set(m["models"]))==len(m["models"]),
