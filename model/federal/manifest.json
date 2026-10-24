@@ -343,7 +343,8 @@
     "model/federal/inc15e1/source-evidence.json",
     "model/federal/inc15e1/identity-adjudications.json",
     "model/federal/inc15e1/relationship-candidates.json",
-    "model/federal/inc15e1/evidence-dimensions.json"
+    "model/federal/inc15e1/evidence-dimensions.json",
+    "model/federal/inc15e1/atlas-adapter-contract.json"
   ],
   "standards": [
     {
@@ -1503,6 +1504,8 @@
     "independent_legal_originals_newly_retained": 0,
     "verified_2026_operations": 0,
     "atlas_public_graph_changed": false,
-    "plan_or_observatory_changed": false
+    "plan_or_observatory_changed": false,
+    "atlas_adapter_contract_path": "model/federal/inc15e1/atlas-adapter-contract.json",
+    "allow_direct_Atlas_edge_publication": false
   }
 }
