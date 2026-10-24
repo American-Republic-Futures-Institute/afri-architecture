@@ -1,0 +1,113 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc15e1-source-local-identity-adjudication-pilot",
+  "source_edition": "GOVMAN-2025-12-31",
+  "identity_crosswalk_modified": false,
+  "new_canonical_institutions_minted": 0,
+  "independent_legal_adjudications_completed": 0,
+  "pilot_cases": [
+    {
+      "id": "INC15E1-CASE-OPIC-169",
+      "source_entity_key": "GOVMAN-2025-12-31:169",
+      "published_label": "Overseas Private Investment Corporation",
+      "case_kind": "historical_successor_scope_unreviewed",
+      "candidate_canonical_id": null,
+      "candidate_external_name": "United States International Development Finance Corporation",
+      "candidate_is_equivalence": false,
+      "comparison_result": "unresolved_primary_law_original_not_retained",
+      "possible_law_locator_ids": [
+        "INC15E1-LOC-USC-22-9683",
+        "INC15E1-LOC-USC-22-9684"
+      ],
+      "retained_source_evidence_ids": [
+        "INC15E1-SRC-GOVMAN-ORIGINAL"
+      ],
+      "legal_relationship_asserted": null,
+      "legal_effective_date": null,
+      "organization_status_2026": null,
+      "original_successor_instrument_retained": false,
+      "independent_statutory_identity_review_complete": false,
+      "source_observation_verified": true,
+      "legal_identity_certified": false,
+      "atlas_admitted": false,
+      "reviewer_id": null,
+      "notes": "The 2025 original publisher label is retained. No DFC identity equivalence, all-functions succession, transition endpoint, or actual transfer is asserted."
+    },
+    {
+      "id": "INC15E1-CASE-FRS-147",
+      "source_entity_key": "GOVMAN-2025-12-31:147",
+      "published_label": "Federal Reserve System",
+      "case_kind": "composite_system_vs_board_scope_boundary",
+      "candidate_canonical_id": "ORG-FED-EXE-IND-FED",
+      "candidate_external_name": null,
+      "candidate_is_equivalence": false,
+      "comparison_result": "scope_distinct_canonical_board_not_replacement_for_system",
+      "possible_law_locator_ids": [
+        "INC15E1-LOC-USC-12-221"
+      ],
+      "retained_source_evidence_ids": [
+        "INC15E1-SRC-GOVMAN-ORIGINAL"
+      ],
+      "legal_relationship_asserted": null,
+      "legal_effective_date": null,
+      "organization_status_2026": null,
+      "original_successor_instrument_retained": false,
+      "independent_statutory_identity_review_complete": false,
+      "source_observation_verified": true,
+      "legal_identity_certified": false,
+      "atlas_admitted": false,
+      "reviewer_id": null,
+      "notes": "Only a research comparison to ARFI's existing Board canonical ID. Neither system identity equivalence nor statutory membership/supervision is certified."
+    },
+    {
+      "id": "INC15E1-CASE-AMTRAK-160",
+      "source_entity_key": "GOVMAN-2025-12-31:160",
+      "published_label": "National Railroad Passenger Corporation (AMTRAK)",
+      "case_kind": "corporation_legal_subtype_unreviewed",
+      "candidate_canonical_id": null,
+      "candidate_external_name": null,
+      "candidate_is_equivalence": false,
+      "comparison_result": "unresolved_statutory_classification_original_unretained",
+      "possible_law_locator_ids": [
+        "INC15E1-LOC-USC-49-24301"
+      ],
+      "retained_source_evidence_ids": [
+        "INC15E1-SRC-GOVMAN-ORIGINAL"
+      ],
+      "legal_relationship_asserted": null,
+      "legal_effective_date": null,
+      "organization_status_2026": null,
+      "original_successor_instrument_retained": false,
+      "independent_statutory_identity_review_complete": false,
+      "source_observation_verified": true,
+      "legal_identity_certified": false,
+      "atlas_admitted": false,
+      "reviewer_id": null,
+      "notes": "49 U.S.C. § 24301 is a research locator only. No unqualified government/non-government legal status or operational ownership conclusions."
+    },
+    {
+      "id": "INC15E1-CASE-USAID-180",
+      "source_entity_key": "GOVMAN-2025-12-31:180",
+      "published_label": "United States Agency for International Development",
+      "case_kind": "2026_temporal_organization_status_unverified",
+      "candidate_canonical_id": null,
+      "candidate_external_name": null,
+      "candidate_is_equivalence": false,
+      "comparison_result": "unresolved_2026_currentness_without_dated_official_originals",
+      "possible_law_locator_ids": [],
+      "retained_source_evidence_ids": [
+        "INC15E1-SRC-GOVMAN-ORIGINAL"
+      ],
+      "legal_relationship_asserted": null,
+      "legal_effective_date": null,
+      "organization_status_2026": null,
+      "original_successor_instrument_retained": false,
+      "independent_statutory_identity_review_complete": false,
+      "source_observation_verified": true,
+      "legal_identity_certified": false,
+      "atlas_admitted": false,
+      "reviewer_id": null,
+      "notes": "Publication in 2025 cannot certify 2026 staffing, legal continuation, reorganization, transfers, abolished duties, or actual service operations."
+    }
+  ]
+}

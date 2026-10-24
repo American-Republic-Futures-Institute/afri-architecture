@@ -1,0 +1,39 @@
+name: INC-15E.1 identity source custody and directional relationship gate
+on:
+  push:
+    branches:
+      - feat/inc15e1-qualified-identity-relationship-contract
+  pull_request:
+    paths:
+      - "model/federal/inc15e1/**"
+      - "model/federal/manifest.json"
+      - "docs/inc15e1-source-canonical-identity-contract.md"
+      - "schemas/inc15e1-*.json"
+      - "scripts/inc15e1-identity-reconcile.py"
+      - "tests/test_inc15e1_identity_reconciliation.py"
+      - ".github/workflows/inc15e1-identity-evidence-gate.yml"
+permissions:
+  contents: read
+jobs:
+  typed-identity-adjudication-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Replay immutable 2025 Government Manual original and publisher census
+        run: python3 scripts/inc15d-govman-directory.py
+      - name: Replay all five immutable publisher source disposition cohorts
+        run: python3 scripts/inc15d9-govman-reconcile.py
+      - name: Assert source-only identity cases, nine typed predicates and withheld statutory legal provenance
+        run: python3 scripts/inc15e1-identity-reconcile.py
+      - name: Deny false legal successor Board-equivalence USAID-currentness Amtrak-subtype or Atlas admission
+        run: python3 -m unittest discover -s tests -p 'test_inc15e1_identity_reconciliation.py' -v
+      - name: Keep 2025 crosswalk and previous source-only evidence regression suite unchanged
+        run: python3 -m unittest discover -s tests -p 'test_inc15d9_reconciliation.py' -v
+      - name: Preserve original federal source and legal qualification boundaries
+        run: node scripts/validate-inc15.mjs
+      - name: Preserve complete canonical model and manifest validation
+        run: node scripts/validate.mjs

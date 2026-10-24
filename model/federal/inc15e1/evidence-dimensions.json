@@ -1,0 +1,40 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc15e1-identity-adjudication-evidence-dimensions",
+  "source_edition": "GOVMAN-2025-12-31",
+  "government_wide_legal_institution_denominator": null,
+  "denominators": {
+    "original_2025_publisher_observations": 231,
+    "existing_provisional_canonical_name_links": 50,
+    "source_observations_without_canonical_links": 181,
+    "explicit_source_only_dispositions": 88,
+    "unlinked_without_dispositions": 93,
+    "independent_category_source_unlinked_disposition_accounted": 45
+  },
+  "pilot": {
+    "cases": 4,
+    "verified_publisher_entry_observations": 4,
+    "candidate_cross_scope_comparisons": 1,
+    "independently_certified_identity_equivalences": 0,
+    "legally_qualified_successor_edges": 0,
+    "legally_qualified_organization_subtypes": 0,
+    "original_statutory_instruments_retained_for_pilot": 0,
+    "verified_2026_entity_operations": 0,
+    "source_original_supported_publisher_listing_edges": 4,
+    "atlas_edges_admitted": 0,
+    "independently_measured_outcome_links": 0
+  },
+  "evidence_dimensions": [
+    "publisher_source_original_present",
+    "source_local_identity_disposition",
+    "provisional_canonical_identity_comparison",
+    "reviewed_canonical_legal_identity",
+    "independently_retained_statutory_authority",
+    "present_day_legal_organizational_status",
+    "actual_public_service_execution",
+    "public_Atlas_admission",
+    "independent_Data_Observatory_outcome_evidence"
+  ],
+  "publisher_entry_count_is_not_present_government_agency_census": true,
+  "plan_or_data_observatory_changed": false
+}

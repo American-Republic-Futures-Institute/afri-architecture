@@ -1,0 +1,52 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc15e1-existing-atlas-source-qualified-adapter-contract",
+  "renderer_replacement_required": false,
+  "website_repository_modified": false,
+  "canonical_ids_rewritten": false,
+  "source_read_scope": "existing_architecture_adapter_future_additive_consumer_only",
+  "producer_model_paths": [
+    "model/federal/inc15e1/relationship-type-registry.json",
+    "model/federal/inc15e1/source-evidence.json",
+    "model/federal/inc15e1/identity-adjudications.json",
+    "model/federal/inc15e1/relationship-candidates.json",
+    "model/federal/inc15e1/evidence-dimensions.json"
+  ],
+  "candidate_export_qualification": "source_original_only_not_independently_legal",
+  "future_publication_requires_separate_website_PR": true,
+  "publisher_listing_projection_eligible_only_after_source_inspector_review": true,
+  "legal_relationship_projection_requires_retained_original_and_independent_review": true,
+  "conditional_graph_insertion_if_reviewed": "future_website_adapter_gate_only",
+  "admitted_edges_in_this_increment": 0,
+  "future_projection_fields": [
+    "from_id",
+    "to_id",
+    "relationship_type",
+    "evidence_id",
+    "source_snapshot",
+    "qualification",
+    "legal_effective_on",
+    "source_inspection_required",
+    "atlas_admitted"
+  ],
+  "required_inspector_fields": [
+    "official_source",
+    "original_repository_path",
+    "source_sha256",
+    "source_edition",
+    "source_local_xpath",
+    "review_status",
+    "legal_status_vs_publisher_observation"
+  ],
+  "prohibited_promotions": [
+    "unreviewed_identity_candidate_to_certified_canonical",
+    "legal_successor_from_name_similarity",
+    "legal_parent_from_publisher_nesting",
+    "supervision_or_command_from_directory_category",
+    "current_2026_status_from_2025_edition",
+    "service_delivery_from_publisher_mission_text",
+    "source_only_edge_direct_to_live_Atlas_graph"
+  ],
+  "source_record_count_for_future_inspection": 4,
+  "future_legal_edges_currently_exportable": 0
+}

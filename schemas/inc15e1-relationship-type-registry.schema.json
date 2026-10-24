@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "release_status",
+    "no_new_services_or_renderer_changes",
+    "relationship_types"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15e1-typed-identity-relationship-registry"
+    },
+    "release_status": {
+      "const": "unratified_architecture_contract"
+    },
+    "no_new_services_or_renderer_changes": {
+      "const": true
+    },
+    "relationship_types": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "from_node_kind",
+          "to_node_kind",
+          "direction",
+          "required_evidence_class",
+          "asserts_legal_identity_or_authority",
+          "source_edition_required",
+          "typed_scope_and_effective_date_required",
+          "historical_edition_is_not_present_day_execution",
+          "allows_automatic_publisher_tree_or_name_inference",
+          "intended_atlas_category",
+          "qualification_guard",
+          "semantics"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "from_node_kind": {
+            "type": "string"
+          },
+          "to_node_kind": {
+            "type": "string"
+          },
+          "direction": {
+            "const": "from_to"
+          },
+          "required_evidence_class": {
+            "type": "string"
+          },
+          "asserts_legal_identity_or_authority": {
+            "type": "boolean"
+          },
+          "source_edition_required": {
+            "const": true
+          },
+          "typed_scope_and_effective_date_required": {
+            "type": "boolean"
+          },
+          "historical_edition_is_not_present_day_execution": {
+            "const": true
+          },
+          "allows_automatic_publisher_tree_or_name_inference": {
+            "const": false
+          },
+          "intended_atlas_category": {
+            "type": "string"
+          },
+          "qualification_guard": {
+            "type": "string"
+          },
+          "semantics": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15E.1 inc15e1-typed-identity-relationship-registry strict evidence contract",
+  "description": "Source-only 2025 publisher identities and relationship types; law URL-only citations are unretained and cannot support legal or current-state claims."
+}

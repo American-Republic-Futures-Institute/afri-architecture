@@ -1,0 +1,142 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_edition",
+    "identity_crosswalk_modified",
+    "new_canonical_institutions_minted",
+    "independent_legal_adjudications_completed",
+    "pilot_cases"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15e1-source-local-identity-adjudication-pilot"
+    },
+    "source_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "identity_crosswalk_modified": {
+      "const": false
+    },
+    "new_canonical_institutions_minted": {
+      "const": 0
+    },
+    "independent_legal_adjudications_completed": {
+      "const": 0
+    },
+    "pilot_cases": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "source_entity_key",
+          "published_label",
+          "case_kind",
+          "candidate_canonical_id",
+          "candidate_external_name",
+          "candidate_is_equivalence",
+          "comparison_result",
+          "possible_law_locator_ids",
+          "retained_source_evidence_ids",
+          "legal_relationship_asserted",
+          "legal_effective_date",
+          "organization_status_2026",
+          "original_successor_instrument_retained",
+          "independent_statutory_identity_review_complete",
+          "source_observation_verified",
+          "legal_identity_certified",
+          "atlas_admitted",
+          "reviewer_id",
+          "notes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_entity_key": {
+            "type": "string"
+          },
+          "published_label": {
+            "type": "string"
+          },
+          "case_kind": {
+            "type": "string"
+          },
+          "candidate_canonical_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "candidate_external_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "candidate_is_equivalence": {
+            "const": false
+          },
+          "comparison_result": {
+            "type": "string"
+          },
+          "possible_law_locator_ids": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "string"
+            }
+          },
+          "retained_source_evidence_ids": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "const": "INC15E1-SRC-GOVMAN-ORIGINAL"
+            }
+          },
+          "legal_relationship_asserted": {
+            "type": "null"
+          },
+          "legal_effective_date": {
+            "type": "null"
+          },
+          "organization_status_2026": {
+            "type": "null"
+          },
+          "original_successor_instrument_retained": {
+            "const": false
+          },
+          "independent_statutory_identity_review_complete": {
+            "const": false
+          },
+          "source_observation_verified": {
+            "const": true
+          },
+          "legal_identity_certified": {
+            "const": false
+          },
+          "atlas_admitted": {
+            "const": false
+          },
+          "reviewer_id": {
+            "type": "null"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15E.1 inc15e1-source-local-identity-adjudication-pilot strict evidence contract",
+  "description": "Source-only 2025 publisher identities and relationship types; law URL-only citations are unretained and cannot support legal or current-state claims."
+}

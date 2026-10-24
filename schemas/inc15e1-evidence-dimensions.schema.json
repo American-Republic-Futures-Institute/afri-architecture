@@ -1,0 +1,129 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "source_edition",
+    "government_wide_legal_institution_denominator",
+    "denominators",
+    "pilot",
+    "evidence_dimensions",
+    "publisher_entry_count_is_not_present_government_agency_census",
+    "plan_or_data_observatory_changed"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15e1-identity-adjudication-evidence-dimensions"
+    },
+    "source_edition": {
+      "const": "GOVMAN-2025-12-31"
+    },
+    "government_wide_legal_institution_denominator": {
+      "type": "null"
+    },
+    "denominators": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "original_2025_publisher_observations",
+        "existing_provisional_canonical_name_links",
+        "source_observations_without_canonical_links",
+        "explicit_source_only_dispositions",
+        "unlinked_without_dispositions",
+        "independent_category_source_unlinked_disposition_accounted"
+      ],
+      "properties": {
+        "original_2025_publisher_observations": {
+          "const": 231
+        },
+        "existing_provisional_canonical_name_links": {
+          "const": 50
+        },
+        "source_observations_without_canonical_links": {
+          "const": 181
+        },
+        "explicit_source_only_dispositions": {
+          "const": 88
+        },
+        "unlinked_without_dispositions": {
+          "const": 93
+        },
+        "independent_category_source_unlinked_disposition_accounted": {
+          "const": 45
+        }
+      }
+    },
+    "pilot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cases",
+        "verified_publisher_entry_observations",
+        "candidate_cross_scope_comparisons",
+        "independently_certified_identity_equivalences",
+        "legally_qualified_successor_edges",
+        "legally_qualified_organization_subtypes",
+        "original_statutory_instruments_retained_for_pilot",
+        "verified_2026_entity_operations",
+        "source_original_supported_publisher_listing_edges",
+        "atlas_edges_admitted",
+        "independently_measured_outcome_links"
+      ],
+      "properties": {
+        "cases": {
+          "const": 4
+        },
+        "verified_publisher_entry_observations": {
+          "const": 4
+        },
+        "candidate_cross_scope_comparisons": {
+          "const": 1
+        },
+        "independently_certified_identity_equivalences": {
+          "const": 0
+        },
+        "legally_qualified_successor_edges": {
+          "const": 0
+        },
+        "legally_qualified_organization_subtypes": {
+          "const": 0
+        },
+        "original_statutory_instruments_retained_for_pilot": {
+          "const": 0
+        },
+        "verified_2026_entity_operations": {
+          "const": 0
+        },
+        "source_original_supported_publisher_listing_edges": {
+          "const": 4
+        },
+        "atlas_edges_admitted": {
+          "const": 0
+        },
+        "independently_measured_outcome_links": {
+          "const": 0
+        }
+      }
+    },
+    "evidence_dimensions": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "string"
+      }
+    },
+    "publisher_entry_count_is_not_present_government_agency_census": {
+      "const": true
+    },
+    "plan_or_data_observatory_changed": {
+      "const": false
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI INC-15E.1 inc15e1-identity-adjudication-evidence-dimensions strict evidence contract",
+  "description": "Source-only 2025 publisher identities and relationship types; law URL-only citations are unretained and cannot support legal or current-state claims."
+}

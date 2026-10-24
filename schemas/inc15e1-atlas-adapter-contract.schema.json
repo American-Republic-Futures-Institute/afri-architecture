@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15E.1 existing Atlas nonbreaking admission contract",
+  "description": "Future additive projection only; legal identity edges must retain original primary law bytes and independent qualification before any public publication.",
+  "type": "object",
+  "required": [
+    "model_version",
+    "model_family",
+    "renderer_replacement_required",
+    "website_repository_modified",
+    "canonical_ids_rewritten",
+    "source_read_scope",
+    "producer_model_paths",
+    "candidate_export_qualification",
+    "future_publication_requires_separate_website_PR",
+    "publisher_listing_projection_eligible_only_after_source_inspector_review",
+    "legal_relationship_projection_requires_retained_original_and_independent_review",
+    "conditional_graph_insertion_if_reviewed",
+    "admitted_edges_in_this_increment",
+    "future_projection_fields",
+    "required_inspector_fields",
+    "prohibited_promotions",
+    "source_record_count_for_future_inspection",
+    "future_legal_edges_currently_exportable"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15e1-existing-atlas-source-qualified-adapter-contract"
+    },
+    "renderer_replacement_required": {
+      "const": false
+    },
+    "website_repository_modified": {
+      "const": false
+    },
+    "canonical_ids_rewritten": {
+      "const": false
+    },
+    "source_read_scope": {
+      "const": "existing_architecture_adapter_future_additive_consumer_only"
+    },
+    "producer_model_paths": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "candidate_export_qualification": {
+      "const": "source_original_only_not_independently_legal"
+    },
+    "future_publication_requires_separate_website_PR": {
+      "const": true
+    },
+    "publisher_listing_projection_eligible_only_after_source_inspector_review": {
+      "const": true
+    },
+    "legal_relationship_projection_requires_retained_original_and_independent_review": {
+      "const": true
+    },
+    "conditional_graph_insertion_if_reviewed": {
+      "const": "future_website_adapter_gate_only"
+    },
+    "admitted_edges_in_this_increment": {
+      "const": 0
+    },
+    "future_projection_fields": {
+      "type": "array",
+      "minItems": 9,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "required_inspector_fields": {
+      "type": "array",
+      "minItems": 7,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "prohibited_promotions": {
+      "type": "array",
+      "minItems": 7,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "source_record_count_for_future_inspection": {
+      "const": 4
+    },
+    "future_legal_edges_currently_exportable": {
+      "const": 0
+    }
+  }
+}
