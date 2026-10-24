@@ -90,6 +90,10 @@ jobs:
         run: python3 scripts/inc15d9-govman-reconcile.py
       - name: Test INC-15D.9 original source, OPIC succession denial, USAID temporality and evidence-status coverage
         run: python3 -m unittest discover -s tests -p 'test_inc15d9_reconciliation.py' -v
+      - name: Verify INC-15E.1 original publisher and typed identity relationship registry without statute-original promotion
+        run: python3 scripts/inc15e1-identity-reconcile.py
+      - name: Test INC-15E.1 Board-system distinction, OPIC succession, USAID epoch and Atlas admission denial
+        run: python3 -m unittest discover -s tests -p 'test_inc15e1_identity_reconciliation.py' -v
       - name: Validate INC-15C.4 historical HHS 11-to-29 bounded publisher edition overlap
         run: node scripts/validate-inc15c4.mjs
       - name: Test INC-15C.4 immutable source pins, CMS naming variant, IG protection and no invented HHS legal hierarchy
