@@ -23,9 +23,9 @@ def module(key,path):
 
 capture=module("inc15e1b_gpo_capture",Path("scripts/inc15e1b-capture-amtrak-original.py"))
 prior=module("inc15e1a_prior",Path("scripts/inc15e1-identity-reconcile.py"))
-MODEL="model/federal/inc15e1b-amtrak-legal-status.json"
-COVERAGE="model/federal/inc15e1b-amtrak-statutory-source-coverage.json"
-TRANSITION="model/federal/inc15e1b-amtrak-status-transition.json"
+MODEL="model/federal/inc15e1b/amtrak-legal-status.json"
+COVERAGE="model/federal/inc15e1b/amtrak-statutory-source-coverage.json"
+TRANSITION="model/federal/inc15e1b/amtrak-status-transition.json"
 REGISTRY="model/federal/inc15e1/relationship-type-registry.json"
 MANIFEST="model/federal/manifest.json"
 CASES="model/federal/inc15e1/identity-adjudications.json"
