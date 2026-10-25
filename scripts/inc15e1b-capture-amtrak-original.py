@@ -81,9 +81,14 @@ def verified_text(original):
     marker = "§24301. Status and applicable laws"
     require(marker in text, "specific section marker missing")
     remainder = text.split(marker, 1)[1]
-    require("(a) Status." in remainder and "(b) Principal Office" in remainder,
-            "section-specific (a)-(b) boundaries missing")
-    head = remainder.split("(b) Principal Office", 1)[0]
+    # GovInfo publishes headings with markup and variable text nodes; HTMLParser
+    # may insert spaces between the subsection number and its italicized title.
+    # Anchor to the separately titled (b) section, not its CSS presentation.
+    b = re.search(r"principal\s+office\s+and\s+place\s+of\s+business", remainder, re.I)
+    require(b is not None and "status" in remainder[:140].lower(),
+            "publisher section (a)/(b) conceptual headings missing")
+    head = remainder[:b.start()]
+    require(130 < len(head) < 2200, "subsection (a) source slice invalid")
     for idx, (_, paragraph, _, phrase) in enumerate(CLAUSES, 1):
         require(f"({idx})" in head and phrase in head,
                 "source clause absent: " + paragraph)
@@ -93,7 +98,7 @@ def verified_text(original):
             "source credit or amendment references absent")
     return {"text_characters": len(text),
             "subsection_a_character_offset": text.index(marker),
-            "subsection_a_excerpt_end_before_b": text.index("(b) Principal Office", text.index(marker)),
+            "subsection_a_excerpt_end_before_b": text.index(marker) + len(marker) + b.start(),
             "clause_offsets": {row[1]: head.index(row[3]) for row in CLAUSES}}
 
 class OfficialRedirect(urllib.request.HTTPRedirectHandler):
