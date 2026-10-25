@@ -1,0 +1,48 @@
+name: INC-15E.1B one-time official GPO statutory-original acquisition
+on:
+  push:
+    branches:
+      - feat/inc15e1b-amtrak-official-statutory-custody
+    paths:
+      - "scripts/inc15e1b-capture-amtrak-original.py"
+      - ".github/workflows/inc15e1b-acquire-original.yml"
+permissions:
+  contents: write
+concurrency:
+  group: inc15e1b-gpo-2024-official-custody
+  cancel-in-progress: false
+jobs:
+  acquire-from-first-party:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch exact GovInfo 2024 section HTML response bytes; reject substituted editions
+        run: python3 scripts/inc15e1b-capture-amtrak-original.py capture
+      - name: Retain original GPO response, immutable-byte hashes and edition-qualified source model as CI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: inc15e1b-gpo-49usc24301-original
+          path: |
+            evidence/inc15e1b-amtrak-uscode/source-custody.json
+            evidence/inc15e1b-amtrak-uscode/originals/sha256/*.html
+            model/federal/inc15e1b-amtrak-legal-status.json
+          retention-days: 30
+          if-no-files-found: error
+      - name: Commit source bytes to the same isolated feature branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF_NAME" = "feat/inc15e1b-amtrak-official-statutory-custody"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/inc15e1b-amtrak-uscode model/federal/inc15e1b-amtrak-legal-status.json
+          git diff --cached --exit-code --quiet && exit 1 || test "$?" = "1"
+          git commit -m "evidence(inc15e1b): archive exact GPO 2024 section 24301 raw HTML and capture receipts"
+          git push origin "HEAD:$GITHUB_REF_NAME"
