@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15E.1B prior source-status immutable evidence progression",
+  "description": "Append source-original custody 2024 edition to older unretained-law status, without retrospective edit, unverified canonical identity or public Atlas status.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "prior_pilot_case_id",
+    "prior_pilot_model_path",
+    "prior_case_status",
+    "prior_case_release_intact",
+    "newly_archived_source_id",
+    "newly_archived_source_edition",
+    "newly_archived_original_source_sha256",
+    "newly_archived_original_path",
+    "newly_archived_source_edits_or_reconstructions",
+    "new_original_custody_state",
+    "statutory_status_model_path",
+    "statutory_status_relationship_predicate",
+    "statutory_status_from",
+    "statutory_status_to",
+    "statutory_subject_not_ARFI_canonical_identity",
+    "2025_GovMan_publisher_source_observation",
+    "cross_edition_name_comparison_legal_identity_certified",
+    "prior_2025_directory_source_observation_rewritten",
+    "independent_professional_legal_classification_review_complete",
+    "statutory_2026_currentness_checked",
+    "successor_or_historical_rename_asserted",
+    "legal_parent_or_supervision_or_delegation_asserted",
+    "constitutional_individual_rights_status_from_statute_alone_inferred",
+    "actual_operations_or_profitable_results_inferred",
+    "atlas_graph_admitted",
+    "plan_or_data_observatory_changed"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc15e1b-amtrak-supplemental-temporal-identity-adjudication"
+    },
+    "prior_pilot_case_id": {
+      "const": "INC15E1-CASE-AMTRAK-160"
+    },
+    "prior_pilot_model_path": {
+      "const": "model/federal/inc15e1/identity-adjudications.json"
+    },
+    "prior_case_status": {
+      "const": "unresolved_statutory_classification_original_unretained"
+    },
+    "prior_case_release_intact": {
+      "const": true
+    },
+    "newly_archived_source_id": {
+      "const": "INC15E1B-SRC-USCODE-2024-49-24301"
+    },
+    "newly_archived_source_edition": {
+      "const": "USCODE-2024-title49"
+    },
+    "newly_archived_original_source_sha256": {
+      "const": "8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10"
+    },
+    "newly_archived_original_path": {
+      "const": "evidence/inc15e1b-amtrak-uscode/originals/sha256/8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10.html"
+    },
+    "newly_archived_source_edits_or_reconstructions": {
+      "const": false
+    },
+    "new_original_custody_state": {
+      "const": "retained_GPO_2024_code_original_source_clause_text_verified"
+    },
+    "statutory_status_model_path": {
+      "const": "model/federal/inc15e1b/amtrak-legal-status.json"
+    },
+    "statutory_status_relationship_predicate": {
+      "const": "statutory_status_declared_for"
+    },
+    "statutory_status_from": {
+      "const": "STAT-USCODE-2024-49-24301-A"
+    },
+    "statutory_status_to": {
+      "const": "STAT-USCODE-2024-49-24301-AMTRAK"
+    },
+    "statutory_subject_not_ARFI_canonical_identity": {
+      "const": true
+    },
+    "2025_GovMan_publisher_source_observation": {
+      "const": "GOVMAN-2025-12-31:160"
+    },
+    "cross_edition_name_comparison_legal_identity_certified": {
+      "const": false
+    },
+    "prior_2025_directory_source_observation_rewritten": {
+      "const": false
+    },
+    "independent_professional_legal_classification_review_complete": {
+      "const": false
+    },
+    "statutory_2026_currentness_checked": {
+      "const": false
+    },
+    "successor_or_historical_rename_asserted": {
+      "const": false
+    },
+    "legal_parent_or_supervision_or_delegation_asserted": {
+      "const": false
+    },
+    "constitutional_individual_rights_status_from_statute_alone_inferred": {
+      "const": false
+    },
+    "actual_operations_or_profitable_results_inferred": {
+      "const": false
+    },
+    "atlas_graph_admitted": {
+      "const": false
+    },
+    "plan_or_data_observatory_changed": {
+      "const": false
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "atlas_graph_admitted": false,
+  "claim_scope": "2024_gpo_uscode_edition_only_not_2026_live_code",
+  "git_blob_sha1": "8896783bbb61e92a3d33f7a8a64d0fae3bb08c80",
+  "http": {
+    "content_type": "text/html",
+    "final_official_url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title49/html/USCODE-2024-title49-subtitleV-partC-chap243-sec24301.htm",
+    "http_date": "Sun, 25 Oct 2026 15:21:34 GMT",
+    "http_etag": null,
+    "http_last_modified": "Mon, 13 Apr 2026 15:32:03 GMT"
+  },
+  "independent_external_WORM_verified": false,
+  "independent_professional_legal_review_complete": false,
+  "model_family": "inc15e1b-official-gpo-original",
+  "model_version": "0.1.0",
+  "not_current_2026_census_or_operations": true,
+  "official_url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title49/html/USCODE-2024-title49-subtitleV-partC-chap243-sec24301.htm",
+  "original_bytes": 30123,
+  "original_repository_path": "evidence/inc15e1b-amtrak-uscode/originals/sha256/8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10.html",
+  "original_sha256": "8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10",
+  "published_code_edition_year": 2024,
+  "publisher": "U.S. Government Publishing Office",
+  "publisher_package": "USCODE-2024-title49",
+  "retrieved_at_utc": "2026-10-25T15:21:34.476969+00:00",
+  "source_count": 1,
+  "source_edition": "USCODE-2024-title49",
+  "source_id": "INC15E1B-SRC-USCODE-2024-49-24301",
+  "source_original_git_retained": true,
+  "text_validation": {
+    "clause_offsets": {
+      "24301(a)(1)": 26,
+      "24301(a)(2)": 117,
+      "24301(a)(3)": 184
+    },
+    "subsection_a_character_offset": 280,
+    "subsection_a_excerpt_end_before_b": 621,
+    "text_characters": 21421
+  }
+}

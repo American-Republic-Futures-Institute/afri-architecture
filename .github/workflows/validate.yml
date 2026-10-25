@@ -94,6 +94,12 @@ jobs:
         run: python3 scripts/inc15e1-identity-reconcile.py
       - name: Test INC-15E.1 Board-system distinction, OPIC succession, USAID epoch and Atlas admission denial
         run: python3 -m unittest discover -s tests -p 'test_inc15e1_identity_reconciliation.py' -v
+      - name: Verify INC-15E.1B exact original GPO 2024 Amtrak status and SHA-256 Git blob evidence
+        run: python3 scripts/inc15e1b-capture-amtrak-original.py verify
+      - name: Validate INC-15E.1B narrow statutory text relationship with no unreviewed identity or Atlas promotion
+        run: python3 scripts/inc15e1b-amtrak-qualify.py
+      - name: Reject INC-15E.1B statutory epoch, source tamper, constitutional status and false federal agency inference
+        run: python3 -m unittest discover -s tests -p 'test_inc15e1b_amtrak_legal_status.py' -v
       - name: Validate INC-15C.4 historical HHS 11-to-29 bounded publisher edition overlap
         run: node scripts/validate-inc15c4.mjs
       - name: Test INC-15C.4 immutable source pins, CMS naming variant, IG protection and no invented HHS legal hierarchy

@@ -1,0 +1,162 @@
+{
+  "type": "object",
+  "required": [
+    "atlas_graph_admitted",
+    "claim_scope",
+    "git_blob_sha1",
+    "http",
+    "independent_external_WORM_verified",
+    "independent_professional_legal_review_complete",
+    "model_family",
+    "model_version",
+    "not_current_2026_census_or_operations",
+    "official_url",
+    "original_bytes",
+    "original_repository_path",
+    "original_sha256",
+    "published_code_edition_year",
+    "publisher",
+    "publisher_package",
+    "retrieved_at_utc",
+    "source_count",
+    "source_edition",
+    "source_id",
+    "source_original_git_retained",
+    "text_validation"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "atlas_graph_admitted": {
+      "const": false
+    },
+    "claim_scope": {
+      "const": "2024_gpo_uscode_edition_only_not_2026_live_code"
+    },
+    "git_blob_sha1": {
+      "const": "8896783bbb61e92a3d33f7a8a64d0fae3bb08c80"
+    },
+    "http": {
+      "type": "object",
+      "required": [
+        "content_type",
+        "final_official_url",
+        "http_date",
+        "http_etag",
+        "http_last_modified"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "content_type": {
+          "const": "text/html"
+        },
+        "final_official_url": {
+          "const": "https://www.govinfo.gov/content/pkg/USCODE-2024-title49/html/USCODE-2024-title49-subtitleV-partC-chap243-sec24301.htm"
+        },
+        "http_date": {
+          "const": "Sun, 25 Oct 2026 15:21:34 GMT"
+        },
+        "http_etag": {
+          "const": null
+        },
+        "http_last_modified": {
+          "const": "Mon, 13 Apr 2026 15:32:03 GMT"
+        }
+      }
+    },
+    "independent_external_WORM_verified": {
+      "const": false
+    },
+    "independent_professional_legal_review_complete": {
+      "const": false
+    },
+    "model_family": {
+      "const": "inc15e1b-official-gpo-original"
+    },
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "not_current_2026_census_or_operations": {
+      "const": true
+    },
+    "official_url": {
+      "const": "https://www.govinfo.gov/content/pkg/USCODE-2024-title49/html/USCODE-2024-title49-subtitleV-partC-chap243-sec24301.htm"
+    },
+    "original_bytes": {
+      "const": 30123
+    },
+    "original_repository_path": {
+      "const": "evidence/inc15e1b-amtrak-uscode/originals/sha256/8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10.html"
+    },
+    "original_sha256": {
+      "const": "8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10"
+    },
+    "published_code_edition_year": {
+      "const": 2024
+    },
+    "publisher": {
+      "const": "U.S. Government Publishing Office"
+    },
+    "publisher_package": {
+      "const": "USCODE-2024-title49"
+    },
+    "retrieved_at_utc": {
+      "const": "2026-10-25T15:21:34.476969+00:00"
+    },
+    "source_count": {
+      "const": 1
+    },
+    "source_edition": {
+      "const": "USCODE-2024-title49"
+    },
+    "source_id": {
+      "const": "INC15E1B-SRC-USCODE-2024-49-24301"
+    },
+    "source_original_git_retained": {
+      "const": true
+    },
+    "text_validation": {
+      "type": "object",
+      "required": [
+        "clause_offsets",
+        "subsection_a_character_offset",
+        "subsection_a_excerpt_end_before_b",
+        "text_characters"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "clause_offsets": {
+          "type": "object",
+          "required": [
+            "24301(a)(1)",
+            "24301(a)(2)",
+            "24301(a)(3)"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "24301(a)(1)": {
+              "const": 26
+            },
+            "24301(a)(2)": {
+              "const": 117
+            },
+            "24301(a)(3)": {
+              "const": 184
+            }
+          }
+        },
+        "subsection_a_character_offset": {
+          "const": 280
+        },
+        "subsection_a_excerpt_end_before_b": {
+          "const": 621
+        },
+        "text_characters": {
+          "const": 21421
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-15E.1B GPO 2024 §24301 original-source and qualified statutory treatment — inc15e1b-official-gpo-original",
+  "description": "Exact retained original from official GPO, SHA and Git blob with source-local clause scope; no independently certified legal entity equivalence, contemporary government status, constitutional private-state designation, or public Atlas admission."
+}

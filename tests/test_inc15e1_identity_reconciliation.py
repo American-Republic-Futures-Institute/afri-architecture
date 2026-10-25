@@ -69,7 +69,7 @@ class IdentityAndRelationshipEvidence(unittest.TestCase):
                           result["explicit_source_only_dispositions"],
                           result["unlinked_without_source_dispositions"]),
                          (231,50,181,88,93))
-        self.assertEqual(result["typed_relationship_contracts"],9)
+        self.assertEqual(result["typed_relationship_contracts"],10)
         self.assertEqual(result["pilot_cases"],4)
         self.assertEqual(result["original_replayed_publisher_listing_edges"],4)
         self.assertEqual(result["source_to_canonical_legal_matches_qualified"],0)

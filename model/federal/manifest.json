@@ -344,7 +344,10 @@
     "model/federal/inc15e1/identity-adjudications.json",
     "model/federal/inc15e1/relationship-candidates.json",
     "model/federal/inc15e1/evidence-dimensions.json",
-    "model/federal/inc15e1/atlas-adapter-contract.json"
+    "model/federal/inc15e1/atlas-adapter-contract.json",
+    "model/federal/inc15e1b/amtrak-legal-status.json",
+    "model/federal/inc15e1b/amtrak-status-transition.json",
+    "model/federal/inc15e1b/amtrak-statutory-source-coverage.json"
   ],
   "standards": [
     {
@@ -1507,5 +1510,23 @@
     "plan_or_observatory_changed": false,
     "atlas_adapter_contract_path": "model/federal/inc15e1/atlas-adapter-contract.json",
     "allow_direct_Atlas_edge_publication": false
+  },
+  "federal_identity_interoperability_15e1b_extension": {
+    "original_source_edition": "USCODE-2024-title49",
+    "official_original_sha256": "8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10",
+    "retained_official_original_path": "evidence/inc15e1b-amtrak-uscode/originals/sha256/8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10.html",
+    "source_custody_path": "evidence/inc15e1b-amtrak-uscode/source-custody.json",
+    "statutory_treatment_path": "model/federal/inc15e1b/amtrak-legal-status.json",
+    "supplemental_case_path": "model/federal/inc15e1b/amtrak-status-transition.json",
+    "statutory_coverage_path": "model/federal/inc15e1b/amtrak-statutory-source-coverage.json",
+    "qualified_original_statutory_clause_count": 3,
+    "publisher_original_supported_statutory_status_edges": 1,
+    "independently_legal_reviewed_status_edges": 0,
+    "canonical_identity_links_modified": 0,
+    "source_to_canonical_observation_equivalences_added": 0,
+    "current_2026_institutional_status_certified": false,
+    "publisher_GovMan_original_2025_crosswalk_changed": false,
+    "atlas_graph_changed": false,
+    "plan_or_data_observatory_changed": false
   }
 }

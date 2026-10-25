@@ -62,7 +62,8 @@ TYPES={
  "statutorily_part_of":("statutory_component","statutory_parent","retained_statutory_original",True),
  "supervises":("supervising_institution","supervised_institution","retained_statutory_original",True),
  "delegates_to":("delegating_authority","delegated_actor","retained_statutory_original",True),
- "public_service_provided_by":("public_service","service_provider","retained_statutory_and_operational_originals",True)
+ "public_service_provided_by":("public_service","service_provider","retained_statutory_and_operational_originals",True),
+ "statutory_status_declared_for":("statutory_clause","statutory_named_subject","retained_statutory_original",False)
 }
 LEGAL_LOCATORS={
  "INC15E1-LOC-USC-22-9683":"https://uscode.house.gov/us/usc/119-120/t22/s9683/",
@@ -163,13 +164,16 @@ def run(root=REPO):
                       row["required_evidence_class"]==required and
                       row["asserts_legal_identity_or_authority"] is legal and
                       row["source_edition_required"] is True and
-                      row["typed_scope_and_effective_date_required"] is legal and
+                      row["typed_scope_and_effective_date_required"] is
+                      (legal or typ=="statutory_status_declared_for") and
                       row["historical_edition_is_not_present_day_execution"] is True and
                       row["allows_automatic_publisher_tree_or_name_inference"] is False and
                       row["intended_atlas_category"]==("structure" if legal else "context") and
                       row["qualification_guard"]==
-                      ("legal_original_retained_and_reviewed" if legal else
-                       "publisher_original_replayed_without_legal_certification"),
+                      ("original_statutory_clause_verified_independent_review_pending"
+                       if typ=="statutory_status_declared_for"
+                       else ("legal_original_retained_and_reviewed" if legal else
+                             "publisher_original_replayed_without_legal_certification")),
                       "direction, legal evidence, schema or non-inference semantics changed for "+typ)
         actual_types[typ]=row
     reject_unless(set(actual_types)==set(TYPES),"typed relationship families incomplete")
@@ -379,7 +383,7 @@ def run(root=REPO):
         "publisher_2025_observations":231,"prior_provisional_canonical_links":50,
         "canonically_unlinked_entries":181,"explicit_source_only_dispositions":88,
         "unlinked_without_source_dispositions":93,"pilot_cases":4,
-        "typed_relationship_contracts":9,"original_replayed_publisher_listing_edges":4,
+        "typed_relationship_contracts":10,"original_replayed_publisher_listing_edges":4,
         "legal_originals_retained_for_this_pilot":0,"legal_successors_qualified":0,
         "source_to_canonical_legal_matches_qualified":0,"atlas_edges_admitted":0,
         "plan_data_observatory_unchanged":True,
