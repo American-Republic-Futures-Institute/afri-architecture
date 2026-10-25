@@ -345,9 +345,9 @@
     "model/federal/inc15e1/relationship-candidates.json",
     "model/federal/inc15e1/evidence-dimensions.json",
     "model/federal/inc15e1/atlas-adapter-contract.json",
-    "model/federal/inc15e1b-amtrak-legal-status.json",
-    "model/federal/inc15e1b-amtrak-status-transition.json",
-    "model/federal/inc15e1b-amtrak-statutory-source-coverage.json"
+    "model/federal/inc15e1b/amtrak-legal-status.json",
+    "model/federal/inc15e1b/amtrak-status-transition.json",
+    "model/federal/inc15e1b/amtrak-statutory-source-coverage.json"
   ],
   "standards": [
     {
@@ -1516,9 +1516,9 @@
     "official_original_sha256": "8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10",
     "retained_official_original_path": "evidence/inc15e1b-amtrak-uscode/originals/sha256/8cc04353f66bb3bc10e5a0102cc750bc3380e8796c1126d8f76bf4083b595f10.html",
     "source_custody_path": "evidence/inc15e1b-amtrak-uscode/source-custody.json",
-    "statutory_treatment_path": "model/federal/inc15e1b-amtrak-legal-status.json",
-    "supplemental_case_path": "model/federal/inc15e1b-amtrak-status-transition.json",
-    "statutory_coverage_path": "model/federal/inc15e1b-amtrak-statutory-source-coverage.json",
+    "statutory_treatment_path": "model/federal/inc15e1b/amtrak-legal-status.json",
+    "supplemental_case_path": "model/federal/inc15e1b/amtrak-status-transition.json",
+    "statutory_coverage_path": "model/federal/inc15e1b/amtrak-statutory-source-coverage.json",
     "qualified_original_statutory_clause_count": 3,
     "publisher_original_supported_statutory_status_edges": 1,
     "independently_legal_reviewed_status_edges": 0,
