@@ -27,7 +27,7 @@ URL = "https://www.govinfo.gov/content/pkg/USCODE-2024-title49/html/USCODE-2024-
 SOURCE_ID = "INC15E1B-SRC-USCODE-2024-49-24301"
 PATH = Path("evidence/inc15e1b-amtrak-uscode")
 RECEIPT = PATH / "source-custody.json"
-MODEL = Path("model/federal/inc15e1b-amtrak-legal-status.json")
+MODEL = Path("model/federal/inc15e1b/amtrak-legal-status.json")
 HOSTS = {"www.govinfo.gov", "govinfo.gov"}
 CLAUSES = [
     ("49-USC-24301-A1", "24301(a)(1)", "statute_labels_Amtrak_railroad_carrier",
