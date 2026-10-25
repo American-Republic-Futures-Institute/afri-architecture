@@ -138,6 +138,21 @@
       "intended_atlas_category": "structure",
       "qualification_guard": "legal_original_retained_and_reviewed",
       "semantics": "Documented authorized public service and actual service provision, not mission intent."
+    },
+    {
+      "id": "statutory_status_declared_for",
+      "from_node_kind": "statutory_clause",
+      "to_node_kind": "statutory_named_subject",
+      "direction": "from_to",
+      "required_evidence_class": "retained_statutory_original",
+      "asserts_legal_identity_or_authority": false,
+      "source_edition_required": true,
+      "typed_scope_and_effective_date_required": true,
+      "historical_edition_is_not_present_day_execution": true,
+      "allows_automatic_publisher_tree_or_name_inference": false,
+      "intended_atlas_category": "context",
+      "qualification_guard": "original_statutory_clause_verified_independent_review_pending",
+      "semantics": "A specific archived statutory edition states bounded treatment of a statute-local named subject; not a legal identity equivalence, 2026-current status, complete constitutional classification, ownership, exercised command, or Atlas admission."
     }
   ]
 }
