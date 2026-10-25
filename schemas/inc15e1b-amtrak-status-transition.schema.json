@@ -72,7 +72,7 @@
       "const": "retained_GPO_2024_code_original_source_clause_text_verified"
     },
     "statutory_status_model_path": {
-      "const": "model/federal/inc15e1b-amtrak-legal-status.json"
+      "const": "model/federal/inc15e1b/amtrak-legal-status.json"
     },
     "statutory_status_relationship_predicate": {
       "const": "statutory_status_declared_for"
