@@ -1,0 +1,44 @@
+name: INC-15E.1B Amtrak GPO original statutory status qualification gate
+on:
+  push:
+    branches:
+      - feat/inc15e1b-amtrak-official-statutory-custody
+  pull_request:
+    paths:
+      - "evidence/inc15e1b-amtrak-uscode/**"
+      - "model/federal/inc15e1b-amtrak-*.json"
+      - "model/federal/inc15e1/relationship-type-registry.json"
+      - "model/federal/manifest.json"
+      - "schemas/inc15e1b-amtrak-*.json"
+      - "scripts/inc15e1b-*.py"
+      - "scripts/inc15e1-identity-reconcile.py"
+      - "tests/test_inc15e1b_amtrak_legal_status.py"
+      - "tests/test_inc15e1_identity_reconciliation.py"
+      - "docs/inc15e1b-amtrak-statutory-status-evidence.md"
+      - ".github/workflows/inc15e1b-amtrak-source-gate.yml"
+permissions:
+  contents: read
+jobs:
+  amtrak-legal-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Replay exact retained GPO 2024 section 24301 original bytes and three subsection clauses
+        run: python3 scripts/inc15e1b-capture-amtrak-original.py verify
+      - name: Verify all prior source identity relationships and new status-limited typed clause
+        run: python3 scripts/inc15e1b-amtrak-qualify.py
+      - name: Reject GPO byte tampering source epoch confusion Amtrak constitutional-overreach and false Atlas identity
+        run: python3 -m unittest discover -s tests -p 'test_inc15e1b_amtrak_legal_status.py' -v
+      - name: Preserve earlier INC-15E.1A original publisher identity contract and no-promotion gates
+        run: python3 -m unittest discover -s tests -p 'test_inc15e1_identity_reconciliation.py' -v
+      - name: Preserve federal legal-source review constraints
+        run: node scripts/validate-inc15.mjs
+      - name: Preserve existing canonical graph schema and registered model manifest integrity
+        run: node scripts/validate.mjs
