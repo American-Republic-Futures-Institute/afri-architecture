@@ -6,7 +6,7 @@ on:
   pull_request:
     paths:
       - "evidence/inc15e1b-amtrak-uscode/**"
-      - "model/federal/inc15e1b-amtrak-*.json"
+      - "model/federal/inc15e1b/**"
       - "model/federal/inc15e1/relationship-type-registry.json"
       - "model/federal/manifest.json"
       - "schemas/inc15e1b-amtrak-*.json"
