@@ -44,7 +44,7 @@ The common identity relationship registry now includes **10 types**. The additio
 - Qualification: **original 2024 statutory text replayed; independent legal review pending**.
 - Direction: statutory clause → subject of the clause, *not* supervisor → subordinate, delegation, institutional succession, canonical agency equivalence, or exercised function.
 
-The historic 2025 Government Manual publisher observation `GOVMAN-2025-12-31:160` remains intact. Its original INC-15E.1A case recorded that a statutory original had **not** yet been retained. The new [supplemental source-status transition](../model/federal/inc15e1b-amtrak-status-transition.json) appends the **2024 GPO capture event** without retroactively editing that prior research-release record. It explicitly refuses to claim legal identity equivalence between the 2025 publisher name and the 2024 statute-local subject without a separate qualification.
+The historic 2025 Government Manual publisher observation `GOVMAN-2025-12-31:160` remains intact. Its original INC-15E.1A case recorded that a statutory original had **not** yet been retained. The new [supplemental source-status transition](../model/federal/inc15e1b/amtrak-status-transition.json) appends the **2024 GPO capture event** without retroactively editing that prior research-release record. It explicitly refuses to claim legal identity equivalence between the 2025 publisher name and the 2024 statute-local subject without a separate qualification.
 
 No new canonical agency ID, supervision or command edge, budget or corporate ownership predicate, source-to-canonical identity certificate, Atlas relation, Plan recommendation or Data Observatory public-outcome assertion is made.
 
@@ -64,9 +64,9 @@ No new canonical agency ID, supervision or command edge, budget or corporate own
 ## Reproducibility and negative gates
 
 - [Offline source verifier and initial capture CLI](../scripts/inc15e1b-capture-amtrak-original.py): rejects altered raw original, missing clause, wrong source edition, false GPO provenance and unsupported legal or public claims. Capture mode refuses to overwrite an existing source receipt.
-- [Status and clause-scoped relationship model](../model/federal/inc15e1b-amtrak-legal-status.json).
-- [Source-retention and qualification coverage](../model/federal/inc15e1b-amtrak-statutory-source-coverage.json).
-- [Immutable previous-case source-status transition](../model/federal/inc15e1b-amtrak-status-transition.json).
+- [Status and clause-scoped relationship model](../model/federal/inc15e1b/amtrak-legal-status.json).
+- [Source-retention and qualification coverage](../model/federal/inc15e1b/amtrak-statutory-source-coverage.json).
+- [Immutable previous-case source-status transition](../model/federal/inc15e1b/amtrak-status-transition.json).
 - [Full original-source and crosswalk qualifier](../scripts/inc15e1b-amtrak-qualify.py) and [32 targeted tests](../tests/test_inc15e1b_amtrak_legal_status.py).
 - Four closed INC-15E.1B JSON Schemas, including the exact original receipt, status, transition and coverage schemas.
 
