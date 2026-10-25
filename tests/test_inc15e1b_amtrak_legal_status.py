@@ -55,7 +55,7 @@ class AmtrakOfficialOriginalAndScopedStatus(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,match):
                 q.capture.verify(root)
 
-    def reject_full(self,path,mutation,match="INC-15E.1B legal-status evidence contract rejected"):
+    def reject_full(self,path,mutation,match=r"INC-15E\.1(?: identity and statutory-evidence gate|B legal-status evidence contract) rejected"):
         tmp,root=self.scratch(all_prior=True)
         with tmp:
             model=q.read(root,path)
