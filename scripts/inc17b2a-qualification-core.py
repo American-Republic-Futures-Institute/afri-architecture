@@ -271,7 +271,7 @@ def validate_data(d,root=ROOT,validate_originals=True):
      x["prior_historical_publisher_count"]!=priorHistorical or \
      x["prior_historical_source_original_retained"]!=(True if sc=="DHS" else False if sc=="VA" else None) or \
      x["prior_historical_source_snapshot"]!=snapshot or \
-     x["prior_historical_original_sha256"]!=(d["dhs"]["source_original_sha256"] if sc=="DHS" else None)):
+     x["prior_historical_original_sha256"]!=(d["dhs"]["source_original_sha256"] if sc=="DHS" else None):
    fail(errors,"historic publisher and official statute sources misreconciled "+rootid)
   if x["priority_state"]!=("original_statutory_text_verified_current_institutional_effect_pending" if expectedSrc else "other_cabinet_source_qualification_deferred") or \
      x["current_federal_first_level_legal_roster_count"] is not None or \
