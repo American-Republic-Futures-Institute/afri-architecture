@@ -1,0 +1,77 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc17b-cross-branch-and-jurisdiction-semantic-boundaries",
+  "original_link_ids_unchanged": true,
+  "relationships_derived_as_verified_new_law": false,
+  "all_relationships_remain_unadmitted": true,
+  "items": [
+    {
+      "id": "WG17B-BOUND-REL-FED-0090",
+      "case_class": "federal_cross_branch_or_judicial_relationship",
+      "original_relationship_model": "model/federal/relationships.json",
+      "original_relationship_id": "REL-FED-0090",
+      "source_from_id": "ORG-FED-LEG-CONGRESS",
+      "source_to_id": "ORG-FED-EXE-PRESIDENT",
+      "source_relationship_type": "exercises_oversight_of",
+      "original_source_ids": [
+        "SRC-HOUSE-STRUCTURE"
+      ],
+      "original_review_state": "observed_summary",
+      "semantic_boundary": "legislative_oversight_not_executive_command",
+      "independent_current_legal_review_complete": false,
+      "legal_command_or_control_inferred": false,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-BOUND-REL-FED-0096",
+      "case_class": "federal_cross_branch_or_judicial_relationship",
+      "original_relationship_model": "model/federal/relationships.json",
+      "original_relationship_id": "REL-FED-0096",
+      "source_from_id": "ORG-FED-JUD-APPEALS",
+      "source_to_id": "ORG-FED-JUD-DISTRICT",
+      "source_relationship_type": "reviews_decisions_of",
+      "original_source_ids": [
+        "SRC-USCOURTS-STRUCTURE"
+      ],
+      "original_review_state": "observed_summary",
+      "semantic_boundary": "judicial_review_not_supervisory_management",
+      "independent_current_legal_review_complete": false,
+      "legal_command_or_control_inferred": false,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-BOUND-STATE-FED-LINK-0001",
+      "case_class": "state_federal_constitutional_boundary",
+      "original_relationship_model": "model/state/federalism-links.json",
+      "original_relationship_id": "STATE-FED-LINK-0001",
+      "source_from_id": "JUR-US-VA",
+      "source_to_id": "CONST-US-AMD-10",
+      "source_relationship_type": "reserved_state_power_context_not_specific_agency_delegation",
+      "original_source_ids": [
+        "SRC-STATE-NARA-TENTH"
+      ],
+      "original_review_state": "cross_jurisdiction_constitutional_context_pending_legal_review",
+      "semantic_boundary": "reserved_state_power_not_federal_department_delegation",
+      "independent_current_legal_review_complete": false,
+      "legal_command_or_control_inferred": false,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-BOUND-STATE-FED-LINK-0005",
+      "case_class": "state_federal_constitutional_boundary",
+      "original_relationship_model": "model/state/federalism-links.json",
+      "original_relationship_id": "STATE-FED-LINK-0005",
+      "source_from_id": "JUR-US-NE",
+      "source_to_id": "CONST-US-AMD-10",
+      "source_relationship_type": "reserved_state_power_context_not_specific_agency_delegation",
+      "original_source_ids": [
+        "SRC-STATE-NARA-TENTH"
+      ],
+      "original_review_state": "cross_jurisdiction_constitutional_context_pending_legal_review",
+      "semantic_boundary": "reserved_state_power_not_federal_department_delegation",
+      "independent_current_legal_review_complete": false,
+      "legal_command_or_control_inferred": false,
+      "atlas_admitted": false
+    }
+  ]
+}

@@ -348,7 +348,13 @@
     "model/federal/inc15e1b/amtrak-legal-status.json",
     "model/federal/inc15e1b/amtrak-status-transition.json",
     "model/federal/inc15e1b/amtrak-statutory-source-coverage.json",
-    "model/wholegov/ontology.json"
+    "model/wholegov/ontology.json",
+    "model/wholegov/inc17b-institution-anchors.json",
+    "model/wholegov/inc17b-publisher-observations.json",
+    "model/wholegov/inc17b-department-breadth.json",
+    "model/wholegov/inc17b-jurisdiction-coverage.json",
+    "model/wholegov/inc17b-relationship-boundaries.json",
+    "model/wholegov/inc17b-coverage-ledger.json"
   ],
   "standards": [
     {
@@ -1538,5 +1544,29 @@
     "identity_mutations": false,
     "source_facts_added": 0,
     "public_graph_edges_added": 0
+  },
+  "whole_government_inc17b_extension": {
+    "contract": "INC-17B",
+    "prior_contract": "INC-17A",
+    "status": "source_index_only_unratified",
+    "research_family_count": 6,
+    "paths": [
+      "model/wholegov/inc17b-institution-anchors.json",
+      "model/wholegov/inc17b-publisher-observations.json",
+      "model/wholegov/inc17b-department-breadth.json",
+      "model/wholegov/inc17b-jurisdiction-coverage.json",
+      "model/wholegov/inc17b-relationship-boundaries.json",
+      "model/wholegov/inc17b-coverage-ledger.json"
+    ],
+    "source_publisher_edition": "GOVMAN-2025-12-31",
+    "source_original_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+    "existing_canonical_federal_workset_count": 61,
+    "current_legal_federal_institution_denominator": null,
+    "current_first_level_institution_denominator": null,
+    "atlas_admitted": false,
+    "canonical_id_mutations": false,
+    "new_legal_authority_edges": 0,
+    "new_verified_current_organization_parent_edges": 0,
+    "new_public_outcome_claims": 0
   }
 }

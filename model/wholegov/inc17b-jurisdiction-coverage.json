@@ -1,0 +1,1070 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc17b-jurisdiction-and-pilot-coverage",
+  "source_jurisdiction_model": "model/state/jurisdictions.json",
+  "source_pilot_model": "model/state/institutions.json",
+  "existing_member_states": 50,
+  "existing_district_comparators": 1,
+  "modeled_state_constitutional_pilots": 2,
+  "reference_state_institutions": 19,
+  "no_tribal_territorial_or_local_census_created": true,
+  "verified_whole_government_jurisdiction_denominator": null,
+  "state_governments_are_not_federal_offices": true,
+  "atlas_admitted": false,
+  "items": [
+    {
+      "id": "WG17B-JUR-JUR-US-AL",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-AL",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-AK",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-AK",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-AZ",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-AZ",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-AR",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-AR",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-CA",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-CA",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-CO",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-CO",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-CT",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-CT",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-DE",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-DE",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-FL",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-FL",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-GA",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-GA",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-HI",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-HI",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-ID",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-ID",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-IL",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-IL",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-IN",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-IN",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-IA",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-IA",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-KS",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-KS",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-KY",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-KY",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-LA",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-LA",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-ME",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-ME",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-MD",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-MD",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-MA",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-MA",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-MI",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-MI",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-MN",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-MN",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-MS",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-MS",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-MO",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-MO",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-MT",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-MT",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-NE",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-NE",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": "CONST-STATE-NE",
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [
+        "ORG-STATE-NE-LEG-LEGISLATURE",
+        "ORG-STATE-NE-EXE-GOVERNOR",
+        "ORG-STATE-NE-JUD-SUPREME-COURT",
+        "ORG-STATE-NE-JUD-APPELLATE",
+        "ORG-STATE-NE-JUD-DISTRICT-COURTS",
+        "ORG-STATE-NE-JUD-COUNTY-COURTS"
+      ],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-NV",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-NV",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-NH",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-NH",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-NJ",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-NJ",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-NM",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-NM",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-NY",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-NY",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-NC",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-NC",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-ND",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-ND",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-OH",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-OH",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-OK",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-OK",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-OR",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-OR",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-PA",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-PA",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-RI",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-RI",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-SC",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-SC",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-SD",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-SD",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-TN",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-TN",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-TX",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-TX",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-UT",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-UT",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-VT",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-VT",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-VA",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-VA",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": "CONST-STATE-VA",
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [
+        "ORG-STATE-VA-LEG-GENERAL-ASSEMBLY",
+        "ORG-STATE-VA-LEG-SENATE",
+        "ORG-STATE-VA-LEG-HOUSE",
+        "ORG-STATE-VA-EXE-GOVERNOR",
+        "ORG-STATE-VA-EXE-LIEUTENANT-GOVERNOR",
+        "ORG-STATE-VA-EXE-ATTORNEY-GENERAL",
+        "ORG-STATE-VA-JUD-SUPREME-COURT",
+        "ORG-STATE-VA-JUD-COURT-APPEALS",
+        "ORG-STATE-VA-JUD-CIRCUIT-COURTS",
+        "ORG-STATE-VA-JUD-GENERAL-DISTRICT",
+        "ORG-STATE-VA-JUD-JUVENILE-DOMESTIC",
+        "ORG-STATE-VA-SPECIAL-REDISTRICTING-COMMISSION",
+        "ORG-STATE-VA-SPECIAL-LOCAL-GOVERNMENT-CLASSES"
+      ],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-WA",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-WA",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-WV",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-WV",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-WI",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-WI",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-WY",
+      "record_class": "existing_member_state",
+      "canonical_jurisdiction_id": "JUR-US-WY",
+      "jurisdiction_kind": "member_state",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": true,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-JUR-US-DC-NONSTATE",
+      "record_class": "existing_federal_district_comparator",
+      "canonical_jurisdiction_id": "JUR-US-DC-NONSTATE",
+      "jurisdiction_kind": "federal_district",
+      "state_constitution_id": null,
+      "original_source_ids": [
+        "SRC-STATE-CENSUS-CODES",
+        "SRC-STATE-NARA-FEDERALISM"
+      ],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": false,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-CLASS-TRIBAL-NATION",
+      "record_class": "jurisdiction_class_research_gap",
+      "canonical_jurisdiction_id": null,
+      "jurisdiction_kind": "tribal_nation",
+      "state_constitution_id": null,
+      "original_source_ids": [],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": false,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-CLASS-TERRITORY",
+      "record_class": "jurisdiction_class_research_gap",
+      "canonical_jurisdiction_id": null,
+      "jurisdiction_kind": "territory",
+      "state_constitution_id": null,
+      "original_source_ids": [],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": false,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-CLASS-LOCAL-GOVERNMENT",
+      "record_class": "jurisdiction_class_research_gap",
+      "canonical_jurisdiction_id": null,
+      "jurisdiction_kind": "local_government",
+      "state_constitution_id": null,
+      "original_source_ids": [],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": false,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B-JUR-CLASS-INTERGOVERNMENTAL-BODY",
+      "record_class": "jurisdiction_class_research_gap",
+      "canonical_jurisdiction_id": null,
+      "jurisdiction_kind": "intergovernmental_body",
+      "state_constitution_id": null,
+      "original_source_ids": [],
+      "pilot_canonical_institution_ids": [],
+      "verified_state_jurisdiction_record": false,
+      "independently_qualified_complete_state_institution_denominator": null,
+      "institutional_population_complete": false,
+      "federal_department_parent_id": null,
+      "no_federal_executive_chain_of_command": true,
+      "jurisdiction_legal_scope_independent_of_federal_catalog": true,
+      "atlas_admitted": false
+    }
+  ]
+}
