@@ -1,0 +1,94 @@
+{
+  "model_version": "0.1.0",
+  "source_publisher_edition": "GOVMAN-2025-12-31",
+  "original_source_sha256": "c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138",
+  "original_source_repository_path": "evidence/govman-2025/originals/sha256/c1e5b58cce0a018b4995f900584605d07e473079a37d5a665a3a8ebb5d643138.xml",
+  "original_git_blob_sha1": "195c46a67c87ae85f1dedd423250900f119a041a",
+  "count_unit": "original_publisher_entries_not_canonical_institutions",
+  "source_original_independent_worm_custody": false,
+  "legal_currentness_verified": false,
+  "new_public_graph_admissions": 0,
+  "atlas_admitted": false,
+  "model_family": "inc17b-disjoint-institutional-coverage-ledger",
+  "publisher_record_count": 231,
+  "publisher_top_level_entry_count": 105,
+  "provisional_canonical_name_links": 50,
+  "source_only_entries_with_disposition": 88,
+  "unresolved_source_only_entries": 93,
+  "current_government_population_denominator": null,
+  "current_federal_adl1_first_level_denominator": null,
+  "present_day_institutional_identity_certifications_added": 0,
+  "newly_qualified_current_supervision_delegation_or_command_edges": 0,
+  "current_public_service_outcome_claims_added": 0,
+  "existing_core_federal_catalog_anchors": 61,
+  "existing_core_legislative": 9,
+  "existing_core_executive_leadership": 10,
+  "existing_core_cabinet": 15,
+  "existing_core_independent": 18,
+  "existing_core_judiciary": 9,
+  "publisher_cabinet_parent_entries": 15,
+  "publisher_cabinet_total_nested_entries": 102,
+  "publisher_cabinet_direct_child_source_observations": 63,
+  "existing_fifty_state_jurisdictions": 50,
+  "state_constitutional_pilots": 2,
+  "present_day_whole_of_government_ADL1_completion_rate": null,
+  "publisher_nonadditive_edition_warning": "Counts are exact 2025 publisher observations, not additive verified current institutions or legal first-level units.",
+  "items": [
+    {
+      "original_publisher_category": "Legislative Branch",
+      "source_publisher_entry_count": 10,
+      "provisional_identity_links": 9,
+      "source_only_dispositions": 0,
+      "unresolved_source_entries": 1,
+      "independently_certified_current_institution_denominator": null
+    },
+    {
+      "original_publisher_category": "Judicial Branch",
+      "source_publisher_entry_count": 16,
+      "provisional_identity_links": 7,
+      "source_only_dispositions": 0,
+      "unresolved_source_entries": 9,
+      "independently_certified_current_institution_denominator": null
+    },
+    {
+      "original_publisher_category": "Executive Branch: The President",
+      "source_publisher_entry_count": 2,
+      "provisional_identity_links": 2,
+      "source_only_dispositions": 0,
+      "unresolved_source_entries": 0,
+      "independently_certified_current_institution_denominator": null
+    },
+    {
+      "original_publisher_category": "Executive Branch: Departments",
+      "source_publisher_entry_count": 117,
+      "provisional_identity_links": 15,
+      "source_only_dispositions": 43,
+      "unresolved_source_entries": 59,
+      "independently_certified_current_institution_denominator": null
+    },
+    {
+      "original_publisher_category": "Executive Branch: Independent Agencies and Government Corporations",
+      "source_publisher_entry_count": 62,
+      "provisional_identity_links": 17,
+      "source_only_dispositions": 45,
+      "unresolved_source_entries": 0,
+      "independently_certified_current_institution_denominator": null
+    },
+    {
+      "original_publisher_category": "Quasi-Official Agencies",
+      "source_publisher_entry_count": 8,
+      "provisional_identity_links": 0,
+      "source_only_dispositions": 0,
+      "unresolved_source_entries": 8,
+      "independently_certified_current_institution_denominator": null
+    },
+    {
+      "original_publisher_category": "International Organizations",
+      "source_publisher_entry_count": 16,
+      "provisional_identity_links": 0,
+      "source_only_dispositions": 0,
+      "unresolved_source_entries": 16,
+      "independently_certified_current_institution_denominator": null
+    }
+  ]
+}

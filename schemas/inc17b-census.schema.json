@@ -1,0 +1,939 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/inc17b-census.schema.json",
+  "title": "INC-17B versioned source-only institutional census; six closed source-edition families",
+  "description": "All collection and item property sets are closed; source-only observations never confer canonical identity, current legal authority, government command or public Atlas admission.",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_catalog_base_sha",
+        "source_snapshot",
+        "canonical_record_scope_count",
+        "current_legal_whole_government_denominator",
+        "institutional_authority_certified",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b-existing-canonical-institution-anchors"
+        },
+        "source_catalog_base_sha": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_snapshot": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_record_scope_count": {
+          "type": "integer"
+        },
+        "current_legal_whole_government_denominator": {
+          "const": null
+        },
+        "institutional_authority_certified": {
+          "const": false
+        },
+        "atlas_admitted": {
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_id",
+              "canonical_source_model",
+              "family",
+              "branch_id",
+              "source_catalog_parent_id",
+              "canonical_source_ids",
+              "original_core_observation_status",
+              "govman_2025_source_key",
+              "govman_identity_link_status",
+              "source_epoch",
+              "jurisdiction_class",
+              "current_institutional_structure_complete",
+              "qualified_adl1_first_level_denominator",
+              "adl1_certified",
+              "current_legal_powers_independently_reviewed",
+              "source_catalog_hierarchy_is_not_command",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_source_model": {
+                "type": "string",
+                "minLength": 1
+              },
+              "family": {
+                "type": "string",
+                "minLength": 1
+              },
+              "branch_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_catalog_parent_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "original_core_observation_status": {
+                "type": "string",
+                "minLength": 1
+              },
+              "govman_2025_source_key": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "govman_identity_link_status": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_epoch": {
+                "type": "string",
+                "minLength": 1
+              },
+              "jurisdiction_class": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_institutional_structure_complete": {
+                "const": false
+              },
+              "qualified_adl1_first_level_denominator": {
+                "const": null
+              },
+              "adl1_certified": {
+                "const": false
+              },
+              "current_legal_powers_independently_reviewed": {
+                "const": false
+              },
+              "source_catalog_hierarchy_is_not_command": {
+                "const": true
+              },
+              "atlas_admitted": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "source_publisher_edition",
+        "original_source_sha256",
+        "original_source_repository_path",
+        "original_git_blob_sha1",
+        "count_unit",
+        "source_original_independent_worm_custody",
+        "legal_currentness_verified",
+        "new_public_graph_admissions",
+        "atlas_admitted",
+        "model_family",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "source_publisher_edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_source_sha256": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_source_repository_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_git_blob_sha1": {
+          "type": "string",
+          "minLength": 1
+        },
+        "count_unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_original_independent_worm_custody": {
+          "const": false
+        },
+        "legal_currentness_verified": {
+          "const": false
+        },
+        "new_public_graph_admissions": {
+          "type": "integer"
+        },
+        "atlas_admitted": {
+          "const": false
+        },
+        "model_family": {
+          "const": "inc17b-publisher-edition-identity-and-nesting-index"
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "source_entity_key",
+              "publisher_name",
+              "publisher_category",
+              "source_element_tag",
+              "publisher_parent_key",
+              "publisher_depth",
+              "source_original_xpath",
+              "source_original_sha256",
+              "accounting_partition",
+              "provisional_canonical_candidate_id",
+              "original_crosswalk_record_id",
+              "prior_source_only_disposition_model",
+              "prior_source_only_disposition_id",
+              "prior_source_only_disposition_type",
+              "publisher_parentage_only",
+              "candidate_identity_independently_certified",
+              "current_2026_institutional_operation_verified",
+              "legal_supervision_or_delegation_asserted",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_entity_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_category": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_element_tag": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_parent_key": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "publisher_depth": {
+                "type": "integer"
+              },
+              "source_original_xpath": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_original_sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "accounting_partition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "provisional_canonical_candidate_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "original_crosswalk_record_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prior_source_only_disposition_model": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "prior_source_only_disposition_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "prior_source_only_disposition_type": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "publisher_parentage_only": {
+                "const": true
+              },
+              "candidate_identity_independently_certified": {
+                "const": false
+              },
+              "current_2026_institutional_operation_verified": {
+                "const": false
+              },
+              "legal_supervision_or_delegation_asserted": {
+                "const": false
+              },
+              "atlas_admitted": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_publisher_edition",
+        "source_original_sha256",
+        "department_count",
+        "whole_current_legal_first_level_denominator",
+        "current_organization_chain_verified",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b-cabinet-adl1-source-breadth"
+        },
+        "source_publisher_edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_original_sha256": {
+          "type": "string",
+          "minLength": 1
+        },
+        "department_count": {
+          "type": "integer"
+        },
+        "whole_current_legal_first_level_denominator": {
+          "const": null
+        },
+        "current_organization_chain_verified": {
+          "const": false
+        },
+        "atlas_admitted": {
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "govman_publisher_parent_key",
+              "govman_publisher_root_name",
+              "source_snapshot_id",
+              "govman_direct_child_keys",
+              "govman_direct_source_count",
+              "govman_deeper_source_count",
+              "govman_hierarchy_is_publisher_listing_only",
+              "prior_inc15b_source_record_id",
+              "prior_inc15b_publisher_source_id",
+              "prior_inc15b_source_model_path",
+              "prior_inc15b_source_epoch",
+              "prior_inc15b_source_record_count",
+              "supplemental_research_model_paths",
+              "current_legal_first_level_denominator",
+              "independently_qualified_adl1_count",
+              "complete_current_first_level_roster_qualified",
+              "source_first_level_records_are_not_verified_offices",
+              "source_nesting_is_not_supervision_or_military_command",
+              "coverage_gap",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "govman_publisher_parent_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "govman_publisher_root_name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_snapshot_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "govman_direct_child_keys": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "govman_direct_source_count": {
+                "type": "integer"
+              },
+              "govman_deeper_source_count": {
+                "type": "integer"
+              },
+              "govman_hierarchy_is_publisher_listing_only": {
+                "const": true
+              },
+              "prior_inc15b_source_record_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prior_inc15b_publisher_source_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "prior_inc15b_source_model_path": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "prior_inc15b_source_epoch": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "prior_inc15b_source_record_count": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "supplemental_research_model_paths": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "current_legal_first_level_denominator": {
+                "const": null
+              },
+              "independently_qualified_adl1_count": {
+                "type": "integer"
+              },
+              "complete_current_first_level_roster_qualified": {
+                "const": false
+              },
+              "source_first_level_records_are_not_verified_offices": {
+                "const": true
+              },
+              "source_nesting_is_not_supervision_or_military_command": {
+                "const": true
+              },
+              "coverage_gap": {
+                "type": "string",
+                "minLength": 1
+              },
+              "atlas_admitted": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_jurisdiction_model",
+        "source_pilot_model",
+        "existing_member_states",
+        "existing_district_comparators",
+        "modeled_state_constitutional_pilots",
+        "reference_state_institutions",
+        "no_tribal_territorial_or_local_census_created",
+        "verified_whole_government_jurisdiction_denominator",
+        "state_governments_are_not_federal_offices",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b-jurisdiction-and-pilot-coverage"
+        },
+        "source_jurisdiction_model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_pilot_model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "existing_member_states": {
+          "type": "integer"
+        },
+        "existing_district_comparators": {
+          "type": "integer"
+        },
+        "modeled_state_constitutional_pilots": {
+          "type": "integer"
+        },
+        "reference_state_institutions": {
+          "type": "integer"
+        },
+        "no_tribal_territorial_or_local_census_created": {
+          "const": true
+        },
+        "verified_whole_government_jurisdiction_denominator": {
+          "const": null
+        },
+        "state_governments_are_not_federal_offices": {
+          "const": true
+        },
+        "atlas_admitted": {
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "record_class",
+              "canonical_jurisdiction_id",
+              "jurisdiction_kind",
+              "state_constitution_id",
+              "original_source_ids",
+              "pilot_canonical_institution_ids",
+              "verified_state_jurisdiction_record",
+              "independently_qualified_complete_state_institution_denominator",
+              "institutional_population_complete",
+              "federal_department_parent_id",
+              "no_federal_executive_chain_of_command",
+              "jurisdiction_legal_scope_independent_of_federal_catalog",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "record_class": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_jurisdiction_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "jurisdiction_kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "state_constitution_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 0
+              },
+              "original_source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "pilot_canonical_institution_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "verified_state_jurisdiction_record": {
+                "type": "boolean"
+              },
+              "independently_qualified_complete_state_institution_denominator": {
+                "const": null
+              },
+              "institutional_population_complete": {
+                "const": false
+              },
+              "federal_department_parent_id": {
+                "const": null
+              },
+              "no_federal_executive_chain_of_command": {
+                "const": true
+              },
+              "jurisdiction_legal_scope_independent_of_federal_catalog": {
+                "const": true
+              },
+              "atlas_admitted": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "original_link_ids_unchanged",
+        "relationships_derived_as_verified_new_law",
+        "all_relationships_remain_unadmitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b-cross-branch-and-jurisdiction-semantic-boundaries"
+        },
+        "original_link_ids_unchanged": {
+          "const": true
+        },
+        "relationships_derived_as_verified_new_law": {
+          "const": false
+        },
+        "all_relationships_remain_unadmitted": {
+          "const": true
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "case_class",
+              "original_relationship_model",
+              "original_relationship_id",
+              "source_from_id",
+              "source_to_id",
+              "source_relationship_type",
+              "original_source_ids",
+              "original_review_state",
+              "semantic_boundary",
+              "independent_current_legal_review_complete",
+              "legal_command_or_control_inferred",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "case_class": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_relationship_model": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_relationship_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_from_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_to_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_relationship_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "original_review_state": {
+                "type": "string",
+                "minLength": 1
+              },
+              "semantic_boundary": {
+                "type": "string",
+                "minLength": 1
+              },
+              "independent_current_legal_review_complete": {
+                "const": false
+              },
+              "legal_command_or_control_inferred": {
+                "const": false
+              },
+              "atlas_admitted": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "source_publisher_edition",
+        "original_source_sha256",
+        "original_source_repository_path",
+        "original_git_blob_sha1",
+        "count_unit",
+        "source_original_independent_worm_custody",
+        "legal_currentness_verified",
+        "new_public_graph_admissions",
+        "atlas_admitted",
+        "model_family",
+        "publisher_record_count",
+        "publisher_top_level_entry_count",
+        "provisional_canonical_name_links",
+        "source_only_entries_with_disposition",
+        "unresolved_source_only_entries",
+        "current_government_population_denominator",
+        "current_federal_adl1_first_level_denominator",
+        "present_day_institutional_identity_certifications_added",
+        "newly_qualified_current_supervision_delegation_or_command_edges",
+        "current_public_service_outcome_claims_added",
+        "existing_core_federal_catalog_anchors",
+        "existing_core_legislative",
+        "existing_core_executive_leadership",
+        "existing_core_cabinet",
+        "existing_core_independent",
+        "existing_core_judiciary",
+        "publisher_cabinet_parent_entries",
+        "publisher_cabinet_total_nested_entries",
+        "publisher_cabinet_direct_child_source_observations",
+        "existing_fifty_state_jurisdictions",
+        "state_constitutional_pilots",
+        "present_day_whole_of_government_ADL1_completion_rate",
+        "publisher_nonadditive_edition_warning",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "source_publisher_edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_source_sha256": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_source_repository_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_git_blob_sha1": {
+          "type": "string",
+          "minLength": 1
+        },
+        "count_unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_original_independent_worm_custody": {
+          "const": false
+        },
+        "legal_currentness_verified": {
+          "const": false
+        },
+        "new_public_graph_admissions": {
+          "type": "integer"
+        },
+        "atlas_admitted": {
+          "const": false
+        },
+        "model_family": {
+          "const": "inc17b-disjoint-institutional-coverage-ledger"
+        },
+        "publisher_record_count": {
+          "type": "integer"
+        },
+        "publisher_top_level_entry_count": {
+          "type": "integer"
+        },
+        "provisional_canonical_name_links": {
+          "type": "integer"
+        },
+        "source_only_entries_with_disposition": {
+          "type": "integer"
+        },
+        "unresolved_source_only_entries": {
+          "type": "integer"
+        },
+        "current_government_population_denominator": {
+          "const": null
+        },
+        "current_federal_adl1_first_level_denominator": {
+          "const": null
+        },
+        "present_day_institutional_identity_certifications_added": {
+          "type": "integer"
+        },
+        "newly_qualified_current_supervision_delegation_or_command_edges": {
+          "type": "integer"
+        },
+        "current_public_service_outcome_claims_added": {
+          "type": "integer"
+        },
+        "existing_core_federal_catalog_anchors": {
+          "type": "integer"
+        },
+        "existing_core_legislative": {
+          "type": "integer"
+        },
+        "existing_core_executive_leadership": {
+          "type": "integer"
+        },
+        "existing_core_cabinet": {
+          "type": "integer"
+        },
+        "existing_core_independent": {
+          "type": "integer"
+        },
+        "existing_core_judiciary": {
+          "type": "integer"
+        },
+        "publisher_cabinet_parent_entries": {
+          "type": "integer"
+        },
+        "publisher_cabinet_total_nested_entries": {
+          "type": "integer"
+        },
+        "publisher_cabinet_direct_child_source_observations": {
+          "type": "integer"
+        },
+        "existing_fifty_state_jurisdictions": {
+          "type": "integer"
+        },
+        "state_constitutional_pilots": {
+          "type": "integer"
+        },
+        "present_day_whole_of_government_ADL1_completion_rate": {
+          "const": null
+        },
+        "publisher_nonadditive_edition_warning": {
+          "type": "string",
+          "minLength": 1
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "original_publisher_category",
+              "source_publisher_entry_count",
+              "provisional_identity_links",
+              "source_only_dispositions",
+              "unresolved_source_entries",
+              "independently_certified_current_institution_denominator"
+            ],
+            "properties": {
+              "original_publisher_category": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_publisher_entry_count": {
+                "type": "integer"
+              },
+              "provisional_identity_links": {
+                "type": "integer"
+              },
+              "source_only_dispositions": {
+                "type": "integer"
+              },
+              "unresolved_source_entries": {
+                "type": "integer"
+              },
+              "independently_certified_current_institution_denominator": {
+                "const": null
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
