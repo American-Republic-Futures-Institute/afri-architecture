@@ -55,3 +55,23 @@ test("publisher listing never establishes legal State supervision or command",()
  const errors=inspectCandidateEdge(edge,nodes,d.ontology).join(" | ");
  assert.match(errors,/cross-jurisdiction/);assert.match(errors,/unverified law/);assert.match(errors,/forbidden inferred/);
 });
+
+test("military command requires operational evidence even after legal text review",()=>{
+ const d=load(),nodes=[
+  {id:"ORG-FED-EXE-DEP-DEFENSE",kind:"institution",jurisdiction:"federal"},
+  {id:"ORG-FED-EXE-DEP-DHS",kind:"institution",jurisdiction:"federal"}
+ ];
+ const claim={from_id:nodes[0].id,to_id:nodes[1].id,relationship_type:"operationally_commands",
+  source_commit:"c".repeat(40),source_ids:["SRC-TITLE10"],atlas_admitted:false,
+  verified_legal_original:true,independent_legal_review:true,legal_effective_from:"2026-01-01",
+  verified_operational_original:false};
+ assert.match(inspectCandidateEdge(claim,nodes,d.ontology).join(" | "),/unverified operational execution/);
+});
+test("generic statutory text cannot impersonate an executed delegation",()=>{
+ const d=load(),nodes=[{id:"AUTH-SCOPE",kind:"authority",jurisdiction:"federal"},
+  {id:"ORG-FED-EXE-DEP-HHS",kind:"institution",jurisdiction:"federal"}];
+ const edge={from_id:nodes[0].id,to_id:nodes[1].id,relationship_type:"delegates_to",
+  source_commit:"c".repeat(40),source_ids:["SRC-STATUTE"],atlas_admitted:false,
+  verified_legal_original:true,independent_legal_review:true,legal_effective_from:"2026-01-01"};
+ assert.match(inspectCandidateEdge(edge,nodes,d.ontology).join(" | "),/executed delegation instrument not verified/);
+});
