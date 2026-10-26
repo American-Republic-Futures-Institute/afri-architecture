@@ -88,7 +88,7 @@ reject("Unknown local and territorial denominators must remain explicitly unreso
 },/jurisdiction reduced to federal subordinate|schema field/);
 reject("Do not mix editions while accepting source-only research pointers",d=>{
  d.models.observations.source_publisher_edition="GOVMAN-2026-10-26";
-},/schema field|Mixed or invalid original publisher epochs/);
+},/Mixed INC-17B source publisher edition labels|schema field|Mixed or invalid original publisher epochs/);
 reject("No research source group is auto-admitted into the public Atlas",d=>{
  d.manifest.whole_government_inc17b_extension.atlas_admitted=true;
 },/Unreviewed census manifest/);
