@@ -93,9 +93,11 @@ def visible_text(raw):
  s=unicodedata.normalize("NFKC"," ".join(p.parts)).replace("\u2060","")
  return re.sub(r"\s+"," ",s).strip()
 def section_body(text,section):
- match=re.search(r"§\s*"+re.escape(str(section))+r"\s*[.:]",text)
- ensure(match,"correct statutory section body missing "+str(section))
- body=text[match.end():]
+ jump=text.find("Jump To: Source Credit")
+ ensure(jump>=0,"OLRC section navigation not found "+str(section))
+ match=re.search(r"§\s*"+re.escape(str(section))+r"\s*[.:]",text[jump:])
+ ensure(match,"codified section heading missing after OLRC navigation "+str(section))
+ body=text[jump+match.end():]
  end=body.find("Editorial Notes")
  if end<0:end=body.find("Statutory Notes and Related Subsidiaries")
  ensure(end>60,"OLRC section-body ending not bounded "+str(section))
