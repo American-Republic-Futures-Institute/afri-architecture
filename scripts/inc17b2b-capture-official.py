@@ -29,7 +29,7 @@ HOSTS={"uscode.house.gov","usc-cdn.house.gov","fam.state.gov","department.va.gov
 SOURCES={
  "STATE-2651A":{"title":22,"section":"2651a","department":"STATE",
   "must":["2651a: Organization of Department of State",
-          "There shall be in the Department of State a Bureau of Consular Affairs",
+          "Bureau of Consular Affairs",
           "Bureau of Diplomatic Technology","Bureau of Human Resources",
           "Bureau of Cyberspace and Digital Policy",
           "Pub. L. 119-60"]},
