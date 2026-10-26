@@ -1,0 +1,46 @@
+name: One-time independent focused API public-client probe
+on:
+  push:
+    branches: [audit/focused-architecture-external-client-probe]
+    paths: [".github/workflows/focused-public-client-probe.yml"]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Independent Node HTTPS client (no Vercel share-link or connector)
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const urls=[
+            "https://www.arfinstitute.org/api/focused-architecture?catalog=1",
+            "https://arfinstitute.org/api/focused-architecture?catalog=1",
+            "https://www.arfinstitute.org/api/focused-architecture?search=Department%20of%20State",
+            "https://www.arfinstitute.org/api/focused-architecture?catalog=1&unexpected_external=1",
+            "https://www.arfinstitute.org/api/architecture?catalog=1"
+          ];
+          for(const uri of urls){
+            try{
+              const response=await fetch(uri,{redirect:"follow",headers:{"Accept":"application/json","User-Agent":"ARFI-Source-Compatibility-Independent-Client"},signal:AbortSignal.timeout(20000)});
+              const body=await response.text();
+              let json={};try{json=JSON.parse(body);}catch{}
+              const actual=new URL(response.url);
+              console.log(JSON.stringify({requested:new URL(uri).origin+new URL(uri).pathname,
+                originalQueryKeys:[...new URL(uri).searchParams.keys()],status:response.status,
+                finalOrigin:actual.origin,finalPath:actual.pathname,
+                commit:json.commit||null,scopes:json.scopes?.length||0,
+                searchRecords:json.records?.length||0,entries:json.entries?.length||0,
+                error:json.error||null,contentType:response.headers.get("content-type")}));
+            }catch(error){console.log(JSON.stringify({url:uri,error:String(error)}));}
+          }
+          NODE
+      - name: Independent curl direct HTTP status confirmation
+        shell: bash
+        run: |
+          set -euo pipefail
+          for url in "https://www.arfinstitute.org/api/focused-architecture?catalog=1" "https://arfinstitute.org/api/focused-architecture?catalog=1" "https://www.arfinstitute.org/api/focused-architecture?catalog=1&unexpected_external=1"; do
+            status="$(curl --silent --show-error --location --connect-timeout 10 --max-time 25 --output /tmp/arfi-focused-probe-body --write-out '%{http_code}' "$url")"
+            echo "curl status=$status target=$url response_head=$(head -c 100 /tmp/arfi-focused-probe-body)"
+          done
