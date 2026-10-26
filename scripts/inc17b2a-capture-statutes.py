@@ -73,7 +73,7 @@ SOURCES = {
   "section_marker": "111. Executive department; mission",
   "must": ["United States Code, 2024 Edition",
            "There is established a Department of Homeland Security",
-           "except as specifically provided by law"]
+           "Except as specifically provided by law with respect to entities transferred"]
  },
  "INC17B2A-SRC-DHS-112": {
   "department": "ORG-FED-EXE-DEP-DHS", "citation": "6 U.S.C. 112",
