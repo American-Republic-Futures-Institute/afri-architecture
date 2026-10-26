@@ -33,7 +33,8 @@ SOURCES = {
   "must": ["United States Code, 2024 Edition",
            "Department of State shall be administered",
            "supervision and direction of the Secretary of State",
-           "Bureau of Consular Affairs", "The Assistant Secretary for Consular Affairs shall be the head"]
+           "There is in the Department of State the Bureau of Consular Affairs",
+           "which shall be headed by the Assistant Secretary of State for Consular Affairs"]
  },
  "INC17B2A-SRC-USDA-2202": {
   "department": "ORG-FED-EXE-DEP-AGRICULTURE", "citation": "7 U.S.C. 2202",
