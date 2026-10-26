@@ -347,7 +347,8 @@
     "model/federal/inc15e1/atlas-adapter-contract.json",
     "model/federal/inc15e1b/amtrak-legal-status.json",
     "model/federal/inc15e1b/amtrak-status-transition.json",
-    "model/federal/inc15e1b/amtrak-statutory-source-coverage.json"
+    "model/federal/inc15e1b/amtrak-statutory-source-coverage.json",
+    "model/wholegov/ontology.json"
   ],
   "standards": [
     {
@@ -1528,5 +1529,14 @@
     "publisher_GovMan_original_2025_crosswalk_changed": false,
     "atlas_graph_changed": false,
     "plan_or_data_observatory_changed": false
+  },
+  "whole_government_ontology_extension": {
+    "contract": "INC-17A",
+    "status": "definitions_only_unratified",
+    "ontology_path": "model/wholegov/ontology.json",
+    "automatic_atlas_admission": false,
+    "identity_mutations": false,
+    "source_facts_added": 0,
+    "public_graph_edges_added": 0
   }
 }

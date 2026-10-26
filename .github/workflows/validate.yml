@@ -34,6 +34,10 @@ jobs:
           node-version: "22"
       - name: Validate federal architecture
         run: node scripts/validate.mjs
+      - name: Validate INC-17A whole-government semantic definitions and existing predicate references
+        run: node scripts/wholegov-contract-core.mjs
+      - name: Test INC-17A jurisdiction, source status, legal non-promotion and viewpoint boundaries
+        run: node --test tests/wholegov-contract.test.mjs
       - name: Independently verify retained OLRC publisher HTML originals, code release dates and Git blob receipts
         run: python3 scripts/inc16b-capture-usc-originals.py verify
       - name: Validate INC-16A dated mission functions and conditional HHS-DHS statutory interfaces
