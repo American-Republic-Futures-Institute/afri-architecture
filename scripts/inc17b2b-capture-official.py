@@ -110,7 +110,7 @@ def verify_source(key,raw):
   # Legal excerpts must be in codified body, not a future-oriented editorial note.
   for anchor in cfg["must"][1:]:
    if anchor.startswith("Pub. L."):ensure(anchor in body,"amendment history not cited "+key)
-   else:ensure(anchor in target,"legal clause missing in current section body "+key+": "+anchor)
+   else:ensure(anchor in target,"legal clause missing in current section body "+key+": "+anchor+"; full_pos="+str(body.find(anchor))+"; section_chars="+str(len(target))+"; start="+repr(target[:180])+"; end="+repr(target[-120:]))
  else:
   for marker in cfg["must"]:
    ensure(marker in body,"agency directory content missing "+key+": "+marker)
