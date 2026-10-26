@@ -1,0 +1,35 @@
+name: INC-17B.2B one-time official OLRC 119-124 and agency source custody
+on:
+  push:
+    branches:
+      - feat/inc17b2b-119124-current-law-reconciliation
+    paths:
+      - "scripts/inc17b2b-capture-official.py"
+      - ".github/workflows/inc17b2b-capture.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  acquire:
+    if: github.repository == 'American-Republic-Futures-Institute/afri-architecture' && github.ref == 'refs/heads/feat/inc17b2b-119124-current-law-reconciliation'
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Checkout isolated first-party evidence acquisition branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Capture seven 119-124 original legal sections and available bounded official departmental sources
+        run: python3 scripts/inc17b2b-capture-official.py capture
+      - name: Replay all source bytes, cited clause bodies, dates and SHA/Git receipts offline
+        run: python3 scripts/inc17b2b-capture-official.py verify
+      - name: Commit immutable official publisher HTML and custody receipts only on isolated branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- evidence/inc17b2b-olrc-119-124/
+          test -n "$(git diff --cached --name-only)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "evidence(inc17b2b): retain original 119-124 legal and agency editions with custody"
+          git push origin HEAD:feat/inc17b2b-119124-current-law-reconciliation

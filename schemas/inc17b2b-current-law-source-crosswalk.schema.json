@@ -1,0 +1,838 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/inc17b2b-current-law-source-crosswalk.schema.json",
+  "title": "INC-17B.2B five bounded original-backed model families; no implied institutional legal review or public graph admission",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_release",
+        "source_release_date",
+        "prior_originals_must_be_preserved",
+        "current_release_publisher_original_count",
+        "new_independently_legally_certified_orgs",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b2b-olrc-release-and-historical-statute-epoch-crosswalk"
+        },
+        "source_release": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_release_date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prior_originals_must_be_preserved": {
+          "type": "boolean",
+          "const": true
+        },
+        "current_release_publisher_original_count": {
+          "type": "integer"
+        },
+        "new_independently_legally_certified_orgs": {
+          "type": "integer"
+        },
+        "atlas_admitted": {
+          "type": "boolean",
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "canonical_id_unchanged",
+              "current_source_key",
+              "current_olrc_edition",
+              "current_law_through_date",
+              "current_source_citation",
+              "current_original_sha256",
+              "current_original_git_blob_sha",
+              "prior_source_key",
+              "prior_publisher_edition",
+              "prior_original_sha256",
+              "prior_original_git_blob_sha",
+              "reconciliation_state",
+              "source_originals_retained_on_both_sides",
+              "statute_reissue_not_asserted_to_be_effective_date",
+              "independently_adjudicated_legal_effective_interval",
+              "complete_current_organizational_roster_certified",
+              "no_inferred_command_or_executed_delegation",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_id_unchanged": {
+                "type": "boolean",
+                "const": true
+              },
+              "current_source_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_olrc_edition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_law_through_date": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_source_citation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_original_sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_original_git_blob_sha": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prior_source_key": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "prior_publisher_edition": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "prior_original_sha256": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "prior_original_git_blob_sha": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "reconciliation_state": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_originals_retained_on_both_sides": {
+                "type": "boolean"
+              },
+              "statute_reissue_not_asserted_to_be_effective_date": {
+                "type": "boolean",
+                "const": true
+              },
+              "independently_adjudicated_legal_effective_interval": {
+                "type": "null",
+                "const": null
+              },
+              "complete_current_organizational_roster_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "no_inferred_command_or_executed_delegation": {
+                "type": "boolean",
+                "const": true
+              },
+              "atlas_admitted": {
+                "type": "boolean",
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "release_scope",
+        "canonical_parent_ids_preserved",
+        "source_local_subject_ids_not_canonical",
+        "source_verified_legal_relation_count",
+        "dual_source_statute_and_directory_name_concordances",
+        "legal_adjudication_or_permanent_canonical_member_certifications_added",
+        "graph_legal_authority_edges_admitted",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b2b-source-qualified-legal-relationship-candidates"
+        },
+        "release_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_parent_ids_preserved": {
+          "type": "boolean",
+          "const": true
+        },
+        "source_local_subject_ids_not_canonical": {
+          "type": "boolean",
+          "const": true
+        },
+        "source_verified_legal_relation_count": {
+          "type": "integer"
+        },
+        "dual_source_statute_and_directory_name_concordances": {
+          "type": "integer"
+        },
+        "legal_adjudication_or_permanent_canonical_member_certifications_added": {
+          "type": "integer"
+        },
+        "graph_legal_authority_edges_admitted": {
+          "type": "integer"
+        },
+        "atlas_admitted": {
+          "type": "boolean",
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "from_id",
+              "to_id",
+              "subject_label",
+              "subject_kind",
+              "legal_relation_type",
+              "claimed_source_legal_locator",
+              "legal_clause_body_anchor",
+              "currently_qualified_publisher_source_key",
+              "current_original_sha256",
+              "current_olrc_release",
+              "prior_2023_or_2024_proposition_id",
+              "previously_recorded_source_component_candidate_id",
+              "independent_department_directory_source_key",
+              "current_department_listing_name_corroborated",
+              "verification_tier",
+              "legal_composition_is_not_reporting_command",
+              "legally_determined_current_organization_identity",
+              "legal_effective_date_independently_adjudicated",
+              "first_level_immediate_organizational_reporting_verified",
+              "independent_professional_legal_review_complete",
+              "operationally_executed_delegation_verified",
+              "current_org_chart_completeness_certified",
+              "atlas_admitted",
+              "qualification_note"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "from_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "to_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "subject_label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "subject_kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "legal_relation_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "claimed_source_legal_locator": {
+                "type": "string",
+                "minLength": 1
+              },
+              "legal_clause_body_anchor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "currently_qualified_publisher_source_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_original_sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_olrc_release": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prior_2023_or_2024_proposition_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "previously_recorded_source_component_candidate_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "independent_department_directory_source_key": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "current_department_listing_name_corroborated": {
+                "type": "boolean"
+              },
+              "verification_tier": {
+                "type": "string",
+                "minLength": 1
+              },
+              "legal_composition_is_not_reporting_command": {
+                "type": "boolean",
+                "const": true
+              },
+              "legally_determined_current_organization_identity": {
+                "type": "boolean",
+                "const": false
+              },
+              "legal_effective_date_independently_adjudicated": {
+                "type": "null",
+                "const": null
+              },
+              "first_level_immediate_organizational_reporting_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "independent_professional_legal_review_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "operationally_executed_delegation_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_org_chart_completeness_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "atlas_admitted": {
+                "type": "boolean",
+                "const": false
+              },
+              "qualification_note": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "observation_count",
+        "agency_and_program_entries_from_three_2026_original_pages",
+        "prior_retained_fy2024_DHS_chart_boxes_reused",
+        "current_legally_certified_first_level_units_added",
+        "source_observations_do_not_add_statutory_authority",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b2b-original-backed-bounded-department-publisher-listings"
+        },
+        "observation_count": {
+          "type": "integer"
+        },
+        "agency_and_program_entries_from_three_2026_original_pages": {
+          "type": "integer"
+        },
+        "prior_retained_fy2024_DHS_chart_boxes_reused": {
+          "type": "integer"
+        },
+        "current_legally_certified_first_level_units_added": {
+          "type": "integer"
+        },
+        "source_observations_do_not_add_statutory_authority": {
+          "type": "boolean",
+          "const": true
+        },
+        "atlas_admitted": {
+          "type": "boolean",
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "publisher_original_key",
+              "publisher_original_sha256",
+              "publisher_original_repository_path",
+              "publisher_observed_name",
+              "source_item_kind",
+              "source_body_or_chart_label_anchor",
+              "original_chart_box_id",
+              "prior_canonical_component_candidate_id",
+              "independently_source_qualified_statutory_relation_id",
+              "source_grouping_relation",
+              "time_scope",
+              "independent_current_legal_first_level_identity_verified",
+              "direct_reporting_or_supervision_proven",
+              "military_command_or_delegation_proven",
+              "current_organizational_completeness_proven",
+              "mandatory_exception_class",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_original_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_original_sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_original_repository_path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "publisher_observed_name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_item_kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_body_or_chart_label_anchor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_chart_box_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "prior_canonical_component_candidate_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "independently_source_qualified_statutory_relation_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "source_grouping_relation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "time_scope": {
+                "type": "string",
+                "minLength": 1
+              },
+              "independent_current_legal_first_level_identity_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "direct_reporting_or_supervision_proven": {
+                "type": "boolean",
+                "const": false
+              },
+              "military_command_or_delegation_proven": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_organizational_completeness_proven": {
+                "type": "boolean",
+                "const": false
+              },
+              "mandatory_exception_class": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "atlas_admitted": {
+                "type": "boolean",
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "exception_count",
+        "exception_contract",
+        "unqualified_OIG_Coast_Guard_or_board_control_edges_added",
+        "independently_qualified_effective_dates_added",
+        "source_change_is_not_entity_merger",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b2b-time-scoped-legal-and-institutional-exceptions"
+        },
+        "exception_count": {
+          "type": "integer"
+        },
+        "exception_contract": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unqualified_OIG_Coast_Guard_or_board_control_edges_added": {
+          "type": "integer"
+        },
+        "independently_qualified_effective_dates_added": {
+          "type": "integer"
+        },
+        "source_change_is_not_entity_merger": {
+          "type": "boolean",
+          "const": true
+        },
+        "atlas_admitted": {
+          "type": "boolean",
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "primary_source_key",
+              "primary_original_sha256",
+              "qualification_exception_type",
+              "source_text_or_chart_anchor",
+              "evidence_description",
+              "independent_legal_counsel_adjudicated",
+              "legal_effective_date_established",
+              "confirmed_report_to_or_operational_command",
+              "current_actual_role_or_organizational_identity_certified",
+              "source_only_exception_not_a_live_graph_relationship",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "primary_source_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "primary_original_sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "qualification_exception_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_text_or_chart_anchor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "independent_legal_counsel_adjudicated": {
+                "type": "boolean",
+                "const": false
+              },
+              "legal_effective_date_established": {
+                "type": "null",
+                "const": null
+              },
+              "confirmed_report_to_or_operational_command": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_actual_role_or_organizational_identity_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "source_only_exception_not_a_live_graph_relationship": {
+                "type": "boolean",
+                "const": true
+              },
+              "atlas_admitted": {
+                "type": "boolean",
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "baseline",
+        "current_source_release",
+        "current_source_release_date",
+        "federal_department_roots",
+        "priority_roots_with_seven_current_originals",
+        "olrc_current_originals_count",
+        "departmental_originals_captured_2026",
+        "departmental_source_access_gap_count",
+        "unique_source_qualified_but_unratified_statutory_relationships",
+        "dual_source_concordances",
+        "source_only_publisher_observations",
+        "full_current_ADL1_department_denominator",
+        "fully_qualified_current_department_count",
+        "original_source_admission_does_not_infer_legal_effect",
+        "live_graph_new_legally_qualified_relations",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b2b-15-cabinet-olrc-and-directory-reconciliation-ledger"
+        },
+        "baseline": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_source_release": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_source_release_date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "federal_department_roots": {
+          "type": "integer"
+        },
+        "priority_roots_with_seven_current_originals": {
+          "type": "integer"
+        },
+        "olrc_current_originals_count": {
+          "type": "integer"
+        },
+        "departmental_originals_captured_2026": {
+          "type": "integer"
+        },
+        "departmental_source_access_gap_count": {
+          "type": "integer"
+        },
+        "unique_source_qualified_but_unratified_statutory_relationships": {
+          "type": "integer"
+        },
+        "dual_source_concordances": {
+          "type": "integer"
+        },
+        "source_only_publisher_observations": {
+          "type": "integer"
+        },
+        "full_current_ADL1_department_denominator": {
+          "type": "null",
+          "const": null
+        },
+        "fully_qualified_current_department_count": {
+          "type": "integer"
+        },
+        "original_source_admission_does_not_infer_legal_effect": {
+          "type": "boolean",
+          "const": true
+        },
+        "live_graph_new_legally_qualified_relations": {
+          "type": "integer"
+        },
+        "atlas_admitted": {
+          "type": "boolean",
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "previous_inc17b2a_qualification_id",
+              "prior_2025_govman_immediate_source_observations",
+              "current_119_124_original_section_keys",
+              "retained_or_previous_agency_directory_source_keys",
+              "current_olrc_textual_relationships_verified",
+              "bounded_publisher_directory_or_chart_observations",
+              "dual_source_current_olrc_2026_department_directory_name_concordances",
+              "remaining_fam_current_directory_gap",
+              "qualified_full_adl1_department_denominator",
+              "full_current_department_hierarchy_source_qualified",
+              "amendment_repeal_and_successor_legal_effect_independently_reviewed",
+              "department_organization_current_to_2026_10_26_certified",
+              "present_day_direct_supervision_or_command_verified",
+              "legal_source_relationships_approved_for_public_atlas",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "previous_inc17b2a_qualification_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prior_2025_govman_immediate_source_observations": {
+                "type": "integer"
+              },
+              "current_119_124_original_section_keys": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "retained_or_previous_agency_directory_source_keys": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "current_olrc_textual_relationships_verified": {
+                "type": "integer"
+              },
+              "bounded_publisher_directory_or_chart_observations": {
+                "type": "integer"
+              },
+              "dual_source_current_olrc_2026_department_directory_name_concordances": {
+                "type": "integer"
+              },
+              "remaining_fam_current_directory_gap": {
+                "type": "boolean"
+              },
+              "qualified_full_adl1_department_denominator": {
+                "type": "null",
+                "const": null
+              },
+              "full_current_department_hierarchy_source_qualified": {
+                "type": "boolean",
+                "const": false
+              },
+              "amendment_repeal_and_successor_legal_effect_independently_reviewed": {
+                "type": "boolean",
+                "const": false
+              },
+              "department_organization_current_to_2026_10_26_certified": {
+                "type": "boolean",
+                "const": false
+              },
+              "present_day_direct_supervision_or_command_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "legal_source_relationships_approved_for_public_atlas": {
+                "type": "integer"
+              },
+              "atlas_admitted": {
+                "type": "boolean",
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
