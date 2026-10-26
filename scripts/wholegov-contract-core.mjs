@@ -96,8 +96,10 @@ export function inspectCandidateEdge(edge,nodes,ontology){
   failures.push("cross-jurisdiction authority not established");
  if(r?.assertion_class==="legal"&&(!edge.verified_legal_original||!edge.independent_legal_review||
   !edge.legal_effective_from))failures.push("unverified law or legal era");
- if(r?.assertion_class==="operational"&&!edge.verified_operational_original)
-  failures.push("unverified operational execution");
+ if(r&&(r.assertion_class==="operational"||r.evidence_requirement.includes("operational"))&&
+  !edge.verified_operational_original)failures.push("unverified operational execution");
+ if(r?.kind==="delegates_to"&&!edge.executed_delegation_original_verified)
+  failures.push("executed delegation instrument not verified");
  if(edge.atlas_admitted||edge.inferred_command||edge.inferred_causation||edge.inferred_legal_authority)
   failures.push("forbidden inferred power, causality or public admission");
  return failures;
