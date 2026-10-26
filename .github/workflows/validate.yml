@@ -42,6 +42,12 @@ jobs:
         run: node scripts/inc17b-census-core.mjs
       - name: Reject INC-17B fabricated office identities, authority, federal command, ADL1 completeness and public Atlas admission
         run: node --test tests/inc17b-census.test.mjs
+      - name: Replay INC-17B.2A six independent official statutory section original bytes and publisher clauses
+        run: python3 scripts/inc17b2a-capture-statutes.py verify
+      - name: Qualify INC-17B.2A bounded source-text leadership/composition and Cabinet edition crosswalk
+        run: python3 scripts/inc17b2a-qualification-core.py
+      - name: Reject INC-17B.2A false historical legal currentness, agency identity, command and public admission
+        run: python3 -m unittest discover -s tests -p "test_inc17b2a_qualification.py" -v
       - name: Independently verify retained OLRC publisher HTML originals, code release dates and Git blob receipts
         run: python3 scripts/inc16b-capture-usc-originals.py verify
       - name: Validate INC-16A dated mission functions and conditional HHS-DHS statutory interfaces
