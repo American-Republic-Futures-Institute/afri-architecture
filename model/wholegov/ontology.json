@@ -1,0 +1,1008 @@
+{
+  "model_version": "0.1.0",
+  "contract_id": "ARFI-COA-WHOLEGOV-INC17A",
+  "release_status": "unratified_definitions_only",
+  "source_fact_count": 0,
+  "public_graph_edges_added": 0,
+  "items": [
+    {
+      "id": "WG-E-JURISDICTION",
+      "record_type": "element",
+      "kind": "jurisdiction",
+      "definition": "Jurisdiction is distinct from organization; legal status requires source-specific review.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-CONSTITUTIONAL-ACTOR",
+      "record_type": "element",
+      "kind": "constitutional_actor",
+      "definition": "Persons or institutions with explicit constitutional roles; not a department.",
+      "person_or_population": true,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-INSTITUTION",
+      "record_type": "element",
+      "kind": "institution",
+      "definition": "An institution independent from office, position, incumbent, program and source listing.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-ORGANIZATIONAL-COMPONENT",
+      "record_type": "element",
+      "kind": "organizational_component",
+      "definition": "A constituent organizational unit; placement does not prove statutory command.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-OFFICE",
+      "record_type": "element",
+      "kind": "office",
+      "definition": "An enduring governmental office distinct from its occupant.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-POSITION",
+      "record_type": "element",
+      "kind": "position",
+      "definition": "A legal or administrative role, not its current individual incumbent.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-LEGAL-INSTRUMENT",
+      "record_type": "element",
+      "kind": "legal_instrument",
+      "definition": "An edition-specific constitution, statute, regulation, order or executed delegation.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-LEGAL-PROVISION",
+      "record_type": "element",
+      "kind": "legal_provision",
+      "definition": "An identifiable clause within its legal source and effective scope.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-AUTHORITY",
+      "record_type": "element",
+      "kind": "authority",
+      "definition": "A bounded legal competence, not a general mission description.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-CAPABILITY",
+      "record_type": "element",
+      "kind": "capability",
+      "definition": "A reusable public capability; no exclusive institutional owner presumed.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-GOVERNMENT-FUNCTION",
+      "record_type": "element",
+      "kind": "government_function",
+      "definition": "A described activity or official responsibility, distinct from authority.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-PROGRAM",
+      "record_type": "element",
+      "kind": "program",
+      "definition": "A named program; no funding or spending inferred.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-PUBLIC-SERVICE",
+      "record_type": "element",
+      "kind": "public_service",
+      "definition": "A concrete interface to deliver a benefit or public operation.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-POPULATION",
+      "record_type": "element",
+      "kind": "population",
+      "definition": "Affected persons, residents or citizens; eligibility and rights must be distinguished.",
+      "person_or_population": true,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-PUBLIC-OUTCOME",
+      "record_type": "element",
+      "kind": "public_outcome",
+      "definition": "Public condition or intended benefit; no automatic claim of causation.",
+      "person_or_population": true,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-INDICATOR",
+      "record_type": "element",
+      "kind": "indicator",
+      "definition": "A measurement tied to a time, geography, population and original source.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-PUBLISHER-DOCUMENT",
+      "record_type": "element",
+      "kind": "publisher_document",
+      "definition": "A dated, source-identified government publication, not a legal act by default.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-SOURCE-OBSERVATION",
+      "record_type": "element",
+      "kind": "source_observation",
+      "definition": "A publisher entry not necessarily equivalent to any canonical institution.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-E-STATUTE-LOCAL-SUBJECT",
+      "record_type": "element",
+      "kind": "statute_local_subject",
+      "definition": "A named legal subject, not an independently qualified institutional identity.",
+      "person_or_population": false,
+      "definition_only": true
+    },
+    {
+      "id": "WG-J-FEDERAL",
+      "record_type": "jurisdiction",
+      "kind": "federal",
+      "definition": "Federal jurisdiction, not parent organization of independent State or tribal governments.",
+      "member_state": false,
+      "default_federal_subordinate": false
+    },
+    {
+      "id": "WG-J-MEMBER-STATE",
+      "record_type": "jurisdiction",
+      "kind": "member_state",
+      "definition": "One of fifty member States; separate from federal executive departments.",
+      "member_state": true,
+      "default_federal_subordinate": false
+    },
+    {
+      "id": "WG-J-TRIBAL-NATION",
+      "record_type": "jurisdiction",
+      "kind": "tribal_nation",
+      "definition": "Tribal government with independently qualified political and legal relationships.",
+      "member_state": false,
+      "default_federal_subordinate": false
+    },
+    {
+      "id": "WG-J-FEDERAL-DISTRICT",
+      "record_type": "jurisdiction",
+      "kind": "federal_district",
+      "definition": "District of Columbia, not a fifty-first member State.",
+      "member_state": false,
+      "default_federal_subordinate": false
+    },
+    {
+      "id": "WG-J-TERRITORY",
+      "record_type": "jurisdiction",
+      "kind": "territory",
+      "definition": "Territorial institutional status and powers require source-specific law.",
+      "member_state": false,
+      "default_federal_subordinate": false
+    },
+    {
+      "id": "WG-J-LOCAL-GOVERNMENT",
+      "record_type": "jurisdiction",
+      "kind": "local_government",
+      "definition": "County, city, town or other local governmental form under applicable law.",
+      "member_state": false,
+      "default_federal_subordinate": false
+    },
+    {
+      "id": "WG-J-INTERGOVERNMENTAL-BODY",
+      "record_type": "jurisdiction",
+      "kind": "intergovernmental_body",
+      "definition": "Separately established intergovernmental body with bounded jurisdiction.",
+      "member_state": false,
+      "default_federal_subordinate": false
+    },
+    {
+      "id": "WG-J-EXTERNAL-COMPARATOR",
+      "record_type": "jurisdiction",
+      "kind": "external_comparator",
+      "definition": "Foreign/international actor, not a United States government subdivision.",
+      "member_state": false,
+      "default_federal_subordinate": false
+    },
+    {
+      "id": "WG-R-CATALOG-GROUPING",
+      "record_type": "relationship",
+      "kind": "catalog_grouping",
+      "from_kinds": [
+        "institution",
+        "jurisdiction"
+      ],
+      "to_kinds": [
+        "institution",
+        "organizational_component",
+        "office"
+      ],
+      "category": "structure",
+      "assertion_class": "synthetic",
+      "evidence_requirement": "navigation_only",
+      "definition": "A tree or parent_id display link; no legal or management inference.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-STATUTORILY-PART-OF",
+      "record_type": "relationship",
+      "kind": "statutorily_part_of",
+      "from_kinds": [
+        "institution",
+        "organizational_component",
+        "office"
+      ],
+      "to_kinds": [
+        "institution"
+      ],
+      "category": "structure",
+      "assertion_class": "legal",
+      "evidence_requirement": "reviewed_statutory_original",
+      "definition": "Legal inclusion only within the provision's scope and era.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-ORGANIZATIONALLY-CONTAINS",
+      "record_type": "relationship",
+      "kind": "organizationally_contains",
+      "from_kinds": [
+        "institution",
+        "organizational_component"
+      ],
+      "to_kinds": [
+        "organizational_component",
+        "office"
+      ],
+      "category": "structure",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "publisher_original",
+      "definition": "Dated organizational placement does not prove statutory delegation.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-HAS-POSITION",
+      "record_type": "relationship",
+      "kind": "has_position",
+      "from_kinds": [
+        "institution",
+        "office"
+      ],
+      "to_kinds": [
+        "position"
+      ],
+      "category": "structure",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "publisher_original",
+      "definition": "Defines a role separately from any incumbent.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-REPORTS-TO",
+      "record_type": "relationship",
+      "kind": "reports_to",
+      "from_kinds": [
+        "position",
+        "office"
+      ],
+      "to_kinds": [
+        "position",
+        "office"
+      ],
+      "category": "structure",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "publisher_original",
+      "definition": "Reporting arrangement not equivalent to command or delegated power.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-SUPERVISES",
+      "record_type": "relationship",
+      "kind": "supervises",
+      "from_kinds": [
+        "institution",
+        "office",
+        "position"
+      ],
+      "to_kinds": [
+        "institution",
+        "office",
+        "organizational_component"
+      ],
+      "category": "oversight",
+      "assertion_class": "legal",
+      "evidence_requirement": "reviewed_legal_original",
+      "definition": "Supervision requires specifically established scope and limitations.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-DELEGATES-TO",
+      "record_type": "relationship",
+      "kind": "delegates_to",
+      "from_kinds": [
+        "authority",
+        "institution",
+        "office",
+        "position"
+      ],
+      "to_kinds": [
+        "institution",
+        "office",
+        "position"
+      ],
+      "category": "powers",
+      "assertion_class": "legal",
+      "evidence_requirement": "executed_delegation_and_review",
+      "definition": "An actual lawful and scope-limited delegation instrument.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-OPERATIONALLY-COMMANDS",
+      "record_type": "relationship",
+      "kind": "operationally_commands",
+      "from_kinds": [
+        "institution",
+        "position"
+      ],
+      "to_kinds": [
+        "institution",
+        "organizational_component"
+      ],
+      "category": "powers",
+      "assertion_class": "legal",
+      "evidence_requirement": "reviewed_legal_and_operational_originals",
+      "definition": "Source-qualified command including military authority exceptions.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-ESTABLISHED-UNDER",
+      "record_type": "relationship",
+      "kind": "established_under",
+      "from_kinds": [
+        "institution",
+        "office",
+        "position"
+      ],
+      "to_kinds": [
+        "legal_instrument",
+        "legal_provision",
+        "authority"
+      ],
+      "category": "powers",
+      "assertion_class": "legal",
+      "evidence_requirement": "reviewed_legal_original",
+      "definition": "Identifies bounded legal establishment.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-EXERCISES-OVERSIGHT-OF",
+      "record_type": "relationship",
+      "kind": "exercises_oversight_of",
+      "from_kinds": [
+        "institution",
+        "office"
+      ],
+      "to_kinds": [
+        "institution",
+        "program",
+        "public_service"
+      ],
+      "category": "oversight",
+      "assertion_class": "legal",
+      "evidence_requirement": "reviewed_legal_original",
+      "definition": "Specific oversight remit not direct executive control.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-REVIEWS-DECISIONS-OF",
+      "record_type": "relationship",
+      "kind": "reviews_decisions_of",
+      "from_kinds": [
+        "institution"
+      ],
+      "to_kinds": [
+        "institution",
+        "office",
+        "program"
+      ],
+      "category": "oversight",
+      "assertion_class": "legal",
+      "evidence_requirement": "reviewed_legal_original",
+      "definition": "Source-qualified judicial or administrative review.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-PERFORMS-CAPABILITY",
+      "record_type": "relationship",
+      "kind": "performs_capability",
+      "from_kinds": [
+        "institution",
+        "office",
+        "organizational_component"
+      ],
+      "to_kinds": [
+        "capability"
+      ],
+      "category": "services",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "publisher_original",
+      "definition": "Source-described functional alignment not exclusive statutory duty.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-RESPONSIBLE-FOR-FUNCTION",
+      "record_type": "relationship",
+      "kind": "responsible_for_function",
+      "from_kinds": [
+        "institution",
+        "office"
+      ],
+      "to_kinds": [
+        "government_function"
+      ],
+      "category": "services",
+      "assertion_class": "legal",
+      "evidence_requirement": "reviewed_legal_original",
+      "definition": "Assigned responsibility, not simply related mission statements.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-COORDINATES-WITH",
+      "record_type": "relationship",
+      "kind": "coordinates_with",
+      "from_kinds": [
+        "institution",
+        "office",
+        "organizational_component"
+      ],
+      "to_kinds": [
+        "institution",
+        "office",
+        "organizational_component"
+      ],
+      "category": "context",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "documented_interface_original",
+      "definition": "Directed interagency coordination claim, not presumed mutuality or execution.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-APPROPRIATES-FOR",
+      "record_type": "relationship",
+      "kind": "appropriates_for",
+      "from_kinds": [
+        "institution"
+      ],
+      "to_kinds": [
+        "program"
+      ],
+      "category": "oversight",
+      "assertion_class": "legal",
+      "evidence_requirement": "reviewed_enacted_fiscal_original",
+      "definition": "Legislative appropriation, not obligation or outlay.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-OBLIGATES-FOR",
+      "record_type": "relationship",
+      "kind": "obligates_for",
+      "from_kinds": [
+        "institution",
+        "office"
+      ],
+      "to_kinds": [
+        "program"
+      ],
+      "category": "context",
+      "assertion_class": "operational",
+      "evidence_requirement": "verified_fiscal_execution_original",
+      "definition": "Actual obligation, distinct from spending permission.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-PROVIDES-SERVICE",
+      "record_type": "relationship",
+      "kind": "provides_service",
+      "from_kinds": [
+        "institution",
+        "office",
+        "organizational_component"
+      ],
+      "to_kinds": [
+        "public_service"
+      ],
+      "category": "services",
+      "assertion_class": "operational",
+      "evidence_requirement": "verified_legal_and_operational_originals",
+      "definition": "Verified service delivery, not merely mission intent.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-SERVES-POPULATION",
+      "record_type": "relationship",
+      "kind": "serves_population",
+      "from_kinds": [
+        "public_service",
+        "program"
+      ],
+      "to_kinds": [
+        "population"
+      ],
+      "category": "services",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "qualified_eligibility_original",
+      "definition": "Intended/eligible group not proven improvement.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-CONTRIBUTES-TO-OUTCOME",
+      "record_type": "relationship",
+      "kind": "contributes_to_outcome",
+      "from_kinds": [
+        "capability",
+        "program",
+        "public_service"
+      ],
+      "to_kinds": [
+        "public_outcome"
+      ],
+      "category": "services",
+      "assertion_class": "analytical",
+      "evidence_requirement": "qualified_hypothesis_or_empirical_evidence",
+      "definition": "Hypothesis or explicitly studied contribution; no inferred causal impact.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-MEASURED-BY",
+      "record_type": "relationship",
+      "kind": "measured_by",
+      "from_kinds": [
+        "public_outcome"
+      ],
+      "to_kinds": [
+        "indicator"
+      ],
+      "category": "context",
+      "assertion_class": "analytical",
+      "evidence_requirement": "qualified_measurement_source",
+      "definition": "Time/geography/population constrained measure, not causal proof.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-PUBLISHER-LISTING-OF",
+      "record_type": "relationship",
+      "kind": "publisher_listing_of",
+      "from_kinds": [
+        "publisher_document"
+      ],
+      "to_kinds": [
+        "source_observation"
+      ],
+      "category": "context",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "retained_publisher_original",
+      "definition": "Edition-local listing, never legal identity.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-IDENTITY-CANDIDATE-OF",
+      "record_type": "relationship",
+      "kind": "identity_candidate_of",
+      "from_kinds": [
+        "source_observation"
+      ],
+      "to_kinds": [
+        "institution"
+      ],
+      "category": "context",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "retained_publisher_original",
+      "definition": "Provisional comparison only, not canonical equivalence.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-R-STATUTORY-STATUS-DECLARED-FOR",
+      "record_type": "relationship",
+      "kind": "statutory_status_declared_for",
+      "from_kinds": [
+        "legal_provision"
+      ],
+      "to_kinds": [
+        "statute_local_subject"
+      ],
+      "category": "context",
+      "assertion_class": "descriptive",
+      "evidence_requirement": "retained_statutory_original",
+      "definition": "Clause-scoped legal text, not complete constitutional status.",
+      "directed": true,
+      "transitive_inference": false,
+      "automatic_inverse": false,
+      "legal_power_inferred": false,
+      "operational_action_inferred": false,
+      "public_admission": false
+    },
+    {
+      "id": "WG-X-01",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/relationships.json",
+      "origin_predicate": "performs_capability",
+      "normalized_predicate": "performs_capability",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-02",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/relationships.json",
+      "origin_predicate": "established_under",
+      "normalized_predicate": "established_under",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-03",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/relationships.json",
+      "origin_predicate": "exercises_oversight_of",
+      "normalized_predicate": "exercises_oversight_of",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-04",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/relationships.json",
+      "origin_predicate": "reviews_decisions_of",
+      "normalized_predicate": "reviews_decisions_of",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-05",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/inc15e1/relationship-type-registry.json",
+      "origin_predicate": "statutorily_part_of",
+      "normalized_predicate": "statutorily_part_of",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-06",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/inc15e1/relationship-type-registry.json",
+      "origin_predicate": "supervises",
+      "normalized_predicate": "supervises",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-07",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/inc15e1/relationship-type-registry.json",
+      "origin_predicate": "delegates_to",
+      "normalized_predicate": "delegates_to",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-08",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/inc15e1/relationship-type-registry.json",
+      "origin_predicate": "publisher_listing_of",
+      "normalized_predicate": "publisher_listing_of",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-09",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/inc15e1/relationship-type-registry.json",
+      "origin_predicate": "identity_candidate_of",
+      "normalized_predicate": "identity_candidate_of",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-X-10",
+      "record_type": "crosswalk",
+      "origin_model": "model/federal/inc15e1/relationship-type-registry.json",
+      "origin_predicate": "statutory_status_declared_for",
+      "normalized_predicate": "statutory_status_declared_for",
+      "source_review_inherited": false,
+      "automatic_admission": false,
+      "definition": "Same label for interoperability only; original edition, endpoint and legal qualification must be independently preserved."
+    },
+    {
+      "id": "WG-V-INSTITUTION",
+      "record_type": "viewpoint",
+      "title": "Institutional composition",
+      "root_kinds": [
+        "jurisdiction",
+        "institution"
+      ],
+      "relationship_kinds": [
+        "catalog_grouping",
+        "statutorily_part_of",
+        "organizationally_contains",
+        "has_position",
+        "reports_to"
+      ],
+      "max_hops": 2,
+      "source_commit_required": true,
+      "admitted_edges_only": true,
+      "public_admission": false,
+      "definition": "Read-only projection of already-admitted, independently source-qualified facts; no implied new authority."
+    },
+    {
+      "id": "WG-V-AUTHORITY",
+      "record_type": "viewpoint",
+      "title": "Lawful authority and control",
+      "root_kinds": [
+        "institution",
+        "office",
+        "authority"
+      ],
+      "relationship_kinds": [
+        "established_under",
+        "delegates_to",
+        "supervises",
+        "operationally_commands"
+      ],
+      "max_hops": 2,
+      "source_commit_required": true,
+      "admitted_edges_only": true,
+      "public_admission": false,
+      "definition": "Read-only projection of already-admitted, independently source-qualified facts; no implied new authority."
+    },
+    {
+      "id": "WG-V-FUNCTION",
+      "record_type": "viewpoint",
+      "title": "Government functions and capabilities",
+      "root_kinds": [
+        "institution",
+        "government_function",
+        "capability"
+      ],
+      "relationship_kinds": [
+        "performs_capability",
+        "responsible_for_function",
+        "provides_service"
+      ],
+      "max_hops": 2,
+      "source_commit_required": true,
+      "admitted_edges_only": true,
+      "public_admission": false,
+      "definition": "Read-only projection of already-admitted, independently source-qualified facts; no implied new authority."
+    },
+    {
+      "id": "WG-V-OVERSIGHT",
+      "record_type": "viewpoint",
+      "title": "Oversight and review",
+      "root_kinds": [
+        "institution",
+        "office"
+      ],
+      "relationship_kinds": [
+        "exercises_oversight_of",
+        "reviews_decisions_of",
+        "supervises"
+      ],
+      "max_hops": 2,
+      "source_commit_required": true,
+      "admitted_edges_only": true,
+      "public_admission": false,
+      "definition": "Read-only projection of already-admitted, independently source-qualified facts; no implied new authority."
+    },
+    {
+      "id": "WG-V-FISCAL",
+      "record_type": "viewpoint",
+      "title": "Fiscal stewardship",
+      "root_kinds": [
+        "institution",
+        "program"
+      ],
+      "relationship_kinds": [
+        "appropriates_for",
+        "obligates_for"
+      ],
+      "max_hops": 2,
+      "source_commit_required": true,
+      "admitted_edges_only": true,
+      "public_admission": false,
+      "definition": "Read-only projection of already-admitted, independently source-qualified facts; no implied new authority."
+    },
+    {
+      "id": "WG-V-INTERGOV",
+      "record_type": "viewpoint",
+      "title": "Intergovernmental interfaces",
+      "root_kinds": [
+        "jurisdiction",
+        "institution"
+      ],
+      "relationship_kinds": [
+        "coordinates_with",
+        "statutorily_part_of"
+      ],
+      "max_hops": 2,
+      "source_commit_required": true,
+      "admitted_edges_only": true,
+      "public_admission": false,
+      "definition": "Read-only projection of already-admitted, independently source-qualified facts; no implied new authority."
+    },
+    {
+      "id": "WG-V-CITIZEN",
+      "record_type": "viewpoint",
+      "title": "Public service to human outcomes",
+      "root_kinds": [
+        "population",
+        "public_service",
+        "public_outcome"
+      ],
+      "relationship_kinds": [
+        "provides_service",
+        "serves_population",
+        "contributes_to_outcome",
+        "measured_by"
+      ],
+      "max_hops": 3,
+      "source_commit_required": true,
+      "admitted_edges_only": true,
+      "public_admission": false,
+      "definition": "Read-only projection of already-admitted, independently source-qualified facts; no implied new authority."
+    },
+    {
+      "id": "WG-V-EVIDENCE",
+      "record_type": "viewpoint",
+      "title": "Original evidence and identity qualification",
+      "root_kinds": [
+        "publisher_document",
+        "source_observation"
+      ],
+      "relationship_kinds": [
+        "publisher_listing_of",
+        "identity_candidate_of",
+        "statutory_status_declared_for"
+      ],
+      "max_hops": 2,
+      "source_commit_required": true,
+      "admitted_edges_only": true,
+      "public_admission": false,
+      "definition": "Read-only projection of already-admitted, independently source-qualified facts; no implied new authority."
+    }
+  ]
+}

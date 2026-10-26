@@ -1,0 +1,316 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARFI whole-government institutional and relationship ontology INC-17A",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "contract_id",
+    "release_status",
+    "source_fact_count",
+    "public_graph_edges_added",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "contract_id": {
+      "const": "ARFI-COA-WHOLEGOV-INC17A"
+    },
+    "release_status": {
+      "const": "unratified_definitions_only"
+    },
+    "source_fact_count": {
+      "const": 0
+    },
+    "public_graph_edges_added": {
+      "const": 0
+    },
+    "items": {
+      "type": "array",
+      "minItems": 20,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "record_type",
+              "kind",
+              "definition",
+              "person_or_population",
+              "definition_only"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 2
+              },
+              "record_type": {
+                "const": "element"
+              },
+              "kind": {
+                "type": "string",
+                "minLength": 2
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 2
+              },
+              "person_or_population": {
+                "type": "boolean"
+              },
+              "definition_only": {
+                "const": true
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "record_type",
+              "kind",
+              "definition",
+              "member_state",
+              "default_federal_subordinate"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 2
+              },
+              "record_type": {
+                "const": "jurisdiction"
+              },
+              "kind": {
+                "type": "string",
+                "minLength": 2
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 2
+              },
+              "member_state": {
+                "type": "boolean"
+              },
+              "default_federal_subordinate": {
+                "const": false
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "record_type",
+              "kind",
+              "from_kinds",
+              "to_kinds",
+              "category",
+              "assertion_class",
+              "evidence_requirement",
+              "definition",
+              "directed",
+              "transitive_inference",
+              "automatic_inverse",
+              "legal_power_inferred",
+              "operational_action_inferred",
+              "public_admission"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 2
+              },
+              "record_type": {
+                "const": "relationship"
+              },
+              "kind": {
+                "type": "string",
+                "minLength": 2
+              },
+              "from_kinds": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 2
+                }
+              },
+              "to_kinds": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 2
+                }
+              },
+              "category": {
+                "enum": [
+                  "structure",
+                  "rights",
+                  "powers",
+                  "services",
+                  "oversight",
+                  "context"
+                ]
+              },
+              "assertion_class": {
+                "enum": [
+                  "synthetic",
+                  "descriptive",
+                  "legal",
+                  "operational",
+                  "analytical"
+                ]
+              },
+              "evidence_requirement": {
+                "type": "string",
+                "minLength": 2
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 2
+              },
+              "directed": {
+                "const": true
+              },
+              "transitive_inference": {
+                "const": false
+              },
+              "automatic_inverse": {
+                "const": false
+              },
+              "legal_power_inferred": {
+                "const": false
+              },
+              "operational_action_inferred": {
+                "const": false
+              },
+              "public_admission": {
+                "const": false
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "record_type",
+              "origin_model",
+              "origin_predicate",
+              "normalized_predicate",
+              "source_review_inherited",
+              "automatic_admission",
+              "definition"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 2
+              },
+              "record_type": {
+                "const": "crosswalk"
+              },
+              "origin_model": {
+                "type": "string",
+                "minLength": 2
+              },
+              "origin_predicate": {
+                "type": "string",
+                "minLength": 2
+              },
+              "normalized_predicate": {
+                "type": "string",
+                "minLength": 2
+              },
+              "source_review_inherited": {
+                "const": false
+              },
+              "automatic_admission": {
+                "const": false
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 2
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "record_type",
+              "title",
+              "root_kinds",
+              "relationship_kinds",
+              "max_hops",
+              "source_commit_required",
+              "admitted_edges_only",
+              "public_admission",
+              "definition"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 2
+              },
+              "record_type": {
+                "const": "viewpoint"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 2
+              },
+              "root_kinds": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 2
+                }
+              },
+              "relationship_kinds": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 2
+                }
+              },
+              "max_hops": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 3
+              },
+              "source_commit_required": {
+                "const": true
+              },
+              "admitted_edges_only": {
+                "const": true
+              },
+              "public_admission": {
+                "const": false
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 2
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
