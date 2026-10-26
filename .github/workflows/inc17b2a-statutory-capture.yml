@@ -1,0 +1,35 @@
+name: INC-17B.2A one-time official departmental statutory source custody
+on:
+  push:
+    branches:
+      - feat/inc17b2a-five-department-statutory-boundaries
+    paths:
+      - ".github/workflows/inc17b2a-statutory-capture.yml"
+      - "scripts/inc17b2a-capture-statutes.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  capture:
+    if: github.repository == 'American-Republic-Futures-Institute/afri-architecture' && github.ref == 'refs/heads/feat/inc17b2a-five-department-statutory-boundaries'
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - name: Checkout exact first-party isolated feature branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Acquire official statutory original HTTP bytes and fail closed on any missing section
+        run: python3 scripts/inc17b2a-capture-statutes.py capture
+      - name: Replay all source custody, SHA-256, Git blob, publisher clauses and edition boundaries offline
+        run: python3 scripts/inc17b2a-capture-statutes.py verify
+      - name: Commit immutable source custody only on this feature branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- evidence/inc17b2a-statutory-originals/
+          test -n "$(git diff --cached --name-only)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "evidence(inc17b2a): retain six original official statutes with source receipts"
+          git push origin HEAD:feat/inc17b2a-five-department-statutory-boundaries
