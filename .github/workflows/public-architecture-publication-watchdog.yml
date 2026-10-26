@@ -1,0 +1,59 @@
+name: Cross-repository Architecture Atlas publication watchdog
+on:
+  push:
+    branches:
+      - main
+      - feat/architecture-publication-watchdog
+    paths:
+      - "model/federal/manifest.json"
+      - "model/wholegov/**"
+      - ".github/workflows/public-architecture-publication-watchdog.yml"
+      - "scripts/check-website-architecture-publication.mjs"
+      - "scripts/check-website-architecture-browser.cjs"
+  schedule:
+    - cron: "23 7 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Verify publication SHA, canonical roots, focused query, evidence status and absence of 502
+        env:
+          ARFI_PUBLIC_ORIGIN: https://www.arfinstitute.org
+          ARFI_EXPECTED_COMMIT: ${{ github.ref == 'refs/heads/main' && github.sha || '' }}
+          ARFI_SOURCE_RETRY_MS: ${{ github.ref == 'refs/heads/main' && '180000' || '0' }}
+        run: node scripts/check-website-architecture-publication.mjs
+  browser:
+    if: github.event_name != 'push' || github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Install bounded Chromium browser acceptance tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/arfi-public-browser
+          npm install --no-audit --no-fund --prefix /tmp/arfi-public-browser playwright-core@1.55.1
+          if ! command -v google-chrome >/dev/null 2>&1 && ! command -v chromium >/dev/null 2>&1; then
+            /tmp/arfi-public-browser/node_modules/.bin/playwright-core install --with-deps chromium
+          fi
+      - name: Verify real desktop/mobile constitutional source and federal canvas
+        env:
+          ARFI_PUBLIC_ORIGIN: https://www.arfinstitute.org
+          NODE_PATH: /tmp/arfi-public-browser/node_modules
+        run: node scripts/check-website-architecture-browser.cjs
