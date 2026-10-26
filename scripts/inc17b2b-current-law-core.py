@@ -41,6 +41,23 @@ OLD_KEYS={"STATE-2651A":"INC17B2A-SRC-STATE-2651A",
 "HUD-3533":None,"VA-301":"INC17B2A-SRC-VA-301",
 "DHS-111":"INC17B2A-SRC-DHS-111","DHS-112":"INC17B2A-SRC-DHS-112"}
 PRIORITY={"STATE":1,"AGRICULTURE":1,"HUD":2,"VA":1,"DHS":2}
+EXPECTED_PREDECESSOR={
+ "WG17B2B-REL-STATE-SECRETARY":"WG17B2A-PROP-01",
+ "WG17B2B-REL-STATE-CA":"WG17B2A-PROP-02",
+ "WG17B2B-REL-STATE-PRM":"WG17B2A-PROP-03",
+ "WG17B2B-REL-STATE-CDP":"WG17B2A-PROP-04",
+ "WG17B2B-REL-AGRICULTURE-SECRETARY":"WG17B2A-PROP-05",
+ "WG17B2B-REL-HUD-SECRETARY":"WG17B2A-PROP-06",
+ "WG17B2B-REL-VA-OS":"WG17B2A-PROP-07",
+ "WG17B2B-REL-VA-VHA":"WG17B2A-PROP-08",
+ "WG17B2B-REL-VA-VBA":"WG17B2A-PROP-09",
+ "WG17B2B-REL-VA-NCA":"WG17B2A-PROP-10",
+ "WG17B2B-REL-VA-BVA":"WG17B2A-PROP-11",
+ "WG17B2B-REL-VA-VCS":"WG17B2A-PROP-12",
+ "WG17B2B-REL-VA-BCA":"WG17B2A-PROP-13",
+ "WG17B2B-REL-DHS-DEPARTMENT":"WG17B2A-PROP-14",
+ "WG17B2B-REL-DHS-SECRETARY":"WG17B2A-PROP-15"
+}
 HISTORICAL_CHART="DHS-CHART-2025"
 VALID_RELATIONS={
  "statutory_text_designates_department_head",
@@ -197,8 +214,9 @@ def validate(d,root=ROOT,replay_originals=True):
      x["legal_clause_body_anchor"] not in text_for(key):
    fail("Relationship predicate not supported within codified section body: "+x["id"])
   previous=x["prior_2023_or_2024_proposition_id"]
-  if previous is not None and (previous not in prevLegal or \
-     prevLegal[previous]["canonical_department_id"]!=x["from_id"]):
+  if previous!=EXPECTED_PREDECESSOR.get(x["id"]) or \
+     (previous is not None and (previous not in prevLegal or \
+     prevLegal[previous]["canonical_department_id"]!=x["from_id"])):
    fail("Unqualified historical claim joins new legal relationship: "+x["id"])
   cand=x["previously_recorded_source_component_candidate_id"]
   if cand is not None and cand not in existing:
