@@ -1,0 +1,448 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arfinstitute.org/schemas/inc17b2a-statutory-qualification.schema.json",
+  "title": "INC-17B.2A closed source text proposition and Cabinet qualification models",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "source_custody_receipt",
+        "claim_time_scope",
+        "exact_publisher_originals_retained",
+        "priority_department_count",
+        "candidate_statutory_text_propositions",
+        "publisher_original_text_verified",
+        "independent_legal_adjudication_complete",
+        "fully_qualified_current_adl1_count",
+        "new_canonical_institution_ids",
+        "new_executed_delegation_command_or_public_outcome_claims",
+        "atlas_admitted",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b2a-original-backed-statute-textual-boundary-candidates"
+        },
+        "source_custody_receipt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_time_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "exact_publisher_originals_retained": {
+          "type": "integer"
+        },
+        "priority_department_count": {
+          "type": "integer"
+        },
+        "candidate_statutory_text_propositions": {
+          "type": "integer"
+        },
+        "publisher_original_text_verified": {
+          "type": "boolean",
+          "const": true
+        },
+        "independent_legal_adjudication_complete": {
+          "type": "boolean",
+          "const": false
+        },
+        "fully_qualified_current_adl1_count": {
+          "type": "integer"
+        },
+        "new_canonical_institution_ids": {
+          "type": "integer"
+        },
+        "new_executed_delegation_command_or_public_outcome_claims": {
+          "type": "integer"
+        },
+        "atlas_admitted": {
+          "type": "boolean",
+          "const": false
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "source_id",
+              "source_edition",
+              "exact_statutory_citation",
+              "clause_locator",
+              "source_original_sha256",
+              "source_original_git_blob_sha1",
+              "source_local_subject_id",
+              "source_subject_label",
+              "source_subject_kind",
+              "relationship_candidate_kind",
+              "observed_clause_text_anchor",
+              "legacy_research_candidate_id",
+              "exact_source_text_replayed",
+              "source_qualified_publisher_original",
+              "source_statement_valid_for_original_edition_only",
+              "legal_currentness_2026_independently_verified",
+              "legal_organization_first_level_verified",
+              "full_organizational_roster_qualified",
+              "current_canonical_component_id",
+              "independent_professional_legal_review_complete",
+              "verified_executed_delegation_or_command",
+              "atlas_admitted",
+              "qualification_note"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_edition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "exact_statutory_citation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "clause_locator": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_original_sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_original_git_blob_sha1": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_local_subject_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_subject_label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_subject_kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relationship_candidate_kind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "observed_clause_text_anchor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "legacy_research_candidate_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "exact_source_text_replayed": {
+                "type": "boolean",
+                "const": true
+              },
+              "source_qualified_publisher_original": {
+                "type": "boolean",
+                "const": true
+              },
+              "source_statement_valid_for_original_edition_only": {
+                "type": "boolean",
+                "const": true
+              },
+              "legal_currentness_2026_independently_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "legal_organization_first_level_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "full_organizational_roster_qualified": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_canonical_component_id": {
+                "type": "null",
+                "const": null
+              },
+              "independent_professional_legal_review_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "verified_executed_delegation_or_command": {
+                "type": "boolean",
+                "const": false
+              },
+              "atlas_admitted": {
+                "type": "boolean",
+                "const": false
+              },
+              "qualification_note": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model_version",
+        "model_family",
+        "previous_census_model",
+        "official_source_receipt",
+        "cabinet_roots",
+        "priority_roots",
+        "other_cabinet_roots",
+        "original_legal_sections_retained",
+        "previously_recorded_2025_publisher_direct_candidates",
+        "added_current_certified_adl1_organizations",
+        "newly_admitted_specific_supervision_or_command_edges",
+        "mixed_source_editions_are_not_a_single_2026_legal_snapshot",
+        "fully_qualified_current_department_roster_count",
+        "exact_current_federal_adl1_denominator",
+        "current_legal_effect_and_successor_review_remaining",
+        "no_website_atlas_admission",
+        "items"
+      ],
+      "properties": {
+        "model_version": {
+          "const": "0.1.0"
+        },
+        "model_family": {
+          "const": "inc17b2a-evidence-qualification-all-cabinet-coverage"
+        },
+        "previous_census_model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_source_receipt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cabinet_roots": {
+          "type": "integer"
+        },
+        "priority_roots": {
+          "type": "integer"
+        },
+        "other_cabinet_roots": {
+          "type": "integer"
+        },
+        "original_legal_sections_retained": {
+          "type": "integer"
+        },
+        "previously_recorded_2025_publisher_direct_candidates": {
+          "type": "integer"
+        },
+        "added_current_certified_adl1_organizations": {
+          "type": "integer"
+        },
+        "newly_admitted_specific_supervision_or_command_edges": {
+          "type": "integer"
+        },
+        "mixed_source_editions_are_not_a_single_2026_legal_snapshot": {
+          "type": "boolean",
+          "const": true
+        },
+        "fully_qualified_current_department_roster_count": {
+          "type": "integer"
+        },
+        "exact_current_federal_adl1_denominator": {
+          "type": "null",
+          "const": null
+        },
+        "current_legal_effect_and_successor_review_remaining": {
+          "type": "boolean",
+          "const": true
+        },
+        "no_website_atlas_admission": {
+          "type": "boolean",
+          "const": true
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "canonical_department_id",
+              "govman_2025_publisher_root_key",
+              "govman_2025_immediate_publisher_entry_count",
+              "govman_2025_zero_immediate_entries_is_not_absence_of_offices",
+              "original_edition_statutory_source_ids",
+              "original_retained_legal_edition_count",
+              "statutory_textual_candidate_count",
+              "prior_inc15b_source_id",
+              "prior_inc15b_publisher_source_edition",
+              "prior_research_candidate_ids",
+              "other_existing_research_source_paths",
+              "prior_historical_publisher_count",
+              "prior_historical_source_original_retained",
+              "prior_historical_source_snapshot",
+              "prior_historical_original_sha256",
+              "priority_state",
+              "current_federal_first_level_legal_roster_count",
+              "full_department_adl1_qualified",
+              "current_statutory_legal_effect_and_amendment_review_complete",
+              "legal_currentness_as_of_2026_10_26",
+              "source_only_publisher_name_mappings_are_not_identity_certification",
+              "cross_edition_counts_not_additive",
+              "current_command_supervision_and_delegation_verified",
+              "atlas_admitted"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_department_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "govman_2025_publisher_root_key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "govman_2025_immediate_publisher_entry_count": {
+                "type": "integer"
+              },
+              "govman_2025_zero_immediate_entries_is_not_absence_of_offices": {
+                "type": "boolean",
+                "const": true
+              },
+              "original_edition_statutory_source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "original_retained_legal_edition_count": {
+                "type": "integer"
+              },
+              "statutory_textual_candidate_count": {
+                "type": "integer"
+              },
+              "prior_inc15b_source_id": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "prior_inc15b_publisher_source_edition": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "prior_research_candidate_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "other_existing_research_source_paths": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "prior_historical_publisher_count": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "prior_historical_source_original_retained": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "prior_historical_source_snapshot": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "prior_historical_original_sha256": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "minLength": 1
+              },
+              "priority_state": {
+                "type": "string",
+                "minLength": 1
+              },
+              "current_federal_first_level_legal_roster_count": {
+                "type": "null",
+                "const": null
+              },
+              "full_department_adl1_qualified": {
+                "type": "boolean",
+                "const": false
+              },
+              "current_statutory_legal_effect_and_amendment_review_complete": {
+                "type": "boolean",
+                "const": false
+              },
+              "legal_currentness_as_of_2026_10_26": {
+                "type": "boolean",
+                "const": false
+              },
+              "source_only_publisher_name_mappings_are_not_identity_certification": {
+                "type": "boolean",
+                "const": true
+              },
+              "cross_edition_counts_not_additive": {
+                "type": "boolean",
+                "const": true
+              },
+              "current_command_supervision_and_delegation_verified": {
+                "type": "boolean",
+                "const": false
+              },
+              "atlas_admitted": {
+                "type": "boolean",
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

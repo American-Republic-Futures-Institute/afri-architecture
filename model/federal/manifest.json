@@ -354,7 +354,9 @@
     "model/wholegov/inc17b-department-breadth.json",
     "model/wholegov/inc17b-jurisdiction-coverage.json",
     "model/wholegov/inc17b-relationship-boundaries.json",
-    "model/wholegov/inc17b-coverage-ledger.json"
+    "model/wholegov/inc17b-coverage-ledger.json",
+    "model/wholegov/inc17b2a-statutory-boundary-candidates.json",
+    "model/wholegov/inc17b2a-department-qualification.json"
   ],
   "standards": [
     {
@@ -1568,5 +1570,19 @@
     "new_legal_authority_edges": 0,
     "new_verified_current_organization_parent_edges": 0,
     "new_public_outcome_claims": 0
+  },
+  "whole_government_inc17b2a_extension": {
+    "contract": "INC-17B.2A",
+    "source_receipt": "evidence/inc17b2a-statutory-originals/source-custody.json",
+    "original_publisher_scope": "2023_GPO_2024_GPO_OLRC_119_120_mixed_edition_separately_pinned",
+    "originals_retained": 6,
+    "priority_department_roots": 5,
+    "unadmitted_source_statements": 15,
+    "new_canonical_component_ids": 0,
+    "new_admitted_legal_edges": 0,
+    "current_qualified_adl1_denominator": null,
+    "independent_legal_review_complete": false,
+    "public_atlas_admission": false,
+    "website_changes": false
   }
 }
