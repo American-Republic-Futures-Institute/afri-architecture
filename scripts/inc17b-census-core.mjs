@@ -65,6 +65,19 @@ function shapeOk(value,schema){
 export function validateCensus(d){
  const errors=[],fail=x=>errors.push(x),m=d.models,c=d.sources,main=d.manifest;
  const source=c[orig.directory],cross=c[orig.crosswalk],report=c[orig.report];
+ const expectedEdition=source.source_package_id;
+ if(expectedEdition!=="GOVMAN-2025-12-31"||
+    m.anchors.source_snapshot!==expectedEdition||
+    m.observations.source_publisher_edition!==expectedEdition||
+    m.departments.source_publisher_edition!==expectedEdition||
+    m.coverage.source_publisher_edition!==expectedEdition||
+    main?.whole_government_inc17b_extension?.source_publisher_edition!==expectedEdition)
+   fail("Mixed INC-17B source publisher edition labels");
+ if(m.departments.source_original_sha256!==source.original_source_sha256||
+    m.coverage.original_source_sha256!==source.original_source_sha256||
+    m.observations.original_source_sha256!==source.original_source_sha256||
+    main?.whole_government_inc17b_extension?.source_original_sha256!==source.original_source_sha256)
+   fail("INC-17B source-original edition checksums disagree");
  const rawHash=createHash("sha256").update(d.sourceOriginalBytes).digest("hex");
  const gitHash=createHash("sha1").update(Buffer.from("blob "+d.sourceOriginalBytes.length+"\0")).update(d.sourceOriginalBytes).digest("hex");
  if(rawHash!==source.original_source_sha256||gitHash!==report.publisher_original_git_blob_sha1)
