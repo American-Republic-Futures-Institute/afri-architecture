@@ -356,7 +356,12 @@
     "model/wholegov/inc17b-relationship-boundaries.json",
     "model/wholegov/inc17b-coverage-ledger.json",
     "model/wholegov/inc17b2a-statutory-boundary-candidates.json",
-    "model/wholegov/inc17b2a-department-qualification.json"
+    "model/wholegov/inc17b2a-department-qualification.json",
+    "model/wholegov/inc17b2b-epoch-crosswalk.json",
+    "model/wholegov/inc17b2b-legal-relations.json",
+    "model/wholegov/inc17b2b-publisher-crosswalks.json",
+    "model/wholegov/inc17b2b-legal-exceptions.json",
+    "model/wholegov/inc17b2b-qualification-ledger.json"
   ],
   "standards": [
     {
@@ -1584,5 +1589,30 @@
     "independent_legal_review_complete": false,
     "public_atlas_admission": false,
     "website_changes": false
+  },
+  "whole_government_inc17b2b_extension": {
+    "contract": "INC-17B.2B",
+    "depends_on": "INC-17B.2A",
+    "source_receipt": "evidence/inc17b2b-olrc-119-124/source-custody.json",
+    "release_point": "Public Law 119-124",
+    "release_point_date": "2026-10-15",
+    "originals_retained": 10,
+    "current_original_statutory_sections": 7,
+    "official_department_page_originals": 3,
+    "inaccessible_source_pages": 1,
+    "source_relation_count": 28,
+    "original_bounded_observations": 23,
+    "critical_legal_and_operational_exceptions": 11,
+    "dual_source_VA_matches": 4,
+    "source_local_subjects_not_canonical": true,
+    "current_legal_effect_adjudicated": false,
+    "original_cabinet_id_mutations": false,
+    "current_department_full_rosters_certified": 0,
+    "full_current_adl1_denominator": null,
+    "new_canonical_components": 0,
+    "new_legal_effect_adjudications": 0,
+    "live_graph_edges_added": 0,
+    "public_atlas_admission": false,
+    "website_compatibility_new_model_admission": false
   }
 }
