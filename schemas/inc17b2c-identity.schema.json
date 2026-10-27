@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-17B.2C component identity research-only contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "atlas_admitted",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "const": "0.1.0"
+    },
+    "model_family": {
+      "const": "inc17b2c-identity-cross-source-candidates"
+    },
+    "atlas_admitted": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "kind",
+          "role",
+          "jurisdiction",
+          "canonical_parent_id",
+          "source_local_subject_id",
+          "prior_provisional_candidate_id",
+          "statutory_relation_id",
+          "publisher_observation_id",
+          "statutory_evidence",
+          "directory_evidence",
+          "statute_locator",
+          "statute_law_through",
+          "directory_observed_at",
+          "legal_effective_from",
+          "legal_effective_to",
+          "predecessor_id",
+          "successor_id",
+          "historical_aliases",
+          "directed_membership",
+          "qualification",
+          "independent_legal_review",
+          "canonical_component_id",
+          "atlas_admitted"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "jurisdiction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "canonical_parent_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_local_subject_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prior_provisional_candidate_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "statutory_relation_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publisher_observation_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "statutory_evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "key",
+              "original_url",
+              "original_path",
+              "sha256",
+              "git_blob_sha1",
+              "anchor"
+            ],
+            "properties": {
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_url": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "git_blob_sha1": {
+                "type": "string",
+                "minLength": 1
+              },
+              "anchor": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "directory_evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "key",
+              "original_url",
+              "original_path",
+              "sha256",
+              "git_blob_sha1",
+              "anchor"
+            ],
+            "properties": {
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_url": {
+                "type": "string",
+                "minLength": 1
+              },
+              "original_path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "minLength": 1
+              },
+              "git_blob_sha1": {
+                "type": "string",
+                "minLength": 1
+              },
+              "anchor": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "statute_locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "statute_law_through": {
+            "type": "string",
+            "minLength": 1
+          },
+          "directory_observed_at": {
+            "type": "string",
+            "minLength": 1
+          },
+          "legal_effective_from": {
+            "type": "null"
+          },
+          "legal_effective_to": {
+            "type": "null"
+          },
+          "predecessor_id": {
+            "type": "null"
+          },
+          "successor_id": {
+            "type": "null"
+          },
+          "historical_aliases": {
+            "type": "array",
+            "maxItems": 0
+          },
+          "directed_membership": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind",
+              "from",
+              "to",
+              "reverse_query",
+              "note"
+            ],
+            "properties": {
+              "kind": {
+                "const": "statutorily_part_of"
+              },
+              "from": {
+                "type": "string"
+              },
+              "to": {
+                "const": "ORG-FED-EXE-DEP-VA"
+              },
+              "reverse_query": {
+                "const": "has_statutorily_named_constituent"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "qualification": {
+            "type": "string",
+            "minLength": 1
+          },
+          "independent_legal_review": {
+            "const": false
+          },
+          "canonical_component_id": {
+            "type": "null"
+          },
+          "atlas_admitted": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

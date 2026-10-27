@@ -361,7 +361,10 @@
     "model/wholegov/inc17b2b-legal-relations.json",
     "model/wholegov/inc17b2b-publisher-crosswalks.json",
     "model/wholegov/inc17b2b-legal-exceptions.json",
-    "model/wholegov/inc17b2b-qualification-ledger.json"
+    "model/wholegov/inc17b2b-qualification-ledger.json",
+    "model/wholegov/inc17b2c-identity-candidates.json",
+    "model/wholegov/inc17b2c-relationship-dispositions.json",
+    "model/wholegov/inc17b2c-pilot-coverage.json"
   ],
   "standards": [
     {
@@ -1614,5 +1617,26 @@
     "live_graph_edges_added": 0,
     "public_atlas_admission": false,
     "website_compatibility_new_model_admission": false
+  },
+  "whole_government_inc17b2c_extension": {
+    "contract": "INC-17B.2C",
+    "dependency": "INC-17B.2B",
+    "issue": 116,
+    "status": "cross_source_evidence_qualified_unadmitted",
+    "five_pilot_roots": 5,
+    "cabinet_roots_preserved": 15,
+    "VA_cross_source_correspondences": 4,
+    "legal_text_dispositions": 28,
+    "publisher_observations": 23,
+    "current_ADL1_certified_departments": 0,
+    "actual_first_level_denominator": null,
+    "new_canonical_components": 0,
+    "new_public_graph_edges": 0,
+    "public_atlas_admission": false,
+    "research_paths": [
+      "model/wholegov/inc17b2c-identity-candidates.json",
+      "model/wholegov/inc17b2c-relationship-dispositions.json",
+      "model/wholegov/inc17b2c-pilot-coverage.json"
+    ]
   }
 }
