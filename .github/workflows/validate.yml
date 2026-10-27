@@ -58,6 +58,10 @@ jobs:
         run: node scripts/inc17b2c-qualification.mjs
       - name: Reject INC-17B.2C false identity, authority, command, delegation and public Atlas promotion
         run: node --test tests/inc17b2c.test.mjs
+      - name: Validate INC-17B.2D.1 VA/State legal transitions, source custody boundaries and five Cabinet gaps
+        run: node scripts/inc17b2d1-transition-core.mjs
+      - name: Reject INC-17B.2D.1 unreviewed legal effect, outdated VA board, false State succession and current Atlas authority
+        run: node --test tests/inc17b2d1.test.mjs
       - name: Independently verify retained OLRC publisher HTML originals, code release dates and Git blob receipts
         run: python3 scripts/inc16b-capture-usc-originals.py verify
       - name: Validate INC-16A dated mission functions and conditional HHS-DHS statutory interfaces

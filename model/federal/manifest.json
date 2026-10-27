@@ -364,7 +364,9 @@
     "model/wholegov/inc17b2b-qualification-ledger.json",
     "model/wholegov/inc17b2c-identity-candidates.json",
     "model/wholegov/inc17b2c-relationship-dispositions.json",
-    "model/wholegov/inc17b2c-pilot-coverage.json"
+    "model/wholegov/inc17b2c-pilot-coverage.json",
+    "model/wholegov/inc17b2d1-transition-cases.json",
+    "model/wholegov/inc17b2d1-source-gates.json"
   ],
   "standards": [
     {
@@ -1637,6 +1639,25 @@
       "model/wholegov/inc17b2c-identity-candidates.json",
       "model/wholegov/inc17b2c-relationship-dispositions.json",
       "model/wholegov/inc17b2c-pilot-coverage.json"
+    ]
+  },
+  "whole_government_inc17b2d1_extension": {
+    "contract": "INC-17B.2D.1",
+    "parent_issue": 118,
+    "depends_on": "INC-17B.2C",
+    "status": "source_discovered_research_not_legal_adjudication",
+    "VA_transition_case": 1,
+    "State_transition_case": 1,
+    "five_pilot_roots": 5,
+    "other_cabinet_roots_preserved": 10,
+    "independently_adjudicated_legal_effects": 0,
+    "original_external_source_entities_newly_archived": 0,
+    "atlas_new_edges": 0,
+    "new_canonical_component_ids": 0,
+    "public_atlas_admission": false,
+    "models": [
+      "model/wholegov/inc17b2d1-transition-cases.json",
+      "model/wholegov/inc17b2d1-source-gates.json"
     ]
   }
 }

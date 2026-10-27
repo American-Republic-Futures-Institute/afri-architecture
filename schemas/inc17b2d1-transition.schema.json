@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-17B.2D1 source and legal transition research-only package",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "release_status",
+    "baseline_commit",
+    "canonical_department_root_count",
+    "legal_effect_reviews_complete",
+    "source_originals_newly_archived",
+    "canonical_component_id_promotions",
+    "public_graph_edges_added",
+    "atlas_admitted",
+    "sources",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_family": {
+      "type": "string",
+      "minLength": 1
+    },
+    "release_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baseline_commit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonical_department_root_count": {
+      "const": 15
+    },
+    "legal_effect_reviews_complete": {
+      "const": 0
+    },
+    "source_originals_newly_archived": {
+      "const": 0
+    },
+    "canonical_component_id_promotions": {
+      "const": 0
+    },
+    "public_graph_edges_added": {
+      "const": 0
+    },
+    "atlas_admitted": {
+      "const": false
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_key",
+          "original_url",
+          "original_path",
+          "sha256",
+          "git_blob_sha1",
+          "law_through",
+          "archival_status",
+          "locator",
+          "observed_claim_scope"
+        ],
+        "properties": {
+          "source_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "original_url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "original_path": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "git_blob_sha1": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "law_through": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "archival_status": {
+            "enum": [
+              "retained_original_replay_required",
+              "official_source_identified_not_immutably_archived"
+            ]
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "observed_claim_scope": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "department_id",
+          "subject_id",
+          "disposition_id",
+          "case_kind",
+          "existing_statute_source_key",
+          "independently_discovered_official_source_keys",
+          "record_question",
+          "bounded_evidence_interpretation",
+          "source_event_date",
+          "source_event_date_is_case_specific",
+          "legal_effective_start",
+          "legal_effective_end",
+          "candidate_relationship",
+          "link_semantics",
+          "historic_va_board_operationally_active_2026",
+          "legal_successor_identity_certified",
+          "internal_originals_complete",
+          "independent_legal_review_record_id",
+          "review_state",
+          "atlas_admitted"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "department_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "subject_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "disposition_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "case_kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "existing_statute_source_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "independently_discovered_official_source_keys": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "record_question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bounded_evidence_interpretation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_event_date": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_event_date_is_case_specific": {
+            "const": true
+          },
+          "legal_effective_start": {
+            "type": "null"
+          },
+          "legal_effective_end": {
+            "type": "null"
+          },
+          "candidate_relationship": {
+            "type": "string",
+            "minLength": 1
+          },
+          "link_semantics": {
+            "type": "string",
+            "minLength": 1
+          },
+          "historic_va_board_operationally_active_2026": {
+            "type": "null"
+          },
+          "legal_successor_identity_certified": {
+            "const": false
+          },
+          "internal_originals_complete": {
+            "const": false
+          },
+          "independent_legal_review_record_id": {
+            "type": "null"
+          },
+          "review_state": {
+            "type": "string",
+            "minLength": 1
+          },
+          "atlas_admitted": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}
