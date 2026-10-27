@@ -1,0 +1,95 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc17b2d1-five-cabinet-legal-effect-admission-gates",
+  "complete_current_first_level_denominator": null,
+  "all_cabinet_roots_preserved": 15,
+  "priority_roots": 5,
+  "admitted_new_canonical_components": 0,
+  "atlas_admitted": false,
+  "items": [
+    {
+      "id": "WG17B2D1-GATE-VA",
+      "canonical_department_id": "ORG-FED-EXE-DEP-VA",
+      "upstream_coverage_id": "WG17B2C-COV-VA",
+      "source_conflict_case_ids": [
+        "WG17B2D1-VA-BCA"
+      ],
+      "source_acquisition_and_legal_review_required": "Continue original law and VA board-function transfer source-custody; qualify office and independent adjudication, OIG, reporting instruments without reviving terminated VA contract appeals body",
+      "local_original_custody_complete": false,
+      "independent_legal_review_record_id": null,
+      "directly_reported_components_adjudicated": 0,
+      "statutory_components_newly_admitted": 0,
+      "first_level_denominator": null,
+      "legal_effect_verified": false,
+      "current_operational_command_verified": false,
+      "intergovernmental_subordination_inferred": false,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B2D1-GATE-STATE",
+      "canonical_department_id": "ORG-FED-EXE-DEP-STATE",
+      "upstream_coverage_id": "WG17B2C-COV-STATE",
+      "source_conflict_case_ids": [
+        "WG17B2D1-STATE-HR"
+      ],
+      "source_acquisition_and_legal_review_required": "Acquire enacted Pub. L. 119-60 and dated FAM/organization originals; adjudicate 5132(b) reference-deeming separately from employment and operational succession; conditional CDP reporting remains unresolved",
+      "local_original_custody_complete": false,
+      "independent_legal_review_record_id": null,
+      "directly_reported_components_adjudicated": 0,
+      "statutory_components_newly_admitted": 0,
+      "first_level_denominator": null,
+      "legal_effect_verified": false,
+      "current_operational_command_verified": false,
+      "intergovernmental_subordination_inferred": false,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B2D1-GATE-HUD",
+      "canonical_department_id": "ORG-FED-EXE-DEP-HUD",
+      "upstream_coverage_id": "WG17B2C-COV-HUD",
+      "source_conflict_case_ids": [],
+      "source_acquisition_and_legal_review_required": "Acquire first-level organizational instrument and constitutive office law; section 3533 officer positions are not occupancy, program categories are not office hierarchy",
+      "local_original_custody_complete": false,
+      "independent_legal_review_record_id": null,
+      "directly_reported_components_adjudicated": 0,
+      "statutory_components_newly_admitted": 0,
+      "first_level_denominator": null,
+      "legal_effect_verified": false,
+      "current_operational_command_verified": false,
+      "intergovernmental_subordination_inferred": false,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B2D1-GATE-AGRICULTURE",
+      "canonical_department_id": "ORG-FED-EXE-DEP-AGRICULTURE",
+      "upstream_coverage_id": "WG17B2C-COV-AGRICULTURE",
+      "source_conflict_case_ids": [],
+      "source_acquisition_and_legal_review_required": "Acquire component-specific constitutive statutes/organization instruments beyond Secretary general law and source-only NIFA mission-area listings",
+      "local_original_custody_complete": false,
+      "independent_legal_review_record_id": null,
+      "directly_reported_components_adjudicated": 0,
+      "statutory_components_newly_admitted": 0,
+      "first_level_denominator": null,
+      "legal_effect_verified": false,
+      "current_operational_command_verified": false,
+      "intergovernmental_subordination_inferred": false,
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B2D1-GATE-DHS",
+      "canonical_department_id": "ORG-FED-EXE-DEP-DHS",
+      "upstream_coverage_id": "WG17B2C-COV-DHS",
+      "source_conflict_case_ids": [],
+      "source_acquisition_and_legal_review_required": "Acquire component-specific original statutes for FEMA, CISA, CBP, USCIS, ICE and TSA; Coast Guard conditional status, OIG independence and executed delegations require separate instruments",
+      "local_original_custody_complete": false,
+      "independent_legal_review_record_id": null,
+      "directly_reported_components_adjudicated": 0,
+      "statutory_components_newly_admitted": 0,
+      "first_level_denominator": null,
+      "legal_effect_verified": false,
+      "current_operational_command_verified": false,
+      "intergovernmental_subordination_inferred": false,
+      "atlas_admitted": false
+    }
+  ]
+}

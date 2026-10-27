@@ -1,0 +1,122 @@
+{
+  "model_version": "0.1.0",
+  "model_family": "inc17b2d1-source-discovered-statutory-transition-cases",
+  "release_status": "source_resolution_research_not_legal_adjudication",
+  "baseline_commit": "16834918af98758adfbaac439aca58432cef9cec",
+  "canonical_department_root_count": 15,
+  "legal_effect_reviews_complete": 0,
+  "source_originals_newly_archived": 0,
+  "canonical_component_id_promotions": 0,
+  "public_graph_edges_added": 0,
+  "atlas_admitted": false,
+  "sources": [
+    {
+      "source_key": "VA-301",
+      "original_url": "https://uscode.house.gov/us/usc/119-124/t38/s301/",
+      "original_path": "evidence/inc17b2b-olrc-119-124/originals/sha256/2bd005d9ce671a2605f56d7b75d5f0217f9cde1859398b1a8615bd61ba75672b.html",
+      "sha256": "2bd005d9ce671a2605f56d7b75d5f0217f9cde1859398b1a8615bd61ba75672b",
+      "git_blob_sha1": "5d890f8ccefb0be028df9ad9cf433f9995aa671d",
+      "law_through": "October 15, 2026",
+      "archival_status": "retained_original_replay_required",
+      "locator": "38 U.S.C. 301(c)(7)",
+      "observed_claim_scope": "Current codified text enumerates Board of Contract Appeals, not evidence of a currently operating adjudicative body"
+    },
+    {
+      "source_key": "STATE-2651A",
+      "original_url": "https://uscode.house.gov/us/usc/119-124/t22/s2651a/",
+      "original_path": "evidence/inc17b2b-olrc-119-124/originals/sha256/e287f46dde7ea01b832775991011b1b4866293e9ee4a614e731867be3b43e4db.html",
+      "sha256": "e287f46dde7ea01b832775991011b1b4866293e9ee4a614e731867be3b43e4db",
+      "git_blob_sha1": "4a03d6396224088b155215c356092a6cee3b0049",
+      "law_through": "October 15, 2026",
+      "archival_status": "retained_original_replay_required",
+      "locator": "22 U.S.C. 2651a(q)(3); publisher statutory notes on Pub. L. 119-60 div. E title I sec. 5132(b)",
+      "observed_claim_scope": "Codified HR bureau and statutory reference-deeming note; law-through publication is not operative effective date"
+    },
+    {
+      "source_key": "VA-CBCA-ABOUT",
+      "original_url": "https://cbca.gov/board/",
+      "original_path": null,
+      "sha256": null,
+      "git_blob_sha1": null,
+      "law_through": null,
+      "archival_status": "official_source_identified_not_immutably_archived",
+      "locator": "About the Board; paragraph describing consolidation effective January 6, 2007",
+      "observed_claim_scope": "Publisher describes consolidation of VA board contract-appeals functions into CBCA; no current VA board asserted"
+    },
+    {
+      "source_key": "VA-CBCA-7105",
+      "original_url": "https://uscode.house.gov/us/usc/119-120/t41/s7105/",
+      "original_path": null,
+      "sha256": null,
+      "git_blob_sha1": null,
+      "law_through": null,
+      "archival_status": "official_source_identified_not_immutably_archived",
+      "locator": "41 U.S.C. 7105(b)(1), (e)(1)(B); 119-120 edition",
+      "observed_claim_scope": "Statute establishes Civilian Board within GSA and bounded appeals jurisdiction; different official legal edition than VA 119-124"
+    },
+    {
+      "source_key": "STATE-PLAW-119-60",
+      "original_url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm",
+      "original_path": null,
+      "sha256": null,
+      "git_blob_sha1": null,
+      "law_through": null,
+      "archival_status": "official_source_identified_not_immutably_archived",
+      "locator": "Pub. L. 119-60 div. E title I secs. 5114, 5132(b), relevant effective/transition clauses",
+      "observed_claim_scope": "Enacted original located, source bytes/canonical hash not yet retained or independently interpreted"
+    }
+  ],
+  "items": [
+    {
+      "id": "WG17B2D1-VA-BCA",
+      "department_id": "ORG-FED-EXE-DEP-VA",
+      "subject_id": "WG17B2B-SUB-VA-BCA",
+      "disposition_id": "WG17B2C-D-WG17B2B-REL-VA-BCA",
+      "case_kind": "historic_adjudication_function_transfer_vs_present_codified_reference",
+      "existing_statute_source_key": "VA-301",
+      "independently_discovered_official_source_keys": [
+        "VA-CBCA-ABOUT",
+        "VA-CBCA-7105"
+      ],
+      "record_question": "Does the current 38 USC 301(c)(7) category identify an active VA board, notwithstanding the 2007 CBCA consolidation of VA contract-appeals functions?",
+      "bounded_evidence_interpretation": "Retained 38 USC 301 lists the board; CBCA publisher describes VA contract-appeals function consolidation effective January 6 2007; 41 USC 7105 establishes the CBCA in GSA. Legal repeal/successor identity and any residual VA hearing responsibilities still require independent adjudication.",
+      "source_event_date": "2007-01-06",
+      "source_event_date_is_case_specific": true,
+      "legal_effective_start": null,
+      "legal_effective_end": null,
+      "candidate_relationship": "function_transfer_historical_candidate_not_statutory_member_current",
+      "link_semantics": "not_a_current_VA_management_membership_or_C B C A_in_VA",
+      "historic_va_board_operationally_active_2026": null,
+      "legal_successor_identity_certified": false,
+      "internal_originals_complete": false,
+      "independent_legal_review_record_id": null,
+      "review_state": "pending_original_custody_and_independent_legal_effect_review",
+      "atlas_admitted": false
+    },
+    {
+      "id": "WG17B2D1-STATE-HR",
+      "department_id": "ORG-FED-EXE-DEP-STATE",
+      "subject_id": "WG17B2B-SUB-STATE-HR",
+      "disposition_id": "WG17B2C-D-WG17B2B-REL-STATE-HR",
+      "case_kind": "legal_reference_deeming_vs_organizational_successor",
+      "existing_statute_source_key": "STATE-2651A",
+      "independently_discovered_official_source_keys": [
+        "STATE-PLAW-119-60"
+      ],
+      "record_question": "What precise effect does Pub. L. 119-60 sec. 5132(b) have on references to Global Talent Management versus Bureau of Human Resources, and when do relevant changes take legal effect?",
+      "bounded_evidence_interpretation": "Retained 2026 OLRC 22 USC 2651a statutory notes reproduce legal reference-deeming language. Enacted Pub. L. 119-60 is identifiable at GovInfo, but original bytes, transition/effective-date review, successor identity and operational personnel changes are not certified.",
+      "source_event_date": "2025-12-18",
+      "source_event_date_is_case_specific": true,
+      "legal_effective_start": null,
+      "legal_effective_end": null,
+      "candidate_relationship": "reference_deeming_not_certified_legal_entity_succession",
+      "link_semantics": "identity_crosswalk_pending_not_performs_function_or_reports_to",
+      "historic_va_board_operationally_active_2026": null,
+      "legal_successor_identity_certified": false,
+      "internal_originals_complete": false,
+      "independent_legal_review_record_id": null,
+      "review_state": "pending_original_custody_and_independent_legal_effect_review",
+      "atlas_admitted": false
+    }
+  ]
+}
