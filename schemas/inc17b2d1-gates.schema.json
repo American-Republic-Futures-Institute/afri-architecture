@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "INC-17B.2D.1 closed five-pilot transition source gate contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "model_version",
+    "model_family",
+    "complete_current_first_level_denominator",
+    "all_cabinet_roots_preserved",
+    "priority_roots",
+    "admitted_new_canonical_components",
+    "atlas_admitted",
+    "items"
+  ],
+  "properties": {
+    "model_version": {
+      "type": "string"
+    },
+    "model_family": {
+      "type": "string"
+    },
+    "complete_current_first_level_denominator": {
+      "type": "null"
+    },
+    "all_cabinet_roots_preserved": {
+      "const": 15
+    },
+    "priority_roots": {
+      "const": 5
+    },
+    "admitted_new_canonical_components": {
+      "const": 0
+    },
+    "atlas_admitted": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "canonical_department_id",
+          "upstream_coverage_id",
+          "source_conflict_case_ids",
+          "source_acquisition_and_legal_review_required",
+          "local_original_custody_complete",
+          "independent_legal_review_record_id",
+          "directly_reported_components_adjudicated",
+          "statutory_components_newly_admitted",
+          "first_level_denominator",
+          "legal_effect_verified",
+          "current_operational_command_verified",
+          "intergovernmental_subordination_inferred",
+          "atlas_admitted"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "canonical_department_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "upstream_coverage_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_conflict_case_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_acquisition_and_legal_review_required": {
+            "type": "string",
+            "minLength": 1
+          },
+          "local_original_custody_complete": {
+            "const": false
+          },
+          "independent_legal_review_record_id": {
+            "type": "null"
+          },
+          "directly_reported_components_adjudicated": {
+            "const": 0
+          },
+          "statutory_components_newly_admitted": {
+            "const": 0
+          },
+          "first_level_denominator": {
+            "type": "null"
+          },
+          "legal_effect_verified": {
+            "const": false
+          },
+          "current_operational_command_verified": {
+            "const": false
+          },
+          "intergovernmental_subordination_inferred": {
+            "const": false
+          },
+          "atlas_admitted": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

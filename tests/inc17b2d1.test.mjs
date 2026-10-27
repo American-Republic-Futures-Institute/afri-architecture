@@ -19,3 +19,7 @@ neg('all five department boundary gates retained',d=>d.gates.items.pop(),'five p
 neg('no invented first-level denominator',d=>d.gates.items[0].first_level_denominator=8,'false current ADL1');
 neg('no source deletion',d=>d.cases.sources.pop(),'five source proof');
 neg('no automatic Atlas admission manifest',d=>d.manifest.whole_government_inc17b2d1_extension.public_atlas_admission=true,'unregistered or public');
+
+neg('closed schema rejects forged legal certification field',d=>d.cases.items[0].independently_verified_current_authority=true,'closed schema unexpected field');
+neg('closed schema rejects invented executed delegation on DHS gate',d=>d.gates.items.find(x=>x.id==='WG17B2D1-GATE-DHS').actual_delegation_executed=true,'closed schema unexpected field');
+neg('closed schema rejects invented legal-effective source date field',d=>d.cases.sources[2].claimed_legal_effective_date='2026-10-27','closed schema unexpected field');

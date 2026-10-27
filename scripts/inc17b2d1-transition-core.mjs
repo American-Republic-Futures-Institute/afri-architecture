@@ -2,10 +2,32 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const P={cases:'model/wholegov/inc17b2d1-transition-cases.json',gates:'model/wholegov/inc17b2d1-source-gates.json',old:'model/wholegov/inc17b2c-pilot-coverage.json',dispositions:'model/wholegov/inc17b2c-relationship-dispositions.json',custody:'evidence/inc17b2b-olrc-119-124/source-custody.json',departments:'model/federal/executive-departments.json',manifest:'model/federal/manifest.json',ontology:'model/wholegov/ontology.json'};
+const P={cases:'model/wholegov/inc17b2d1-transition-cases.json',gates:'model/wholegov/inc17b2d1-source-gates.json',old:'model/wholegov/inc17b2c-pilot-coverage.json',dispositions:'model/wholegov/inc17b2c-relationship-dispositions.json',custody:'evidence/inc17b2b-olrc-119-124/source-custody.json',departments:'model/federal/executive-departments.json',manifest:'model/federal/manifest.json',ontology:'model/wholegov/ontology.json',caseSchema:'schemas/inc17b2d1-transition.schema.json',gateSchema:'schemas/inc17b2d1-gates.schema.json'};
 export function load(root=ROOT){return Object.fromEntries(Object.entries(P).map(([k,v])=>[k,JSON.parse(fs.readFileSync(path.join(root,v),'utf8'))]));}
+function checkShape(value,s,where,errors){
+ const type=v=>v===null?'null':Array.isArray(v)?'array':typeof v==='boolean'?'boolean':typeof v==='number'?(Number.isInteger(v)?'integer':'number'):typeof v;
+ const actual=type(value);
+ if(s.type&&!(Array.isArray(s.type)?s.type:[s.type]).includes(actual)) {errors.push('closed schema type mismatch '+where);return;}
+ if(Object.prototype.hasOwnProperty.call(s,'const')&&value!==s.const)errors.push('closed schema const mismatch '+where);
+ if(s.enum&&!s.enum.includes(value))errors.push('closed schema enum mismatch '+where);
+ if(actual==='string'){
+  if(value.length<(s.minLength??0))errors.push('closed schema empty string '+where);
+  if(s.pattern&&!(new RegExp(s.pattern).test(value)))errors.push('closed schema pattern mismatch '+where);
+ }
+ if(actual==='object'){
+  for(const key of s.required??[])if(!(key in value))errors.push('closed schema required field missing '+where+'/'+key);
+  if(s.additionalProperties===false)for(const key of Object.keys(value))if(!(key in (s.properties??{})))errors.push('closed schema unexpected field '+where+'/'+key);
+  for(const [k,v] of Object.entries(value))if(s.properties?.[k])checkShape(v,s.properties[k],where+'/'+k,errors);
+ }
+ if(actual==='array'){
+  if(value.length<(s.minItems??0)||value.length>(s.maxItems??Number.POSITIVE_INFINITY))errors.push('closed schema array size '+where);
+  for(const [i,x] of value.entries())if(s.items)checkShape(x,s.items,where+'['+i+']',errors);
+ }
+}
 export function validate(d){
  const errors=[],fail=m=>errors.push(m);
+ checkShape(d.cases,d.caseSchema,'cases',errors);
+ checkShape(d.gates,d.gateSchema,'gates',errors);
  const ids=new Set(d.departments.items.map(x=>x.id));
  if(ids.size!==15||d.departments.items.length!==15||d.cases.canonical_department_root_count!==15||d.gates.all_cabinet_roots_preserved!==15)fail('15 canonical Cabinet roots must remain unchanged');
  const legal=new Map(d.dispositions.legal.map(x=>[x.id,x]));
